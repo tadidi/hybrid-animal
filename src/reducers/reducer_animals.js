@@ -1,3 +1,5 @@
+// Generate the application state
+
 export default function() {
     return [
         { name: 'tiger', head: 'tiger-head', body: 'tiger-body', legs: 'tiger-legs' },
