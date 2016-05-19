@@ -1,18 +1,42 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import { Provider } from 'react-redux';
-import { createStore, applyMiddleware } from 'redux';
+import 'babel-polyfill'
+require ('./stylesheets/main.scss');
+import Game from './containers/game'
+import { createStore, compose } from 'redux'
+import { Provider } from 'react-redux'
+import { persistState, createDevTools } from 'redux-devtools'
+import LogMonitor from 'redux-devtools-log-monitor'
+import DockMonitor from 'redux-devtools-dock-monitor'
+import reducer from './reducers/reducers'
 
-import App from './components/app';
-import reducers from './reducers';
+import React from 'react'
+import ReactDOM from 'react-dom'
+
+const DevTools = createDevTools(
+    <DockMonitor toggleVisibilityKey='ctrl-h'
+                 changePositionKey='ctrl-q'>
+      <LogMonitor theme='tomorrow' />
+    </DockMonitor>
+)
+
+const finalCreateStore = compose(
+    DevTools.instrument(),
+    persistState(window.location.href.match(/[?&]debug_session=([^&]+)\b/))
+)(createStore)
 
 
-require('./stylesheets/main.scss');
+let store = finalCreateStore(reducer)
 
-const createStoreWithMiddleware = applyMiddleware()(createStore);
+const App = () => (
+    <div>
+      <Provider store={store}>
+        <div>
+          <Game />
+          <DevTools />
+        </div>
+      </Provider>
+    </div>
+)
 
-ReactDOM.render(
-  <Provider store={createStoreWithMiddleware(reducers)}>
-    <App />
-  </Provider>
-  , document.querySelector('.container'));
+ReactDOM.render(<App />, document.querySelector('.container'))
+
+

@@ -1,20 +1,11 @@
 
 
 
-.sd-date {
-  width: percentage(1/7);
-  float: left;
-  text-align: center;
+.animal {
   padding: 0.5rem;
-  font-size: 0.75rem;
+  font-size: 1.75rem;
   font-weight: 400;
-  border-radius: 0.25rem;
-  transition: background-color 0.25s ease-in-out;
-
-  &.past, &.future {
-    opacity: 0.5;
-  }
-
+  background-color: #00d6b2;
   &:hover {
     cursor: pointer;
     background-color: rgba(white, 0.3);
