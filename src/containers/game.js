@@ -25,9 +25,9 @@ const Game = ({ game, actions }) => (
 )
 
 function mapStateToProps(state) {
-    //return {
-    //    game: state.game
-    //}
+    return {
+        game: state.game
+    }
 }
 
 function mapDispatchToProps(dispatch) {
