@@ -1,30 +1,19 @@
 import React, { Component as C} from 'react'
-import { DragSource, DropTarget } from 'react-dnd'
+import { DropTarget } from 'react-dnd'
 import { pipe } from 'ramda'
 
-const headingSource = {
-	beginDrag(props) {
-		return {
-			name: props.column.name
-		}
-	}
-}
+
 
 const headingTarget = {
-	drop(props, monitor, component) {
+	drop(props, monitor) {
 		let draggedCol = monitor.getItem()
-		let targetCol = component.props.column
+		let targetCol = props.column
 		// trigger drag action
 		props.drag(draggedCol, targetCol)
 	}
 }
 
-function collect(connect, monitor) {
-	return {
-		connectDragSource: connect.dragSource(),
-		isDragging: monitor.isDragging()
-	}
-}
+
 
 function collectDrop(connect, monitor) {
 	return {
@@ -34,21 +23,15 @@ function collectDrop(connect, monitor) {
 	}
 }
 
-const Column2 = ({ column, connectDropTarget, connectDragSource, isOver, isDragging }) => (
+const Column2 = ({ column, connectDropTarget, isOver, isDragging }) => (
 	<th style={{
 			opacity: isOver ? 0.5 : 1,
 			backgroundColor: isOver ? 'yellow' : 'inherit'
 		}}>
-		{
-			connectDragSource(
-				<div>
-					{column.name} source2
-				</div>
-			)
-		}
+
 		{
 			connectDropTarget(
-				<div>
+				<div className="col-lg-8">
 					{column.name} target2
 				</div>
 			)
@@ -56,4 +39,4 @@ const Column2 = ({ column, connectDropTarget, connectDragSource, isOver, isDragg
 	</th>
 )
 
-export default pipe(DragSource('column', headingSource, collect), DropTarget('column', headingTarget, collectDrop))(Column2)
+export default pipe(DropTarget('column', headingTarget, collectDrop))(Column2)

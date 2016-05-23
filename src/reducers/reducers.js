@@ -4,35 +4,44 @@ const initialState = {
 	table: {
 		headings: [
 			{
-				name: 'Column 1'
+				name: 'Tiger',
+				head: 'Tiger-head',
+				body: 'Tiger-body',
+				legs: 'Tiger-legs'
 			},
 			{
-				name: 'Column 2'
+				name: 'Elephant',
+				head: 'Elephant-head',
+				body: 'Elephant-body',
+				legs: 'Elephant-legs'
 			},
 			{
-				name: 'Column 3'
+				name: 'Fish',
+				head: 'Fish-head',
+				body: 'Fish-body',
+				legs: 'Fish-legs'
 			}
 		],
 		rows: [
 			{
-				name: '15',
-				column: 'Column 1'
+				name: 'head'
 			},
 			{
-				name: '25',
-				column: 'Column 2'
+				name: 'body'
 			},
 			{
-				name: '35',
-				column: 'Column 3'
+				name: 'legs'
 			}
 		]
 	}
 }
 
 export default function drag(state = initialState, action) {
+	console.log('01')
+
 	switch (action.type) {
 		case types.DRAG:
+			console.log('00')
 			return reOrderCols(state, action.draggedCol, action.targetCol)
 		default:
 			return state
