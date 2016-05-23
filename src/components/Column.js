@@ -1,5 +1,5 @@
 import React, { Component as C} from 'react'
-import { DragSource, DropTarget } from 'react-dnd'
+import { DragSource } from 'react-dnd'
 import { pipe } from 'ramda'
 
 const headingSource = {
@@ -10,14 +10,14 @@ const headingSource = {
 	}
 }
 
-const headingTarget = {
-	drop(props, monitor, component) {
-		let draggedCol = monitor.getItem()
-		let targetCol = component.props.column
-		// trigger drag action
-		props.drag(draggedCol, targetCol)
-	}
-}
+//const headingTarget = {
+//drop(props, monitor, component) {
+//let draggedCol = monitor.getItem()
+//let targetCol = component.props.column
+// trigger drag action
+//props.drag(draggedCol, targetCol)
+//}
+//}
 
 function collect(connect, monitor) {
 	return {
@@ -26,19 +26,16 @@ function collect(connect, monitor) {
 	}
 }
 
-function collectDrop(connect, monitor) {
-	return {
-		connectDropTarget: connect.dropTarget(),
-		isOver: monitor.isOver(),
-		canDrop: monitor.canDrop()
-	}
-}
+//function collectDrop(connect, monitor) {
+//return {
+//connectDropTarget: connect.dropTarget(),
+//isOver: monitor.isOver(),
+//canDrop: monitor.canDrop()
+//}
+//}
 
-const Column = ({ column, connectDropTarget, connectDragSource, isOver, isDragging }) => (
-	<th style={{
-			opacity: isOver ? 0.5 : 1,
-			backgroundColor: isOver ? 'yellow' : 'inherit'
-		}}>
+const Column = ({ column, connectDragSource, isDragging }) => (
+	<th>
 		{
 			connectDragSource(
 				<div>
@@ -46,14 +43,8 @@ const Column = ({ column, connectDropTarget, connectDragSource, isOver, isDraggi
 				</div>
 			)
 		}
-		{
-			connectDropTarget(
-				<div>
-					{column.name} target1
-				</div>
-			)
-		}
+
 	</th>
 )
 
-export default pipe(DragSource('column', headingSource, collect), DropTarget('column', headingTarget, collectDrop))(Column)
+export default DragSource('column', headingSource, collect)(Column)
