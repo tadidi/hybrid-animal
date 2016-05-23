@@ -40,11 +40,18 @@ const Column2 = ({ column, connectDropTarget, connectDragSource, isOver, isDragg
 			backgroundColor: isOver ? 'yellow' : 'inherit'
 		}}>
 		{
-			connectDropTarget(connectDragSource(
+			connectDragSource(
 				<div>
-					{column.name}
+					{column.name} source2
 				</div>
-			))
+			)
+		}
+		{
+			connectDropTarget(
+				<div>
+					{column.name} target2
+				</div>
+			)
 		}
 	</th>
 )
