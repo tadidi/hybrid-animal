@@ -1,2 +1,1 @@
-export const DRAG = 'drag';
-
+export const DRAG = 'drag'

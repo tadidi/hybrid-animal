@@ -1,6 +1,6 @@
 import 'babel-polyfill'
-require ('./stylesheets/main.scss');
-import Game from './containers/game'
+import Table from './containers/Table'
+
 import { createStore, compose } from 'redux'
 import { Provider } from 'react-redux'
 import { persistState, createDevTools } from 'redux-devtools'
@@ -13,8 +13,8 @@ import ReactDOM from 'react-dom'
 
 const DevTools = createDevTools(
     <DockMonitor toggleVisibilityKey='ctrl-h'
-                 changePositionKey='ctrl-q'>
-      <LogMonitor theme='tomorrow' />
+changePositionKey='ctrl-q'>
+    <LogMonitor theme='tomorrow' />
     </DockMonitor>
 )
 
@@ -27,16 +27,16 @@ const finalCreateStore = compose(
 let store = finalCreateStore(reducer)
 
 const App = () => (
+<div>
+<Provider store={store}>
     <div>
-      <Provider store={store}>
-        <div>
-          <Game />
-          <DevTools />
-        </div>
-      </Provider>
+    <Table />
+    <DevTools />
+    </div>
+    </Provider>
     </div>
 )
 
-ReactDOM.render(<App />, document.querySelector('.container'))
 
+ReactDOM.render(<App />, document.querySelector('.container'))
 

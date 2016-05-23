@@ -1,71 +1,58 @@
 import * as types from '../constants/constants'
 
 const initialState = {
-  game: {
-    animals: [
-      {
-        name: 'Tiger',
-        head: 'Tiger-head',
-        body: 'Tiger-body',
-        legs: 'Tiger-legs'
-      },
-      {
-        name: 'Elephant',
-        head: 'Elephant-head',
-        body: 'Elephant-body',
-        legs: 'Elephant-legs'
-      },
-      {
-        name: 'Fish',
-        head: 'Fish-head',
-        body: 'Fish-body',
-        legs: 'Fish-legs'
-      }
-    ],
-    rows: [
-      {
-        name: 'head'
-      },
-      {
-        name: 'body'
-      },
-      {
-        name: 'legs'
-      }
-    ]
-  }
+	table: {
+		headings: [
+			{
+				name: 'Column 1'
+			},
+			{
+				name: 'Column 2'
+			},
+			{
+				name: 'Column 3'
+			}
+		],
+		rows: [
+			{
+				name: '15',
+				column: 'Column 1'
+			},
+			{
+				name: '25',
+				column: 'Column 2'
+			},
+			{
+				name: '35',
+				column: 'Column 3'
+			}
+		]
+	}
 }
 
 export default function drag(state = initialState, action) {
-  switch (action.type) {
-    case types.DRAG:
-      return chosenBodyPart(state, action.draggedAnimal, action.targetZone)
-    default:
-      return state
-  }
+	switch (action.type) {
+		case types.DRAG:
+			return reOrderCols(state, action.draggedCol, action.targetCol)
+		default:
+			return state
+	}
 }
 
-const chosenBodyPart = (state, draggedAnimal, targetZone) => {
+const reOrderCols = (state, draggedCol, targetCol) => {
+	let colOrder = state.table.headings.map((heading) => heading.name)
+	let columns = state.table.headings.slice()
+	let draggedColIndex = colOrder.indexOf(draggedCol.name)
+	let targetColIndex = colOrder.indexOf(targetCol.name)
 
-  var zoneOrder = state.game.rows.map(function (row) {
-    return row.name; 
-  });
+	columns.splice(draggedColIndex, 1)
+	columns.splice(targetColIndex, 0, draggedCol)
 
-  var targetZoneIndex = zoneOrder.indexOf(targetZone.name);
-  //var animals = state.game.animals.map(function (animal) {
-  //  return animal.name;
-  //});
+	let rowOrder = columns.map((col) => {
+		return state.table.rows.filter((row) => {
+			if (col.name === row.column) return row
+		})[0]
+	})
 
-  var animalPart = Object.keys(targetZone).map(function (key) {
-    return targetZone[key];
-  });
-
-  var stringAnimalPart = animalPart[0];
-  var showAnimalPart = draggedAnimal[stringAnimalPart];
-  newName = { name: showAnimalPart};
-
-  state.game.rows.splice(targetZoneIndex, 1, newName);
-
-  return state;
+	return { table: { headings: columns, rows: rowOrder } }
 }
-
