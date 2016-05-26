@@ -19,18 +19,24 @@ function collect(connect, monitor) {
 	}
 }
 
-
 const Column = ({ column, connectDragSource, isDragging }) => (
-	<th>
+	<div className="col-md-2">
 		{
 			connectDragSource(
-				<div className="col-md-8">
-					{column.name} source1
-				</div>
+                <div>
+                    <svg width="80" height="100" viewBox="0 0 170 250" xmlns="http://www.w3.org/2000/svg">
+                        <title>{column.name}</title>
+                        <g stroke="#000" strokeWidth="3" fill="none" fill-rule="evenodd">
+                            {column.icon.map((data) =>
+                                    <path d={data} key={data}/>
+                            )}
+                        </g>
+                    </svg>
+                </div>
 			)
 		}
 
-	</th>
+	</div>
 )
 
 export default DragSource('row', headingSource, collect)(Column)

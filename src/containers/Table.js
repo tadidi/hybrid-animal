@@ -8,34 +8,33 @@ import Column2 from '../components/Column2'
 import * as DragActions from '../actions/actions'
 
 const Table = ({ table, actions }) => (
-	<table>
-		<thead>
-			<tr>
-				{ table.headings.map((column) => <Column key={column.name} column={column} drag={actions.drag} />) }
-			</tr>
-		</thead>
-		<tbody>
-		<tr>
-			{ table.rows.map((row) => <Column2 key={row.zone} row={row} drag={actions.drag} />) }
-		</tr>
+    <div>
 
-		</tbody>
-	</table>
+        <div className="col-md-6">
+            <h1>ANIMALS</h1>
+            { table.headings.map((column) => <Column key={column.name} column={column} drag={actions.drag}/>) }
+        </div>
+
+        <div className="col-md-6">
+            <h1>HYBRID</h1>
+            { table.rows.map((row) => <Column2 key={row.zone} row={row} drag={actions.drag}/>) }
+        </div>
+    </div>
 )
 
 function mapStateToProps(state) {
-  return {
-    table: state.table
-  }
+    return {
+        table: state.table
+    }
 }
 
 function mapDispatchToProps(dispatch) {
-  return {
-    actions: bindActionCreators(DragActions, dispatch)
-  }
+    return {
+        actions: bindActionCreators(DragActions, dispatch)
+    }
 }
 
 export default connect(
-  mapStateToProps,
-  mapDispatchToProps
+    mapStateToProps,
+    mapDispatchToProps
 )(DragDropContext(HTML5Backend)(Table))
