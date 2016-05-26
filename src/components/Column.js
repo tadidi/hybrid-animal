@@ -33,4 +33,4 @@ const Column = ({ column, connectDragSource, isDragging }) => (
 	</th>
 )
 
-export default DragSource('column', headingSource, collect)(Column)
+export default DragSource('row', headingSource, collect)(Column)

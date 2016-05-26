@@ -24,24 +24,24 @@ const initialState = {
 		],
 		rows: [
 			{
-				name: 'head'
+				zone: 'head'
 			},
 			{
-				name: 'body'
+				zone: 'body'
 			},
 			{
-				name: 'legs'
+				zone: 'legs'
 			}
 		]
 	}
 }
 
 export default function drag(state = initialState, action) {
-	console.log('01')
+	console.log('00')
 
 	switch (action.type) {
 		case types.DRAG:
-			console.log('00')
+			console.log('01')
 			return reOrderCols(state, action.draggedCol, action.targetCol)
 		default:
 			return state
@@ -49,19 +49,26 @@ export default function drag(state = initialState, action) {
 }
 
 const reOrderCols = (state, draggedCol, targetCol) => {
-	let colOrder = state.table.headings.map((heading) => heading.name)
-	let columns = state.table.headings.slice()
-	let draggedColIndex = colOrder.indexOf(draggedCol.name)
-	let targetColIndex = colOrder.indexOf(targetCol.name)
 
-	columns.splice(draggedColIndex, 1)
-	columns.splice(targetColIndex, 0, draggedCol)
 
-	let rowOrder = columns.map((col) => {
-		return state.table.rows.filter((row) => {
-			if (col.name === row.column) return row
-		})[0]
-	})
+    //Give back an array with the zone name
+    var zoneOrder = ["head","body","legs"];
+    //Give back an array with the value of the prop zone
+    var animalPart = targetCol[Object.keys(targetCol)[0]].valueOf();
+    var zonePart = animalPart.zone;
+    //Access to the good zone in the animal and give back the good part
+    var showAnimalPart = draggedCol['column'][zonePart];
+    //Make a new object with the good part
+    var newName = { zone: showAnimalPart };
+    //Get back the index of the body part where we want to drop
+    var targetColIndex = zoneOrder.indexOf(zonePart);
+    //Insert the new name and delete the zone part
+    let newRows = state.table.rows.map((row) => row)
+    newRows.splice(targetColIndex, 1, newName);
 
-	return { table: { headings: columns, rows: rowOrder } }
+
+    //Map over the headings no changes
+    let column = state.table.headings.map((column) => column)
+
+	return { table: { headings: column, rows: newRows } }
 }

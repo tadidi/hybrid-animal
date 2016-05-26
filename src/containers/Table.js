@@ -16,7 +16,7 @@ const Table = ({ table, actions }) => (
 		</thead>
 		<tbody>
 		<tr>
-			{ table.headings.map((column) => <Column2 key={column.name} column={column} drag={actions.drag} />) }
+			{ table.rows.map((row) => <Column2 key={row.zone} row={row} drag={actions.drag} />) }
 		</tr>
 
 		</tbody>

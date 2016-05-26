@@ -1,13 +1,15 @@
-import React, { Component as C} from 'react'
+import React, { Component } from 'react'
 import { DropTarget } from 'react-dnd'
-import { pipe } from 'ramda'
 
 
 
 const headingTarget = {
 	drop(props, monitor) {
 		let draggedCol = monitor.getItem()
-		let targetCol = props.column
+
+
+        let targetCol = props
+
 		// trigger drag action
 		props.drag(draggedCol, targetCol)
 	}
@@ -23,7 +25,7 @@ function collectDrop(connect, monitor) {
 	}
 }
 
-const Column2 = ({ column, connectDropTarget, isOver, isDragging }) => (
+const Column2 = ({ row, connectDropTarget, isOver, isDragging }) => (
 	<th style={{
 			opacity: isOver ? 0.5 : 1,
 			backgroundColor: isOver ? 'yellow' : 'inherit'
@@ -32,11 +34,11 @@ const Column2 = ({ column, connectDropTarget, isOver, isDragging }) => (
 		{
 			connectDropTarget(
 				<div className="col-lg-8">
-					{column.name} target2
+					{row.zone} target2
 				</div>
 			)
 		}
 	</th>
 )
 
-export default pipe(DropTarget('column', headingTarget, collectDrop))(Column2)
+export default DropTarget('row', headingTarget, collectDrop)(Column2)
