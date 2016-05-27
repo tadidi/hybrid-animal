@@ -19,11 +19,11 @@ function collect(connect, monitor) {
 
 // Animal icon component rendered in SVG
 const Animal = ({ animal, connectDragSource, isDragging }) => (
-	<div className="col-md-2">
+	<div className="col-sm-4">
 		{
 			connectDragSource(
                 <div>
-                    <svg width="100" height="100" viewBox="0 0 280 180" xmlns="http://www.w3.org/2000/svg">
+                    <svg width="80" height="90" viewBox="0 0 145 170" xmlns="http://www.w3.org/2000/svg">
                         <title>{animal.name}</title>
                         <g stroke="#000" strokeWidth="3" fill="none" fill-rule="evenodd">
                             {animal.icon.map((data) =>

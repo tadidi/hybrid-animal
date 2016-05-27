@@ -28,8 +28,13 @@ const BodyZone = ({ bodyZone, connectDropTarget, isOver, isDragging }) => (
 		}}>
 		{
 			connectDropTarget(
-				<div className="col-lg-8">
-					{bodyZone.zone}
+				<div>
+					<svg width="150" height="150" viewBox="0 0 145 150" xmlns="http://www.w3.org/2000/svg">
+						<title>{bodyZone.zone[0]}</title>
+						<g stroke="#000" strokeWidth="3" fill="none" fill-rule="evenodd">
+									<path d={bodyZone.zone[1]}/>
+						</g>
+					</svg>
 				</div>
 			)
 		}
