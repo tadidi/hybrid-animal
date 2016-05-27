@@ -20,7 +20,7 @@ function collectDrop(connect, monitor) {
 	}
 }
 
-
+// Animal hybrid zone rendered in SVG
 const BodyZone = ({ bodyZone, connectDropTarget, isOver, isDragging }) => (
 	<div style={{
 			opacity: isOver ? 0.5 : 1,

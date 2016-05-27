@@ -17,7 +17,7 @@ function collect(connect, monitor) {
 	}
 }
 
-// Animal component rendered in SVG
+// Animal icon component rendered in SVG
 const Animal = ({ animal, connectDragSource, isDragging }) => (
 	<div className="col-md-2">
 		{
