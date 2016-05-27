@@ -1,19 +1,16 @@
 import React, { Component } from 'react'
 import { DropTarget } from 'react-dnd'
 
-
-
-const headingTarget = {
+// DropTarget, it's a bodyZone who is an object
+const zoneTarget = {
 	drop(props, monitor) {
-		let draggedCol = monitor.getItem()
-        let targetCol = props
+		let draggedAnimal = monitor.getItem()
+        let targetZone = props
 
 		// trigger drag action
-		props.drag(draggedCol, targetCol)
+		props.drag(draggedAnimal, targetZone)
 	}
 }
-
-
 
 function collectDrop(connect, monitor) {
 	return {
@@ -23,7 +20,8 @@ function collectDrop(connect, monitor) {
 	}
 }
 
-const Column2 = ({ row, connectDropTarget, isOver, isDragging }) => (
+
+const BodyZone = ({ bodyZone, connectDropTarget, isOver, isDragging }) => (
 	<div style={{
 			opacity: isOver ? 0.5 : 1,
 			backgroundColor: isOver ? 'yellow' : 'inherit'
@@ -31,11 +29,11 @@ const Column2 = ({ row, connectDropTarget, isOver, isDragging }) => (
 		{
 			connectDropTarget(
 				<div className="col-lg-8">
-					{row.zone}
+					{bodyZone.zone}
 				</div>
 			)
 		}
 	</div>
 )
 
-export default DropTarget('row', headingTarget, collectDrop)(Column2)
+export default DropTarget('animal', zoneTarget, collectDrop)(BodyZone)

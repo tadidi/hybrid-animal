@@ -1,8 +1,8 @@
 import * as types from '../constants/constants'
 
 const initialState = {
-	table: {
-		headings: [
+	game: {
+		animals: [
 			{
                 name:'Tiger',
                 icon: ['M56.038 116.278c-28.875-2.695-35.125-20.125-35.125-20.125s-3.834 5.542-3.75 5.125c.084-.417.375-.792-1.875-8.875s-1.875-17.875-1.875-17.875c-.661-1.27-1.839.103-1.839.103-2.667 3.333-7.167 3.5-7.167 3.5 3-2.666 2.968-16.978 2.968-16.978C8.538 27.528 34.626 1.528 67.625 1.528v39.5',
@@ -40,7 +40,7 @@ const initialState = {
 				legs: 'Baboon-legs'
 			}
 		],
-		rows: [
+		zones: [
 			{
 				zone: 'head'
 			},
@@ -60,19 +60,19 @@ export default function drag(state = initialState, action) {
 	switch (action.type) {
 		case types.DRAG:
 			console.log('01')
-			return reOrderAnimals(state, action.draggedCol, action.targetCol)
+			return reOrderAnimals(state, action.draggedAnimal, action.targetZone)
 		default:
 			return state
 	}
 }
 
-const reOrderAnimals = (state, draggedCol, targetCol) => {
+const reOrderAnimals = (state, draggedAnimal, targetZone) => {
 
     //Give back an array with the zone name
     var zoneOrder = ["head", "body", "legs"];
 
     //Give back an object with the value of the prop zone
-    var animalPart = targetCol[Object.keys(targetCol)[0]].valueOf()
+    var animalPart = targetZone[Object.keys(targetZone)[0]].valueOf()
 
     //Give back only the value of the zone
     var part = animalPart.zone;
@@ -90,21 +90,21 @@ const reOrderAnimals = (state, draggedCol, targetCol) => {
     var result = findPart(part);
 
     //Access to the good zone in the animal and give back the good part
-    var showAnimalPart = draggedCol['column'][result];
+    var showAnimalPart = draggedAnimal['animal'][result];
 
     //Make a new object with the good part
     var newName = { zone: showAnimalPart };
 
     //Get back the index of the body part where we want to drop
-    var targetColIndex = zoneOrder.indexOf(result);
+    var targetZoneIndex = zoneOrder.indexOf(result);
 
     //Insert the new name and delete the zone part
-    let newRows = state.table.rows.map((row) => row)
-    newRows.splice(targetColIndex, 1, newName);
+    let newzones = state.game.zones.map((bodyZone) => bodyZone)
+    newzones.splice(targetZoneIndex, 1, newName);
 
 
-    //Map over the headings no changes
-    let column = state.table.headings.map((column) => column)
+    //Map over the animals no changes
+    let animal = state.game.animals.map((animal) => animal)
 
-	return { table: { headings: column, rows: newRows } }
+	return { game: { animals: animal, zones: newzones } }
 }

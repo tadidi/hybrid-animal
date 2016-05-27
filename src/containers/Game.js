@@ -3,28 +3,27 @@ import { bindActionCreators } from 'redux'
 import { connect } from 'react-redux'
 import HTML5Backend from 'react-dnd-html5-backend'
 import { DragDropContext } from 'react-dnd'
-import Column from '../components/Column'
-import Column2 from '../components/Column2'
+import Animal from '../components/Animal'
+import BodyZone from '../components/BodyZone'
 import * as DragActions from '../actions/actions'
 
-const Table = ({ table, actions }) => (
+const Game = ({ game, actions }) => (
     <div>
-
         <div className="col-md-6">
             <h1>ANIMALS</h1>
-            { table.headings.map((column) => <Column key={column.name} column={column} drag={actions.drag}/>) }
+            { game.animals.map((animal) => <Animal key={animal.name} animal={animal} drag={actions.drag}/>) }
         </div>
 
         <div className="col-md-6">
             <h1>HYBRID</h1>
-            { table.rows.map((row) => <Column2 key={row.zone} row={row} drag={actions.drag}/>) }
+            { game.zones.map((bodyZone) => <BodyZone key={bodyZone.zone} bodyZone={bodyZone} drag={actions.drag}/>) }
         </div>
     </div>
 )
 
 function mapStateToProps(state) {
     return {
-        table: state.table
+        game: state.game
     }
 }
 
@@ -37,4 +36,4 @@ function mapDispatchToProps(dispatch) {
 export default connect(
     mapStateToProps,
     mapDispatchToProps
-)(DragDropContext(HTML5Backend)(Table))
+)(DragDropContext(HTML5Backend)(Game))

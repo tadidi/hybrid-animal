@@ -1,5 +1,5 @@
 import 'babel-polyfill'
-import Table from './containers/Table'
+import Game from './containers/Game'
 
 import { createStore, compose } from 'redux'
 import { Provider } from 'react-redux'
@@ -30,7 +30,7 @@ const App = () => (
 <div>
 <Provider store={store}>
     <div>
-    <Table />
+    <Game />
     <DevTools />
     </div>
     </Provider>
