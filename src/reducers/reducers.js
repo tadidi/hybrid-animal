@@ -60,24 +60,25 @@ export default function drag(state = initialState, action) {
 	switch (action.type) {
 		case types.DRAG:
 			console.log('01')
-			return reOrderCols(state, action.draggedCol, action.targetCol)
+			return reOrderAnimals(state, action.draggedCol, action.targetCol)
 		default:
 			return state
 	}
 }
 
-const reOrderCols = (state, draggedCol, targetCol) => {
-
+const reOrderAnimals = (state, draggedCol, targetCol) => {
 
     //Give back an array with the zone name
     var zoneOrder = ["head", "body", "legs"];
-    //Give back an array with the value of the prop zone
 
+    //Give back an object with the value of the prop zone
     var animalPart = targetCol[Object.keys(targetCol)[0]].valueOf()
+
+    //Give back only the value of the zone
     var part = animalPart.zone;
 
+    //search 'head' 'body' and 'legs'
     var findPart = function(string) {
-        //search 'head' 'body' and 'legs'
         if ((string.search('head')) != -1) {
             return 'head';
         } else if ((string.search('body')) != -1) {
@@ -93,8 +94,10 @@ const reOrderCols = (state, draggedCol, targetCol) => {
 
     //Make a new object with the good part
     var newName = { zone: showAnimalPart };
+
     //Get back the index of the body part where we want to drop
     var targetColIndex = zoneOrder.indexOf(result);
+
     //Insert the new name and delete the zone part
     let newRows = state.table.rows.map((row) => row)
     newRows.splice(targetColIndex, 1, newName);
