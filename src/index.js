@@ -11,27 +11,26 @@ import reducer from './reducers/reducers'
 import React from 'react'
 import ReactDOM from 'react-dom'
 
-const DevTools = createDevTools(
-    <DockMonitor toggleVisibilityKey='ctrl-h'
-changePositionKey='ctrl-q'>
-    <LogMonitor theme='tomorrow' />
-    </DockMonitor>
-)
+//const DevTools = createDevTools(
+    //<DockMonitor toggleVisibilityKey='ctrl-h'
+//changePositionKey='ctrl-q'>
+    //<LogMonitor theme='tomorrow' />
+    //</DockMonitor>
+//)
 
-const finalCreateStore = compose(
-    DevTools.instrument(),
-    persistState(window.location.href.match(/[?&]debug_session=([^&]+)\b/))
-)(createStore)
+//const finalCreateStore = compose(
+    //DevTools.instrument(),
+ //   persistState(window.location.href.match(/[?&]debug_session=([^&]+)\b/))
+//)(createStore)
 
 
-let store = finalCreateStore(reducer)
+let store = createStore(reducer)
 
 const App = () => (
 <div>
 <Provider store={store}>
     <div>
     <Game />
-    <DevTools />
     </div>
     </Provider>
     </div>
