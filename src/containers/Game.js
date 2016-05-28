@@ -30,11 +30,11 @@ const Game = ({ game, actions }) => (
 )
 var color = function(key) {
     //head
-    if (key === '0') {
+    if (key === 0) {
         return 'blue';
-    } else if (key === '1') {
+    } else if (key === 1) {
         return 'white';
-    } else if (key === '1') {
+    } else if (key === 1) {
         return 'yellow';
     }
     return 'black';
