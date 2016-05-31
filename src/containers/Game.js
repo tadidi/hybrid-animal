@@ -20,16 +20,18 @@ const Game = ({ game, actions }) => (
 
         <div className="col-md-7">
             <h1>HYBRID</h1>
-            { game.zones.map((bodyZone) =>
-                <BodyZone key={bodyZone.zone[0]} bodyZone={bodyZone} drag={actions.drag} style={hybridStyle} />)}
+            <div style={{ backgroundColor: 'red'}}>
+                <BodyZone key={game.zones[0].zone[0]} bodyZone={game.zones[0]} drag={actions.drag} />
+            </div>
+            <div style={{ backgroundColor: 'blue'}}>
+                <BodyZone key={game.zones[1].zone[0]} bodyZone={game.zones[1]} drag={actions.drag} />
+            </div>
+            <div style={{ backgroundColor: 'green'}}>
+                <BodyZone key={game.zones[2].zone[0]} bodyZone={game.zones[2]} drag={actions.drag} />
+            </div>
         </div>
     </div>
 )
-
-
-var hybridStyle = { 
-    backgroundColor: 'black'
-     }
 
 
 function mapStateToProps(state) {
