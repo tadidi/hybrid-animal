@@ -10,38 +10,27 @@ import * as DragActions from '../actions/actions'
 
 
 
-
-
 const Game = ({ game, actions }) => (
+
     <div>
         <div className="col-md-5">
             <h1>ANIMALS</h1>
-            { game.animals.map((animal) => <Animal key={animal.name} animal={animal} drag={actions.drag}/>) }
+            { game.animals.map((animal) => <Animal key={animal.name} animal={animal} drag={actions.drag} />)}
         </div>
 
         <div className="col-md-7">
             <h1>HYBRID</h1>
-            { game.zones.map((bodyZone) => <BodyZone key={game.zones.indexOf(bodyZone)} bodyZone={bodyZone}
-                                                     drag={actions.drag}
-                                                     style={hybridStyle}
-                />) }
+            { game.zones.map((bodyZone) =>
+                <BodyZone key={bodyZone.zone[0]} bodyZone={bodyZone} drag={actions.drag} style={hybridStyle} />)}
         </div>
     </div>
 )
-var color = function(key) {
-    //head
-    if (key === 0) {
-        return 'blue';
-    } else if (key === 1) {
-        return 'white';
-    } else if (key === 1) {
-        return 'yellow';
-    }
-    return 'black';
-}()
-var hybridStyle = {
-        backgroundColor: color
-}
+
+
+var hybridStyle = { 
+    backgroundColor: 'black'
+     }
+
 
 function mapStateToProps(state) {
     return {

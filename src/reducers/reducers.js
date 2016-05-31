@@ -60,11 +60,9 @@ const initialState = {
 
 
 export default function drag(state = initialState, action) {
-	console.log('00')
 
 	switch (action.type) {
 		case types.DRAG:
-			console.log('01')
 			return reOrderAnimals(state, action.draggedAnimal, action.targetZone)
 		default:
 			return state
