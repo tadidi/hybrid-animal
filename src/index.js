@@ -1,6 +1,6 @@
 import 'babel-polyfill'
 import Game from './containers/Game'
-
+import main from './stylesheets/main.scss'
 import { createStore, compose } from 'redux'
 import { Provider } from 'react-redux'
 import { persistState, createDevTools } from 'redux-devtools'
