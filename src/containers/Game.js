@@ -10,12 +10,12 @@ import * as DragActions from '../actions/actions'
 
 const Game = ({game, actions}) => (
     <div className="row">
-        <div className="col-lg-6 col-md-4 col-sm-12 col-xs-12">
+        <div className="col-lg-6 col-md-6 col-sm-12 col-xs-12">
             <h1>ANIMALS</h1>
             {game.animals.map((animal) => <Animal key={animal.name} animal={animal} drag={actions.drag}/>)}
         </div>
 
-        <div className="col-lg-6 col-md-8 col-sm-12 hybrid">
+        <div className="col-lg-6 col-md-6 col-sm-12 hybrid">
             <h1>HYBRID</h1>
             <div className="head">
                 <BodyZone key={game.zones[0].zone[0]} bodyZone={game.zones[0]} drag={actions.drag}/>

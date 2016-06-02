@@ -1,13 +1,3 @@
-
-
-
 .animal {
-  padding: 0.5rem;
-  font-size: 1.75rem;
-  font-weight: 400;
-  background-color: #00d6b2;
-  &:hover {
-    cursor: pointer;
-    background-color: rgba(white, 0.3);
-  }
+  position: static;
 }

@@ -22,15 +22,15 @@ function collectDrop(connect, monitor) {
 
 // Animal hybrid zone rendered in SVG
 const BodyZone = ({ bodyZone, connectDropTarget, isOver, isDragging }) => (
-	<div className="col-xs-12" style={{
+	<div style={{
 			opacity: isOver ? 0.5 : 1,
 			backgroundColor: isOver ? 'yellow' : 'inherit'
 		}}>
 		{
 			connectDropTarget(
-				<div className="svg-container">
+				<div>
 					<svg viewBox={bodyZone.zone[1]} xmlns="http://www.w3.org/2000/svg"
-						 preserveAspectRatio="xMinYMin meet" className="svg-content">
+						 preserveAspectRatio="xMinYMin meet">
 						<title>{bodyZone.zone[0]}</title>
 						<g fill="#000" strokeWidth="3" fill-rule="evenodd">
 									<path d={bodyZone.zone[2]}/>
