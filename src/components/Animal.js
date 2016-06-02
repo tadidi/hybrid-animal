@@ -23,7 +23,7 @@ const Animal = ({animal, connectDragSource, isDragging}) => (
 		{
 			connectDragSource(
                 <div>
-                    <svg className="animal" width="80" height="90" viewBox="0 0 145 170" xmlns="http://www.w3.org/2000/svg">
+                    <svg className="animal" viewBox="-10 0 200 160" xmlns="http://www.w3.org/2000/svg">
                         <title>{animal.name}</title>
                         <g stroke="#000" strokeWidth="3" fill="none" fill-rule="evenodd">
                             {animal.icon.map((data) =>

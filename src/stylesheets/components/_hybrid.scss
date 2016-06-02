@@ -1,22 +1,16 @@
 .head {
-
+  background-color: yellow;
 }
 .body {
   background-color: blue;
-  position: absolute;
-  left:38%;
-  width:30%;
-  height: 100%;
   z-index: 300;
-}
-
-.legs {  
-  background-color: #00d6b2;
-  width: 100%;
-  height: 100%;
+  top:0;
+  left: 34%;
+  width: 30%;
   position: absolute;
-
 }
-.hybrid {
-  position: relative;
+
+.legs {
+  background-color: #00d6b2;
+
 }
