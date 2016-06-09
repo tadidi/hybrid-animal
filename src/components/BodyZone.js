@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import { DropTarget } from 'react-dnd'
+import GSAP from 'react-gsap-enhancer'
 
 // DropTarget, it's a bodyZone who is an object
 const zoneTarget = {
@@ -29,11 +30,13 @@ const BodyZone = ({ bodyZone, connectDropTarget, isOver, isDragging }) => (
 		{
 			connectDropTarget(
 				<div>
-					<svg viewBox={bodyZone.zone[1]} xmlns="http://www.w3.org/2000/svg"
+					<svg id={bodyZone.zone[0]} viewBox={bodyZone.zone[1]} xmlns="http://www.w3.org/2000/svg"
 						 preserveAspectRatio="xMinYMin meet">
 						<title>{bodyZone.zone[0]}</title>
-						<g fill="#000" strokeWidth="3" fill-rule="evenodd">
-									<path d={bodyZone.zone[2]}/>
+						<g fill="#000" fill-rule="evenodd">
+							{bodyZone.zone[2].map((data) =>
+									<path d={data} key={data.substr(0,7)}/>
+							)}
 						</g>
 					</svg>
 				</div>
