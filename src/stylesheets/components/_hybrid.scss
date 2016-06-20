@@ -1,13 +1,20 @@
 .head {
-  top:-1%;
+  top:-10%;
+  z-index: 400;
 }
+
 .body {
   z-index: 300;
   left:17%;
   width: 64%;
-  top:-2%;
+  top:-3%;
   position: absolute;
 }
 
 .legs {
+}
+
+h1.hybrid__name {
+  font-family: 'diamorregular';
+  display: inline-block;
 }

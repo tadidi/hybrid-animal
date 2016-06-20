@@ -1,6 +1,12 @@
+@import 'utils/all';
+@import 'base/all';
+@import 'components/all';
+@import 'diamor';
 
-.container {
-  @import 'utils/all';
-  @import 'base/all';
-  @import 'components/all';
+
+
+body {
+  background-color: $beige;
+
 }
+
