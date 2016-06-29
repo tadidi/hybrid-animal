@@ -1,20 +1,27 @@
 .head {
-  top:-10%;
   z-index: 400;
 }
 
 .body {
   z-index: 300;
-  left:17%;
-  width: 64%;
-  top:-3%;
   position: absolute;
+  width: 75%;
+  left:12%;
+  top: -3%;
 }
 
 .legs {
 }
 
 h1.hybrid__name {
-  font-family: 'diamorregular';
+  font-family: 'fibre_vintagefibre_vintage';
   display: inline-block;
+  font-size: 50px;
+}
+
+svg {
+  height: 100%;
+  width: 100%;
+}
+.animal--part {
 }

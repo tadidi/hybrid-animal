@@ -8,44 +8,44 @@ import BodyZone from '../components/BodyZone'
 import * as DragActions from '../actions/actions'
 
 
-
 const Game = ({game, actions}) => (
-    <div className="row clearfix">
-
-        {/* Animals icons */}
-        <div className="col-lg-6 col-md-6 col-sm-12 col-xs-12 animals">
-            <h1>ANIMALS</h1>
-            {game.animals.map((animal) => <Animal key={animal.name} animal={animal} drag={actions.drag}/>)}
-        </div>
-
-        {/* Hybrid */}
-        <div className="col-lg-6 col-md-6 col-sm-12 col-xs-12 hybrid">
-            <h1>HYBRID</h1>
-            {/* Head */}
-            <div className="head">
-                <BodyZone key={game.zones[0].zone[0]} bodyZone={game.zones[0]} drag={actions.drag}/>
-            </div>
-            {/* Legs */}
-            <div className="legs">
-                <BodyZone key={game.zones[2].zone[0]} bodyZone={game.zones[2]} drag={actions.drag}/>
-                {/* Body */}
-                <div className="body">
-                    <BodyZone key={game.zones[1].zone[0]} bodyZone={game.zones[1]} drag={actions.drag}/>
+    <div className="game">
+        <div className="game--content">
+            <div className="game__animal">
+                {/* Animals icons */}
+                <div className="">
+                    <h3 className="text-lg-center">Glisser</h3>
+                    {game.animals.map((animal) => <Animal key={animal.name} animal={animal} drag={actions.drag}/>)}
                 </div>
             </div>
 
-            {/* Hybrid name part */}
-            <div className="row">
-            <div className="col-lg-12">
-                <h1 className="hybrid__name col-lg-">{game.zones[0].zone[4]}</h1>
-
-                <h1 className="hybrid__name col-lg-">{game.zones[1].zone[4]}</h1>
-
-                <h1 className="hybrid__name col-lg-">{game.zones[2].zone[4]}</h1>
-            </div>
+            {/* Hybrid */}
+            <div className="game__hybrid">
+                <h3 className="text-lg-center">Déposer ici</h3>
+                {/* Head */}
+                <div className="head">
+                    <BodyZone key={game.zones[0].zone[0]} bodyZone={game.zones[0]} drag={actions.drag}/>
+                </div>
+                {/* Legs */}
+                <div className="legs">
+                    <BodyZone key={game.zones[2].zone[0]} bodyZone={game.zones[2]} drag={actions.drag}/>
+                    {/* Body */}
+                    <div className="body">
+                        <BodyZone key={game.zones[1].zone[0]} bodyZone={game.zones[1]} drag={actions.drag}/>
+                    </div>
+                </div>
             </div>
         </div>
+        <footer className="game__name">
+            {/* Hybrid name part */}
 
+                <h1 className="hybrid__name">{game.zones[0].zone[3]}</h1>
+
+                <h1 className="hybrid__name">{game.zones[1].zone[3]}</h1>
+
+                <h1 className="hybrid__name">{game.zones[2].zone[3]}</h1>
+
+        </footer>
     </div>
 )
 

@@ -1,12 +1,49 @@
 @import 'utils/all';
 @import 'base/all';
 @import 'components/all';
-@import 'diamor';
+@import 'fibre';
 
-
+html {
+  height: 100%;
+}
 
 body {
-  background-color: $beige;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  height: 100%;
+}
 
+
+.game {
+  display: flex;
+  flex-direction: column;
+}
+.game--content {
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  overflow: hidden;
+  height: 90vh;
+  flex:1 0 auto;
+
+  .game__animal {
+    overflow: scroll;
+    flex:1;
+  }
+
+  .game__hybrid {
+    background-color: $beige;
+    display: flex;
+    flex-direction: column;
+    flex:1;
+  }
+}
+
+
+
+
+.game__name {
+flex: 0 0 auto;
 }
 

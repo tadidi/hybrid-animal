@@ -29,18 +29,18 @@ class BodyZone extends Component {
         const { bodyZone, connectDropTarget, isOver } =  this.props
         const style = {
             opacity: isOver ? 0.5 : 1,
-            backgroundColor: isOver ? 'yellow' : 'inherit'
+            backgroundColor: isOver ? 'grey' : 'inherit'
         }
 
         return connectDropTarget(
             <div>
                 <div style={style}>
-                    <svg id={bodyZone.zone[0]} viewBox={bodyZone.zone[1]} xmlns="http://www.w3.org/2000/svg"
-                         preserveAspectRatio="xMinYMin meet">
+                    <svg className="animal--part" id={bodyZone.zone[0]} viewBox={bodyZone.zone[1]}
+                         preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg">
                         <title>{bodyZone.zone[0]}</title>
-                        <g opacity="0.9" fill-rule="evenodd">
+                        <g fill-rule="evenodd">
                             {bodyZone.zone[2].map((data) =>
-                                    <path d={data} fill={bodyZone.zone[3][0]} key={data.substr(0,7)}/>
+                                    <path d={data.path} fill={data.color} key={Math.random(0, 10000000)}/>
                             )}
                         </g>
                     </svg>

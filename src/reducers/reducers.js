@@ -7,51 +7,86 @@ const initialState = {
 			{
                 name:'Tiger',
                 icon: types.TIGER_ICON,
-                head: ['Tiger-head','0 0 480 126',animal.ELEPHANT_HEAD,['#D3D2E0'],'Ti'],
-                body: ['Tiger-body','0 0 299 348',animal.ELEPHANT_BODY, ['#D3D2E0'],'g'],
-                legs: ['Tiger-legs','0 0 480 514',animal.ELEPHANT_LEGS, ['#D3D2E0'],'re']
+                head: ['Tiger-head','0 0 480 168',animal.TIGER_HEAD,'Ti'],
+                body: ['Tiger-body','0 0 350 348',animal.TIGER_BODY,'g'],
+                legs: ['Tiger-legs','0 0 480 514',animal.TIGER_LEGS,'re']
             },
 			{
 				name: 'Elephant',
                 icon: types.ELEPHANT_ICON,
-                head: ['Elephant-head','0 0 480 126',animal.ELEPHANT_HEAD,['#D3D2E0'],'El'],
-				body: ['Elephant-body','0 0 299 348',animal.ELEPHANT_BODY, ['#D3D2E0'],'éph'],
-				legs: ['Elephant-legs','0 0 480 514',animal.ELEPHANT_LEGS, ['#D3D2E0'],'ant']
+                head: ['Elephant-head','0 0 480 168',animal.ELEPHANT_HEAD,'El'],
+				body: ['Elephant-body','0 0 350 348',animal.ELEPHANT_BODY,'éph'],
+				legs: ['Elephant-legs','0 0 480 514',animal.ELEPHANT_LEGS,'ant']
             },
 			{
 				name: 'Baboon',
                 icon: types.BABOON_ICON,
-                head: ['Baboon-head','0 0 480 126',animal.BABOON_HEAD, ['#D3D2E0'],'Ba'],
-				body: ['Baboon-body','0 0 299 348',animal.BABOON_BODY, ['#D3D2E0'],'bou'],
-				legs: ['Baboon-legs','0 0 480 514',animal.BABOON_LEGS, ['#D3D2E0'],'in']
+                head: ['Baboon-head','0 0 480 168',animal.BABOON_HEAD,'Ba'],
+				body: ['Baboon-body','0 0 350 348',animal.BABOON_BODY,'bou'],
+				legs: ['Baboon-legs','0 0 480 514',animal.BABOON_LEGS,'in']
 			},
             {
                 name: 'Frog',
                 icon: types.FROG_ICON,
-                head: ['Frog-head','0 0 480 126',animal.BABOON_HEAD, ['#D3D2E0'],'Gre'],
-                body: ['Frog-body','0 0 299 348',animal.BABOON_BODY, ['#D3D2E0'],'nou'],
-                legs: ['Frog-legs','0 0 480 514',animal.BABOON_LEGS, ['#D3D2E0'],'ille']
+                head: ['Frog-head','0 0 480 168',animal.FROG_HEAD,'Gre'],
+                body: ['Frog-body','0 0 350 348',animal.FROG_BODY,'nou'],
+                legs: ['Frog-legs','0 0 480 514',animal.FROG_LEGS,'ille']
             },
             {
                 name: 'Bear',
                 icon: types.BEAR_ICON,
-                head: ['Bear-head','0 0 480 126',animal.BABOON_HEAD, ['#D3D2E0'],'Ou'],
-                body: ['Bear-body','0 0 299 348',animal.BABOON_BODY, ['#D3D2E0'],'r'],
-                legs: ['Bear-legs','0 0 480 514',animal.BABOON_LEGS, ['#D3D2E0'],'s']
+                head: ['Bear-head','0 0 480 168',animal.BEAR_HEAD,'Ou'],
+                body: ['Bear-body','0 0 350 348',animal.BEAR_BODY,'r'],
+                legs: ['Bear-legs','0 0 480 514',animal.BEAR_LEGS,'s']
             },
             {
                 name: 'Panda',
                 icon: types.PANDA_ICON,
-                head: ['Panda-head','0 0 480 126',animal.BABOON_HEAD, ['#D3D2E0'],'Pan'],
-                body: ['Panda-body','0 0 299 348',animal.BABOON_BODY, ['#D3D2E0'],'d'],
-                legs: ['Panda-legs','0 0 480 514',animal.BABOON_LEGS, ['#D3D2E0'],'a']
+                head: ['Panda-head','0 0 480 168',animal.BABOON_HEAD,'Pan'],
+                body: ['Panda-body','0 0 350 348',animal.BABOON_BODY,'d'],
+                legs: ['Panda-legs','0 0 480 514',animal.BABOON_LEGS,'a']
+            },
+            {
+                name: 'Zèbre',
+                icon: types.ZEBRE_ICON,
+                head: ['Zebre-head','0 0 480 168',animal.BABOON_HEAD,'Z'],
+                body: ['Zebre-body','0 0 350 348',animal.BABOON_BODY,'èb'],
+                legs: ['Zebre-legs','0 0 480 514',animal.BABOON_LEGS,'re']
+            },
+            {
+                name: 'Chauve-souris',
+                icon: types.CHAUVESOURIS_ICON,
+                head: ['Chauve-souris-head','0 0 480 168',animal.BABOON_HEAD,'Chauve'],
+                body: ['Chauve-souris-body','0 0 350 348',animal.BABOON_BODY,'-sou'],
+                legs: ['Chauve-souris-legs','0 0 480 514',animal.BABOON_LEGS,'ris']
+            },
+            {
+                name: 'Buffle',
+                icon: types.BUFFLE_ICON,
+                head: ['Buffle-head','0 0 480 168',animal.BABOON_HEAD,'B'],
+                body: ['Buffle-body','0 0 350 348',animal.BABOON_BODY,'u'],
+                legs: ['Buffle-legs','0 0 480 514',animal.BABOON_LEGS,'ffle']
+            },
+            {
+                name: 'Giraffe',
+                icon: types.GIRAFFE_ICON,
+                head: ['Giraffe-head','0 0 480 168',animal.BABOON_HEAD,'Gir'],
+                body: ['Giraffe-body','0 0 350 348',animal.BABOON_BODY,'ra'],
+                legs: ['Giraffe-legs','0 0 480 514',animal.BABOON_LEGS,'ffe']
+            },
+            {
+                name: 'Renard',
+                icon: types.RENARD_ICON,
+                head: ['Renard-head','0 0 480 168',animal.BABOON_HEAD,'Re'],
+                body: ['Renard-body','0 0 350 348',animal.BABOON_BODY,'n'],
+                legs: ['Renard-legs','0 0 480 514',animal.BABOON_LEGS,'ard']
             }
 
 		],
 		zones: [
-			{zone: ['head','0 0 480 126',types.BODYZONE_HEAD, ['#D3D2E0'],'No']},
-			{zone: ['body','0 0 299 348',types.BODYZONE_BODY, ['#D3D2E0'],'Na']},
-			{zone: ['legs','0 0 480 514',types.BODYZONE_LEGS, ['#D3D2E0'],'me']}
+			{zone: ['head','0 0 480 168',types.BODYZONE_HEAD,'No']},
+			{zone: ['body','0 0 350 348',types.BODYZONE_BODY,'Na']},
+			{zone: ['legs','0 0 480 514',types.BODYZONE_LEGS,'me']}
 		]
 	}
 }
