@@ -1,17 +1,3 @@
-.head {
-  z-index: 400;
-}
-
-.body {
-  z-index: 300;
-  position: absolute;
-  width: 75%;
-  left:12%;
-  top: -3%;
-}
-
-.legs {
-}
 
 h1.hybrid__name {
   font-family: 'fibre_vintagefibre_vintage';
@@ -22,6 +8,8 @@ h1.hybrid__name {
 svg {
   height: 100%;
   width: 100%;
-}
-.animal--part {
+  .animal--part {
+    position: absolute;
+    display: inline-block;
+  }
 }

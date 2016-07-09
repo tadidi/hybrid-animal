@@ -22,29 +22,14 @@ const Game = ({game, actions}) => (
             {/* Hybrid */}
             <div className="game__hybrid">
                 <h3 className="text-lg-center">Déposer ici</h3>
-                {/* Head */}
-                <div className="head">
-                    <BodyZone key={game.zones[0].zone[0]} bodyZone={game.zones[0]} drag={actions.drag}/>
-                </div>
-                {/* Legs */}
-                <div className="legs">
-                    <BodyZone key={game.zones[2].zone[0]} bodyZone={game.zones[2]} drag={actions.drag}/>
-                    {/* Body */}
-                    <div className="body">
-                        <BodyZone key={game.zones[1].zone[0]} bodyZone={game.zones[1]} drag={actions.drag}/>
-                    </div>
-                </div>
+                    <BodyZone bodyZone={game.zones} drag={actions.drag}/>
             </div>
         </div>
         <footer className="game__name">
             {/* Hybrid name part */}
-
                 <h1 className="hybrid__name">{game.zones[0].zone[3]}</h1>
-
                 <h1 className="hybrid__name">{game.zones[1].zone[3]}</h1>
-
                 <h1 className="hybrid__name">{game.zones[2].zone[3]}</h1>
-
         </footer>
     </div>
 )

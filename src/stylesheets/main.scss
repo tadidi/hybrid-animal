@@ -9,7 +9,7 @@ html {
 
 body {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   margin: 0;
   height: 100%;
 }
@@ -20,30 +20,44 @@ body {
   flex-direction: column;
 }
 .game--content {
+
+  height: 80vh;
+
   display: flex;
+  flex: 1 1 auto;
   flex-direction: row;
-  align-items: stretch;
-  overflow: hidden;
-  height: 90vh;
-  flex:1 0 auto;
+  flex-wrap: wrap;
 
   .game__animal {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 auto;
+    height: auto;
+    flex-wrap: nowrap;
+    width:50%;
     overflow: scroll;
-    flex:1;
   }
 
   .game__hybrid {
     background-color: $beige;
     display: flex;
     flex-direction: column;
-    flex:1;
+    flex: 1 1 auto;
+    height: auto;
+    flex-wrap: nowrap;
+    width:50%;
+    justify-content: flex-start;
+    align-items: center;
   }
 }
 
+svg {
 
+}
 
 
 .game__name {
-flex: 0 0 auto;
+  flex: 0 0 auto;
+  height: 20vh;
 }
 
