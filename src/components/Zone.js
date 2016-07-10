@@ -28,13 +28,13 @@ class Zone extends Component {
 
         const { bodyZone, connectDropTarget, isOver } =  this.props
         const style = {
-            opacity: isOver ? 0.5 : 1,
-            backgroundColor: isOver ? 'grey' : 'inherit'
+            opacity: isOver ? 0.2 : 1,
+            backgroundColor: isOver ? 'yellow' : 'inherit'
         }
 
         return connectDropTarget(
             <g style={style} fill-rule="evenodd">
-                {bodyZone.zone[2].map((data) =>
+                {bodyZone.zone[1].map((data) =>
                         <path d={data.path} fill={data.color} key={Math.random(0, 10000000)}/>
                 )}
             </g>

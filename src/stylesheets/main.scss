@@ -7,12 +7,6 @@ html {
   height: 100%;
 }
 
-body {
-  display: flex;
-  flex-direction: row;
-  margin: 0;
-  height: 100%;
-}
 
 
 .game {
@@ -22,13 +16,12 @@ body {
 .game--content {
 
   height: 80vh;
-
   display: flex;
   flex: 1 1 auto;
   flex-direction: row;
   flex-wrap: wrap;
-
   .game__animal {
+
     display: flex;
     flex-direction: column;
     flex: 1 1 auto;
@@ -46,15 +39,8 @@ body {
     height: auto;
     flex-wrap: nowrap;
     width:50%;
-    justify-content: flex-start;
-    align-items: center;
   }
 }
-
-svg {
-
-}
-
 
 .game__name {
   flex: 0 0 auto;

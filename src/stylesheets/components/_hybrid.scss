@@ -5,11 +5,15 @@ h1.hybrid__name {
   font-size: 50px;
 }
 
-svg {
-  height: 100%;
-  width: 100%;
-  .animal--part {
+.animal__parts {
+  position: relative;
+  height: 100vh
+}
+
+.game__hybrid {
+  svg {
+    height: 100%;
+    width: 100%;
     position: absolute;
-    display: inline-block;
   }
 }

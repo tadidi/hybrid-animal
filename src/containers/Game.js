@@ -27,9 +27,9 @@ const Game = ({game, actions}) => (
         </div>
         <footer className="game__name">
             {/* Hybrid name part */}
-                <h1 className="hybrid__name">{game.zones[0].zone[3]}</h1>
-                <h1 className="hybrid__name">{game.zones[1].zone[3]}</h1>
-                <h1 className="hybrid__name">{game.zones[2].zone[3]}</h1>
+                <h1 className="hybrid__name">{game.zones[0].zone[2]}</h1>
+                <h1 className="hybrid__name">{game.zones[1].zone[2]}</h1>
+                <h1 className="hybrid__name">{game.zones[2].zone[2]}</h1>
         </footer>
     </div>
 )
