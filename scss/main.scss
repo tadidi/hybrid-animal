@@ -1,0 +1,45 @@
+@import 'color';
+@import 'animal-list';
+@import 'hybrid';
+@import 'fibre';
+
+html {
+  height: 100%;
+}
+
+.game {
+  display: flex;
+  flex-direction: column;
+}
+.game--content {
+  height: 80vh;
+  display: flex;
+  flex: 1 1 auto;
+  flex-direction: row;
+  flex-wrap: wrap;
+  .game__animal {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 auto;
+    height: auto;
+    flex-wrap: nowrap;
+    width:50%;
+    overflow: scroll;
+  }
+  .game__hybrid {
+    background-color: $beige;
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 auto;
+    height: auto;
+    flex-wrap: nowrap;
+    width:50%;
+  }
+}
+
+.game__name {
+  flex: 0 0 auto;
+  height: 20vh;
+  margin: auto;
+}
+

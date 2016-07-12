@@ -20,6 +20,8 @@
     "chai-jquery": "^2.0.0",
     "css-loader": "^0.23.1",
     "file-loader": "^0.9.0",
+    "gulp": "^3.9.1",
+    "gulp-sass": "^2.3.2",
     "jquery": "^2.2.1",
     "jsdom": "^8.1.0",
     "mocha": "^2.4.5",

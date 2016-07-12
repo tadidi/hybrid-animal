@@ -25,7 +25,7 @@ const Game = ({game, actions}) => (
                     <BodyZone bodyZone={game.zones} drag={actions.drag}/>
             </div>
         </div>
-        <footer className="game__name">
+        <footer className="game__name text-lg-center">
             {/* Hybrid name part */}
                 <h1 className="hybrid__name">{game.zones[0].zone[2]}</h1>
                 <h1 className="hybrid__name">{game.zones[1].zone[2]}</h1>

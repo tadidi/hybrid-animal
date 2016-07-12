@@ -1,0 +1,46 @@
+@import "bootstrap-sass/variables";
+
+@import "bootstrap-sass/mixins/clearfix";
+@import "bootstrap-sass/mixins/breakpoints";
+@import "bootstrap-sass/mixins/grid-framework";
+@import "bootstrap-sass/mixins/grid";
+
+@import "bootstrap-sass/grid";
+
+
+
+h1.hybrid__name {
+  font-family: 'fibre_vintagefibre_vintage';
+  display: inline-block;
+  font-size: 30px;
+}
+
+@include media-breakpoint-up(sm) {
+  h1.hybrid__name {
+    font-size: 50px;
+  }
+}
+
+@include media-breakpoint-up(md) {
+  h1.hybrid__name {
+    font-size: 70px;
+  }
+}
+
+@include media-breakpoint-up(lg) {
+  h1.hybrid__name {
+    font-size: 100px;
+  }
+}
+.animal__parts {
+  position: relative;
+  height: 100vh
+}
+
+.game__hybrid {
+  svg {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+  }
+}

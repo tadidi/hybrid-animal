@@ -15,7 +15,7 @@ const initialState = {
 				name: 'Elephant',
                 icon: types.ELEPHANT_ICON,
                 head: ['Elephant-head',animal.ELEPHANT_HEAD,'El'],
-				body: ['Elephant-body',animal.ELEPHANT_BODY,'éph'],
+				body: ['Elephant-body',animal.ELEPHANT_BODY,'eph'],
 				legs: ['Elephant-legs',animal.ELEPHANT_LEGS,'ant']
             },
 			{
@@ -48,17 +48,17 @@ const initialState = {
             },
             {
                 name: 'Zèbre',
-                icon: types.ZEBRE_ICON,
-                head: ['Zebre-head',animal.BABOON_HEAD,'Z'],
-                body: ['Zebre-body',animal.BABOON_BODY,'èb'],
-                legs: ['Zebre-legs',animal.BABOON_LEGS,'re']
+                icon: types.ZEBRA_ICON,
+                head: ['Zebre-head',animal.ZEBRA_HEAD,'Z'],
+                body: ['Zebre-body',animal.ZEBRA_BODY,'eb'],
+                legs: ['Zebre-legs',animal.ZEBRA_LEGS,'re']
             },
             {
                 name: 'Chauve-souris',
-                icon: types.CHAUVESOURIS_ICON,
-                head: ['Chauve-souris-head',animal.BABOON_HEAD,'Chauve'],
-                body: ['Chauve-souris-body',animal.BABOON_BODY,'-sou'],
-                legs: ['Chauve-souris-legs',animal.BABOON_LEGS,'ris']
+                icon: types.BAT_ICON,
+                head: ['Chauve-souris-head',animal.BAT_HEAD,'Chauve'],
+                body: ['Chauve-souris-body',animal.BAT_BODY,'-sou'],
+                legs: ['Chauve-souris-legs',animal.BAT_LEGS,'ris']
             },
             {
                 name: 'Buffle',
@@ -70,16 +70,16 @@ const initialState = {
             {
                 name: 'Giraffe',
                 icon: types.GIRAFFE_ICON,
-                head: ['Giraffe-head',animal.BABOON_HEAD,'Gir'],
-                body: ['Giraffe-body',animal.BABOON_BODY,'ra'],
-                legs: ['Giraffe-legs',animal.BABOON_LEGS,'ffe']
+                head: ['Giraffe-head',animal.GIRAFFE_HEAD,'Gi'],
+                body: ['Giraffe-body',animal.GIRAFFE_BODY,'ra'],
+                legs: ['Giraffe-legs',animal.GIRAFFE_LEGS,'fe']
             },
             {
                 name: 'Renard',
-                icon: types.RENARD_ICON,
-                head: ['Renard-head',animal.BABOON_HEAD,'Re'],
-                body: ['Renard-body',animal.BABOON_BODY,'n'],
-                legs: ['Renard-legs',animal.BABOON_LEGS,'ard']
+                icon: types.FOX_ICON,
+                head: ['Renard-head',animal.FOX_HEAD,'Re'],
+                body: ['Renard-body',animal.FOX_BODY,'n'],
+                legs: ['Renard-legs',animal.FOX_LEGS,'ard']
             }
 
 		],
