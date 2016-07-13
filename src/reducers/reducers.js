@@ -7,86 +7,72 @@ const initialState = {
 			{
                 name:'Tiger',
                 icon: types.TIGER_ICON,
-                head: ['Tiger-head',animal.TIGER_HEAD,'Ti'],
-                body: ['Tiger-body',animal.TIGER_BODY,'g'],
-                legs: ['Tiger-legs',animal.TIGER_LEGS,'re']
+                head: ['Tiger-head',animal.TIGER_HEAD,'Ti','#e55a1e'],
+                body: ['Tiger-body',animal.TIGER_BODY,'g','#e55a1e'],
+                legs: ['Tiger-legs',animal.TIGER_LEGS,'re','#e55a1e']
             },
 			{
 				name: 'Elephant',
                 icon: types.ELEPHANT_ICON,
-                head: ['Elephant-head',animal.ELEPHANT_HEAD,'El'],
-				body: ['Elephant-body',animal.ELEPHANT_BODY,'eph'],
-				legs: ['Elephant-legs',animal.ELEPHANT_LEGS,'ant']
+                head: ['Elephant-head',animal.ELEPHANT_HEAD,'El','#536878'],
+				body: ['Elephant-body',animal.ELEPHANT_BODY,'eph','#536878'],
+				legs: ['Elephant-legs',animal.ELEPHANT_LEGS,'ant','#536878']
             },
 			{
 				name: 'Baboon',
                 icon: types.BABOON_ICON,
-                head: ['Baboon-head',animal.BABOON_HEAD,'Ba'],
-				body: ['Baboon-body',animal.BABOON_BODY,'bou'],
-				legs: ['Baboon-legs',animal.BABOON_LEGS,'in']
+                head: ['Baboon-head',animal.BABOON_HEAD,'Ba','#d3a625'],
+				body: ['Baboon-body',animal.BABOON_BODY,'bou','#d3a625'],
+				legs: ['Baboon-legs',animal.BABOON_LEGS,'in','#d3a625']
 			},
             {
                 name: 'Frog',
                 icon: types.FROG_ICON,
-                head: ['Frog-head',animal.FROG_HEAD,'Gre'],
-                body: ['Frog-body',animal.FROG_BODY,'nou'],
-                legs: ['Frog-legs',animal.FROG_LEGS,'ille']
+                head: ['Frog-head',animal.FROG_HEAD,'Gre','#4d7358'],
+                body: ['Frog-body',animal.FROG_BODY,'nou','#4d7358'],
+                legs: ['Frog-legs',animal.FROG_LEGS,'ille','#4d7358']
             },
             {
                 name: 'Bear',
                 icon: types.BEAR_ICON,
-                head: ['Bear-head',animal.BEAR_HEAD,'Ou'],
-                body: ['Bear-body',animal.BEAR_BODY,'r'],
-                legs: ['Bear-legs',animal.BEAR_LEGS,'s']
-            },
-            {
-                name: 'Panda',
-                icon: types.PANDA_ICON,
-                head: ['Panda-head',animal.BABOON_HEAD,'Pan'],
-                body: ['Panda-body',animal.BABOON_BODY,'d'],
-                legs: ['Panda-legs',animal.BABOON_LEGS,'a']
+                head: ['Bear-head',animal.BEAR_HEAD,'Ou','#8d5524'],
+                body: ['Bear-body',animal.BEAR_BODY,'r','#8d5524'],
+                legs: ['Bear-legs',animal.BEAR_LEGS,'s','#8d5524']
             },
             {
                 name: 'Zèbre',
                 icon: types.ZEBRA_ICON,
-                head: ['Zebre-head',animal.ZEBRA_HEAD,'Z'],
-                body: ['Zebre-body',animal.ZEBRA_BODY,'eb'],
-                legs: ['Zebre-legs',animal.ZEBRA_LEGS,'re']
+                head: ['Zebre-head',animal.ZEBRA_HEAD,'Z','#000'],
+                body: ['Zebre-body',animal.ZEBRA_BODY,'eb','#000'],
+                legs: ['Zebre-legs',animal.ZEBRA_LEGS,'re','#000']
             },
             {
                 name: 'Chauve-souris',
                 icon: types.BAT_ICON,
-                head: ['Chauve-souris-head',animal.BAT_HEAD,'Chauve'],
-                body: ['Chauve-souris-body',animal.BAT_BODY,'-sou'],
-                legs: ['Chauve-souris-legs',animal.BAT_LEGS,'ris']
-            },
-            {
-                name: 'Buffle',
-                icon: types.BUFFLE_ICON,
-                head: ['Buffle-head',animal.BABOON_HEAD,'B'],
-                body: ['Buffle-body',animal.BABOON_BODY,'u'],
-                legs: ['Buffle-legs',animal.BABOON_LEGS,'ffle']
+                head: ['Chauve-souris-head',animal.BAT_HEAD,'Chauve','#36454f'],
+                body: ['Chauve-souris-body',animal.BAT_BODY,'-sou','#36454f'],
+                legs: ['Chauve-souris-legs',animal.BAT_LEGS,'ris','#36454f']
             },
             {
                 name: 'Giraffe',
                 icon: types.GIRAFFE_ICON,
-                head: ['Giraffe-head',animal.GIRAFFE_HEAD,'Gi'],
-                body: ['Giraffe-body',animal.GIRAFFE_BODY,'ra'],
-                legs: ['Giraffe-legs',animal.GIRAFFE_LEGS,'fe']
+                head: ['Giraffe-head',animal.GIRAFFE_HEAD,'Gi','#EB8C00'],
+                body: ['Giraffe-body',animal.GIRAFFE_BODY,'ra','#EB8C00'],
+                legs: ['Giraffe-legs',animal.GIRAFFE_LEGS,'fe','#EB8C00']
             },
             {
                 name: 'Renard',
                 icon: types.FOX_ICON,
-                head: ['Renard-head',animal.FOX_HEAD,'Re'],
-                body: ['Renard-body',animal.FOX_BODY,'n'],
-                legs: ['Renard-legs',animal.FOX_LEGS,'ard']
+                head: ['Renard-head',animal.FOX_HEAD,'Re','#ae0001'],
+                body: ['Renard-body',animal.FOX_BODY,'n','#ae0001'],
+                legs: ['Renard-legs',animal.FOX_LEGS,'ard','#ae0001']
             }
 
 		],
 		zones: [
-			{zone: ['head',types.BODYZONE_HEAD,'No']},
-			{zone: ['body',types.BODYZONE_BODY,'Na']},
-			{zone: ['legs',types.BODYZONE_LEGS,'me']}
+			{zone: ['head',types.BODYZONE_HEAD,'No','#FCFAF3']},
+			{zone: ['body',types.BODYZONE_BODY,'Na','#FCFAF3']},
+			{zone: ['legs',types.BODYZONE_LEGS,'me','#FCFAF3']}
 		]
 	}
 }

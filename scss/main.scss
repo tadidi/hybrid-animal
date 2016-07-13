@@ -8,11 +8,13 @@ html {
 }
 
 .game {
+  overflow: auto;
   display: flex;
   flex-direction: column;
+  background-color: $duck-green;
 }
 .game--content {
-  height: 80vh;
+  height: 82vh;
   display: flex;
   flex: 1 1 auto;
   flex-direction: row;
@@ -38,8 +40,9 @@ html {
 }
 
 .game__name {
+
   flex: 0 0 auto;
-  height: 20vh;
+  height: 18vh;
   margin: auto;
 }
 
