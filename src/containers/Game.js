@@ -1,13 +1,17 @@
 import React from 'react'
+
 import { bindActionCreators } from 'redux'
 import { connect } from 'react-redux'
+import * as DragActions from '../actions/actions'
+
+import MultiBackend from '../react-dnd-multi-backend/MultiBackend.js'
+import TouchBackend from 'react-dnd-touch-pointer-events-backend'
 import HTML5Backend from 'react-dnd-html5-backend'
 import { DragDropContext } from 'react-dnd'
+
 import Animal from '../components/Animal'
 import BodyZone from '../components/BodyZone'
 import Footer from "../components/Footer.js"
-import * as DragActions from '../actions/actions'
-
 
 const Game = ({game, actions}) => (
     <div className="game">
@@ -22,7 +26,7 @@ const Game = ({game, actions}) => (
 
             {/* Hybrid */}
             <div className="game__hybrid">
-                <h3 className="text-lg-center text-xs-center">Deposer ici</h3>
+                <h3 className="text-lg-center text-xs-center">et Deposer ici</h3>
                 <BodyZone bodyZone={game.zones} drag={actions.drag}/>
             </div>
         </div>
@@ -41,4 +45,4 @@ function mapDispatchToProps(dispatch) {
     }
 }
 
-export default connect(mapStateToProps, mapDispatchToProps)(DragDropContext(HTML5Backend)(Game))
+export default connect(mapStateToProps, mapDispatchToProps)(DragDropContext(MultiBackend(HTML5Backend, TouchBackend))(Game))

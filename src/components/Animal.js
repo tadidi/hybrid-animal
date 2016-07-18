@@ -27,7 +27,7 @@ const Animal = ({animal, connectDragSource, isDragging}) => (
                         <title>{animal.name}</title>
                         <g stroke="#333333" strokeWidth="2" fill="none" fill-rule="evenodd">
                             {animal.icon.map((data) =>
-                                    <path d={data} key={data.substr(0,7)}/>
+                                    <path d={data} key={Math.random(0, 10000000)}/>
                             )}
                         </g>
                     </svg>
