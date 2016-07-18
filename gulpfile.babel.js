@@ -17,7 +17,7 @@ gulp.task('sass', () => { // Arrow functions!!
 });
 
 gulp.task('default', ['sass'], () => { // Arrow functions!!
-    gulp.watch('./src/sass/**/*.scss', ['sass'])
+    gulp.watch('./scss/**/*.scss', ['sass'])
         .on('change', (e) => {  // Arrow functions!!
             console.log(`File ${e.path} was ${e.type}, running Sass task...`); // Template strings and interpolation!!
         });

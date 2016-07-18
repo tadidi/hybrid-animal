@@ -1,12 +1,9 @@
 import React, { Component } from 'react'
 import Zone from "./Zone.js"
 
-
 // Animal hybrid zone rendered in SVG
 class BodyZone extends Component {
-
     render() {
-
         const { bodyZone, drag } =  this.props
         return (
             <div className="animal__parts">
@@ -16,8 +13,6 @@ class BodyZone extends Component {
                     <Zone key={bodyZone[2].zone[0]} bodyZone={bodyZone[2]} drag={drag}/>
                     <Zone key={bodyZone[1].zone[0]} bodyZone={bodyZone[1]} drag={drag}/>
                     <Zone key={bodyZone[0].zone[0]} bodyZone={bodyZone[0]} drag={drag}/>
-
-
                 </svg>
             </div>
         )

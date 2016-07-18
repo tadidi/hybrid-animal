@@ -5,6 +5,7 @@ import HTML5Backend from 'react-dnd-html5-backend'
 import { DragDropContext } from 'react-dnd'
 import Animal from '../components/Animal'
 import BodyZone from '../components/BodyZone'
+import Footer from "../components/Footer.js"
 import * as DragActions from '../actions/actions'
 
 
@@ -21,18 +22,11 @@ const Game = ({game, actions}) => (
 
             {/* Hybrid */}
             <div className="game__hybrid">
-                <h3 className="text-lg-center text-xs-center">Déposer ici</h3>
+                <h3 className="text-lg-center text-xs-center">Deposer ici</h3>
                 <BodyZone bodyZone={game.zones} drag={actions.drag}/>
             </div>
         </div>
-        <footer className="game__name text-lg-center">
-            {/* Hybrid name part */}
-            <h1 className="hybrid__name" style={{color: game.zones[0].zone[3]}}>{game.zones[0].zone[2]}</h1>
-
-            <h1 className="hybrid__name" style={{color: game.zones[1].zone[3]}}>{game.zones[1].zone[2]}</h1>
-
-            <h1 className="hybrid__name" style={{color: game.zones[2].zone[3]}}>{game.zones[2].zone[2]}</h1>
-        </footer>
+        <Footer bodyZone={game.zones}/>
     </div>
 )
 

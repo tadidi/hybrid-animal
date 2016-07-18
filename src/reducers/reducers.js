@@ -4,6 +4,34 @@ import * as animal from '../constants/animal'
 const initialState = {
 	game: {
 		animals: [
+            {
+                name: 'Renard',
+                icon: types.FOX_ICON,
+                head: ['Renard-head',animal.FOX_HEAD,'Re','#ae0001'],
+                body: ['Renard-body',animal.FOX_BODY,'n','#ae0001'],
+                legs: ['Renard-legs',animal.FOX_LEGS,'ard','#ae0001']
+            },
+            {
+                name: 'Frog',
+                icon: types.FROG_ICON,
+                head: ['Frog-head',animal.FROG_HEAD,'Gre','#4d7358'],
+                body: ['Frog-body',animal.FROG_BODY,'nou','#4d7358'],
+                legs: ['Frog-legs',animal.FROG_LEGS,'ille','#4d7358']
+            },
+            {
+                name: 'Zèbre',
+                icon: types.ZEBRA_ICON,
+                head: ['Zebre-head',animal.ZEBRA_HEAD,'Z','#000'],
+                body: ['Zebre-body',animal.ZEBRA_BODY,'eb','#000'],
+                legs: ['Zebre-legs',animal.ZEBRA_LEGS,'re','#000']
+            },
+            {
+                name: 'Giraffe',
+                icon: types.GIRAFFE_ICON,
+                head: ['Giraffe-head',animal.GIRAFFE_HEAD,'Gi','#EB8C00'],
+                body: ['Giraffe-body',animal.GIRAFFE_BODY,'ra','#EB8C00'],
+                legs: ['Giraffe-legs',animal.GIRAFFE_LEGS,'fe','#EB8C00']
+            },
 			{
                 name:'Tiger',
                 icon: types.TIGER_ICON,
@@ -26,13 +54,6 @@ const initialState = {
 				legs: ['Baboon-legs',animal.BABOON_LEGS,'in','#d3a625']
 			},
             {
-                name: 'Frog',
-                icon: types.FROG_ICON,
-                head: ['Frog-head',animal.FROG_HEAD,'Gre','#4d7358'],
-                body: ['Frog-body',animal.FROG_BODY,'nou','#4d7358'],
-                legs: ['Frog-legs',animal.FROG_LEGS,'ille','#4d7358']
-            },
-            {
                 name: 'Bear',
                 icon: types.BEAR_ICON,
                 head: ['Bear-head',animal.BEAR_HEAD,'Ou','#8d5524'],
@@ -40,34 +61,12 @@ const initialState = {
                 legs: ['Bear-legs',animal.BEAR_LEGS,'s','#8d5524']
             },
             {
-                name: 'Zèbre',
-                icon: types.ZEBRA_ICON,
-                head: ['Zebre-head',animal.ZEBRA_HEAD,'Z','#000'],
-                body: ['Zebre-body',animal.ZEBRA_BODY,'eb','#000'],
-                legs: ['Zebre-legs',animal.ZEBRA_LEGS,'re','#000']
-            },
-            {
                 name: 'Chauve-souris',
                 icon: types.BAT_ICON,
                 head: ['Chauve-souris-head',animal.BAT_HEAD,'Chauve','#36454f'],
                 body: ['Chauve-souris-body',animal.BAT_BODY,'-sou','#36454f'],
                 legs: ['Chauve-souris-legs',animal.BAT_LEGS,'ris','#36454f']
-            },
-            {
-                name: 'Giraffe',
-                icon: types.GIRAFFE_ICON,
-                head: ['Giraffe-head',animal.GIRAFFE_HEAD,'Gi','#EB8C00'],
-                body: ['Giraffe-body',animal.GIRAFFE_BODY,'ra','#EB8C00'],
-                legs: ['Giraffe-legs',animal.GIRAFFE_LEGS,'fe','#EB8C00']
-            },
-            {
-                name: 'Renard',
-                icon: types.FOX_ICON,
-                head: ['Renard-head',animal.FOX_HEAD,'Re','#ae0001'],
-                body: ['Renard-body',animal.FOX_BODY,'n','#ae0001'],
-                legs: ['Renard-legs',animal.FOX_LEGS,'ard','#ae0001']
             }
-
 		],
 		zones: [
 			{zone: ['head',types.BODYZONE_HEAD,'No','#FCFAF3']},

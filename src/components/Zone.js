@@ -25,15 +25,12 @@ function collectDrop(connect, monitor) {
 class Zone extends Component {
 
     render() {
-
         const { bodyZone, connectDropTarget, isOver } =  this.props
         const style = {
-            opacity: isOver ? 0.2 : 1,
-            backgroundColor: isOver ? 'yellow' : 'inherit'
+            opacity: isOver ? 0.2 : 1
         }
-
         return connectDropTarget(
-            <g style={style} fill-rule="evenodd">
+            <g style={style}>
                 {bodyZone.zone[1].map((data) =>
                         <path d={data.path} fill={data.color} key={Math.random(0, 10000000)}/>
                 )}

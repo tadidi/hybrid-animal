@@ -3,16 +3,25 @@
 @import 'hybrid';
 @import 'fibre';
 
-html {
+body {
+  font-size: 62.5%;
   height: 100%;
+  overflow: hidden;
+}
+
+h3 {
+  font-family: 'fibre_vintagefibre_vintage';
+  padding-top: 2%;
+  color: $dark-grey;
 }
 
 .game {
   overflow: auto;
   display: flex;
   flex-direction: column;
-  background-color: $duck-green;
+  background-color: $vert-d-eau;
 }
+
 .game--content {
   height: 82vh;
   display: flex;
@@ -25,8 +34,14 @@ html {
     flex: 1 1 auto;
     height: auto;
     flex-wrap: nowrap;
-    width:50%;
+    width: 50vw;
     overflow: scroll;
+    @include media-breakpoint-down(md) {
+      width: 30vw;
+    }
+    @include media-breakpoint-down(sm) {
+      width: 20vw;
+    }
   }
   .game__hybrid {
     background-color: $beige;
@@ -35,14 +50,19 @@ html {
     flex: 1 1 auto;
     height: auto;
     flex-wrap: nowrap;
-    width:50%;
+    width: 50vw;
+    @include media-breakpoint-down(md) {
+      width: 70vw;
+    }
+    @include media-breakpoint-down(sm) {
+      width: 80vw;
+    }
   }
 }
 
 .game__name {
-
   flex: 0 0 auto;
   height: 18vh;
-  margin: auto;
+  padding-top: 2%;
 }
 

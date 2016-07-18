@@ -1,40 +1,37 @@
 @import "bootstrap-sass/variables";
-
 @import "bootstrap-sass/mixins/clearfix";
 @import "bootstrap-sass/mixins/breakpoints";
 @import "bootstrap-sass/mixins/grid-framework";
 @import "bootstrap-sass/mixins/grid";
-
 @import "bootstrap-sass/grid";
-
-
 
 h1.hybrid__name {
   font-family: 'fibre_vintagefibre_vintage';
   display: inline-block;
-  font-size: 40px;
-  margin:0;
-  padding:0;
+  font-size: 5em;
+  margin: 0;
+  padding: 0;
   color: $beige;
 }
 
 @include media-breakpoint-up(sm) {
   h1.hybrid__name {
-    font-size: 85px;
+    font-size: 8em;
   }
 }
 
 @include media-breakpoint-up(md) {
   h1.hybrid__name {
-    font-size: 100px;
+    font-size: 10em;
   }
 }
 
 @include media-breakpoint-up(lg) {
   h1.hybrid__name {
-    font-size: 130px;
+    font-size: 13em;
   }
 }
+
 .animal__parts {
   position: relative;
   height: 100vh
