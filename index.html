@@ -1,12 +1,26 @@
 <!DOCTYPE html>
 <html>
-  <head>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content = "width = device-width, initial-scale = 2.3, user-scalable = no" />
+    <meta name="viewport" content = "width = device-width, initial-scale = 2.3, minimum-scale = 1, maximum-scale = 5" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <!-- Page Title -->
+    <title>Animals</title>
     <link rel="stylesheet" href="https://cdn.rawgit.com/twbs/bootstrap/v4-dev/dist/css/bootstrap.css">
     <link rel="stylesheet" href="stylesheets/main.css">
 
-  </head>
-  <body>
-    <div class="wrapper"></div>
-  </body>
-  <script src="/bundle.js"></script>
+</head>
+<body>
+<div class="wrapper"></div>
+</body>
+<script src="/bundle.js"></script>
+<script src="./viewport-units-buggyfill.js"></script>
+<script>window.viewportUnitsBuggyfill.init();</script>
+<script> 
+    var hacks = require('./viewport-units-buggyfill.hacks'); 
+    require('viewport-units-buggyfill').init({ 
+    hacks: hacks 
+    });
+     </script>
 </html>

@@ -18,8 +18,9 @@ const Game = ({game, actions}) => (
         <div className="game--content">
             {/* Animals icons */}
             <div className="game__animal">
-                <div>
+
                     <h3 className="text-lg-center text-xs-center">Glisser</h3>
+                <div className="animal-list">
                     {game.animals.map((animal) => <Animal key={animal.name} animal={animal} drag={actions.drag}/>)}
                 </div>
             </div>

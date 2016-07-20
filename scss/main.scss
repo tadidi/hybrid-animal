@@ -3,23 +3,27 @@
 @import 'hybrid';
 @import 'fibre';
 
+html,
 body {
   font-size: 62.5%;
-  height: 100%;
+  height:100vh;
   overflow: hidden;
+  margin: 0;
+  padding: 0;
 }
 
 h3 {
   font-family: 'fibre_vintagefibre_vintage';
-  padding-top: 2%;
   color: $dark-grey;
 }
 
 .game {
-  overflow:hidden;
+  overflow-x: hidden;
   display: flex;
   flex-direction: column;
-
+  .h3 {
+    padding-top: 10px;
+  }
 }
 
 .game--content {
@@ -28,19 +32,27 @@ h3 {
   flex: 1 1 auto;
   flex-direction: row;
   flex-wrap: wrap;
+  overflow: hidden;
   .game__animal {
-    display: flex;
-    flex-direction: column;
+
     flex: 1 1 auto;
-    height: auto;
     flex-wrap: nowrap;
     width: 50vw;
-    overflow: scroll;
+    overflow: hidden;
     @include media-breakpoint-down(md) {
-      width: 30vw;
+      width: 35vw;
     }
     @include media-breakpoint-down(sm) {
-      width: 20vw;
+      width: 30vw;
+    }
+    .animal-list {
+      position: relative;
+      top:0;
+      overflow: scroll;
+      height: 82vh;
+      svg {
+
+      }
     }
   }
   .game__hybrid {
@@ -50,12 +62,12 @@ h3 {
     flex: 1 1 auto;
     flex-wrap: nowrap;
     width: 50vw;
-    height: 82vh;
+
     @include media-breakpoint-down(md) {
-      width: 70vw;
+      width: 65vw;
     }
     @include media-breakpoint-down(sm) {
-      width: 80vw;
+      width: 70vw;
     }
   }
 }
@@ -64,8 +76,8 @@ h3 {
   flex: 0 0 auto;
   height: 18vh;
   padding-top: 2%;
-  width:100vw;
+  display: block;
   z-index:1000;
   background-color: $vert-d-eau;
+  flex-shrink:0;
 }
-
