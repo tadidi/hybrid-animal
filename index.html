@@ -2,8 +2,9 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <meta name="viewport" content = "width = device-width, initial-scale = 2.3, user-scalable = no" />
-    <meta name="viewport" content = "width = device-width, initial-scale = 2.3, minimum-scale = 1, maximum-scale = 5" />
+    <meta name="viewport" content="width=device-width">
+    <meta name="viewport" content="initial-scale=1.0">
+
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <!-- Page Title -->
     <title>Animals</title>
@@ -15,12 +16,5 @@
 <div class="wrapper"></div>
 </body>
 <script src="/bundle.js"></script>
-<script src="./viewport-units-buggyfill.js"></script>
-<script>window.viewportUnitsBuggyfill.init();</script>
-<script> 
-    var hacks = require('./viewport-units-buggyfill.hacks'); 
-    require('viewport-units-buggyfill').init({ 
-    hacks: hacks 
-    });
-     </script>
+
 </html>
