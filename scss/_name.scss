@@ -1,0 +1,39 @@
+/* Bottom(Footer) part of the app, where we can find the name of the hybrid */
+.game__name {
+  flex: 0 0 auto;
+  height: 18vh;
+  padding: 0;
+  margin-bottom: 0;
+  display: block;
+  z-index:1000;
+  background-color: $vert-d-eau;
+  flex-shrink:0;
+  @include media-breakpoint-down(sm) {
+    height:20vh;
+  }
+}
+
+/* Name of the created animal */
+h1.hybrid__name {
+  font-family: 'fibre_vintagefibre_vintage';
+  display: inline-block;
+  font-size: 6em;
+  margin: 0;
+  padding: 0;
+  color: $beige;
+}
+@include media-breakpoint-up(sm) {
+  h1.hybrid__name {
+    font-size: 8em;
+  }
+}
+@include media-breakpoint-up(md) {
+  h1.hybrid__name {
+    font-size: 10em;
+  }
+}
+@include media-breakpoint-up(lg) {
+  h1.hybrid__name {
+    font-size: 13em;
+  }
+}

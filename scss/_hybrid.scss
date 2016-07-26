@@ -1,46 +1,32 @@
-@import "bootstrap-sass/variables";
-@import "bootstrap-sass/mixins/clearfix";
-@import "bootstrap-sass/mixins/breakpoints";
-@import "bootstrap-sass/mixins/grid-framework";
-@import "bootstrap-sass/mixins/grid";
-@import "bootstrap-sass/grid";
-
-h1.hybrid__name {
-  font-family: 'fibre_vintagefibre_vintage';
-  display: inline-block;
-  font-size: 5em;
-  margin: 0;
-  padding: 0;
-  color: $beige;
-}
-
-@include media-breakpoint-up(sm) {
-  h1.hybrid__name {
-    font-size: 8em;
+.game--content {
+  /* Right part of the app, where the drop happens */
+  .game__hybrid {
+    background-color: $beige;
+    /* use of flexbox */
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 auto;
+    flex-wrap: nowrap;
+    width: 50vw;
+    /* proportions for both side change according to the width screen */
+    @include media-breakpoint-down(md) {
+      width: 60vw;
+    }
+    @include media-breakpoint-down(sm) {
+      width: 65vw;
+    }
+    svg {
+      height: 70vh;
+      @include media-breakpoint-down(sm) {
+        height:65vh;
+      }
+    }
   }
 }
 
-@include media-breakpoint-up(md) {
-  h1.hybrid__name {
-    font-size: 10em;
-  }
-}
-
-@include media-breakpoint-up(lg) {
-  h1.hybrid__name {
-    font-size: 13em;
-  }
-}
-
+/* svg container */
 .animal__parts {
   position: relative;
-  height: 100vh
+  height: 100%;
 }
 
-.game__hybrid {
-  svg {
-    height: 82vh;
-    width: 100%;
-    position: absolute;
-  }
-}

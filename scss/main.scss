@@ -2,90 +2,67 @@
 @import 'animal-list';
 @import 'hybrid';
 @import 'fibre';
+@import 'name';
+@import "bootstrap-sass/variables";
+@import "bootstrap-sass/mixins/clearfix";
+@import "bootstrap-sass/mixins/breakpoints";
+@import "bootstrap-sass/mixins/grid-framework";
+@import "bootstrap-sass/mixins/grid";
+@import "bootstrap-sass/grid";
 
 html,
 body {
   font-size: 62.5%;
-  height:100vh;
-  overflow: hidden;
-  margin: 0;
-  padding: 0;
-  position: fixed;
 }
 
 h3 {
   font-family: 'fibre_vintagefibre_vintage';
   color: $dark-grey;
+  font-size: 5em;
 }
 
 .game {
   overflow-x: hidden;
   display: flex;
   flex-direction: column;
+  height: 100vh;
   .h3 {
     padding-top: 10px;
   }
-}
-
-.game--content {
-  height: 82vh;
-  display: flex;
-  flex: 1 1 auto;
-  flex-direction: row;
-  flex-wrap: wrap;
-  overflow: hidden;
-  .game__animal {
-    flex: 1 1 auto;
-    flex-wrap: nowrap;
-    width: 50vw;
-    overflow: hidden;
-    @include media-breakpoint-down(md) {
-      width: 35vw;
-    }
-    @include media-breakpoint-down(sm) {
-      width: 30vw;
-    }
-    .animal-list {
-      position: relative;
-      top:0;
-      overflow: scroll;
-      webkit-overflow-scrolling: touch;
-      height: 82vh;
-
-    }
+  /* Drag preview created by react component ItemPreview */
+  .item.preview {
+    opacity: 0.8;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 12vh;
   }
-  .game__hybrid {
-    background-color: $beige;
+  /* container for the upper part of the app(animal-list + hybrid) */
+  .game--content {
+    height: 82vh;
+    @include media-breakpoint-down(sm) {
+      height: 75vh;
+    }
     display: flex;
-    flex-direction: column;
     flex: 1 1 auto;
-    flex-wrap: nowrap;
-    width: 50vw;
-    @include media-breakpoint-down(md) {
-      width: 65vw;
-    }
-    @include media-breakpoint-down(sm) {
-      width: 70vw;
-    }
+    flex-direction: column;
+    width: 100vw;
+    flex-wrap: wrap;
+    overflow: hidden;
   }
 }
 
-.game__name {
-  flex: 0 0 auto;
-  height: 18vh;
-  padding-top: 2%;
-  display: block;
-  z-index:1000;
-  background-color: $vert-d-eau;
-  flex-shrink:0;
-}
-
+/*
+Scrollbar make bigger because of the touch issue with the icon, drag and scroll impossible on the same time
+It appears only on small screen on landscape view.
+*/
 ::-webkit-scrollbar {
   -webkit-appearance: none;
-  width: 7px;
+  width: 20px;
+
 }
 ::-webkit-scrollbar-thumb {
-  border-radius: 4px;
-  background-color: rgba(0,0,0,.5);
-  -webkit-box-shadow: 0 0 1px rgba(255,255,255,.5);
+  border-radius: 15px;
+  background-color:#ab3d3d;
+  -webkit-box-shadow: 0 0 1px rgba(0,0,0,.2);
 }

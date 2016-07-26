@@ -1,10 +1,3 @@
-/*
- *    Steps
- * 1. Rename your gulpfile.js to gulpfile.babel.js
- * 2. Add babel to your package.json (npm install -D babel)
- * 3. Start writing ES6 in your gulpfile!
- */
-
 import gulp from 'gulp'; // ES6 imports!
 import sass from 'gulp-sass';
 import autoprefixer from 'gulp-autoprefixer';

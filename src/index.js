@@ -1,23 +1,15 @@
 import 'babel-polyfill'
-import Game from './containers/Game'
-import { createStore, compose } from 'redux'
-import { Provider } from 'react-redux'
-//import { persistState, createDevTools } from 'redux-devtools'
-//import LogMonitor from 'redux-devtools-log-monitor'
-//import DockMonitor from 'redux-devtools-dock-monitor'
-import reducer from './reducers/reducers'
-
+/* React */
 import React from 'react'
 import ReactDOM from 'react-dom'
+/* Redux */
+import { createStore, compose } from 'redux'
+import { Provider } from 'react-redux'
 
-//const DevTools = createDevTools(<DockMonitor toggleVisibilityKey='ctrl-h' changePositionKey='ctrl-q'>
-//    <LogMonitor theme='tomorrow'/>
-//</DockMonitor>)
+import reducer from './reducers/reducers'
+import Game from './containers/Game'
 
-//const finalCreateStore = compose(DevTools.instrument(), persistState(window.location.href.match(/[?&]debug_session=([^&]+)\b/)))(createStore)
-
-
-let store = createStore(reducer)
+let store = createStore(reducer);
 
 const App = () => (
     <div>
@@ -27,8 +19,7 @@ const App = () => (
             </div>
         </Provider>
     </div>
-)
+);
 
-
-ReactDOM.render(<App />, document.querySelector('.wrapper'))
+ReactDOM.render(<App />, document.querySelector('.wrapper'));
 

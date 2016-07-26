@@ -1,4 +1,31 @@
-.game__animal {
-  background-color: $pink;
+@import "bootstrap-sass/variables";
+@import "bootstrap-sass/mixins/clearfix";
+@import "bootstrap-sass/mixins/breakpoints";
+@import "bootstrap-sass/mixins/grid-framework";
+@import "bootstrap-sass/mixins/grid";
+@import "bootstrap-sass/grid";
+
+.game--content {
+  .game__animal {
+    flex: 1 1 auto;
+    flex-wrap: nowrap;
+    width: 50vw;
+    background-color: $pink;
+    overflow-y: auto;
+    @include media-breakpoint-down(md) {
+      width: 40vw;
+    }
+    @include media-breakpoint-down(sm) {
+      width: 35vw;
+    }
+    .animal-list {
+      z-index: 20000;
+      height: 78vh;
+      @include media-breakpoint-down(sm) {
+        height:70vh;
+        padding-bottom: 7vh;
+      }
+    }
+  }
 }
 
