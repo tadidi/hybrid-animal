@@ -39923,7 +39923,7 @@
 	            var connectDragPreview = this.props.connectDragPreview;
 
 	            var img = new Image();
-	            img.src = '../img/transparent.gif';
+	            img.src = 'img/transparent.gif';
 	            img.onload = function () {
 	                return connectDragPreview(img);
 	            };

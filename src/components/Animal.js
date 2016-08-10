@@ -26,7 +26,7 @@ class Animal extends Component {
         // because of the support for the Touch where we create one.
         const { connectDragPreview } = this.props;
         const img = new Image();
-        img.src = '../img/transparent.gif';
+        img.src = 'img/transparent.gif';
         img.onload = () => connectDragPreview(img)
     }
 
