@@ -20,9 +20,10 @@ Made with :
 ###Getting Started###
 
 ```
+   > clone this project
    > npm install
-
    > npm start
+   > listen to localhost:3001
 ```
 
 [demo]: <https://tadidi.github.io/hybrid-animal/>
