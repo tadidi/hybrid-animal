@@ -18,9 +18,9 @@
     @include media-breakpoint-down(sm) {
       width: 35vw;
     }
-    .animal-list {
+    .animal__list {
       z-index: 20000;
-      height: 78vh;
+      height: 75vh;
       @include media-breakpoint-down(sm) {
         height:70vh;
         padding-bottom: 7vh;

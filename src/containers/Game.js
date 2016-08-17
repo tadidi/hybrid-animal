@@ -23,7 +23,7 @@ const Game = ({game, actions}) => (
             {/* Animals icons */}
             <div className="game__animal">
                 <h3 className="text-lg-center text-xs-center">Glisser</h3>
-                <div className="animal-list">
+                <div className="animal__list">
                     {/* Use of map to generate as many <Animal> (Icon) as there is in the reducer(State) */}
                     {game.animals.map((animal) => <Animal key={animal.name} animal={animal} drag={actions.drag}/>)}
                 </div>

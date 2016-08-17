@@ -24,6 +24,7 @@ h3 {
 
 .game {
   overflow-x: hidden;
+  overflow-y: hidden;
   display: flex;
   flex-direction: column;
   height: 100vh;
@@ -36,7 +37,7 @@ h3 {
     position: absolute;
     top: 0;
     left: 0;
-    width: 12vh;
+    width: 14vh;
   }
   /* container for the upper part of the app(animal-list + hybrid) */
   .game--content {
