@@ -5,7 +5,7 @@ My first project as a developer. It's a game !
 You can mix head, torso and legs from various animals by dragging and dropping.
 You will get an hybrid with its name below.
 
-Play[here] [demo]
+Play [here] [demo]
 
 Made with :
 - React
