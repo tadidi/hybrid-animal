@@ -55,23 +55,23 @@
 
 	__webpack_require__(2);
 
-	var _react = __webpack_require__(300);
+	var _react = __webpack_require__(299);
 
 	var _react2 = _interopRequireDefault(_react);
 
-	var _reactDom = __webpack_require__(456);
+	var _reactDom = __webpack_require__(455);
 
 	var _reactDom2 = _interopRequireDefault(_reactDom);
 
-	var _redux = __webpack_require__(457);
+	var _redux = __webpack_require__(456);
 
 	var _reactRedux = __webpack_require__(470);
 
-	var _reducers = __webpack_require__(483);
+	var _reducers = __webpack_require__(484);
 
 	var _reducers2 = _interopRequireDefault(_reducers);
 
-	var _Game = __webpack_require__(486);
+	var _Game = __webpack_require__(487);
 
 	var _Game2 = _interopRequireDefault(_Game);
 
@@ -80,8 +80,6 @@
 	/* Redux */
 
 	/* React */
-
-
 	var store = (0, _redux.createStore)(_reducers2.default);
 
 	var App = function App() {
@@ -110,9 +108,9 @@
 
 	__webpack_require__(3);
 
-	__webpack_require__(295);
+	__webpack_require__(294);
 
-	__webpack_require__(297);
+	__webpack_require__(296);
 
 	/* eslint max-len: 0 */
 
@@ -169,23 +167,24 @@
 	__webpack_require__(86);
 	__webpack_require__(88);
 	__webpack_require__(90);
+	__webpack_require__(93);
 	__webpack_require__(94);
 	__webpack_require__(95);
 	__webpack_require__(96);
-	__webpack_require__(97);
+	__webpack_require__(98);
 	__webpack_require__(99);
 	__webpack_require__(100);
 	__webpack_require__(101);
 	__webpack_require__(102);
 	__webpack_require__(103);
 	__webpack_require__(104);
-	__webpack_require__(105);
+	__webpack_require__(106);
 	__webpack_require__(107);
 	__webpack_require__(108);
-	__webpack_require__(109);
+	__webpack_require__(110);
 	__webpack_require__(111);
 	__webpack_require__(112);
-	__webpack_require__(113);
+	__webpack_require__(114);
 	__webpack_require__(115);
 	__webpack_require__(116);
 	__webpack_require__(117);
@@ -199,13 +198,13 @@
 	__webpack_require__(125);
 	__webpack_require__(126);
 	__webpack_require__(127);
-	__webpack_require__(128);
+	__webpack_require__(132);
 	__webpack_require__(133);
-	__webpack_require__(134);
+	__webpack_require__(137);
 	__webpack_require__(138);
 	__webpack_require__(139);
 	__webpack_require__(140);
-	__webpack_require__(141);
+	__webpack_require__(142);
 	__webpack_require__(143);
 	__webpack_require__(144);
 	__webpack_require__(145);
@@ -222,36 +221,35 @@
 	__webpack_require__(156);
 	__webpack_require__(157);
 	__webpack_require__(158);
-	__webpack_require__(159);
+	__webpack_require__(160);
 	__webpack_require__(161);
-	__webpack_require__(162);
+	__webpack_require__(167);
 	__webpack_require__(168);
-	__webpack_require__(169);
+	__webpack_require__(170);
 	__webpack_require__(171);
 	__webpack_require__(172);
-	__webpack_require__(173);
+	__webpack_require__(176);
 	__webpack_require__(177);
 	__webpack_require__(178);
 	__webpack_require__(179);
 	__webpack_require__(180);
-	__webpack_require__(181);
+	__webpack_require__(182);
 	__webpack_require__(183);
 	__webpack_require__(184);
 	__webpack_require__(185);
-	__webpack_require__(186);
-	__webpack_require__(189);
+	__webpack_require__(188);
+	__webpack_require__(190);
 	__webpack_require__(191);
 	__webpack_require__(192);
-	__webpack_require__(193);
-	__webpack_require__(195);
-	__webpack_require__(197);
+	__webpack_require__(194);
+	__webpack_require__(196);
+	__webpack_require__(198);
 	__webpack_require__(199);
 	__webpack_require__(200);
-	__webpack_require__(201);
+	__webpack_require__(202);
 	__webpack_require__(203);
 	__webpack_require__(204);
 	__webpack_require__(205);
-	__webpack_require__(206);
 	__webpack_require__(212);
 	__webpack_require__(215);
 	__webpack_require__(216);
@@ -259,6 +257,7 @@
 	__webpack_require__(219);
 	__webpack_require__(222);
 	__webpack_require__(223);
+	__webpack_require__(225);
 	__webpack_require__(226);
 	__webpack_require__(227);
 	__webpack_require__(228);
@@ -277,13 +276,13 @@
 	__webpack_require__(241);
 	__webpack_require__(242);
 	__webpack_require__(243);
-	__webpack_require__(244);
+	__webpack_require__(245);
 	__webpack_require__(246);
 	__webpack_require__(247);
 	__webpack_require__(248);
 	__webpack_require__(249);
 	__webpack_require__(250);
-	__webpack_require__(251);
+	__webpack_require__(252);
 	__webpack_require__(253);
 	__webpack_require__(254);
 	__webpack_require__(255);
@@ -291,13 +290,13 @@
 	__webpack_require__(257);
 	__webpack_require__(258);
 	__webpack_require__(259);
-	__webpack_require__(260);
+	__webpack_require__(261);
 	__webpack_require__(262);
-	__webpack_require__(263);
+	__webpack_require__(264);
 	__webpack_require__(265);
 	__webpack_require__(266);
 	__webpack_require__(267);
-	__webpack_require__(268);
+	__webpack_require__(270);
 	__webpack_require__(271);
 	__webpack_require__(272);
 	__webpack_require__(273);
@@ -305,7 +304,7 @@
 	__webpack_require__(275);
 	__webpack_require__(276);
 	__webpack_require__(277);
-	__webpack_require__(278);
+	__webpack_require__(279);
 	__webpack_require__(280);
 	__webpack_require__(281);
 	__webpack_require__(282);
@@ -316,9 +315,8 @@
 	__webpack_require__(287);
 	__webpack_require__(288);
 	__webpack_require__(289);
-	__webpack_require__(290);
+	__webpack_require__(292);
 	__webpack_require__(293);
-	__webpack_require__(294);
 	module.exports = __webpack_require__(10);
 
 /***/ },
@@ -1189,6 +1187,7 @@
 	  // Thrash, waste and sodomy: IE GC bug
 	  var iframe = __webpack_require__(16)('iframe')
 	    , i      = enumBugKeys.length
+	    , lt     = '<'
 	    , gt     = '>'
 	    , iframeDocument;
 	  iframe.style.display = 'none';
@@ -1198,7 +1197,7 @@
 	  // html.removeChild(iframe);
 	  iframeDocument = iframe.contentWindow.document;
 	  iframeDocument.open();
-	  iframeDocument.write('<script>document.F=Object</script' + gt);
+	  iframeDocument.write(lt + 'script' + gt + 'document.F=Object' + lt + '/script' + gt);
 	  iframeDocument.close();
 	  createDict = iframeDocument.F;
 	  while(i--)delete createDict[PROTOTYPE][enumBugKeys[i]];
@@ -1216,6 +1215,7 @@
 	  } else result = createDict();
 	  return Properties === undefined ? result : dPs(result, Properties);
 	};
+
 
 /***/ },
 /* 48 */
@@ -1930,10 +1930,9 @@
 
 	'use strict';
 	var $export      = __webpack_require__(9)
-	  , anInstance   = __webpack_require__(91)
 	  , toInteger    = __webpack_require__(39)
-	  , aNumberValue = __webpack_require__(92)
-	  , repeat       = __webpack_require__(93)
+	  , aNumberValue = __webpack_require__(91)
+	  , repeat       = __webpack_require__(92)
 	  , $toFixed     = 1..toFixed
 	  , floor        = Math.floor
 	  , data         = [0, 0, 0, 0, 0, 0]
@@ -2045,16 +2044,6 @@
 
 /***/ },
 /* 91 */
-/***/ function(module, exports) {
-
-	module.exports = function(it, Constructor, name, forbiddenField){
-	  if(!(it instanceof Constructor) || (forbiddenField !== undefined && forbiddenField in it)){
-	    throw TypeError(name + ': incorrect invocation!');
-	  } return it;
-	};
-
-/***/ },
-/* 92 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var cof = __webpack_require__(35);
@@ -2064,7 +2053,7 @@
 	};
 
 /***/ },
-/* 93 */
+/* 92 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -2081,13 +2070,13 @@
 	};
 
 /***/ },
-/* 94 */
+/* 93 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
 	var $export      = __webpack_require__(9)
 	  , $fails       = __webpack_require__(8)
-	  , aNumberValue = __webpack_require__(92)
+	  , aNumberValue = __webpack_require__(91)
 	  , $toPrecision = 1..toPrecision;
 
 	$export($export.P + $export.F * ($fails(function(){
@@ -2104,7 +2093,7 @@
 	});
 
 /***/ },
-/* 95 */
+/* 94 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// 20.1.2.1 Number.EPSILON
@@ -2113,7 +2102,7 @@
 	$export($export.S, 'Number', {EPSILON: Math.pow(2, -52)});
 
 /***/ },
-/* 96 */
+/* 95 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// 20.1.2.2 Number.isFinite(number)
@@ -2127,16 +2116,16 @@
 	});
 
 /***/ },
-/* 97 */
+/* 96 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// 20.1.2.3 Number.isInteger(number)
 	var $export = __webpack_require__(9);
 
-	$export($export.S, 'Number', {isInteger: __webpack_require__(98)});
+	$export($export.S, 'Number', {isInteger: __webpack_require__(97)});
 
 /***/ },
-/* 98 */
+/* 97 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// 20.1.2.3 Number.isInteger(number)
@@ -2147,7 +2136,7 @@
 	};
 
 /***/ },
-/* 99 */
+/* 98 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// 20.1.2.4 Number.isNaN(number)
@@ -2160,12 +2149,12 @@
 	});
 
 /***/ },
-/* 100 */
+/* 99 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// 20.1.2.5 Number.isSafeInteger(number)
 	var $export   = __webpack_require__(9)
-	  , isInteger = __webpack_require__(98)
+	  , isInteger = __webpack_require__(97)
 	  , abs       = Math.abs;
 
 	$export($export.S, 'Number', {
@@ -2175,7 +2164,7 @@
 	});
 
 /***/ },
-/* 101 */
+/* 100 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// 20.1.2.6 Number.MAX_SAFE_INTEGER
@@ -2184,7 +2173,7 @@
 	$export($export.S, 'Number', {MAX_SAFE_INTEGER: 0x1fffffffffffff});
 
 /***/ },
-/* 102 */
+/* 101 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// 20.1.2.10 Number.MIN_SAFE_INTEGER
@@ -2193,7 +2182,7 @@
 	$export($export.S, 'Number', {MIN_SAFE_INTEGER: -0x1fffffffffffff});
 
 /***/ },
-/* 103 */
+/* 102 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var $export     = __webpack_require__(9)
@@ -2202,7 +2191,7 @@
 	$export($export.S + $export.F * (Number.parseFloat != $parseFloat), 'Number', {parseFloat: $parseFloat});
 
 /***/ },
-/* 104 */
+/* 103 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var $export   = __webpack_require__(9)
@@ -2211,12 +2200,12 @@
 	$export($export.S + $export.F * (Number.parseInt != $parseInt), 'Number', {parseInt: $parseInt});
 
 /***/ },
-/* 105 */
+/* 104 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// 20.2.2.3 Math.acosh(x)
 	var $export = __webpack_require__(9)
-	  , log1p   = __webpack_require__(106)
+	  , log1p   = __webpack_require__(105)
 	  , sqrt    = Math.sqrt
 	  , $acosh  = Math.acosh;
 
@@ -2234,7 +2223,7 @@
 	});
 
 /***/ },
-/* 106 */
+/* 105 */
 /***/ function(module, exports) {
 
 	// 20.2.2.20 Math.log1p(x)
@@ -2243,7 +2232,7 @@
 	};
 
 /***/ },
-/* 107 */
+/* 106 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// 20.2.2.5 Math.asinh(x)
@@ -2258,7 +2247,7 @@
 	$export($export.S + $export.F * !($asinh && 1 / $asinh(0) > 0), 'Math', {asinh: asinh});
 
 /***/ },
-/* 108 */
+/* 107 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// 20.2.2.7 Math.atanh(x)
@@ -2273,12 +2262,12 @@
 	});
 
 /***/ },
-/* 109 */
+/* 108 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// 20.2.2.9 Math.cbrt(x)
 	var $export = __webpack_require__(9)
-	  , sign    = __webpack_require__(110);
+	  , sign    = __webpack_require__(109);
 
 	$export($export.S, 'Math', {
 	  cbrt: function cbrt(x){
@@ -2287,7 +2276,7 @@
 	});
 
 /***/ },
-/* 110 */
+/* 109 */
 /***/ function(module, exports) {
 
 	// 20.2.2.28 Math.sign(x)
@@ -2296,7 +2285,7 @@
 	};
 
 /***/ },
-/* 111 */
+/* 110 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// 20.2.2.11 Math.clz32(x)
@@ -2309,7 +2298,7 @@
 	});
 
 /***/ },
-/* 112 */
+/* 111 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// 20.2.2.12 Math.cosh(x)
@@ -2323,17 +2312,17 @@
 	});
 
 /***/ },
-/* 113 */
+/* 112 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// 20.2.2.14 Math.expm1(x)
 	var $export = __webpack_require__(9)
-	  , $expm1  = __webpack_require__(114);
+	  , $expm1  = __webpack_require__(113);
 
 	$export($export.S + $export.F * ($expm1 != Math.expm1), 'Math', {expm1: $expm1});
 
 /***/ },
-/* 114 */
+/* 113 */
 /***/ function(module, exports) {
 
 	// 20.2.2.14 Math.expm1(x)
@@ -2348,12 +2337,12 @@
 	} : $expm1;
 
 /***/ },
-/* 115 */
+/* 114 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// 20.2.2.16 Math.fround(x)
 	var $export   = __webpack_require__(9)
-	  , sign      = __webpack_require__(110)
+	  , sign      = __webpack_require__(109)
 	  , pow       = Math.pow
 	  , EPSILON   = pow(2, -52)
 	  , EPSILON32 = pow(2, -23)
@@ -2379,7 +2368,7 @@
 	});
 
 /***/ },
-/* 116 */
+/* 115 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// 20.2.2.17 Math.hypot([value1[, value2[, … ]]])
@@ -2409,7 +2398,7 @@
 	});
 
 /***/ },
-/* 117 */
+/* 116 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// 20.2.2.18 Math.imul(x, y)
@@ -2431,7 +2420,7 @@
 	});
 
 /***/ },
-/* 118 */
+/* 117 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// 20.2.2.21 Math.log10(x)
@@ -2444,16 +2433,16 @@
 	});
 
 /***/ },
-/* 119 */
+/* 118 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// 20.2.2.20 Math.log1p(x)
 	var $export = __webpack_require__(9);
 
-	$export($export.S, 'Math', {log1p: __webpack_require__(106)});
+	$export($export.S, 'Math', {log1p: __webpack_require__(105)});
 
 /***/ },
-/* 120 */
+/* 119 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// 20.2.2.22 Math.log2(x)
@@ -2466,21 +2455,21 @@
 	});
 
 /***/ },
-/* 121 */
+/* 120 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// 20.2.2.28 Math.sign(x)
 	var $export = __webpack_require__(9);
 
-	$export($export.S, 'Math', {sign: __webpack_require__(110)});
+	$export($export.S, 'Math', {sign: __webpack_require__(109)});
 
 /***/ },
-/* 122 */
+/* 121 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// 20.2.2.30 Math.sinh(x)
 	var $export = __webpack_require__(9)
-	  , expm1   = __webpack_require__(114)
+	  , expm1   = __webpack_require__(113)
 	  , exp     = Math.exp;
 
 	// V8 near Chromium 38 has a problem with very small numbers
@@ -2495,12 +2484,12 @@
 	});
 
 /***/ },
-/* 123 */
+/* 122 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// 20.2.2.33 Math.tanh(x)
 	var $export = __webpack_require__(9)
-	  , expm1   = __webpack_require__(114)
+	  , expm1   = __webpack_require__(113)
 	  , exp     = Math.exp;
 
 	$export($export.S, 'Math', {
@@ -2512,7 +2501,7 @@
 	});
 
 /***/ },
-/* 124 */
+/* 123 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// 20.2.2.34 Math.trunc(x)
@@ -2525,7 +2514,7 @@
 	});
 
 /***/ },
-/* 125 */
+/* 124 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var $export        = __webpack_require__(9)
@@ -2553,7 +2542,7 @@
 	});
 
 /***/ },
-/* 126 */
+/* 125 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var $export   = __webpack_require__(9)
@@ -2576,7 +2565,7 @@
 	});
 
 /***/ },
-/* 127 */
+/* 126 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -2588,14 +2577,14 @@
 	});
 
 /***/ },
-/* 128 */
+/* 127 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
-	var $at  = __webpack_require__(129)(true);
+	var $at  = __webpack_require__(128)(true);
 
 	// 21.1.3.27 String.prototype[@@iterator]()
-	__webpack_require__(130)(String, 'String', function(iterated){
+	__webpack_require__(129)(String, 'String', function(iterated){
 	  this._t = String(iterated); // target
 	  this._i = 0;                // next index
 	// 21.1.5.2.1 %StringIteratorPrototype%.next()
@@ -2610,7 +2599,7 @@
 	});
 
 /***/ },
-/* 129 */
+/* 128 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var toInteger = __webpack_require__(39)
@@ -2632,7 +2621,7 @@
 	};
 
 /***/ },
-/* 130 */
+/* 129 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -2641,8 +2630,8 @@
 	  , redefine       = __webpack_require__(19)
 	  , hide           = __webpack_require__(11)
 	  , has            = __webpack_require__(6)
-	  , Iterators      = __webpack_require__(131)
-	  , $iterCreate    = __webpack_require__(132)
+	  , Iterators      = __webpack_require__(130)
+	  , $iterCreate    = __webpack_require__(131)
 	  , setToStringTag = __webpack_require__(25)
 	  , getPrototypeOf = __webpack_require__(60)
 	  , ITERATOR       = __webpack_require__(26)('iterator')
@@ -2707,13 +2696,13 @@
 	};
 
 /***/ },
-/* 131 */
+/* 130 */
 /***/ function(module, exports) {
 
 	module.exports = {};
 
 /***/ },
-/* 132 */
+/* 131 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -2731,12 +2720,12 @@
 	};
 
 /***/ },
-/* 133 */
+/* 132 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
 	var $export = __webpack_require__(9)
-	  , $at     = __webpack_require__(129)(false);
+	  , $at     = __webpack_require__(128)(false);
 	$export($export.P, 'String', {
 	  // 21.1.3.3 String.prototype.codePointAt(pos)
 	  codePointAt: function codePointAt(pos){
@@ -2745,18 +2734,18 @@
 	});
 
 /***/ },
-/* 134 */
+/* 133 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// 21.1.3.6 String.prototype.endsWith(searchString [, endPosition])
 	'use strict';
 	var $export   = __webpack_require__(9)
 	  , toLength  = __webpack_require__(38)
-	  , context   = __webpack_require__(135)
+	  , context   = __webpack_require__(134)
 	  , ENDS_WITH = 'endsWith'
 	  , $endsWith = ''[ENDS_WITH];
 
-	$export($export.P + $export.F * __webpack_require__(137)(ENDS_WITH), 'String', {
+	$export($export.P + $export.F * __webpack_require__(136)(ENDS_WITH), 'String', {
 	  endsWith: function endsWith(searchString /*, endPosition = @length */){
 	    var that = context(this, searchString, ENDS_WITH)
 	      , endPosition = arguments.length > 1 ? arguments[1] : undefined
@@ -2770,11 +2759,11 @@
 	});
 
 /***/ },
-/* 135 */
+/* 134 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// helper for String#{startsWith, endsWith, includes}
-	var isRegExp = __webpack_require__(136)
+	var isRegExp = __webpack_require__(135)
 	  , defined  = __webpack_require__(36);
 
 	module.exports = function(that, searchString, NAME){
@@ -2783,7 +2772,7 @@
 	};
 
 /***/ },
-/* 136 */
+/* 135 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// 7.2.8 IsRegExp(argument)
@@ -2796,7 +2785,7 @@
 	};
 
 /***/ },
-/* 137 */
+/* 136 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var MATCH = __webpack_require__(26)('match');
@@ -2813,16 +2802,16 @@
 	};
 
 /***/ },
-/* 138 */
+/* 137 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// 21.1.3.7 String.prototype.includes(searchString, position = 0)
 	'use strict';
 	var $export  = __webpack_require__(9)
-	  , context  = __webpack_require__(135)
+	  , context  = __webpack_require__(134)
 	  , INCLUDES = 'includes';
 
-	$export($export.P + $export.F * __webpack_require__(137)(INCLUDES), 'String', {
+	$export($export.P + $export.F * __webpack_require__(136)(INCLUDES), 'String', {
 	  includes: function includes(searchString /*, position = 0 */){
 	    return !!~context(this, searchString, INCLUDES)
 	      .indexOf(searchString, arguments.length > 1 ? arguments[1] : undefined);
@@ -2830,29 +2819,29 @@
 	});
 
 /***/ },
-/* 139 */
+/* 138 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var $export = __webpack_require__(9);
 
 	$export($export.P, 'String', {
 	  // 21.1.3.13 String.prototype.repeat(count)
-	  repeat: __webpack_require__(93)
+	  repeat: __webpack_require__(92)
 	});
 
 /***/ },
-/* 140 */
+/* 139 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// 21.1.3.18 String.prototype.startsWith(searchString [, position ])
 	'use strict';
 	var $export     = __webpack_require__(9)
 	  , toLength    = __webpack_require__(38)
-	  , context     = __webpack_require__(135)
+	  , context     = __webpack_require__(134)
 	  , STARTS_WITH = 'startsWith'
 	  , $startsWith = ''[STARTS_WITH];
 
-	$export($export.P + $export.F * __webpack_require__(137)(STARTS_WITH), 'String', {
+	$export($export.P + $export.F * __webpack_require__(136)(STARTS_WITH), 'String', {
 	  startsWith: function startsWith(searchString /*, position = 0 */){
 	    var that   = context(this, searchString, STARTS_WITH)
 	      , index  = toLength(Math.min(arguments.length > 1 ? arguments[1] : undefined, that.length))
@@ -2864,19 +2853,19 @@
 	});
 
 /***/ },
-/* 141 */
+/* 140 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
 	// B.2.3.2 String.prototype.anchor(name)
-	__webpack_require__(142)('anchor', function(createHTML){
+	__webpack_require__(141)('anchor', function(createHTML){
 	  return function anchor(name){
 	    return createHTML(this, 'a', 'name', name);
 	  }
 	});
 
 /***/ },
-/* 142 */
+/* 141 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var $export = __webpack_require__(9)
@@ -2900,14 +2889,26 @@
 	};
 
 /***/ },
-/* 143 */
+/* 142 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
 	// B.2.3.3 String.prototype.big()
-	__webpack_require__(142)('big', function(createHTML){
+	__webpack_require__(141)('big', function(createHTML){
 	  return function big(){
 	    return createHTML(this, 'big', '', '');
+	  }
+	});
+
+/***/ },
+/* 143 */
+/***/ function(module, exports, __webpack_require__) {
+
+	'use strict';
+	// B.2.3.4 String.prototype.blink()
+	__webpack_require__(141)('blink', function(createHTML){
+	  return function blink(){
+	    return createHTML(this, 'blink', '', '');
 	  }
 	});
 
@@ -2916,10 +2917,10 @@
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
-	// B.2.3.4 String.prototype.blink()
-	__webpack_require__(142)('blink', function(createHTML){
-	  return function blink(){
-	    return createHTML(this, 'blink', '', '');
+	// B.2.3.5 String.prototype.bold()
+	__webpack_require__(141)('bold', function(createHTML){
+	  return function bold(){
+	    return createHTML(this, 'b', '', '');
 	  }
 	});
 
@@ -2928,10 +2929,10 @@
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
-	// B.2.3.5 String.prototype.bold()
-	__webpack_require__(142)('bold', function(createHTML){
-	  return function bold(){
-	    return createHTML(this, 'b', '', '');
+	// B.2.3.6 String.prototype.fixed()
+	__webpack_require__(141)('fixed', function(createHTML){
+	  return function fixed(){
+	    return createHTML(this, 'tt', '', '');
 	  }
 	});
 
@@ -2940,10 +2941,10 @@
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
-	// B.2.3.6 String.prototype.fixed()
-	__webpack_require__(142)('fixed', function(createHTML){
-	  return function fixed(){
-	    return createHTML(this, 'tt', '', '');
+	// B.2.3.7 String.prototype.fontcolor(color)
+	__webpack_require__(141)('fontcolor', function(createHTML){
+	  return function fontcolor(color){
+	    return createHTML(this, 'font', 'color', color);
 	  }
 	});
 
@@ -2952,10 +2953,10 @@
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
-	// B.2.3.7 String.prototype.fontcolor(color)
-	__webpack_require__(142)('fontcolor', function(createHTML){
-	  return function fontcolor(color){
-	    return createHTML(this, 'font', 'color', color);
+	// B.2.3.8 String.prototype.fontsize(size)
+	__webpack_require__(141)('fontsize', function(createHTML){
+	  return function fontsize(size){
+	    return createHTML(this, 'font', 'size', size);
 	  }
 	});
 
@@ -2964,10 +2965,10 @@
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
-	// B.2.3.8 String.prototype.fontsize(size)
-	__webpack_require__(142)('fontsize', function(createHTML){
-	  return function fontsize(size){
-	    return createHTML(this, 'font', 'size', size);
+	// B.2.3.9 String.prototype.italics()
+	__webpack_require__(141)('italics', function(createHTML){
+	  return function italics(){
+	    return createHTML(this, 'i', '', '');
 	  }
 	});
 
@@ -2976,10 +2977,10 @@
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
-	// B.2.3.9 String.prototype.italics()
-	__webpack_require__(142)('italics', function(createHTML){
-	  return function italics(){
-	    return createHTML(this, 'i', '', '');
+	// B.2.3.10 String.prototype.link(url)
+	__webpack_require__(141)('link', function(createHTML){
+	  return function link(url){
+	    return createHTML(this, 'a', 'href', url);
 	  }
 	});
 
@@ -2988,10 +2989,10 @@
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
-	// B.2.3.10 String.prototype.link(url)
-	__webpack_require__(142)('link', function(createHTML){
-	  return function link(url){
-	    return createHTML(this, 'a', 'href', url);
+	// B.2.3.11 String.prototype.small()
+	__webpack_require__(141)('small', function(createHTML){
+	  return function small(){
+	    return createHTML(this, 'small', '', '');
 	  }
 	});
 
@@ -3000,10 +3001,10 @@
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
-	// B.2.3.11 String.prototype.small()
-	__webpack_require__(142)('small', function(createHTML){
-	  return function small(){
-	    return createHTML(this, 'small', '', '');
+	// B.2.3.12 String.prototype.strike()
+	__webpack_require__(141)('strike', function(createHTML){
+	  return function strike(){
+	    return createHTML(this, 'strike', '', '');
 	  }
 	});
 
@@ -3012,10 +3013,10 @@
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
-	// B.2.3.12 String.prototype.strike()
-	__webpack_require__(142)('strike', function(createHTML){
-	  return function strike(){
-	    return createHTML(this, 'strike', '', '');
+	// B.2.3.13 String.prototype.sub()
+	__webpack_require__(141)('sub', function(createHTML){
+	  return function sub(){
+	    return createHTML(this, 'sub', '', '');
 	  }
 	});
 
@@ -3024,27 +3025,15 @@
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
-	// B.2.3.13 String.prototype.sub()
-	__webpack_require__(142)('sub', function(createHTML){
-	  return function sub(){
-	    return createHTML(this, 'sub', '', '');
-	  }
-	});
-
-/***/ },
-/* 154 */
-/***/ function(module, exports, __webpack_require__) {
-
-	'use strict';
 	// B.2.3.14 String.prototype.sup()
-	__webpack_require__(142)('sup', function(createHTML){
+	__webpack_require__(141)('sup', function(createHTML){
 	  return function sup(){
 	    return createHTML(this, 'sup', '', '');
 	  }
 	});
 
 /***/ },
-/* 155 */
+/* 154 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// 20.3.3.1 / 15.9.4.4 Date.now()
@@ -3053,7 +3042,7 @@
 	$export($export.S, 'Date', {now: function(){ return new Date().getTime(); }});
 
 /***/ },
-/* 156 */
+/* 155 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -3072,7 +3061,7 @@
 	});
 
 /***/ },
-/* 157 */
+/* 156 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -3105,7 +3094,7 @@
 	});
 
 /***/ },
-/* 158 */
+/* 157 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var DateProto    = Date.prototype
@@ -3121,16 +3110,16 @@
 	}
 
 /***/ },
-/* 159 */
+/* 158 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var TO_PRIMITIVE = __webpack_require__(26)('toPrimitive')
 	  , proto        = Date.prototype;
 
-	if(!(TO_PRIMITIVE in proto))__webpack_require__(11)(proto, TO_PRIMITIVE, __webpack_require__(160));
+	if(!(TO_PRIMITIVE in proto))__webpack_require__(11)(proto, TO_PRIMITIVE, __webpack_require__(159));
 
 /***/ },
-/* 160 */
+/* 159 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -3144,7 +3133,7 @@
 	};
 
 /***/ },
-/* 161 */
+/* 160 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// 22.1.2.2 / 15.4.3.2 Array.isArray(arg)
@@ -3153,20 +3142,20 @@
 	$export($export.S, 'Array', {isArray: __webpack_require__(46)});
 
 /***/ },
-/* 162 */
+/* 161 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
 	var ctx            = __webpack_require__(21)
 	  , $export        = __webpack_require__(9)
 	  , toObject       = __webpack_require__(59)
-	  , call           = __webpack_require__(163)
-	  , isArrayIter    = __webpack_require__(164)
+	  , call           = __webpack_require__(162)
+	  , isArrayIter    = __webpack_require__(163)
 	  , toLength       = __webpack_require__(38)
-	  , createProperty = __webpack_require__(165)
-	  , getIterFn      = __webpack_require__(166);
+	  , createProperty = __webpack_require__(164)
+	  , getIterFn      = __webpack_require__(165);
 
-	$export($export.S + $export.F * !__webpack_require__(167)(function(iter){ Array.from(iter); }), 'Array', {
+	$export($export.S + $export.F * !__webpack_require__(166)(function(iter){ Array.from(iter); }), 'Array', {
 	  // 22.1.2.1 Array.from(arrayLike, mapfn = undefined, thisArg = undefined)
 	  from: function from(arrayLike/*, mapfn = undefined, thisArg = undefined*/){
 	    var O       = toObject(arrayLike)
@@ -3196,7 +3185,7 @@
 
 
 /***/ },
-/* 163 */
+/* 162 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// call something on iterator step with safe closing on error
@@ -3213,11 +3202,11 @@
 	};
 
 /***/ },
-/* 164 */
+/* 163 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// check on default Array iterator
-	var Iterators  = __webpack_require__(131)
+	var Iterators  = __webpack_require__(130)
 	  , ITERATOR   = __webpack_require__(26)('iterator')
 	  , ArrayProto = Array.prototype;
 
@@ -3226,7 +3215,7 @@
 	};
 
 /***/ },
-/* 165 */
+/* 164 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -3239,12 +3228,12 @@
 	};
 
 /***/ },
-/* 166 */
+/* 165 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var classof   = __webpack_require__(76)
 	  , ITERATOR  = __webpack_require__(26)('iterator')
-	  , Iterators = __webpack_require__(131);
+	  , Iterators = __webpack_require__(130);
 	module.exports = __webpack_require__(10).getIteratorMethod = function(it){
 	  if(it != undefined)return it[ITERATOR]
 	    || it['@@iterator']
@@ -3252,7 +3241,7 @@
 	};
 
 /***/ },
-/* 167 */
+/* 166 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var ITERATOR     = __webpack_require__(26)('iterator')
@@ -3278,12 +3267,12 @@
 	};
 
 /***/ },
-/* 168 */
+/* 167 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
 	var $export        = __webpack_require__(9)
-	  , createProperty = __webpack_require__(165);
+	  , createProperty = __webpack_require__(164);
 
 	// WebKit Array.of isn't generic
 	$export($export.S + $export.F * __webpack_require__(8)(function(){
@@ -3302,7 +3291,7 @@
 	});
 
 /***/ },
-/* 169 */
+/* 168 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -3312,14 +3301,14 @@
 	  , arrayJoin = [].join;
 
 	// fallback for not array-like strings
-	$export($export.P + $export.F * (__webpack_require__(34) != Object || !__webpack_require__(170)(arrayJoin)), 'Array', {
+	$export($export.P + $export.F * (__webpack_require__(34) != Object || !__webpack_require__(169)(arrayJoin)), 'Array', {
 	  join: function join(separator){
 	    return arrayJoin.call(toIObject(this), separator === undefined ? ',' : separator);
 	  }
 	});
 
 /***/ },
-/* 170 */
+/* 169 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var fails = __webpack_require__(8);
@@ -3331,7 +3320,7 @@
 	};
 
 /***/ },
-/* 171 */
+/* 170 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -3364,7 +3353,7 @@
 	});
 
 /***/ },
-/* 172 */
+/* 171 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -3382,7 +3371,7 @@
 	  // V8 bug
 	  test.sort(null);
 	  // Old WebKit
-	}) || !__webpack_require__(170)($sort)), 'Array', {
+	}) || !__webpack_require__(169)($sort)), 'Array', {
 	  // 22.1.3.25 Array.prototype.sort(comparefn)
 	  sort: function sort(comparefn){
 	    return comparefn === undefined
@@ -3392,13 +3381,13 @@
 	});
 
 /***/ },
-/* 173 */
+/* 172 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
 	var $export  = __webpack_require__(9)
-	  , $forEach = __webpack_require__(174)(0)
-	  , STRICT   = __webpack_require__(170)([].forEach, true);
+	  , $forEach = __webpack_require__(173)(0)
+	  , STRICT   = __webpack_require__(169)([].forEach, true);
 
 	$export($export.P + $export.F * !STRICT, 'Array', {
 	  // 22.1.3.10 / 15.4.4.18 Array.prototype.forEach(callbackfn [, thisArg])
@@ -3408,7 +3397,7 @@
 	});
 
 /***/ },
-/* 174 */
+/* 173 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// 0 -> Array#forEach
@@ -3422,7 +3411,7 @@
 	  , IObject  = __webpack_require__(34)
 	  , toObject = __webpack_require__(59)
 	  , toLength = __webpack_require__(38)
-	  , asc      = __webpack_require__(175);
+	  , asc      = __webpack_require__(174);
 	module.exports = function(TYPE, $create){
 	  var IS_MAP        = TYPE == 1
 	    , IS_FILTER     = TYPE == 2
@@ -3457,18 +3446,18 @@
 	};
 
 /***/ },
-/* 175 */
+/* 174 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// 9.4.2.3 ArraySpeciesCreate(originalArray, length)
-	var speciesConstructor = __webpack_require__(176);
+	var speciesConstructor = __webpack_require__(175);
 
 	module.exports = function(original, length){
 	  return new (speciesConstructor(original))(length);
 	};
 
 /***/ },
-/* 176 */
+/* 175 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var isObject = __webpack_require__(14)
@@ -3489,17 +3478,32 @@
 	};
 
 /***/ },
+/* 176 */
+/***/ function(module, exports, __webpack_require__) {
+
+	'use strict';
+	var $export = __webpack_require__(9)
+	  , $map    = __webpack_require__(173)(1);
+
+	$export($export.P + $export.F * !__webpack_require__(169)([].map, true), 'Array', {
+	  // 22.1.3.15 / 15.4.4.19 Array.prototype.map(callbackfn [, thisArg])
+	  map: function map(callbackfn /* , thisArg */){
+	    return $map(this, callbackfn, arguments[1]);
+	  }
+	});
+
+/***/ },
 /* 177 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
 	var $export = __webpack_require__(9)
-	  , $map    = __webpack_require__(174)(1);
+	  , $filter = __webpack_require__(173)(2);
 
-	$export($export.P + $export.F * !__webpack_require__(170)([].map, true), 'Array', {
-	  // 22.1.3.15 / 15.4.4.19 Array.prototype.map(callbackfn [, thisArg])
-	  map: function map(callbackfn /* , thisArg */){
-	    return $map(this, callbackfn, arguments[1]);
+	$export($export.P + $export.F * !__webpack_require__(169)([].filter, true), 'Array', {
+	  // 22.1.3.7 / 15.4.4.20 Array.prototype.filter(callbackfn [, thisArg])
+	  filter: function filter(callbackfn /* , thisArg */){
+	    return $filter(this, callbackfn, arguments[1]);
 	  }
 	});
 
@@ -3509,12 +3513,12 @@
 
 	'use strict';
 	var $export = __webpack_require__(9)
-	  , $filter = __webpack_require__(174)(2);
+	  , $some   = __webpack_require__(173)(3);
 
-	$export($export.P + $export.F * !__webpack_require__(170)([].filter, true), 'Array', {
-	  // 22.1.3.7 / 15.4.4.20 Array.prototype.filter(callbackfn [, thisArg])
-	  filter: function filter(callbackfn /* , thisArg */){
-	    return $filter(this, callbackfn, arguments[1]);
+	$export($export.P + $export.F * !__webpack_require__(169)([].some, true), 'Array', {
+	  // 22.1.3.23 / 15.4.4.17 Array.prototype.some(callbackfn [, thisArg])
+	  some: function some(callbackfn /* , thisArg */){
+	    return $some(this, callbackfn, arguments[1]);
 	  }
 	});
 
@@ -3524,12 +3528,12 @@
 
 	'use strict';
 	var $export = __webpack_require__(9)
-	  , $some   = __webpack_require__(174)(3);
+	  , $every  = __webpack_require__(173)(4);
 
-	$export($export.P + $export.F * !__webpack_require__(170)([].some, true), 'Array', {
-	  // 22.1.3.23 / 15.4.4.17 Array.prototype.some(callbackfn [, thisArg])
-	  some: function some(callbackfn /* , thisArg */){
-	    return $some(this, callbackfn, arguments[1]);
+	$export($export.P + $export.F * !__webpack_require__(169)([].every, true), 'Array', {
+	  // 22.1.3.5 / 15.4.4.16 Array.prototype.every(callbackfn [, thisArg])
+	  every: function every(callbackfn /* , thisArg */){
+	    return $every(this, callbackfn, arguments[1]);
 	  }
 	});
 
@@ -3539,24 +3543,9 @@
 
 	'use strict';
 	var $export = __webpack_require__(9)
-	  , $every  = __webpack_require__(174)(4);
+	  , $reduce = __webpack_require__(181);
 
-	$export($export.P + $export.F * !__webpack_require__(170)([].every, true), 'Array', {
-	  // 22.1.3.5 / 15.4.4.16 Array.prototype.every(callbackfn [, thisArg])
-	  every: function every(callbackfn /* , thisArg */){
-	    return $every(this, callbackfn, arguments[1]);
-	  }
-	});
-
-/***/ },
-/* 181 */
-/***/ function(module, exports, __webpack_require__) {
-
-	'use strict';
-	var $export = __webpack_require__(9)
-	  , $reduce = __webpack_require__(182);
-
-	$export($export.P + $export.F * !__webpack_require__(170)([].reduce, true), 'Array', {
+	$export($export.P + $export.F * !__webpack_require__(169)([].reduce, true), 'Array', {
 	  // 22.1.3.18 / 15.4.4.21 Array.prototype.reduce(callbackfn [, initialValue])
 	  reduce: function reduce(callbackfn /* , initialValue */){
 	    return $reduce(this, callbackfn, arguments.length, arguments[1], false);
@@ -3564,7 +3553,7 @@
 	});
 
 /***/ },
-/* 182 */
+/* 181 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var aFunction = __webpack_require__(22)
@@ -3597,14 +3586,14 @@
 	};
 
 /***/ },
-/* 183 */
+/* 182 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
 	var $export = __webpack_require__(9)
-	  , $reduce = __webpack_require__(182);
+	  , $reduce = __webpack_require__(181);
 
-	$export($export.P + $export.F * !__webpack_require__(170)([].reduceRight, true), 'Array', {
+	$export($export.P + $export.F * !__webpack_require__(169)([].reduceRight, true), 'Array', {
 	  // 22.1.3.19 / 15.4.4.22 Array.prototype.reduceRight(callbackfn [, initialValue])
 	  reduceRight: function reduceRight(callbackfn /* , initialValue */){
 	    return $reduce(this, callbackfn, arguments.length, arguments[1], true);
@@ -3612,7 +3601,7 @@
 	});
 
 /***/ },
-/* 184 */
+/* 183 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -3621,7 +3610,7 @@
 	  , $native       = [].indexOf
 	  , NEGATIVE_ZERO = !!$native && 1 / [1].indexOf(1, -0) < 0;
 
-	$export($export.P + $export.F * (NEGATIVE_ZERO || !__webpack_require__(170)($native)), 'Array', {
+	$export($export.P + $export.F * (NEGATIVE_ZERO || !__webpack_require__(169)($native)), 'Array', {
 	  // 22.1.3.11 / 15.4.4.14 Array.prototype.indexOf(searchElement [, fromIndex])
 	  indexOf: function indexOf(searchElement /*, fromIndex = 0 */){
 	    return NEGATIVE_ZERO
@@ -3632,7 +3621,7 @@
 	});
 
 /***/ },
-/* 185 */
+/* 184 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -3643,7 +3632,7 @@
 	  , $native       = [].lastIndexOf
 	  , NEGATIVE_ZERO = !!$native && 1 / [1].lastIndexOf(1, -0) < 0;
 
-	$export($export.P + $export.F * (NEGATIVE_ZERO || !__webpack_require__(170)($native)), 'Array', {
+	$export($export.P + $export.F * (NEGATIVE_ZERO || !__webpack_require__(169)($native)), 'Array', {
 	  // 22.1.3.14 / 15.4.4.15 Array.prototype.lastIndexOf(searchElement [, fromIndex])
 	  lastIndexOf: function lastIndexOf(searchElement /*, fromIndex = @[*-1] */){
 	    // convert -0 to +0
@@ -3659,18 +3648,18 @@
 	});
 
 /***/ },
-/* 186 */
+/* 185 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// 22.1.3.3 Array.prototype.copyWithin(target, start, end = this.length)
 	var $export = __webpack_require__(9);
 
-	$export($export.P, 'Array', {copyWithin: __webpack_require__(187)});
+	$export($export.P, 'Array', {copyWithin: __webpack_require__(186)});
 
-	__webpack_require__(188)('copyWithin');
+	__webpack_require__(187)('copyWithin');
 
 /***/ },
-/* 187 */
+/* 186 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// 22.1.3.3 Array.prototype.copyWithin(target, start, end = this.length)
@@ -3701,7 +3690,7 @@
 	};
 
 /***/ },
-/* 188 */
+/* 187 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// 22.1.3.31 Array.prototype[@@unscopables]
@@ -3713,18 +3702,18 @@
 	};
 
 /***/ },
-/* 189 */
+/* 188 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// 22.1.3.6 Array.prototype.fill(value, start = 0, end = this.length)
 	var $export = __webpack_require__(9);
 
-	$export($export.P, 'Array', {fill: __webpack_require__(190)});
+	$export($export.P, 'Array', {fill: __webpack_require__(189)});
 
-	__webpack_require__(188)('fill');
+	__webpack_require__(187)('fill');
 
 /***/ },
-/* 190 */
+/* 189 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// 22.1.3.6 Array.prototype.fill(value, start = 0, end = this.length)
@@ -3744,13 +3733,13 @@
 	};
 
 /***/ },
-/* 191 */
+/* 190 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
 	// 22.1.3.8 Array.prototype.find(predicate, thisArg = undefined)
 	var $export = __webpack_require__(9)
-	  , $find   = __webpack_require__(174)(5)
+	  , $find   = __webpack_require__(173)(5)
 	  , KEY     = 'find'
 	  , forced  = true;
 	// Shouldn't skip holes
@@ -3760,16 +3749,16 @@
 	    return $find(this, callbackfn, arguments.length > 1 ? arguments[1] : undefined);
 	  }
 	});
-	__webpack_require__(188)(KEY);
+	__webpack_require__(187)(KEY);
 
 /***/ },
-/* 192 */
+/* 191 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
 	// 22.1.3.9 Array.prototype.findIndex(predicate, thisArg = undefined)
 	var $export = __webpack_require__(9)
-	  , $find   = __webpack_require__(174)(6)
+	  , $find   = __webpack_require__(173)(6)
 	  , KEY     = 'findIndex'
 	  , forced  = true;
 	// Shouldn't skip holes
@@ -3779,16 +3768,16 @@
 	    return $find(this, callbackfn, arguments.length > 1 ? arguments[1] : undefined);
 	  }
 	});
-	__webpack_require__(188)(KEY);
+	__webpack_require__(187)(KEY);
+
+/***/ },
+/* 192 */
+/***/ function(module, exports, __webpack_require__) {
+
+	__webpack_require__(193)('Array');
 
 /***/ },
 /* 193 */
-/***/ function(module, exports, __webpack_require__) {
-
-	__webpack_require__(194)('Array');
-
-/***/ },
-/* 194 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -3806,20 +3795,20 @@
 	};
 
 /***/ },
-/* 195 */
+/* 194 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
-	var addToUnscopables = __webpack_require__(188)
-	  , step             = __webpack_require__(196)
-	  , Iterators        = __webpack_require__(131)
+	var addToUnscopables = __webpack_require__(187)
+	  , step             = __webpack_require__(195)
+	  , Iterators        = __webpack_require__(130)
 	  , toIObject        = __webpack_require__(33);
 
 	// 22.1.3.4 Array.prototype.entries()
 	// 22.1.3.13 Array.prototype.keys()
 	// 22.1.3.29 Array.prototype.values()
 	// 22.1.3.30 Array.prototype[@@iterator]()
-	module.exports = __webpack_require__(130)(Array, 'Array', function(iterated, kind){
+	module.exports = __webpack_require__(129)(Array, 'Array', function(iterated, kind){
 	  this._t = toIObject(iterated); // target
 	  this._i = 0;                   // next index
 	  this._k = kind;                // kind
@@ -3845,7 +3834,7 @@
 	addToUnscopables('entries');
 
 /***/ },
-/* 196 */
+/* 195 */
 /***/ function(module, exports) {
 
 	module.exports = function(done, value){
@@ -3853,15 +3842,15 @@
 	};
 
 /***/ },
-/* 197 */
+/* 196 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var global            = __webpack_require__(5)
 	  , inheritIfRequired = __webpack_require__(89)
 	  , dP                = __webpack_require__(12).f
 	  , gOPN              = __webpack_require__(51).f
-	  , isRegExp          = __webpack_require__(136)
-	  , $flags            = __webpack_require__(198)
+	  , isRegExp          = __webpack_require__(135)
+	  , $flags            = __webpack_require__(197)
 	  , $RegExp           = global.RegExp
 	  , Base              = $RegExp
 	  , proto             = $RegExp.prototype
@@ -3898,10 +3887,10 @@
 	  __webpack_require__(19)(global, 'RegExp', $RegExp);
 	}
 
-	__webpack_require__(194)('RegExp');
+	__webpack_require__(193)('RegExp');
 
 /***/ },
-/* 198 */
+/* 197 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -3919,13 +3908,13 @@
 	};
 
 /***/ },
-/* 199 */
+/* 198 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
-	__webpack_require__(200);
+	__webpack_require__(199);
 	var anObject    = __webpack_require__(13)
-	  , $flags      = __webpack_require__(198)
+	  , $flags      = __webpack_require__(197)
 	  , DESCRIPTORS = __webpack_require__(7)
 	  , TO_STRING   = 'toString'
 	  , $toString   = /./[TO_STRING];
@@ -3949,21 +3938,21 @@
 	}
 
 /***/ },
-/* 200 */
+/* 199 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// 21.2.5.3 get RegExp.prototype.flags()
 	if(__webpack_require__(7) && /./g.flags != 'g')__webpack_require__(12).f(RegExp.prototype, 'flags', {
 	  configurable: true,
-	  get: __webpack_require__(198)
+	  get: __webpack_require__(197)
 	});
 
 /***/ },
-/* 201 */
+/* 200 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// @@match logic
-	__webpack_require__(202)('match', 1, function(defined, MATCH, $match){
+	__webpack_require__(201)('match', 1, function(defined, MATCH, $match){
 	  // 21.1.3.11 String.prototype.match(regexp)
 	  return [function match(regexp){
 	    'use strict';
@@ -3974,7 +3963,7 @@
 	});
 
 /***/ },
-/* 202 */
+/* 201 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -4007,11 +3996,11 @@
 	};
 
 /***/ },
-/* 203 */
+/* 202 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// @@replace logic
-	__webpack_require__(202)('replace', 2, function(defined, REPLACE, $replace){
+	__webpack_require__(201)('replace', 2, function(defined, REPLACE, $replace){
 	  // 21.1.3.14 String.prototype.replace(searchValue, replaceValue)
 	  return [function replace(searchValue, replaceValue){
 	    'use strict';
@@ -4024,11 +4013,11 @@
 	});
 
 /***/ },
-/* 204 */
+/* 203 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// @@search logic
-	__webpack_require__(202)('search', 1, function(defined, SEARCH, $search){
+	__webpack_require__(201)('search', 1, function(defined, SEARCH, $search){
 	  // 21.1.3.15 String.prototype.search(regexp)
 	  return [function search(regexp){
 	    'use strict';
@@ -4039,13 +4028,13 @@
 	});
 
 /***/ },
-/* 205 */
+/* 204 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// @@split logic
-	__webpack_require__(202)('split', 2, function(defined, SPLIT, $split){
+	__webpack_require__(201)('split', 2, function(defined, SPLIT, $split){
 	  'use strict';
-	  var isRegExp   = __webpack_require__(136)
+	  var isRegExp   = __webpack_require__(135)
 	    , _split     = $split
 	    , $push      = [].push
 	    , $SPLIT     = 'split'
@@ -4114,7 +4103,7 @@
 	});
 
 /***/ },
-/* 206 */
+/* 205 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -4124,11 +4113,9 @@
 	  , classof            = __webpack_require__(76)
 	  , $export            = __webpack_require__(9)
 	  , isObject           = __webpack_require__(14)
-	  , anObject           = __webpack_require__(13)
 	  , aFunction          = __webpack_require__(22)
-	  , anInstance         = __webpack_require__(91)
+	  , anInstance         = __webpack_require__(206)
 	  , forOf              = __webpack_require__(207)
-	  , setProto           = __webpack_require__(74).set
 	  , speciesConstructor = __webpack_require__(208)
 	  , task               = __webpack_require__(209).set
 	  , microtask          = __webpack_require__(210)()
@@ -4350,7 +4337,7 @@
 
 	$export($export.G + $export.W + $export.F * !USE_NATIVE, {Promise: $Promise});
 	__webpack_require__(25)($Promise, PROMISE);
-	__webpack_require__(194)(PROMISE);
+	__webpack_require__(193)(PROMISE);
 	Wrapper = __webpack_require__(10)[PROMISE];
 
 	// statics
@@ -4374,7 +4361,7 @@
 	    return capability.promise;
 	  }
 	});
-	$export($export.S + $export.F * !(USE_NATIVE && __webpack_require__(167)(function(iter){
+	$export($export.S + $export.F * !(USE_NATIVE && __webpack_require__(166)(function(iter){
 	  $Promise.all(iter)['catch'](empty);
 	})), PROMISE, {
 	  // 25.4.4.1 Promise.all(iterable)
@@ -4420,15 +4407,25 @@
 	});
 
 /***/ },
+/* 206 */
+/***/ function(module, exports) {
+
+	module.exports = function(it, Constructor, name, forbiddenField){
+	  if(!(it instanceof Constructor) || (forbiddenField !== undefined && forbiddenField in it)){
+	    throw TypeError(name + ': incorrect invocation!');
+	  } return it;
+	};
+
+/***/ },
 /* 207 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var ctx         = __webpack_require__(21)
-	  , call        = __webpack_require__(163)
-	  , isArrayIter = __webpack_require__(164)
+	  , call        = __webpack_require__(162)
+	  , isArrayIter = __webpack_require__(163)
 	  , anObject    = __webpack_require__(13)
 	  , toLength    = __webpack_require__(38)
-	  , getIterFn   = __webpack_require__(166)
+	  , getIterFn   = __webpack_require__(165)
 	  , BREAK       = {}
 	  , RETURN      = {};
 	var exports = module.exports = function(iterable, entries, fn, that, ITERATOR){
@@ -4654,15 +4651,14 @@
 	'use strict';
 	var dP          = __webpack_require__(12).f
 	  , create      = __webpack_require__(47)
-	  , hide        = __webpack_require__(11)
 	  , redefineAll = __webpack_require__(211)
 	  , ctx         = __webpack_require__(21)
-	  , anInstance  = __webpack_require__(91)
+	  , anInstance  = __webpack_require__(206)
 	  , defined     = __webpack_require__(36)
 	  , forOf       = __webpack_require__(207)
-	  , $iterDefine = __webpack_require__(130)
-	  , step        = __webpack_require__(196)
-	  , setSpecies  = __webpack_require__(194)
+	  , $iterDefine = __webpack_require__(129)
+	  , step        = __webpack_require__(195)
+	  , setSpecies  = __webpack_require__(193)
 	  , DESCRIPTORS = __webpack_require__(7)
 	  , fastKey     = __webpack_require__(23).fastKey
 	  , SIZE        = DESCRIPTORS ? '_s' : 'size';
@@ -4806,10 +4802,10 @@
 	  , redefineAll       = __webpack_require__(211)
 	  , meta              = __webpack_require__(23)
 	  , forOf             = __webpack_require__(207)
-	  , anInstance        = __webpack_require__(91)
+	  , anInstance        = __webpack_require__(206)
 	  , isObject          = __webpack_require__(14)
 	  , fails             = __webpack_require__(8)
-	  , $iterDetect       = __webpack_require__(167)
+	  , $iterDetect       = __webpack_require__(166)
 	  , setToStringTag    = __webpack_require__(25)
 	  , inheritIfRequired = __webpack_require__(89);
 
@@ -4907,13 +4903,12 @@
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
-	var each         = __webpack_require__(174)(0)
+	var each         = __webpack_require__(173)(0)
 	  , redefine     = __webpack_require__(19)
 	  , meta         = __webpack_require__(23)
 	  , assign       = __webpack_require__(70)
 	  , weak         = __webpack_require__(217)
 	  , isObject     = __webpack_require__(14)
-	  , has          = __webpack_require__(6)
 	  , getWeak      = meta.getWeak
 	  , isExtensible = Object.isExtensible
 	  , uncaughtFrozenStore = weak.ufstore
@@ -4973,9 +4968,9 @@
 	  , getWeak           = __webpack_require__(23).getWeak
 	  , anObject          = __webpack_require__(13)
 	  , isObject          = __webpack_require__(14)
-	  , anInstance        = __webpack_require__(91)
+	  , anInstance        = __webpack_require__(206)
 	  , forOf             = __webpack_require__(207)
-	  , createArrayMethod = __webpack_require__(174)
+	  , createArrayMethod = __webpack_require__(173)
 	  , $has              = __webpack_require__(6)
 	  , arrayFind         = createArrayMethod(5)
 	  , arrayFindIndex    = createArrayMethod(6)
@@ -5081,7 +5076,6 @@
 	  , toIndex      = __webpack_require__(40)
 	  , toLength     = __webpack_require__(38)
 	  , isObject     = __webpack_require__(14)
-	  , TYPED_ARRAY  = __webpack_require__(26)('typed_array')
 	  , ArrayBuffer  = __webpack_require__(5).ArrayBuffer
 	  , speciesConstructor = __webpack_require__(208)
 	  , $ArrayBuffer = buffer.ArrayBuffer
@@ -5119,7 +5113,7 @@
 	  }
 	});
 
-	__webpack_require__(194)(ARRAY_BUFFER);
+	__webpack_require__(193)(ARRAY_BUFFER);
 
 /***/ },
 /* 220 */
@@ -5164,12 +5158,12 @@
 	  , hide           = __webpack_require__(11)
 	  , redefineAll    = __webpack_require__(211)
 	  , fails          = __webpack_require__(8)
-	  , anInstance     = __webpack_require__(91)
+	  , anInstance     = __webpack_require__(206)
 	  , toInteger      = __webpack_require__(39)
 	  , toLength       = __webpack_require__(38)
 	  , gOPN           = __webpack_require__(51).f
 	  , dP             = __webpack_require__(12).f
-	  , arrayFill      = __webpack_require__(190)
+	  , arrayFill      = __webpack_require__(189)
 	  , setToStringTag = __webpack_require__(25)
 	  , ARRAY_BUFFER   = 'ArrayBuffer'
 	  , DATA_VIEW      = 'DataView'
@@ -5179,13 +5173,11 @@
 	  , $ArrayBuffer   = global[ARRAY_BUFFER]
 	  , $DataView      = global[DATA_VIEW]
 	  , Math           = global.Math
-	  , parseInt       = global.parseInt
 	  , RangeError     = global.RangeError
 	  , Infinity       = global.Infinity
 	  , BaseBuffer     = $ArrayBuffer
 	  , abs            = Math.abs
 	  , pow            = Math.pow
-	  , min            = Math.min
 	  , floor          = Math.floor
 	  , log            = Math.log
 	  , LN2            = Math.LN2
@@ -5464,11 +5456,10 @@
 	    , $typed              = __webpack_require__(220)
 	    , $buffer             = __webpack_require__(221)
 	    , ctx                 = __webpack_require__(21)
-	    , anInstance          = __webpack_require__(91)
+	    , anInstance          = __webpack_require__(206)
 	    , propertyDesc        = __webpack_require__(18)
 	    , hide                = __webpack_require__(11)
 	    , redefineAll         = __webpack_require__(211)
-	    , isInteger           = __webpack_require__(98)
 	    , toInteger           = __webpack_require__(39)
 	    , toLength            = __webpack_require__(38)
 	    , toIndex             = __webpack_require__(40)
@@ -5478,23 +5469,22 @@
 	    , classof             = __webpack_require__(76)
 	    , isObject            = __webpack_require__(14)
 	    , toObject            = __webpack_require__(59)
-	    , isArrayIter         = __webpack_require__(164)
+	    , isArrayIter         = __webpack_require__(163)
 	    , create              = __webpack_require__(47)
 	    , getPrototypeOf      = __webpack_require__(60)
 	    , gOPN                = __webpack_require__(51).f
-	    , isIterable          = __webpack_require__(225)
-	    , getIterFn           = __webpack_require__(166)
+	    , getIterFn           = __webpack_require__(165)
 	    , uid                 = __webpack_require__(20)
 	    , wks                 = __webpack_require__(26)
-	    , createArrayMethod   = __webpack_require__(174)
+	    , createArrayMethod   = __webpack_require__(173)
 	    , createArrayIncludes = __webpack_require__(37)
 	    , speciesConstructor  = __webpack_require__(208)
-	    , ArrayIterators      = __webpack_require__(195)
-	    , Iterators           = __webpack_require__(131)
-	    , $iterDetect         = __webpack_require__(167)
-	    , setSpecies          = __webpack_require__(194)
-	    , arrayFill           = __webpack_require__(190)
-	    , arrayCopyWithin     = __webpack_require__(187)
+	    , ArrayIterators      = __webpack_require__(194)
+	    , Iterators           = __webpack_require__(130)
+	    , $iterDetect         = __webpack_require__(166)
+	    , setSpecies          = __webpack_require__(193)
+	    , arrayFill           = __webpack_require__(189)
+	    , arrayCopyWithin     = __webpack_require__(186)
 	    , $DP                 = __webpack_require__(12)
 	    , $GOPD               = __webpack_require__(52)
 	    , dP                  = $DP.f
@@ -5941,20 +5931,6 @@
 /* 225 */
 /***/ function(module, exports, __webpack_require__) {
 
-	var classof   = __webpack_require__(76)
-	  , ITERATOR  = __webpack_require__(26)('iterator')
-	  , Iterators = __webpack_require__(131);
-	module.exports = __webpack_require__(10).isIterable = function(it){
-	  var O = Object(it);
-	  return O[ITERATOR] !== undefined
-	    || '@@iterator' in O
-	    || Iterators.hasOwnProperty(classof(O));
-	};
-
-/***/ },
-/* 226 */
-/***/ function(module, exports, __webpack_require__) {
-
 	__webpack_require__(224)('Uint8', 1, function(init){
 	  return function Uint8Array(data, byteOffset, length){
 	    return init(this, data, byteOffset, length);
@@ -5962,7 +5938,7 @@
 	});
 
 /***/ },
-/* 227 */
+/* 226 */
 /***/ function(module, exports, __webpack_require__) {
 
 	__webpack_require__(224)('Uint8', 1, function(init){
@@ -5972,7 +5948,7 @@
 	}, true);
 
 /***/ },
-/* 228 */
+/* 227 */
 /***/ function(module, exports, __webpack_require__) {
 
 	__webpack_require__(224)('Int16', 2, function(init){
@@ -5982,7 +5958,7 @@
 	});
 
 /***/ },
-/* 229 */
+/* 228 */
 /***/ function(module, exports, __webpack_require__) {
 
 	__webpack_require__(224)('Uint16', 2, function(init){
@@ -5992,7 +5968,7 @@
 	});
 
 /***/ },
-/* 230 */
+/* 229 */
 /***/ function(module, exports, __webpack_require__) {
 
 	__webpack_require__(224)('Int32', 4, function(init){
@@ -6002,7 +5978,7 @@
 	});
 
 /***/ },
-/* 231 */
+/* 230 */
 /***/ function(module, exports, __webpack_require__) {
 
 	__webpack_require__(224)('Uint32', 4, function(init){
@@ -6012,7 +5988,7 @@
 	});
 
 /***/ },
-/* 232 */
+/* 231 */
 /***/ function(module, exports, __webpack_require__) {
 
 	__webpack_require__(224)('Float32', 4, function(init){
@@ -6022,7 +5998,7 @@
 	});
 
 /***/ },
-/* 233 */
+/* 232 */
 /***/ function(module, exports, __webpack_require__) {
 
 	__webpack_require__(224)('Float64', 8, function(init){
@@ -6032,43 +6008,56 @@
 	});
 
 /***/ },
-/* 234 */
+/* 233 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// 26.1.1 Reflect.apply(target, thisArgument, argumentsList)
 	var $export   = __webpack_require__(9)
 	  , aFunction = __webpack_require__(22)
 	  , anObject  = __webpack_require__(13)
-	  , _apply    = Function.apply;
-
-	$export($export.S, 'Reflect', {
+	  , rApply    = (__webpack_require__(5).Reflect || {}).apply
+	  , fApply    = Function.apply;
+	// MS Edge argumentsList argument is optional
+	$export($export.S + $export.F * !__webpack_require__(8)(function(){
+	  rApply(function(){});
+	}), 'Reflect', {
 	  apply: function apply(target, thisArgument, argumentsList){
-	    return _apply.call(aFunction(target), thisArgument, anObject(argumentsList));
+	    var T = aFunction(target)
+	      , L = anObject(argumentsList);
+	    return rApply ? rApply(T, thisArgument, L) : fApply.call(T, thisArgument, L);
 	  }
 	});
 
 /***/ },
-/* 235 */
+/* 234 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// 26.1.2 Reflect.construct(target, argumentsList [, newTarget])
-	var $export   = __webpack_require__(9)
-	  , create    = __webpack_require__(47)
-	  , aFunction = __webpack_require__(22)
-	  , anObject  = __webpack_require__(13)
-	  , isObject  = __webpack_require__(14)
-	  , bind      = __webpack_require__(78);
+	var $export    = __webpack_require__(9)
+	  , create     = __webpack_require__(47)
+	  , aFunction  = __webpack_require__(22)
+	  , anObject   = __webpack_require__(13)
+	  , isObject   = __webpack_require__(14)
+	  , fails      = __webpack_require__(8)
+	  , bind       = __webpack_require__(78)
+	  , rConstruct = (__webpack_require__(5).Reflect || {}).construct;
 
-	// MS Edge supports only 2 arguments
+	// MS Edge supports only 2 arguments and argumentsList argument is optional
 	// FF Nightly sets third argument as `new.target`, but does not create `this` from it
-	$export($export.S + $export.F * __webpack_require__(8)(function(){
+	var NEW_TARGET_BUG = fails(function(){
 	  function F(){}
-	  return !(Reflect.construct(function(){}, [], F) instanceof F);
-	}), 'Reflect', {
+	  return !(rConstruct(function(){}, [], F) instanceof F);
+	});
+	var ARGS_BUG = !fails(function(){
+	  rConstruct(function(){});
+	});
+
+	$export($export.S + $export.F * (NEW_TARGET_BUG || ARGS_BUG), 'Reflect', {
 	  construct: function construct(Target, args /*, newTarget*/){
 	    aFunction(Target);
 	    anObject(args);
 	    var newTarget = arguments.length < 3 ? Target : aFunction(arguments[2]);
+	    if(ARGS_BUG && !NEW_TARGET_BUG)return rConstruct(Target, args, newTarget);
 	    if(Target == newTarget){
 	      // w/o altered newTarget, optimization for 0-4 arguments
 	      switch(args.length){
@@ -6092,7 +6081,7 @@
 	});
 
 /***/ },
-/* 236 */
+/* 235 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// 26.1.3 Reflect.defineProperty(target, propertyKey, attributes)
@@ -6119,7 +6108,7 @@
 	});
 
 /***/ },
-/* 237 */
+/* 236 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// 26.1.4 Reflect.deleteProperty(target, propertyKey)
@@ -6135,7 +6124,7 @@
 	});
 
 /***/ },
-/* 238 */
+/* 237 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -6149,7 +6138,7 @@
 	    , key;
 	  for(key in iterated)keys.push(key);
 	};
-	__webpack_require__(132)(Enumerate, 'Object', function(){
+	__webpack_require__(131)(Enumerate, 'Object', function(){
 	  var that = this
 	    , keys = that._k
 	    , key;
@@ -6166,7 +6155,7 @@
 	});
 
 /***/ },
-/* 239 */
+/* 238 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// 26.1.6 Reflect.get(target, propertyKey [, receiver])
@@ -6192,7 +6181,7 @@
 	$export($export.S, 'Reflect', {get: get});
 
 /***/ },
-/* 240 */
+/* 239 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// 26.1.7 Reflect.getOwnPropertyDescriptor(target, propertyKey)
@@ -6207,7 +6196,7 @@
 	});
 
 /***/ },
-/* 241 */
+/* 240 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// 26.1.8 Reflect.getPrototypeOf(target)
@@ -6222,7 +6211,7 @@
 	});
 
 /***/ },
-/* 242 */
+/* 241 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// 26.1.9 Reflect.has(target, propertyKey)
@@ -6235,7 +6224,7 @@
 	});
 
 /***/ },
-/* 243 */
+/* 242 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// 26.1.10 Reflect.isExtensible(target)
@@ -6251,16 +6240,16 @@
 	});
 
 /***/ },
-/* 244 */
+/* 243 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// 26.1.11 Reflect.ownKeys(target)
 	var $export = __webpack_require__(9);
 
-	$export($export.S, 'Reflect', {ownKeys: __webpack_require__(245)});
+	$export($export.S, 'Reflect', {ownKeys: __webpack_require__(244)});
 
 /***/ },
-/* 245 */
+/* 244 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// all object keys, includes non-enumerable and symbols
@@ -6275,7 +6264,7 @@
 	};
 
 /***/ },
-/* 246 */
+/* 245 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// 26.1.12 Reflect.preventExtensions(target)
@@ -6296,7 +6285,7 @@
 	});
 
 /***/ },
-/* 247 */
+/* 246 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// 26.1.13 Reflect.set(target, propertyKey, V [, receiver])
@@ -6332,7 +6321,7 @@
 	$export($export.S, 'Reflect', {set: set});
 
 /***/ },
-/* 248 */
+/* 247 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// 26.1.14 Reflect.setPrototypeOf(target, proto)
@@ -6352,7 +6341,7 @@
 	});
 
 /***/ },
-/* 249 */
+/* 248 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -6366,16 +6355,16 @@
 	  }
 	});
 
-	__webpack_require__(188)('includes');
+	__webpack_require__(187)('includes');
 
 /***/ },
-/* 250 */
+/* 249 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
 	// https://github.com/mathiasbynens/String.prototype.at
 	var $export = __webpack_require__(9)
-	  , $at     = __webpack_require__(129)(true);
+	  , $at     = __webpack_require__(128)(true);
 
 	$export($export.P, 'String', {
 	  at: function at(pos){
@@ -6384,13 +6373,13 @@
 	});
 
 /***/ },
-/* 251 */
+/* 250 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
 	// https://github.com/tc39/proposal-string-pad-start-end
 	var $export = __webpack_require__(9)
-	  , $pad    = __webpack_require__(252);
+	  , $pad    = __webpack_require__(251);
 
 	$export($export.P, 'String', {
 	  padStart: function padStart(maxLength /*, fillString = ' ' */){
@@ -6399,12 +6388,12 @@
 	});
 
 /***/ },
-/* 252 */
+/* 251 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// https://github.com/tc39/proposal-string-pad-start-end
 	var toLength = __webpack_require__(38)
-	  , repeat   = __webpack_require__(93)
+	  , repeat   = __webpack_require__(92)
 	  , defined  = __webpack_require__(36);
 
 	module.exports = function(that, maxLength, fillString, left){
@@ -6421,13 +6410,13 @@
 
 
 /***/ },
-/* 253 */
+/* 252 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
 	// https://github.com/tc39/proposal-string-pad-start-end
 	var $export = __webpack_require__(9)
-	  , $pad    = __webpack_require__(252);
+	  , $pad    = __webpack_require__(251);
 
 	$export($export.P, 'String', {
 	  padEnd: function padEnd(maxLength /*, fillString = ' ' */){
@@ -6436,7 +6425,7 @@
 	});
 
 /***/ },
-/* 254 */
+/* 253 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -6448,7 +6437,7 @@
 	}, 'trimStart');
 
 /***/ },
-/* 255 */
+/* 254 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -6460,7 +6449,7 @@
 	}, 'trimEnd');
 
 /***/ },
-/* 256 */
+/* 255 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -6468,8 +6457,8 @@
 	var $export     = __webpack_require__(9)
 	  , defined     = __webpack_require__(36)
 	  , toLength    = __webpack_require__(38)
-	  , isRegExp    = __webpack_require__(136)
-	  , getFlags    = __webpack_require__(198)
+	  , isRegExp    = __webpack_require__(135)
+	  , getFlags    = __webpack_require__(197)
 	  , RegExpProto = RegExp.prototype;
 
 	var $RegExpStringIterator = function(regexp, string){
@@ -6477,7 +6466,7 @@
 	  this._s = string;
 	};
 
-	__webpack_require__(132)($RegExpStringIterator, 'RegExp String', function next(){
+	__webpack_require__(131)($RegExpStringIterator, 'RegExp String', function next(){
 	  var match = this._r.exec(this._s);
 	  return {value: match, done: match === null};
 	});
@@ -6495,27 +6484,27 @@
 	});
 
 /***/ },
-/* 257 */
+/* 256 */
 /***/ function(module, exports, __webpack_require__) {
 
 	__webpack_require__(28)('asyncIterator');
 
 /***/ },
-/* 258 */
+/* 257 */
 /***/ function(module, exports, __webpack_require__) {
 
 	__webpack_require__(28)('observable');
 
 /***/ },
-/* 259 */
+/* 258 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// https://github.com/tc39/proposal-object-getownpropertydescriptors
 	var $export        = __webpack_require__(9)
-	  , ownKeys        = __webpack_require__(245)
+	  , ownKeys        = __webpack_require__(244)
 	  , toIObject      = __webpack_require__(33)
 	  , gOPD           = __webpack_require__(52)
-	  , createProperty = __webpack_require__(165);
+	  , createProperty = __webpack_require__(164);
 
 	$export($export.S, 'Object', {
 	  getOwnPropertyDescriptors: function getOwnPropertyDescriptors(object){
@@ -6524,19 +6513,19 @@
 	      , keys    = ownKeys(O)
 	      , result  = {}
 	      , i       = 0
-	      , key, D;
+	      , key;
 	    while(keys.length > i)createProperty(result, key = keys[i++], getDesc(O, key));
 	    return result;
 	  }
 	});
 
 /***/ },
-/* 260 */
+/* 259 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// https://github.com/tc39/proposal-object-values-entries
 	var $export = __webpack_require__(9)
-	  , $values = __webpack_require__(261)(false);
+	  , $values = __webpack_require__(260)(false);
 
 	$export($export.S, 'Object', {
 	  values: function values(it){
@@ -6545,7 +6534,7 @@
 	});
 
 /***/ },
-/* 261 */
+/* 260 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var getKeys   = __webpack_require__(31)
@@ -6566,12 +6555,12 @@
 	};
 
 /***/ },
-/* 262 */
+/* 261 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// https://github.com/tc39/proposal-object-values-entries
 	var $export  = __webpack_require__(9)
-	  , $entries = __webpack_require__(261)(true);
+	  , $entries = __webpack_require__(260)(true);
 
 	$export($export.S, 'Object', {
 	  entries: function entries(it){
@@ -6580,7 +6569,7 @@
 	});
 
 /***/ },
-/* 263 */
+/* 262 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -6590,14 +6579,14 @@
 	  , $defineProperty = __webpack_require__(12);
 
 	// B.2.2.2 Object.prototype.__defineGetter__(P, getter)
-	__webpack_require__(7) && $export($export.P + __webpack_require__(264), 'Object', {
+	__webpack_require__(7) && $export($export.P + __webpack_require__(263), 'Object', {
 	  __defineGetter__: function __defineGetter__(P, getter){
 	    $defineProperty.f(toObject(this), P, {get: aFunction(getter), enumerable: true, configurable: true});
 	  }
 	});
 
 /***/ },
-/* 264 */
+/* 263 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// Forced replacement prototype accessors methods
@@ -6609,7 +6598,7 @@
 	});
 
 /***/ },
-/* 265 */
+/* 264 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -6619,9 +6608,32 @@
 	  , $defineProperty = __webpack_require__(12);
 
 	// B.2.2.3 Object.prototype.__defineSetter__(P, setter)
-	__webpack_require__(7) && $export($export.P + __webpack_require__(264), 'Object', {
+	__webpack_require__(7) && $export($export.P + __webpack_require__(263), 'Object', {
 	  __defineSetter__: function __defineSetter__(P, setter){
 	    $defineProperty.f(toObject(this), P, {set: aFunction(setter), enumerable: true, configurable: true});
+	  }
+	});
+
+/***/ },
+/* 265 */
+/***/ function(module, exports, __webpack_require__) {
+
+	'use strict';
+	var $export                  = __webpack_require__(9)
+	  , toObject                 = __webpack_require__(59)
+	  , toPrimitive              = __webpack_require__(17)
+	  , getPrototypeOf           = __webpack_require__(60)
+	  , getOwnPropertyDescriptor = __webpack_require__(52).f;
+
+	// B.2.2.4 Object.prototype.__lookupGetter__(P)
+	__webpack_require__(7) && $export($export.P + __webpack_require__(263), 'Object', {
+	  __lookupGetter__: function __lookupGetter__(P){
+	    var O = toObject(this)
+	      , K = toPrimitive(P, true)
+	      , D;
+	    do {
+	      if(D = getOwnPropertyDescriptor(O, K))return D.get;
+	    } while(O = getPrototypeOf(O));
 	  }
 	});
 
@@ -6636,31 +6648,8 @@
 	  , getPrototypeOf           = __webpack_require__(60)
 	  , getOwnPropertyDescriptor = __webpack_require__(52).f;
 
-	// B.2.2.4 Object.prototype.__lookupGetter__(P)
-	__webpack_require__(7) && $export($export.P + __webpack_require__(264), 'Object', {
-	  __lookupGetter__: function __lookupGetter__(P){
-	    var O = toObject(this)
-	      , K = toPrimitive(P, true)
-	      , D;
-	    do {
-	      if(D = getOwnPropertyDescriptor(O, K))return D.get;
-	    } while(O = getPrototypeOf(O));
-	  }
-	});
-
-/***/ },
-/* 267 */
-/***/ function(module, exports, __webpack_require__) {
-
-	'use strict';
-	var $export                  = __webpack_require__(9)
-	  , toObject                 = __webpack_require__(59)
-	  , toPrimitive              = __webpack_require__(17)
-	  , getPrototypeOf           = __webpack_require__(60)
-	  , getOwnPropertyDescriptor = __webpack_require__(52).f;
-
 	// B.2.2.5 Object.prototype.__lookupSetter__(P)
-	__webpack_require__(7) && $export($export.P + __webpack_require__(264), 'Object', {
+	__webpack_require__(7) && $export($export.P + __webpack_require__(263), 'Object', {
 	  __lookupSetter__: function __lookupSetter__(P){
 	    var O = toObject(this)
 	      , K = toPrimitive(P, true)
@@ -6672,21 +6661,21 @@
 	});
 
 /***/ },
-/* 268 */
+/* 267 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// https://github.com/DavidBruant/Map-Set.prototype.toJSON
 	var $export  = __webpack_require__(9);
 
-	$export($export.P + $export.R, 'Map', {toJSON: __webpack_require__(269)('Map')});
+	$export($export.P + $export.R, 'Map', {toJSON: __webpack_require__(268)('Map')});
 
 /***/ },
-/* 269 */
+/* 268 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// https://github.com/DavidBruant/Map-Set.prototype.toJSON
 	var classof = __webpack_require__(76)
-	  , from    = __webpack_require__(270);
+	  , from    = __webpack_require__(269);
 	module.exports = function(NAME){
 	  return function toJSON(){
 	    if(classof(this) != NAME)throw TypeError(NAME + "#toJSON isn't generic");
@@ -6695,7 +6684,7 @@
 	};
 
 /***/ },
-/* 270 */
+/* 269 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var forOf = __webpack_require__(207);
@@ -6708,16 +6697,16 @@
 
 
 /***/ },
-/* 271 */
+/* 270 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// https://github.com/DavidBruant/Map-Set.prototype.toJSON
 	var $export  = __webpack_require__(9);
 
-	$export($export.P + $export.R, 'Set', {toJSON: __webpack_require__(269)('Set')});
+	$export($export.P + $export.R, 'Set', {toJSON: __webpack_require__(268)('Set')});
 
 /***/ },
-/* 272 */
+/* 271 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// https://github.com/ljharb/proposal-global
@@ -6726,7 +6715,7 @@
 	$export($export.S, 'System', {global: __webpack_require__(5)});
 
 /***/ },
-/* 273 */
+/* 272 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// https://github.com/ljharb/proposal-is-error
@@ -6740,7 +6729,7 @@
 	});
 
 /***/ },
-/* 274 */
+/* 273 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// https://gist.github.com/BrendanEich/4294d5c212a6d2254703
@@ -6756,7 +6745,7 @@
 	});
 
 /***/ },
-/* 275 */
+/* 274 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// https://gist.github.com/BrendanEich/4294d5c212a6d2254703
@@ -6772,7 +6761,7 @@
 	});
 
 /***/ },
-/* 276 */
+/* 275 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// https://gist.github.com/BrendanEich/4294d5c212a6d2254703
@@ -6793,7 +6782,7 @@
 	});
 
 /***/ },
-/* 277 */
+/* 276 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// https://gist.github.com/BrendanEich/4294d5c212a6d2254703
@@ -6814,10 +6803,10 @@
 	});
 
 /***/ },
-/* 278 */
+/* 277 */
 /***/ function(module, exports, __webpack_require__) {
 
-	var metadata                  = __webpack_require__(279)
+	var metadata                  = __webpack_require__(278)
 	  , anObject                  = __webpack_require__(13)
 	  , toMetaKey                 = metadata.key
 	  , ordinaryDefineOwnMetadata = metadata.set;
@@ -6827,7 +6816,7 @@
 	}});
 
 /***/ },
-/* 279 */
+/* 278 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var Map     = __webpack_require__(212)
@@ -6883,10 +6872,10 @@
 	};
 
 /***/ },
-/* 280 */
+/* 279 */
 /***/ function(module, exports, __webpack_require__) {
 
-	var metadata               = __webpack_require__(279)
+	var metadata               = __webpack_require__(278)
 	  , anObject               = __webpack_require__(13)
 	  , toMetaKey              = metadata.key
 	  , getOrCreateMetadataMap = metadata.map
@@ -6903,10 +6892,10 @@
 	}});
 
 /***/ },
-/* 281 */
+/* 280 */
 /***/ function(module, exports, __webpack_require__) {
 
-	var metadata               = __webpack_require__(279)
+	var metadata               = __webpack_require__(278)
 	  , anObject               = __webpack_require__(13)
 	  , getPrototypeOf         = __webpack_require__(60)
 	  , ordinaryHasOwnMetadata = metadata.has
@@ -6925,12 +6914,12 @@
 	}});
 
 /***/ },
-/* 282 */
+/* 281 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var Set                     = __webpack_require__(215)
-	  , from                    = __webpack_require__(270)
-	  , metadata                = __webpack_require__(279)
+	  , from                    = __webpack_require__(269)
+	  , metadata                = __webpack_require__(278)
 	  , anObject                = __webpack_require__(13)
 	  , getPrototypeOf          = __webpack_require__(60)
 	  , ordinaryOwnMetadataKeys = metadata.keys
@@ -6949,10 +6938,10 @@
 	}});
 
 /***/ },
-/* 283 */
+/* 282 */
 /***/ function(module, exports, __webpack_require__) {
 
-	var metadata               = __webpack_require__(279)
+	var metadata               = __webpack_require__(278)
 	  , anObject               = __webpack_require__(13)
 	  , ordinaryGetOwnMetadata = metadata.get
 	  , toMetaKey              = metadata.key;
@@ -6963,10 +6952,10 @@
 	}});
 
 /***/ },
-/* 284 */
+/* 283 */
 /***/ function(module, exports, __webpack_require__) {
 
-	var metadata                = __webpack_require__(279)
+	var metadata                = __webpack_require__(278)
 	  , anObject                = __webpack_require__(13)
 	  , ordinaryOwnMetadataKeys = metadata.keys
 	  , toMetaKey               = metadata.key;
@@ -6976,10 +6965,10 @@
 	}});
 
 /***/ },
-/* 285 */
+/* 284 */
 /***/ function(module, exports, __webpack_require__) {
 
-	var metadata               = __webpack_require__(279)
+	var metadata               = __webpack_require__(278)
 	  , anObject               = __webpack_require__(13)
 	  , getPrototypeOf         = __webpack_require__(60)
 	  , ordinaryHasOwnMetadata = metadata.has
@@ -6997,10 +6986,10 @@
 	}});
 
 /***/ },
-/* 286 */
+/* 285 */
 /***/ function(module, exports, __webpack_require__) {
 
-	var metadata               = __webpack_require__(279)
+	var metadata               = __webpack_require__(278)
 	  , anObject               = __webpack_require__(13)
 	  , ordinaryHasOwnMetadata = metadata.has
 	  , toMetaKey              = metadata.key;
@@ -7011,10 +7000,10 @@
 	}});
 
 /***/ },
-/* 287 */
+/* 286 */
 /***/ function(module, exports, __webpack_require__) {
 
-	var metadata                  = __webpack_require__(279)
+	var metadata                  = __webpack_require__(278)
 	  , anObject                  = __webpack_require__(13)
 	  , aFunction                 = __webpack_require__(22)
 	  , toMetaKey                 = metadata.key
@@ -7031,7 +7020,7 @@
 	}});
 
 /***/ },
-/* 288 */
+/* 287 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// https://github.com/rwaldron/tc39-notes/blob/master/es6/2014-09/sept-25.md#510-globalasap-for-enqueuing-a-microtask
@@ -7048,7 +7037,7 @@
 	});
 
 /***/ },
-/* 289 */
+/* 288 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -7060,7 +7049,7 @@
 	  , OBSERVABLE  = __webpack_require__(26)('observable')
 	  , aFunction   = __webpack_require__(22)
 	  , anObject    = __webpack_require__(13)
-	  , anInstance  = __webpack_require__(91)
+	  , anInstance  = __webpack_require__(206)
 	  , redefineAll = __webpack_require__(211)
 	  , hide        = __webpack_require__(11)
 	  , forOf       = __webpack_require__(207)
@@ -7249,17 +7238,17 @@
 
 	$export($export.G, {Observable: $Observable});
 
-	__webpack_require__(194)('Observable');
+	__webpack_require__(193)('Observable');
 
 /***/ },
-/* 290 */
+/* 289 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// ie9- setTimeout & setInterval additional parameters fix
 	var global     = __webpack_require__(5)
 	  , $export    = __webpack_require__(9)
 	  , invoke     = __webpack_require__(79)
-	  , partial    = __webpack_require__(291)
+	  , partial    = __webpack_require__(290)
 	  , navigator  = global.navigator
 	  , MSIE       = !!navigator && /MSIE .\./.test(navigator.userAgent); // <- dirty ie9- check
 	var wrap = function(set){
@@ -7277,11 +7266,11 @@
 	});
 
 /***/ },
-/* 291 */
+/* 290 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
-	var path      = __webpack_require__(292)
+	var path      = __webpack_require__(291)
 	  , invoke    = __webpack_require__(79)
 	  , aFunction = __webpack_require__(22);
 	module.exports = function(/* ...pargs */){
@@ -7305,13 +7294,13 @@
 	};
 
 /***/ },
-/* 292 */
+/* 291 */
 /***/ function(module, exports, __webpack_require__) {
 
 	module.exports = __webpack_require__(5);
 
 /***/ },
-/* 293 */
+/* 292 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var $export = __webpack_require__(9)
@@ -7322,14 +7311,14 @@
 	});
 
 /***/ },
-/* 294 */
+/* 293 */
 /***/ function(module, exports, __webpack_require__) {
 
-	var $iterators    = __webpack_require__(195)
+	var $iterators    = __webpack_require__(194)
 	  , redefine      = __webpack_require__(19)
 	  , global        = __webpack_require__(5)
 	  , hide          = __webpack_require__(11)
-	  , Iterators     = __webpack_require__(131)
+	  , Iterators     = __webpack_require__(130)
 	  , wks           = __webpack_require__(26)
 	  , ITERATOR      = wks('iterator')
 	  , TO_STRING_TAG = wks('toStringTag')
@@ -7349,7 +7338,7 @@
 	}
 
 /***/ },
-/* 295 */
+/* 294 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(global, process) {/**
@@ -8021,14 +8010,13 @@
 	  typeof self === "object" ? self : this
 	);
 
-	/* WEBPACK VAR INJECTION */}.call(exports, (function() { return this; }()), __webpack_require__(296)))
+	/* WEBPACK VAR INJECTION */}.call(exports, (function() { return this; }()), __webpack_require__(295)))
 
 /***/ },
-/* 296 */
+/* 295 */
 /***/ function(module, exports) {
 
 	// shim for using process in browser
-
 	var process = module.exports = {};
 
 	// cached from whatever global is present so that test runners that stub it
@@ -8040,21 +8028,63 @@
 	var cachedClearTimeout;
 
 	(function () {
-	  try {
-	    cachedSetTimeout = setTimeout;
-	  } catch (e) {
-	    cachedSetTimeout = function () {
-	      throw new Error('setTimeout is not defined');
+	    try {
+	        cachedSetTimeout = setTimeout;
+	    } catch (e) {
+	        cachedSetTimeout = function () {
+	            throw new Error('setTimeout is not defined');
+	        }
 	    }
-	  }
-	  try {
-	    cachedClearTimeout = clearTimeout;
-	  } catch (e) {
-	    cachedClearTimeout = function () {
-	      throw new Error('clearTimeout is not defined');
+	    try {
+	        cachedClearTimeout = clearTimeout;
+	    } catch (e) {
+	        cachedClearTimeout = function () {
+	            throw new Error('clearTimeout is not defined');
+	        }
 	    }
-	  }
 	} ())
+	function runTimeout(fun) {
+	    if (cachedSetTimeout === setTimeout) {
+	        //normal enviroments in sane situations
+	        return setTimeout(fun, 0);
+	    }
+	    try {
+	        // when when somebody has screwed with setTimeout but no I.E. maddness
+	        return cachedSetTimeout(fun, 0);
+	    } catch(e){
+	        try {
+	            // When we are in I.E. but the script has been evaled so I.E. doesn't trust the global object when called normally
+	            return cachedSetTimeout.call(null, fun, 0);
+	        } catch(e){
+	            // same as above but when it's a version of I.E. that must have the global object for 'this', hopfully our context correct otherwise it will throw a global error
+	            return cachedSetTimeout.call(this, fun, 0);
+	        }
+	    }
+
+
+	}
+	function runClearTimeout(marker) {
+	    if (cachedClearTimeout === clearTimeout) {
+	        //normal enviroments in sane situations
+	        return clearTimeout(marker);
+	    }
+	    try {
+	        // when when somebody has screwed with setTimeout but no I.E. maddness
+	        return cachedClearTimeout(marker);
+	    } catch (e){
+	        try {
+	            // When we are in I.E. but the script has been evaled so I.E. doesn't  trust the global object when called normally
+	            return cachedClearTimeout.call(null, marker);
+	        } catch (e){
+	            // same as above but when it's a version of I.E. that must have the global object for 'this', hopfully our context correct otherwise it will throw a global error.
+	            // Some versions of I.E. have different rules for clearTimeout vs setTimeout
+	            return cachedClearTimeout.call(this, marker);
+	        }
+	    }
+
+
+
+	}
 	var queue = [];
 	var draining = false;
 	var currentQueue;
@@ -8079,7 +8109,7 @@
 	    if (draining) {
 	        return;
 	    }
-	    var timeout = cachedSetTimeout(cleanUpNextTick);
+	    var timeout = runTimeout(cleanUpNextTick);
 	    draining = true;
 
 	    var len = queue.length;
@@ -8096,7 +8126,7 @@
 	    }
 	    currentQueue = null;
 	    draining = false;
-	    cachedClearTimeout(timeout);
+	    runClearTimeout(timeout);
 	}
 
 	process.nextTick = function (fun) {
@@ -8108,7 +8138,7 @@
 	    }
 	    queue.push(new Item(fun, args));
 	    if (queue.length === 1 && !draining) {
-	        cachedSetTimeout(drainQueue, 0);
+	        runTimeout(drainQueue);
 	    }
 	};
 
@@ -8149,25 +8179,25 @@
 
 
 /***/ },
-/* 297 */
+/* 296 */
 /***/ function(module, exports, __webpack_require__) {
 
-	__webpack_require__(298);
+	__webpack_require__(297);
 	module.exports = __webpack_require__(10).RegExp.escape;
 
 /***/ },
-/* 298 */
+/* 297 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// https://github.com/benjamingr/RexExp.escape
 	var $export = __webpack_require__(9)
-	  , $re     = __webpack_require__(299)(/[\\^$*+?.()|[\]{}]/g, '\\$&');
+	  , $re     = __webpack_require__(298)(/[\\^$*+?.()|[\]{}]/g, '\\$&');
 
 	$export($export.S, 'RegExp', {escape: function escape(it){ return $re(it); }});
 
 
 /***/ },
-/* 299 */
+/* 298 */
 /***/ function(module, exports) {
 
 	module.exports = function(regExp, replace){
@@ -8180,16 +8210,16 @@
 	};
 
 /***/ },
-/* 300 */
+/* 299 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
 
-	module.exports = __webpack_require__(301);
+	module.exports = __webpack_require__(300);
 
 
 /***/ },
-/* 301 */
+/* 300 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/**
@@ -8205,12 +8235,12 @@
 
 	'use strict';
 
-	var ReactDOM = __webpack_require__(302);
-	var ReactDOMServer = __webpack_require__(446);
-	var ReactIsomorphic = __webpack_require__(450);
+	var ReactDOM = __webpack_require__(301);
+	var ReactDOMServer = __webpack_require__(445);
+	var ReactIsomorphic = __webpack_require__(449);
 
-	var assign = __webpack_require__(337);
-	var deprecated = __webpack_require__(455);
+	var assign = __webpack_require__(336);
+	var deprecated = __webpack_require__(454);
 
 	// `version` will be added here by ReactIsomorphic.
 	var React = {};
@@ -8234,7 +8264,7 @@
 	module.exports = React;
 
 /***/ },
-/* 302 */
+/* 301 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(process) {/**
@@ -8252,19 +8282,19 @@
 
 	'use strict';
 
-	var ReactCurrentOwner = __webpack_require__(303);
-	var ReactDOMTextComponent = __webpack_require__(304);
-	var ReactDefaultInjection = __webpack_require__(369);
-	var ReactInstanceHandles = __webpack_require__(343);
-	var ReactMount = __webpack_require__(326);
-	var ReactPerf = __webpack_require__(316);
-	var ReactReconciler = __webpack_require__(348);
-	var ReactUpdates = __webpack_require__(352);
-	var ReactVersion = __webpack_require__(444);
+	var ReactCurrentOwner = __webpack_require__(302);
+	var ReactDOMTextComponent = __webpack_require__(303);
+	var ReactDefaultInjection = __webpack_require__(368);
+	var ReactInstanceHandles = __webpack_require__(342);
+	var ReactMount = __webpack_require__(325);
+	var ReactPerf = __webpack_require__(315);
+	var ReactReconciler = __webpack_require__(347);
+	var ReactUpdates = __webpack_require__(351);
+	var ReactVersion = __webpack_require__(443);
 
-	var findDOMNode = __webpack_require__(389);
-	var renderSubtreeIntoContainer = __webpack_require__(445);
-	var warning = __webpack_require__(323);
+	var findDOMNode = __webpack_require__(388);
+	var renderSubtreeIntoContainer = __webpack_require__(444);
+	var warning = __webpack_require__(322);
 
 	ReactDefaultInjection.inject();
 
@@ -8295,7 +8325,7 @@
 	}
 
 	if (process.env.NODE_ENV !== 'production') {
-	  var ExecutionEnvironment = __webpack_require__(307);
+	  var ExecutionEnvironment = __webpack_require__(306);
 	  if (ExecutionEnvironment.canUseDOM && window.top === window.self) {
 
 	    // First check if devtools is not installed
@@ -8329,10 +8359,10 @@
 	}
 
 	module.exports = React;
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(296)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(295)))
 
 /***/ },
-/* 303 */
+/* 302 */
 /***/ function(module, exports) {
 
 	/**
@@ -8367,7 +8397,7 @@
 	module.exports = ReactCurrentOwner;
 
 /***/ },
-/* 304 */
+/* 303 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(process) {/**
@@ -8384,15 +8414,15 @@
 
 	'use strict';
 
-	var DOMChildrenOperations = __webpack_require__(305);
-	var DOMPropertyOperations = __webpack_require__(320);
-	var ReactComponentBrowserEnvironment = __webpack_require__(324);
-	var ReactMount = __webpack_require__(326);
+	var DOMChildrenOperations = __webpack_require__(304);
+	var DOMPropertyOperations = __webpack_require__(319);
+	var ReactComponentBrowserEnvironment = __webpack_require__(323);
+	var ReactMount = __webpack_require__(325);
 
-	var assign = __webpack_require__(337);
-	var escapeTextContentForBrowser = __webpack_require__(319);
-	var setTextContent = __webpack_require__(318);
-	var validateDOMNesting = __webpack_require__(368);
+	var assign = __webpack_require__(336);
+	var escapeTextContentForBrowser = __webpack_require__(318);
+	var setTextContent = __webpack_require__(317);
+	var validateDOMNesting = __webpack_require__(367);
 
 	/**
 	 * Text nodes violate a couple assumptions that React makes about components:
@@ -8497,10 +8527,10 @@
 	});
 
 	module.exports = ReactDOMTextComponent;
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(296)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(295)))
 
 /***/ },
-/* 305 */
+/* 304 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(process) {/**
@@ -8517,13 +8547,13 @@
 
 	'use strict';
 
-	var Danger = __webpack_require__(306);
-	var ReactMultiChildUpdateTypes = __webpack_require__(314);
-	var ReactPerf = __webpack_require__(316);
+	var Danger = __webpack_require__(305);
+	var ReactMultiChildUpdateTypes = __webpack_require__(313);
+	var ReactPerf = __webpack_require__(315);
 
-	var setInnerHTML = __webpack_require__(317);
-	var setTextContent = __webpack_require__(318);
-	var invariant = __webpack_require__(311);
+	var setInnerHTML = __webpack_require__(316);
+	var setTextContent = __webpack_require__(317);
+	var invariant = __webpack_require__(310);
 
 	/**
 	 * Inserts `childNode` as a child of `parentNode` at the `index`.
@@ -8632,10 +8662,10 @@
 	});
 
 	module.exports = DOMChildrenOperations;
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(296)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(295)))
 
 /***/ },
-/* 306 */
+/* 305 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(process) {/**
@@ -8652,12 +8682,12 @@
 
 	'use strict';
 
-	var ExecutionEnvironment = __webpack_require__(307);
+	var ExecutionEnvironment = __webpack_require__(306);
 
-	var createNodesFromMarkup = __webpack_require__(308);
-	var emptyFunction = __webpack_require__(313);
-	var getMarkupWrap = __webpack_require__(312);
-	var invariant = __webpack_require__(311);
+	var createNodesFromMarkup = __webpack_require__(307);
+	var emptyFunction = __webpack_require__(312);
+	var getMarkupWrap = __webpack_require__(311);
+	var invariant = __webpack_require__(310);
 
 	var OPEN_TAG_NAME_EXP = /^(<[^ \/>]+)/;
 	var RESULT_INDEX_ATTR = 'data-danger-index';
@@ -8783,10 +8813,10 @@
 	};
 
 	module.exports = Danger;
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(296)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(295)))
 
 /***/ },
-/* 307 */
+/* 306 */
 /***/ function(module, exports) {
 
 	/**
@@ -8827,7 +8857,7 @@
 	module.exports = ExecutionEnvironment;
 
 /***/ },
-/* 308 */
+/* 307 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(process) {/**
@@ -8846,11 +8876,11 @@
 
 	'use strict';
 
-	var ExecutionEnvironment = __webpack_require__(307);
+	var ExecutionEnvironment = __webpack_require__(306);
 
-	var createArrayFromMixed = __webpack_require__(309);
-	var getMarkupWrap = __webpack_require__(312);
-	var invariant = __webpack_require__(311);
+	var createArrayFromMixed = __webpack_require__(308);
+	var getMarkupWrap = __webpack_require__(311);
+	var invariant = __webpack_require__(310);
 
 	/**
 	 * Dummy container used to render all markup.
@@ -8914,10 +8944,10 @@
 	}
 
 	module.exports = createNodesFromMarkup;
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(296)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(295)))
 
 /***/ },
-/* 309 */
+/* 308 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/**
@@ -8934,7 +8964,7 @@
 
 	'use strict';
 
-	var toArray = __webpack_require__(310);
+	var toArray = __webpack_require__(309);
 
 	/**
 	 * Perform a heuristic test to determine if an object is "array-like".
@@ -9007,7 +9037,7 @@
 	module.exports = createArrayFromMixed;
 
 /***/ },
-/* 310 */
+/* 309 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(process) {/**
@@ -9024,7 +9054,7 @@
 
 	'use strict';
 
-	var invariant = __webpack_require__(311);
+	var invariant = __webpack_require__(310);
 
 	/**
 	 * Convert array-like objects to arrays.
@@ -9067,10 +9097,10 @@
 	}
 
 	module.exports = toArray;
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(296)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(295)))
 
 /***/ },
-/* 311 */
+/* 310 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(process) {/**
@@ -9123,10 +9153,10 @@
 	}
 
 	module.exports = invariant;
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(296)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(295)))
 
 /***/ },
-/* 312 */
+/* 311 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(process) {/**
@@ -9144,9 +9174,9 @@
 
 	'use strict';
 
-	var ExecutionEnvironment = __webpack_require__(307);
+	var ExecutionEnvironment = __webpack_require__(306);
 
-	var invariant = __webpack_require__(311);
+	var invariant = __webpack_require__(310);
 
 	/**
 	 * Dummy container used to detect which wraps are necessary.
@@ -9224,10 +9254,10 @@
 	}
 
 	module.exports = getMarkupWrap;
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(296)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(295)))
 
 /***/ },
-/* 313 */
+/* 312 */
 /***/ function(module, exports) {
 
 	/**
@@ -9270,7 +9300,7 @@
 	module.exports = emptyFunction;
 
 /***/ },
-/* 314 */
+/* 313 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/**
@@ -9286,7 +9316,7 @@
 
 	'use strict';
 
-	var keyMirror = __webpack_require__(315);
+	var keyMirror = __webpack_require__(314);
 
 	/**
 	 * When a component's children are updated, a series of update configuration
@@ -9307,7 +9337,7 @@
 	module.exports = ReactMultiChildUpdateTypes;
 
 /***/ },
-/* 315 */
+/* 314 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(process) {/**
@@ -9324,7 +9354,7 @@
 
 	'use strict';
 
-	var invariant = __webpack_require__(311);
+	var invariant = __webpack_require__(310);
 
 	/**
 	 * Constructs an enumeration with keys equal to their value.
@@ -9358,10 +9388,10 @@
 	};
 
 	module.exports = keyMirror;
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(296)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(295)))
 
 /***/ },
-/* 316 */
+/* 315 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(process) {/**
@@ -9460,10 +9490,10 @@
 	}
 
 	module.exports = ReactPerf;
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(296)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(295)))
 
 /***/ },
-/* 317 */
+/* 316 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/**
@@ -9481,7 +9511,7 @@
 
 	'use strict';
 
-	var ExecutionEnvironment = __webpack_require__(307);
+	var ExecutionEnvironment = __webpack_require__(306);
 
 	var WHITESPACE_TEST = /^[ \r\n\t\f]/;
 	var NONVISIBLE_TEST = /<(!--|link|noscript|meta|script|style)[ \r\n\t\f\/>]/;
@@ -9558,7 +9588,7 @@
 	module.exports = setInnerHTML;
 
 /***/ },
-/* 318 */
+/* 317 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/**
@@ -9574,9 +9604,9 @@
 
 	'use strict';
 
-	var ExecutionEnvironment = __webpack_require__(307);
-	var escapeTextContentForBrowser = __webpack_require__(319);
-	var setInnerHTML = __webpack_require__(317);
+	var ExecutionEnvironment = __webpack_require__(306);
+	var escapeTextContentForBrowser = __webpack_require__(318);
+	var setInnerHTML = __webpack_require__(316);
 
 	/**
 	 * Set the textContent property of a node, ensuring that whitespace is preserved
@@ -9603,7 +9633,7 @@
 	module.exports = setTextContent;
 
 /***/ },
-/* 319 */
+/* 318 */
 /***/ function(module, exports) {
 
 	/**
@@ -9646,7 +9676,7 @@
 	module.exports = escapeTextContentForBrowser;
 
 /***/ },
-/* 320 */
+/* 319 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(process) {/**
@@ -9663,11 +9693,11 @@
 
 	'use strict';
 
-	var DOMProperty = __webpack_require__(321);
-	var ReactPerf = __webpack_require__(316);
+	var DOMProperty = __webpack_require__(320);
+	var ReactPerf = __webpack_require__(315);
 
-	var quoteAttributeValueForBrowser = __webpack_require__(322);
-	var warning = __webpack_require__(323);
+	var quoteAttributeValueForBrowser = __webpack_require__(321);
+	var warning = __webpack_require__(322);
 
 	// Simplified subset
 	var VALID_ATTRIBUTE_NAME_REGEX = /^[a-zA-Z_][\w\.\-]*$/;
@@ -9874,10 +9904,10 @@
 	});
 
 	module.exports = DOMPropertyOperations;
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(296)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(295)))
 
 /***/ },
-/* 321 */
+/* 320 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(process) {/**
@@ -9894,7 +9924,7 @@
 
 	'use strict';
 
-	var invariant = __webpack_require__(311);
+	var invariant = __webpack_require__(310);
 
 	function checkMask(value, bitmask) {
 	  return (value & bitmask) === bitmask;
@@ -10114,10 +10144,10 @@
 	};
 
 	module.exports = DOMProperty;
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(296)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(295)))
 
 /***/ },
-/* 322 */
+/* 321 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/**
@@ -10133,7 +10163,7 @@
 
 	'use strict';
 
-	var escapeTextContentForBrowser = __webpack_require__(319);
+	var escapeTextContentForBrowser = __webpack_require__(318);
 
 	/**
 	 * Escapes attribute value to prevent scripting attacks.
@@ -10148,7 +10178,7 @@
 	module.exports = quoteAttributeValueForBrowser;
 
 /***/ },
-/* 323 */
+/* 322 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(process) {/**
@@ -10164,7 +10194,7 @@
 
 	'use strict';
 
-	var emptyFunction = __webpack_require__(313);
+	var emptyFunction = __webpack_require__(312);
 
 	/**
 	 * Similar to invariant but only logs a warning if the condition is not met.
@@ -10208,10 +10238,10 @@
 	}
 
 	module.exports = warning;
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(296)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(295)))
 
 /***/ },
-/* 324 */
+/* 323 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/**
@@ -10227,8 +10257,8 @@
 
 	'use strict';
 
-	var ReactDOMIDOperations = __webpack_require__(325);
-	var ReactMount = __webpack_require__(326);
+	var ReactDOMIDOperations = __webpack_require__(324);
+	var ReactMount = __webpack_require__(325);
 
 	/**
 	 * Abstracts away all functionality of the reconciler that requires knowledge of
@@ -10257,7 +10287,7 @@
 	module.exports = ReactComponentBrowserEnvironment;
 
 /***/ },
-/* 325 */
+/* 324 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(process) {/**
@@ -10274,12 +10304,12 @@
 
 	'use strict';
 
-	var DOMChildrenOperations = __webpack_require__(305);
-	var DOMPropertyOperations = __webpack_require__(320);
-	var ReactMount = __webpack_require__(326);
-	var ReactPerf = __webpack_require__(316);
+	var DOMChildrenOperations = __webpack_require__(304);
+	var DOMPropertyOperations = __webpack_require__(319);
+	var ReactMount = __webpack_require__(325);
+	var ReactPerf = __webpack_require__(315);
 
-	var invariant = __webpack_require__(311);
+	var invariant = __webpack_require__(310);
 
 	/**
 	 * Errors for properties that should not be updated with `updatePropertyByID()`.
@@ -10354,10 +10384,10 @@
 	});
 
 	module.exports = ReactDOMIDOperations;
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(296)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(295)))
 
 /***/ },
-/* 326 */
+/* 325 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(process) {/**
@@ -10373,29 +10403,29 @@
 
 	'use strict';
 
-	var DOMProperty = __webpack_require__(321);
-	var ReactBrowserEventEmitter = __webpack_require__(327);
-	var ReactCurrentOwner = __webpack_require__(303);
-	var ReactDOMFeatureFlags = __webpack_require__(339);
-	var ReactElement = __webpack_require__(340);
-	var ReactEmptyComponentRegistry = __webpack_require__(342);
-	var ReactInstanceHandles = __webpack_require__(343);
-	var ReactInstanceMap = __webpack_require__(345);
-	var ReactMarkupChecksum = __webpack_require__(346);
-	var ReactPerf = __webpack_require__(316);
-	var ReactReconciler = __webpack_require__(348);
-	var ReactUpdateQueue = __webpack_require__(351);
-	var ReactUpdates = __webpack_require__(352);
+	var DOMProperty = __webpack_require__(320);
+	var ReactBrowserEventEmitter = __webpack_require__(326);
+	var ReactCurrentOwner = __webpack_require__(302);
+	var ReactDOMFeatureFlags = __webpack_require__(338);
+	var ReactElement = __webpack_require__(339);
+	var ReactEmptyComponentRegistry = __webpack_require__(341);
+	var ReactInstanceHandles = __webpack_require__(342);
+	var ReactInstanceMap = __webpack_require__(344);
+	var ReactMarkupChecksum = __webpack_require__(345);
+	var ReactPerf = __webpack_require__(315);
+	var ReactReconciler = __webpack_require__(347);
+	var ReactUpdateQueue = __webpack_require__(350);
+	var ReactUpdates = __webpack_require__(351);
 
-	var assign = __webpack_require__(337);
-	var emptyObject = __webpack_require__(356);
-	var containsNode = __webpack_require__(357);
-	var instantiateReactComponent = __webpack_require__(360);
-	var invariant = __webpack_require__(311);
-	var setInnerHTML = __webpack_require__(317);
-	var shouldUpdateReactComponent = __webpack_require__(365);
-	var validateDOMNesting = __webpack_require__(368);
-	var warning = __webpack_require__(323);
+	var assign = __webpack_require__(336);
+	var emptyObject = __webpack_require__(355);
+	var containsNode = __webpack_require__(356);
+	var instantiateReactComponent = __webpack_require__(359);
+	var invariant = __webpack_require__(310);
+	var setInnerHTML = __webpack_require__(316);
+	var shouldUpdateReactComponent = __webpack_require__(364);
+	var validateDOMNesting = __webpack_require__(367);
+	var warning = __webpack_require__(322);
 
 	var ATTR_NAME = DOMProperty.ID_ATTRIBUTE_NAME;
 	var nodeCache = {};
@@ -11210,10 +11240,10 @@
 	});
 
 	module.exports = ReactMount;
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(296)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(295)))
 
 /***/ },
-/* 327 */
+/* 326 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/**
@@ -11230,15 +11260,15 @@
 
 	'use strict';
 
-	var EventConstants = __webpack_require__(328);
-	var EventPluginHub = __webpack_require__(329);
-	var EventPluginRegistry = __webpack_require__(330);
-	var ReactEventEmitterMixin = __webpack_require__(335);
-	var ReactPerf = __webpack_require__(316);
-	var ViewportMetrics = __webpack_require__(336);
+	var EventConstants = __webpack_require__(327);
+	var EventPluginHub = __webpack_require__(328);
+	var EventPluginRegistry = __webpack_require__(329);
+	var ReactEventEmitterMixin = __webpack_require__(334);
+	var ReactPerf = __webpack_require__(315);
+	var ViewportMetrics = __webpack_require__(335);
 
-	var assign = __webpack_require__(337);
-	var isEventSupported = __webpack_require__(338);
+	var assign = __webpack_require__(336);
+	var isEventSupported = __webpack_require__(337);
 
 	/**
 	 * Summary of `ReactBrowserEventEmitter` event handling:
@@ -11542,7 +11572,7 @@
 	module.exports = ReactBrowserEventEmitter;
 
 /***/ },
-/* 328 */
+/* 327 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/**
@@ -11558,7 +11588,7 @@
 
 	'use strict';
 
-	var keyMirror = __webpack_require__(315);
+	var keyMirror = __webpack_require__(314);
 
 	var PropagationPhases = keyMirror({ bubbled: null, captured: null });
 
@@ -11639,7 +11669,7 @@
 	module.exports = EventConstants;
 
 /***/ },
-/* 329 */
+/* 328 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(process) {/**
@@ -11655,14 +11685,14 @@
 
 	'use strict';
 
-	var EventPluginRegistry = __webpack_require__(330);
-	var EventPluginUtils = __webpack_require__(331);
-	var ReactErrorUtils = __webpack_require__(332);
+	var EventPluginRegistry = __webpack_require__(329);
+	var EventPluginUtils = __webpack_require__(330);
+	var ReactErrorUtils = __webpack_require__(331);
 
-	var accumulateInto = __webpack_require__(333);
-	var forEachAccumulated = __webpack_require__(334);
-	var invariant = __webpack_require__(311);
-	var warning = __webpack_require__(323);
+	var accumulateInto = __webpack_require__(332);
+	var forEachAccumulated = __webpack_require__(333);
+	var invariant = __webpack_require__(310);
+	var warning = __webpack_require__(322);
 
 	/**
 	 * Internal store for event listeners
@@ -11921,10 +11951,10 @@
 	};
 
 	module.exports = EventPluginHub;
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(296)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(295)))
 
 /***/ },
-/* 330 */
+/* 329 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(process) {/**
@@ -11941,7 +11971,7 @@
 
 	'use strict';
 
-	var invariant = __webpack_require__(311);
+	var invariant = __webpack_require__(310);
 
 	/**
 	 * Injectable ordering of event plugins.
@@ -12147,10 +12177,10 @@
 	};
 
 	module.exports = EventPluginRegistry;
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(296)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(295)))
 
 /***/ },
-/* 331 */
+/* 330 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(process) {/**
@@ -12166,11 +12196,11 @@
 
 	'use strict';
 
-	var EventConstants = __webpack_require__(328);
-	var ReactErrorUtils = __webpack_require__(332);
+	var EventConstants = __webpack_require__(327);
+	var ReactErrorUtils = __webpack_require__(331);
 
-	var invariant = __webpack_require__(311);
-	var warning = __webpack_require__(323);
+	var invariant = __webpack_require__(310);
+	var warning = __webpack_require__(322);
 
 	/**
 	 * Injected dependencies:
@@ -12355,10 +12385,10 @@
 	};
 
 	module.exports = EventPluginUtils;
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(296)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(295)))
 
 /***/ },
-/* 332 */
+/* 331 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(process) {/**
@@ -12438,10 +12468,10 @@
 	}
 
 	module.exports = ReactErrorUtils;
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(296)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(295)))
 
 /***/ },
-/* 333 */
+/* 332 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(process) {/**
@@ -12457,7 +12487,7 @@
 
 	'use strict';
 
-	var invariant = __webpack_require__(311);
+	var invariant = __webpack_require__(310);
 
 	/**
 	 *
@@ -12503,10 +12533,10 @@
 	}
 
 	module.exports = accumulateInto;
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(296)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(295)))
 
 /***/ },
-/* 334 */
+/* 333 */
 /***/ function(module, exports) {
 
 	/**
@@ -12540,7 +12570,7 @@
 	module.exports = forEachAccumulated;
 
 /***/ },
-/* 335 */
+/* 334 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/**
@@ -12556,7 +12586,7 @@
 
 	'use strict';
 
-	var EventPluginHub = __webpack_require__(329);
+	var EventPluginHub = __webpack_require__(328);
 
 	function runEventQueueInBatch(events) {
 	  EventPluginHub.enqueueEvents(events);
@@ -12583,7 +12613,7 @@
 	module.exports = ReactEventEmitterMixin;
 
 /***/ },
-/* 336 */
+/* 335 */
 /***/ function(module, exports) {
 
 	/**
@@ -12615,7 +12645,7 @@
 	module.exports = ViewportMetrics;
 
 /***/ },
-/* 337 */
+/* 336 */
 /***/ function(module, exports) {
 
 	/**
@@ -12667,7 +12697,7 @@
 	module.exports = assign;
 
 /***/ },
-/* 338 */
+/* 337 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/**
@@ -12683,7 +12713,7 @@
 
 	'use strict';
 
-	var ExecutionEnvironment = __webpack_require__(307);
+	var ExecutionEnvironment = __webpack_require__(306);
 
 	var useHasFeature;
 	if (ExecutionEnvironment.canUseDOM) {
@@ -12732,7 +12762,7 @@
 	module.exports = isEventSupported;
 
 /***/ },
-/* 339 */
+/* 338 */
 /***/ function(module, exports) {
 
 	/**
@@ -12755,7 +12785,7 @@
 	module.exports = ReactDOMFeatureFlags;
 
 /***/ },
-/* 340 */
+/* 339 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(process) {/**
@@ -12771,10 +12801,10 @@
 
 	'use strict';
 
-	var ReactCurrentOwner = __webpack_require__(303);
+	var ReactCurrentOwner = __webpack_require__(302);
 
-	var assign = __webpack_require__(337);
-	var canDefineProperty = __webpack_require__(341);
+	var assign = __webpack_require__(336);
+	var canDefineProperty = __webpack_require__(340);
 
 	// The Symbol used to tag the ReactElement type. If there is no native Symbol
 	// nor polyfill, then a plain number is used for performance.
@@ -13005,10 +13035,10 @@
 	};
 
 	module.exports = ReactElement;
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(296)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(295)))
 
 /***/ },
-/* 341 */
+/* 340 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(process) {/**
@@ -13035,10 +13065,10 @@
 	}
 
 	module.exports = canDefineProperty;
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(296)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(295)))
 
 /***/ },
-/* 342 */
+/* 341 */
 /***/ function(module, exports) {
 
 	/**
@@ -13091,7 +13121,7 @@
 	module.exports = ReactEmptyComponentRegistry;
 
 /***/ },
-/* 343 */
+/* 342 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(process) {/**
@@ -13108,9 +13138,9 @@
 
 	'use strict';
 
-	var ReactRootIndex = __webpack_require__(344);
+	var ReactRootIndex = __webpack_require__(343);
 
-	var invariant = __webpack_require__(311);
+	var invariant = __webpack_require__(310);
 
 	var SEPARATOR = '.';
 	var SEPARATOR_LENGTH = SEPARATOR.length;
@@ -13396,10 +13426,10 @@
 	};
 
 	module.exports = ReactInstanceHandles;
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(296)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(295)))
 
 /***/ },
-/* 344 */
+/* 343 */
 /***/ function(module, exports) {
 
 	/**
@@ -13433,7 +13463,7 @@
 	module.exports = ReactRootIndex;
 
 /***/ },
-/* 345 */
+/* 344 */
 /***/ function(module, exports) {
 
 	/**
@@ -13485,7 +13515,7 @@
 	module.exports = ReactInstanceMap;
 
 /***/ },
-/* 346 */
+/* 345 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/**
@@ -13501,7 +13531,7 @@
 
 	'use strict';
 
-	var adler32 = __webpack_require__(347);
+	var adler32 = __webpack_require__(346);
 
 	var TAG_END = /\/?>/;
 
@@ -13535,7 +13565,7 @@
 	module.exports = ReactMarkupChecksum;
 
 /***/ },
-/* 347 */
+/* 346 */
 /***/ function(module, exports) {
 
 	/**
@@ -13582,7 +13612,7 @@
 	module.exports = adler32;
 
 /***/ },
-/* 348 */
+/* 347 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/**
@@ -13598,7 +13628,7 @@
 
 	'use strict';
 
-	var ReactRef = __webpack_require__(349);
+	var ReactRef = __webpack_require__(348);
 
 	/**
 	 * Helper to call ReactRef.attachRefs with this composite component, split out
@@ -13694,7 +13724,7 @@
 	module.exports = ReactReconciler;
 
 /***/ },
-/* 349 */
+/* 348 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/**
@@ -13710,7 +13740,7 @@
 
 	'use strict';
 
-	var ReactOwner = __webpack_require__(350);
+	var ReactOwner = __webpack_require__(349);
 
 	var ReactRef = {};
 
@@ -13777,7 +13807,7 @@
 	module.exports = ReactRef;
 
 /***/ },
-/* 350 */
+/* 349 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(process) {/**
@@ -13793,7 +13823,7 @@
 
 	'use strict';
 
-	var invariant = __webpack_require__(311);
+	var invariant = __webpack_require__(310);
 
 	/**
 	 * ReactOwners are capable of storing references to owned components.
@@ -13871,10 +13901,10 @@
 	};
 
 	module.exports = ReactOwner;
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(296)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(295)))
 
 /***/ },
-/* 351 */
+/* 350 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(process) {/**
@@ -13890,14 +13920,14 @@
 
 	'use strict';
 
-	var ReactCurrentOwner = __webpack_require__(303);
-	var ReactElement = __webpack_require__(340);
-	var ReactInstanceMap = __webpack_require__(345);
-	var ReactUpdates = __webpack_require__(352);
+	var ReactCurrentOwner = __webpack_require__(302);
+	var ReactElement = __webpack_require__(339);
+	var ReactInstanceMap = __webpack_require__(344);
+	var ReactUpdates = __webpack_require__(351);
 
-	var assign = __webpack_require__(337);
-	var invariant = __webpack_require__(311);
-	var warning = __webpack_require__(323);
+	var assign = __webpack_require__(336);
+	var invariant = __webpack_require__(310);
+	var warning = __webpack_require__(322);
 
 	function enqueueUpdate(internalInstance) {
 	  ReactUpdates.enqueueUpdate(internalInstance);
@@ -14134,10 +14164,10 @@
 	};
 
 	module.exports = ReactUpdateQueue;
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(296)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(295)))
 
 /***/ },
-/* 352 */
+/* 351 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(process) {/**
@@ -14153,14 +14183,14 @@
 
 	'use strict';
 
-	var CallbackQueue = __webpack_require__(353);
-	var PooledClass = __webpack_require__(354);
-	var ReactPerf = __webpack_require__(316);
-	var ReactReconciler = __webpack_require__(348);
-	var Transaction = __webpack_require__(355);
+	var CallbackQueue = __webpack_require__(352);
+	var PooledClass = __webpack_require__(353);
+	var ReactPerf = __webpack_require__(315);
+	var ReactReconciler = __webpack_require__(347);
+	var Transaction = __webpack_require__(354);
 
-	var assign = __webpack_require__(337);
-	var invariant = __webpack_require__(311);
+	var assign = __webpack_require__(336);
+	var invariant = __webpack_require__(310);
 
 	var dirtyComponents = [];
 	var asapCallbackQueue = CallbackQueue.getPooled();
@@ -14363,10 +14393,10 @@
 	};
 
 	module.exports = ReactUpdates;
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(296)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(295)))
 
 /***/ },
-/* 353 */
+/* 352 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(process) {/**
@@ -14382,10 +14412,10 @@
 
 	'use strict';
 
-	var PooledClass = __webpack_require__(354);
+	var PooledClass = __webpack_require__(353);
 
-	var assign = __webpack_require__(337);
-	var invariant = __webpack_require__(311);
+	var assign = __webpack_require__(336);
+	var invariant = __webpack_require__(310);
 
 	/**
 	 * A specialized pseudo-event module to help keep track of components waiting to
@@ -14462,10 +14492,10 @@
 	PooledClass.addPoolingTo(CallbackQueue);
 
 	module.exports = CallbackQueue;
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(296)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(295)))
 
 /***/ },
-/* 354 */
+/* 353 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(process) {/**
@@ -14481,7 +14511,7 @@
 
 	'use strict';
 
-	var invariant = __webpack_require__(311);
+	var invariant = __webpack_require__(310);
 
 	/**
 	 * Static poolers. Several custom versions for each potential number of
@@ -14587,10 +14617,10 @@
 	};
 
 	module.exports = PooledClass;
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(296)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(295)))
 
 /***/ },
-/* 355 */
+/* 354 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(process) {/**
@@ -14606,7 +14636,7 @@
 
 	'use strict';
 
-	var invariant = __webpack_require__(311);
+	var invariant = __webpack_require__(310);
 
 	/**
 	 * `Transaction` creates a black box that is able to wrap any method such that
@@ -14824,10 +14854,10 @@
 	};
 
 	module.exports = Transaction;
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(296)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(295)))
 
 /***/ },
-/* 356 */
+/* 355 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(process) {/**
@@ -14850,10 +14880,10 @@
 	}
 
 	module.exports = emptyObject;
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(296)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(295)))
 
 /***/ },
-/* 357 */
+/* 356 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/**
@@ -14870,7 +14900,7 @@
 
 	'use strict';
 
-	var isTextNode = __webpack_require__(358);
+	var isTextNode = __webpack_require__(357);
 
 	/*eslint-disable no-bitwise */
 
@@ -14913,7 +14943,7 @@
 	module.exports = containsNode;
 
 /***/ },
-/* 358 */
+/* 357 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/**
@@ -14930,7 +14960,7 @@
 
 	'use strict';
 
-	var isNode = __webpack_require__(359);
+	var isNode = __webpack_require__(358);
 
 	/**
 	 * @param {*} object The object to check.
@@ -14943,7 +14973,7 @@
 	module.exports = isTextNode;
 
 /***/ },
-/* 359 */
+/* 358 */
 /***/ function(module, exports) {
 
 	/**
@@ -14971,7 +15001,7 @@
 	module.exports = isNode;
 
 /***/ },
-/* 360 */
+/* 359 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(process) {/**
@@ -14988,13 +15018,13 @@
 
 	'use strict';
 
-	var ReactCompositeComponent = __webpack_require__(361);
-	var ReactEmptyComponent = __webpack_require__(366);
-	var ReactNativeComponent = __webpack_require__(367);
+	var ReactCompositeComponent = __webpack_require__(360);
+	var ReactEmptyComponent = __webpack_require__(365);
+	var ReactNativeComponent = __webpack_require__(366);
 
-	var assign = __webpack_require__(337);
-	var invariant = __webpack_require__(311);
-	var warning = __webpack_require__(323);
+	var assign = __webpack_require__(336);
+	var invariant = __webpack_require__(310);
+	var warning = __webpack_require__(322);
 
 	// To avoid a cyclic dependency, we create the final class in this module
 	var ReactCompositeComponentWrapper = function () {};
@@ -15086,10 +15116,10 @@
 	}
 
 	module.exports = instantiateReactComponent;
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(296)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(295)))
 
 /***/ },
-/* 361 */
+/* 360 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(process) {/**
@@ -15105,21 +15135,21 @@
 
 	'use strict';
 
-	var ReactComponentEnvironment = __webpack_require__(362);
-	var ReactCurrentOwner = __webpack_require__(303);
-	var ReactElement = __webpack_require__(340);
-	var ReactInstanceMap = __webpack_require__(345);
-	var ReactPerf = __webpack_require__(316);
-	var ReactPropTypeLocations = __webpack_require__(363);
-	var ReactPropTypeLocationNames = __webpack_require__(364);
-	var ReactReconciler = __webpack_require__(348);
-	var ReactUpdateQueue = __webpack_require__(351);
+	var ReactComponentEnvironment = __webpack_require__(361);
+	var ReactCurrentOwner = __webpack_require__(302);
+	var ReactElement = __webpack_require__(339);
+	var ReactInstanceMap = __webpack_require__(344);
+	var ReactPerf = __webpack_require__(315);
+	var ReactPropTypeLocations = __webpack_require__(362);
+	var ReactPropTypeLocationNames = __webpack_require__(363);
+	var ReactReconciler = __webpack_require__(347);
+	var ReactUpdateQueue = __webpack_require__(350);
 
-	var assign = __webpack_require__(337);
-	var emptyObject = __webpack_require__(356);
-	var invariant = __webpack_require__(311);
-	var shouldUpdateReactComponent = __webpack_require__(365);
-	var warning = __webpack_require__(323);
+	var assign = __webpack_require__(336);
+	var emptyObject = __webpack_require__(355);
+	var invariant = __webpack_require__(310);
+	var shouldUpdateReactComponent = __webpack_require__(364);
+	var warning = __webpack_require__(322);
 
 	function getDeclarationErrorAddendum(component) {
 	  var owner = component._currentElement._owner || null;
@@ -15786,10 +15816,10 @@
 	};
 
 	module.exports = ReactCompositeComponent;
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(296)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(295)))
 
 /***/ },
-/* 362 */
+/* 361 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(process) {/**
@@ -15805,7 +15835,7 @@
 
 	'use strict';
 
-	var invariant = __webpack_require__(311);
+	var invariant = __webpack_require__(310);
 
 	var injected = false;
 
@@ -15843,10 +15873,10 @@
 	};
 
 	module.exports = ReactComponentEnvironment;
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(296)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(295)))
 
 /***/ },
-/* 363 */
+/* 362 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/**
@@ -15862,7 +15892,7 @@
 
 	'use strict';
 
-	var keyMirror = __webpack_require__(315);
+	var keyMirror = __webpack_require__(314);
 
 	var ReactPropTypeLocations = keyMirror({
 	  prop: null,
@@ -15873,7 +15903,7 @@
 	module.exports = ReactPropTypeLocations;
 
 /***/ },
-/* 364 */
+/* 363 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(process) {/**
@@ -15900,10 +15930,10 @@
 	}
 
 	module.exports = ReactPropTypeLocationNames;
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(296)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(295)))
 
 /***/ },
-/* 365 */
+/* 364 */
 /***/ function(module, exports) {
 
 	/**
@@ -15951,7 +15981,7 @@
 	module.exports = shouldUpdateReactComponent;
 
 /***/ },
-/* 366 */
+/* 365 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/**
@@ -15967,11 +15997,11 @@
 
 	'use strict';
 
-	var ReactElement = __webpack_require__(340);
-	var ReactEmptyComponentRegistry = __webpack_require__(342);
-	var ReactReconciler = __webpack_require__(348);
+	var ReactElement = __webpack_require__(339);
+	var ReactEmptyComponentRegistry = __webpack_require__(341);
+	var ReactReconciler = __webpack_require__(347);
 
-	var assign = __webpack_require__(337);
+	var assign = __webpack_require__(336);
 
 	var placeholderElement;
 
@@ -16011,7 +16041,7 @@
 	module.exports = ReactEmptyComponent;
 
 /***/ },
-/* 367 */
+/* 366 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(process) {/**
@@ -16027,8 +16057,8 @@
 
 	'use strict';
 
-	var assign = __webpack_require__(337);
-	var invariant = __webpack_require__(311);
+	var assign = __webpack_require__(336);
+	var invariant = __webpack_require__(310);
 
 	var autoGenerateWrapperClass = null;
 	var genericComponentClass = null;
@@ -16108,10 +16138,10 @@
 	};
 
 	module.exports = ReactNativeComponent;
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(296)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(295)))
 
 /***/ },
-/* 368 */
+/* 367 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(process) {/**
@@ -16127,9 +16157,9 @@
 
 	'use strict';
 
-	var assign = __webpack_require__(337);
-	var emptyFunction = __webpack_require__(313);
-	var warning = __webpack_require__(323);
+	var assign = __webpack_require__(336);
+	var emptyFunction = __webpack_require__(312);
+	var warning = __webpack_require__(322);
 
 	var validateDOMNesting = emptyFunction;
 
@@ -16477,10 +16507,10 @@
 	}
 
 	module.exports = validateDOMNesting;
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(296)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(295)))
 
 /***/ },
-/* 369 */
+/* 368 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(process) {/**
@@ -16496,27 +16526,27 @@
 
 	'use strict';
 
-	var BeforeInputEventPlugin = __webpack_require__(370);
-	var ChangeEventPlugin = __webpack_require__(378);
-	var ClientReactRootIndex = __webpack_require__(381);
-	var DefaultEventPluginOrder = __webpack_require__(382);
-	var EnterLeaveEventPlugin = __webpack_require__(383);
-	var ExecutionEnvironment = __webpack_require__(307);
-	var HTMLDOMPropertyConfig = __webpack_require__(387);
-	var ReactBrowserComponentMixin = __webpack_require__(388);
-	var ReactComponentBrowserEnvironment = __webpack_require__(324);
-	var ReactDefaultBatchingStrategy = __webpack_require__(390);
-	var ReactDOMComponent = __webpack_require__(391);
-	var ReactDOMTextComponent = __webpack_require__(304);
-	var ReactEventListener = __webpack_require__(416);
-	var ReactInjection = __webpack_require__(419);
-	var ReactInstanceHandles = __webpack_require__(343);
-	var ReactMount = __webpack_require__(326);
-	var ReactReconcileTransaction = __webpack_require__(423);
-	var SelectEventPlugin = __webpack_require__(428);
-	var ServerReactRootIndex = __webpack_require__(429);
-	var SimpleEventPlugin = __webpack_require__(430);
-	var SVGDOMPropertyConfig = __webpack_require__(439);
+	var BeforeInputEventPlugin = __webpack_require__(369);
+	var ChangeEventPlugin = __webpack_require__(377);
+	var ClientReactRootIndex = __webpack_require__(380);
+	var DefaultEventPluginOrder = __webpack_require__(381);
+	var EnterLeaveEventPlugin = __webpack_require__(382);
+	var ExecutionEnvironment = __webpack_require__(306);
+	var HTMLDOMPropertyConfig = __webpack_require__(386);
+	var ReactBrowserComponentMixin = __webpack_require__(387);
+	var ReactComponentBrowserEnvironment = __webpack_require__(323);
+	var ReactDefaultBatchingStrategy = __webpack_require__(389);
+	var ReactDOMComponent = __webpack_require__(390);
+	var ReactDOMTextComponent = __webpack_require__(303);
+	var ReactEventListener = __webpack_require__(415);
+	var ReactInjection = __webpack_require__(418);
+	var ReactInstanceHandles = __webpack_require__(342);
+	var ReactMount = __webpack_require__(325);
+	var ReactReconcileTransaction = __webpack_require__(422);
+	var SelectEventPlugin = __webpack_require__(427);
+	var ServerReactRootIndex = __webpack_require__(428);
+	var SimpleEventPlugin = __webpack_require__(429);
+	var SVGDOMPropertyConfig = __webpack_require__(438);
 
 	var alreadyInjected = false;
 
@@ -16571,7 +16601,7 @@
 	  if (process.env.NODE_ENV !== 'production') {
 	    var url = ExecutionEnvironment.canUseDOM && window.location.href || '';
 	    if (/[?&]react_perf\b/.test(url)) {
-	      var ReactDefaultPerf = __webpack_require__(440);
+	      var ReactDefaultPerf = __webpack_require__(439);
 	      ReactDefaultPerf.start();
 	    }
 	  }
@@ -16580,10 +16610,10 @@
 	module.exports = {
 	  inject: inject
 	};
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(296)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(295)))
 
 /***/ },
-/* 370 */
+/* 369 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/**
@@ -16600,14 +16630,14 @@
 
 	'use strict';
 
-	var EventConstants = __webpack_require__(328);
-	var EventPropagators = __webpack_require__(371);
-	var ExecutionEnvironment = __webpack_require__(307);
-	var FallbackCompositionState = __webpack_require__(372);
-	var SyntheticCompositionEvent = __webpack_require__(374);
-	var SyntheticInputEvent = __webpack_require__(376);
+	var EventConstants = __webpack_require__(327);
+	var EventPropagators = __webpack_require__(370);
+	var ExecutionEnvironment = __webpack_require__(306);
+	var FallbackCompositionState = __webpack_require__(371);
+	var SyntheticCompositionEvent = __webpack_require__(373);
+	var SyntheticInputEvent = __webpack_require__(375);
 
-	var keyOf = __webpack_require__(377);
+	var keyOf = __webpack_require__(376);
 
 	var END_KEYCODES = [9, 13, 27, 32]; // Tab, Return, Esc, Space
 	var START_KEYCODE = 229;
@@ -16993,7 +17023,7 @@
 	module.exports = BeforeInputEventPlugin;
 
 /***/ },
-/* 371 */
+/* 370 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(process) {/**
@@ -17009,13 +17039,13 @@
 
 	'use strict';
 
-	var EventConstants = __webpack_require__(328);
-	var EventPluginHub = __webpack_require__(329);
+	var EventConstants = __webpack_require__(327);
+	var EventPluginHub = __webpack_require__(328);
 
-	var warning = __webpack_require__(323);
+	var warning = __webpack_require__(322);
 
-	var accumulateInto = __webpack_require__(333);
-	var forEachAccumulated = __webpack_require__(334);
+	var accumulateInto = __webpack_require__(332);
+	var forEachAccumulated = __webpack_require__(333);
 
 	var PropagationPhases = EventConstants.PropagationPhases;
 	var getListener = EventPluginHub.getListener;
@@ -17131,10 +17161,10 @@
 	};
 
 	module.exports = EventPropagators;
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(296)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(295)))
 
 /***/ },
-/* 372 */
+/* 371 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/**
@@ -17151,10 +17181,10 @@
 
 	'use strict';
 
-	var PooledClass = __webpack_require__(354);
+	var PooledClass = __webpack_require__(353);
 
-	var assign = __webpack_require__(337);
-	var getTextContentAccessor = __webpack_require__(373);
+	var assign = __webpack_require__(336);
+	var getTextContentAccessor = __webpack_require__(372);
 
 	/**
 	 * This helper class stores information about text content of a target node,
@@ -17234,7 +17264,7 @@
 	module.exports = FallbackCompositionState;
 
 /***/ },
-/* 373 */
+/* 372 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/**
@@ -17250,7 +17280,7 @@
 
 	'use strict';
 
-	var ExecutionEnvironment = __webpack_require__(307);
+	var ExecutionEnvironment = __webpack_require__(306);
 
 	var contentKey = null;
 
@@ -17272,7 +17302,7 @@
 	module.exports = getTextContentAccessor;
 
 /***/ },
-/* 374 */
+/* 373 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/**
@@ -17289,7 +17319,7 @@
 
 	'use strict';
 
-	var SyntheticEvent = __webpack_require__(375);
+	var SyntheticEvent = __webpack_require__(374);
 
 	/**
 	 * @interface Event
@@ -17314,7 +17344,7 @@
 	module.exports = SyntheticCompositionEvent;
 
 /***/ },
-/* 375 */
+/* 374 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(process) {/**
@@ -17331,11 +17361,11 @@
 
 	'use strict';
 
-	var PooledClass = __webpack_require__(354);
+	var PooledClass = __webpack_require__(353);
 
-	var assign = __webpack_require__(337);
-	var emptyFunction = __webpack_require__(313);
-	var warning = __webpack_require__(323);
+	var assign = __webpack_require__(336);
+	var emptyFunction = __webpack_require__(312);
+	var warning = __webpack_require__(322);
 
 	/**
 	 * @interface Event
@@ -17497,10 +17527,10 @@
 	PooledClass.addPoolingTo(SyntheticEvent, PooledClass.fourArgumentPooler);
 
 	module.exports = SyntheticEvent;
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(296)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(295)))
 
 /***/ },
-/* 376 */
+/* 375 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/**
@@ -17517,7 +17547,7 @@
 
 	'use strict';
 
-	var SyntheticEvent = __webpack_require__(375);
+	var SyntheticEvent = __webpack_require__(374);
 
 	/**
 	 * @interface Event
@@ -17543,7 +17573,7 @@
 	module.exports = SyntheticInputEvent;
 
 /***/ },
-/* 377 */
+/* 376 */
 /***/ function(module, exports) {
 
 	/**
@@ -17583,7 +17613,7 @@
 	module.exports = keyOf;
 
 /***/ },
-/* 378 */
+/* 377 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/**
@@ -17599,17 +17629,17 @@
 
 	'use strict';
 
-	var EventConstants = __webpack_require__(328);
-	var EventPluginHub = __webpack_require__(329);
-	var EventPropagators = __webpack_require__(371);
-	var ExecutionEnvironment = __webpack_require__(307);
-	var ReactUpdates = __webpack_require__(352);
-	var SyntheticEvent = __webpack_require__(375);
+	var EventConstants = __webpack_require__(327);
+	var EventPluginHub = __webpack_require__(328);
+	var EventPropagators = __webpack_require__(370);
+	var ExecutionEnvironment = __webpack_require__(306);
+	var ReactUpdates = __webpack_require__(351);
+	var SyntheticEvent = __webpack_require__(374);
 
-	var getEventTarget = __webpack_require__(379);
-	var isEventSupported = __webpack_require__(338);
-	var isTextInputElement = __webpack_require__(380);
-	var keyOf = __webpack_require__(377);
+	var getEventTarget = __webpack_require__(378);
+	var isEventSupported = __webpack_require__(337);
+	var isTextInputElement = __webpack_require__(379);
+	var keyOf = __webpack_require__(376);
 
 	var topLevelTypes = EventConstants.topLevelTypes;
 
@@ -17909,7 +17939,7 @@
 	module.exports = ChangeEventPlugin;
 
 /***/ },
-/* 379 */
+/* 378 */
 /***/ function(module, exports) {
 
 	/**
@@ -17943,7 +17973,7 @@
 	module.exports = getEventTarget;
 
 /***/ },
-/* 380 */
+/* 379 */
 /***/ function(module, exports) {
 
 	/**
@@ -17988,7 +18018,7 @@
 	module.exports = isTextInputElement;
 
 /***/ },
-/* 381 */
+/* 380 */
 /***/ function(module, exports) {
 
 	/**
@@ -18016,7 +18046,7 @@
 	module.exports = ClientReactRootIndex;
 
 /***/ },
-/* 382 */
+/* 381 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/**
@@ -18032,7 +18062,7 @@
 
 	'use strict';
 
-	var keyOf = __webpack_require__(377);
+	var keyOf = __webpack_require__(376);
 
 	/**
 	 * Module that is injectable into `EventPluginHub`, that specifies a
@@ -18048,7 +18078,7 @@
 	module.exports = DefaultEventPluginOrder;
 
 /***/ },
-/* 383 */
+/* 382 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/**
@@ -18065,12 +18095,12 @@
 
 	'use strict';
 
-	var EventConstants = __webpack_require__(328);
-	var EventPropagators = __webpack_require__(371);
-	var SyntheticMouseEvent = __webpack_require__(384);
+	var EventConstants = __webpack_require__(327);
+	var EventPropagators = __webpack_require__(370);
+	var SyntheticMouseEvent = __webpack_require__(383);
 
-	var ReactMount = __webpack_require__(326);
-	var keyOf = __webpack_require__(377);
+	var ReactMount = __webpack_require__(325);
+	var keyOf = __webpack_require__(376);
 
 	var topLevelTypes = EventConstants.topLevelTypes;
 	var getFirstReactDOM = ReactMount.getFirstReactDOM;
@@ -18177,7 +18207,7 @@
 	module.exports = EnterLeaveEventPlugin;
 
 /***/ },
-/* 384 */
+/* 383 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/**
@@ -18194,10 +18224,10 @@
 
 	'use strict';
 
-	var SyntheticUIEvent = __webpack_require__(385);
-	var ViewportMetrics = __webpack_require__(336);
+	var SyntheticUIEvent = __webpack_require__(384);
+	var ViewportMetrics = __webpack_require__(335);
 
-	var getEventModifierState = __webpack_require__(386);
+	var getEventModifierState = __webpack_require__(385);
 
 	/**
 	 * @interface MouseEvent
@@ -18255,7 +18285,7 @@
 	module.exports = SyntheticMouseEvent;
 
 /***/ },
-/* 385 */
+/* 384 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/**
@@ -18272,9 +18302,9 @@
 
 	'use strict';
 
-	var SyntheticEvent = __webpack_require__(375);
+	var SyntheticEvent = __webpack_require__(374);
 
-	var getEventTarget = __webpack_require__(379);
+	var getEventTarget = __webpack_require__(378);
 
 	/**
 	 * @interface UIEvent
@@ -18320,7 +18350,7 @@
 	module.exports = SyntheticUIEvent;
 
 /***/ },
-/* 386 */
+/* 385 */
 /***/ function(module, exports) {
 
 	/**
@@ -18369,7 +18399,7 @@
 	module.exports = getEventModifierState;
 
 /***/ },
-/* 387 */
+/* 386 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/**
@@ -18385,8 +18415,8 @@
 
 	'use strict';
 
-	var DOMProperty = __webpack_require__(321);
-	var ExecutionEnvironment = __webpack_require__(307);
+	var DOMProperty = __webpack_require__(320);
+	var ExecutionEnvironment = __webpack_require__(306);
 
 	var MUST_USE_ATTRIBUTE = DOMProperty.injection.MUST_USE_ATTRIBUTE;
 	var MUST_USE_PROPERTY = DOMProperty.injection.MUST_USE_PROPERTY;
@@ -18604,7 +18634,7 @@
 	module.exports = HTMLDOMPropertyConfig;
 
 /***/ },
-/* 388 */
+/* 387 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(process) {/**
@@ -18620,10 +18650,10 @@
 
 	'use strict';
 
-	var ReactInstanceMap = __webpack_require__(345);
+	var ReactInstanceMap = __webpack_require__(344);
 
-	var findDOMNode = __webpack_require__(389);
-	var warning = __webpack_require__(323);
+	var findDOMNode = __webpack_require__(388);
+	var warning = __webpack_require__(322);
 
 	var didWarnKey = '_getDOMNodeDidWarn';
 
@@ -18643,10 +18673,10 @@
 	};
 
 	module.exports = ReactBrowserComponentMixin;
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(296)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(295)))
 
 /***/ },
-/* 389 */
+/* 388 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(process) {/**
@@ -18663,12 +18693,12 @@
 
 	'use strict';
 
-	var ReactCurrentOwner = __webpack_require__(303);
-	var ReactInstanceMap = __webpack_require__(345);
-	var ReactMount = __webpack_require__(326);
+	var ReactCurrentOwner = __webpack_require__(302);
+	var ReactInstanceMap = __webpack_require__(344);
+	var ReactMount = __webpack_require__(325);
 
-	var invariant = __webpack_require__(311);
-	var warning = __webpack_require__(323);
+	var invariant = __webpack_require__(310);
+	var warning = __webpack_require__(322);
 
 	/**
 	 * Returns the DOM node rendered by this element.
@@ -18698,10 +18728,10 @@
 	}
 
 	module.exports = findDOMNode;
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(296)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(295)))
 
 /***/ },
-/* 390 */
+/* 389 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/**
@@ -18717,11 +18747,11 @@
 
 	'use strict';
 
-	var ReactUpdates = __webpack_require__(352);
-	var Transaction = __webpack_require__(355);
+	var ReactUpdates = __webpack_require__(351);
+	var Transaction = __webpack_require__(354);
 
-	var assign = __webpack_require__(337);
-	var emptyFunction = __webpack_require__(313);
+	var assign = __webpack_require__(336);
+	var emptyFunction = __webpack_require__(312);
 
 	var RESET_BATCHED_UPDATES = {
 	  initialize: emptyFunction,
@@ -18773,7 +18803,7 @@
 	module.exports = ReactDefaultBatchingStrategy;
 
 /***/ },
-/* 391 */
+/* 390 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(process) {/**
@@ -18792,34 +18822,34 @@
 
 	'use strict';
 
-	var AutoFocusUtils = __webpack_require__(392);
-	var CSSPropertyOperations = __webpack_require__(394);
-	var DOMProperty = __webpack_require__(321);
-	var DOMPropertyOperations = __webpack_require__(320);
-	var EventConstants = __webpack_require__(328);
-	var ReactBrowserEventEmitter = __webpack_require__(327);
-	var ReactComponentBrowserEnvironment = __webpack_require__(324);
-	var ReactDOMButton = __webpack_require__(402);
-	var ReactDOMInput = __webpack_require__(403);
-	var ReactDOMOption = __webpack_require__(407);
-	var ReactDOMSelect = __webpack_require__(410);
-	var ReactDOMTextarea = __webpack_require__(411);
-	var ReactMount = __webpack_require__(326);
-	var ReactMultiChild = __webpack_require__(412);
-	var ReactPerf = __webpack_require__(316);
-	var ReactUpdateQueue = __webpack_require__(351);
+	var AutoFocusUtils = __webpack_require__(391);
+	var CSSPropertyOperations = __webpack_require__(393);
+	var DOMProperty = __webpack_require__(320);
+	var DOMPropertyOperations = __webpack_require__(319);
+	var EventConstants = __webpack_require__(327);
+	var ReactBrowserEventEmitter = __webpack_require__(326);
+	var ReactComponentBrowserEnvironment = __webpack_require__(323);
+	var ReactDOMButton = __webpack_require__(401);
+	var ReactDOMInput = __webpack_require__(402);
+	var ReactDOMOption = __webpack_require__(406);
+	var ReactDOMSelect = __webpack_require__(409);
+	var ReactDOMTextarea = __webpack_require__(410);
+	var ReactMount = __webpack_require__(325);
+	var ReactMultiChild = __webpack_require__(411);
+	var ReactPerf = __webpack_require__(315);
+	var ReactUpdateQueue = __webpack_require__(350);
 
-	var assign = __webpack_require__(337);
-	var canDefineProperty = __webpack_require__(341);
-	var escapeTextContentForBrowser = __webpack_require__(319);
-	var invariant = __webpack_require__(311);
-	var isEventSupported = __webpack_require__(338);
-	var keyOf = __webpack_require__(377);
-	var setInnerHTML = __webpack_require__(317);
-	var setTextContent = __webpack_require__(318);
-	var shallowEqual = __webpack_require__(415);
-	var validateDOMNesting = __webpack_require__(368);
-	var warning = __webpack_require__(323);
+	var assign = __webpack_require__(336);
+	var canDefineProperty = __webpack_require__(340);
+	var escapeTextContentForBrowser = __webpack_require__(318);
+	var invariant = __webpack_require__(310);
+	var isEventSupported = __webpack_require__(337);
+	var keyOf = __webpack_require__(376);
+	var setInnerHTML = __webpack_require__(316);
+	var setTextContent = __webpack_require__(317);
+	var shallowEqual = __webpack_require__(414);
+	var validateDOMNesting = __webpack_require__(367);
+	var warning = __webpack_require__(322);
 
 	var deleteListener = ReactBrowserEventEmitter.deleteListener;
 	var listenTo = ReactBrowserEventEmitter.listenTo;
@@ -19738,10 +19768,10 @@
 	assign(ReactDOMComponent.prototype, ReactDOMComponent.Mixin, ReactMultiChild.Mixin);
 
 	module.exports = ReactDOMComponent;
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(296)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(295)))
 
 /***/ },
-/* 392 */
+/* 391 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/**
@@ -19758,10 +19788,10 @@
 
 	'use strict';
 
-	var ReactMount = __webpack_require__(326);
+	var ReactMount = __webpack_require__(325);
 
-	var findDOMNode = __webpack_require__(389);
-	var focusNode = __webpack_require__(393);
+	var findDOMNode = __webpack_require__(388);
+	var focusNode = __webpack_require__(392);
 
 	var Mixin = {
 	  componentDidMount: function () {
@@ -19782,7 +19812,7 @@
 	module.exports = AutoFocusUtils;
 
 /***/ },
-/* 393 */
+/* 392 */
 /***/ function(module, exports) {
 
 	/**
@@ -19813,7 +19843,7 @@
 	module.exports = focusNode;
 
 /***/ },
-/* 394 */
+/* 393 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(process) {/**
@@ -19830,15 +19860,15 @@
 
 	'use strict';
 
-	var CSSProperty = __webpack_require__(395);
-	var ExecutionEnvironment = __webpack_require__(307);
-	var ReactPerf = __webpack_require__(316);
+	var CSSProperty = __webpack_require__(394);
+	var ExecutionEnvironment = __webpack_require__(306);
+	var ReactPerf = __webpack_require__(315);
 
-	var camelizeStyleName = __webpack_require__(396);
-	var dangerousStyleValue = __webpack_require__(398);
-	var hyphenateStyleName = __webpack_require__(399);
-	var memoizeStringOnly = __webpack_require__(401);
-	var warning = __webpack_require__(323);
+	var camelizeStyleName = __webpack_require__(395);
+	var dangerousStyleValue = __webpack_require__(397);
+	var hyphenateStyleName = __webpack_require__(398);
+	var memoizeStringOnly = __webpack_require__(400);
+	var warning = __webpack_require__(322);
 
 	var processStyleName = memoizeStringOnly(function (styleName) {
 	  return hyphenateStyleName(styleName);
@@ -19991,10 +20021,10 @@
 	});
 
 	module.exports = CSSPropertyOperations;
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(296)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(295)))
 
 /***/ },
-/* 395 */
+/* 394 */
 /***/ function(module, exports) {
 
 	/**
@@ -20138,7 +20168,7 @@
 	module.exports = CSSProperty;
 
 /***/ },
-/* 396 */
+/* 395 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/**
@@ -20155,7 +20185,7 @@
 
 	'use strict';
 
-	var camelize = __webpack_require__(397);
+	var camelize = __webpack_require__(396);
 
 	var msPattern = /^-ms-/;
 
@@ -20183,7 +20213,7 @@
 	module.exports = camelizeStyleName;
 
 /***/ },
-/* 397 */
+/* 396 */
 /***/ function(module, exports) {
 
 	/**
@@ -20220,7 +20250,7 @@
 	module.exports = camelize;
 
 /***/ },
-/* 398 */
+/* 397 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/**
@@ -20237,7 +20267,7 @@
 
 	'use strict';
 
-	var CSSProperty = __webpack_require__(395);
+	var CSSProperty = __webpack_require__(394);
 
 	var isUnitlessNumber = CSSProperty.isUnitlessNumber;
 
@@ -20280,7 +20310,7 @@
 	module.exports = dangerousStyleValue;
 
 /***/ },
-/* 399 */
+/* 398 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/**
@@ -20297,7 +20327,7 @@
 
 	'use strict';
 
-	var hyphenate = __webpack_require__(400);
+	var hyphenate = __webpack_require__(399);
 
 	var msPattern = /^ms-/;
 
@@ -20324,7 +20354,7 @@
 	module.exports = hyphenateStyleName;
 
 /***/ },
-/* 400 */
+/* 399 */
 /***/ function(module, exports) {
 
 	/**
@@ -20362,7 +20392,7 @@
 	module.exports = hyphenate;
 
 /***/ },
-/* 401 */
+/* 400 */
 /***/ function(module, exports) {
 
 	/**
@@ -20398,7 +20428,7 @@
 	module.exports = memoizeStringOnly;
 
 /***/ },
-/* 402 */
+/* 401 */
 /***/ function(module, exports) {
 
 	/**
@@ -20453,7 +20483,7 @@
 	module.exports = ReactDOMButton;
 
 /***/ },
-/* 403 */
+/* 402 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(process) {/**
@@ -20469,13 +20499,13 @@
 
 	'use strict';
 
-	var ReactDOMIDOperations = __webpack_require__(325);
-	var LinkedValueUtils = __webpack_require__(404);
-	var ReactMount = __webpack_require__(326);
-	var ReactUpdates = __webpack_require__(352);
+	var ReactDOMIDOperations = __webpack_require__(324);
+	var LinkedValueUtils = __webpack_require__(403);
+	var ReactMount = __webpack_require__(325);
+	var ReactUpdates = __webpack_require__(351);
 
-	var assign = __webpack_require__(337);
-	var invariant = __webpack_require__(311);
+	var assign = __webpack_require__(336);
+	var invariant = __webpack_require__(310);
 
 	var instancesByReactID = {};
 
@@ -20609,10 +20639,10 @@
 	}
 
 	module.exports = ReactDOMInput;
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(296)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(295)))
 
 /***/ },
-/* 404 */
+/* 403 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(process) {/**
@@ -20629,11 +20659,11 @@
 
 	'use strict';
 
-	var ReactPropTypes = __webpack_require__(405);
-	var ReactPropTypeLocations = __webpack_require__(363);
+	var ReactPropTypes = __webpack_require__(404);
+	var ReactPropTypeLocations = __webpack_require__(362);
 
-	var invariant = __webpack_require__(311);
-	var warning = __webpack_require__(323);
+	var invariant = __webpack_require__(310);
+	var warning = __webpack_require__(322);
 
 	var hasReadOnlyValue = {
 	  'button': true,
@@ -20749,10 +20779,10 @@
 	};
 
 	module.exports = LinkedValueUtils;
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(296)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(295)))
 
 /***/ },
-/* 405 */
+/* 404 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/**
@@ -20768,11 +20798,11 @@
 
 	'use strict';
 
-	var ReactElement = __webpack_require__(340);
-	var ReactPropTypeLocationNames = __webpack_require__(364);
+	var ReactElement = __webpack_require__(339);
+	var ReactPropTypeLocationNames = __webpack_require__(363);
 
-	var emptyFunction = __webpack_require__(313);
-	var getIteratorFn = __webpack_require__(406);
+	var emptyFunction = __webpack_require__(312);
+	var getIteratorFn = __webpack_require__(405);
 
 	/**
 	 * Collection of methods that allow declaration and validation of props that are
@@ -21113,7 +21143,7 @@
 	module.exports = ReactPropTypes;
 
 /***/ },
-/* 406 */
+/* 405 */
 /***/ function(module, exports) {
 
 	/**
@@ -21158,7 +21188,7 @@
 	module.exports = getIteratorFn;
 
 /***/ },
-/* 407 */
+/* 406 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(process) {/**
@@ -21174,11 +21204,11 @@
 
 	'use strict';
 
-	var ReactChildren = __webpack_require__(408);
-	var ReactDOMSelect = __webpack_require__(410);
+	var ReactChildren = __webpack_require__(407);
+	var ReactDOMSelect = __webpack_require__(409);
 
-	var assign = __webpack_require__(337);
-	var warning = __webpack_require__(323);
+	var assign = __webpack_require__(336);
+	var warning = __webpack_require__(322);
 
 	var valueContextKey = ReactDOMSelect.valueContextKey;
 
@@ -21250,10 +21280,10 @@
 	};
 
 	module.exports = ReactDOMOption;
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(296)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(295)))
 
 /***/ },
-/* 408 */
+/* 407 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/**
@@ -21269,11 +21299,11 @@
 
 	'use strict';
 
-	var PooledClass = __webpack_require__(354);
-	var ReactElement = __webpack_require__(340);
+	var PooledClass = __webpack_require__(353);
+	var ReactElement = __webpack_require__(339);
 
-	var emptyFunction = __webpack_require__(313);
-	var traverseAllChildren = __webpack_require__(409);
+	var emptyFunction = __webpack_require__(312);
+	var traverseAllChildren = __webpack_require__(408);
 
 	var twoArgumentPooler = PooledClass.twoArgumentPooler;
 	var fourArgumentPooler = PooledClass.fourArgumentPooler;
@@ -21440,7 +21470,7 @@
 	module.exports = ReactChildren;
 
 /***/ },
-/* 409 */
+/* 408 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(process) {/**
@@ -21456,13 +21486,13 @@
 
 	'use strict';
 
-	var ReactCurrentOwner = __webpack_require__(303);
-	var ReactElement = __webpack_require__(340);
-	var ReactInstanceHandles = __webpack_require__(343);
+	var ReactCurrentOwner = __webpack_require__(302);
+	var ReactElement = __webpack_require__(339);
+	var ReactInstanceHandles = __webpack_require__(342);
 
-	var getIteratorFn = __webpack_require__(406);
-	var invariant = __webpack_require__(311);
-	var warning = __webpack_require__(323);
+	var getIteratorFn = __webpack_require__(405);
+	var invariant = __webpack_require__(310);
+	var warning = __webpack_require__(322);
 
 	var SEPARATOR = ReactInstanceHandles.SEPARATOR;
 	var SUBSEPARATOR = ':';
@@ -21632,10 +21662,10 @@
 	}
 
 	module.exports = traverseAllChildren;
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(296)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(295)))
 
 /***/ },
-/* 410 */
+/* 409 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(process) {/**
@@ -21651,12 +21681,12 @@
 
 	'use strict';
 
-	var LinkedValueUtils = __webpack_require__(404);
-	var ReactMount = __webpack_require__(326);
-	var ReactUpdates = __webpack_require__(352);
+	var LinkedValueUtils = __webpack_require__(403);
+	var ReactMount = __webpack_require__(325);
+	var ReactUpdates = __webpack_require__(351);
 
-	var assign = __webpack_require__(337);
-	var warning = __webpack_require__(323);
+	var assign = __webpack_require__(336);
+	var warning = __webpack_require__(322);
 
 	var valueContextKey = '__ReactDOMSelect_value$' + Math.random().toString(36).slice(2);
 
@@ -21826,10 +21856,10 @@
 	}
 
 	module.exports = ReactDOMSelect;
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(296)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(295)))
 
 /***/ },
-/* 411 */
+/* 410 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(process) {/**
@@ -21845,13 +21875,13 @@
 
 	'use strict';
 
-	var LinkedValueUtils = __webpack_require__(404);
-	var ReactDOMIDOperations = __webpack_require__(325);
-	var ReactUpdates = __webpack_require__(352);
+	var LinkedValueUtils = __webpack_require__(403);
+	var ReactDOMIDOperations = __webpack_require__(324);
+	var ReactUpdates = __webpack_require__(351);
 
-	var assign = __webpack_require__(337);
-	var invariant = __webpack_require__(311);
-	var warning = __webpack_require__(323);
+	var assign = __webpack_require__(336);
+	var invariant = __webpack_require__(310);
+	var warning = __webpack_require__(322);
 
 	function forceUpdateIfMounted() {
 	  if (this._rootNodeID) {
@@ -21945,10 +21975,10 @@
 	}
 
 	module.exports = ReactDOMTextarea;
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(296)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(295)))
 
 /***/ },
-/* 412 */
+/* 411 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(process) {/**
@@ -21965,14 +21995,14 @@
 
 	'use strict';
 
-	var ReactComponentEnvironment = __webpack_require__(362);
-	var ReactMultiChildUpdateTypes = __webpack_require__(314);
+	var ReactComponentEnvironment = __webpack_require__(361);
+	var ReactMultiChildUpdateTypes = __webpack_require__(313);
 
-	var ReactCurrentOwner = __webpack_require__(303);
-	var ReactReconciler = __webpack_require__(348);
-	var ReactChildReconciler = __webpack_require__(413);
+	var ReactCurrentOwner = __webpack_require__(302);
+	var ReactReconciler = __webpack_require__(347);
+	var ReactChildReconciler = __webpack_require__(412);
 
-	var flattenChildren = __webpack_require__(414);
+	var flattenChildren = __webpack_require__(413);
 
 	/**
 	 * Updating children of a component may trigger recursive updates. The depth is
@@ -22447,10 +22477,10 @@
 	};
 
 	module.exports = ReactMultiChild;
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(296)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(295)))
 
 /***/ },
-/* 413 */
+/* 412 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(process) {/**
@@ -22467,12 +22497,12 @@
 
 	'use strict';
 
-	var ReactReconciler = __webpack_require__(348);
+	var ReactReconciler = __webpack_require__(347);
 
-	var instantiateReactComponent = __webpack_require__(360);
-	var shouldUpdateReactComponent = __webpack_require__(365);
-	var traverseAllChildren = __webpack_require__(409);
-	var warning = __webpack_require__(323);
+	var instantiateReactComponent = __webpack_require__(359);
+	var shouldUpdateReactComponent = __webpack_require__(364);
+	var traverseAllChildren = __webpack_require__(408);
+	var warning = __webpack_require__(322);
 
 	function instantiateChild(childInstances, child, name) {
 	  // We found a component instance.
@@ -22575,10 +22605,10 @@
 	};
 
 	module.exports = ReactChildReconciler;
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(296)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(295)))
 
 /***/ },
-/* 414 */
+/* 413 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(process) {/**
@@ -22594,8 +22624,8 @@
 
 	'use strict';
 
-	var traverseAllChildren = __webpack_require__(409);
-	var warning = __webpack_require__(323);
+	var traverseAllChildren = __webpack_require__(408);
+	var warning = __webpack_require__(322);
 
 	/**
 	 * @param {function} traverseContext Context passed through traversal.
@@ -22629,10 +22659,10 @@
 	}
 
 	module.exports = flattenChildren;
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(296)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(295)))
 
 /***/ },
-/* 415 */
+/* 414 */
 /***/ function(module, exports) {
 
 	/**
@@ -22687,7 +22717,7 @@
 	module.exports = shallowEqual;
 
 /***/ },
-/* 416 */
+/* 415 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/**
@@ -22704,16 +22734,16 @@
 
 	'use strict';
 
-	var EventListener = __webpack_require__(417);
-	var ExecutionEnvironment = __webpack_require__(307);
-	var PooledClass = __webpack_require__(354);
-	var ReactInstanceHandles = __webpack_require__(343);
-	var ReactMount = __webpack_require__(326);
-	var ReactUpdates = __webpack_require__(352);
+	var EventListener = __webpack_require__(416);
+	var ExecutionEnvironment = __webpack_require__(306);
+	var PooledClass = __webpack_require__(353);
+	var ReactInstanceHandles = __webpack_require__(342);
+	var ReactMount = __webpack_require__(325);
+	var ReactUpdates = __webpack_require__(351);
 
-	var assign = __webpack_require__(337);
-	var getEventTarget = __webpack_require__(379);
-	var getUnboundedScrollPosition = __webpack_require__(418);
+	var assign = __webpack_require__(336);
+	var getEventTarget = __webpack_require__(378);
+	var getUnboundedScrollPosition = __webpack_require__(417);
 
 	var DOCUMENT_FRAGMENT_NODE_TYPE = 11;
 
@@ -22903,7 +22933,7 @@
 	module.exports = ReactEventListener;
 
 /***/ },
-/* 417 */
+/* 416 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(process) {/**
@@ -22927,7 +22957,7 @@
 
 	'use strict';
 
-	var emptyFunction = __webpack_require__(313);
+	var emptyFunction = __webpack_require__(312);
 
 	/**
 	 * Upstream version of event listener. Does not take into account specific
@@ -22990,10 +23020,10 @@
 	};
 
 	module.exports = EventListener;
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(296)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(295)))
 
 /***/ },
-/* 418 */
+/* 417 */
 /***/ function(module, exports) {
 
 	/**
@@ -23036,7 +23066,7 @@
 	module.exports = getUnboundedScrollPosition;
 
 /***/ },
-/* 419 */
+/* 418 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/**
@@ -23052,16 +23082,16 @@
 
 	'use strict';
 
-	var DOMProperty = __webpack_require__(321);
-	var EventPluginHub = __webpack_require__(329);
-	var ReactComponentEnvironment = __webpack_require__(362);
-	var ReactClass = __webpack_require__(420);
-	var ReactEmptyComponent = __webpack_require__(366);
-	var ReactBrowserEventEmitter = __webpack_require__(327);
-	var ReactNativeComponent = __webpack_require__(367);
-	var ReactPerf = __webpack_require__(316);
-	var ReactRootIndex = __webpack_require__(344);
-	var ReactUpdates = __webpack_require__(352);
+	var DOMProperty = __webpack_require__(320);
+	var EventPluginHub = __webpack_require__(328);
+	var ReactComponentEnvironment = __webpack_require__(361);
+	var ReactClass = __webpack_require__(419);
+	var ReactEmptyComponent = __webpack_require__(365);
+	var ReactBrowserEventEmitter = __webpack_require__(326);
+	var ReactNativeComponent = __webpack_require__(366);
+	var ReactPerf = __webpack_require__(315);
+	var ReactRootIndex = __webpack_require__(343);
+	var ReactUpdates = __webpack_require__(351);
 
 	var ReactInjection = {
 	  Component: ReactComponentEnvironment.injection,
@@ -23079,7 +23109,7 @@
 	module.exports = ReactInjection;
 
 /***/ },
-/* 420 */
+/* 419 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(process) {/**
@@ -23095,18 +23125,18 @@
 
 	'use strict';
 
-	var ReactComponent = __webpack_require__(421);
-	var ReactElement = __webpack_require__(340);
-	var ReactPropTypeLocations = __webpack_require__(363);
-	var ReactPropTypeLocationNames = __webpack_require__(364);
-	var ReactNoopUpdateQueue = __webpack_require__(422);
+	var ReactComponent = __webpack_require__(420);
+	var ReactElement = __webpack_require__(339);
+	var ReactPropTypeLocations = __webpack_require__(362);
+	var ReactPropTypeLocationNames = __webpack_require__(363);
+	var ReactNoopUpdateQueue = __webpack_require__(421);
 
-	var assign = __webpack_require__(337);
-	var emptyObject = __webpack_require__(356);
-	var invariant = __webpack_require__(311);
-	var keyMirror = __webpack_require__(315);
-	var keyOf = __webpack_require__(377);
-	var warning = __webpack_require__(323);
+	var assign = __webpack_require__(336);
+	var emptyObject = __webpack_require__(355);
+	var invariant = __webpack_require__(310);
+	var keyMirror = __webpack_require__(314);
+	var keyOf = __webpack_require__(376);
+	var warning = __webpack_require__(322);
 
 	var MIXINS_KEY = keyOf({ mixins: null });
 
@@ -23853,10 +23883,10 @@
 	};
 
 	module.exports = ReactClass;
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(296)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(295)))
 
 /***/ },
-/* 421 */
+/* 420 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(process) {/**
@@ -23872,12 +23902,12 @@
 
 	'use strict';
 
-	var ReactNoopUpdateQueue = __webpack_require__(422);
+	var ReactNoopUpdateQueue = __webpack_require__(421);
 
-	var canDefineProperty = __webpack_require__(341);
-	var emptyObject = __webpack_require__(356);
-	var invariant = __webpack_require__(311);
-	var warning = __webpack_require__(323);
+	var canDefineProperty = __webpack_require__(340);
+	var emptyObject = __webpack_require__(355);
+	var invariant = __webpack_require__(310);
+	var warning = __webpack_require__(322);
 
 	/**
 	 * Base class helpers for the updating state of a component.
@@ -23981,10 +24011,10 @@
 	}
 
 	module.exports = ReactComponent;
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(296)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(295)))
 
 /***/ },
-/* 422 */
+/* 421 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(process) {/**
@@ -24000,7 +24030,7 @@
 
 	'use strict';
 
-	var warning = __webpack_require__(323);
+	var warning = __webpack_require__(322);
 
 	function warnTDZ(publicInstance, callerName) {
 	  if (process.env.NODE_ENV !== 'production') {
@@ -24105,10 +24135,10 @@
 	};
 
 	module.exports = ReactNoopUpdateQueue;
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(296)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(295)))
 
 /***/ },
-/* 423 */
+/* 422 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/**
@@ -24125,14 +24155,14 @@
 
 	'use strict';
 
-	var CallbackQueue = __webpack_require__(353);
-	var PooledClass = __webpack_require__(354);
-	var ReactBrowserEventEmitter = __webpack_require__(327);
-	var ReactDOMFeatureFlags = __webpack_require__(339);
-	var ReactInputSelection = __webpack_require__(424);
-	var Transaction = __webpack_require__(355);
+	var CallbackQueue = __webpack_require__(352);
+	var PooledClass = __webpack_require__(353);
+	var ReactBrowserEventEmitter = __webpack_require__(326);
+	var ReactDOMFeatureFlags = __webpack_require__(338);
+	var ReactInputSelection = __webpack_require__(423);
+	var Transaction = __webpack_require__(354);
 
-	var assign = __webpack_require__(337);
+	var assign = __webpack_require__(336);
 
 	/**
 	 * Ensures that, when possible, the selection range (currently selected text
@@ -24264,7 +24294,7 @@
 	module.exports = ReactReconcileTransaction;
 
 /***/ },
-/* 424 */
+/* 423 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/**
@@ -24280,11 +24310,11 @@
 
 	'use strict';
 
-	var ReactDOMSelection = __webpack_require__(425);
+	var ReactDOMSelection = __webpack_require__(424);
 
-	var containsNode = __webpack_require__(357);
-	var focusNode = __webpack_require__(393);
-	var getActiveElement = __webpack_require__(427);
+	var containsNode = __webpack_require__(356);
+	var focusNode = __webpack_require__(392);
+	var getActiveElement = __webpack_require__(426);
 
 	function isInDocument(node) {
 	  return containsNode(document.documentElement, node);
@@ -24393,7 +24423,7 @@
 	module.exports = ReactInputSelection;
 
 /***/ },
-/* 425 */
+/* 424 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/**
@@ -24409,10 +24439,10 @@
 
 	'use strict';
 
-	var ExecutionEnvironment = __webpack_require__(307);
+	var ExecutionEnvironment = __webpack_require__(306);
 
-	var getNodeForCharacterOffset = __webpack_require__(426);
-	var getTextContentAccessor = __webpack_require__(373);
+	var getNodeForCharacterOffset = __webpack_require__(425);
+	var getTextContentAccessor = __webpack_require__(372);
 
 	/**
 	 * While `isCollapsed` is available on the Selection object and `collapsed`
@@ -24610,7 +24640,7 @@
 	module.exports = ReactDOMSelection;
 
 /***/ },
-/* 426 */
+/* 425 */
 /***/ function(module, exports) {
 
 	/**
@@ -24688,7 +24718,7 @@
 	module.exports = getNodeForCharacterOffset;
 
 /***/ },
-/* 427 */
+/* 426 */
 /***/ function(module, exports) {
 
 	/**
@@ -24728,7 +24758,7 @@
 	module.exports = getActiveElement;
 
 /***/ },
-/* 428 */
+/* 427 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/**
@@ -24744,16 +24774,16 @@
 
 	'use strict';
 
-	var EventConstants = __webpack_require__(328);
-	var EventPropagators = __webpack_require__(371);
-	var ExecutionEnvironment = __webpack_require__(307);
-	var ReactInputSelection = __webpack_require__(424);
-	var SyntheticEvent = __webpack_require__(375);
+	var EventConstants = __webpack_require__(327);
+	var EventPropagators = __webpack_require__(370);
+	var ExecutionEnvironment = __webpack_require__(306);
+	var ReactInputSelection = __webpack_require__(423);
+	var SyntheticEvent = __webpack_require__(374);
 
-	var getActiveElement = __webpack_require__(427);
-	var isTextInputElement = __webpack_require__(380);
-	var keyOf = __webpack_require__(377);
-	var shallowEqual = __webpack_require__(415);
+	var getActiveElement = __webpack_require__(426);
+	var isTextInputElement = __webpack_require__(379);
+	var keyOf = __webpack_require__(376);
+	var shallowEqual = __webpack_require__(414);
 
 	var topLevelTypes = EventConstants.topLevelTypes;
 
@@ -24934,7 +24964,7 @@
 	module.exports = SelectEventPlugin;
 
 /***/ },
-/* 429 */
+/* 428 */
 /***/ function(module, exports) {
 
 	/**
@@ -24968,7 +24998,7 @@
 	module.exports = ServerReactRootIndex;
 
 /***/ },
-/* 430 */
+/* 429 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(process) {/**
@@ -24984,24 +25014,24 @@
 
 	'use strict';
 
-	var EventConstants = __webpack_require__(328);
-	var EventListener = __webpack_require__(417);
-	var EventPropagators = __webpack_require__(371);
-	var ReactMount = __webpack_require__(326);
-	var SyntheticClipboardEvent = __webpack_require__(431);
-	var SyntheticEvent = __webpack_require__(375);
-	var SyntheticFocusEvent = __webpack_require__(432);
-	var SyntheticKeyboardEvent = __webpack_require__(433);
-	var SyntheticMouseEvent = __webpack_require__(384);
-	var SyntheticDragEvent = __webpack_require__(436);
-	var SyntheticTouchEvent = __webpack_require__(437);
-	var SyntheticUIEvent = __webpack_require__(385);
-	var SyntheticWheelEvent = __webpack_require__(438);
+	var EventConstants = __webpack_require__(327);
+	var EventListener = __webpack_require__(416);
+	var EventPropagators = __webpack_require__(370);
+	var ReactMount = __webpack_require__(325);
+	var SyntheticClipboardEvent = __webpack_require__(430);
+	var SyntheticEvent = __webpack_require__(374);
+	var SyntheticFocusEvent = __webpack_require__(431);
+	var SyntheticKeyboardEvent = __webpack_require__(432);
+	var SyntheticMouseEvent = __webpack_require__(383);
+	var SyntheticDragEvent = __webpack_require__(435);
+	var SyntheticTouchEvent = __webpack_require__(436);
+	var SyntheticUIEvent = __webpack_require__(384);
+	var SyntheticWheelEvent = __webpack_require__(437);
 
-	var emptyFunction = __webpack_require__(313);
-	var getEventCharCode = __webpack_require__(434);
-	var invariant = __webpack_require__(311);
-	var keyOf = __webpack_require__(377);
+	var emptyFunction = __webpack_require__(312);
+	var getEventCharCode = __webpack_require__(433);
+	var invariant = __webpack_require__(310);
+	var keyOf = __webpack_require__(376);
 
 	var topLevelTypes = EventConstants.topLevelTypes;
 
@@ -25558,10 +25588,10 @@
 	};
 
 	module.exports = SimpleEventPlugin;
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(296)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(295)))
 
 /***/ },
-/* 431 */
+/* 430 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/**
@@ -25578,7 +25608,7 @@
 
 	'use strict';
 
-	var SyntheticEvent = __webpack_require__(375);
+	var SyntheticEvent = __webpack_require__(374);
 
 	/**
 	 * @interface Event
@@ -25605,7 +25635,7 @@
 	module.exports = SyntheticClipboardEvent;
 
 /***/ },
-/* 432 */
+/* 431 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/**
@@ -25622,7 +25652,7 @@
 
 	'use strict';
 
-	var SyntheticUIEvent = __webpack_require__(385);
+	var SyntheticUIEvent = __webpack_require__(384);
 
 	/**
 	 * @interface FocusEvent
@@ -25647,7 +25677,7 @@
 	module.exports = SyntheticFocusEvent;
 
 /***/ },
-/* 433 */
+/* 432 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/**
@@ -25664,11 +25694,11 @@
 
 	'use strict';
 
-	var SyntheticUIEvent = __webpack_require__(385);
+	var SyntheticUIEvent = __webpack_require__(384);
 
-	var getEventCharCode = __webpack_require__(434);
-	var getEventKey = __webpack_require__(435);
-	var getEventModifierState = __webpack_require__(386);
+	var getEventCharCode = __webpack_require__(433);
+	var getEventKey = __webpack_require__(434);
+	var getEventModifierState = __webpack_require__(385);
 
 	/**
 	 * @interface KeyboardEvent
@@ -25737,7 +25767,7 @@
 	module.exports = SyntheticKeyboardEvent;
 
 /***/ },
-/* 434 */
+/* 433 */
 /***/ function(module, exports) {
 
 	/**
@@ -25792,7 +25822,7 @@
 	module.exports = getEventCharCode;
 
 /***/ },
-/* 435 */
+/* 434 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/**
@@ -25809,7 +25839,7 @@
 
 	'use strict';
 
-	var getEventCharCode = __webpack_require__(434);
+	var getEventCharCode = __webpack_require__(433);
 
 	/**
 	 * Normalization of deprecated HTML5 `key` values
@@ -25900,7 +25930,7 @@
 	module.exports = getEventKey;
 
 /***/ },
-/* 436 */
+/* 435 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/**
@@ -25917,7 +25947,7 @@
 
 	'use strict';
 
-	var SyntheticMouseEvent = __webpack_require__(384);
+	var SyntheticMouseEvent = __webpack_require__(383);
 
 	/**
 	 * @interface DragEvent
@@ -25942,7 +25972,7 @@
 	module.exports = SyntheticDragEvent;
 
 /***/ },
-/* 437 */
+/* 436 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/**
@@ -25959,9 +25989,9 @@
 
 	'use strict';
 
-	var SyntheticUIEvent = __webpack_require__(385);
+	var SyntheticUIEvent = __webpack_require__(384);
 
-	var getEventModifierState = __webpack_require__(386);
+	var getEventModifierState = __webpack_require__(385);
 
 	/**
 	 * @interface TouchEvent
@@ -25993,7 +26023,7 @@
 	module.exports = SyntheticTouchEvent;
 
 /***/ },
-/* 438 */
+/* 437 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/**
@@ -26010,7 +26040,7 @@
 
 	'use strict';
 
-	var SyntheticMouseEvent = __webpack_require__(384);
+	var SyntheticMouseEvent = __webpack_require__(383);
 
 	/**
 	 * @interface WheelEvent
@@ -26053,7 +26083,7 @@
 	module.exports = SyntheticWheelEvent;
 
 /***/ },
-/* 439 */
+/* 438 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/**
@@ -26069,7 +26099,7 @@
 
 	'use strict';
 
-	var DOMProperty = __webpack_require__(321);
+	var DOMProperty = __webpack_require__(320);
 
 	var MUST_USE_ATTRIBUTE = DOMProperty.injection.MUST_USE_ATTRIBUTE;
 
@@ -26185,7 +26215,7 @@
 	module.exports = SVGDOMPropertyConfig;
 
 /***/ },
-/* 440 */
+/* 439 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/**
@@ -26202,12 +26232,12 @@
 
 	'use strict';
 
-	var DOMProperty = __webpack_require__(321);
-	var ReactDefaultPerfAnalysis = __webpack_require__(441);
-	var ReactMount = __webpack_require__(326);
-	var ReactPerf = __webpack_require__(316);
+	var DOMProperty = __webpack_require__(320);
+	var ReactDefaultPerfAnalysis = __webpack_require__(440);
+	var ReactMount = __webpack_require__(325);
+	var ReactPerf = __webpack_require__(315);
 
-	var performanceNow = __webpack_require__(442);
+	var performanceNow = __webpack_require__(441);
 
 	function roundFloat(val) {
 	  return Math.floor(val * 100) / 100;
@@ -26427,7 +26457,7 @@
 	module.exports = ReactDefaultPerf;
 
 /***/ },
-/* 441 */
+/* 440 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/**
@@ -26443,7 +26473,7 @@
 
 	'use strict';
 
-	var assign = __webpack_require__(337);
+	var assign = __webpack_require__(336);
 
 	// Don't try to save users less than 1.2ms (a number I made up)
 	var DONT_CARE_THRESHOLD = 1.2;
@@ -26633,7 +26663,7 @@
 	module.exports = ReactDefaultPerfAnalysis;
 
 /***/ },
-/* 442 */
+/* 441 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/**
@@ -26650,7 +26680,7 @@
 
 	'use strict';
 
-	var performance = __webpack_require__(443);
+	var performance = __webpack_require__(442);
 
 	var performanceNow;
 
@@ -26672,7 +26702,7 @@
 	module.exports = performanceNow;
 
 /***/ },
-/* 443 */
+/* 442 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/**
@@ -26689,7 +26719,7 @@
 
 	'use strict';
 
-	var ExecutionEnvironment = __webpack_require__(307);
+	var ExecutionEnvironment = __webpack_require__(306);
 
 	var performance;
 
@@ -26700,7 +26730,7 @@
 	module.exports = performance || {};
 
 /***/ },
-/* 444 */
+/* 443 */
 /***/ function(module, exports) {
 
 	/**
@@ -26719,7 +26749,7 @@
 	module.exports = '0.14.8';
 
 /***/ },
-/* 445 */
+/* 444 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/**
@@ -26735,12 +26765,12 @@
 
 	'use strict';
 
-	var ReactMount = __webpack_require__(326);
+	var ReactMount = __webpack_require__(325);
 
 	module.exports = ReactMount.renderSubtreeIntoContainer;
 
 /***/ },
-/* 446 */
+/* 445 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/**
@@ -26756,9 +26786,9 @@
 
 	'use strict';
 
-	var ReactDefaultInjection = __webpack_require__(369);
-	var ReactServerRendering = __webpack_require__(447);
-	var ReactVersion = __webpack_require__(444);
+	var ReactDefaultInjection = __webpack_require__(368);
+	var ReactServerRendering = __webpack_require__(446);
+	var ReactVersion = __webpack_require__(443);
 
 	ReactDefaultInjection.inject();
 
@@ -26771,7 +26801,7 @@
 	module.exports = ReactDOMServer;
 
 /***/ },
-/* 447 */
+/* 446 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(process) {/**
@@ -26787,17 +26817,17 @@
 	 */
 	'use strict';
 
-	var ReactDefaultBatchingStrategy = __webpack_require__(390);
-	var ReactElement = __webpack_require__(340);
-	var ReactInstanceHandles = __webpack_require__(343);
-	var ReactMarkupChecksum = __webpack_require__(346);
-	var ReactServerBatchingStrategy = __webpack_require__(448);
-	var ReactServerRenderingTransaction = __webpack_require__(449);
-	var ReactUpdates = __webpack_require__(352);
+	var ReactDefaultBatchingStrategy = __webpack_require__(389);
+	var ReactElement = __webpack_require__(339);
+	var ReactInstanceHandles = __webpack_require__(342);
+	var ReactMarkupChecksum = __webpack_require__(345);
+	var ReactServerBatchingStrategy = __webpack_require__(447);
+	var ReactServerRenderingTransaction = __webpack_require__(448);
+	var ReactUpdates = __webpack_require__(351);
 
-	var emptyObject = __webpack_require__(356);
-	var instantiateReactComponent = __webpack_require__(360);
-	var invariant = __webpack_require__(311);
+	var emptyObject = __webpack_require__(355);
+	var instantiateReactComponent = __webpack_require__(359);
+	var invariant = __webpack_require__(310);
 
 	/**
 	 * @param {ReactElement} element
@@ -26857,10 +26887,10 @@
 	  renderToString: renderToString,
 	  renderToStaticMarkup: renderToStaticMarkup
 	};
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(296)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(295)))
 
 /***/ },
-/* 448 */
+/* 447 */
 /***/ function(module, exports) {
 
 	/**
@@ -26888,7 +26918,7 @@
 	module.exports = ReactServerBatchingStrategy;
 
 /***/ },
-/* 449 */
+/* 448 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/**
@@ -26905,12 +26935,12 @@
 
 	'use strict';
 
-	var PooledClass = __webpack_require__(354);
-	var CallbackQueue = __webpack_require__(353);
-	var Transaction = __webpack_require__(355);
+	var PooledClass = __webpack_require__(353);
+	var CallbackQueue = __webpack_require__(352);
+	var Transaction = __webpack_require__(354);
 
-	var assign = __webpack_require__(337);
-	var emptyFunction = __webpack_require__(313);
+	var assign = __webpack_require__(336);
+	var emptyFunction = __webpack_require__(312);
 
 	/**
 	 * Provides a `CallbackQueue` queue for collecting `onDOMReady` callbacks
@@ -26980,7 +27010,7 @@
 	module.exports = ReactServerRenderingTransaction;
 
 /***/ },
-/* 450 */
+/* 449 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(process) {/**
@@ -26996,17 +27026,17 @@
 
 	'use strict';
 
-	var ReactChildren = __webpack_require__(408);
-	var ReactComponent = __webpack_require__(421);
-	var ReactClass = __webpack_require__(420);
-	var ReactDOMFactories = __webpack_require__(451);
-	var ReactElement = __webpack_require__(340);
-	var ReactElementValidator = __webpack_require__(452);
-	var ReactPropTypes = __webpack_require__(405);
-	var ReactVersion = __webpack_require__(444);
+	var ReactChildren = __webpack_require__(407);
+	var ReactComponent = __webpack_require__(420);
+	var ReactClass = __webpack_require__(419);
+	var ReactDOMFactories = __webpack_require__(450);
+	var ReactElement = __webpack_require__(339);
+	var ReactElementValidator = __webpack_require__(451);
+	var ReactPropTypes = __webpack_require__(404);
+	var ReactVersion = __webpack_require__(443);
 
-	var assign = __webpack_require__(337);
-	var onlyChild = __webpack_require__(454);
+	var assign = __webpack_require__(336);
+	var onlyChild = __webpack_require__(453);
 
 	var createElement = ReactElement.createElement;
 	var createFactory = ReactElement.createFactory;
@@ -27057,10 +27087,10 @@
 	};
 
 	module.exports = React;
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(296)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(295)))
 
 /***/ },
-/* 451 */
+/* 450 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(process) {/**
@@ -27077,10 +27107,10 @@
 
 	'use strict';
 
-	var ReactElement = __webpack_require__(340);
-	var ReactElementValidator = __webpack_require__(452);
+	var ReactElement = __webpack_require__(339);
+	var ReactElementValidator = __webpack_require__(451);
 
-	var mapObject = __webpack_require__(453);
+	var mapObject = __webpack_require__(452);
 
 	/**
 	 * Create a factory that creates HTML tag elements.
@@ -27240,10 +27270,10 @@
 	}, createDOMFactory);
 
 	module.exports = ReactDOMFactories;
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(296)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(295)))
 
 /***/ },
-/* 452 */
+/* 451 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(process) {/**
@@ -27266,15 +27296,15 @@
 
 	'use strict';
 
-	var ReactElement = __webpack_require__(340);
-	var ReactPropTypeLocations = __webpack_require__(363);
-	var ReactPropTypeLocationNames = __webpack_require__(364);
-	var ReactCurrentOwner = __webpack_require__(303);
+	var ReactElement = __webpack_require__(339);
+	var ReactPropTypeLocations = __webpack_require__(362);
+	var ReactPropTypeLocationNames = __webpack_require__(363);
+	var ReactCurrentOwner = __webpack_require__(302);
 
-	var canDefineProperty = __webpack_require__(341);
-	var getIteratorFn = __webpack_require__(406);
-	var invariant = __webpack_require__(311);
-	var warning = __webpack_require__(323);
+	var canDefineProperty = __webpack_require__(340);
+	var getIteratorFn = __webpack_require__(405);
+	var invariant = __webpack_require__(310);
+	var warning = __webpack_require__(322);
 
 	function getDeclarationErrorAddendum() {
 	  if (ReactCurrentOwner.current) {
@@ -27527,10 +27557,10 @@
 	};
 
 	module.exports = ReactElementValidator;
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(296)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(295)))
 
 /***/ },
-/* 453 */
+/* 452 */
 /***/ function(module, exports) {
 
 	/**
@@ -27586,7 +27616,7 @@
 	module.exports = mapObject;
 
 /***/ },
-/* 454 */
+/* 453 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(process) {/**
@@ -27601,9 +27631,9 @@
 	 */
 	'use strict';
 
-	var ReactElement = __webpack_require__(340);
+	var ReactElement = __webpack_require__(339);
 
-	var invariant = __webpack_require__(311);
+	var invariant = __webpack_require__(310);
 
 	/**
 	 * Returns the first child in a collection of children and verifies that there
@@ -27622,10 +27652,10 @@
 	}
 
 	module.exports = onlyChild;
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(296)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(295)))
 
 /***/ },
-/* 455 */
+/* 454 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(process) {/**
@@ -27641,8 +27671,8 @@
 
 	'use strict';
 
-	var assign = __webpack_require__(337);
-	var warning = __webpack_require__(323);
+	var assign = __webpack_require__(336);
+	var warning = __webpack_require__(322);
 
 	/**
 	 * This will log a single deprecation notice per function and forward the call
@@ -27676,19 +27706,19 @@
 	}
 
 	module.exports = deprecated;
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(296)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(295)))
 
 /***/ },
-/* 456 */
+/* 455 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
 
-	module.exports = __webpack_require__(302);
+	module.exports = __webpack_require__(301);
 
 
 /***/ },
-/* 457 */
+/* 456 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(process) {'use strict';
@@ -27696,7 +27726,7 @@
 	exports.__esModule = true;
 	exports.compose = exports.applyMiddleware = exports.bindActionCreators = exports.combineReducers = exports.createStore = undefined;
 
-	var _createStore = __webpack_require__(458);
+	var _createStore = __webpack_require__(457);
 
 	var _createStore2 = _interopRequireDefault(_createStore);
 
@@ -27737,10 +27767,10 @@
 	exports.bindActionCreators = _bindActionCreators2["default"];
 	exports.applyMiddleware = _applyMiddleware2["default"];
 	exports.compose = _compose2["default"];
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(296)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(295)))
 
 /***/ },
-/* 458 */
+/* 457 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -27749,7 +27779,7 @@
 	exports.ActionTypes = undefined;
 	exports["default"] = createStore;
 
-	var _isPlainObject = __webpack_require__(459);
+	var _isPlainObject = __webpack_require__(458);
 
 	var _isPlainObject2 = _interopRequireDefault(_isPlainObject);
 
@@ -28007,10 +28037,10 @@
 	}
 
 /***/ },
-/* 459 */
+/* 458 */
 /***/ function(module, exports, __webpack_require__) {
 
-	var getPrototype = __webpack_require__(460),
+	var getPrototype = __webpack_require__(459),
 	    isHostObject = __webpack_require__(461),
 	    isObjectLike = __webpack_require__(462);
 
@@ -28018,10 +28048,11 @@
 	var objectTag = '[object Object]';
 
 	/** Used for built-in method references. */
-	var objectProto = Object.prototype;
+	var funcProto = Function.prototype,
+	    objectProto = Object.prototype;
 
 	/** Used to resolve the decompiled source of functions. */
-	var funcToString = Function.prototype.toString;
+	var funcToString = funcProto.toString;
 
 	/** Used to check objects for own properties. */
 	var hasOwnProperty = objectProto.hasOwnProperty;
@@ -28031,7 +28062,7 @@
 
 	/**
 	 * Used to resolve the
-	 * [`toStringTag`](http://ecma-international.org/ecma-262/6.0/#sec-object.prototype.tostring)
+	 * [`toStringTag`](http://ecma-international.org/ecma-262/7.0/#sec-object.prototype.tostring)
 	 * of values.
 	 */
 	var objectToString = objectProto.toString;
@@ -28045,8 +28076,7 @@
 	 * @since 0.8.0
 	 * @category Lang
 	 * @param {*} value The value to check.
-	 * @returns {boolean} Returns `true` if `value` is a plain object,
-	 *  else `false`.
+	 * @returns {boolean} Returns `true` if `value` is a plain object, else `false`.
 	 * @example
 	 *
 	 * function Foo() {
@@ -28083,24 +28113,36 @@
 
 
 /***/ },
+/* 459 */
+/***/ function(module, exports, __webpack_require__) {
+
+	var overArg = __webpack_require__(460);
+
+	/** Built-in value references. */
+	var getPrototype = overArg(Object.getPrototypeOf, Object);
+
+	module.exports = getPrototype;
+
+
+/***/ },
 /* 460 */
 /***/ function(module, exports) {
 
-	/* Built-in method references for those with the same name as other `lodash` methods. */
-	var nativeGetPrototype = Object.getPrototypeOf;
-
 	/**
-	 * Gets the `[[Prototype]]` of `value`.
+	 * Creates a unary function that invokes `func` with its argument transformed.
 	 *
 	 * @private
-	 * @param {*} value The value to query.
-	 * @returns {null|Object} Returns the `[[Prototype]]`.
+	 * @param {Function} func The function to wrap.
+	 * @param {Function} transform The argument transform.
+	 * @returns {Function} Returns the new function.
 	 */
-	function getPrototype(value) {
-	  return nativeGetPrototype(Object(value));
+	function overArg(func, transform) {
+	  return function(arg) {
+	    return func(transform(arg));
+	  };
 	}
 
-	module.exports = getPrototype;
+	module.exports = overArg;
 
 
 /***/ },
@@ -28209,9 +28251,9 @@
 	exports.__esModule = true;
 	exports["default"] = combineReducers;
 
-	var _createStore = __webpack_require__(458);
+	var _createStore = __webpack_require__(457);
 
-	var _isPlainObject = __webpack_require__(459);
+	var _isPlainObject = __webpack_require__(458);
 
 	var _isPlainObject2 = _interopRequireDefault(_isPlainObject);
 
@@ -28331,7 +28373,7 @@
 	    return hasChanged ? nextState : state;
 	  };
 	}
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(296)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(295)))
 
 /***/ },
 /* 466 */
@@ -28558,7 +28600,7 @@
 	exports.__esModule = true;
 	exports["default"] = undefined;
 
-	var _react = __webpack_require__(300);
+	var _react = __webpack_require__(299);
 
 	var _storeShape = __webpack_require__(472);
 
@@ -28631,7 +28673,7 @@
 	Provider.childContextTypes = {
 	  store: _storeShape2["default"].isRequired
 	};
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(296)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(295)))
 
 /***/ },
 /* 472 */
@@ -28641,7 +28683,7 @@
 
 	exports.__esModule = true;
 
-	var _react = __webpack_require__(300);
+	var _react = __webpack_require__(299);
 
 	exports["default"] = _react.PropTypes.shape({
 	  subscribe: _react.PropTypes.func.isRequired,
@@ -28689,7 +28731,7 @@
 	exports.__esModule = true;
 	exports["default"] = connect;
 
-	var _react = __webpack_require__(300);
+	var _react = __webpack_require__(299);
 
 	var _storeShape = __webpack_require__(472);
 
@@ -28711,11 +28753,11 @@
 
 	var _isPlainObject2 = _interopRequireDefault(_isPlainObject);
 
-	var _hoistNonReactStatics = __webpack_require__(481);
+	var _hoistNonReactStatics = __webpack_require__(482);
 
 	var _hoistNonReactStatics2 = _interopRequireDefault(_hoistNonReactStatics);
 
-	var _invariant = __webpack_require__(482);
+	var _invariant = __webpack_require__(483);
 
 	var _invariant2 = _interopRequireDefault(_invariant);
 
@@ -29075,7 +29117,7 @@
 	    return (0, _hoistNonReactStatics2["default"])(Connect, WrappedComponent);
 	  };
 	}
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(296)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(295)))
 
 /***/ },
 /* 475 */
@@ -29117,7 +29159,7 @@
 	exports.__esModule = true;
 	exports["default"] = wrapActionCreators;
 
-	var _redux = __webpack_require__(457);
+	var _redux = __webpack_require__(456);
 
 	function wrapActionCreators(actionCreators) {
 	  return function (dispatch) {
@@ -29130,17 +29172,18 @@
 /***/ function(module, exports, __webpack_require__) {
 
 	var getPrototype = __webpack_require__(478),
-	    isHostObject = __webpack_require__(479),
-	    isObjectLike = __webpack_require__(480);
+	    isHostObject = __webpack_require__(480),
+	    isObjectLike = __webpack_require__(481);
 
 	/** `Object#toString` result references. */
 	var objectTag = '[object Object]';
 
 	/** Used for built-in method references. */
-	var objectProto = Object.prototype;
+	var funcProto = Function.prototype,
+	    objectProto = Object.prototype;
 
 	/** Used to resolve the decompiled source of functions. */
-	var funcToString = Function.prototype.toString;
+	var funcToString = funcProto.toString;
 
 	/** Used to check objects for own properties. */
 	var hasOwnProperty = objectProto.hasOwnProperty;
@@ -29150,7 +29193,7 @@
 
 	/**
 	 * Used to resolve the
-	 * [`toStringTag`](http://ecma-international.org/ecma-262/6.0/#sec-object.prototype.tostring)
+	 * [`toStringTag`](http://ecma-international.org/ecma-262/7.0/#sec-object.prototype.tostring)
 	 * of values.
 	 */
 	var objectToString = objectProto.toString;
@@ -29164,8 +29207,7 @@
 	 * @since 0.8.0
 	 * @category Lang
 	 * @param {*} value The value to check.
-	 * @returns {boolean} Returns `true` if `value` is a plain object,
-	 *  else `false`.
+	 * @returns {boolean} Returns `true` if `value` is a plain object, else `false`.
 	 * @example
 	 *
 	 * function Foo() {
@@ -29203,27 +29245,39 @@
 
 /***/ },
 /* 478 */
-/***/ function(module, exports) {
+/***/ function(module, exports, __webpack_require__) {
 
-	/* Built-in method references for those with the same name as other `lodash` methods. */
-	var nativeGetPrototype = Object.getPrototypeOf;
+	var overArg = __webpack_require__(479);
 
-	/**
-	 * Gets the `[[Prototype]]` of `value`.
-	 *
-	 * @private
-	 * @param {*} value The value to query.
-	 * @returns {null|Object} Returns the `[[Prototype]]`.
-	 */
-	function getPrototype(value) {
-	  return nativeGetPrototype(Object(value));
-	}
+	/** Built-in value references. */
+	var getPrototype = overArg(Object.getPrototypeOf, Object);
 
 	module.exports = getPrototype;
 
 
 /***/ },
 /* 479 */
+/***/ function(module, exports) {
+
+	/**
+	 * Creates a unary function that invokes `func` with its argument transformed.
+	 *
+	 * @private
+	 * @param {Function} func The function to wrap.
+	 * @param {Function} transform The argument transform.
+	 * @returns {Function} Returns the new function.
+	 */
+	function overArg(func, transform) {
+	  return function(arg) {
+	    return func(transform(arg));
+	  };
+	}
+
+	module.exports = overArg;
+
+
+/***/ },
+/* 480 */
 /***/ function(module, exports) {
 
 	/**
@@ -29249,7 +29303,7 @@
 
 
 /***/ },
-/* 480 */
+/* 481 */
 /***/ function(module, exports) {
 
 	/**
@@ -29284,7 +29338,7 @@
 
 
 /***/ },
-/* 481 */
+/* 482 */
 /***/ function(module, exports) {
 
 	/**
@@ -29340,7 +29394,7 @@
 
 
 /***/ },
-/* 482 */
+/* 483 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(process) {/**
@@ -29395,10 +29449,10 @@
 
 	module.exports = invariant;
 
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(296)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(295)))
 
 /***/ },
-/* 483 */
+/* 484 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -29408,11 +29462,11 @@
 	});
 	exports.default = drag;
 
-	var _constants = __webpack_require__(484);
+	var _constants = __webpack_require__(485);
 
 	var types = _interopRequireWildcard(_constants);
 
-	var _animal = __webpack_require__(485);
+	var _animal = __webpack_require__(486);
 
 	var animal = _interopRequireWildcard(_animal);
 
@@ -29539,7 +29593,7 @@
 	};
 
 /***/ },
-/* 484 */
+/* 485 */
 /***/ function(module, exports) {
 
 	'use strict';
@@ -29575,13 +29629,13 @@
 	}];
 
 /***/ },
-/* 485 */
+/* 486 */
 /***/ function(module, exports) {
 
 	'use strict';Object.defineProperty(exports,"__esModule",{value:true});var ELEPHANT_HEAD=exports.ELEPHANT_HEAD=[{'color':'#FFF','path':'M140.708 178.542c6.92 1.4 13.72.52 20.48-1.02 4.37-.99 8.75-1.93 13.06-3.13 1.84-.5 3.68-1.37 5.22-2.49 3.71-2.71 8.84-2.68 12.24.39.67.61 1.25 1.31 2.4 2.53-1.46 1.36-2.51 2.83-3.94 3.57-2.83 1.46-5.9 2.46-8.82 3.75-4.54 2.01-9.43 1.82-14.2 2.34-5.78.62-11.49-.18-17.16-.94-3.24-.43-6.36-1.82-9.5-2.88-.66-.22-1.16-.9-2.2-1.74 1.21-.2 1.86-.49 2.42-.38z'},{'color':'#FFF','path':'M148.948 176.042c.75.09 1.48.45 2.42.75-3.39 1.29-12.64.58-16.7-1.1-1.33.47-2.47 1.22-3.61 1.23-4.81.01-9.63-.09-14.44-.37-2.28-.12-4.56-.6-6.79-1.14-2.13-.52-4.04-1.53-5.3-3.71 4.46-.16 8.56-.34 12.66-.45 3.32-.08 6.31-1.32 9.07-2.93 1.33-.78 2.33-.62 3.47-.2.85.31 1.63.85 2.4 1.34 5.16 3.33 10.64 5.81 16.82 6.58zm-40.44-108.69c1.33 2.68 1.33 2.68.26 4.27-1.39-1.92-1.39-1.92-.26-4.27zm5.1-3.67c1.7 1.32 3.41 2.63 5.13 3.95-1.87 2.33-3.23 2.42-4.21.44-.62-1.26-.91-2.68-.92-4.39zm111.54 59.778c1.41.15 3.25 1.08 3.17 3.25-.02.572-.29 1.12-.52 1.64-.63 1.42-2.96 2.79-4.17 2.5-1.42-.34-2.13-1.74-1.94-3.94.06-.77.16-.85.74-1.68 2.01-2.138 2.72-1.77 2.72-1.77zm-12.09-51.798c-3.07 2.75-6.14 5.54-8.86 8.62-7.25 8.2-13.19 17.28-17.74 27.25-.18.4-.5.75-.77 1.11-.05.06-.2.04-.58.11-.16-.55-.59-1.21-.45-1.7.5-1.75 1.01-3.54 1.85-5.13 2.28-4.32 5.55-7.97 8.32-11.96 1.94-2.8 3.37-5.96 5.3-8.77 1.28-1.85 2.99-3.42 4.6-5.02 1.29-1.28 2.85-2.3 4.06-3.64 3.05-3.38 6.83-5.75 10.65-8.09.36-.22.83-.25 1.8-.53-.44.95-.55 1.62-.94 1.95-2.39 1.97-4.94 3.74-7.24 5.8zm60.87 15.18c-3.17 4.61-3.9 10.01-4.94 15.27-1.03 5.27-1.82 10.61-2.34 15.96-.57 5.92-.97 11.89-.96 17.84.01 8.04.39 16.09.8 24.12.15 2.85.69 5.7 1.31 8.49.29 1.28 1.2 2.43 1.84 3.63.56 1.04 1.15 2.06 1.94 3.47-3.08.25-4.48-1.26-5.92-2.92-4.27-4.93-4.56-10.82-4.33-16.89.16-4.24.21-8.49.16-12.74-.01-.82-.69-1.63-1.24-2.84.14-.91.4-2.01.47-3.13.33-6.06.28-12.16 1.02-18.17.71-5.78 2.22-11.46 3.39-17.19.09-.44.45-.88.4-1.3-.44-4.17 1.89-7.49 3.35-11.06 1.03-2.51 2.97-4.2 5.73-5.33-.21.94-.17 2.05-.68 2.79z'},{'color':'#536878','path':'M221.238 63.912c-.97.28-1.44.31-1.8.53-3.82 2.34-7.6 4.71-10.65 8.09-1.21 1.34-2.77 2.36-4.06 3.64-1.61 1.6-3.32 3.17-4.6 5.02-1.93 2.81-3.36 5.97-5.3 8.77-2.77 3.99-6.04 7.64-8.32 11.96-.84 1.59-1.35 3.38-1.85 5.13-.14.49.29 1.15.45 1.7.38-.07.53-.05.58-.11.27-.358.59-.71.77-1.108 4.55-9.97 10.49-19.05 17.74-27.25 2.72-3.08 5.79-5.87 8.86-8.62 2.3-2.06 4.85-3.83 7.24-5.8.39-.332.5-1.003.94-1.952zm-54.09 120.57c4.77-.52 9.66-.33 14.2-2.34 2.92-1.29 5.99-2.29 8.82-3.75 1.43-.74 2.48-2.21 3.94-3.57-1.15-1.22-1.73-1.92-2.4-2.53-3.4-3.07-8.53-3.1-12.24-.39-1.54 1.12-3.38 1.99-5.22 2.49-4.31 1.2-8.69 2.14-13.06 3.13-6.76 1.54-13.56 2.42-20.48 1.02-.56-.11-1.21.18-2.42.38 1.04.84 1.54 1.52 2.2 1.74 3.14 1.06 6.26 2.45 9.5 2.88 5.67.76 11.38 1.56 17.16.94zm-30.76-4.29c-1.51-1.6-3.44-2.41-5.65-1.72-5.29 1.65-10.49.14-15.72-.35-1.37-.12-2.73-.45-4.04-.86-1.74-.54-3.63-.95-5.1-1.94-2.9-1.95-5.57-4.27-8.39-6.48.83-1.68 2.02-1.21 3.24-.86 2.65.76 5.32 1.46 7.98 2.17.67.17 1.37.41 2.03.34 4.7-.46 9.44-.76 13.75-2.96.49-.25.9-.65 1.46-1.06-1.73-2.12-3.48-4.04-4.99-6.13-2.65-3.68-4.22-7.86-5.51-12.19-1.9-6.41-3.61-12.86-3.72-19.56-.11-6.72 1.32-13.15 4.43-19.23 2.97-5.8 6.13-11.46 6.74-18.27.62-6.89-2.13-11.79-8.79-13.48-2.33-.59-4.72-.99-7.09-1.45-4.12-.8-6.18-3.97-5.06-8.03.45-1.66 1.14-3.25 1.81-4.84 1.05-2.48 1.69-4.99 1.15-7.71-.13-.65-.09-1.33-.13-2.08 1.85-.93 3.5-.78 4.97.34 4.38 3.36 9.63 4.19 14.83 5.12 4.11.74 8.05 1.65 11.44 4.4 4.09 3.32 7.03 7.32 7.63 12.54.94 8.16.2 16.21-1.75 24.26-1.53 6.3-3.53 12.61-2.99 19.27.49 5.97 2.39 11.43 6.15 16.1 3.75 4.66 9.12 6.11 14.75 6.22 5.11.1 10-1.28 14.56-3.75 3.31-1.78 4.84-4.6 4.06-8.24-.27-1.23-.7-2.43-1.06-3.64-1.93-6.51-1.07-12.97.21-19.45.79-3.97 2.17-7.7 3.79-11.41 1.17-2.7 1.73-5.71 2.25-8.64 1.81-10.12 7.75-17.85 14.65-24.87 3.03-3.08 7-4.53 11.68-3.08 3.26 1.02 7.07.69 9.83 2.85 3 2.32 5.33 1.47 8.05-.21 2.42-1.5 5.01-2.76 7.58-3.99 4.59-2.18 9.61-2.03 14.52-2.46 2.06-.18 4.14-.33 6.18-.68 3.48-.59 6.83-.17 10.2.81 3.41.99 6.87 1.88 10.35 2.56 3.33.66 6.37-.63 9.22-2.19 1.71-.93 3.28-2.12 4.87-3.26 4.96-3.56 10.5-5.11 16.56-4.93.56.02 1.11.21 1.67.31 2.59.46 5.22.77 7.77 1.41 3.22.82 6.43 1.74 9.53 2.92 7.17 2.71 13.74 6.55 20.29 10.54 7.14 4.36 14.81 7.87 22.1 12 4.892 2.76 9.63 5.8 14.24 9.02 3.38 2.36 5.05 5.77 4.59 10.09-.16 1.46.04 3 .27 4.47.69 4.48-1.02 8.07-3.91 11.3-1.6 1.802-3.08 3.71-4.72 5.48-1.76 1.9-2.578 4.21-3.63 6.54-2.16 4.822-3.938 10.02-8.85 13.14-3.36 2.142-5.43 5.46-7.36 8.92-2.47 4.44-6 8.12-9.78 11.472-2.08 1.84-3.118 1.67-6.72-.11-.1 4.06-1.83 7.31-4.89 9.77-1.69 1.36-3.53 2.54-5.39 3.67-4.41 2.71-8.82 5.41-13.32 7.97-5.79 3.28-11.65 6.53-18.25 7.82-5.25 1.02-10.5 2.3-15.99 1.34-3.25-.56-5.81-2.01-8-4.35-2.29-2.45-3.08-2.63-5.96-1.3-1.67.76-3.36 1.5-4.97 2.39-3.59 1.97-7.53 2.64-11.47 3.51-8.05 1.77-16.29 2.07-24.39 3.42-6.52 1.1-13.12.63-19.57-.7-5.99-1.23-11.31-3.84-14.71-9.31-.3-.48-.7-.9-1.1-1.42-5.42 3.51-11.25 5.78-17.29 7.64-1.81.56-3.79.07-5.55 1.5-.84.68-2.9-.3-4.39-.26-8.56.23-16.97-.79-25.24-2.93-2.24-.573-4.29-1.493-5.94-3.243zm-19.77-3.64c4.81.28 9.63.38 14.44.37 1.14-.01 2.28-.76 3.61-1.23 4.06 1.68 13.31 2.39 16.7 1.1-.94-.3-1.67-.66-2.42-.75-6.18-.77-11.66-3.25-16.82-6.58-.77-.49-1.55-1.03-2.4-1.34-1.14-.42-2.14-.58-3.47.2-2.76 1.61-5.75 2.85-9.07 2.93-4.1.11-8.2.29-12.66.45 1.26 2.18 3.17 3.19 5.3 3.71 2.23.54 4.51 1.02 6.79 1.14zm157.31-89.71c.51-.74.47-1.85.68-2.79-2.76 1.13-4.7 2.82-5.73 5.33-1.46 3.57-3.79 6.89-3.35 11.06.05.42-.31.86-.4 1.3-1.17 5.73-2.68 11.41-3.39 17.19-.74 6.01-.69 12.11-1.02 18.17-.07 1.12-.33 2.22-.47 3.13.55 1.21 1.23 2.02 1.24 2.84.05 4.25 0 8.5-.16 12.74-.23 6.07.06 11.96 4.33 16.89 1.44 1.66 2.84 3.17 5.92 2.92-.79-1.41-1.38-2.43-1.94-3.47-.64-1.2-1.55-2.35-1.84-3.63-.62-2.79-1.16-5.64-1.31-8.49-.41-8.03-.79-16.08-.8-24.12-.01-5.95.39-11.92.96-17.84.52-5.35 1.31-10.69 2.34-15.96 1.04-5.26 1.77-10.66 4.94-15.27zm-45.61 39.87c.08-2.17-1.76-3.1-3.17-3.25 0 0-.71-.37-2.72 1.77-.58.83-.68.91-.74 1.68-.19 2.2.52 3.6 1.94 3.94 1.21.29 3.54-1.08 4.17-2.5.23-.52.5-1.07.52-1.64zm-109.58-59.08c-1.72-1.32-3.43-2.63-5.13-3.95.01 1.71.3 3.13.92 4.39.98 1.98 2.34 1.89 4.21-.44zm-9.97 3.99c1.07-1.59 1.07-1.59-.26-4.27-1.13 2.35-1.13 2.35.26 4.27z'}];var ELEPHANT_BODY=exports.ELEPHANT_BODY=[{'color':'#FFF','path':'M289.884 279.232c-18.13-6.52-38.71-13.84-58.22-12.45-16.61 1.46-29.28 6.72-44.31 14 12.88-10.66 29.83-16.62 46.54-16.35 19.71.83 39.65 2.59 55.99 14.8z'},{'color':'#536878','path':'M90.564 478.532c-1.32 1.16-2.53 2.19-3.72 3.25-1.28 1.15-2.48 2.41-3.84 3.46-1.31 1.02-2.77 1.83-4.56 2.39.54-.7.99-1.51 1.63-2.09 3.05-2.76 6.17-5.42 9.17-8.2 2.64-2.45 5.48-4.76 7.66-7.58 4.02-5.21 8.72-5.54 14.25-5.27 6.48.31 10.17 4.95 14.91 8.08.85.56 1.64 1.22 2.48 1.8 4.43 3.03 8.81 6.18 13.41 9.01 2.73 1.68 5.77 2.85 8.61 4.21-8.3-18.25-14.25-35.44-16.61-55.43.59 1.07-.23-1.54-.17-2.6.44-7.98.6-15.97 1.46-23.92.81-7.51 2.33-14.96 3.6-22.41.85-5 1.63-10.01 2.78-14.94 1.17-5 2.74-9.91 4.15-14.85 1.95-6.87 3.81-13.75 5.85-20.56 3.02-9.98 6.12-19.93 9.14-29.91 1.68-5.56 3.47-11.07 4.86-16.69.43-1.75-.08-3.82-.33-5.71-.68-5.26-1.41-10.5-2.13-15.73-.51-3.61-1.44-7.16-1.54-10.81-.5-13.69 1.89-27.68 9.05-39.55 3.86-6.3 7.84-12.53 12.21-18 2.98-3.73 6.87-6.22 10.36-9.11 2.1-1.73 4.28-3.3 6.48-4.71 3.54-2.27 7.26-3.47 11.11-4.38 5.36-1.26 10.67-2.28 16.07-2.55 1.58-.07 3.17.35 4.76.38.58.01 1.15-.43 1.91-.75.1 1.9 1.42 1.62 2.45 1.65 2.42.08 4.83-.03 7.44-.07-.12.72-.2 1.17-.28 1.64.16.01.36.07.38.02.48-1.5 1.41-1.7 2.55-1.7 3.36.01 6.72-.26 10.09-.16 1.1.04 2.23.93 3.35 1.42.11-.19.22-.37.33-.56-.33-.19-.66-.37-1.47-.82 1.94-.05 3.37-.14 4.81-.12 1.77.03 3.61.49 5.31.16 4.66-.9 8.83 1.91 13.26 3.71 8.79 4.08 15.17 11.77 20.18 19.84 3.72 5.57 6.78 11.6 9.61 18.05 2.64 5.99 3.37 11.92 4.21 18.06.28 2.07 1.13 4.16 1.14 6.17.02 6.1-.19 12.19-.53 18.24-.29 5.33-.56 10.72-1.41 15.9-.7 4.27 1.79 7.33 2.84 10.9 1.802 6.07 4.12 12.01 6.13 18.04 1.38 4.15 2.672 8.34 3.88 12.55 1.312 4.57 2.392 9.21 3.75 13.77 1.312 4.44 2.95 8.8 4.28 13.25 3.2 10.39 5.69 21.04 6.84 31.86.762 7.64 1.75 15.35 3.56 22.86 1.532 6.38 1.872 12.67 1.98 18.95.09 5.17-.63 10.31-1.32 15.39-.91 6.62-1.958 13.22-3.31 19.73-2.5 12.1-7.91 23.43-15.44 33.19-5.458 7.11-11.978 13.19-19.01 18.77-6.368 5.05-13.89 7.79-22.16 8.8-4.6.56-9.18 1.31-13.79 1.86-4.76.56-9.54 1.02-14.32 1.47-6.06.56-12.13 1.04-18.2 1.61-.71.07-1.37.52-1.92.35-1.79-.23-3.57-.64-5.36-.67-4.55-.07-9.09.08-13.64.02-6.72-.09-13.45-.09-20.15-.51-4.41-.28-8.73-1.61-13.13-1.78-8.64-.33-16.79-2.58-24.81-5.1-6.21-1.96-11.05-6.03-15.26-10.86-5.54-6.35-11.12-12.59-16.6-18.86-3.71-4.24-6.97-9.04-11.24-12.48-4.34-3.5-12.83-4.95-18.19-.07-2.33 2.11-4.92 3.87-5.35 7.14-.29 2.16.19 4.36.25 6.55.06 2.79.07 5.59.03 8.39 0 .49-.34 1.012-.53 1.52-.28.05-.56.1-.84.14-.24-1.24-.63-2.46-.69-3.73-.13-2.9-.1-5.83-.15-9.25-2.57 3.1-4.76 5.73-6.97 8.37-.2-.09-.41-.18-.61-.26-.27-4.05 4.26-6.23 5.02-10.17zm199.32-199.3c-16.34-12.21-36.28-13.97-55.99-14.8-16.71-.27-33.66 5.69-46.54 16.35 15.03-7.28 27.7-12.54 44.31-14 19.51-1.39 40.09 5.93 58.22 12.45z'}];var ELEPHANT_LEGS=exports.ELEPHANT_LEGS=[{'color':'#FFF','path':'M206.653 560.177c-1.88.17-3.87-.2-5.84-.52-.61-.1-1.28-.79-1.92-1.2 2.92-1.83 9.74-1.48 12.17.03-1.13 1.86-2.91 1.56-4.41 1.69zm-7.94-10.85c.64-.23 1.44-.02 2.15-.06 2.16-.1 4.33-.11 6.45-.39 1.35-.18 2.63-.38 4.51.64-1.41 1.87-2.93 2.45-4.44 2.63-2.63.32-5.35.21-8.07.06-.52-.03-1.18-1.01-1.78-1.55.38-.46.69-1.15 1.18-1.33zm53.94 5.28c3.66-.99 7.19-1.99 10.71-.1-3.78 2.85-8.96 2.84-10.71.1zm14.56 7.39l-.03.9c-.99.54-2.01 1.47-2.94 1.56-4.22.41-8.39.58-12.54.8-.72.04-1.46-.03-1.38-1.43.07-1.33.79-1.62 1.56-1.69 3.86-.33 7.75-.79 11.65-.99 1.27-.07 2.46.55 3.68.85zm3.02 29.25c-.91.16-1.39.3-1.86.32-8.15.23-12.19.34-20.23.54-1.3.03-2.61.23-3.91.44-1.7.28-2.99-1.1-4.59-2.01 9.02-3.66 21.88-4.68 30.59.71zm-71.16-5.59c5.11.73 9.81-.62 14.82-.36 2.55.13 5.17.09 7.54-.87 1.77-.71 3.48-.07 5.18-.17 1.27 3.62 1 4.59-1.34 4.65-6 .08-8.98.13-14.95.2-.46 0-.96-.16-1.38-.02-3.6 1.17-7.58-.73-11.38-1.04-.44-.03-.92-.34-1.39-.51-.08-.37-.16-.73-.24-1.09 1.04-.29 2.03-.95 3.14-.79zm-102.37-322.94c.06.29.02.6.03.89l-.75.03c-.83-2.15-1.82-4.28-2.35-6.42-1.28-5.2-2.23-10.4-2.85-15.59-.49-4.14-.64-8.29-.75-12.42-.02-.79.05-.79 2.11-2.08.3.97.68 1.82.86 2.72 1.55 8.27 2.09 16.63 2.35 24.98.12 2.63.85 5.26 1.35 7.89zm18.98-26.36c2.15 1.84 4.16 9.99 3.23 14.09-2.52-2.05-4.25-10.57-3.23-14.09zm7.88-3.52c3.99 2.71 7.1 12.99 5.98 19.09-3.03-3-2.67-6.28-3.63-9.27-.97-3.03-2.16-6.03-2.35-9.82zm231.25 8.58c1.04 3.1-2.13 9.67-5.8 12.21 1.39-4.35 1.47-8.64 5.8-12.21zm9.74 2.81c-1.05 4.58-4.55 7.86-7.18 11.69-.32-2.55 3.55-9.15 7.18-11.69zm30.55-6.2c-2 6.67-6 13.01-11.58 19.33-1.28-2.83 7.29-16.21 11.58-19.33z'},{'color':'#536878','path':'M420.183 237.088c1.71.56 3.67.88 5.57 1.32-2.26 2.49-4.38 5.03-6.61 7.66-2.66.05-5.14.12-7.61.22-.05.11-.1.23-.15.34 2.07.62 4.14 1.22 6.53 1.92-.9 1.88-1.33 3.83-3.67 5.56-1.13.84-1.54 1.87-2.48 2.78-.858.82-1.96 1.58-2.97 2.37-3.41-.93-4.4-.99-8.11-.43 2.11.75 3.94 1.42 5.78 2.13-1.87 2.53-3.96 4.96-8.93 6.8-3.45-.68-7.05-1.22-10.74-1.71-25.656-3.405-51.776.693-77.325-3.896-7.584-1.362-14.894-3.858-22.437-5.397-10.82-2.208-19.81-4.47-23.28-16.296-3.09-10.55-.93-21.535.516-32.137.42-3.5 1.35-7.05 2.23-10.29.65-2.39 1.02-4.94 2.03-7.02.96-1.98 2.56-3.22 3.73-4.84 1.65-2.28 2.91-4.67 5.98-4.76 1.88-.06 21.94 11.122 23.78 12.182 4.66 2.67 9.39 4.88 14.01 7.19 3.08 1.54 6.21 2.9 9.23 4.47 12.84 6.43 25.76 12.48 39.79 17.02 6.012 1.94 11.932 3.97 17.892 5.74.99.3 2.03.48 3.06.69 2.8.55 5.39 1.18 8.07 2.28 3.13 1.28 6.96 1.91 10.54 2.58 5.288.99 10.587 1.89 15.578 3.52zm-36.66 18.75c5.58-6.32 9.58-12.66 11.58-19.33-4.29 3.12-12.86 16.5-11.58 19.33zm-26.15-1.44c2.63-3.83 6.13-7.11 7.18-11.69-3.63 2.54-7.5 9.14-7.18 11.69zm-8.36-2.29c3.67-2.54 6.84-9.11 5.8-12.21-4.33 3.57-4.41 7.86-5.8 12.21zm-54.377 210.294c2.85 1.46 2.25 5.21 2.01 8.82-.2 2.95-.763 20.905-1.183 23.895-.46 3.26-.75 6.81-1.79 10.1-2.7 8.58-4.75 17.07-6.65 25.6-1.49 6.71-3.75 13.23-6.58 19.58-1 2.24-1.61 4.94-1.82 7.3-.76 8.5-2.12 17.08-3.73 25.69-.62 3.35-.92 6.7-1.27 10.02-.61 5.79-1.19 11.58-1.71 17.34-.16 1.74-.17 3.49-.05 5.08.2 2.62-.84 5.11-2.4 5.35-1.87.29-3.7.37-5.56.65-.84.12-1.12-.66-1.32-1.91-.39-2.54-.88-5-1.35-7.49-.18.06-.35.11-.52.16-.26 1.59-.53 3.17-.79 4.76-.6 3.62-1.09 4.45-2.87 4.19-3.59-.54-7.17-1.27-10.79-1.84-1.26-.2-2.55-.15-3.99-.23-.27-2.96-.54-5.78-.83-8.6-.17-.01-.33-.02-.5-.02-.82 3.15-1.61 6.31-2.42 9.68-2.42-1.46-4.97 1.92-7.19-1.87.64-.49.79-1.59.68-3.39-.15-2.57-.24-5.14-.38-7.72.2-2.77.34-5.57.57-8.34.28-3.43.07-7.12 1.94-9.79.19-.27.2-.93.26-1.42.62-5.21 1.46-10.38 1.9-15.6.56-6.8 2.12-13.38 1.88-20.28-.18-5.15-.15-10.19-.99-15.22-1.11-6.68-1.29-13.62-2.14-20.22-.09-.72-.16-1.45-.23-2.18.22-1.31.42-2.61.59-3.92.96-7.41.77-15.32-.04-22.44-.1-.92-.017-16.765-.317-17.575.11-.46.28-.9.56-1.31.8-1.18 2.28-1.7 3.44-2.44 3.98-2.53 7.59-5.85 12.34-6.82 9.25-1.89 18.33-3.5 27.66-4.33 3.17-.07 5.75 1.46 8.12 3.05 2.37 1.59 4.95 2.4 7.46 3.69zm-26.263 129.165c.47-.02.95-.16 1.86-.32-8.71-5.39-21.57-4.37-30.59-.71 1.6.91 2.89 2.29 4.59 2.01 1.3-.21 2.61-.41 3.91-.44 8.04-.2 12.08-.31 20.23-.54zm-1.19-28.67l.03-.9c-1.22-.3-2.41-.92-3.68-.85-3.9.2-7.79.66-11.65.99-.77.07-1.49.36-1.56 1.69-.08 1.4.66 1.47 1.38 1.43 4.15-.22 8.32-.39 12.54-.8.93-.09 1.95-1.02 2.94-1.56zm-3.82-8.39c-3.52-1.89-7.05-.89-10.71.1 1.75 2.74 6.93 2.75 10.71-.1z'},{'color':'#536878','path':'M235.373 488.137c.81 7.12 1 15.03.04 22.44-.17 1.31-.37 2.61-.59 3.92-.09-1.04-.16-2.07-.24-3.11-.39-4.87-.73-9.7-1.15-14.47-.21-2.51.33-5.01.86-7.46.27-1.24.443-17.635.763-18.896.3.815.216 16.66.317 17.58zm-3.36 127.13c.11 1.8-.04 2.9-.68 3.39-.01-.01-.01-.02-.02-.03-.42-1.77-.42-3.68-.16-5.91.2-1.7.35-3.43.48-5.17.14 2.58.23 5.15.38 7.72z'},{'color':'#536878','path':'M225.272 588.907c2.34-.06 2.61-1.03 1.34-4.65-1.7.1-3.41-.54-5.18.17-2.37.96-4.99 1-7.54.87-5.01-.26-9.71 1.09-14.82.36-1.11-.16-2.1.5-3.14.79.08.36.16.72.24 1.09.47.17.95.48 1.39.51 3.8.31 7.78 2.21 11.38 1.04.42-.14.92.02 1.38.02 5.97-.07 8.95-.12 14.95-.2zm3.79-12.1c-.2 4.84.45 9.6 1.17 14.45.65 4.42.91 8.96 1.23 13.47.07.94.12 1.88.17 2.82-.13 1.74-.28 3.47-.48 5.17-.26 2.23-.26 4.14.16 5.91.01.01.01.02.02.03-.16.14-.36.22-.6.27-2.61.53-5.21.86-7.84 1.28-.79-2.97-1.81-5.22-1.58-8.24.11-1.46-.51-3.3-1.06-4.99-.59 4.23.05 8.98-.62 12.68-1.55-.08-2.91-.07-4.3-.27-.64-.09-1.31-.61-1.98-.87-.39-.16-.81-.33-1.17-.26-1.34.24-2.04-.3-2.77-2.64-.59-1.88-1-3.88-1.5-5.82-.21-.78-.43-1.56-.73-2.66-.41 2.41-.09 8.02.54 11.29-1.15.54-2.08 1.43-3.7.6-1.68-.86-3.35-.33-5.02-.43-.32-.02-.66-.12-.93-.18-.53-1.72-1.09-3.25-1.49-4.8-.43-1.68-.77-3.4-1.05-5.08-.7-4.14-1.46-8.29-2-12.39-.34-2.56-.19-4.99-.46-7.55-.3-2.72-.55-5.58-1.37-8.28-2.12-7.02-4.11-14.09-4.35-20.78-.13-3.74-.93-7.56-1.01-11.27-.06-3.14-1.47-6.75-2.42-10.13-2.04-7.24-4.18-14.46-6.15-21.66-.59-2.15-.81-4.34-1.45-6.48-.37-1.25-.67-2.51-.98-3.76-1.01-4.06-1.98-8.11-2.86-12.16-.42-1.9-.85-3.81-1.27-5.71-.39-1.8-1.337-18.615-1.307-20.415.03-1.48.92-2.38 1.87-3.2 1.42-1.22 1.8-3.14 3.61-4 4.3-2.05 9.23-3.37 14.49-3.08 5.37.29 10.71-.21 16.1.02 4.46.19 8.88 1.2 13.31 1.71 3.42.4 7.04.16 9.54 2.85 2.12 2.29 4.41 4.47 5.75 7.2.18.36.34.73.48 1.11-.32 1.26-.493 17.655-.763 18.896-.53 2.45-1.07 4.95-.86 7.46.42 4.77.76 9.6 1.15 14.47.08 1.04.15 2.07.24 3.11-.65 3.85-1.49 7.69-2.28 11.55-.89 4.35-2.2 8.57-2.87 12.99-.57 3.72-.64 7.62-.81 11.48-.21 4.45-.38 8.94-.37 13.46 0 3.39-.36 6.82.51 10.28.19.77.1 1.7.06 2.55zm-21.68-24.66c1.51-.18 3.03-.76 4.44-2.63-1.88-1.02-3.16-.82-4.51-.64-2.12.28-4.29.29-6.45.39-.71.04-1.51-.17-2.15.06-.49.18-.8.87-1.18 1.33.6.54 1.26 1.52 1.78 1.55 2.72.15 5.44.26 8.07-.06zm-.73 8.03c1.5-.13 3.28.17 4.41-1.69-2.43-1.51-9.25-1.86-12.17-.03.64.41 1.31 1.1 1.92 1.2 1.97.32 3.96.69 5.84.52zm-116.55-333.54c6.56-1.3 12.94-3.72 19.11-5.9 6.2-2.2 12.16-4.64 17.96-7.14 5.47-2.35 10.77-4.83 15.95-7.3 1.47-.7 2.95-1.35 4.42-2.01 4.43-1.98 8.76-3.99 12.99-6.1 2.05-1.02 33.063-8.64 35.084-9.67.81-.41 1.61-.83 2.39-1.27 2.53-1.43 7.84-5.7 10.98-3.86 2.93 1.71 2.23 6.41 3.02 9.24 1.03 3.65 3.55 6.55 5.43 9.77 4.03 6.87 5.62 15.1 8.15 22.59 1.23 3.67 1.86 7.38 1.99 10.94.12 3.25.23 7.24-1.09 9.89-.07.14-.15.27-.24.39-.77 1.03-2.29 1.57-3.43 2.17-1.37.72-2.88 1.25-4.45 1.68-1.91.52-3.31 1.81-5.17 2.42-5.56 1.81-11.78 2.79-18.06 3.44-10.51 1.06-50.042 8.27-60.593 9.02-7.38.57-14.79 1.31-22.35 1.9-6.47.49-12.95 1.56-19.66 1.24-7.2-.34-14.05.14-21.15.23-3.03.04-6.02.31-9.74.49-.97-3.69-3.57-6.98-2.43-10.59 2.8-.59 5.42-1.17 8.38-1.87-1.55-.82-3.39-.69-5.05-.56-2.29.17-3.16-.34-3.19-1.35-.11-2.84-.07-5.69.08-8.77 2.11-.5 4.37-1.05 6.74-1.66-.75-1.44-4-.79-5.45-1.71 1.74-1.96 1.83-3.9 1.61-5.8-.07-.58.41-1.3.72-1.96.8-1.67 1.65-3.34 2.56-5.21 1.41-.08 2.39-.09 3.41-.19 7.09-.75 14.12-1.12 21.08-2.49zm2.04.49c-2.06 1.29-2.13 1.29-2.11 2.08.11 4.13.26 8.28.75 12.42.62 5.19 1.57 10.39 2.85 15.59.53 2.14 1.52 4.27 2.35 6.42l.75-.03c-.01-.29.03-.6-.03-.89-.5-2.63-1.23-5.26-1.35-7.89-.26-8.35-.8-16.71-2.35-24.98-.18-.9-.56-1.75-.86-2.72zm37.4 24.8c1.12-6.1-1.99-16.38-5.98-19.09.19 3.79 1.38 6.79 2.35 9.82.96 2.99.6 6.27 3.63 9.27zm-10.63-1.48c.93-4.1-1.08-12.25-3.23-14.09-1.02 3.52.71 12.04 3.23 14.09z'}];var BABOON_HEAD=exports.BABOON_HEAD=[{'color':'#000','path':'M272.176 66.796c-.47-.93.17-1.05.8-1.03 1.49.04 2.68 1.1 3.14 2.31.92 2.41 1.37 5.04 2.01 7.57-.21.09-.42.17-.63.25-1.93-2.92-3.74-5.92-5.32-9.1zm-7.09 102.9c-.8-4.65-1.91-9.67-7.27-11.18.56-.96 1.25-.56 1.86-.4 5.038 1.34 9.91 7.34 8.71 13.97-.672 3.68-1.422 7.13-3.22 10.3-.43.762-.93 1.35-1.962 1.53 2.793-4.45 2.703-9.47 1.882-14.22z'},{'color':'#000','path':'M259.057 173.187c1.408-2.33 2.68-4.67 2.79-7.63 1.18 1.3 1.88 2.7 1.93 4.24.1 2.73.2 5.51-.16 8.19-.49 3.67-1.88 7.43-4.87 9.08-3.97 2.18-7.29 5.7-11.79 6.83-2.01.5-6.19-1.16-6.97-3.05-.21-.52-2.39-3.32-3.83-4.97-2.03-2.33-4.11-4.63-5.44-7.53-1.59-3.44-1.98-6.95-.01-10.86.92 2.84 2.13 5.04 3.58 7.17 1.92 2.82 4.49 4.05 7.42 4.75 2.56.62 5.19.77 7.81.77 4.59 0 7.23-3.19 9.54-6.99zm4.96-52.55c.28-.34.7-.56 1.09-.77.94-.48 1.59-.61 1.68.98.06 1.07.38 2.11.26 3.23-.19 1.71-.45 3.23-2.43 3.49-.99.13-1.28 1.26-1.8 1.98-2.63 3.59-4.3 7.567-4.62 12.26-.21 2.95-.42 5.97-1.5 8.78l-.38 4.277c-.03.25-.7.3-.77-.32-.08-.61-.1-1.23-.14-1.75.65-5.1.92-10.14 1.78-15.14.48-2.81.98-5.59 1.67-8.35.88-3.508 3.04-6.068 5.16-8.668zm-7.07-18.56c-1.8-.14-1.92-.19-1.71-1.72-.19-.74.79-1.12 1.27-1.07.63.07 1.51-.07 1.7.82.12.58.01 1.97-1.26 1.97z'},{'color':'#000','path':'M254.387 165.656c.39.29.51.78.23 1.42-.81 1.86-1.63 3.66-4.09 4.68 1.06-2.16 1.85-3.84 2.71-5.48.22-.42.58-1.04 1.15-.62zm.52-86.42c.31 1.78 0 3.52-.36 5.25-.11.57-.09 1.43-.83 1.4-.67-.03-.77-.83-.84-1.42-.3-2.64-.52-5.3-.85-7.93-.79-6.34-.38-12.72-.57-18.33.13-6.24-.28-11.74.22-17.22.04-.44-.2-1.1.39-1.22.69-.14.72.57.88 1.07 1.35 4.11 1.48 8.37 1.73 12.68.29 4.87-.59 9.76.43 14.61.3 1.44-.28 2.93-.33 4.44-.08 2.23-.26 4.45.13 6.67zm8.69 32.81c.01.55-.52.51-.8.74-2.41 2.1-4.43 4.44-5.84 7.57-2.24 4.95-4.78 29.82-5.21 35.28-1.12-1.72 1.22-23.27 1.18-25.05-.08-3.23.24-6.54 1.14-9.56 1.18-3.92 2.97-7.66 6.63-9.72.63-.35 1.32-.51 2-.17.38.18.89.32.9.91zm-18.35 45.05c-1.08-.03-.95-.72-1.1-1.43-1.21-5.79-2.09-11.58-1.76-17.45.19-3.33-.342-6.52 0-9.85.3-2.9.51-6.04 1.23-8.89.23-.91 1.78-8.72 2.63-9.65 1.28 3.46 3.08 13.55 3.67 17.1.6 3.6 1.11 7.27 1.2 10.92.06 2.47-.48 5.02-1.12 7.42-.94 3.59-1.66 7.26-3.07 10.7-.382.91-.74 1.16-1.68 1.13zm-5.19-27.66c1.1 7.43.88 14.92.89 22.39 0 1.32.52 2.7-.41 4.16-1.31-3.67-.39-7.28-.86-10.76-.86-6.48-.88-13.16-3.54-19.2-2.29-5.21-5.92-9.04-10.83-11.3-.59-.28-1.35-.12-2.09-.16 1.42-2.12 3.95-2.77 5.9-1.8 6.598 3.28 9.82 9.11 10.94 16.67zm-2.1 37.17c-.13-.73-.57-1.55.08-2.09.55-.46 1.38-.02 1.74.38 1.29 1.42 3.09 2.3 3.9 4.22.19.43.26.91.37 1.33-.3.66.08 1.59-.58 1.92-.64.32-1.31.08-1.93-.42-1.71-1.39-3.17-2.92-3.58-5.34zm.3-66.11c.06 1.32-1.11 1.66-2.18 1.72-1.04.05-1.74-.41-1.71-1.65.02-1.16.72-1.5 1.94-1.45.65.12 1.9.18 1.95 1.38zm-4.882-18.12c-1.34-13.12-.92-26.29-.97-39.45 0-.27.06-.53.09-.79 1.51 2.25 1.63 4.86 2.04 7.38.99 6.06.57 12.19.77 18.29.15 4.64-.17 9.27-.1 13.91.02 1.35.05 3.65-1.11 3.8-1.118.14-.608-2.04-.72-3.14z'},{'color':'#000','path':'M231.836 133.506c-1.94-3.02-4.12-5.44-7.6-6.09-1.24-.24-2.89-3.75-2.49-5.06.18-.59.56-.34.92-.32 1.98.13 3.62 1.1 5.02 2.54 4.24 4.34 7.16 9.57 8.64 15.73.09.39.22.79-.2 1.41-1.7-2.67-2.65-5.64-4.29-8.21zm-2.8 27.01c.53-.6 1.07-1.14 1.8-1.46.7-.32 1.35.04 1.75.44.59.61-.26 1.02-.51 1.47-2.46 4.48-4.9 8.92-3.82 14.54.61 3.12 2.08 5.63 3.91 8 1.08 1.4 1.85 3.07 3.11 4.42-2.26-.98-4.59-1.55-6.2-3.87-1.92-2.77-3.57-5.57-4.3-9.01-.66-3.13.04-6 1.1-8.76.78-2.05 1.71-4.1 3.16-5.77zm4.26-4.31c-2.48-7.2-6-13.92-8.1-21.3-.03-.11.04-.25.11-.68 2.06.99 3 2.92 3.87 4.72 2.19 4.56 3.96 9.34 5.68 14.13.45 1.27.16 2.93 1.64 3.67.2.1.21.53-.04.71-.4.29-.78.75-1.36.47-.76-.37-1.51-.87-1.8-1.72zm31.67-62.8c1.03.23 2.79.1 2.73 1.33-.08 1.32-1.76.8-2.77.82-2.84.06-5.67.03-8.51.06-1.26.02-2.52.05-3.7-.59-.71-.4-1.5-.33-2.22-.128-3.96 1.12-7.82.86-11.86.08-3.73-.72-7.66-.24-11.5-.27-2.06-.02-4.11 0-6.16 0-.02-.32-.05-.64-.07-.96 3.51-.5 6.81-2.08 10.46-1.89 2.76.15 5.55.16 8.29.05 3.59-.16 7.15-.13 10.7.25 4.87.518 9.79.188 14.61 1.248zm-60.23-27.22c1.02-1.19 1.89.37 2.7.91.9.6.25 1.41-.19 1.86-1.99 2.03-4.05 3.97-6.08 5.95-.16-.1-.31-.2-.46-.3.45-3.28 1.98-6.05 4.03-8.42z'},{'color':'#d3a625','path':'M236.125 141.716c.42-.62.29-1.02.2-1.41-1.48-6.16-4.4-11.39-8.64-15.73-1.4-1.44-3.04-2.41-5.02-2.54-.36-.02-.74-.27-.92.32-.4 1.31 1.25 4.82 2.49 5.06 3.48.65 5.66 3.07 7.6 6.09 1.642 2.57 2.59 5.54 4.29 8.21zm4.82 10.11c-.01-7.47.212-14.96-.888-22.39-1.12-7.56-4.342-13.39-10.94-16.67-1.95-.97-4.48-.32-5.9 1.8.74.04 1.5-.12 2.09.16 4.91 2.26 8.54 6.09 10.83 11.3 2.66 6.04 2.68 12.72 3.54 19.2.47 3.48-.45 7.09.86 10.76.928-1.46.41-2.84.41-4.16zm-33.51-84.73c-.81-.54-1.68-2.1-2.698-.91-2.05 2.37-3.58 5.14-4.03 8.42.15.1.3.2.46.3 2.03-1.98 4.09-3.92 6.08-5.95.44-.45 1.09-1.26.19-1.86zm43.68 70.75c-.09-3.65-.6-7.32-1.198-10.92-.59-3.55-2.39-13.64-3.67-17.1-.85.93-2.4 8.74-2.63 9.65-.72 2.85-.93 5.99-1.23 8.89-.342 3.33.19 6.52 0 9.85-.33 5.87.55 11.66 1.76 17.45.148.71.02 1.4 1.1 1.43.94.03 1.3-.22 1.68-1.13 1.41-3.44 2.13-7.11 3.07-10.7.64-2.4 1.18-4.95 1.12-7.42zm-22.86 37.66c-1.08-5.62 1.36-10.06 3.82-14.54.25-.45 1.1-.86.51-1.47-.4-.4-1.05-.76-1.75-.44-.73.32-1.27.86-1.8 1.46-1.45 1.67-2.38 3.72-3.16 5.77-1.06 2.76-1.76 5.63-1.1 8.76.73 3.44 2.38 6.24 4.3 9.01 1.61 2.32 3.94 2.89 6.2 3.87-1.26-1.35-2.03-3.02-3.11-4.42-1.83-2.37-3.3-4.88-3.91-8zm24.69-134.67c-.16-.5-.188-1.21-.878-1.07-.59.12-.352.78-.39 1.22-.5 5.48-.09 10.98-.222 17.22.19 5.61-.22 11.99.57 18.33.33 2.63.55 5.29.85 7.93.07.59.17 1.39.84 1.42.74.03.72-.83.83-1.4.36-1.73.67-3.47.36-5.25-.39-2.22-.21-4.44-.13-6.67.05-1.51.63-3 .33-4.44-1.02-4.85-.14-9.74-.43-14.61-.25-4.31-.38-8.57-1.73-12.68zm-.02 89.75c.04 1.78-2.3 23.33-1.18 25.05.43-5.46 2.97-30.33 5.21-35.28 1.41-3.13 3.432-5.47 5.84-7.57.28-.23.81-.19.8-.74-.01-.59-.52-.73-.9-.91-.68-.34-1.368-.18-2 .17-3.66 2.06-5.448 5.8-6.628 9.72-.9 3.02-1.22 6.33-1.14 9.56zm4.892 27.93c5.36 1.51 6.47 6.53 7.27 11.18.82 4.75.91 9.77-1.88 14.22 1.03-.18 1.53-.77 1.96-1.53 1.8-3.17 2.55-6.62 3.22-10.3 1.2-6.63-3.67-12.63-8.71-13.97-.61-.16-1.302-.56-1.86.4zm.93 28.55c2.99-1.65 4.38-5.41 4.87-9.08.36-2.68.26-5.46.16-8.19-.05-1.54-.75-2.94-1.93-4.24-.11 2.96-1.382 5.3-2.79 7.63-2.31 3.8-4.95 6.99-9.54 6.99-2.62 0-5.25-.15-7.812-.77-2.93-.7-5.5-1.93-7.42-4.75-1.45-2.13-2.66-4.33-3.58-7.17-1.97 3.91-1.58 7.42.01 10.86 1.33 2.9 3.41 5.2 5.44 7.53 1.44 1.65 3.62 4.45 3.83 4.97.78 1.89 4.96 3.55 6.97 3.05 4.5-1.13 7.82-4.65 11.792-6.83zm18.75-111.17c.21-.08.42-.16.63-.25-.64-2.53-1.09-5.16-2.01-7.57-.46-1.21-1.65-2.27-3.14-2.31-.63-.02-1.27.1-.8 1.03 1.58 3.18 3.39 6.18 5.32 9.1zm-3.92-11.58c2.39-.37 4.3 2.36 4.97 6 1.07 5.77 2.47 11.41 5.53 16.39 1.44 2.33 1.33 5.11 1.91 7.69 1.23 5.46 1.21 11.12 2.28 16.61-.42 2.74-.54 5.48-.5 8.22.01.88.02 1.57 1.12 1.93 2.2.76 2.068 2.09 3.31 4.01 1.25 1.94 1.1 2.58 1.38 3.74 1.32 5.58 2.12 11.26.6 17.01-.97 3.68-1.84 7.4-2.71 11.11-1.17 5.02-3.27 9.51-6.61 13.2-2.92 3.22-6.26 5.94-9.57 8.68-4.32 3.57-9.1 6.29-13.89 9.02-3.45 1.96-6.69 4.33-9.99 6.59-2.02 1.38-3.94 2.98-6.56 2.24-.23-.07-3.51-1.57-3.77-1.75-3.6-2.52-7.22-4.96-11.49-5.95-1.7-.4-3.28-1.18-4.77-2.26-1.63-1.182-3.59-1.56-5.42-2.27-3.23-1.24-5.92-3.55-8.78-5.5-.22-.15-.43-.36-.66-.412-3.56-.79-6.14-3.45-8.66-5.91-4.47-4.37-8.8-8.9-11.79-14.76-1.6-3.13-3.39-6.15-4.85-9.36-2.13-4.67-2.85-9.71-2.49-14.87.34-4.89 2.05-9.31 6.33-11.39 2.83-1.37 3.23-3.56 3.23-6.2.02-6.52 1.1-12.93 1.648-19.39.352-4.08.87-8.37 2.4-12.26.98-2.48 1.45-5.25 3.31-7.25l3.59-10.85c1.892-2.81 3.302-2.76 4.95-.96.95 1.03 1.53.19 1.88-.59.82-1.78 1.52-3.62 2.222-5.45 1.96-5.12 5.38-9.05 8.79-13 2.6-3 5.4-5.728 8.938-7.28 4.102-1.79 8.45-2.52 12.81-3.25 2.222-.37 4.302-.53 6.41.24 2.37.88 4.74 1.772 7.07 2.74 1.05.44 1.52 1.62 2.13 2.55 3.762 5.66 7.25 11.51 10.512 17.53.318.58.5 1.26.72 1.9.78 2.242 1.608 3.952 4.47 3.512zm-5.88 30.42c.06-1.23-1.7-1.1-2.73-1.33-4.82-1.06-9.74-.73-14.61-1.25-3.55-.38-7.11-.41-10.7-.25-2.74.11-5.53.1-8.29-.05-3.65-.19-6.95 1.39-10.46 1.89.02.32.05.64.07.96 2.05 0 4.1-.02 6.16 0 3.84.03 7.77-.45 11.5.27 4.04.78 7.9 1.04 11.86-.08.72-.2 1.51-.27 2.22.13 1.18.64 2.44.61 3.7.59 2.84-.03 5.67 0 8.51-.06 1.01-.02 2.69.5 2.77-.82zm-.652 29.34c.12-1.12-.2-2.16-.26-3.23-.09-1.59-.74-1.46-1.68-.98-.39.21-.81.43-1.09.77-2.12 2.6-4.28 5.16-5.16 8.67-.69 2.76-1.19 5.54-1.67 8.35-.86 5-1.13 10.04-1.78 15.14.04.52.06 1.14.14 1.75.07.62.74.57.77.32l.38-4.28c1.08-2.81 1.29-5.83 1.5-8.78.32-4.69 1.99-8.67 4.62-12.26.52-.72.81-1.85 1.8-1.98 1.98-.26 2.24-1.78 2.43-3.49zm-10.1-22c1.27 0 1.382-1.39 1.26-1.97-.188-.89-1.067-.75-1.698-.82-.48-.05-1.46.33-1.27 1.07-.21 1.53-.09 1.58 1.71 1.72zm-2.33 65c.282-.64.16-1.13-.228-1.42-.57-.42-.932.2-1.15.62-.86 1.64-1.65 3.32-2.71 5.48 2.46-1.02 3.28-2.82 4.09-4.68zm-11.15 5.29c.66-.33.28-1.26.58-1.92-.11-.42-.18-.9-.37-1.33-.81-1.92-2.608-2.8-3.9-4.22-.358-.4-1.188-.84-1.74-.38-.647.54-.208 1.36-.08 2.09.41 2.42 1.872 3.95 3.58 5.34.622.5 1.292.74 1.93.42zm-7.388-70.15c1.07-.06 2.24-.4 2.18-1.72-.05-1.2-1.3-1.26-1.95-1.38-1.22-.05-1.92.29-1.94 1.45-.03 1.24.67 1.7 1.71 1.65zm.38 55.24c.25-.18.24-.61.04-.71-1.48-.74-1.19-2.4-1.64-3.67-1.72-4.79-3.49-9.57-5.68-14.13-.87-1.798-1.812-3.73-3.87-4.72-.07.43-.14.57-.11.68 2.1 7.38 5.62 14.1 8.1 21.3.29.85 1.04 1.35 1.8 1.72.58.28.96-.18 1.36-.47zm-1.25-75.74c-.07-4.64.25-9.27.1-13.91-.2-6.1.22-12.23-.77-18.29-.41-2.52-.53-5.13-2.04-7.38-.03.26-.09.52-.09.79.05 13.16-.37 26.33.97 39.45.11 1.1-.398 3.28.72 3.14 1.16-.15 1.13-2.45 1.11-3.8z'}];var BABOON_BODY=exports.BABOON_BODY=[{'color':'#000','path':'M265.527 376.65c.62.18 1.11.74.89 1.44-.37 1.18.13 2.54-.69 3.59-.39.49-.43.75.1 1.09.48.31.49.79.24 1.23-.2.35-.65.52-1 .36-.46-.2-1.04-.36-1.01-1.09.03-.85 0-1.7 0-2.55-.02-.01-.05-.01-.08-.01.07-1.01.01-2.04.24-3.01.12-.5.55-1.27 1.31-1.05zm-5.39-47.32c.31-1.23-.63-3.1.98-3.1 1.46 0 .86 1.89.8 2.89-.06 1.11.59 3.18-.88 3.14-1.75-.04-.26-2.1-.9-2.93zm2.68 97.25c.1 1.97-.82 3.76-.92 5.7-.03.47-.24.98-.84.88-.7-.12-.43-.75-.4-1.14.16-2.1.38-4.19.59-6.28.07-.77.06-1.83 1.1-1.67.85.12.54 1.14.54 1.81 0 .23-.05.47-.07.7zm-9.45-17.48c.76-.14 1.1.5.98 1.23-.18 1.09.06 2.67-1.3 2.83-.87.11-.22-1.28-.48-1.95.14-.77-.47-1.89.8-2.11zm.74-51.1c.31.61-.02 1.31-.82 1.32-1.61.03-.95-1.21-1.08-2.53.04-.27-.42-1.61.59-1.58 1.56.05.84 1.84 1.31 2.79z'},{'color':'#FFF','path':'M252.207 356.79c.13 1.32-.53 2.56 1.08 2.53.8-.01 1.13-.71.82-1.32-.47-.95.25-2.74-1.31-2.79-1.01-.03-.55 1.31-.59 1.58zm28.84 15.24c.38 8.67-.92 17.23-1.71 25.82-.09 1.01-.09 2.03-.09 3.05.01 5.45-1.68 10.73-1.85 16.15-.32 9.87-3.71 19.17-5.18 28.83-.67 4.46-1.64 8.94-2.08 13.38-.32 3.18-1.91 6.18-1.24 9.59.24 1.26-1.69 2.54-2.09 4.18-.81 3.29-2.37 6.29-4.17 9.15-2.2 3.48-4.92 7.07-8.88 7.81-3.71.69-7.15 2.04-10.76 2.92-7.77 1.9-15.062.53-22.33-2.24-2.1-.81-4.24-1.6-6.5-2.1-1.03-.22-2.45-1.85-3.562-3.03-3.64-3.85-5.41-8.78-8-13.24-5.98-10.3-8.15-21.75-10.64-33.16-1.39-6.34-3.13-12.63-4.45-18.99-.79-3.8-1.33-7.68-1.62-11.59-.24-3.31-.67-6.63-1.07-9.92-.48-3.97.51-8.1.37-12.14-.32-9.44 2.47-18.16 5.78-26.78 2.38-6.19 4.89-12.34 7.48-18.44 2.41-5.7 6.02-10.67 9.78-15.55 2.18-2.84 4.02-5.96 6.12-8.87 2.51-3.46 5.97-5.65 9.72-7.71 4.64-2.55 9.82-1.55 14.56-3.13 1.13-.37 2.31-.8 3.51-1.09 6.85-1.67 12.51.98 17.83 4.85 3.83 2.8 7.05 6.28 9.73 10.11 1.69 2.42 2.56 5.48 3.53 8.35 3.41 10.07 4.9 20.58 7 30.97.87 4.31.573 8.55.813 12.82zm-14.63 6.06c.22-.7-.27-1.26-.89-1.44-.76-.22-1.19.55-1.31 1.05-.23.97-.17 2-.24 3.01.03 0 .06 0 .08.01 0 .85.03 1.7 0 2.55-.03.73.55.89 1.01 1.09.35.16.8-.01 1-.36.25-.44.24-.92-.24-1.23-.53-.34-.49-.6-.1-1.09.82-1.05.32-2.41.69-3.59zm-3.53 47.79c0-.67.31-1.69-.54-1.81-1.04-.16-1.03.9-1.1 1.67-.21 2.09-.43 4.18-.59 6.28-.03.39-.3 1.02.4 1.14.6.1.81-.41.84-.88.1-1.94 1.02-3.73.92-5.7.02-.23.07-.47.07-.7zm-1.85-93.62c1.47.04.82-2.03.88-3.14.06-1 .66-2.89-.8-2.89-1.61 0-.67 1.87-.98 3.1.64.83-.85 2.89.9 2.93zm-6.69 78.07c.12-.73-.22-1.37-.98-1.23-1.27.22-.66 1.34-.8 2.11.26.67-.39 2.06.48 1.95 1.36-.16 1.12-1.74 1.3-2.83zm-3.39-34.28c-.11-.41.09-1.19-.73-1.37-.45-.09-1.05.04-1.08.64-.04 1.3-.47 2.49-.75 3.73-.18.76.5 1.51 1.39 1.58 1.03.09.7-.82.78-1.36.16-1.01.25-2.03.39-3.22zm-2.47 83.68c.33-.49.7-1.86-.45-2.22-1.22-.38-1.07.88-1.24 1.52-.5 1.88-.87 3.79-1.35 5.67-.19.75-.03 1.27.67 1.49.51.15 1.14.14 1.52-.34.43-.54.12-1.21.14-2.11.45-1.09-.21-2.62.71-4.01zm-9.64-27.43c.58.02.81-.4.75-.93-.1-.87-.64-1.36-1.47-1.54-.66.03-.72.51-.7.98.05.89.51 1.46 1.42 1.49zm.67-95.5c.12-.55-.12-1.27-.74-1.21-1.28.14-1.09 1.3-1.21 2.2-.09.58-.04 1.34.66 1.21 1.11-.19 1.11-1.33 1.29-2.2zm-13.1-5.79c.86.03 1.05-.91.9-1.31-.42-1.05-.26-2.01.11-2.88-.25-.58.1-1.44-.64-1.46-.63-.02-1.03.56-1.11 1.28-.11.98.06 1.96-.36 2.96-.29.68.26 1.37 1.1 1.41zm-.49 132.67c.35-.51.43-1.08.19-1.74-.28-.79-.54-1.66-.49-2.48.05-.68.95-1.61-.21-1.84-1.15-.23-1.09 1.01-1.21 1.82-.07.46-.1.93-.15 1.39.04.01.08.01.11.02-.07.37-.1.76-.22 1.11-.33.97.5 1.18 1 1.6.29.24.68.57.98.12zm-9.93-14.2c1.24-1.74-.51-3.41-.16-5.17.09-.47-.06-1.28-.81-1.49-.5.04-.7.38-.87.73-.48.96.47 5.1 1.3 5.72.16.12.51.25.54.21zm-1.32-52.42c.03-.56.06-1.25-.57-1.37-.79-.15-1 .61-1.12 1.2-.18.9-.25 1.83-.35 2.75-.1.99-.01 2.11 1.16 2.14 1.41.04.73-1.18.75-1.93.01-.3.01-.62.01-.81.04-.74.09-1.36.12-1.98zm-1.11-49.83c.16-.38.1-.92 0-1.36-.26-1.15-1.23-.54-2.25-.74.82-.51 1.32-.86 1.85-1.15.84-.46.16-.95-.01-1.36-.2-.5-.69-.57-1.18-.31-1.31.68-.8 1.93-.76 2.92.03.81-.15 1.98 1.1 2.29.44.11 1.03.2 1.25-.29zm-5.56 22.93c0-.55-.33-.9-.83-.96-.65-.07-.72.51-.74.94-.05 1-.01 2-.01 3.27 1.58-.78 1.58-2.02 1.58-3.25zm-4.78 58.16c.7-.28.3-.77.14-1.15-.67-1.6-.28-3.22-.13-4.72 0-.67.05-1.22-.02-1.76-.06-.44-.49-.56-.87-.61-.35-.05-.56.12-.73.44-.45.82-.17 6.63.41 7.29.31.35.67.72 1.2.51z'},{'color':'#000','path':'M250.957 376.05c-.14 1.19-.23 2.21-.39 3.22-.08.54.25 1.45-.78 1.36-.89-.07-1.57-.82-1.39-1.58.28-1.24.71-2.43.75-3.73.03-.6.63-.73 1.08-.64.82.18.62.96.73 1.37zm-2.47 83.68c-.92 1.39-.26 2.92-.71 4.01-.02.9.29 1.57-.14 2.11-.38.48-1.01.49-1.52.34-.7-.22-.86-.74-.67-1.49.478-1.88.85-3.79 1.35-5.67.17-.64.02-1.9 1.24-1.52 1.15.36.78 1.73.45 2.22zm-10.36-29.9c.83.18 1.37.67 1.47 1.54.06.53-.17.95-.75.93-.91-.03-1.37-.6-1.42-1.49-.02-.47.04-.95.7-.98zm1.39-93.03c-.18.87-.18 2.01-1.29 2.2-.7.13-.75-.63-.66-1.21.12-.9-.07-2.06 1.21-2.2.62-.06.86.66.74 1.21zm-14.2-7.2c.42-1 .25-1.98.36-2.96.08-.72.48-1.3 1.11-1.28.74.02.39.88.64 1.46-.37.87-.53 1.83-.11 2.88.15.4-.04 1.34-.9 1.31-.84-.04-1.39-.73-1.1-1.41zm.8 132.34c.24.66.16 1.23-.19 1.74-.3.45-.69.12-.98-.12-.5-.42-1.33-.63-1-1.6.12-.35.15-.74.22-1.11-.028-.01-.07-.01-.108-.02.046-.46.08-.93.146-1.39.12-.81.06-2.05 1.21-1.82 1.16.23.26 1.16.21 1.84-.05.82.21 1.69.49 2.48zm-10.28-17.63c-.35 1.76 1.4 3.43.16 5.17-.03.04-.38-.09-.54-.21-.83-.62-1.78-4.76-1.3-5.72.17-.35.37-.69.87-.73.75.21.9 1.02.81 1.49zm-1.73-48.62c.63.12.6.81.57 1.37-.03.62-.08 1.24-.12 1.98 0 .19 0 .51-.01.81-.02.75.66 1.97-.75 1.93-1.17-.03-1.26-1.15-1.16-2.14.1-.92.17-1.85.35-2.75.12-.59.33-1.35 1.12-1.2zm-.54-48.46c-.22.49-.81.4-1.25.29-1.25-.31-1.07-1.48-1.1-2.29-.04-.99-.55-2.24.76-2.92.49-.26.98-.19 1.18.31.17.41.85.9.01 1.36-.53.29-1.03.64-1.85 1.15 1.02.2 1.99-.41 2.25.74.1.44.16.98 0 1.36zm-6.39 21.97c.5.06.83.41.83.96 0 1.23 0 2.47-1.58 3.25 0-1.27-.04-2.27.01-3.27.02-.43.09-1.01.74-.94zm-5.15 58.61c-.58-.66-.86-6.47-.41-7.29.17-.32.38-.49.73-.44.38.05.81.17.87.61.07.54.02 1.09.02 1.76-.15 1.5-.54 3.12.13 4.72.16.38.56.87-.14 1.15-.53.21-.89-.16-1.2-.51z'},{'color':'#d3a625','path':'M333.978 256.49c.08.682.42 1.66-.75 1.91-1.2.25-1.16-.67-1.37-1.42-1-3.64-2.98-6.65-5.87-9.18-.79 1.3.02 2.41.34 3.42 2.33 7.26 4.35 14.59 3.98 22.3-.12 2.49-.76 4.94-.35 7.46.1.62-.18 1.08-.772 1.28-.56.2-.83-.16-1.1-.61-.93-1.59-.95-3.92-3.4-4.34-.07-.02-.14-.28-.14-.428-.2-5.84-5.53-7.53-8.83-10.84-.95-.95-1.67-.86-2.18.57-1.51 4.21-2.61 8.4-2.69 12.97-.09 5.29-.48 10.62-.95 15.9-.82 9.02-.71 18.03-.42 27.05.09 2.82-.33 5.73.02 8.43.642 4.82.53 9.63.68 14.44.36 11.46 4.36 22.17 6.73 33.21.892 4.2 1.44 8.51 1.72 12.8.352 5.17 1.61 10.2 1.95 15.35.4 6.07 1.1 12.13 1.24 18.21.18 8.29-.4 16.56-3.26 24.47-4.33 12.03-8.21 24.25-15.09 35.17-1.46 2.31-2.48 5.11-5.43 6.15-.18.06-.34.33-.42.54-2.64 6.57-8.34 10.18-13.58 14.33-5.14 4.07-10.69 7.32-16.68 9.83-2.69 1.14-5.53 1.73-8.42 2.31-2.07.41-4.28.32-6.36 1.08-2.45.89-5.12 1.34-7.63-.23-.35-.22-1.09-.36-1.32-.15-2.2 1.96-4.8.59-7.2.89.33-.11.66-.23.99-.35-2.77-.2-5.44.96-8.21.5-6.28-1.05-12.73-.49-18.93-2.28-2.45-.7-5.06-.73-7.4-1.99-1.95-1.05-4.04-.61-6.11-.1-7.97 1.96-15.75.82-23.47-1.43-.6-.17-1.22-.26-1.84-.39l-6.16-1.55c-8.18-2.18-14.74-7.06-20.56-12.96-2.57-2.61-5.86-4.6-7.54-7.99-3.03-6.1-5.98-12.34-5.43-19.35.29-3.71 1.2-7.4 1.52-11.14.57-6.44 4.29-11.6 7.04-17.15 1.67-3.37 3.4-6.68 6.47-9.07 1.25-.97 2.37-2.1 4.04-2.28 1.34-.14 1.34-.94 1.13-1.99-1.21-5.98-1.69-12.1-3.4-17.99-.42-1.45-.33-2.96-.34-4.46-.04-3.54-.63-7.01-1.37-10.46-.03-.15-.03-.31-.04-.47-.31-6.61-1.29-13.17-.92-19.83.32-5.87-.16-11.77.06-17.64.19-5.06.842-10.12 1.342-15.17.4-4.05.7-8.11 1.38-12.12 1.79-10.57 1.86-21.35 3.84-31.88.91-4.82 2.62-9.49 3.97-14.22 1.68-5.87 2.7-11.88 3.9-17.86.07-.38.11-.76-.3-1.14-1.18.34-1.61 1.53-2.07 2.36-2.05 3.76-4.63 7.16-6.82 10.82-1.07 1.8-1.06 3.71-.77 5.69.12.76-.02 1.43-1.01 1.51-.84.06-1.02-.5-1.19-1.15-1.29-4.75-3.64-9.27-3.84-14.24-.1-2.34-1.28-4.8.16-7.22.52-.87-.01-2.11.12-3.21.55-4.79 1.59-9.47 3.02-14.17-1.49.648-4.66 4.6-5.62 6.76-1.68 3.77-3.75 7.36-5.17 11.25-.2.54-.43 1.41-1.24 1.08-.57-.23-.76-.96-.65-1.65.13-.85.55-1.77.36-2.542-1.28-5.24-.19-10.52.31-15.63 1.16-11.94 3.51-23.73 10.04-34.19 3.03-4.85 7.15-8.62 11.57-12.24 6.94-5.68 14.48-10.29 22.58-13.98 3.65-1.65 7.32-3.39 11.28-4.26 4.19-.918 8.45-1.53 12.59-2.66 4.75-1.298 9.56-2 14.45-2.14 4.32-.118 8.66-.08 12.99.08.9.04 1.67.62 2.61-.13.86.13 1.1-.13 1.68.22l2.8-.22c7.38.27 14.76.33 22.14.51 4.51.12 9 1.08 13.47 1.85 5.41.93 10.93.96 16.31 1.93 4.76.86 9.7 1.32 13.74 4.5 1.14.9 2.67.07 4.03.79 4.48 2.37 7.68 6.02 10.5 10.07 1.06 1.52 2.22 3.01 3.02 4.66 1.93 3.98 4.71 7.46 6.56 11.49 1.95 4.25 4.05 8.46 5.012 13.07 1.05 5.03 1.59 10.022 1.42 15.29-.183 5.17-1.114 10.38-.492 15.59zm-54.64 141.36c.79-8.59 2.09-17.15 1.71-25.82-.24-4.27.06-8.51-.81-12.82-2.1-10.39-3.59-20.9-7-30.97-.972-2.87-1.84-5.93-3.53-8.35-2.68-3.83-5.9-7.31-9.73-10.11-5.32-3.87-10.98-6.52-17.83-4.85-1.2.29-2.38.72-3.51 1.09-4.74 1.58-9.92.58-14.56 3.13-3.75 2.06-7.21 4.25-9.722 7.71-2.1 2.91-3.94 6.03-6.12 8.87-3.76 4.88-7.37 9.85-9.78 15.55-2.59 6.1-5.1 12.25-7.478 18.44-3.31 8.62-6.1 17.34-5.78 26.78.14 4.04-.85 8.17-.37 12.14.4 3.29.83 6.61 1.07 9.92.29 3.91.83 7.79 1.62 11.59 1.32 6.36 3.06 12.65 4.45 18.99 2.49 11.41 4.66 22.86 10.64 33.16 2.59 4.46 4.36 9.39 8 13.24 1.11 1.18 2.53 2.81 3.56 3.03 2.26.5 4.4 1.29 6.5 2.1 7.27 2.77 14.56 4.14 22.33 2.24 3.61-.88 7.05-2.23 10.76-2.92 3.96-.74 6.68-4.33 8.88-7.81 1.8-2.86 3.36-5.86 4.17-9.15.4-1.64 2.33-2.92 2.09-4.18-.67-3.41.92-6.41 1.24-9.59.44-4.44 1.41-8.92 2.08-13.38 1.47-9.66 4.86-18.96 5.18-28.83.17-5.42 1.86-10.7 1.85-16.15 0-1.02 0-2.04.09-3.05z'}];var BABOON_LEGS=exports.BABOON_LEGS=[{'color':'#d3a625','path':'M328.775 412.982c-.207.082-.533-.194-.79-.18-2.146.127-6.75-1.526-6.433-2.128.653-1.23 1.475-2.35 2.295-3.456 2.947-3.967 6.042-7.805 8.848-11.895 2.225-3.24 4.107-6.777 6.138-10.184l-.382-.702c-1.046.084-2.097.143-3.138.26-1.763.197-3.523.415-5.276.652-1.91.26-2.687-.878-3.07-3.453 4.67-2.374 9.407-4.914 14.26-7.205 4.168-1.97 8.477-3.73 11.063-8.01 3.755-6.23 7.33-12.592 10.983-18.896 2.558-4.417 5.095-8.85 7.69-13.24.613-1.032 1.432-1.907 2.146-2.863.987-1.323 2.588-2.48 2.824-4.015.546-3.58 2.703-6.31 3.114-9.96.262-2.33 1.54-4.404 2.167-6.678 1.828-6.597 9.284-21.368 13.05-27.397-2.55.225-17.19-8.545-19.146-9.455-6.51-3.013-13.032-5.994-19.597-8.866-4.72-2.066-9.48-4.044-14.288-5.866-5.667-2.146-11.436-4-17.097-6.164-1.74-.667-4.044-.74-4.524-3.54-.05-.282-.486-.513-.788-.666-2.35-1.186-4.67-2.447-7.077-3.488-4.91-2.122-9.866-4.118-14.802-6.162-2.775-1.152-5.54-2.33-8.33-3.44-5.395-2.145-10.944-3.766-14.975-8.878-2.8-3.552-4.168-7.47-2.89-11.98 2.05-7.24 6.454-12.457 12.656-15.782 4.74-2.53 9.79-2.605 14.745-3.428.93-.155 2.068-.082 2.838.4 4.754 2.98 9.48 6.02 14.116 9.218 2.553 1.766 12.998 7.224 15.505 9.072 1.896 1.397-4.14-.823-2.252.59 1.367 1.02 2.702 2.096 4.025 3.188.9.743 7.99 2.356 8.885 3.102.198.164-6.025-.204-5.927.225.316.045 1.07-.083 1.533.262 1.074.802 2.123 1.65 3.17 2.498 1.146.93 12.917 6.298 14.095 7.178 2.523 1.882-5.57-.692-3.034 1.168 3.134 2.3 16.787 7.892 19.908 10.212 1.87 1.39-6.805-.466-4.96.965 2.576 1.996 5.163 3.97 7.858 5.747 3.093 2.04 6.636 3.253 9.937 4.932 3.24 1.648 6.448 3.37 9.623 5.16 1.434.805 2.708 1.945 4.135 2.768 2.2 1.276 4.498 2.343 6.686 3.632.95.562 1.673 1.582 2.614 2.173 1.577.995 3.293 1.725 4.86 2.736 1.664 1.07 3.51.66 3.505 2.822 0 1.85-.2 3.74-.678 5.46-1.994 7.145-4.08 14.253-6.23 21.33-.908 2.997-1.837 6.026-3.166 8.778-1.442 2.987-3.174 5.84-5.112 8.444-3.8 5.11-7.632 10.218-11.82 14.93-5.064 5.698-9.998 11.486-14.2 18.007-2.23 3.465-4.43 6.952-6.7 10.386-3.25 4.914-6.12 10.042-7.392 16.195-.234 1.135-1.044 2.077-1.702 3.32-.354 1.222-.654 2.782-1.236 4.18-1.64 3.952-5.31 6.314-6.548 10.607-.07.242-.386.374-.58.568-2.487 2.426-4.946 4.887-7.463 7.274-2.554 2.42-5.018 4.99-7.804 7.07-1.674 1.25-3.883 1.7-5.868 2.468zM186.12 231.836c3.143-1.344 7.183-1.234 10.72-2.026 6.68-1.495 13.118-3.515 18.232-7.477 1.732-1.344 2.94-3.277 4.052-5.12.563-.932.296-2.286.55-3.41.416-1.847.168-3.545-1.318-5.226-6.615-7.49-15.342-10.864-25.21-12.025-9.653-1.136-18.633.107-27.065 3.373-6.076 2.354-11.79 5.164-17.04 8.656-3.77 2.51-7.748 4.793-11.665 7.138-.765.46-10.967 4.044-11.624 4.582-1.817 1.492 5.548-.417 3.772 1.113-1.617 1.394-3.247 2.774-4.948 4.086-2.986 2.302-13.35 6.59-16.44 8.79-1.42 1.013 4.4-.09 3.016.957-3.005 2.27-20.093 8.95-23.116 11.2-3.285 2.44 7.48.434 3.81 2.482-4.638 2.585-20.767 10.4-25.524 12.803-4.42 2.234 4.42.53 3.38 5.07-.352 1.526-.404 3.138-.8 4.65-1.417 5.49-.788 11.127.334 16.827.606 3.08 1.302 6.173 1.568 9.25.825 9.643.093 19.217 1.938 28.91.122.644.828 1.43.63 1.89-.854 2.012-.494 3.397 1.23 4.58-.03.937-.157 1.63-.05 2.32.218 1.384 1.043 2.903.75 4.123-.625 2.586-1.58 5.127-2.804 7.492-2.282 4.397-6.525 7.353-10.604 10.274-5.738 4.102-10.305 8.93-13.162 15.03-.438.933-.386 2.084-.64 3.613-1.818.96-1.448 3.474-1.528 5.706-.07 1.885 1.305 2.65 3.286 2.09 4.325-1.222 5.723-5.013 8.43-7.636 2.43-2.357 4.022-5.43 6.606-7.623 2.94-2.496 6.605-4.326 9.876-6.532 1.196-.805 2.167-1.86 3.238-2.798.28.114.562.232.842.35l-1.858 10.826c.232.104.182 1.216-.25 1.48-.425.262-.754.632-1.127.954.17.172.338.345.504.518.713-.176 1.46-.286 2.13-.535 4.715-1.738 6.96-5.52 8.132-9.497 1.146-3.872.84-8.206 1.16-12.338.254-3.226.428-6.464.762-9.672.105-1.012.903-1.927.9-2.934-.033-4.61 1.525-8.826 3.642-12.6 3.045-5.427 3.51-11.26 3.47-17.334-.02-3.102-.002-6.2-.05-9.303-.062-3.635-.035-7.27-.305-10.914-.266-3.6-1-7.22-1.26-10.818-.208-2.885-1.54-6.172 1.808-8.14 1.064-.627 2.142-1.25 3.287-1.76 7.89-3.532 15.844-6.956 23.66-10.59 2.044-.952 3.66-2.525 5.775-4.028.016 0 .775.132 1.318-.087 3.907-1.587 6.74-4.588 10.915-5.848.45-.137.683-.67 1.082-.953 1.76-1.247 3.358-2.754 5.37-3.622 2.276-.983 9.307-3.96 10.178-4.207 3.766-1.066 7.39-2.458 11.223-3.35 5.452-1.27 11.527-.47 16.814-2.732zM252.218 630.588c-7.824-3.384-16.08-3.71-24.395-3.718-3.557-.005-7.108-.002-11.258-.002 1.88-4.112 3.417-7.538 5.01-10.94 2.34-5 4.987-9.874 7.012-14.998 2.132-5.405 3.807-11.006 5.458-16.59 1.536-5.187 3.686-10.24 2.375-15.982-1.018-4.452-1.266-9.08-1.98-13.606-.187-1.205-1.005-2.3-1.242-3.508-1.136-5.765-2.11-11.563-3.308-17.316-.21-1.007-1.647-5.89-1.827-6.492-.81-2.687-1.746-5.333-2.687-7.977-1.93-5.408-3.798-10.842-5.87-16.196-1.67-4.312-3.636-8.51-5.418-12.783-1.142-2.734-2.072-5.566-3.307-8.256-1.87-4.066-4.232-7.925-5.81-12.093-1.587-4.187-4.69-6.304-8.543-7.353-4.523-1.23-9.1-1.17-13.7.392-4.792 1.624-8.97 7.707-7.038 12.093.917 2.08 1.365 4.395 1.828 6.646 1.878 9.157 5.795 17.475 9.92 25.717.628 1.254 3.545 11.93 4.176 13.185 1.07 2.125-.147-5.175.918-3.047 1.703 3.4 6.078 16.415 7.738 19.836 1.06 2.184-.58-5.236.45-3.04 1.408 3.002 5.445 18.357 6.764 21.403 1.54 3.563.354-5.18 1.896-1.618.128.294.097.672.085 1.008-.04 1.203-.39 2.48-.097 3.586.755 2.86 1.872 5.62 2.683 8.463.488 1.71 1.15 3.58.906 5.255-.743 5.1-1.285 10.363-3.025 15.152-2.478 6.835-3.818 13.883-5.366 20.91-1.01 4.58-.846 9.328-2.057 13.948-1.082 4.126-1.237 8.502-1.79 12.673 2.506 1.47 4.93 1.738 7.262.677 4.116-1.873 8.022-1.79 12.164.083 3.668 1.662 6.826 3.604 8.556 7.476.72 1.613 1.942 2.996 4.665 2.243l-2.498-4.82c1.244.55 2.082 1.452 2.995 2.272 1.263 1.14 2.51 2.33 3.917 3.262.484.318 1.554.124 2.126-.222.29-.176.27-1.294.04-1.832-.573-1.324-1.352-2.558-2.048-3.83 1.825.598 3.358 1.464 4.742 2.53 1.13.872 2.026 2.044 3.134 2.944.428.35 1.163.32 1.757.46.154-.664.556-1.393.41-1.98-.298-1.195-.893-2.317-1.365-3.47 2.717 1.352 4.97 3.813 8.26 2.588l.51-.803c-2.227-1.944-4.456-3.89-6.683-5.837.627-.227 1.08-.157 1.477.026 2.15.992 4.247 2.136 6.46 2.96.786.294 2.087.137 2.703-.372.418-.343.258-1.718.003-2.517-1.12-3.508-3.904-5.214-7.088-6.592zM350.43 633.73c-8.775-2.585-17.627-4.91-26.453-7.328-2.28-.625-3.14-1.893-2.766-4.258.384-2.443.777-4.884 1.17-7.325.218-1.385.24-2.838.692-4.142 1.33-3.86 3.152-7.576 4.192-11.507 1.91-7.21 3.555-14.506 5-21.832.9-4.574 1.95-9.312 1.627-13.882-.345-4.882-2.09-9.692-3.498-14.455-.66-2.24-2.125-4.233-2.927-6.448-2.067-5.725-3.822-11.568-5.97-17.263-2.58-6.83-5.047-13.745-8.272-20.272-4.07-8.234-8.72-16.185-13.35-24.11-2.28-3.886-5.25-7.358-7.67-11.17-2.996-4.717-7.165-7.455-12.554-8.603-5.566-1.187-9.19.606-11.217 5.34-1.81 4.223-1.473 8.557-.43 12.73 1.738 6.974 3.89 13.792 6.824 20.295 1.632 3.618 3.506 7.14 5.686 10.536.932 1.453 4.92 11.91 5.8 13.396 1.54 2.595-.07-3.756 1.42-1.133 1.23 2.168 8.12 19.546 9.336 21.725 2.772 4.97-.147-5.25 2.672-.31 1 1.753 8.374 16.8 9.394 18.54 3.172 5.424.958-3.012 2.855 3.14.337 1.093.743 2.244.714 3.356-.177 7.295-.474 14.59-.71 21.88-.1 2.967-.272 5.94-.16 8.898.058 1.5 1.226 3.098.94 4.45-1.008 4.754-2.274 9.47-3.746 14.102-.91 2.865-2.446 5.524-3.552 8.332-1.564 3.97.35 8.39 4.22 10.223 4.55 2.146 9.174 3.634 14.31 3.908 3.437.183 6.696 1.56 9.02 4.774 1.78 2.463 4.276 4.42 6.578 6.464.313.28 1.404-.143 2.02-.463.342-.178.45-.816.482-.884l4.378 2.833 2.102-3.677c1.33.894 2.107 3.758 4.382 2.406.732-.434.514-2.49.745-3.904.147.073.523.205.834.428 1.85 1.327 3.667 2.692 5.533 3.987.28.195 1.017.236 1.113.077.233-.374.375-.952.258-1.367-.248-.88-.682-1.71-1.04-2.555l.74-.278c.153.266.263.57.47.79.515.544 1.073 1.05 1.614 1.57.225-.775.73-1.6.61-2.317-.182-1.093-.786-2.118-1.228-3.166-2.372-5.647-6.274-9.788-12.187-11.53z'}];var TIGER_HEAD=exports.TIGER_HEAD=[{'color':'#000','path':'M268.803 80.126c-.4.2-.79.42-1.17.64-1.55.9-2.94 1.91-4.06 2.97-.14.13-.27.26-.4.4-.4.4-.75.8-1.05 1.2l-.01.01-.48.64-.01.01-.01-.07-.67.63-.03.03c-.17.16-.37.31-.57.46-.18.14-.36.27-.53.42-.12.1-.23.21-.33.33-.05.05-.09.11-.14.17-.09.12-.17.25-.23.39-.1.23-.2.46-.29.7-.19.46-.36.92-.51 1.38-.04.11-.07.21-.1.32-.08.25-.16.5-.22.76-.36 1.25-.6 2.51-.75 3.77-.35 2.81-.28 5.62-.07 8.36v.02l.12 1.35c.25 2.63.29 5.34.33 7.96.02 1.52.05 3.05.11 4.57.06 1.5.2 3.01.33 4.48l.14 1.56c.09 1.14.19 2.29.29 3.45l.19 2.29.12.71.22-.12.45-.22c.12-.06.25-.12.38-.18 0 0 0-.01.01-.01.66-.34 1.43-.72 2.3-1.14.35-.18.71-.36 1.09-.54l.31-.16-.04-.35c-.15-1.29-.33-2.57-.5-3.86v-.01c-.24-1.76-.48-3.56-.65-5.36-.11-1.07-.18-2.15-.21-3.22-.04-1.45-.06-2.9-.08-4.35v-.01c-.04-2.91-.05-5.82-.05-8.7v-4.29c.01-1.63.01-3.25.01-4.88v-.77c0-.93 0-1.87-.01-2.8 0-.53-.09-1.05-.18-1.54l-.09-.59c0-.02-.01-.05-.01-.07l-.08-.55v-.01l.94-.18c3.52-.68 7.09-1.36 10.58-2.51.65-.22 1.3-.45 1.95-.7.43-.17.86-.34 1.28-.53.43-.19.86-.38 1.28-.59.63-.31 1.26-.64 1.88-1 .42-.24.83-.49 1.24-.75.21-.14.41-.27.61-.41.61-.42 1.22-.86 1.81-1.34l.69-.55-.84-.3c-.85-.3-1.88-.46-3.05-.46-2.67 0-5.8.76-8.75 1.98-.01 0-.01.01-.01.01-.84.35-1.67.73-2.47 1.14-.01 0-.01.01-.01.01zm-19.82-24.35l-1.18.38 1.12.53c2.95 1.42 5.82 1.9 8.41 2.05.37.02.74.03 1.1.04.41.01.81.02 1.2.02.33 0 .66 0 .99-.01.99-.02 1.98-.06 2.94-.1.84-.03 1.68-.06 2.53-.08.49-.01.98 0 1.47 0 .35 0 .71-.01 1.06 0l2.09.06-1.84-.99s-.01 0-.01-.01c-4.03-2.14-7.95-3.18-12.02-3.18-2.56 0-5.2.43-7.86 1.29zm27.49 99.12c-.46.17-.92.38-1.38.63-.45.25-.9.54-1.33.86 0 0-.01 0-.01.01-.39.29-.79.58-1.18.86-.01 0-.01 0-.01.01-2.78 1.99-5.61 3.61-8.94 3.61-.97 0-1.94-.14-2.93-.41-.33-.1-.66-.2-1-.33-.92-.34-1.83-.7-2.7-1.12h-.01c-1.75-.81-3.35-1.81-4.58-3.15-.09-.12-.2-.23-.3-.35-.4-.47-.74-.97-1.04-1.51-.07-.14-.14-.29-.21-.43-.14-.29-.26-.58-.37-.89l-.15-.48c-.24-.81-.39-1.69-.43-2.66-.002-.08-.013-.158-.02-.237-.024-.324-.055-.64-.12-.966-.1-.53-.25-1.08-.42-1.66-.04-.14-.08-.28-.13-.42v-.02c-.17-.56-.35-1.17-.51-1.82v-.01l-.53-2.13-.18.89-.13.61-.13.64v.01c-.05.24-.1.47-.15.7v.04c-.08.35-.15.7-.23 1.04-.07.32-.13.63-.2.93 0 .01 0 .01-.01.02-.1.51-.21.99-.32 1.47-.06.31-.12.62-.19.92-.1.52-.2 1.04-.3 1.55-.02.13-.05.26-.07.39-.07.38-.13.75-.18 1.13-.01.03-.02.07-.02.1-.22 1.46-.1 2.86.29 4.1.05.17.11.33.17.49 0 0 .01 0 0 .01.63 1.59 1.74 2.89 3.24 3.66 5.23 2.71 9.61 3.96 13.79 3.96 2.58 0 5.13-.49 7.58-1.48.59-.23 1.15-.48 1.7-.72 0 0 0-.01.01-.01.54-.26 1.07-.52 1.57-.79.26-.14.51-.29.76-.43 1.36-.79 2.57-1.66 3.66-2.62.3-.27.58-.53.85-.8.37-.36.73-.74 1.07-1.14.35-.4.68-.81 1-1.24l.04-.06.28-.38-.47-.28c-1.35-.8-3.23-.8-5.13-.1z'},{'color':'#000','path':'M294.563 55.966c.06.08.12.16.19.25.27.29.65.57 1.13.78 2.66 1.21 5.33 2.39 8.27 3.7l2.57 1.14.16-.54.01-.01c.07-.25.17-.51.28-.78.12-.32.26-.67.36-1.03l.09-.41c.01-.09.03-.17.03-.25.01-.12.02-.25.01-.37-.1-3.06-1.65-5.2-4.48-6.19-2.84-.99-5.45-.7-7.7.86-.2.14-.37.28-.52.43-.5.5-.73 1.06-.68 1.62.01.1.03.19.05.29.05.17.13.34.23.51zm14.46 64.26l-.5-.15-.12.5v.02c-.11.48-.23.96-.36 1.44v.02c-.12.47-.24.95-.38 1.42v.02c-.13.47-.26.94-.4 1.41-.14.48-.29.96-.43 1.44-.15.46-.29.92-.45 1.38-.15.47-.31.93-.47 1.4v.01c-.32.91-.66 1.82-1 2.73-.18.45-.35.9-.53 1.36-.36.89-.73 1.77-1.11 2.65-2.09 4.82-4.49 9.38-7 13.66-.91 1.55-1.83 3.07-2.76 4.55-.18.28-.36.56-.53.83-.29.46-.58.91-.87 1.36-.47.73-.94 1.45-1.4 2.15-.46.7-.92 1.4-1.39 2.08l-.25.38 1.22.99.32-.38c.14-.17.29-.34.44-.5.34-.39.7-.8 1.01-1.25l2.61-3.75c.56-.8 1.13-1.62 1.7-2.44 2.07-2.98 4.17-6.03 6.18-9.09.57-.87 1.14-1.76 1.68-2.68.45-.77.88-1.57 1.27-2.38.49-.96.92-1.96 1.29-3 .07-.18.13-.37.19-.56.35-1.06.63-2.17.82-3.32.01-.07.02-.15.04-.22.1-.59.22-1.18.36-1.77.14-.65.3-1.3.46-1.95.07-.3.15-.6.22-.89.27-1.04.53-2.09.76-3.13.03-.16.07-.32.09-.49.12-.67.19-1.35.25-2.01.04-.37.07-.73.11-1.09l.05-.39-.39-.13c-.25-.09-.48-.16-.73-.23z'},{'color':'#000','path':'M290.153 126.766l.01-.01c.91-.94 1.81-1.88 2.7-2.84s1.78-1.93 2.66-2.91c.69-.77 1.38-1.54 2.05-2.32 1.03-1.18 2.05-2.38 3.05-3.58.18-.22.34-.45.48-.7.2-.37.36-.76.5-1.17.07-.21.14-.42.2-.62.07-.22.13-.43.19-.65l.21-.72c.07-.24.15-.48.24-.72l.16-.44-1.45-.58-.63.68c-.13.14-.27.28-.4.42l-.39.42c-.01.01-.01.01-.01.02-.58.68-1.16 1.36-1.74 2.05-.03.04-.07.08-.1.12l-1.16 1.37c-.69.82-1.39 1.64-2.13 2.43-.38.41-.76.81-1.15 1.21v.01c-.24.24-.49.48-.75.71 0 .01-.01.01-.01.01-.77.71-1.59 1.39-2.39 2.05-.28.23-.57.47-.86.7-.29.24-.58.49-.87.74-.57.5-1.12 1.01-1.65 1.55-1.07 1.11-2.18 2.4-3.06 4-.19.35-.36.71-.53 1.09-.12.28-.24.58-.34.89-.04.11-.08.22-.11.33-.2.62-.36 1.28-.47 1.99l-.05.37-.15.97 1.02-.88c.21-.18.41-.35.62-.52.61-.51 1.2-1 1.78-1.48 1.63-1.33 3.16-2.58 4.53-3.99z'},{'color':'#000','path':'M282.793 103.966c-.29.67-.56 1.35-.79 2.05l-.41 1.26 1.14-.67c.99-.58 1.94-1.21 2.85-1.9l.01-.01c.9-.69 1.77-1.43 2.58-2.23 2.18-2.12 4.03-4.63 5.53-7.49.38-.71.73-1.45 1.06-2.21l.01-.01.62-1.44-1.34.81c-.8.48-1.56.98-2.28 1.49-.71.5-1.39 1.01-2.03 1.52 0 0 0 .01-.01.01-.64.53-1.24 1.06-1.81 1.61-.28.27-.56.55-.82.82-1.33 1.4-2.44 2.88-3.33 4.46-.36.63-.68 1.27-.98 1.93zm-28.65 36.13c.25-.05.49-.1.73-.15.49-.12.97-.25 1.44-.41 1.89-.62 3.68-1.56 5.41-2.85.86-.65 1.71-1.38 2.54-2.2.21-.2.41-.41.62-.63.51-.54.63-1.34.74-2.12.05-.31.09-.61.16-.89l.04-.14.1-.42-.59-.05c-.31-.02-.64-.09-.98-.16-.86-.18-1.78-.29-2.38.02-1.76.88-3.54 1.99-5.55 3.41-.01 0-.01.01-.01.01-.28.21-.57.42-.87.64-1.16.85-2.28 1.77-3.38 2.69l-.01.01-1.08.93c-.31.26-.62.53-.94.79l-.96.81-.31.25.2.36c.05.09.09.18.14.26.05.1.1.2.15.29l.17.31 1.59-.26c1.01-.15 2.02-.31 3.03-.5z'},{'color':'#000','path':'M232.563 130.526c-.95 0-1.86.14-2.72.4l-.65.21.4.55c.27.37.55.74.83 1.09v.01c.84 1.05 1.69 1.99 2.57 2.84 3.54 3.39 7.49 5.18 12.17 5.57l.74.06-.23-.7c-.46-1.41-1.16-2.73-2.04-3.94.01-.01.01-.01 0-.01-.22-.3-.45-.59-.69-.87-.12-.15-.25-.29-.37-.43-2.66-2.89-6.39-4.78-10.01-4.78zm10.02-60.86c.02-.28.04-.56.05-.83l.02-.35v-.01l-.34-.13c-.59-.22-1.18-.38-1.77-.5 0-.01-.01 0-.01 0-1.99-.36-4.03-.11-6.06.76l-1.86.79 9.93.76.04-.49zm-13.06 15.28c-.86 0-1.65.22-2.3.64l-.66.43.68.41c1.07.64 1.93 1.43 2.59 2.39.01.01 0 .01 0 .01.23.32.42.66.6 1.02.09.18.18.37.25.57.09.19.16.39.22.59.08.21.14.41.19.62.12.42.21.86.28 1.32v.01c.08.47.13.96.16 1.46v.01c.02.26.03.52.04.78.06 2.66.12 5.3.09 7.92v.04c-.02 2.6-.12 5.19-.36 7.78-.23 2.54-.63 5.07-1.11 7.44-.45 2.36-.98 4.57-1.45 6.48l-.18.71c-.24.97-.42 1.65-.42 2.16 0 .16.02.31.06.44v.01c.05.13.11.24.19.35.44.6 1.29.62 3.17.68l.17.01c.48.01.96.05 1.57.11.34.03.73.06 1.18.1l.53.04v-.53c0-.78-.01-1.53-.03-2.28v-.01c-.02-1.15-.04-2.26-.01-3.35.01-.4.04-.8.07-1.19.27-3.19.58-6.38.89-9.58.46-4.72.93-9.61 1.27-14.42.15-2.23-.04-4.29-.57-6.17-.02-.1-.05-.2-.08-.29-.45-1.45-1.1-2.79-1.95-4.01-1.13-1.62-3.17-2.7-5.08-2.7z'},{'color':'#e55a1e','path':'M331.843 169.236c-1.31-4.72-2.76-9.4-4.17-14.1-.62-2.05-.51-3.55 2.13-4.04.93-.17 2.53-.84 1.81-2.52-1.58-3.66-3.32-7.26-4.86-10.94-1.36-3.24-2.61-6.53-3.79-9.84-.87-2.47-.27-3.26 2.37-3.47.62-.06 1.24-.14 2.31-.25-1.24-1.78-2.21-3.18-3.08-4.42-2.31-6.28-4.9-12.32-8.96-17.6 1.59-.46 2.98-.71 4.2-1.3.45-.21.9-1.44.68-1.84-3.16-5.83-6.43-11.59-9.7-17.36-.21-.36-.74-.52-1.02-.86-2.5-2.92-4.17-6.24-5.1-10.15 1.91-.47 3.63-.72 5.23-1.3 7.14-2.6 10.32-5.7 10.92-12.82.39-4.69-1.52-8.61-5.14-11.62-1.38-1.14-2.87-2.14-4.33-3.16-4.49-3.13-9.29-5.32-14.91-3.8-4.11 1.1-7.95 2.7-9.47 7.32-.57 1.75-1.44 3.41-2.21 5.21-2.8-1.34-5.36-3.04-8.18-3.84-9.14-2.58-18-6.32-27.72-6.55-6.05-.14-12.09-.68-18.14-.81-1.66-.04-3.33.72-5.36 1.21.05 0-.45-.47-.85-.4-11.14 1.9-22.57 2.92-31.83 10-1.51-1.98-3-3.99-4.56-5.95-4.47-5.63-11.56-7.08-17.89-3.53-4.61 2.59-8.06 6.24-10.05 11.28-1 2.53-.77 4.61.32 7.05 1.95 4.38 5.45 6.93 9.46 8.98 2.09 1.07 4.34 1.82 7 2.92-8.56 13.1-17.07 26.11-25.58 39.13 1.45 2.49 3.59.24 5.41.86-3.4 7.52-6.79 15-10.18 22.48.18.22.37.44.55.66 1.72-.37 3.44-.75 5.53-1.2-1.05 3.05-1.56 6.02-2.98 8.78-1.12 2.17-1.75 4.59-2.64 6.89-.59 1.52-1.33 2.98-1.85 4.53-.77 2.25.05 3.12 2.35 2.66 1.2-.25 2.42-.42 4.33-.75-2.54 8.31-4.9 16.05-7.32 23.98 1.32.38 2.4.81 3.51.97 1.03.14 2.09-.04 3.14-.03 6.96.03 13.9.6 20.61 2.43 3.01.82 6.03 2.4 8.4 4.41 1.64 1.38 2.87 1.51 4.53 1 2.87-.88 5.7-1.83 8.42-2.71-.02.03-.22.33-.47.7 3.52 0 6.88-.12 10.22.05 2.17.12 4.53.24 6.43 1.14 2.86 1.37 5.37 3.45 8.1 5.14.28.17 1.01-.25 1.47-.51 1.45-.83 2.79-2.21 4.34-2.48 3.51-.62 7.12-.68 10.69-1.02.78-.08 2.08-.75 2.23-.53 1.34 1.99 3.43.94 5.09 1.47 3.19 1.02 6.8.63 9.57 3.13.84.77 2.09.95 3.45-.09 2.31-1.77 4.67-3.48 7.83-3.89 7.05-.92 14-2.53 21.2-1.08 1.99.4 4.4 1.66 6.19-.86 1.01-1.42 2.67-1.73 4.27-2.23 5.45-1.7 10.99-2 16.63-1.69.78.05 1.57-.19 2.36-.3.01-.19.01-.38.01-.57-.53-.23-1.07-.46-2.2-.95 2.52-1.94 4.45-4.16 6.87-5.11 4.37-1.7 9.05-2.59 13.55-3.96.45-.14.98-1.39.83-1.95zm-36.88-115.69c.14-.15.32-.3.52-.44 2.25-1.56 4.87-1.85 7.7-.86 2.84.98 4.39 3.12 4.49 6.18 0 .13 0 .26-.02.39 0 .08-.02.16-.03.25l-.09.41c-.1.36-.24.71-.36 1.03-.11.27-.21.53-.28.78l-.16.55h-.01v.01l-2.57-1.14c-2.95-1.31-5.62-2.49-8.27-3.69-.48-.21-.86-.49-1.13-.8-.07-.09-.13-.17-.19-.25-.11-.16-.18-.33-.23-.51-.02-.1-.04-.19-.05-.29-.05-.56.18-1.12.68-1.62zm-7.86 44.03c.26-.27.54-.55.82-.82.57-.55 1.17-1.09 1.81-1.61.01 0 .01-.01.01-.01.64-.52 1.32-1.03 2.03-1.52.72-.51 1.48-1.01 2.28-1.49l1.34-.81-.62 1.44-.01.01c-.33.76-.68 1.5-1.06 2.21-1.5 2.86-3.35 5.37-5.53 7.49-.8.8-1.67 1.54-2.58 2.23l-.01.01c-.9.69-1.85 1.32-2.85 1.9l-1.14.67.41-1.26c.23-.7.5-1.38.79-2.05.29-.66.62-1.3.98-1.93.89-1.58 2-3.06 3.33-4.46zm-15.81-18.61c2.96-1.23 6.09-1.99 8.76-1.99 1.17 0 2.19.15 3.05.46l.84.3-.01.01-.69.56c-.59.48-1.2.92-1.81 1.33-.2.14-.4.27-.61.41-.41.26-.82.51-1.24.75-.62.36-1.25.69-1.88 1-.42.21-.85.4-1.28.59-.42.19-.85.36-1.28.53-.65.25-1.3.48-1.95.7-3.49 1.16-7.07 1.84-10.58 2.52l-.94.18.08.55c0 .02.01.05.01.07.03.19.06.38.1.57.09.5.18 1.02.18 1.55v8.45c-.01 1.42-.01 2.86-.01 4.3 0 2.88.01 5.79.05 8.7v.01c.02 1.45.05 2.89.09 4.34.03 1.07.1 2.15.2 3.23.17 1.8.41 3.6.65 5.36v.01c.18 1.29.36 2.57.5 3.86l.04.35v.02l-.31.14c-.38.18-.74.36-1.09.54-.86.42-1.63.81-2.3 1.14-.01 0-.01.01-.01.01-.13.07-.26.14-.39.2l-.44.22-.22.11v-.01l-.13-.7-.19-2.29c-.1-1.16-.2-2.3-.29-3.45l-.14-1.56c-.13-1.46-.27-2.98-.33-4.48-.06-1.52-.08-3.05-.11-4.57-.04-2.62-.08-5.33-.33-7.96-.04-.45-.08-.91-.11-1.36v-.02c-.21-2.74-.28-5.55.07-8.36.15-1.26.39-2.52.75-3.77.06-.26.14-.51.22-.76.03-.11.06-.21.1-.32.15-.46.32-.92.51-1.38.09-.24.19-.47.29-.7.06-.14.14-.27.23-.39.05-.06.09-.12.14-.17.1-.12.21-.23.33-.33.17-.16.36-.3.54-.44.2-.15.39-.3.57-.46l.02-.01.67-.63.01-.01.01.07.48-.64.01-.01c.3-.4.65-.8 1.05-1.2.13-.14.26-.27.4-.4 1.12-1.06 2.51-2.07 4.06-2.97.38-.22.77-.44 1.17-.64 0 0 0-.01.01-.01.8-.42 1.62-.8 2.47-1.14 0 0 0-.01.01-.01zm-21.94 61.58c-.06-.09-.11-.18-.16-.27-.04-.09-.09-.18-.13-.26l-.21-.37.01-.01.32-.27c.31-.26.63-.52.95-.79.31-.27.62-.53.94-.8.36-.3.72-.61 1.08-.92l.01-.01c1.09-.92 2.22-1.84 3.38-2.7.29-.22.58-.43.87-.63 0 0 0-.01.01-.01 2.01-1.44 3.79-2.54 5.55-3.43.6-.31 1.53-.19 2.39-.01.33.06.67.13.98.16l.59.05-.11.43-.04.14c-.07.28-.11.58-.16.89-.11.78-.23 1.58-.74 2.12-.21.22-.41.43-.62.63-.82.82-1.67 1.55-2.54 2.2-1.73 1.29-3.52 2.23-5.41 2.85-.47.16-.95.29-1.44.41-.24.06-.48.11-.73.16-1.01.19-2.02.35-3.04.51l-1.58.25v-.01l-.17-.31zm-.37-84.79c2.66-.85 5.31-1.28 7.87-1.28 4.06 0 7.99 1.04 12.01 3.19h.01l1.89 1h-.05l.04.02-2.13-.07c-.35-.01-.71 0-1.07 0-.49 0-.97-.01-1.46 0-.85.02-1.7.05-2.53.09-.97.04-1.95.07-2.94.08-.33.02-.66.02-.99.02-.39 0-.8 0-1.21-.02-.36-.01-.72-.02-1.09-.05-2.59-.14-5.46-.61-8.41-2.04l-1.12-.54-.01-.01 1.19-.39zm-5.35 80.85c.01 0 .01 0 0 .01.89 1.19 1.59 2.52 2.04 3.92v.02l.23.7v.01l-.75-.06c-4.68-.38-8.64-2.18-12.16-5.58-.89-.85-1.74-1.79-2.57-2.84v-.01c-.29-.34-.56-.7-.83-1.07l-.41-.57v-.01l.67-.21c.85-.27 1.76-.4 2.71-.4 3.63 0 7.36 1.89 10.01 4.79.12.14.25.28.37.43.24.28.47.57.69.87zm-11.04-67.21l1.88-.8c2.03-.87 4.07-1.12 6.06-.75 0 0 .01-.01.01 0 .59.1 1.19.27 1.77.49l.34.13v.02l-.01.34c-.01.26-.03.55-.05.83l-.04.5h-.01v.01l-9.95-.76.02-.01h-.02zm2.02 18.24c.85 1.22 1.5 2.56 1.94 4.02.03.09.06.19.08.29.54 1.87.73 3.93.58 6.15-.34 4.82-.81 9.71-1.27 14.43-.31 3.19-.62 6.39-.89 9.58-.03.4-.06.8-.08 1.2-.03 1.09-.01 2.2.01 3.35v.01c.02.74.04 1.49.04 2.27v.54h-.01v.01l-.54-.04c-.45-.04-.83-.07-1.17-.1-.62-.05-1.09-.1-1.57-.11h-.18c-1.87-.06-2.72-.09-3.17-.68-.09-.11-.15-.24-.18-.37v-.01c-.04-.13-.06-.28-.06-.44 0-.51.18-1.19.42-2.16l.18-.71c.47-1.91 1-4.12 1.45-6.48.47-2.37.87-4.9 1.1-7.42.24-2.6.34-5.19.37-7.8v-.04c.02-2.62-.03-5.24-.1-7.91l-.03-.79v-.01c-.03-.5-.08-.99-.16-1.46v-.01c-.07-.46-.16-.9-.28-1.32-.05-.21-.11-.41-.19-.62-.06-.2-.13-.4-.22-.59-.07-.2-.16-.39-.25-.57-.18-.36-.38-.7-.6-1.02 0 0 .01 0 0-.01-.67-.96-1.53-1.74-2.59-2.38l-.69-.41.01-.01.66-.44c.65-.42 1.45-.65 2.31-.65 1.9 0 3.94 1.09 5.08 2.71zm-27.63-27.03v-.01l.2-.2v-.01c.1-.1.2-.21.31-.3 3.37-3.2 11.52-5.55 16.86-5.55 2.1 0 3.74.34 4.85.99l1.05.61h-.02l.01.01-3.89 1.01c-1.61.42-3.21.83-4.79 1.24-4.62 1.19-9.14 2.36-13.66 3.54l-.45.11v-.01l-.48-1.42.01-.01zm-6.71 17.87h.01l.97-.5c.84-.42 1.99-.63 3.41-.63.96 0 2.03.1 3.17.3.95.15 1.94.37 2.93.65.6.16 1.2.34 1.79.54 1.39.45 2.74 1 3.97 1.62.35.17.69.35 1.01.54.01-.01.01 0 .01 0 .33.18.64.37.94.57 0 0 0-.01.01 0 .29.19.57.38.84.59h.01c.41.3.77.62 1.08.93.22.21.4.42.57.63v.01l.64.8h-.02l.01.01h-10.19l.01-.01.91-.86c.02-.02.05-.05.08-.07l.1-.1c-2.1-.86-4.18-1.71-6.34-2.59l-5.93-2.42.01-.01zm-23.68-16.65c-.09.01-.17.01-.26.01-.84 0-1.57-.4-2.05-1.11.01-.01 0-.01 0-.01-.07-.1-.13-.2-.19-.31-.07-.14-.13-.27-.18-.42-.46-1.26-.23-2.81.62-4.01.28-.39.62-.76 1.01-1.11.51-.45 1.1-.86 1.74-1.2.5-.29 1.04-.53 1.6-.73 1.06-.38 2.19-.6 3.26-.6 1.1 0 2.09.22 2.94.67.65.33 1.29.69 1.99 1.08.3.17.61.34.94.53l1.54.87.53.29-.01.01-.44.46c-.01.01-.03.03-.03.04-.35.37-.67.76-.99 1.15-.08.11-.17.22-.26.33-.09.11-.17.22-.26.33-.26.31-.53.59-.81.82-.07.06-.15.12-.23.18-.14.1-.29.19-.45.26-.08.04-.17.07-.25.1l-.01.01c-.45.15-.91.3-1.38.46-1.42.47-2.95.92-4.53 1.27-1.25.29-2.55.51-3.84.63zm12.94 100.75l-1.41.77v-.01l-.26-.33c-.57-.74-1.14-1.49-1.71-2.23-.77-.99-1.54-2.01-2.33-3.01-.26-.33-.53-.67-.8-1-.86-1.05-1.57-2.15-2.18-3.32-.99-1.87-1.7-3.9-2.3-6.14.01-.01.01-.01 0-.01-.132-.502-.26-1.023-.386-1.55-.087-.356-.18-.695-.264-1.06-.31-1.38-.61-2.78-.9-4.18-.44-2.1-.85-4.2-1.25-6.3-.25-1.34-.5-2.67-.75-4-.15-.75-.28-1.5-.42-2.24v-.01c-.39-2.11-.79-4.21-1.19-6.31-.01-.08-.03-.16-.03-.24 0-.1-.01-.2-.01-.3 0-.11.01-.21.01-.31.01-.1.01-.21.01-.31v-.41h.01v-.01l.4-.08c.13-.03.27-.05.41-.08l.81-.16.63 2.87c.46 2.06.92 4.13 1.41 6.18v.01l.24.97c.2.82.4 1.65.62 2.48v.01c.23.82.48 1.64.77 2.43.25.67.49 1.34.74 2.01v.01c1.49 4 3.02 7.94 4.55 11.77.26.63.51 1.27.77 1.9v.01c.07.18.16.35.25.53.27.52.62 1.03.98 1.55.18.27.37.55.55.83.18.28.35.57.51.87v.01c.05.08.08.16.1.25.11.33.1.69.09 1.01v.01c-.01.28-.01.54.05.74.47 1.43 1 2.87 1.52 4.27.2.57.41 1.13.62 1.7l.14.4v.01zm7.93-29.85c-.01.08-.03.17-.05.26-.02.09-.04.2-.06.3 0 .01 0 .01-.01.02-.06.3-.14.65-.2 1.06l-.05.37-.15 1.02-.01-.01v.02l-.72-1.2c-.4-.66-.79-1.31-1.18-1.96-.39-.65-.79-1.29-1.19-1.93-.4-.63-.8-1.26-1.19-1.89-.49-.79-.98-1.57-1.46-2.34-.47-.78-.95-1.56-1.42-2.33-.94-1.53-1.84-3.06-2.68-4.61-.28-.52-.56-1.03-.82-1.55v-.01c-.28-.52-.54-1.04-.8-1.57-.64-1.32-1.22-2.61-1.76-3.9-.71-1.72-1.34-3.41-1.88-5.07-.27-.83-.52-1.66-.74-2.48v-.01c-.34-1.24-.63-2.46-.87-3.68-.32-1.64-.56-3.26-.71-4.88l-.24-2.44.01.02v-.03l1.17 2.16c1.26 2.33 2.52 4.64 3.78 6.94 3.33 6.11 6.78 12.41 9.95 18.68.15.29.29.58.42.88v.01c.67 1.48 1.16 3.04 1.6 4.6.18.62.35 1.25.51 1.87l.36 1.34c.13.44.25.87.38 1.31.1.33.07.66.01 1.03zm5.07-24.09c-1.12-1.06-2.24-2.16-3.34-3.31 0 0 .01-.01 0-.01-.74-.76-1.45-1.55-2.15-2.36-1.05-1.23-2.06-2.52-3.02-3.9-.05-.05-.08-.1-.12-.15-.37-.54-.73-1.1-1.07-1.67v-.01c-.19-.31-.38-.62-.56-.94-1.12-1.91-2.1-3.97-2.88-6.23-.13-.37-.26-.75-.38-1.14l-.52-1.62v-.01l1.32 1.09c1.29 1.08 2.47 2.21 3.55 3.38.37.39.72.78 1.05 1.18 1.03 1.19 1.96 2.4 2.81 3.64.57.83 1.11 1.67 1.61 2.52.52.84.99 1.69 1.45 2.54v.01c.46.85.89 1.7 1.3 2.56 0 0 .01 0 0 .01.63 1.28 1.21 2.56 1.76 3.84l.95 2.22.01.03-1.77-1.67zm43.26 40.75c-.06.49-.13 1-.22 1.49-.01.13-.03.25-.06.37-.11.61-.25 1.21-.46 1.78-.05.16-.11.32-.18.48l-.33.75c-.98 2.28-1.98 4.62-4.08 6.24-.35.27-.73.52-1.14.73l-.01.01c-.41.23-.86.43-1.35.6-1.77.63-3.61 1.01-5.58 1.16-.65.05-1.32.08-2.01.08-3.14 0-6.27-.53-9.47-1.11-4.63-.83-8.73-3.18-12.82-7.38-.27-.28-.55-.56-.82-.86-.12-.13-.22-.26-.32-.41-.56-.87-.71-2.1-.79-3.27-.01-.2-.03-.4-.04-.59l-.04-.52c-.01-.09.01-.19.04-.28.07-.23.22-.45.42-.65v-.01c.48-.49 1.22-.89 1.68-.96.08-.01.16-.01.24-.02.14-.01.27-.03.4-.03 1.09-.01 2.04.45 2.81 1.35.01 0 .01 0 0 .01.26.29.49.63.7 1.01 2.2 4.06 6.26 5.71 10.22 7.05 1.42.47 3.04.75 4.79.82 1.17.05 2.49.11 3.74.11h.28c.29 0 .58-.05.88-.15.09-.03.19-.06.29-.1.2-.07.4-.16.6-.24.21-.1.42-.21.63-.31.29-.14.59-.29.89-.41l.01-.01c.3-.13.62-.25.93-.34 1.17-.33 2.14-.82 2.97-1.41 0-.01 0-.01.01-.01.41-.3.79-.63 1.13-.99.57-.59 1.06-1.26 1.46-1.97.17-.28.32-.56.45-.86.36-.73.66-1.51.91-2.3.16-.48.3-.97.43-1.45.1-.37.17-.75.24-1.15.01-.04.01-.08.02-.12.06-.35.11-.7.2-1.04.05-.27.13-.54.23-.81l.01-.01c.05-.13.12-.25.19-.35.08-.12.17-.22.26-.31.08-.1.18-.18.27-.26l.02-.02c.1-.08.19-.16.29-.24l.01-.01c.08-.07.16-.14.24-.2.07-.07.15-.14.21-.2l.29-.28v-.01l.34.22c.15.1.3.19.44.28l.46.28v.02l-.04.3c-.02.14-.03.28-.05.42-.05.38-.1.75-.14 1.13-.14 1.09-.27 2.17-.44 3.26-.01.08-.03.17-.04.25-.05.27-.08.55-.12.82-.03.21-.05.42-.08.63zm36.29 5.9l-.29.37-.04.06c-.32.43-.65.84-1 1.24-.34.4-.7.78-1.07 1.14-.27.27-.55.53-.85.8-1.09.97-2.3 1.84-3.66 2.62-.25.14-.5.29-.76.43-.5.27-1.03.53-1.57.79-.01 0-.01.01-.01.01-.55.26-1.11.5-1.7.74-2.45.98-5 1.48-7.58 1.48-2.09 0-4.23-.32-6.51-.97-2.27-.65-4.67-1.64-7.29-2.99-1.49-.78-2.6-2.08-3.23-3.68.01-.01 0-.01 0-.01-.06-.16-.12-.32-.17-.49-.39-1.24-.51-2.64-.29-4.1 0-.03.01-.07.02-.1.05-.38.11-.75.18-1.13.02-.13.05-.26.07-.39.1-.51.2-1.03.3-1.55.07-.3.13-.61.19-.92.11-.48.22-.96.32-1.47.01-.01.01-.01.01-.02.07-.3.13-.61.2-.93.08-.34.15-.69.23-1.04v-.04c.05-.23.09-.46.14-.69l.01-.02.13-.64.13-.61.18-.89.53 2.13v.01c.17.66.35 1.26.51 1.82v.02c.05.14.09.28.13.42.17.58.32 1.13.42 1.66.065.323.096.642.12.963.007.073.026.15.03.224.04.98.18 1.86.42 2.67l.15.48c.11.31.23.6.37.89.07.14.14.29.21.43.31.54.65 1.04 1.04 1.51.1.12.21.23.3.35 1.24 1.33 2.84 2.32 4.58 3.15h.01c.87.41 1.78.77 2.71 1.11.34.12.67.23 1 .32.99.28 1.95.41 2.92.41 3.32 0 6.16-1.61 8.94-3.59 0-.01 0-.01.01-.01.39-.28.79-.57 1.18-.86 0-.01.01-.01.01-.01.43-.33.88-.61 1.33-.86.46-.25.92-.46 1.38-.63 1.9-.71 3.78-.71 5.13.09l.48.28-.01.01.01.01zm3.54-24.51c-.58.47-1.18.96-1.78 1.46l-.62.53-1.02.87-.01.01.16-.98.05-.37c.11-.71.27-1.37.47-1.99.03-.11.07-.22.11-.33.1-.31.22-.61.34-.89.17-.38.34-.74.53-1.09.88-1.6 1.99-2.89 3.06-4 .52-.54 1.08-1.05 1.65-1.55.29-.25.58-.5.87-.74l.87-.72c.79-.65 1.61-1.32 2.38-2.03 0 0 .01 0 .01-.01.26-.23.51-.48.75-.72.39-.4.77-.8 1.15-1.21.73-.8 1.44-1.61 2.13-2.43l1.16-1.37c.03-.04.07-.08.1-.12.58-.69 1.16-1.37 1.74-2.05 0-.01 0-.01.01-.02l.39-.42c.13-.15.27-.29.4-.44l.63-.66v-.01l1.46.57-.01.02-.16.44c-.09.24-.17.48-.24.72l-.21.72c-.06.22-.12.43-.19.65-.06.2-.13.41-.2.62-.14.41-.3.8-.5 1.17-.14.25-.3.48-.48.7-1 1.2-2.02 2.4-3.05 3.58-.67.78-1.36 1.55-2.05 2.32-.88.98-1.77 1.95-2.66 2.91s-1.79 1.9-2.7 2.84l-.01.01c-1.36 1.42-2.9 2.67-4.53 4.01zm24.52-10.19l-.05.39c-.04.36-.07.72-.11 1.09-.06.66-.13 1.34-.25 2.01-.02.16-.05.31-.08.47 0 .01 0 .01-.01.02-.22 1.04-.49 2.09-.75 3.12-.08.3-.15.6-.23.9-.16.65-.32 1.3-.46 1.95-.14.59-.26 1.18-.36 1.77-.02.07-.03.15-.04.22-.19 1.15-.47 2.26-.82 3.32-.06.19-.12.38-.19.56-.37 1.04-.8 2.04-1.29 3-.39.82-.82 1.61-1.27 2.38-.54.92-1.11 1.81-1.68 2.68-2.01 3.06-4.11 6.11-6.18 9.09-.57.82-1.14 1.64-1.7 2.44l-2.61 3.75c-.31.45-.67.86-1.01 1.25-.15.16-.3.33-.44.5l-.32.38v.01l-1.23-.99.01-.01.25-.38c.47-.68.93-1.38 1.39-2.08.46-.7.93-1.42 1.4-2.15.29-.45.58-.9.87-1.36.17-.27.35-.55.53-.83.92-1.48 1.85-3 2.76-4.55 2.51-4.28 4.91-8.84 7-13.66.38-.88.75-1.76 1.11-2.65.18-.46.35-.91.53-1.36.34-.91.68-1.82 1-2.73v-.01c.16-.47.32-.93.47-1.4.16-.46.3-.92.45-1.38.14-.48.29-.96.43-1.44.14-.47.27-.94.4-1.41v-.02c.14-.47.26-.95.38-1.42v-.02c.13-.48.25-.96.36-1.44v-.02l.12-.5v-.01l.51.15c.24.07.48.14.73.22l.38.13v.02z'},{'color':'#000','path':'M246.033 147.686c.16-1.08.3-2.17.43-3.25l.15-1.14c.02-.14.03-.28.05-.42l.04-.3-.46-.29c-.15-.09-.3-.18-.44-.27l-.34-.23-.29.29c-.07.07-.14.13-.21.19-.08.06-.16.13-.24.2l-.01.01c-.1.08-.19.16-.29.24l-.02.02c-.09.08-.19.16-.27.26-.09.09-.18.19-.26.31-.07.1-.14.22-.19.35-.1.27-.18.54-.24.82-.09.34-.14.69-.2 1.04-.01.04-.01.08-.02.12-.06.4-.13.77-.23 1.14-.13.49-.28.98-.44 1.46-.25.79-.55 1.57-.91 2.3-.13.3-.28.58-.45.86-.4.71-.89 1.38-1.46 1.97-.33.36-.71.69-1.13.99-.01 0-.01 0-.01.01-.82.6-1.8 1.09-2.97 1.42-.32.09-.63.21-.93.33l-.01.01c-.3.12-.6.27-.89.41-.21.1-.42.21-.63.31-.2.08-.4.17-.6.24-.1.04-.2.07-.29.1-.3.1-.59.16-.88.16h-.29c-1.24 0-2.57-.06-3.74-.11-1.75-.07-3.36-.35-4.79-.82-3.96-1.34-8.01-2.98-10.22-7.05-.21-.39-.44-.73-.69-1.02.01-.01.01-.01 0-.01-.78-.89-1.73-1.35-2.82-1.34-.13 0-.26.02-.39.04-.08 0-.16 0-.24.02-.46.07-1.2.46-1.68.95-.2.2-.35.42-.42.65-.02.08-.04.17-.03.26l.03.54c.01.19.03.39.04.59.09 1.17.24 2.39.79 3.27.1.15.2.28.32.41.27.3.55.58.82.86 4.1 4.19 8.21 6.54 12.83 7.37 3.2.58 6.32 1.1 9.46 1.1.69 0 1.36-.02 2.02-.07 1.97-.15 3.81-.54 5.57-1.16.49-.17.94-.37 1.35-.59l.01-.01c.41-.23.79-.47 1.14-.73 2.1-1.62 3.1-3.96 4.08-6.24l.33-.75c.07-.16.13-.32.18-.48.21-.58.35-1.17.46-1.78.03-.12.05-.24.06-.37.08-.49.15-.99.21-1.48l.09-.64c.04-.27.07-.55.12-.82.01-.08.03-.17.04-.25zm-38.13-85.77l13.67-3.54c1.58-.41 3.17-.82 4.78-1.23l3.88-1.01-1.04-.6c-1.11-.65-2.74-.98-4.85-.98-5.33 0-13.48 2.35-16.85 5.53-.11.1-.21.21-.31.31l-.2.2v.01l.47 1.43.45-.12zm4.64 21.57l-.01.01-.1.1c-.03.03-.06.05-.08.08l-.91.85h10.17l-.62-.8v-.01c-.17-.21-.35-.42-.57-.63-.32-.31-.68-.62-1.08-.93h-.01c-.27-.21-.55-.4-.84-.59-.01-.01-.01 0-.01 0-.3-.2-.61-.39-.94-.57 0 0 0-.01-.01 0-.32-.19-.66-.37-1.01-.54-1.23-.61-2.59-1.16-3.97-1.62-.59-.2-1.19-.38-1.79-.54-.99-.28-1.98-.5-2.93-.65-1.14-.19-2.21-.29-3.17-.29-1.43 0-2.57.21-3.41.63l-.97.49 5.92 2.42c2.15.88 4.25 1.73 6.34 2.59zm-15.1 48.22c-.13-.44-.25-.88-.37-1.32l-.36-1.34c-.16-.62-.33-1.25-.51-1.87-.45-1.56-.94-3.12-1.6-4.6v-.01c-.14-.29-.28-.58-.42-.86-3.18-6.27-6.62-12.58-9.96-18.68-1.25-2.31-2.52-4.62-3.78-6.95l-1.16-2.14.23 2.42c.15 1.62.39 3.24.71 4.88.24 1.22.53 2.44.87 3.68v.01c.22.82.47 1.65.74 2.48.54 1.66 1.17 3.35 1.88 5.07.54 1.28 1.13 2.58 1.77 3.89.25.53.52 1.06.79 1.58v.01c.27.51.55 1.03.83 1.54.85 1.55 1.74 3.08 2.67 4.62.47.77.95 1.55 1.42 2.33.49.77.98 1.55 1.47 2.33.39.62.79 1.26 1.18 1.9.4.64.8 1.28 1.19 1.93.4.64.8 1.29 1.19 1.95l.71 1.19.16-1.01.05-.37c.06-.41.14-.76.2-1.06.01-.01.01-.01.01-.02.02-.1.04-.21.06-.3.02-.09.04-.18.05-.26.06-.37.07-.7-.02-1.02zm5.09-23.09l1.76 1.66-.96-2.21c-.55-1.28-1.13-2.56-1.75-3.85.01-.01 0-.01 0-.01-.41-.86-.84-1.71-1.3-2.56v-.01c-.46-.85-.94-1.7-1.45-2.54-.5-.85-1.04-1.69-1.61-2.52-.87-1.24-1.79-2.45-2.81-3.64-.33-.4-.68-.79-1.05-1.18-1.09-1.16-2.27-2.28-3.56-3.36l-1.31-1.1.52 1.62c.12.39.25.77.38 1.14.8 2.26 1.77 4.32 2.88 6.23.18.32.37.63.56.94v.01c.35.57.71 1.11 1.08 1.66.04.05.08.1.11.16.96 1.38 1.97 2.67 3.02 3.9.7.81 1.41 1.6 2.15 2.36.01 0 0 .01 0 .01 1.11 1.14 2.22 2.24 3.34 3.29zm-26.19-46.79c.08 0 .17-.01.25-.01 1.3-.12 2.59-.35 3.85-.63 1.57-.35 3.1-.8 4.52-1.26.47-.16.93-.31 1.38-.46l.01-.01c.08-.03.17-.06.25-.1.16-.07.31-.16.45-.26.08-.06.16-.12.23-.18.29-.24.55-.53.81-.84.09-.1.18-.21.26-.31.09-.11.18-.22.26-.33.31-.39.63-.79.99-1.15 0-.01.02-.03.03-.04l.44-.46-.52-.3-1.54-.86c-.33-.18-.64-.36-.95-.53-.7-.39-1.34-.74-1.99-1.08-.84-.44-1.83-.67-2.94-.67-1.06 0-2.18.22-3.25.59-.56.2-1.1.44-1.6.73-.64.35-1.23.76-1.74 1.2-.39.35-.73.72-1.01 1.11-.85 1.2-1.08 2.75-.62 4.01.05.14.11.27.18.4.06.12.12.22.19.33 0 0 .01 0 0 .01.49.71 1.22 1.1 2.06 1.1zm12.42 98.65c-.51-1.39-1.04-2.83-1.51-4.26v-.02c-.07-.2-.06-.46-.05-.74v-.01c.01-.32.02-.68-.09-1.01-.02-.09-.05-.17-.1-.25v-.01c-.16-.3-.33-.59-.51-.87s-.37-.55-.56-.82c-.36-.52-.7-1.02-.98-1.55-.09-.18-.17-.35-.24-.54v-.01c-.26-.63-.51-1.27-.77-1.9-1.54-3.82-3.06-7.77-4.55-11.77v-.01c-.26-.67-.5-1.33-.75-2-.29-.79-.54-1.61-.76-2.44v-.01c-.23-.82-.43-1.65-.63-2.47l-.23-.98v-.01c-.49-2.05-.95-4.12-1.41-6.18l-.64-2.85-.81.15c-.14.03-.27.05-.41.08l-.39.08v.4c0 .1-.01.2-.01.31-.01.1-.02.21-.02.32 0 .1.01.2.01.3.01.07.03.15.04.22.4 2.11.79 4.22 1.18 6.33v.01c.14.74.27 1.49.42 2.24.25 1.33.5 2.66.75 4 .41 2.09.82 4.19 1.26 6.29.29 1.4.59 2.79.9 4.18.084.36.17.716.254 1.07.126.527.254 1.047.386 1.55.01 0 .01 0 0 .01.61 2.24 1.32 4.27 2.3 6.14.61 1.17 1.32 2.27 2.18 3.32.27.33.54.67.8 1 .79 1 1.56 2.02 2.33 3.01.57.74 1.14 1.49 1.71 2.23l.26.33 1.41-.77-.15-.39c-.2-.57-.41-1.13-.62-1.7z'}];var TIGER_BODY=exports.TIGER_BODY=[{'color':'#e55a1e','path':'M340.8 238.992c-.46-8.38-1.5-16.53-4.63-24.36-1.74-4.32-3.65-8.55-6.57-12.11-2.96-3.64-6.14-7.17-9.65-10.22-2.69-2.34-5.85-4.52-9.17-5.64-4.83-1.62-9.97-2.41-15.03-3.21-6.65-1.05-13.36-1.78-20.05-2.62-1.88-.23-3.79-.23-5.63-.65-1.55-.34-2.94-1.41-4.49-1.68-5.02-.84-10.06-1.76-15.12-2.09-6.88-.46-13.78-.41-20.67-.5-.82-.01-1.64.48-2.8.84 0-.03-.37-.42-.7-.41-3.28.09-6.56.23-9.83.46-.53.04-1.02.83-1.55.87-2.29.14-4.62-.08-6.87.23-3.84.54-7.62 1.46-11.45 2.07-6.7 1.08-13.42 2.02-20.11 3.08-1.73.27-3.46.63-5.1 1.2-1.22.42-2.11.68-2.31-.54-.43.51-.78 1.18-1.33 1.51-1.45.88-2.98 1.64-4.51 2.37-4.62 2.25-8.74 5.31-12.22 9.06-2.21 2.4-3.81 5.42-5.45 8.31-.95 1.68-.99 4.09-2.22 5.39-2.8 2.93-3.46 6.76-4.78 10.26-1.34 3.51-1.88 7.34-2.61 11.08-.74 3.88-1.62 7.77-1.84 11.7-.33 5.86-.32 11.77-.12 17.64.14 4.71.37 9.48 1.28 14.08 1.58 7.87 3.76 15.61 5.59 23.42 1.76 7.53 3.4 15.1 5.07 22.65.5 2.29.93 4.59 1.36 6.89.33 1.77.44 3.6.96 5.3 1.15 3.71 2.16 7.44 2.94 11.24.57 2.72 1.39 5.4 1.78 8.14 1.2 8.29 2.26 16.58 3.33 24.88.35 2.75.67 5.52.77 8.28.09 2.44.58 4.81.56 7.3-.04 6.33.57 12.65.92 18.98.21 3.75.4 7.51.66 11.26.04.62.59 1.22.6 1.83.02 1.4-.38 2.84-.21 4.2.7 5.33 1.58 10.61 2.33 15.93.23 1.59.29 3.24.41 5.05 2.1 6.43 4.26 11.2 6.63 15.26-1.86.22-4.06.49-4.23.47-2.3-.3-4.42-.92-6.34-1.89-.64-.32-1.26-.68-1.85-1.08-.55-.36-1.16-.67-1.74-1l-.15-.09.12.13c1.07 1.09.88 2.35.72 3.46-.07.49-.14.95-.11 1.37.06.71-.45 1.38-.98 2.08-.22.29-.45.59-.64.9l-.26.42-.42-.25c-.11-.06-.22-.13-.32-.19l-2.35-1.44.83-.8c1.72-1.62 3.2-3.02 2.68-5.09l-.31-1.28c-.14-.11-.29-.2-.41-.32-1.36-1.29-2.51-2.77-3.64-4.24-.09-.11-.17-.23-.25-.35-.09-.14-.18-.27-.27-.41-.49-.77-.91-1.6-1.39-2.39-.3-.49-.61-.97-.91-1.46-.02-.03-.04-.07-.06-.1-1.03-1.62-2.07-3.24-2.99-4.92-.16-.3-.31-.6-.46-.9-.52-1.13-.94-2.3-1.35-3.46-.6-1.71-1.2-3.42-1.59-5.18-.11-.5.01-1.02-.42-1.28l-.08.14c-.97 1.59-2.76 2.19-4.2 2.67-.6.2-1.22.3-1.82.39-.39.06-.78.12-1.16.21-.21.05-.4.08-.57.08-.36 0-.98-.13-1.08-.99-.01-.1-.02-.2-.02-.29-.01-.11-.01-.22-.03-.28-.03-.13-.13-.53.12-.85.23-.31.61-.32.88-.32.1-.01.2-.01.26-.02 1.79-.44 3.51-.93 4.89-2.04.3-.23.62-.46.98-.71l1.22-.88.16.75c.14.62.25 1.12.36 1.61.09-.1.17-.19.16-.28-.02-.78-.18-1.55-.3-2.32-.33-2.12-.58-4.26-1.04-6.34-.11-.47-.22-.95-.35-1.41 0-.01 0-.01-.01-.02-.27-1.06-.64-2.11-1.22-3.01-.42-.65-.66-1.35-.9-2.05-.05-.13-.09-.27-.14-.4-.21-.58-.43-1.14-.76-1.68-1.04-1.62-1.75-3.42-2.67-5.11-.46-.83-.92-1.66-1.39-2.48h-.01c-.04-.06-.08-.13-.11-.2l-.09.62c-.02.13-.03.27-.04.41-.02.36-.04.76-.25 1.13-.81 1.37-2.16 2.47-4.28 3.44-.5.23-.86.33-1.2.33-.67 0-1.1-.43-1.43-.85-.04-.06-.09-.12-.13-.18-.13-.19-.27-.4-.42-.65l-.33-.52.58-.21c.38-.13.76-.26 1.15-.39.87-.28 1.69-.55 2.45-.93.71-.35 1.38-.83 2.09-1.34.33-.24.67-.48 1.03-.73l.67-.46c-.56-.97-1.12-1.95-1.7-2.92-.76-1.28-1.51-2.59-2.42-3.79-.54-.71-1.09-1.41-1.67-2.09-.22-.26-.43-.52-.68-.77-.4-.48-.83-.94-1.29-1.4-1.34-1.34-2.78-2.66-4.41-3.74-1.21-.8-2.7-1.49-4.23-1.73-.2-.03-.41-.05-.62-.06h-.09c-3.84-.22-8.43 2.46-10.15 5.22-1.08 1.73-1.96 3.56-2.76 5.39l-.18.45c-.34.91-.51 1.87-.67 2.82-.24 1.44-.54 2.92-.47 4.33.05 1.25.07 2.56 1.12 3.58 1.01.98 2.23 1.56 3.65 2.01 2.29.72 3.85.06 5.4-1.47 1.11-1.1 1.63-2.38 1.67-3.76l.15-5.28c0-.16 0-.32-.01-.48-.01-.47-.03-.94.07-1.4.05-.24.53-.6.85-.65.3-.06.66.19.98.33.23.11.52.39.65.34.28-.14.52-.19.74-.19.07 0 .14.01.2.02.57.1.88.61 1.23.96.91.9 1.66 1.91 2.49 2.87.25.28.55.55.83.81.06.07.13.13.19.2.19.22.35.44.43.68.49 1.46 1.33 2.73 2.2 3.97.31.43.63.83.95 1.24.03.03.05.07.08.1.81 1 1.65 1.98 2.24 3.08.53.95.98 1.96 1.36 2.99.04.08.07.17.1.25.3.82.58 1.65.84 2.49.61 1.99 1.01 4.06 1.42 6.12.11.57-.12 1.23-.2 1.94.11.08.61.22.71.5 0 .02.01.03.01.05.24.67.34 1.41.45 2.12.16 1.18.25 2.38.4 3.56.01.02.01.03.01.05.08.67.18 1.33.32 1.98.51 2.4 1.15 4.78 1.89 7.11.17.51.35 1.02.54 1.52.01.04.03.07.05.11.46 1.21 1 2.41 1.52 3.6.27.61.74 1.15 1.17 1.69.82 1.07 1.65 2.13 2.52 3.17.14.17.3.34.45.52.2.21.39.43.59.64.33.36.65.71.96 1.08.5.59.81 1.35 1.44 1.8 1.11.79 1.79 1.86 2.76 2.73.01.02.03.03.04.05.03.03.06.05.09.08 1.1.99 2.17 1.98 3.39 2.84 1.22.87 2.58 1.6 3.94 2.32.32.17.65.35.97.52 1.43.76 2.86 1.52 4.35 2.19.26.11.53.23.79.34 1.38.58 2.97.83 4.46 1.24.47.13.91.39 1.4.44.72.1 1.49.03 2.22.08 1.71.12 3.4.28 5.1.42 2.09.17 1.05-.03 3.1.44.49.11 1.81.85 2.32 1 .85 1.01 1.73 2.05 2.64 3.13 1.42-.68 2.48.21 3.62.78.99.48 1.93 1.07 2.95 1.45 3.8 1.41 8.16.72 11.69 3.2.15.11.4.06.6.07 1.29.1 2.58.24 3.87.29 4.96.22 9.94.37 14.91.61 4.12.21 8.23.6 12.35.76 4.28.16 8.57.19 12.85.19 5.6-.01 11.19-.1 16.78-.17 1.97-.03 3.93-.08 5.9-.19 5.75-.33 11.48-.93 17.23-1 6.17-.07 11.6-1.46 16-6.25 3.87-4.23 7.84-8.32 9.79-13.95 1.27-3.67 2.71-7.27 4.07-10.9.34-.9.82-1.76 1.02-2.69.5-2.28 1-4.59 1.29-6.92.29-2.25 1.93-4.41.54-6.81-.08-.14.02-.4.04-.61.31-2.93.77-5.86.88-8.81.15-4.44.07-8.9.07-13.35.01-4.76.06-9.54-.01-14.3-.1-7.44-1.11-14.9.34-22.33.3-1.48.35-3.02.41-4.52.25-7.01.06-14.06.83-21.01.69-6.38 2.16-12.71 3.73-18.97 1.93-7.75 3.99-15.49 7.53-22.71.87-1.77 1.52-3.71 1.94-5.65.7-3.14.97-6.38 1.7-9.51 1.13-4.89 2.66-9.69 3.71-14.6 1.36-6.34 2.46-12.73 3.59-19.12.48-2.73.88-5.48 1.13-8.24.48-5.27.01-10.52-.29-15.8zm-230.92 167.88c-.01.06-.02.13-.03.22l-.06.7-.64-.29c-1.64-.74-3.25-1.41-4.96-1.41-.95 0-1.87.2-2.81.62l-.72.31.02-.79c.02-.53.11-.95.26-1.3.45-1.05 1.5-1.38 3.01-1.52.09-.01.18-.01.28-.01 1.75 0 4.9 1.47 5.61 2.92.05.1.07.21.07.3s-.02.18-.03.25zm5.62-2.59l-.15.19-.59.02-.64.03.04-.56c.01-.24.04-.49.07-.73.05-.49.1-.96.05-1.39-.05-.53-.06-1.06-.08-1.59-.06-1.59-.11-3.09-1-4.37-.12-.18-.29-.34-.49-.53-.11-.1-.22-.2-.34-.32l-.49-.5.64-.3c.44-.21.85-.29 1.21-.25.62.06 1.05.41 1.43.71.36.3.6.48.9.48l.46-.06.2.62c.51 2.8 1.03 5.7-1.22 8.55zm5.37 6.01c-.2 0-.37-.03-.51-.1-.19-.1-.36-.23-.54-.41-.06-.06-.11-.13-.17-.2-.18-.23-.32-.49-.46-.73-.07-.13-.14-.26-.22-.38-.07-.1-.13-.28-.06-.53.06-.24.25-.54.5-.67 2.15-1.08 3.44-2.75 4.17-5.43.05-.18.16-.31.24-.41l.49-.67.57.79c.38.54.72 1.02 1.07 1.48 1.02 1.37.02 2.82-.41 3.44-.69 1.01-1.62 2.04-2.84 3.16-.4.36-1.24.66-1.83.66zm7.51 12.94c-.3-.21-.49-.49-.65-.74l-.21-.3-.29-.36.75-.69h.25l.8.09c.71.07 1.43.14 2.13.22.95.12 1.72-.1 2.49-.71.3-.24.7-.31 1.05-.37.13-.02.26-.04.38-.07l.87-.22-.27.86c-.04.1-.06.2-.08.31-.07.31-.14.67-.4.96-1.01 1.17-2.55 1.86-4.12 1.86-1.02 0-1.96-.29-2.7-.84zm2.32 10.99l-.25-.45c-.11-.2-.21-.39-.27-.57-.21-.53-.22-1-.03-1.39.21-.43.65-.73 1.32-.92 1.35-.39 2.01-1.25 2.72-2.17l.2-.26c.64-.81 1.15-1.71 1.64-2.58.21-.38.42-.76.65-1.12l.31-.52.45.4c.31.28.52.59.63.94.21.67.03 1.42-.5 2.1-.27.36-.47.8-.66 1.21-.73 1.65-2.1 2.76-3.92 3.91l-2.29 1.42zm3.72 16.02c-.32-.09-.55-.35-.67-.6-.01-.04-.03-.08-.04-.11-.19-.53-.35-1.06-.52-1.6l-.25-.81.41-.98.48.23c2.34 1.1 4.74.85 7.77-.87l.49-.28.22.51c.06.15.14.3.22.43.07.13.14.26.2.38.1.22.22.52.2.87-.03.59-.36 1.4-.93 1.79-1.32.91-3.07 1.41-4.93 1.41-.91 0-1.83-.13-2.65-.37zm8.85 5.82c-.67.57-1.3 1.18-1.96 1.83-.3.29-.61.59-.93.89l-.39.37-.34-.41.38-.32-.41.29c-.04-.05-.09-.11-.13-.17l-.12-.14c-.34-.41-.74-.89-1.2-1.46l-.43-.52.62-.26c2.88-1.17 5.04-2.39 6.23-4.57l.25-.47.46.28c.52.34.84.6 1.03.88.05.06.08.12.11.18.48.88-.43 1.61-.88 1.98-.36.29-.75.54-1.13.79-.42.28-.82.54-1.16.83zm6.18 2.08c-.55 1.82-1.12 3.64-1.71 5.46-.13.39-.3.75-.49 1.13-.08.16-.16.33-.24.5l-.25.55-.49-.35c-.38-.27-.68-.49-.9-.68-1.12-.93-.76-1.6-.05-2.91.92-1.73 1.76-3.57 1.68-5.52-.01-.17.02-.33.05-.54l.23-1.63 1.44 2.1c.11.17.22.33.32.48.1.16.2.31.3.46.16.28.21.65.11.95zm10.26 13.86c-.04.11-.08.23-.11.35l-.12.45-.46-.09c-.32-.06-.57-.13-.77-.21-.44-.16-.73-.4-.87-.73-.16-.36-.13-.78.07-1.29.69-1.67.66-2.79-.1-3.76-.27-.34-.18-.77-.11-1.12.03-.12.05-.24.06-.35l.04-.48.48.02c1.71.05 1.91 1.09 1.91 1.86.01.82.04 1.64.08 2.46.03.67.07 1.35.08 2.03 0 .31-.09.59-.18.86zm4.2 2.51c-.2-.04-.4-.07-.57-.09-.43-.06-.8-.11-1.08-.34-.38-.31-.69-.97-.53-1.53.14-.52.39-.99.64-1.45.09-.18.18-.35.27-.52l.17-.37 1.24.3.55 4.14-.69-.14zm-16.5-199.03c-2.95-4.49-3.96-9.22-3-14.07l.31-1.54.64 1.43c2.57 5.69 6.44 10.56 10.18 15.27.97 1.22 1.94 2.44 2.89 3.67 4.77 6.21 10.28 11.99 16.83 17.65 2.26 1.96 4.36 4.18 6.4 6.32.92.97 1.85 1.95 2.79 2.9l.29.29-.23.34c-.11.17-.23.34-.36.51l-.26.37-.4-.23c-.85-.5-1.72-1-2.58-1.5-1.79-1.03-3.64-2.09-5.43-3.21-6.16-3.82-11.93-8.86-18.72-16.33-3.75-4.12-6.81-8.01-9.35-11.87zm39.81 60.32l.87 1.6-1.56-.93c-11.81-7.01-19.35-17.87-27.33-29.38l-1.42-2.04 1.61.69c13.87 6.01 21.08 17.65 27.83 30.06zm-34.94 2.28c-1.86-1.82-1.95-4.5-2.54-6.89.18-.09.34-.16.52-.24 5.31 5.93 10.62 11.85 15.93 17.77-.16.16-.31.32-.47.48-1.74-1.37-3.52-2.71-5.23-4.11-2.78-2.29-5.63-4.5-8.21-7.01zm9.98 30.24c-.92-.78-1.87-1.58-2.76-2.41-.85-.79-1.68-1.64-2.55-2.55-.39-.39-.79-.8-1.21-1.23l-.71-.72 1-.13c.61-.08 1.25-.11 1.9-.11 10.22 0 23.64 9.7 28.72 20.77l.08.18-.07.19c-.07.21-.14.42-.2.62l-.2.63-.48-.15c-1.01-.33-2.03-.63-3.06-.93-2.37-.71-4.83-1.43-7.12-2.47-3.32-1.5-5.95-3.62-8.04-6.48-1.44-1.97-3.4-3.62-5.3-5.21zm10.13 104.05c-.21.83-.4 1.59-.62 2.43l-.11.39-2.86-.18.42-1.5c.19-.68.37-1.31.55-1.94.06-.2.18-.36.27-.48l.3-.47.52.2c.16.05.35.12.52.25.25.21.48.43.68.63l.41.39-.08.28zm4.47-44.94c-.49.03-.96.07-1.44.1-1.07.08-2.16.17-3.25.17h-.23c-.65 0-1.5-.48-1.89-1.06-1.35-2.09-2.68-4.24-3.96-6.32l-1.44-2.35 1.41-1.3 11.99 10.69-1.19.07zm8.2-21.45c-6.46 0-13.58-4.61-15.23-9.86l-.43-1.37 1.19.8c6.93 4.69 13.02 7.21 19.75 8.16l1.47.21-1.29.72c-1.59.89-3.42 1.34-5.46 1.34zm6.08 37.16l-.39-.57c-.27-.41-.78-.62-1.31-.84-1.02-.42-2.3-.94-2.2-3.09l.04-.96 5.09 3.89-1.23 1.57zm2.94-35.25c-1.74-.19-3.19-.35-4.86-.54l-1.05-.12.69-.75c1.95-1.89 3.8-1.7 5.66.6l.77.94-1.21-.13zm5.74-119.74c-.16.13-.32.26-.48.38l-.38.32-.32-.38c-.46-.56-.91-1.12-1.36-1.67-.89-1.11-1.81-2.25-2.79-3.3-4.73-5.06-9.47-10.03-14.31-15.1-1.52-1.58-3.1-3.17-4.64-4.7-3.18-3.18-6.47-6.48-9.4-10.01-4.94-5.99-8.26-11.77-10.15-17.68-.89-2.8-1.91-6.13-2.66-9.62-1.2-5.59-2.2-11.18-3.02-15.92-.23-1.38-.37-2.78-.49-4.14-.11-1.09-.21-2.22-.37-3.32-.3-2.08.85-3.45 1.87-4.65.17-.2.33-.39.49-.59.47-.6 1.15-.99 1.8-1.36.28-.16.55-.32.81-.5l.66-.45.12.79c.04.29.09.58.14.88.12.67.24 1.37.29 2.07.05.96.08 1.92.1 2.87.04 1.5.08 3.05.25 4.56.36 3.01.93 6.06 1.49 9.01l.07.4c.2 1.04.38 2.09.56 3.13.57 3.24 1.16 6.59 2.08 9.77.47 1.63 1.25 3.23 2.01 4.77.71 1.45 1.45 2.95 1.95 4.52 2.12 6.71 6.51 11.56 11.14 16.7.53.58 1.05 1.15 1.57 1.74l.42.47c5.28 5.91 10.73 12.03 15.68 18.39 1.95 2.51 3.47 5.41 4.95 8.21.66 1.25 1.34 2.54 2.05 3.77l.21.38-.34.26zm11.37-22.03c-.47-1.09-.92-2.19-1.37-3.3-.95-2.32-1.93-4.72-3.07-6.98-1.84-3.67-3.88-7.55-6.32-11.09-1.52-2.19-3.28-4.29-4.97-6.32-1.28-1.54-2.61-3.14-3.84-4.77-.75-.99-1.5-1.99-2.25-2.98-3.38-4.45-6.87-9.05-9.87-13.87-3.07-4.92-4.13-10.81-4.95-16.42-.35-2.33-.48-4.72-.62-7.03-.04-.64-.07-1.29-.11-1.93-.12-1.84.33-3.35 1.29-4.38 1.09-1.16 2.79-1.58 4.7-1.13l.37.08.01.39c.05 1.6.05 3.18.06 4.74.01 3.59.02 6.97.53 10.31 1.01 6.44 2.65 11.05 5.3 14.94 2.31 3.36 4.56 6.84 6.74 10.2 1.32 2.04 2.64 4.08 3.98 6.1.28.44.56.91.83 1.38.74 1.26 1.5 2.56 2.54 3.15 1.55.9 1.95 2.17 2.3 3.3.14.45.27.87.47 1.29.71 1.43 1.56 2.83 2.38 4.19.96 1.58 1.96 3.21 2.74 4.93 1.15 2.52 1.97 5.25 2.75 7.88.17.55.33 1.11.5 1.66.53 1.71.81 3.55.84 5.46l.04 2.53-1-2.33zm55.17-21.05c-.09.37-.25.69-.4 1-.07.13-.13.25-.18.38l-.17.36-1.18-.24-.02-.38c-.01-.12-.03-.24-.04-.35-.04-.29-.09-.62-.03-.96l.32-2.17c1.15-7.9 2.34-16.06 7.56-22.68 3.21-4.09 6.99-7.8 10.64-11.4l1-.98c3.03-3 6.17-5.76 9.35-8.21l.55-.42c4.47-3.46 9.1-7.03 14.53-9.19 3.54-1.43 6.32-.85 8.72 1.78l.53.58-.76.23c-2.51.78-4.27 2.51-6.14 4.35-.43.42-.86.84-1.3 1.25-1.86 1.74-3.83 3.41-5.74 5.02-.56.48-1.13.96-1.7 1.44-1.31 1.12-2.61 2.28-3.91 3.43-2.98 2.66-6.07 5.41-9.38 7.74-7.54 5.33-13.05 12.59-17.88 19.63-1.97 2.87-3.36 5.98-4.37 9.79zm16.88 20.03c-3.66 6.32-7.44 12.85-9.17 20.2-.06.24-.21.35-.38.49-.08.07-.2.16-.35.29l-.87.77.04-1.16c.3-9.71 2.32-17.81 6.17-24.76 4.24-7.62 10.01-14 14.56-18.7 2.43-2.51 4.81-5.14 7.11-7.68 1.55-1.71 3.1-3.42 4.67-5.1 1.02-1.11 2.1-2.2 3.14-3.25 1.71-1.73 3.49-3.52 5.06-5.42 2.24-2.71 4.37-5.6 6.42-8.4.93-1.26 1.86-2.53 2.81-3.78.13-.19.3-.34.5-.52.13-.12.29-.26.47-.44l.73-.71.12 1.01c.46 3.85-.68 6.85-1.86 9.28-3.19 6.55-8.39 11.39-13.42 16.07l-.37.34c-6.82 6.35-11.88 11.96-15.92 17.66-.9 1.27-1.85 2.53-2.77 3.74-1.83 2.41-3.72 4.9-5.23 7.53-.48.85-.97 1.7-1.46 2.54zm17 39.97c.42-.45.84-.9 1.25-1.35 2.02-2.19 4.1-4.45 5.77-6.92 1.91-2.82 3.66-5.85 5.35-8.77.92-1.6 1.85-3.2 2.8-4.78 1.28-2.11 2.62-4.24 3.92-6.3.55-.87 1.1-1.75 1.65-2.62l.24-.38.4.2c.18.08.36.17.55.25l.44.19-.47 1.25c-.21.57-.41 1.14-.65 1.7-.62 1.51-1.22 3.03-1.82 4.56-1.36 3.45-2.76 7.01-4.49 10.35-3.3 6.35-7.82 12.3-13.46 17.67-2.95 2.83-6.52 5.21-10.89 7.26-.32.16-.63.23-.96.23-.31 0-.63-.07-.97-.21l-.76-.31.62-.53c.32-.27.65-.54.98-.81.71-.58 1.38-1.12 1.99-1.75 3.08-3.15 5.85-5.99 8.51-8.93zm9.59 108.82c-3.56 4.68-8.63 6.84-13.54 8.93-2.22.95-4.52 1.92-6.63 3.12l-3.56 2.03 2.97-2.83c5.55-5.27 12.16-9.2 20.19-12.02l1.58-.55-1.01 1.32zm4.95-25.7c0 .34-.18.93-.61 1.15-3.46 1.85-7.07 3.75-11.03 5.8-.1.05-.21.08-.33.08-.15 0-.29-.04-.45-.08-.1-.03-.23-.06-.38-.09l-.86-.15.57-.67c2.81-3.26 5.57-6.46 8.37-9.71l4.74-5.51v3c.01 2.15.01 4.16-.02 6.18zm1.56-31.04l-.23.12c-6.39 3.42-12.94 6.94-19.55 10.48l-10.83 5.8 1.34-1.79c1.55-2.09 3.77-4.64 7.15-5.85.57-.2 1.14-.49 1.69-.77l.45-.23c6.05-3.06 11.64-7.21 16.63-12.33.73-.75 1.41-1.62 2.18-2.62.39-.49.8-1.03 1.27-1.61l1.09-1.34-1.19 10.14zm-10.64-19.31l-.29.06-.2-.21c-.13-.14-.27-.29-.4-.44l-.31-.35.32-.33c1.25-1.29 2.52-2.55 3.79-3.82 2.82-2.81 5.74-5.72 8.31-8.83 2.56-3.09 4.79-6.4 7.15-9.89 1.03-1.52 2.07-3.06 3.15-4.59l.78-1.13.12 1.37c.7 7.9-13.77 26.06-22.42 28.16zm32.14-105.21c-1.85 2.93-3.8 5.86-5.69 8.69l-1.37 2.06c-3.47 5.22-7.52 9.84-12.07 14.91-5.2 5.8-9.78 11.1-13.15 17.36-1.03 1.9-2.2 3.74-3.33 5.53-.84 1.32-1.7 2.69-2.5 4.06-.65 1.1-1.2 2.31-1.74 3.47-.29.62-.58 1.24-.88 1.85-.17.33-.37.62-.56.9l-.27.39-.24.38-.39-.19c-.2-.1-.4-.19-.6-.29l-.4-.2.15-.43c.3-.78.58-1.57.87-2.35.47-1.28.93-2.55 1.42-3.81 2.85-7.48 7.26-14.67 13.88-22.62 2.26-2.71 4.6-5.43 6.86-8.05 2.66-3.1 5.42-6.29 8.06-9.5.99-1.21 1.76-2.69 2.5-4.12.26-.5.52-1 .78-1.48l.77-1.41c1.21-2.21 2.46-4.5 3.54-6.81.82-1.76 1.51-3.63 2.18-5.43.31-.82.61-1.63.92-2.44l.31-.78.54.65c1.97 2.36 2.16 6.87.41 9.66z'},{'color':'#000','path':'M336.89 222.32l-.31.78c-.31.81-.61 1.62-.92 2.44-.67 1.8-1.36 3.67-2.18 5.43-1.08 2.31-2.33 4.6-3.54 6.81l-.77 1.41c-.26.48-.52.98-.78 1.48-.74 1.43-1.51 2.91-2.5 4.12-2.64 3.21-5.4 6.4-8.06 9.5-2.26 2.62-4.6 5.34-6.86 8.05-6.62 7.95-11.03 15.14-13.88 22.62-.49 1.26-.95 2.53-1.42 3.81-.29.78-.57 1.57-.87 2.35l-.15.43.4.2c.2.1.4.19.6.29l.39.19.24-.38.27-.39c.19-.28.39-.57.56-.9.3-.61.59-1.23.88-1.85.54-1.16 1.09-2.37 1.74-3.47.8-1.37 1.66-2.74 2.5-4.06 1.13-1.79 2.3-3.63 3.33-5.53 3.37-6.26 7.95-11.56 13.15-17.36 4.55-5.07 8.6-9.69 12.07-14.91l1.37-2.06c1.89-2.83 3.84-5.76 5.69-8.69 1.75-2.79 1.56-7.3-.41-9.66l-.54-.65zM328 308.312l-.78 1.13c-1.08 1.53-2.12 3.07-3.15 4.59-2.36 3.49-4.59 6.8-7.15 9.89-2.57 3.11-5.49 6.02-8.31 8.83-1.27 1.27-2.54 2.53-3.79 3.82l-.32.33.31.35c.13.15.27.3.4.44l.2.21.29-.06c8.65-2.1 23.12-20.26 22.42-28.16l-.12-1.37zm-35.3-57.02c4.04-5.7 9.1-11.31 15.92-17.66l.37-.34c5.03-4.68 10.23-9.52 13.42-16.07 1.18-2.43 2.32-5.43 1.86-9.28l-.12-1.01-.73.71c-.18.18-.34.32-.47.44-.2.18-.37.33-.5.52-.95 1.25-1.88 2.52-2.81 3.78-2.05 2.8-4.18 5.69-6.42 8.4-1.57 1.9-3.35 3.69-5.06 5.42-1.04 1.05-2.12 2.14-3.14 3.25-1.57 1.68-3.12 3.39-4.67 5.1-2.3 2.54-4.68 5.17-7.11 7.68-4.55 4.7-10.32 11.08-14.56 18.7-3.85 6.95-5.87 15.05-6.17 24.76l-.04 1.16.87-.77c.15-.13.27-.22.35-.29.17-.14.32-.25.38-.49 1.73-7.35 5.51-13.88 9.17-20.2.49-.84.98-1.69 1.46-2.54 1.51-2.63 3.4-5.12 5.23-7.53.92-1.21 1.87-2.47 2.77-3.74zm-3.94 65.27l-.62.53.76.31c.34.14.66.21.97.21.33 0 .64-.07.96-.23 4.37-2.05 7.94-4.43 10.89-7.26 5.64-5.37 10.16-11.32 13.46-17.67 1.73-3.34 3.13-6.9 4.49-10.35.6-1.53 1.2-3.05 1.82-4.56.24-.56.44-1.13.65-1.7l.47-1.25-.44-.19c-.19-.08-.37-.17-.55-.25l-.4-.2-.24.38c-.55.87-1.1 1.75-1.65 2.62-1.3 2.06-2.64 4.19-3.92 6.3-.95 1.58-1.88 3.18-2.8 4.78-1.69 2.92-3.44 5.95-5.35 8.77-1.67 2.47-3.75 4.73-5.77 6.92-.41.45-.83.9-1.25 1.35-2.66 2.94-5.43 5.78-8.51 8.93-.61.63-1.28 1.17-1.99 1.75-.33.27-.66.54-.98.81zm-.15-100.912c3.31-2.33 6.4-5.08 9.38-7.74 1.3-1.15 2.6-2.31 3.91-3.43.57-.48 1.14-.96 1.7-1.44 1.91-1.61 3.88-3.28 5.74-5.02.44-.41.87-.83 1.3-1.25 1.87-1.84 3.63-3.57 6.14-4.35l.76-.23-.53-.58c-2.4-2.63-5.18-3.21-8.72-1.78-5.43 2.16-10.06 5.73-14.53 9.19l-.55.42c-3.18 2.45-6.32 5.21-9.35 8.21l-1 .98c-3.65 3.6-7.43 7.31-10.64 11.4-5.22 6.62-6.41 14.78-7.56 22.68l-.32 2.17c-.06.34-.01.67.03.96.01.11.03.23.04.35l.02.38 1.18.24.17-.36c.05-.13.11-.25.18-.38.15-.31.31-.63.4-1 1.01-3.81 2.4-6.92 4.37-9.79 4.83-7.038 10.34-14.3 17.88-19.63zm26.56 134.31c-.77 1-1.45 1.87-2.18 2.62-4.99 5.12-10.58 9.27-16.63 12.33l-.45.23c-.55.28-1.12.57-1.69.77-3.38 1.21-5.6 3.76-7.15 5.85l-1.34 1.79 10.83-5.8c6.61-3.54 13.16-7.06 19.55-10.48l.23-.12 1.19-10.14-1.09 1.34c-.47.582-.88 1.122-1.27 1.61zm-.37 29.05l-4.74 5.51c-2.8 3.25-5.56 6.45-8.37 9.71l-.57.67.86.15c.15.03.28.06.38.09.16.04.3.08.45.08.12 0 .23-.03.33-.08 3.96-2.05 7.57-3.95 11.03-5.8.43-.22.61-.81.61-1.15.03-2.02.03-4.03.02-6.18v-3zm-25.73 46.132l-2.97 2.83 3.56-2.03c2.11-1.2 4.41-2.17 6.63-3.12 4.91-2.09 9.98-4.25 13.54-8.93l1.01-1.32-1.58.55c-8.03 2.82-14.64 6.75-20.19 12.02zM211.31 260.46c-.17-.55-.33-1.11-.5-1.66-.78-2.63-1.6-5.36-2.75-7.88-.78-1.72-1.78-3.35-2.74-4.93-.82-1.36-1.67-2.76-2.38-4.19-.2-.42-.33-.84-.47-1.29-.35-1.13-.75-2.4-2.3-3.3-1.04-.59-1.8-1.89-2.54-3.15-.27-.47-.55-.94-.83-1.38-1.34-2.02-2.66-4.06-3.98-6.1-2.18-3.36-4.43-6.84-6.74-10.2-2.65-3.89-4.29-8.5-5.3-14.94-.51-3.34-.52-6.72-.53-10.31-.01-1.56-.01-3.14-.06-4.74l-.01-.39-.37-.08c-1.91-.45-3.61-.03-4.7 1.13-.96 1.03-1.41 2.54-1.29 4.38.04.64.07 1.29.11 1.93.14 2.31.27 4.7.62 7.03.82 5.61 1.88 11.5 4.95 16.42 3 4.82 6.49 9.42 9.87 13.87.75.99 1.5 1.99 2.25 2.98 1.23 1.63 2.56 3.23 3.84 4.77 1.69 2.03 3.45 4.13 4.97 6.32 2.44 3.54 4.48 7.42 6.32 11.09 1.14 2.26 2.12 4.66 3.07 6.98.45 1.11.9 2.21 1.37 3.3l1 2.33-.04-2.53c-.03-1.91-.31-3.75-.84-5.46zm-13.41 23.282c-1.48-2.8-3-5.7-4.95-8.21-4.95-6.36-10.4-12.48-15.68-18.39l-.42-.47c-.52-.59-1.04-1.16-1.57-1.74-4.63-5.14-9.02-9.99-11.14-16.7-.5-1.57-1.24-3.07-1.95-4.52-.76-1.54-1.54-3.14-2.01-4.77-.92-3.18-1.51-6.53-2.08-9.77-.18-1.04-.36-2.09-.56-3.13l-.07-.4c-.56-2.95-1.13-6-1.49-9.01-.17-1.51-.21-3.06-.25-4.56-.02-.95-.05-1.91-.1-2.87-.05-.7-.17-1.4-.29-2.07-.05-.3-.1-.59-.14-.88l-.12-.79-.66.45c-.26.18-.53.34-.81.5-.65.37-1.33.76-1.8 1.36-.16.2-.32.39-.49.59-1.02 1.2-2.17 2.57-1.87 4.65.16 1.1.26 2.23.37 3.32.12 1.36.26 2.76.49 4.14.82 4.74 1.82 10.33 3.02 15.92.75 3.49 1.77 6.82 2.66 9.62 1.89 5.91 5.21 11.69 10.15 17.68 2.93 3.53 6.22 6.83 9.4 10.01 1.54 1.53 3.12 3.12 4.64 4.7 4.84 5.07 9.58 10.04 14.31 15.1.98 1.05 1.9 2.19 2.79 3.3.45.55.9 1.11 1.36 1.67l.32.38.38-.32c.16-.12.32-.25.48-.38l.34-.26-.21-.38c-.71-1.23-1.39-2.52-2.05-3.77zm-9.04 122.738l-.69.75 1.05.12c1.67.19 3.12.35 4.86.54l1.21.13-.77-.94c-1.86-2.3-3.71-2.49-5.66-.6zm-1.62 32.162c-.1 2.15 1.18 2.67 2.2 3.09.53.22 1.04.43 1.31.84l.39.57 1.23-1.57-5.09-3.89-.04.96zm4.57-34.722l-1.47-.21c-6.73-.95-12.82-3.47-19.75-8.16l-1.19-.8.43 1.37c1.65 5.25 8.77 9.86 15.23 9.86 2.04 0 3.87-.45 5.46-1.34l1.29-.72zm-32.42-98.178l-1.61-.69 1.42 2.04c7.98 11.51 15.52 22.37 27.33 29.38l1.56.93-.87-1.6c-6.75-12.41-13.96-24.05-27.83-30.06zm8.17 67.788c2.09 2.86 4.72 4.98 8.04 6.48 2.29 1.04 4.75 1.76 7.12 2.47 1.03.3 2.05.6 3.06.93l.48.15.2-.63c.06-.2.13-.41.2-.62l.07-.19-.08-.18c-5.08-11.07-18.5-20.77-28.72-20.77-.65 0-1.29.03-1.9.11l-1 .13.71.72c.42.43.82.84 1.21 1.23.87.91 1.7 1.76 2.55 2.55.89.83 1.84 1.63 2.76 2.41 1.9 1.592 3.86 3.242 5.3 5.21zm7.92-69.848c1.79 1.12 3.64 2.18 5.43 3.21.86.5 1.73 1 2.58 1.5l.4.23.26-.37c.13-.17.25-.34.36-.51l.23-.34-.29-.29c-.94-.95-1.87-1.93-2.79-2.9-2.04-2.14-4.14-4.36-6.4-6.32-6.55-5.66-12.06-11.44-16.83-17.65-.95-1.23-1.92-2.45-2.89-3.67-3.74-4.71-7.61-9.58-10.18-15.27l-.64-1.43-.31 1.54c-.96 4.85.05 9.58 3 14.07 2.54 3.86 5.6 7.75 9.35 11.87 6.79 7.47 12.56 12.51 18.72 16.33zm-10.83 114.29l1.44 2.35c1.28 2.08 2.61 4.23 3.96 6.32.39.58 1.24 1.06 1.89 1.06h.23c1.09 0 2.18-.09 3.25-.17.48-.03.95-.07 1.44-.1l1.19-.07-11.99-10.69-1.41 1.3zm6.73 53.098c-.17-.13-.36-.2-.52-.25l-.52-.2-.3.47c-.09.12-.21.28-.27.48-.18.63-.36 1.26-.55 1.94l-.42 1.5 2.86.18.11-.39c.22-.84.41-1.6.62-2.43l.08-.28-.41-.39c-.2-.2-.43-.42-.68-.63zm-5.66-121.868c.16-.16.31-.32.47-.48-5.31-5.92-10.62-11.84-15.93-17.77-.18.08-.34.15-.52.24.59 2.39.68 5.07 2.54 6.89 2.58 2.51 5.43 4.72 8.21 7.01 1.71 1.4 3.49 2.74 5.23 4.11zm-2.91 121.008l-.17.37c-.09.17-.18.34-.27.52-.25.46-.5.93-.64 1.45-.16.56.15 1.22.53 1.53.28.23.65.28 1.08.34.17.02.37.05.57.09l.69.14-.55-4.14-1.24-.3zm-3.08-3.56c0-.77-.2-1.81-1.91-1.86l-.48-.02-.04.48c-.01.11-.03.23-.06.35-.07.35-.16.78.11 1.12.76.97.79 2.09.1 3.76-.2.51-.23.93-.07 1.29.14.33.43.57.87.73.2.08.45.15.77.21l.46.09.12-.45c.03-.12.07-.24.11-.35.09-.27.18-.55.18-.86-.01-.68-.05-1.36-.08-2.03-.04-.818-.07-1.638-.08-2.46zm-8.48 1.162l-.83.8 2.35 1.44c.1.06.21.13.32.19l.42.25.26-.42c.19-.31.42-.61.64-.9.53-.7 1.04-1.37.98-2.08-.03-.42.04-.88.11-1.37.16-1.11.35-2.37-.72-3.46l-.12-.13-1.17-1.2.13.51.31 1.28c.52 2.07-.96 3.47-2.68 5.09zm-2.21-11.082c-.1-.15-.21-.31-.32-.48l-1.44-2.1-.23 1.63c-.03.21-.06.37-.05.54.08 1.95-.76 3.79-1.68 5.52-.71 1.31-1.07 1.98.05 2.91.22.19.52.41.9.68l.49.35.25-.55c.08-.17.16-.34.24-.5.19-.38.36-.74.49-1.13.59-1.82 1.16-3.64 1.71-5.46.1-.3.05-.67-.11-.95-.1-.148-.2-.298-.3-.46zm-2.6-4.27c-.03-.06-.06-.12-.11-.18-.19-.28-.51-.54-1.03-.88l-.46-.28-.25.47c-1.19 2.18-3.35 3.4-6.23 4.57l-.62.26.43.52c.46.57.86 1.05 1.2 1.46l.12.14c.04.06.09.12.13.17l.41-.29-.38.32.34.41.39-.37c.32-.3.63-.6.93-.89.66-.65 1.29-1.26 1.96-1.83.34-.29.74-.55 1.16-.83.38-.25.77-.5 1.13-.79.45-.37 1.36-1.1.88-1.98zm-3.51-5.048c.02-.35-.1-.65-.2-.87-.06-.12-.13-.25-.2-.38-.08-.13-.16-.28-.22-.43l-.22-.51-.49.28c-3.03 1.72-5.43 1.97-7.77.87l-.48-.23-.41.98.25.81c.17.54.33 1.07.52 1.6.01.03.03.07.04.11.12.25.35.51.67.6.82.24 1.74.37 2.65.37 1.86 0 3.61-.5 4.93-1.41.57-.39.9-1.2.93-1.79zm-3.66-13.87l-1.22.88c-.36.25-.68.48-.98.71-1.38 1.11-3.1 1.6-4.89 2.04-.06.01-.16.01-.26.02-.27 0-.65.01-.88.32-.25.32-.15.72-.12.85.02.06.02.17.03.28 0 .09.01.19.02.29.1.86.72.99 1.08.99.17 0 .36-.03.57-.08.38-.09.77-.15 1.16-.21.6-.09 1.22-.19 1.82-.39 1.44-.48 3.23-1.08 4.2-2.67l.08-.14.02-.03-.04-.2c-.03-.1-.05-.2-.07-.3-.11-.49-.22-.99-.36-1.61l-.16-.75zm-2.36-4.65c.19-.41.39-.85.66-1.21.53-.68.71-1.43.5-2.1-.11-.35-.32-.66-.63-.94l-.45-.4-.31.52c-.23.36-.44.74-.65 1.12-.49.87-1 1.77-1.64 2.58l-.2.26c-.71.92-1.37 1.78-2.72 2.17-.67.19-1.11.49-1.32.92-.19.39-.18.86.03 1.39.06.18.16.37.27.57l.25.45 2.29-1.42c1.82-1.15 3.19-2.26 3.92-3.91zm-1.71-6.682c.26-.29.33-.65.4-.96.02-.11.04-.21.08-.31l.27-.86-.87.22c-.12.03-.25.05-.38.07-.35.06-.75.13-1.05.37-.77.61-1.54.83-2.49.71-.7-.08-1.42-.15-2.13-.22l-.8-.09h-.25l-.75.69.29.36.21.3c.16.25.35.53.65.74.74.55 1.68.84 2.7.84 1.57 0 3.11-.69 4.12-1.86zm-6.05-10.75c-.71.51-1.38.99-2.09 1.34-.76.38-1.58.65-2.45.93-.39.13-.77.26-1.15.39l-.58.21.33.52c.15.25.29.46.42.65.04.06.09.12.13.18.33.42.76.85 1.43.85.34 0 .7-.1 1.2-.33 2.12-.97 3.47-2.07 4.28-3.44.21-.37.23-.77.25-1.13.01-.14.02-.28.04-.41l.09-.62-.2-.33-.67.46c-.36.25-.7.492-1.03.73zm-3.61-4.988c.43-.62 1.43-2.07.41-3.44-.35-.46-.69-.94-1.07-1.48l-.57-.79-.49.67c-.08.1-.19.23-.24.41-.73 2.68-2.02 4.35-4.17 5.43-.25.13-.44.43-.5.67-.07.25-.01.43.06.53.08.12.15.25.22.38.14.24.28.5.46.73.06.07.11.14.17.2.18.18.35.31.54.41.14.07.31.1.51.1.59 0 1.43-.3 1.83-.66 1.22-1.12 2.15-2.15 2.84-3.16zm-9.02-11.362l-.46.06c-.3 0-.54-.18-.9-.48-.38-.3-.81-.65-1.43-.71-.36-.04-.77.04-1.21.25l-.64.3.49.5c.12.12.23.22.34.32.2.19.37.35.49.53.89 1.28.94 2.78 1 4.37.02.53.03 1.06.08 1.59.05.43 0 .9-.05 1.39-.03.24-.06.49-.07.73l-.04.56.64-.03.59-.02.15-.19c2.25-2.85 1.73-5.75 1.22-8.55l-.2-.62zm-12.29 8.29c-.1 0-.19 0-.28.01-1.51.14-2.56.47-3.01 1.52-.15.35-.24.77-.26 1.3l-.02.79.72-.31c.94-.42 1.86-.62 2.81-.62 1.71 0 3.32.67 4.96 1.41l.64.29.06-.7c.01-.09.02-.16.03-.22.01-.07.03-.16.03-.25s-.02-.2-.07-.3c-.71-1.448-3.86-2.92-5.61-2.92z'}];var TIGER_LEGS=exports.TIGER_LEGS=[{'color':'#e55a1e','path':'M413.922 355.172c.7.41 1.61.44 2.43.63.04-.73.19-1.46.12-2.18-.08-.89-.4-1.75-.49-2.64-.28-2.48-.55-4.95-.75-7.44-.18-2.16-.01-4.39-.438-6.5-.75-3.58-1.86-7.08-2.78-10.61-.14-.51-.11-1.05-.17-1.92 1.29 1.21 2.21 2.24 3.32 3.01.48.32 1.41.23 2.02.02.26-.1.47-1.06.34-1.51-1.48-4.94-3.07-9.86-4.58-14.8-1.12-3.72-2.35-7.42-3.2-11.21-.97-4.34-1.57-8.76-2.3-13.15-.06-.36.13-.76.19-1.08 1.25.44 2.33.82 3.4 1.2.05-1.29.44-2.68.09-3.85-1.16-3.85-2.45-7.66-3.94-11.4-1.09-2.74-2.46-5.39-3.9-7.98-1.82-3.27-4.07-6.31-5.69-9.67-2.07-4.31-4.01-8.73-5.4-13.29-1.56-5.08-4.14-9.41-7.478-13.44-4.33-5.23-9.92-8.73-15.77-12-2.98-1.67-5.602-3.99-8.41-5.98-2.22-1.58-4.44-3.13-6.7-4.61-.29-.19-.9.14-.98-.22-2.04-1.19-4-2.6-6.16-3.52-3.28-1.39-6.61-2.8-10.06-3.57-7.3-1.65-57.9-20.26-61.93-13.43-.96 1.61-2.01 3.23-3.33 4.53-4.35 4.28-5.31 9.72-5.1 15.38.18 4.9.52 9.89 1.64 14.64.93 3.92 49.43 26.05 52.58 28.43 5.81 4.4 11.74 8.67 17.29 13.39 3.41 2.89 6.26 6.46 9.27 9.81 5.13 5.69 10.4 11.29 15.18 17.26 1.892 2.36 2.96 5.53 3.85 8.51 1.28 4.31 2.2 8.74 3.022 13.18 1.55 8.35 2.69 16.76-.21 25.06-.68 1.94-1.72 3.98-3.15 5.39-6.45 6.36-14.07 10.61-23.01 12.64-4.89 1.1-9.74 2.67-14.4 4.56-.07.03-.15.06-.22.09-4.05 1.66-8.17 3.64-11.51 6.39-1.74 1.42-2.33 4.78-2.6 7.35-.37 3.53.85 6.72 3.54 9.42.81.83 1.44 1.95 1.89 3.14.28.71.49 1.44.64 2.13 1.08 5.23 4.5 8.9 7.81 12.71.73.85 1.08 2.04 1.56 3.11.25.59.22 1.34.57 1.85 1.72 2.5 3.5 4.96 5.31 7.4 3.07 4.14 5.61 4.61 9.54 1.37 3.64-2.99 7.23-6.13 8.61-10.94.27-.93.47-1.89.69-2.83.11-.09.23-.18.34-.28 4.68-3.74 9.48-7.37 15.18-9.7 5.79-2.37 11.39-5.2 17.21-7.88.17-.35.35-1.45.96-1.79 5.44-3.13 10.79-6.52 16.53-8.98 2.9-1.24 6.53-.75 9.84-1 .87-.07 1.76.03 3.29.06-3.08-4.82-4.83-9.58-5-14.97.455.59.815 1.36 1.404 1.71zm-86.66 11.94c-.66 3.31-3.21 4.42-6.76 2.95.5-3.06 3.22-4.25 6.76-2.95zm-5.21 17.72c-.35-.8-.68-1.57-1.02-2.33-.46-1.05-.91-2.08-1.38-3.17 2.28-.77 4.62-1.35 6.75-2.36 2.19-1.04 4.17-2.52 6.25-3.81.19.22.37.44.56.66l-11.16 11.01zm7.25 2.81c-.59-.18-.91-1.2-1.35-1.84 1.33-.89 2.66-1.77 4.43-2.95.46 1.18.86 1.71.81 2.18-.17 1.49-2.42 3.08-3.89 2.61zm13.572 15.91c-.3-.08-.59-.17-.88-.25-.24-1.03-.8-2.12-.61-3.07.14-.65 1.28-1.11 1.99-1.65.61.82 1.85 1.79 1.7 2.44-.22.96-1.42 1.7-2.2 2.53zm10.95-6.69c-1.26-1.3-2.5-2.57-3.75-3.84-2.29-2.35-7.312-2.82-9.24-.87-1.43 1.45-2.97 2.81-4.3 4.36-1.66 1.93-3.12 4-4.96 6.4-.17-1.23.05-2.85-.65-3.78-1.29-1.72-.26-2.6.75-3.46 2.07-1.74 4.18-3.49 6.45-4.95 3.06-1.95 3.87-5.01 4.34-8.18.14-.89-.47-2.27-1.19-2.81-1.45-1.12-3.17-1.92-4.87-2.62-1.15-.48-2.48-.74-1.56-2.08.07-.1.16-.21.26-.33 2-2.34 1.58-5.01 1.3-7.66-.11-.98-.28-2.2-.92-2.85-2-2.02-4.22-3.82-6.54-5.85 1.58-.24 3.83-1.32 4.97-.61 2.27 1.4 4.24 3.57 5.77 5.81 1.12 1.63 1.49 3.86 1.86 5.87.18.97-.06 2.42-.7 3.07-1.25 1.25-.94 1.79.49 2.04 5.88 1.05 8.18 8.54 5.42 12.63 2.06 1.02 4.34 1.76 6.11 3.13 2.76 2.15 3.43 3.55.96 6.58zm5.87-121.27c-4.39-1.69-8.54-3.28-11.75-6.78l-.23-.25.15-.31c.1-.19.19-.39.28-.58l.16-.36.378.07c.11.02.22.04.33.05.3.05.62.09.93.22.78.33 1.57.66 2.37.98 2.07.85 4.22 1.72 6.26 2.76 3.78 1.9 7.49 4.06 10.77 5.96.42.26.532.76.682 1.45.07.31.15.67.27 1.08l.43 1.43-1.21-.88c-3.05-2.24-6.49-3.56-9.82-4.84zm16.34 30.93l-.3-.19c-.472-.28-.95-.55-1.43-.82-2.69-1.5-5.472-3.06-5.48-7.14v-.25l1.31-.97.31.36c2.04 2.44 4.09 4.87 6.14 7.29l.63.74-1.18.98z'},{'color':'#000','path':'M370.443 297.513l-.31-.36-1.31.97v.25c.01 4.08 2.79 5.64 5.48 7.14.478.27.958.54 1.43.82l.3.19 1.18-.98-.63-.74c-2.05-2.42-4.1-4.85-6.14-7.29zm.28-16.2l-.43-1.43c-.12-.41-.2-.77-.27-1.08-.15-.69-.262-1.19-.682-1.45-3.276-1.9-6.986-4.06-10.77-5.96-2.04-1.04-4.186-1.91-6.26-2.76-.8-.32-1.59-.65-2.37-.98-.31-.13-.63-.17-.93-.22-.11-.01-.22-.03-.33-.05l-.38-.07-.16.36c-.09.19-.18.39-.28.58l-.146.31.23.25c3.21 3.5 7.36 5.09 11.75 6.78 3.33 1.28 6.77 2.6 9.818 4.84l1.214.88zm-17.86 108.97c-1.77-1.37-4.05-2.11-6.11-3.13 2.76-4.09.46-11.58-5.42-12.63-1.43-.25-1.74-.79-.49-2.04.64-.65.88-2.1.7-3.07-.37-2.01-.74-4.24-1.86-5.87-1.53-2.24-3.5-4.41-5.77-5.81-1.14-.71-3.39.37-4.97.61 2.32 2.03 4.54 3.83 6.54 5.85.64.65.81 1.87.92 2.85.28 2.65.7 5.32-1.3 7.66-.1.12-.19.23-.26.33-.92 1.34.41 1.6 1.56 2.08 1.7.7 3.42 1.5 4.87 2.62.72.54 1.33 1.92 1.19 2.81-.47 3.17-1.28 6.23-4.34 8.18-2.27 1.46-4.38 3.21-6.45 4.95-1.01.86-2.04 1.74-.75 3.46.7.93.48 2.55.65 3.78 1.84-2.4 3.3-4.47 4.96-6.4 1.33-1.55 2.87-2.91 4.3-4.36 1.93-1.95 6.95-1.48 9.24.87 1.25 1.27 2.49 2.54 3.75 3.84 2.47-3.03 1.8-4.43-.96-6.58z'},{'color':'#000','path':'M341.383 400.232c-.19.95.37 2.04.61 3.07.29.08.58.17.88.25.78-.83 1.98-1.57 2.2-2.53.15-.65-1.09-1.62-1.7-2.44-.71.54-1.85 1-1.99 1.65zm-8.73-27.07c-2.08 1.29-4.06 2.77-6.25 3.81-2.13 1.01-4.47 1.59-6.75 2.36.47 1.09.92 2.12 1.38 3.17.34.76.67 1.53 1.02 2.33l11.16-11.01c-.19-.22-.37-.44-.56-.66zm.54 11.87c.05-.47-.35-1-.81-2.18-1.77 1.18-3.1 2.06-4.43 2.95.44.64.76 1.66 1.35 1.84 1.47.47 3.72-1.12 3.89-2.61zm-5.93-17.92c-3.54-1.3-6.26-.11-6.76 2.95 3.55 1.47 6.1.36 6.76-2.95z'},{'color':'#e55a1e','path':'M299.113 469.402c-3.27-3.04-6.65-5.83-10.92-6.66-2.61-.5-5.25-.89-7.83-1.57-3.35-.88-6.5-.6-9.73.88-3.72 1.69-6.94 4.26-10.19 6.84-2.5 1.98-5.12 3.74-6.84 6.75-1.5 2.64-2.9 5.36-4.31 8.07-.49.93-1.03 1.9-1.26 2.94-1.36 5.89-.49 11.79.2 17.65.35 2.94.91 5.83 1.4 8.74.28 1.62.82 3.23.84 4.84.03 1.41-.54 2.81-.83 4.22-.72 3.63-.98 7.5-2.28 10.84-1.23 3.18-3.55 5.79-5.36 8.68-.32.5-.49 1.12-.73 1.67.59.12 1.24.45 1.77.3 1.5-.44 2.96-1.08 4.65-1.71-.47 4.44-4.33 6.22-5.28 10.57 2.92-.86 4.73-3.1 6.94-5.09-.64 5.7-4.08 9.08-6.62 13.81 2.74-.27 5.13-.48 7.73-.72-.2.53-.39 1.13-.65 1.71-1.14 2.61-2.86 4.51-5.05 5.97-1.04.68-1.81 1.91-3.01 3.24 1.12.31 1.63.46 2.14.57 5.74 1.23 9.94 4.91 12.29 11.09 1.26 3.32 2.02 6.91 2.85 10.44 2.38 10.19 3.89 20.51 3.28 31.12-.23 3.9.02 7.89-1.63 11.48-.48 1.07-1.14 2.04-1.79 2.99-.89 1.28-1.93 2.45-2.77 3.75-.28.43-.55.86-.77 1.34-1.01 2.11-1.82 4.49-2.17 6.86-.38 2.48-.19 5.1-.06 7.65.12 2.11 1.2 3.72 2.18 5.48.75 1.33 1.34 1.71 2.39 1.5 2.2-.45 4.4-1.05 6.59-1.58.7-.19 1.49-.61 2.14-.61.15 0 .29.03.42.07 2.27.89 4.37.2 6.54-.35 1.13-.29 2.39-.91 3.46-.9.27 0 .52.04.76.13 3.35 1.25 6.51.69 9.46-.13.81.27 1.39.53 1.99.61.12 0 .44-.72.44-1.1-.09-2.66-.23-5.3-.36-8.03-.23.36-.4.63-.57.91-.2-.02-.4-.04-.59-.05 2.02-2.94.98-5.71.12-8.45-.92-2.96-2.43-5.32-5.04-6.43 0-.82.2-1.54-.02-2-1.49-3.12-1.72-6.54-1.88-9.98-.24-5.24-.53-10.5-.62-15.76-.06-3.47 0-6.97.34-10.4.51-5.24 1.18-10.49 2.04-15.67.79-4.82 1.42-9.82 3.03-14.29 3.25-9.01 7.15-17.73 10.74-26.59.91-2.24 1.83-4.51 2.46-6.87 1.43-5.38 2.68-10.82 4.01-16.22 2.24-9.16 3.98-18.41 3.79-27.99-.08-4.04-.53-7.98-1.3-11.97-1-5.23-3.04-9.33-6.53-12.59zm-40.21 188.37c-1.35.13-1.83-1.57-1.86-3-.03-1.53.74-2.98 1.99-2.9.73.04 1.38 1.6 2.37 2.85-1.04 1.33-1.71 2.97-2.5 3.05zm12.64-1.52c-.66-1.17-1.08-2.42-.22-3.68l.8-.12c.15 1.16.33 2.32.42 3.48.01.08-.94.44-1 .32zm12.65-1.25c-.24 1.08-1.38 2.05-2.31 2.67-.37.26-1.48-.34-1.85-.91-.71-1.05.03-2.72 1.95-4.94 1.13.71 2.6 1.43 2.21 3.18zm-1.62-13.5c.4.14.8.29 1.2.45.62.23 1.08 1 1.39 1.96-.7-.05-1.47.08-2.1-.19-3.51-1.54-6.59 2.31-6.58 6.47.01 1.71.25 3.43.45 5.13.2 1.64.49 3.27.79 5.18-.29 0-.58-.01-.87-.01-.6 0-1.22-.01-1.86-.01 1.2-3.3.97-6.51 0-9.73-.27-.87-.12-1.93-.47-2.72-.82-1.85-2.35-2.15-3.99-2.02-2.09.16-2.67 2.13-2.99 3.95-.27 1.55-.01 3.25.12 4.86.19 2.42.47 4.85.72 7.35-.61-.09-1.22-.19-1.78-.26-.5-.09-.96-.15-1.34-.21-.32-2.79-.63-5.56-.93-8.33-.05-.4-.17-.87-.05-1.22.98-2.73-.25-4.55-1.95-5.99-1.35-1.14-2.89-1.96-4.33-2.9.82-1.43 2.9-1.85 4.43-.6.48.41.87.98 1.37 1.32 1.16.76 2.11 1.48 3.21-.56 1.5-2.77 4.8-2.93 6.89-.86.49.48 1.23.61 1.86.9.15-.58.17-1.39.51-1.71.66-.61 1.56-1.41 2.27-1.31 1.35.18 2.7.57 4.03 1.06zm3.43-142.84c4.71-7.51 9.93-16.62 12.96-27.22l.33-1.15.59 1.04c.32.58.66 1.14.99 1.7.63 1.07 1.29 2.18 1.85 3.33l.23.46c.59 1.16 1.27 2.48 1.05 3.61-.4 2.17-1.27 4.23-2.39 5.66-2.3 2.94-4.9 5.82-7.73 8.53-1.47 1.42-3.12 2.61-4.72 3.76-.69.49-1.37.98-2.05 1.5l-.43.33-.29-.46c-.08-.13-.18-.26-.27-.38l-.3-.42.18-.29zm10.83 41.29c-.44 3.47-1.26 5.61-3.97 5.61-.54 0-1.15-.08-1.89-.25l-.9-.22 6.93-6.51-.17 1.37zm6.09-22.16c-.17.91-.32 1.83-.48 2.74-.41 2.42-.84 4.91-1.5 7.27-.35 1.31-1.59 2.28-2.84 3.17-2.67 1.93-5.68 2.88-8.59 3.79-.72.23-1.44.45-2.15.69l-.23.04c-.23 0-.42-.1-.51-.14l-.73-.24.57-.56c5.12-5.63 10.28-11.32 15.6-17.19l1.18-1.3-.32 1.73zm2.97-20.98c-.14 2.14-.26 4.16-.43 6.18-.02.41-.41.62-.71.79-.06.03-.12.06-.17.09-.17.1-.35.18-.54.26-.16.07-.42.18-.47.24-.58 1.64-1.78 2.15-2.84 2.61-.28.12-.56.24-.83.38-.81.44-1.57 1.02-2.37 1.63-.38.29-.75.58-1.13.85l-.42.3-.29-.43c-.03-.05-.07-.1-.1-.14l-.3-.38 10.83-15.87-.23 3.49z'},{'color':'#000','path':'M276.273 641.752c-.34.32-.36 1.13-.51 1.71-.63-.29-1.37-.42-1.86-.9-2.09-2.07-5.39-1.91-6.89.86-1.1 2.04-2.05 1.32-3.21.56-.5-.34-.89-.91-1.37-1.32-1.53-1.25-3.61-.83-4.43.6 1.44.94 2.98 1.76 4.33 2.9 1.7 1.44 2.93 3.26 1.95 5.99-.12.35 0 .82.05 1.22.3 2.77.61 5.54.93 8.33.38.06.84.12 1.34.21.56.07 1.17.17 1.78.26-.25-2.5-.53-4.93-.72-7.35-.13-1.61-.39-3.31-.12-4.86.32-1.82.9-3.79 2.99-3.95 1.64-.13 3.17.17 3.99 2.02.35.79.2 1.85.47 2.72.97 3.22 1.2 6.43 0 9.73.64 0 1.26.01 1.86.01.29 0 .58.01.87.01-.3-1.91-.59-3.54-.79-5.18-.2-1.7-.44-3.42-.45-5.13-.01-4.16 3.07-8.01 6.58-6.47.63.27 1.4.14 2.1.19-.31-.96-.77-1.73-1.39-1.96-.4-.16-.8-.31-1.2-.45-1.33-.49-2.68-.88-4.03-1.06-.71-.1-1.61.7-2.27 1.31z'},{'color':'#000','path':'M281.983 651.822c-1.92 2.22-2.66 3.89-1.95 4.94.37.57 1.48 1.17 1.85.91.93-.62 2.07-1.59 2.31-2.67.39-1.75-1.08-2.47-2.21-3.18zm-10.66.75c-.86 1.26-.44 2.51.22 3.68.06.12 1.01-.24 1-.32-.09-1.16-.27-2.32-.42-3.48l-.8.12zm-12.29-.7c-1.25-.08-2.02 1.37-1.99 2.9.03 1.43.51 3.13 1.86 3 .79-.08 1.46-1.72 2.5-3.05-.99-1.25-1.64-2.81-2.37-2.85z'},{'color':'#e55a1e','path':'M240.153 567.433c1.24-.92.25-1.99-.27-2.8-1.73-2.81-3.61-5.5-5.3-8.35-1.3-2.19-2.4-4.55-3.59-6.84.16-.15.32-.3.49-.44 1.26.83 2.52 1.68 4.18 2.79.01-1.28.26-2.39-.02-3.28-1.05-3.15-2.31-6.2-3.38-9.35-.16-.45.08-1.5.39-1.68 1.28-.74.91-1.75.52-2.8-1.65-4.44-2.66-9-2.41-13.92.36-6.92.82-13.86.81-20.8-.01-3.97-.52-8.05-1.43-11.9-.85-3.53-2.33-6.93-3.89-10.14-1.43-2.93-3.3-5.57-5.07-8.25-.46-.71-1.6-.99-1.85-1.72-.98-2.88-2.63-4.7-5.22-5.28.13-1.82.11-1.77-1.15-2.13-.68-.19-1.36-.53-1.96-.95-.77-.53-1.38-1.51-2.18-1.74-1.68-.52-3.44-.77-5.18-1-1.29-.17-2.6-.26-3.9-.16-2.42.18-4.93.14-7.25.89-4.26 1.34-6.36 5.92-8.84 9.54-3.46 5.09-5.68 11.14-7.51 17.3-.3 1.02-1.12 1.9-1.23 2.91-.52 4.87-.86 9.75-1.28 14.63-.03.4-.23.78-.31 1.17-.12.72-.31 1.44-.29 2.15.02.66.34 1.31.4 1.99.38 4.71.66 9.43 1.12 14.13.19 1.89.72 3.73 1.17 5.57.31 1.21.81 2.37 1.21 3.55 1.02 3.07 1.668 6.33 3.458 8.965 0-.088-.002-.176-.005-.265-.01-.71-.02-1.38-.17-2.01-.23-.98-.58-1.95-.93-2.9-.14-.39-.29-.79-.42-1.19l-.11-.32 1-.85.33.33c.84.86 1.69 1.71 2.54 2.56 1.45 1.45 2.9 2.9 4.33 4.38 2.08 2.14 4.53 4.68 6.87 7.31.86.95 1.66 2.01 2.44 3.03 1.13 1.48 2.29 3 3.65 4.29l.26.23-.14.32c-.25.61-.45 1.08-1.04 1.08-.26 0-.53-.1-.96-.28l-.12-.05c-3.78-1.51-6.74-4.37-8.9-6.69l-2.31-2.55c-1.53-1.68-3.11-3.43-4.69-5.08-.08-.09-.41-.11-.62-.12-.196-.01-.382-.02-.56-.05-.052.46-.125.932.03 1.27 1.36 3.02 2.72 6.06 4.25 8.96 1.92 3.67 4.09 7.15 5.98 10.83 2.73 5.32 5.24 10.79 7.98 16.1 2.62 5.11 4.18 10.58 4.63 16.49.33 4.28.41 8.6 1.01 12.81.77 5.46.31 10.72-.73 16.02-.29 1.46-.69 3.33-.18 4.48 1.07 2.41-1.34 3.68-.93 5.87.17.96-.82 2.28-1.38 3.37-.83 1.62-1.57 3.41-2.7 4.69-.47.53-1.1.85-1.74 1.16-.65.31-1.31.6-1.86 1.06-2.45 2.08-5.05 3.81-4.71 8.45.35 4.78.3 9.39 2.69 13.68 1.11 1.97 2.28 2.95 4.05 2.94 1.4 0 2.83-.38 4.19-.84 1.8-.61 3.48-1.52 5.5-1.19 1.94.3 3.93.15 5.9.13.64-.01 1.41-.02 1.91-.4 1.96-1.52 4.15-.92 6.29-.96.79-.01 1.58-.11 2.35-.45 1.64-.74 3.62-.33 5.41-.69 2.28-.45 4.5-3 4.11-6.51-.24-2.16-.8-4.28-1.09-6.44-.18-1.41.14-2.94-.22-4.25-1.1-3.89-3.4-6.39-6.9-7.3-.08-.03-.15-.04-.24-.06-.57-.18-1.25-.45-1.4-.89-1.01-2.85-2.57-5.75-2.6-8.67-.12-8.1.24-16.23.8-24.32.33-4.89 1.34-9.73 2.09-14.59.63-4.14 1.09-8.3 3.17-12 1.76-3.16 3.83-5.22 7.27-4.74.44.06.94-.64 1.42-.98-.04-.19-.06-.37-.1-.56 1.7.26 3.4.59 5.12.76.69.06 1.42-.22 2.3-.37-1.77-2.45-3.21-4.43-4.71-6.5 1.02.2 1.93.73 2.36.41zm-60.08-91.05c.27-.7.59-1.33.92-2 .44-.87.89-1.77 1.23-2.87l.53-1.66.43 1.68c3.09 11.87 7.12 25.39 15.93 35.72l.29.33-1.19 1.3-1.37-1.36c-1.24-1.22-2.52-2.49-3.8-3.7-3.8-3.57-6.82-8.43-9.53-15.28-.69-1.78-1.7-3.43-2.75-5.1-1.28-2.03-1.88-4-.69-7.06zm21.14 59.71l-.34-.26c-.66-.51-1.31-1.05-1.96-1.58-1.47-1.22-2.98-2.47-4.59-3.31-1.19-.61-2.22-1.14-2.48-2.81l-.03-.03c-2.17-2.4-4.35-4.8-6.54-7.19-.23-.26-.47-.5-.71-.74-.44-.46-.9-.92-1.3-1.46-2.55-3.37-5.12-6.83-7.65-10.3-.39-.54-.85-1.34-.84-2.13 0-3.23.11-6.52.22-9.7.03-.37.16-.67.34-1.04.09-.2.19-.43.3-.71l.48-1.25.46 1.26c.25.69.45 1.36.64 2 .37 1.27.69 2.36 1.27 3.16.85 1.16 1.42 2.48 1.97 3.75.51 1.21 1 2.35 1.71 3.36.94 1.35 1.78 2.81 2.6 4.21.61 1.06 1.25 2.16 1.92 3.2 1.51 2.33 3.12 4.54 4.49 6.39.21.29.58.48.83.6.1.05.19.09.24.12l.15.14 4.01 5.61c1.82 2.53 3.61 5.04 5.4 7.54l.24.34-.83.83zm-2.09 121.99c-.17.91-.79 2.31-1.34 2.4-1.12.17-1.96-.8-1.97-2.34 0-.35.04-.69.05-.94-.02-.51-.19-1.07-.02-1.31.5-.72 1.12-1.31 1.7-1.96.37.54.86 1 1.09 1.6.29.81.65 1.77.49 2.55zm12.58.98c-.21.2-.88.04-1.13-.21-1.3-1.41-1.03-3.66.57-5.41 1.62 1.27 1.95 4.29.56 5.62zm13.45-.1c-1.64.16-3.12-1.58-3.03-3.24.12-2.09 1.28-4.41 2.18-4.4 1.4.04 2.75 2.35 2.64 4.54-.04 1.48-.29 2.95-1.79 3.1zm-1.15-17.24c.82.25 1.65.52 2.46.8.34.1.6.58 1.15 1.19-2.05.21-3.77.3-5.48.57-4 .6-5.27 2.74-4.83 7.16.41 4.01.46 8.22 2.68 11.68.21.32.44.62 1 1.45-1.93-.34-3.43-.6-5.18-.9-.17-3.16-.23-6.4-.53-9.6-.23-2.51-.64-5.02-1.21-7.45-.26-1.11-1.08-2.16-2.12-.5-.15.25-.44.47-.69.53-3.22.8-3.68 1.93-4.31 5.54-.79 4.54-.16 8.75 1.11 13.31-.36-.04-.7-.07-1.04-.11-.96-.1-1.86-.19-2.79-.28.01-.86-.14-1.54.04-2.07 1.21-3.62.27-7.17-.25-10.7-.42-2.9-2.37-4.9-4.49-5.61-2.25-.74-4.79-.15-6.28 2.67-.08.14-.29.17-.8-.03.44-.79.71-1.89 1.33-2.33 1.34-.92 2.64-1.92 4.01-2.79 1.5-.94 3.08-1.7 4.89-1.97 2-.29 2.18 1.36 3.02 2.52 1.46-1.28 2.45-3.26 4.69-2.77 1.79.39 3.78-.07 4.8 2.22 1.11-1.17 2.04-2.25 3.08-3.17.44-.38 1.18-.64 1.71-.51 1.35.34 2.69.73 4.03 1.15z'},{'color':'#000','path':'M224.303 651.322c-.9-.01-2.06 2.31-2.18 4.4-.09 1.66 1.39 3.4 3.03 3.24 1.5-.15 1.75-1.62 1.79-3.1.11-2.19-1.24-4.5-2.64-4.54z'},{'color':'#000','path':'"M218.263 641.083c-1.04.92-1.97 2-3.08 3.17-1.02-2.29-3.01-1.83-4.8-2.22-2.24-.49-3.23 1.49-4.69 2.77-.84-1.16-1.02-2.81-3.02-2.52-1.81.27-3.39 1.03-4.89 1.97-1.37.87-2.67 1.87-4.01 2.79-.62.44-.89 1.54-1.33 2.33.51.2.72.17.8.03 1.49-2.82 4.03-3.41 6.28-2.67 2.12.71 4.07 2.71 4.49 5.61.52 3.53 1.46 7.08.25 10.7-.18.53-.03 1.21-.04 2.07.93.09 1.83.18 2.79.28.34.04.68.07 1.04.11-1.27-4.56-1.9-8.77-1.11-13.31.63-3.61 1.09-4.74 4.31-5.54.25-.06.54-.28.69-.53 1.04-1.66 1.86-.61 2.12.5.57 2.43.98 4.94 1.21 7.45.3 3.2.36 6.44.53 9.6 1.75.3 3.25.56 5.18.9-.56-.83-.79-1.13-1-1.45-2.22-3.46-2.27-7.67-2.68-11.68-.44-4.42.83-6.56 4.83-7.16 1.71-.27 3.43-.36 5.48-.57-.55-.61-.81-1.09-1.15-1.19-.81-.28-1.64-.55-2.46-.8-1.34-.42-2.68-.81-4.03-1.15-.53-.13-1.27.13-1.71.51z'},{'color':'#000','path':'M210.573 658.853c.25.25.92.41 1.13.21 1.39-1.33 1.06-4.35-.56-5.62-1.6 1.75-1.87 4-.57 5.41zm-13.03-4.92c-.58.65-1.2 1.24-1.7 1.96-.17.24 0 .8.02 1.31-.01.25-.05.59-.05.94.01 1.54.85 2.51 1.97 2.34.55-.09 1.17-1.49 1.34-2.4.16-.78-.2-1.74-.49-2.55-.23-.6-.72-1.06-1.09-1.6z'},{'color':'#e55a1e','path':'M163.387 360.32c-3.31-2.79-7.4-4.82-11.44-6.53l-.21-.09c-4.63-1.94-9.46-3.56-14.35-4.73-8.91-2.13-16.48-6.47-22.86-12.9-1.42-1.43-2.43-3.48-3.09-5.43-2.8-8.33-1.56-16.73.09-25.06.87-4.43 1.85-8.85 3.19-13.15.91-2.96 2.02-6.12 3.93-8.46 4.85-5.92 10.19-11.45 15.38-17.08 3.06-3.31 5.95-6.85 9.39-9.7 5.61-4.65 11.59-8.85 17.45-13.19 3.18-2.34 45.4-20.65 46.37-24.55 1.18-4.74 1.58-9.73 1.82-14.63.27-5.66-.63-11.1-4.93-15.44-1.3-1.32-2.34-2.95-3.27-4.57-3.96-6.88-48.23 7.89-55.54 9.45-3.46.74-6.81 2.11-10.1 3.46-2.18.9-4.15 2.28-6.21 3.45-.07.35-.69.02-.97.21-2.29 1.45-4.53 2.97-6.76 4.52-2.84 1.96-5.49 4.25-8.49 5.88-5.88 3.21-11.51 6.64-15.91 11.82-3.38 3.99-6.02 8.29-7.63 13.35-1.45 4.54-3.44 8.94-5.56 13.23-1.66 3.34-3.95 6.35-5.8 9.6-1.47 2.58-2.87 5.21-3.99 7.93-1.53 3.72-2.88 7.52-4.08 11.35-.36 1.18.01 2.56.04 3.86 1.08-.37 2.17-.74 3.41-1.17.06.32.25.73.19 1.09-.79 4.38-1.44 8.79-2.46 13.12-.89 3.78-2.17 7.47-3.34 11.17-1.56 4.92-3.21 9.83-4.75 14.75-.13.45.06 1.41.33 1.51.61.22 1.53.32 2.01 0 1.13-.75 2.06-1.77 3.36-2.97-.07.88-.05 1.41-.18 1.92-.98 3.52-2.12 7.01-2.91 10.58-.46 2.1-.32 4.33-.52 6.5-.23 2.48-.52 4.95-.83 7.43-.12.88-.44 1.74-.53 2.63-.08.71.06 1.45.09 2.18.82-.19 1.74-.2 2.44-.6.6-.35.97-1.12 1.43-1.7-.24 5.39-2.04 10.13-5.18 14.91 1.54-.01 2.42-.1 3.3-.02 3.3.29 6.95-.16 9.82 1.11 5.71 2.54 11.02 5.99 16.43 9.18.6.35.76 1.45.94 1.8 5.79 2.76 11.35 5.65 17.11 8.09 5.67 2.39 10.43 6.08 15.06 9.87.11.1.23.19.34.28.22.95.4 1.91.66 2.85 1.33 4.82 4.89 8 8.48 11.03 3.89 3.29 6.44 2.85 9.55-1.25 1.84-2.42 3.65-4.86 5.4-7.34.36-.51.33-1.26.61-1.84.47-1.07.84-2.25 1.58-3.09 3.35-3.77 6.81-7.4 7.97-12.61.15-.7.37-1.43.65-2.13.46-1.19 1.11-2.3 1.93-3.12 2.72-2.67 3.99-5.84 3.65-9.38-.24-2.57-.79-5.94-2.51-7.38zm-52.7-81.938c.12-.4.2-.76.28-1.07.15-.69.27-1.19.69-1.43 3.31-1.87 7.04-3.99 10.84-5.85 2.05-1.01 4.21-1.86 6.3-2.68.8-.32 1.59-.63 2.39-.95.3-.13.61-.17.92-.21.11-.01.22-.02.33-.04l.38-.07.16.36c.09.19.17.38.27.58l.15.31-.24.25c-3.25 3.46-7.41 5.01-11.82 6.64-3.35 1.24-6.8 2.52-9.89 4.72l-1.21.87.45-1.43zm-5.75 26.39l-.31.18-.27-.22-.5-.44-.37-.32.32-.39c2.07-2.39 4.13-4.79 6.2-7.19l.62-.72.37.27c.25.18.49.36.74.55l.2.15-.01.25c-.05 4.08-2.85 5.61-5.56 7.08-.48.26-.97.52-1.43.8zm54.47 64.37c-3.57 1.44-6.1.3-6.73-3.03 3.56-1.25 6.27-.03 6.73 3.03zm-21.88 32.99c-.29.08-.58.16-.88.24-.78-.84-1.97-1.6-2.17-2.55-.14-.65 1.11-1.61 1.74-2.43.68.56 1.84 1.02 1.95 1.68.19.95-.39 2.03-.64 3.06zm5.54-6.73c-1.3-1.56-2.84-2.94-4.25-4.41-1.91-1.96-6.93-1.55-9.25.76l-3.8 3.8c-2.43-3.05-1.73-4.45 1.04-6.56 1.79-1.36 4.08-2.06 6.15-3.07-2.7-4.12-.31-11.58 5.56-12.56 1.44-.23 1.75-.77.53-2.03-.63-.66-.86-2.11-.68-3.08.4-2.01.8-4.23 1.93-5.85 1.56-2.22 3.56-4.37 5.85-5.74 1.16-.69 3.38.4 4.97.66-2.35 2.01-4.6 3.78-6.63 5.79-.64.63-.82 1.85-.94 2.83-.31 2.65-.77 5.31 1.21 7.67.2.23.34.44.43.63.53 1.09-.69 1.34-1.75 1.77-1.72.68-3.45 1.46-4.92 2.56-.72.53-1.34 1.91-1.22 2.79.44 3.19 1.21 6.25 4.25 8.24 2.26 1.48 4.33 3.26 6.39 5.02 1.01.88 2.02 1.77.71 3.48-.71.92-.5 2.53-.7 3.76-1.81-2.41-3.25-4.51-4.88-6.46zm7.35-8.78c-1.49.45-3.73-1.16-3.87-2.65-.04-.48.36-.99.82-2.18 1.77 1.21 3.08 2.1 4.4 3.01-.44.63-.78 1.65-1.35 1.82zm7.27-2.72c-3.74-3.78-7.37-7.45-11.02-11.13l-.01-.01c.19-.22.37-.44.56-.66 2.07 1.32 4.03 2.82 6.22 3.89 2.11 1.04 4.43 1.64 6.71 2.44-.48 1.08-.95 2.11-1.42 3.15-.35.75-.69 1.52-1.04 2.32z'},{'color':'#000','path':'M153.537 375.993c-2.19-1.07-4.15-2.57-6.22-3.89-.19.22-.37.44-.56.66l.01.01c3.65 3.68 7.28 7.35 11.02 11.13.35-.8.69-1.57 1.04-2.32.47-1.04.94-2.07 1.42-3.15-2.28-.8-4.6-1.4-6.71-2.44zm5.97-6.85c-.46-3.06-3.17-4.28-6.73-3.03.63 3.33 3.16 4.47 6.73 3.03zm-12.86 14.83c.14 1.49 2.38 3.1 3.87 2.65.57-.17.91-1.19 1.35-1.82-1.32-.91-2.63-1.8-4.4-3.01-.46 1.19-.86 1.7-.82 2.18z'},{'color':'#000','path':'M148.037 394.623c-2.06-1.76-4.13-3.54-6.39-5.02-3.04-1.99-3.81-5.05-4.25-8.24-.12-.88.5-2.26 1.22-2.79 1.47-1.1 3.2-1.88 4.92-2.56 1.06-.43 2.28-.68 1.75-1.77-.09-.19-.23-.4-.43-.63-1.98-2.36-1.52-5.02-1.21-7.67.12-.98.3-2.2.94-2.83 2.03-2.01 4.28-3.78 6.63-5.79-1.59-.26-3.81-1.35-4.97-.66-2.29 1.37-4.29 3.52-5.85 5.74-1.13 1.62-1.53 3.84-1.93 5.85-.18.97.05 2.42.68 3.08 1.22 1.26.91 1.8-.53 2.03-5.87.98-8.26 8.44-5.56 12.56-2.07 1.01-4.36 1.71-6.15 3.07-2.77 2.11-3.47 3.51-1.04 6.56l3.8-3.8c2.32-2.31 7.34-2.72 9.25-.76 1.41 1.47 2.95 2.85 4.25 4.41 1.63 1.95 3.07 4.05 4.88 6.46.2-1.23-.01-2.84.7-3.76 1.31-1.71.3-2.6-.71-3.48z'},{'color':'#000','path':'M136.317 397.393c-.63.82-1.88 1.78-1.74 2.43.2.95 1.39 1.71 2.17 2.55.3-.08.59-.16.88-.24.25-1.03.83-2.11.64-3.06-.11-.66-1.27-1.12-1.95-1.68zm-14.88-123.17c4.41-1.63 8.57-3.18 11.82-6.64l.24-.25-.15-.31c-.1-.2-.18-.39-.27-.58l-.16-.36-.38.07c-.11.02-.22.03-.33.04-.31.04-.62.08-.92.21-.8.32-1.59.63-2.39.95-2.09.82-4.25 1.67-6.3 2.68-3.8 1.86-7.53 3.98-10.84 5.85-.42.24-.54.74-.69 1.43-.08.31-.16.67-.28 1.07l-.45 1.43 1.21-.87c3.09-2.2 6.54-3.48 9.89-4.72zm-9.41 22.67l.01-.25-.2-.15c-.25-.19-.49-.37-.74-.55l-.37-.27-.62.72c-2.07 2.4-4.13 4.8-6.2 7.19l-.32.39.37.32.5.44.27.22.31-.18c.46-.28.95-.54 1.43-.8 2.71-1.47 5.51-3 5.56-7.08zm183.566 212.68c.03.04.07.09.1.14l.29.43.42-.3c.38-.27.75-.56 1.13-.85.8-.61 1.56-1.19 2.37-1.63.27-.14.55-.26.83-.38 1.06-.46 2.26-.97 2.84-2.61.05-.06.31-.17.47-.24.19-.08.37-.16.54-.26.05-.03.11-.06.17-.09.3-.17.69-.38.71-.79.17-2.02.29-4.04.43-6.18l.23-3.49-10.83 15.87.3.38zm-4.62 35.74c.74.17 1.35.25 1.89.25 2.71 0 3.53-2.14 3.97-5.61l.17-1.37-6.93 6.51.9.22zm-4.51-10.76l-.57.56.73.24c.09.04.28.14.51.14l.23-.04c.71-.24 1.43-.46 2.15-.69 2.91-.91 5.92-1.86 8.59-3.79 1.25-.89 2.49-1.86 2.84-3.17.66-2.36 1.09-4.85 1.5-7.27.16-.91.31-1.83.48-2.74l.32-1.73-1.18 1.3c-5.32 5.87-10.48 11.56-15.6 17.19zm-.07-34.8l.29.46.43-.33c.68-.52 1.36-1.01 2.05-1.5 1.6-1.15 3.25-2.34 4.72-3.76 2.83-2.71 5.43-5.59 7.73-8.53 1.12-1.43 1.99-3.49 2.39-5.66.22-1.13-.46-2.45-1.05-3.61l-.23-.46c-.56-1.15-1.22-2.26-1.85-3.33-.33-.56-.67-1.12-.99-1.7l-.59-1.04-.33 1.15c-3.03 10.6-8.25 19.71-12.96 27.22l-.18.29.3.42c.09.12.19.25.27.38zm-102.88-11.21c2.71 6.85 5.73 11.71 9.53 15.28 1.28 1.21 2.56 2.48 3.8 3.7l1.37 1.36 1.19-1.3-.29-.33c-8.81-10.33-12.84-23.85-15.93-35.72l-.43-1.68-.53 1.66c-.34 1.1-.79 2-1.23 2.87-.33.67-.65 1.3-.92 2-1.19 3.06-.59 5.03.69 7.06 1.05 1.67 2.06 3.32 2.75 5.1zm-1.5 52.29c1.58 1.65 3.16 3.4 4.69 5.08l2.31 2.55c2.16 2.32 5.12 5.18 8.9 6.69l.12.05c.43.18.7.28.96.28.59 0 .79-.47 1.04-1.08l.14-.32-.26-.23c-1.36-1.29-2.52-2.81-3.65-4.29-.78-1.02-1.58-2.08-2.44-3.03-2.34-2.63-4.79-5.17-6.87-7.31-1.43-1.48-2.88-2.93-4.33-4.38-.85-.85-1.7-1.7-2.54-2.56l-.33-.33-1 .85.11.32c.13.4.28.8.42 1.19.35.95.7 1.92.93 2.9.15.63.16 1.3.17 2.01l.008.265c.008.238.01.474.025.715l.02.39.39.07h.012c.177.03.363.04.56.05.208.01.538.03.618.12zm14.39-13.45l-4.01-5.61-.15-.14c-.05-.03-.14-.07-.24-.12-.25-.12-.62-.31-.83-.6-1.37-1.85-2.98-4.06-4.49-6.39-.67-1.04-1.31-2.14-1.92-3.2-.82-1.4-1.66-2.86-2.6-4.21-.71-1.01-1.2-2.15-1.71-3.36-.55-1.27-1.12-2.59-1.97-3.75-.58-.8-.9-1.89-1.27-3.16-.19-.64-.39-1.31-.64-2l-.46-1.26-.48 1.25c-.11.28-.21.51-.3.71-.18.37-.31.67-.34 1.04-.11 3.18-.22 6.47-.22 9.7-.01.79.45 1.59.84 2.13 2.53 3.47 5.1 6.93 7.65 10.3.4.54.86 1 1.3 1.46.24.24.48.48.71.74 2.19 2.39 4.37 4.79 6.54 7.19l.03.03c.26 1.67 1.29 2.2 2.48 2.81 1.61.84 3.12 2.09 4.59 3.31.65.53 1.3 1.07 1.96 1.58l.34.26.83-.83-.24-.34c-1.79-2.5-3.58-5.01-5.4-7.54z'}];var FROG_HEAD=exports.FROG_HEAD=[{'color':'#9ed670','path':'M316.504 155.96c-4.383-1.396-8.935-2.046-13.463-2.667-3.42-.468-7.02.247-10.38-.623-1.32-.343-1.53-.535-2.95-.41-1.79.16-3.56-.322-5.34-.455-4.65-.347-9.3-.62-13.95-.995-4.02-.324-8.66-.18-12.49-1.545-2.34-.835-4.94-.52-7.38-.588-2.94-.083-5.92-.315-8.84.235-5.48 1.034-10.774 2.987-16.214 4.275-6.934 1.642-13.897 3.215-20.92 4.4-2.126.358-4.27.097-6.41.24-1.683.11-3.356.477-5.05.467-5.224-.03-10.642-1.16-15.8-.05-1.865.403-3.614-.242-5.452-.443-1.98-.21-3.56.55-5.49.74-.782.08-3.074 1.53-3.502 1.45 1.45.29 2.78.2 4.14.86 2.787 1.35 4.56 1.2 7.607 1.1 2.375-.08 4.724.516 7.12.466 2.34-.05 4.74-.84 7.08-.562 2.81.335 5.384 1.206 8.26 1.226 3.014.02 6.01-.373 9.015-.56 8-.5 15.592-1.177 23.412-3.107.4-.1.8-.2 1.2-.31 10.996-2.89 22.98-2.935 34.28-3.223 5.272-.135 10.556-.06 15.83.097 3.21.096 6.405.58 9.613.796 3.715.25 7.44.39 11.16.6 1.17.068 2.34.27 3.514.3 3.755.1 7.51.18 11.264.18.42.004.836-.55 1.25-.85-.362-.345-.663-.88-1.09-1.02z'},{'color':'#4d7358','path':'M325.434 153.332c-3.074-7.662-6.108-15.344-9.453-22.888-2.55-5.75-4.27-11.668-3.02-17.848.84-4.117 2.79-8.025 4.42-11.955.95-2.28 2.48-4.33 3.31-6.65.71-1.98.54-4.27 1.19-6.29 1.53-4.79 1.15-9.38-.51-14.05-.78-2.2-2.25-3.58-4.23-4.35-5.3-2.084-10.48-.724-15.462 1.18-3.745 1.437-7.24 3.51-10.956 5.037-5.727 2.354-11.656 4.244-17.294 6.785-4.666 2.1-9.63 2.53-14.49 3.527-6.124 1.256-12.36 1.57-18.615 1.29-1.45-.064-2.91.11-4.35 0-2.7-.21-5.39-.565-8.085-.834-.4-.04-.83.155-1.22.09-2.666-.41-5.36-.725-7.98-1.342-3.52-.823-7.24-1.384-10.413-2.974-5.49-2.752-10.573-6.312-15.95-9.325-2.96-1.66-5.97-3.473-9.673-2.874-1.44.23-2.944.455-4.373.285-5.85-.7-9.59 2.87-12.17 7.036-3.356 5.42-4.176 11.36-.886 17.615 2.247 4.27 4.046 8.934 3.895 14.013-.02.67.34 1.35.46 2.032.545 3.18.85 6.35-.39 9.46-1.665 4.2-3.19 8.463-5 12.604-1.483 3.41-3.28 6.683-4.954 10.01-1.616 3.21-3.45 6.33-4.82 9.64-1.19 2.88.576 7.853 2.44 9.534 5.09 4.596 11.62 6.307 17.585 9.138 2.44 1.158 4.933 2.27 7.51 3.03 2.45.726 4.92 1.3 7.34 2.204 2.984 1.115 6.187 1.67 9.316 2.37 2.11.47 4.5.308 6.33 1.26 2.71 1.407 5.49 2.04 8.414 2.296 5.072.44 10.16.805 15.25 1.09 6.212.346 12.433.65 18.66.816 2.15.06 4.32-.334 6.48-.522l.01.19c4.59 0 9.19.128 13.775-.045 2.85-.11 5.73-.46 8.51-1.072 4.805-1.06 9.57-2.31 14.3-3.664 5.06-1.454 10.175-2.83 15.04-4.795 3.657-1.476 6.953-3.84 10.42-5.785 3.637-2.036 6.757-4.545 8.95-8.225 1.397-2.34 1.674-4.628.717-7.01zm-26.592-72.43c.28-2.99 1.583-5.332 3.967-7.09.26-.197.72-.136 1.09-.187.45-.063 1.1.054 1.32-.202 2.32-2.75 5.39-3.255 8.72-3 2.83.218 6.02 1.915 6.25 6.133.08 1.58.55 3.14.84 4.712.15.062.3.124.45.188-1.06 3.277-1.95 6.614-3.2 9.815-1.6 4.09-8.15 6.42-11.05 5.88-1.07-.2-2.26-.94-2.92-1.8-3.24-4.24-6.02-8.7-5.48-14.43zm-23.507 36.13c1.43-4.17 2.702-8.488 5.828-11.72 2.245-2.324 4.89-4.31 7.573-6.125.783-.53 2.632-.358 3.392.246.548.436.502 2.36.006 3.197-.834 1.41-2.202 2.515-3.406 3.688-1.784 1.736-3.733 3.314-5.407 5.148-2.85 3.124-5.68 6.26-7.18 10.377-.45 1.237-1.63 2.205-2.48 3.297l-.96-.707c.89-2.465 1.8-4.922 2.65-7.4zm-12.097 17.394c1.515-1.56 3.382-2.36 5.807-2.474-.82 3.11-2.233 4.278-4.92 4.217-.44-.01-1.055-.2-1.247-.52-.156-.25.08-.95.36-1.23zm-33.094 0c.278.287.516.978.36 1.23-.19.314-.807.502-1.246.513-2.687.06-4.1-1.11-4.92-4.22 2.424.11 4.29.91 5.806 2.47zM190.1 102.038c4.63 2.38 9.394 4.27 13.384 7.646 3.71 3.14 7.533 6.146 11.362 9.143 1.887 1.478 2.625 3.218 2.066 6.04-2.672-1.667-5.364-3.12-7.806-4.916-6.116-4.49-12.144-9.11-18.147-13.75-1.23-.95-1.64-2.35-.86-4.15zm-24.524-14.47c.078-5.807 2.002-10.653 6.982-14 3.657-2.457 6.704-2.343 10.325.395 3.555 2.688 4.848 5.123 4.986 10.95-.41 1.644-.87 4.947-2.07 7.957-1.29 3.228-4.26 4.938-7.54 5.84-2.65.73-5.38 1.185-7.69-.975-2.95-2.75-5.06-5.904-5-10.168zm150.767 70.265c-3.754 0-7.508-.078-11.262-.177-1.17-.032-2.34-.234-3.51-.3-3.72-.21-7.44-.35-11.16-.603-3.2-.215-6.4-.7-9.61-.796-5.27-.16-10.55-.232-15.83-.097-11.3.29-23.28.332-34.28 3.22-.4.106-.8.208-1.2.307-7.82 1.93-15.41 2.606-23.41 3.107-3 .187-6 .58-9.01.56-2.872-.02-5.45-.89-8.26-1.222-2.34-.276-4.74.514-7.08.562-2.392.05-4.74-.547-7.12-.463-3.05.11-4.82.26-7.61-1.09-1.36-.66-2.69-.56-4.14-.85.43.09 2.72-1.36 3.51-1.44 1.927-.19 3.514-.95 5.49-.73 1.838.2 3.587.85 5.45.45 5.16-1.11 10.578.02 15.8.05 1.696.01 3.37-.354 5.05-.47 2.14-.14 4.28.12 6.41-.235 7.02-1.187 13.988-2.76 20.92-4.4 5.44-1.29 10.74-3.242 16.218-4.276 2.92-.55 5.9-.32 8.847-.236 2.44.07 5.04-.25 7.38.588 3.83 1.367 8.47 1.22 12.49 1.548 4.65.372 9.3.65 13.95.993 1.78.134 3.558.615 5.348.456 1.42-.124 1.63.067 2.956.41 3.36.87 6.96.156 10.383.624 4.53.62 9.08 1.27 13.46 2.67.43.136.73.672 1.09 1.02-.41.295-.83.85-1.247.847z'},{'color':'#9ed670','path':'M178.267 98.71c3.28-.9 6.252-2.61 7.536-5.84 1.197-3.01 1.66-6.313 2.067-7.957-.138-5.827-1.43-8.26-4.986-10.95-3.62-2.737-6.667-2.85-10.325-.393-4.98 3.346-6.91 8.192-6.99 13.998-.06 4.264 2.05 7.417 5 10.17 2.31 2.158 5.04 1.702 7.69.973zm.23-15.774c.21-1.36.45-2.716.735-4.06.1-.48.37-.924.563-1.384.463.244.988.414 1.378.745 2.21 1.876 2.37 4.413 2.353 7.072-.272 1.64-.44 3.31-.852 4.93-.304 1.18-.47 2.75-2.363 2.51-1.41-.18-2.82-1.96-2.68-3.63.18-2.08.55-4.14.87-6.2zm128.736 14.21c2.9.54 9.453-1.786 11.05-5.875 1.25-3.2 2.15-6.53 3.204-9.81l-.45-.19c-.293-1.57-.756-3.13-.843-4.71-.23-4.22-3.418-5.91-6.25-6.13-3.33-.25-6.394.25-8.72 3-.216.26-.87.14-1.32.2-.37.05-.83-.01-1.095.19-2.39 1.76-3.69 4.1-3.97 7.09-.54 5.73 2.23 10.19 5.47 14.44.65.87 1.85 1.61 2.91 1.81zm-1.43-20.67c.748-1.103 3.22.145 3.62 1.805.274 1.15.374 2.33.552 3.49l.262.11c-.752 2.81-1.44 5.64-2.308 8.42-.19.58-.99 1.22-1.59 1.31-.38.06-1.13-.78-1.32-1.35-.74-2.25-1.42-4.52-1.94-6.83-.64-2.843 1.3-4.87 2.7-6.93zM190.96 106.193c6.002 4.644 12.03 9.262 18.146 13.758 2.44 1.8 5.133 3.25 7.806 4.92.56-2.82-.18-4.56-2.066-6.04-3.83-2.99-7.652-6-11.362-9.14-3.99-3.37-8.755-5.26-13.383-7.64-.77 1.81-.36 3.21.86 4.16zm85.174 15.652c1.5-4.117 4.336-7.253 7.187-10.377 1.68-1.834 3.63-3.412 5.41-5.148 1.21-1.174 2.57-2.28 3.41-3.69.5-.836.54-2.76 0-3.197-.76-.604-2.61-.775-3.39-.246-2.68 1.815-5.32 3.8-7.57 6.124-3.12 3.24-4.39 7.55-5.82 11.72-.85 2.48-1.766 4.94-2.65 7.41l.96.71c.85-1.09 2.035-2.06 2.486-3.3zm-46.876 14.326c.44-.01 1.055-.2 1.247-.51.155-.25-.083-.94-.36-1.23-1.516-1.56-3.383-2.36-5.807-2.47.82 3.11 2.233 4.28 4.92 4.22zm34.866 0c2.687.06 4.1-1.1 4.92-4.21-2.424.12-4.292.92-5.807 2.48-.278.29-.516.98-.36 1.23.192.32.808.51 1.247.52z'},{'color':'#4d7358','path':'M180.31 92.755c1.895.237 2.06-1.33 2.363-2.517.41-1.61.58-3.284.852-4.93.017-2.66-.143-5.196-2.353-7.072-.39-.33-.915-.5-1.378-.745-.193.46-.462.91-.563 1.39-.28 1.35-.52 2.7-.73 4.06-.32 2.06-.69 4.12-.87 6.2-.14 1.67 1.27 3.45 2.69 3.63zm126.035-1.157c.596-.09 1.403-.734 1.583-1.312.868-2.773 1.556-5.604 2.308-8.413-.087-.036-.174-.07-.262-.105-.178-1.164-.278-2.346-.552-3.487-.4-1.66-2.873-2.9-3.62-1.8-1.4 2.07-3.34 4.09-2.705 6.93.515 2.31 1.194 4.59 1.932 6.84.18.57.94 1.41 1.31 1.36z'}];var FROG_BODY=exports.FROG_BODY=[{'color':'#9ed670','path':'M149.63 372.042c-.074-.664.04-1.27-.215-1.682-1.346-2.167.095-3.888 1.596-5.72 1.23-1.503 2.59-3.088 3.14-4.763.39-1.194.03-3.08-.88-3.76-.92-.685-3.1-.73-4.44-.24-4.04 1.48-5.73 4.8-7.28 8.044-2.53 5.3 1.21 9.23 8.09 8.13zm-32.318 43.235c1.446 4.368.802 9.15 3.85 13.81 1.19-2.836 2.173-4.95 2.932-7.097 1.408-3.993-1.43-6.948-6.782-6.713zm26.508 1.88c1.105-.203 2.056-.148 2.402-.484 1.54-1.488 3.118-3.01 4.16-4.703.29-.472-.92-1.985-1.858-2.282-2.794-.885-5.73-1.65-8.742-1.956-1.14-.116-2.976.95-3.923 1.855-.99.943-.84 2.542 1.02 2.48 4.37-.143 6.35 1.628 6.93 5.09zm-1.583-24.407c-1.716-1.19-2.333-2.508-2.056-4.403.15-.966.21-2.276-.43-2.843-2.28-2.024-5.84-1.257-7.48 1.51-1.4 2.372-2.6 4.818-3.95 7.22-1.95 3.488-1.63 3.986 4.15 4.26 1.86-.198 5.11-.232 8.19-.966 3.79-.903 4.36-2.856 1.59-4.777zm13.708 40.228c-.258-.213-.453-.482-.646-.74-1.45-1.933-.99-4.11 1.6-6.58 1.3-1.242 1.55-2.573.32-3.43-.88-.61-3.13-.97-3.86-.5-1.56 1.008-3.62 2.73-3.55 3.966.18 3.09-2 4.233-4.95 4.755-3.39.59-4.25 2.34-4.54 3.74-.58 4.31 2.08 6.35 6.62 5.72 2.4-.34 4.77-.98 7.1-1.61 3.65-1 4.38-3.27 1.88-5.34zm-14.258 28.195c-.17-1.742-.09-3.526.12-5.287.292-2.465-1.665-3.945-3.548-5.4-.55-.42-2.36-.625-2.65-.354-1.15 1.07-3.08 2.82-2.67 3.517 1.91 3.21 4.55 6.16 6.96 9.21.9 1.14 1.81 2.29 3.16 3.96-.07-1.13.01-1.9-.2-2.61-.31-1.04-1.09-2-1.19-3.05zm20.643-60.233c.51-.39 1.113-.713 1.853-.96.99-.334 2.155-.23 3.257-.285.775-.5 1.54-.996 2.297-1.487-.116-.39-.232-.778-.346-1.167-1.15.09-2.39-.06-3.43.3-1.99.68-3.05 1.88-3.62 3.61zm-2.082-64.032c2.373 2.02 3.335 4.354 2.465 7.496-.135.48.58 1.507 1.094 1.58 1.634.228 4.465-2.46 4.377-4.05-.104-1.802-.26-3.605-.548-5.37-.325-1.99-2.298-3.026-4.433-2.773-.798.1-1.61-.44-2.67-.76-1.295 1.12-1.717 2.67-.285 3.89zm-1.926-13.87c.618-.47 1.192-.993 1.822-1.444 2.152-1.537 2.31-2.405.85-4.56-1.585.703-3.878 1.073-4.606 2.203-.832 1.295-.27 3.272-.325 5.414 1.154-.81 1.718-1.2 2.26-1.61z'},{'color':'#4d7358','path':'M354.158 395.923c-1.688-7.205-3.247-14.432-5.332-21.602-1.926-6.61-4.027-13.26-6.785-19.73-3.63-8.52-7.61-16.95-12.47-25.14-5.65-9.52-9.94-19.85-12.93-30.51-2.34-8.34-3.59-16.69-2.38-24.85 1.18-7.95 3.1-15.68 3.98-23.67.77-6.98.42-14.24.96-21.28.53-6.79-1.21-13.38-3.58-19.74-2.58-6.92-5.64-13.63-10.85-18.9-3.29-3.33-6.48-6.57-10.39-8.63-.37-.2-.78-.31-1.18-.45-.76-.28-1.54-.49-2.27-.84-.61-.29-1.18-.76-1.76-1.14-.05.02-.1.04-.16.06-.38-.36-.73-.92-1.15-1.04-3.89-1.13-7.79-2-11.77-1.52-.77.1-1.59-.06-2.37-.21-3.53-.68-7.03-1.6-10.56-2.04-2.22-.28-4.48.17-6.73.22-3.15.07-6.3.08-9.46.11-1.81.01-3.64.06-5.45.01-.46-.01-.92-.47-1.37-.44-.84.06-1.67.46-2.51.48-2.35.06-4.7-.17-7.04.03-3.94.335-7.88.94-11.83 1.37-2.1.23-4.21.31-6.31.5-1.75.156-3.53.19-5.25.586-5.06 1.156-10.1 2.896-15.22 3.588-5.342.72-9.004 4.6-12.61 8.586-2.76 3.05-4.882 6.92-7.28 10.486-1.232 1.84-2.653 3.67-3.44 5.73-2.69 7.04-6.75 13.64-7.61 21.45-.203 1.882-.55 4.043-1.19 6.1-1.253 4.045-1.94 8.28-2.51 12.44-.43 3.18-.394 6.396-.353 9.563.04 2.99.12 6.01.624 8.89.814 4.68 2.28 9.18 3.01 13.893 1.35 8.706.905 17.55-2.396 26.46-1.74 4.69-3.044 9.49-4.9 14.163-2.04 5.15-4.52 10.208-6.81 15.318-1.88 4.188-3.45 8.48-5.623 12.58-5.16 9.7-10.75 19.23-16.35 28.68-3.44 5.81-5.77 11.916-6.985 18.064-1.25 6.3-2.003 12.65-2.27 18.95-.21 5.17-.573 10.76 1.28 15.37 4.16 10.34 8.57 21.32 15.928 29.91 3.3 3.855 6.184 8.155 10.237 11.66 5.63 4.86 12.02 9.33 18.64 13.62 2.93 1.892 6.71 3.225 10.42 4.28 4.4 1.253 8.77 2.45 13.74 2.9 6.693.6 13.07 2.94 19.672 4.42 1.46.32 3.353.8 3.92-1.06.02-.06.3-.08.51-.13l-.045 1.05c4.16 1.044 7.97 1.99 11.8 2.92.62.15 1.24.39 1.867.39 7.777.06 15.578.28 23.325-.085 5.66-.266 11.26-1.195 16.82-1.996 5.385-.776 10.71-1.71 16.01-2.667 2.19-.393 4.32-.96 6.48-1.454 11.8-4.37 23.57-8.8 35.31-13.31 9.89-6.34 17.62-13.85 22.61-22.66 3.18-5.61 6.01-11.36 7.86-17.28 2.15-6.86 3.18-13.967 4.41-20.97.5-2.84.94-5.76.63-8.657-.466-4.258-1.51-8.53-2.5-12.78zm-181.73 14.426c1.228-.14 3.073.88 3.782 1.84 2.55 3.45 2.86 7.4 1.63 11.43-.33 1.09-1.413 2.06-2.59 3.68-.58-1.17-1.024-1.61-.962-2.02.572-3.73-2.838-5.39-5.338-7.57-.873-.76-1.825-2.09-1.553-2.98.64-2.08 2.258-4.11 5.03-4.41zm-2.692-12.15c-.756.49-1.52.98-2.297 1.48.06-.01.13-.01.2-.01.11.39.23.77.34 1.16-2.44 1.57-4.89 3.14-7.94 5.06.25-2.23.85-3.88 2.28-4.98.57-1.73 1.62-2.93 3.62-3.61 1.04-.35 2.28-.21 3.44-.29.11.39.23.78.34 1.17zm-1.133-22.29c.356.24.227 1.38-.13 1.92-.743 1.12-1.976 2.04-2.675 3.18-1.068 1.73-1.855 3.58-2.88 5.58-.955-.15-2.205-.34-3.444-.55-2.78-.48-3.73-2.01-1.848-3.94 2.46-2.53 5.4-4.74 8.266-6.91.41-.31 1.996.22 2.71.7zm-5.4-42.13c2.135-.25 4.107.78 4.433 2.77.288 1.76.444 3.57.548 5.37.088 1.59-2.743 4.28-4.377 4.05-.513-.08-1.23-1.1-1.094-1.58.87-3.14-.092-5.48-2.465-7.5-1.432-1.22-1.01-2.76.285-3.89 1.058.32 1.873.86 2.67.76zm-6.815-14.56c.73-1.13 3.02-1.5 4.606-2.21 1.46 2.15 1.303 3.02-.85 4.56-.63.45-1.204.97-1.822 1.44-.54.41-1.104.79-2.26 1.61.056-2.14-.506-4.12.326-5.41zm-14.85 44.68c1.553-3.24 3.24-6.57 7.28-8.05 1.335-.49 3.523-.45 4.44.24.913.68 1.276 2.56.888 3.76-.547 1.67-1.904 3.25-3.135 4.76-1.5 1.83-2.94 3.55-1.59 5.72.26.41.14 1.02.22 1.68-6.88 1.11-10.62-2.83-8.09-8.12zm-17.444 58.07c-.76 2.15-1.743 4.26-2.93 7.1-3.05-4.67-2.406-9.45-3.852-13.81 5.352-.24 8.19 2.72 6.782 6.71zm4.22-27.76c1.345-2.4 2.546-4.85 3.95-7.22 1.64-2.77 5.2-3.54 7.487-1.51.65.56.58 1.88.43 2.84-.27 1.89.34 3.21 2.06 4.4 2.77 1.92 2.2 3.87-1.59 4.77-3.08.73-6.33.77-8.19.96-5.78-.28-6.1-.77-4.14-4.26zm8.57 17.83c-1.863.06-2.015-1.54-1.026-2.48.947-.91 2.783-1.98 3.923-1.86 3.02.3 5.95 1.07 8.75 1.95.94.29 2.15 1.81 1.86 2.28-1.04 1.69-2.62 3.21-4.16 4.7-.34.33-1.29.28-2.4.48-.58-3.47-2.56-5.24-6.93-5.09zm3.032 50.79c-2.417-3.05-5.055-6-6.967-9.21-.42-.7 1.51-2.44 2.66-3.52.29-.27 2.1-.07 2.64.35 1.88 1.45 3.84 2.93 3.54 5.4-.21 1.76-.29 3.54-.12 5.28.1 1.04.88 2.01 1.19 3.04.21.71.12 1.48.19 2.61-1.34-1.68-2.25-2.83-3.16-3.97zm7.046-22.94c-4.535.63-7.19-1.41-6.62-5.72.286-1.41 1.15-3.15 4.536-3.75 2.947-.52 5.133-1.67 4.947-4.76-.075-1.24 1.985-2.96 3.544-3.97.72-.47 2.97-.11 3.85.5 1.23.85.98 2.19-.32 3.43-2.59 2.46-3.05 4.64-1.61 6.58.19.26.39.52.64.74 2.5 2.06 1.77 4.34-1.88 5.33-2.33.63-4.7 1.27-7.1 1.61zm6.555 18.97c.225-.96 1.572-2.49 2.492-2.55 2.46-.19 5.48 1.92 4.65 2.76-1.11 1.11-2.98 1.79-5.37 3.11-.88-1.52-1.97-2.49-1.78-3.33zm15.06 22.47c-3.593 2.64-4.155.51-5.884-.57-1.125-.71-2.324-1.35-3.47-2.03-3.92-2.33-3.76-4.62.696-6.61 1.86-.83 4.2-1.02 7.1-1.69 1.2 1.01 2.57 2.03 3.7 3.18.44.46.22 1.27.51 1.85 1.26 2.51.14 3.78-2.67 5.85zm4.22-25.66c-1.484-.43-3.134-.67-4.41-1.33-1.75-.9-1.544-3.12.07-4.32.913-.68 1.886-1.35 2.592-2.15 2.46-2.78 6.81-2.8 9.94-4.54.48-.27 2.82.55 2.97 1.12 1.49 5.74-2.61 11.66-11.18 11.22zm1.935 10.52c4.197-1.22 6.137 1.83 9.285 2.54-5.086 2.02-8.674.98-9.285-2.54zm8.347 21.47c-.55-.22-.88-1.38-.62-1.92 1.57-3.22 5.56-4.01 10.75-2.23-.51 2.98-5.95 5.81-10.14 4.15zm23.65-54.28c-3.4-.54-6.62-1.06-10.39-1.67.46-.75 1.04-2.64 1.79-2.71 2.35-.22 4.95-.11 7.12.55 2.14.66 1.84 2.57 1.47 3.82zm1.24 32.04c-.99-.64-1.76-1.48-2.15-1.82.09-2.99 1.54-3.59 4.35-3.01 3.19.66 4.8 2.28 5.38 4.62.16.68-.2 1.94-.77 2.14-.89.31-2.26.12-3.25-.2-1.29-.407-2.5-1.05-3.57-1.75zm10.42 12.65c-1.31.4-3.07.86-4.17.48-1.15-.39-1.74-1.72-2.65-2.73 2.73-1.87 6.77-1.5 7.82.53.22.43-.44 1.54-1.01 1.72zm111.76-111.46c1.07-.61 2.34-.97 3.61-1.48 2.65 2.78 6.52 4.76 7.13 8.45.19 1.19 0 2.55-.6 3.55-.98 1.63-3.54 1.56-4.98.08-1.93-1.99-3.82-4-5.68-6.02-2.11-2.3-2.03-3.17.51-4.59zm-11.42-27.37c-.02-.79 1.1-1.48 1.69-2.21 1.02.83 2.56 1.52 2.99 2.5 2.03 4.61 1.4 9.1-3.95 10.8-.3-3.93-.68-7.53-.75-11.1zm5.26 44.77c.84-1.85 3.16-1.42 5.11-1.28.88.06 1.77.33 2.74.51 4.18 8.76 5.8 11.78-1.12 16.08 1.23-3.17-.53-4.86-3.1-6.42-3.17-1.92-4.91-6.16-3.65-8.91zM306.71 366c.6-1.085 1.29-2.32 2.57-.67 1.235-1.647 2.31-3.24 3.553-4.71.87-1.032 3.24-.25 4.053 1.26 2.9 5.365 1.666 7.44-4.836 8.488-1.6.258-2.98 1.22-4.553 1.897-1.41-2.176-1.924-4.226-.792-6.27zm12.1 61.34c-1.17 2.5-2.248 4.826-3.4 7.13-.58 1.145-1.19 2.29-2 3.33-.27.344-1.27.598-1.77.458-.47-.13-1.12-.94-1.01-1.275.986-2.94 1.824-5.955 3.26-8.724.87-1.68 3.065-1.7 4.917-.92zm-47.18 50.39c-1.796 1.82-3.855 3.49-5.647 5.32-1.32 1.353-2.9 1.02-3.58-.026-1.13-1.73-2.13-3.705-2.194-5.58-.08-2.25 2.33-2.965 5.06-3.13 1.31-.08 2.58-.595 4.29-1.024 1.03.6 2.56 1.184 3.4 2.12.34.375-.68 1.63-1.36 2.32zm4.453-28.504c-.06-.96-.208-1.69-.13-2.41.25-2.494-1.37-3.86-4.1-4.86-1.12-.404-1.887-1.453-2.81-2.21 1.164-.883 2.14-2.23 3.514-2.544 2.56-.584 5.37-.86 8.043-.66 1.115.08 2.978 1.683 3.06 2.623.427 4.98-.326 7.5-7.58 10.062zm17.813 33.99c-1.033-.035-2.07.22-3.11.32-1.647.152-2.727-.367-2.153-1.638.707-1.553 1.678-3.06 2.78-4.455.38-.475 1.56-.576 1.81-.66.88-.02 1.1-.05 1.306-.02 2.22.32 5.17.127 5.58 2.395.35 1.94-3.57 4.15-6.21 4.067zm6.156-29.194c-.675 1.053-1.993 1.84-3.553 3.154-.77-1.992-1.35-2.98-1.46-3.98-.08-.69.33-1.935.78-1.997.95-.13 2.3.14 3.06.65.71.47 1.47 1.7 1.17 2.17zm-4.374-15.86c-1.897-1.77-3.466-3.09-2.06-5.19 1.27-1.91 3.463-1.265 5.25-1.096.73.07 1.776 1.57 1.94 2.47.56 3.105-3.394 2.386-5.13 3.815zm4.14-44.31c2.8-3.057 2.903-2.97 2.085-7.05.73.027 1.35.194 1.8.045 3.18-1.046 4.08-.68 5.17 2.175 1.38 3.627-1.21 8.578-5.33 9.478-.975.21-2.945-.52-3.506-1.28-.65-.88-.86-2.677-.227-3.37zm25.03 69.34c-.107.397-.67.792-1.166 1.02-4.68 2.145-9.43 4.256-14.333 6.422-3.86-4.754-.74-9.824 5.43-10.416 1.96-.19 3.82-.887 5.79-.99 1.54-.086 3.52.05 4.63.74.61.38-.08 2.125-.37 3.22zm-9.596-45.375c-2.53-5.07 3.53-6.64 5.13-10.3 3.036 1.747 2.756 3.765 2.45 5.557-.35 2.062-4.634 4.582-7.58 4.745zM330 453.555c-.717-.346-1.117-1.087-1.66-1.65.734-.3 1.42-.714 2.21-.884 1.23-.26 2.52-.48 3.81-.5 1.34-.02 2.71.2 4.71.37-2.843 3.58-5.785 4.27-9.074 2.67zm12.69-18.4c-2.167 1.107-4.55 1.993-6.61 3.21-.967.57-1.16 1.86-2.06 2.546-.99.75-2.3 1.41-3.65 1.68-.85.17-2.26-.27-2.96-.8-.37-.28-.034-1.5.446-2.03 2.15-2.34 4.344-4.66 6.714-6.83 1.136-1.04 2.758-1.75 3.846-2.42 1.85.27 3.215.16 4.01.65.933.57 1.645 1.63 1.912 2.54.122.42-.948 1.1-1.655 1.46zm6.695-29.48c-1.35 2.06-2.956 4.016-4.274 6.103-.8 1.27-1.18 2.74-1.87 4.072-.52 1.02-.95 2.24-1.94 2.87-.73.46-2.43.38-3.47.03-.59-.2-1.2-1.55-1.01-2.17 1.34-4.27 3.01-8.437 4.19-12.717.58-2.1 1.1-4.044 3.29-5.35 1.26-.75 2.25-.726 3.13.515.96 1.356 1.85 2.74 2.85 4.21-.3.87-.41 1.735-.87 2.435z'},{'color':'#9ed670','path':'M344.3 398.525c-2.187 1.306-2.707 3.248-3.283 5.348-1.172 4.28-2.847 8.445-4.183 12.718-.193.62.42 1.97 1.01 2.17 1.046.35 2.74.44 3.474-.03.996-.63 1.422-1.84 1.947-2.86.688-1.33 1.064-2.8 1.87-4.07 1.317-2.08 2.92-4.04 4.272-6.1.458-.7.57-1.56.87-2.43-.998-1.47-1.888-2.85-2.85-4.21-.882-1.24-1.867-1.26-3.126-.51zm-160.328 45.968c-.15-.574-2.49-1.393-2.974-1.122-3.14 1.75-7.488 1.77-9.948 4.55-.707.8-1.68 1.47-2.59 2.15-1.616 1.21-1.823 3.42-.073 4.32 1.277.66 2.927.91 4.41 1.33 8.57.44 12.667-5.48 11.175-11.22zM330.74 399.39c6.924-4.305 5.303-7.324 1.117-16.083-.965-.188-1.854-.453-2.738-.518-1.96-.15-4.28-.58-5.12 1.27-1.26 2.75.48 6.99 3.64 8.91 2.57 1.56 4.33 3.24 3.09 6.42zm-10.14 59.852c-1.966.105-3.827.8-5.792.99-6.17.59-9.29 5.66-5.44 10.414 4.905-2.166 9.653-4.273 14.335-6.423.496-.227 1.06-.62 1.165-1.02.292-1.092.98-2.837.366-3.22-1.11-.688-3.094-.823-4.634-.74zm-149.872 14.42c-1.13-1.15-2.5-2.165-3.705-3.18-2.9.67-5.236.86-7.104 1.69-4.46 1.987-4.62 4.276-.7 6.607 1.14.68 2.34 1.32 3.47 2.02 1.73 1.08 2.29 3.21 5.88.56 2.81-2.07 3.93-3.34 2.66-5.85-.3-.59-.07-1.4-.52-1.86zm109.89-37.112c-2.675-.197-5.485.08-8.044.662-1.372.313-2.35 1.662-3.512 2.544.922.757 1.688 1.806 2.803 2.213 2.732.99 4.354 2.36 4.1 4.86-.072.71.07 1.44.13 2.41 7.254-2.57 8.008-5.09 7.58-10.07-.082-.94-1.944-2.54-3.058-2.63zM168.95 417.73c2.5 2.173 5.906 3.83 5.34 7.564-.064.41.38.847.96 2.015 1.178-1.62 2.26-2.6 2.592-3.68 1.227-4.04.92-7.99-1.63-11.44-.71-.96-2.558-1.98-3.784-1.85-2.77.3-4.39 2.33-5.03 4.41-.273.88.68 2.21 1.553 2.97zm160.692-46.483c1.857 2.018 3.746 4.027 5.676 6.02 1.437 1.486 4 1.55 4.975-.078.6-1 .792-2.36.598-3.56-.6-3.7-4.47-5.67-7.12-8.46-1.26.51-2.53.87-3.61 1.48-2.54 1.42-2.62 2.29-.51 4.58zm-17.576-.865c6.502-1.045 7.736-3.123 4.837-8.49-.813-1.506-3.188-2.29-4.058-1.257-1.242 1.47-2.317 3.062-3.553 4.71-1.285-1.648-1.973-.416-2.575.67-1.132 2.04-.617 4.09.795 6.262 1.572-.675 2.953-1.637 4.554-1.895zm26.374 60.138c-1.09.67-2.712 1.377-3.845 2.417-2.37 2.173-4.562 4.49-6.717 6.834-.48.53-.816 1.75-.445 2.03.697.53 2.11.97 2.958.8 1.35-.27 2.66-.93 3.65-1.68.9-.68 1.1-1.97 2.06-2.54 2.06-1.21 4.45-2.1 6.61-3.2.71-.36 1.78-1.04 1.65-1.46-.26-.91-.97-1.96-1.91-2.54-.79-.48-2.15-.38-4.01-.64zm-34.872-32.01c4.117-.9 6.71-5.85 5.33-9.476-1.09-2.857-1.992-3.22-5.172-2.172-.45.15-1.072-.018-1.802-.046.818 4.078.713 3.99-2.087 7.048-.635.693-.428 2.484.225 3.366.56.757 2.532 1.494 3.506 1.28zm-33.978 74.798c-1.718.43-2.98.946-4.297 1.024-2.73.163-5.144.878-5.065 3.127.064 1.87 1.064 3.85 2.192 5.58.683 1.04 2.255 1.37 3.576.02 1.79-1.83 3.85-3.5 5.644-5.32.682-.69 1.693-1.95 1.355-2.32-.844-.94-2.37-1.52-3.405-2.12zm-111.964-91.185c-1.88 1.932-.932 3.463 1.848 3.94 1.238.212 2.49.397 3.443.546 1.025-2.01 1.812-3.86 2.88-5.59.7-1.14 1.933-2.06 2.677-3.18.355-.54.485-1.68.13-1.92-.716-.49-2.302-1.02-2.712-.71-2.865 2.17-5.806 4.38-8.266 6.91zm165.797-42.535c-.433-.985-1.974-1.677-2.997-2.505-.59.733-1.707 1.422-1.692 2.21.066 3.57.45 7.168.744 11.095 5.35-1.7 5.977-6.19 3.945-10.8zM294.54 476.765c-.208-.03-.427.005-1.306.025-.25.084-1.425.185-1.805.662-1.11 1.396-2.08 2.9-2.78 4.457-.58 1.27.5 1.79 2.15 1.63 1.04-.1 2.07-.36 3.11-.32 2.64.08 6.56-2.13 6.21-4.07-.41-2.27-3.37-2.07-5.59-2.4zm25.864-69.235c-1.602 3.655-7.663 5.23-5.13 10.3 2.944-.164 7.23-2.684 7.58-4.746.304-1.792.584-3.81-2.45-5.555zM214.79 467.417c.567-.197.935-1.457.767-2.14-.58-2.342-2.19-3.968-5.378-4.626-2.82-.58-4.27.02-4.36 3.01.39.34 1.16 1.18 2.14 1.82 1.07.7 2.27 1.34 3.56 1.75.99.31 2.35.5 3.24.19zm95.854-30.42c-.113.336.537 1.146 1.006 1.276.502.14 1.502-.114 1.77-.458.807-1.035 1.422-2.186 1.996-3.33 1.156-2.304 2.23-4.63 3.402-7.128-1.852-.782-4.05-.76-4.916.913-1.435 2.77-2.273 5.788-3.258 8.727zM182.464 485.8c-.264.54.072 1.698.614 1.913 4.183 1.66 9.626-1.163 10.134-4.147-5.19-1.78-9.177-.99-10.748 2.233zm116.422-53.91c-1.783-.17-3.976-.812-5.25 1.095-1.402 2.096.166 3.418 2.06 5.19 1.74-1.43 5.692-.71 5.132-3.815-.16-.902-1.21-2.4-1.942-2.47zm-93.632-2.275c-2.17-.668-4.77-.77-7.125-.556-.75.06-1.33 1.96-1.79 2.71 3.77.61 6.99 1.12 10.39 1.66.36-1.25.67-3.16-1.48-3.82zm125.32 21.413c-.79.17-1.477.583-2.21.886.542.56.942 1.302 1.655 1.65 3.28 1.602 6.23.914 9.07-2.67-2-.168-3.37-.396-4.71-.37-1.29.025-2.58.24-3.81.504zm-169.914 8.077c.837-.842-2.188-2.945-4.65-2.762-.92.068-2.268 1.598-2.492 2.55-.197.845.898 1.815 1.775 3.326 2.388-1.33 4.257-2.01 5.367-3.12zm50.92 16.772c.914 1.014 1.504 2.344 2.652 2.732 1.1.37 2.86-.08 4.163-.49.573-.18 1.227-1.29 1.006-1.72-1.04-2.03-5.09-2.4-7.82-.53zm-49.25-74.937c-.228.694-.387 1.465-.482 2.333 2.084-1.322 3.88-2.474 5.592-3.578-1.102.055-2.266-.05-3.257.284-.74.24-1.345.57-1.852.96z'},{'color':'#9ed670','path':'M162.33 400.94c-1.425 1.095-2.03 2.748-2.28 4.974 3.046-1.92 5.5-3.488 7.937-5.06l-.344-1.167c-.066.005-.137.004-.203.008-1.713 1.104-3.508 2.256-5.592 3.578.095-.868.253-1.64.483-2.334zm12.402 65.298c.61 3.523 4.2 4.567 9.285 2.542-3.148-.706-5.088-3.756-9.285-2.542zM295.84 451.21c-.454.062-.864 1.306-.784 1.996.117 1.004.692 1.99 1.462 3.98 1.56-1.312 2.878-2.1 3.552-3.154.3-.468-.455-1.7-1.17-2.174-.76-.504-2.11-.777-3.06-.648z'}];var FROG_LEGS=exports.FROG_LEGS=[{'color':'#9ed670','path':'M456.217 348.896c1.456-.892 1.73-2.985 1.396-4.87-.447-2.54-2.158-3.09-4.103-1.522-.252.204-.68.247-1.002.21-1.68-.183-2.32.932-2.52 2.466-.218 1.685.275 3.052 1.728 4.52 1.512-.225 3.19-.003 4.5-.804zm-5.902 21.8c1.227-1.923.994-3.932-.65-5.395-1.112-.99-4.072-.5-4.844.71-1.34 2.11-1.34 4.12.11 5.44 1.51 1.37 4.22 1.08 5.39-.74zm-36.705 6.616c-.913 1-.91 3.866.002 4.753 1.356 1.317 3.678.965 5.258-.892.88-1.036 2.02-2.2.585-3.573-1.603-1.533-4.64-1.612-5.846-.288zM453.176 324c-1.812-.496-4.69.213-5.574 1.498-1.215 1.765-.645 3.645 1.21 4.243 1.944.63 4.534-.34 5.58-1.93 1.202-1.83.78-3.26-1.216-3.8z'},{'color':'#4d7358','path':'M450.696 322.45c-1.77.46-3.303 1.368-4.886 1.995-1.23.486-2.462.95-3.686 1.21-7.877 1.66-13.442 2.166-18.692 2.343-4.122.14-9.635-1.668-14.714-1.17-4.1.398-6.893-3.69-9.124-7.976-1.72-3.304-2.31-7.006-4.5-10.062-2.354-3.28-4.293-6.892-6.968-9.892-3.093-3.47-6.55-6.747-10.475-9.353-2.29-1.526-3.16-3.744-5.35-5.248-2.49-1.707-4.57-3.976-6.62-6.144-1.07-1.137-1.79-2.543-2.47-3.886-1.01-1.985-1.8-4.07-2.72-6.21-.13-.3-.65-.526-.93-.983-1.19-1.056-2.4-2.143-3.63-3.25-1.23-1.108-2.7-2.123-3.71-3.416-2.53-3.25-4.45-6.885-5.23-10.906-.35-1.85-2.04-3.584-3.1-5.334-1.6-2.653-3.2-5.22-4.61-7.745-.86-1.544-2.71-4.084-1.91-4.142-1.51-2.12-2.92-4.1-4.27-6.02-1.85-2.62-3.54-5.13-5.28-7.68-.48-.71-1.34-1.22-2.18-2 .77-1.87.09-3.26-2.22-4.42-.16-.08-.34-.17-.46-.3-1.86-2.18-3.48-4.63-5.51-6.69-3.62-3.68-6.18-8.84-10.92-11.53-3.2-1.82-12.24-8.04-15.98-7.92-.75.03-14.81-.47-15.5.03-3.98 2.92-5.48 7.08-3.55 10.76 1.24 2.36 21.78 11.24 23.47 12.98 2.26 2.32 4.28 4.59 6.21 6.81-.17-.38-.32-.81-.45-1.28-.25-1.19-.23-2.76 1.8-3.9 1.77-.98 2.87-2.32 1.81-4.78-.42-.98.42-2.77 1.16-3.88.35-.52 1.96-.65 2.72-.33 1.08.46 1.3 1.58.8 2.84-.98 2.49-.63 4.34.89 5.63.2.17.41.35.64.47 2.25 1.2 2.43 3.17.35 4.67-1.32.96-2.67 1.92-4.12 2.65-1.35.68-2.6.74-3.64.21 2.47 2.9 4.85 5.75 7.45 8.58 4.2 4.59 9.88 8.89 16.12 14.55 6.21 5.63 12.61 12.59 17.5 19.83 1.72 2.55 2.94 5.2 4.38 7.68 1.25 2.16 2.69 3.98 5.01 5.49 3.68 2.4 7.15 4.62 9.78 7.95 6.77 8.57 12.91 17.84 18.36 27.39 2.37 3.95 5.05 7.73 7.23 11.78 3.33 6.19 18.86 24.84 21.74 31.03 1.42 3.03 2.29 6.31 3.38 9.49.49 1.42 1.13 2.83 1.35 4.3.49 3.22.26 6.26-2.55 8.61-2.32 1.93-2.05 5.99.42 8.55 1.45 1.5 5 .89 6.86-1.18 2.47-2.75 2.46-2.76.75-6.42-.12-.27-.12-.67-.04-.97 2.17-7.46.63-14.33-3.17-20.91-.78-1.36-1.2-2.96-1.82-4.45.26-.19.5-.38.75-.57 2.5 2.03 4.95 4.13 7.47 6.09 4.03 3.14 8.25 6 12.28 9.14 2.51 1.95 5.46 3.45 6.74 6.97 1.11 3.06 4.82 3.91 7.61 1.66 2.25-1.81 2.62-5.63 1.03-8.56-1.51-2.79-3.94-2.05-6.02-1.91-1.32.09-2.18-.17-3.16-1.03-2.75-2.423-5.64-4.65-8.42-7.054-2.31-2.01-4.54-4.16-6.91-6.53 3.25.7 6.37 1.23 9.6 1.38 3.71.17 7.57-.18 11.54-.44.64-.04 1.44.53 1.91 1.12 1.64 2.07 4.11 2.65 6.6 1.15 2.28-1.37 3.22-3.98 2.72-7.81-.33-2.622-1.94-3.74-4.62-3.86-1.74-.07-3.11.467-4.64 1.37-1.38.82-3.2.65-4.76 1.02-8.39 1.98-15.75.775-22.39-3.383-.91-.57-1.83-1.01-2.73-1.51l-.01-.69c3.19-.81 6.03-1.86 9.25-2.49 4.3-.84 9.27-2.09 15.11-3.77.8-.23 2.05.37 2.94.807 3.81 1.86 8.66-.87 9.86-4.32 1.02-2.94-2.93-5.15-6.8-4.15zm-149.69-124.226c-.65.116-1.255.473-1.887.7-1.01.36-1.76.08-1.61-1.06.18-1.39.55-2.778 1.02-4.1.16-.452.88-.7 1.03-.808.55-.142.68-.202.81-.207 1.44-.04 3.27-.62 3.87 1.22.51 1.57-1.59 3.95-3.26 4.25zm18.935 21.458c-.5-.2-.85-.776-1.27-1.178.44-.36.83-.805 1.33-1.06.77-.394 1.58-.753 2.41-.95.87-.202 1.78-.194 3.09-.32-1.42 3.45-3.22 4.426-5.54 3.508zm11.16 16.04c-.23 1.058-.48 2.12-.88 3.123-.13.333-.76.695-1.11.65-.32-.04-.86-.627-.83-.93.25-2.646.41-5.327 1.01-7.9.36-1.555 1.84-1.908 3.18-1.52-.47 2.304-.89 4.446-1.35 6.577zm87.77 145.45c-1.58 1.857-3.9 2.21-5.25.893-.91-.887-.91-3.754 0-4.753 1.21-1.324 4.25-1.244 5.85.29 1.44 1.37.3 2.535-.58 3.57zm25.95-15.166c.78-1.212 3.74-1.694 4.85-.705 1.65 1.47 1.88 3.48.65 5.4-1.17 1.83-3.88 2.11-5.38.75-1.45-1.31-1.45-3.32-.11-5.43zm5.17-20.824c.2-1.534.84-2.65 2.52-2.466.32.037.75-.007 1-.21 1.95-1.568 3.66-1.02 4.11 1.52.34 1.886.06 3.98-1.39 4.872-1.31.8-2.99.58-4.5.806-1.45-1.47-1.94-2.838-1.72-4.522zm4.4-17.378c-1.04 1.593-3.63 2.565-5.57 1.938-1.85-.6-2.42-2.48-1.21-4.243.89-1.29 3.76-2 5.58-1.5 2 .54 2.42 1.96 1.22 3.8z'},{'color':'#9ed670','path':'M303.087 218.543c-.64-.752-1.288-1.508-1.944-2.268.49 1.104 1.154 1.86 1.944 2.268zm3.64-.206c1.453-.727 2.794-1.695 4.12-2.648 2.08-1.5 1.905-3.47-.345-4.67-.232-.13-.44-.31-.642-.48-1.52-1.29-1.873-3.14-.892-5.62.496-1.25.275-2.38-.8-2.84-.766-.33-2.376-.19-2.72.33-.734 1.11-1.576 2.9-1.153 3.88 1.06 2.46-.035 3.8-1.804 4.78-2.03 1.13-2.05 2.71-1.8 3.9.13.47.28.89.46 1.28.66.76 1.31 1.51 1.95 2.27 1.04.53 2.29.47 3.64-.21zm-6.344-25.587c-.136.004-.268.065-.817.207-.143.106-.866.355-1.03.808-.472 1.322-.838 2.71-1.024 4.1-.152 1.14.605 1.42 1.607 1.06.63-.227 1.23-.584 1.88-.7 1.66-.297 3.77-2.68 3.25-4.25-.61-1.842-2.43-1.263-3.88-1.225zm28.894 37.915c-.6 2.574-.757 5.255-1.006 7.9-.02.303.52.892.84.932.35.043.98-.318 1.11-.65.4-1.003.65-2.066.88-3.124.47-2.13.89-4.272 1.36-6.577-1.34-.39-2.81-.036-3.17 1.52zm-3.787-14.49c-1.313.125-2.228.117-3.092.32-.833.196-1.643.556-2.407.95-.49.253-.88.698-1.32 1.06.42.4.78.978 1.28 1.177 2.32.918 4.12-.057 5.55-3.507z'},{'color':'#9ed670','path':'M306.73 218.337c1.45-.727 2.792-1.695 4.118-2.648 2.08-1.5 1.904-3.47-.346-4.67-.232-.13-.44-.31-.643-.48-1.52-1.29-1.88-3.14-.9-5.62.49-1.25.27-2.38-.8-2.84-.77-.33-2.38-.19-2.72.33-.74 1.11-1.58 2.9-1.16 3.88 1.06 2.46-.04 3.8-1.81 4.78-2.04 1.13-2.05 2.71-1.8 3.9.12.47.28.89.45 1.28.65.76 1.3 1.51 1.94 2.27 1.04.53 2.29.47 3.64-.21zm-6.347-25.587c-.136.004-.268.065-.816.207-.144.106-.866.355-1.03.808-.472 1.322-.838 2.71-1.024 4.1-.152 1.14.605 1.42 1.607 1.06.632-.227 1.236-.584 1.886-.7 1.663-.297 3.77-2.68 3.253-4.25-.61-1.842-2.43-1.263-3.88-1.225zm28.894 37.915c-.6 2.574-.758 5.255-1.006 7.9-.02.303.52.892.84.932.35.043.98-.318 1.11-.65.4-1.003.65-2.066.88-3.124.47-2.13.89-4.272 1.36-6.577-1.34-.39-2.81-.036-3.17 1.52zm-3.787-14.49c-1.313.125-2.23.117-3.092.32-.834.196-1.644.556-2.407.95-.49.253-.88.698-1.32 1.06.42.4.77.978 1.28 1.177 2.33.918 4.12-.057 5.55-3.507'},{'color':'#9ed670','path':'M99.957 366.718c2.552-.592 4.032-2.633 3.443-4.575-.396-1.31-3.128-2.726-4.532-2.35-1.858.5-3.278 3.436-2.608 5.72.6 2.05 2.275 1.535 3.697 1.205zM75.29 392.382c1.985-.562 3.41-3.23 2.845-5.34-.543-2.03-2.36-2.888-4.716-2.224-1.36.382-2.81 3.412-2.38 4.95.63 2.272 2.15 3.205 4.24 2.614zm-21.813-7.592c-1.463-.115-2.638.32-2.758 2.094-.03.34-.14.773-.38.988-1.8 1.653-1.54 3.51.61 4.623 1.6.826 3.43 1.088 4.52-.245.98-1.2 1.17-3.055 1.71-4.62-.97-1.903-2.12-2.715-3.73-2.84zm-20.224-6.713c-1.662.447-2.99 2.81-2.602 4.626.43 2 2.18 2.94 4.45 2.393 1.97-.474 3.33-2.7 2.88-4.725-.42-1.93-2.44-2.91-4.72-2.29z'},{'color':'#4d7358','path':'M208.073 189.488c-.682-.628-1.438-1.47-2.26-1.603-4.094-.66-23.44 9.738-27.49 10.974-5.99 1.82-10.062 6.52-15.196 9.61-2.873 1.73-5.408 4.01-8.103 6.04-.167.12-.387.19-.593.25-2.85.82-3.93 2.26-3.78 4.52-1.12.73-2.15 1.17-2.87 1.91-2.56 2.64-5.03 5.37-7.52 8.08-1.82 1.97-3.64 3.95-5.53 6 .7.18-1.58 2.61-2.68 4.08-1.81 2.4-3.71 4.73-5.56 7.11-1.22 1.56-2.98 2.97-3.53 4.74-1.19 3.85-3.15 7.19-5.68 10.21-1 1.2-2.47 2.01-3.73 3.01-1.25.99-2.5 2-3.75 3-.28.48-.84.64-.97.98-.94 2.37-1.73 4.8-2.72 7.15-.67 1.59-1.35 3.27-2.45 4.56-2.09 2.45-4.21 5.03-6.82 6.83-2.29 1.58-3.16 4.19-5.63 5.73-4.21 2.62-8.02 6-11.62 9.46-3.11 2.99-5.64 6.58-8.54 9.8-2.7 3-3.77 6.91-5.99 10.18-2.87 4.24-5.75 8.49-8.32 12.92-3.17 5.49-8.33 9.45-10.96 15.42-3.36 7.61-7.41 14.91-11.21 22.32-.59 1.16-1.39 2.22-2.2 3.24-1.05 1.31-2.41 2.41-3.27 3.82-1.87 3.08.65 7.55 4.27 7.67 4.26.13 7.64-3.91 6.12-8.04-.35-.97-.82-2.33-.42-3.08 2.89-5.45 5.87-10.87 9.07-16.14 2.4-3.94 5.18-7.66 7.79-11.48l.68.21c-.01 1.28-.08 2.56-.02 3.83.49 9.31-1.66 18.08-5.28 26.56-.67 1.58-.83 3.51-1.85 4.75-1.13 1.39-1.85 2.66-2.06 4.44-.31 2.74.46 4.66 2.69 5.71 3.25 1.54 5.56 1.27 7.27-.85 1.88-2.32 2.04-5.17.57-7.4-.41-.64-.75-1.62-.57-2.29 1.14-4.21 2.51-8.35 3.67-12.55 1.02-3.67 1.88-7.38 2.87-11.32 1.14 3.36 2.26 6.45 3.23 9.58 1.17 3.74 2.16 7.54 3.32 11.29.42 1.33.33 2.34-.21 3.74-.85 2.19-2.22 4.58-.47 7.15 1.84 2.69 4.98 3.61 7.45 1.95 3.07-2.07 4.05-6.09 1.79-8.54-2.6-2.82-2.71-6.4-3.41-9.77-1.13-5.41-1.86-10.89-2.84-16.32-.61-3.4-1.38-6.77-2.08-10.15l.93-.49c1.14 1.28 2.46 2.45 3.37 3.88 4.41 6.86 10.2 11.72 18.39 13.33.32.07.71.26.91.52 2.64 3.44 2.65 3.45 6.49 2.45 2.89-.76 5.22-3.84 4.5-5.96-1.23-3.62-4.96-5.88-7.95-4.61-3.63 1.53-6.64.24-9.47-1.8-1.29-.94-2.32-2.25-3.44-3.42-2.49-2.61-5.19-5.06-7.38-7.91-4.48-5.81-5.16-12.09-.87-18.3 2.81-4.07 6.12-7.77 9.11-11.71 7.21-9.48 14.5-18.91 21.45-28.57 2.74-3.81 6.54-5.91 10.34-8.07 2.4-1.36 3.72-3.28 4.76-5.6 1.2-2.68 2.14-5.52 3.64-8.01 4.28-7.09 10.38-12.57 16.99-17.33 6.64-4.78 13.68-9 20.6-13.37 8.63-5.45 32.72-20.86 41.27-26.44 2.42-1.58 4.63-3.75 6.31-6.1 2.63-3.66 1.47-8.27-2.48-11.9zM35.093 385.096c-2.268.548-4.015-.392-4.442-2.393-.38-1.816.94-4.18 2.61-4.626 2.28-.616 4.3.364 4.72 2.294.45 2.03-.91 4.26-2.88 4.73zM57.2 387.63c-.54 1.565-.73 3.42-1.715 4.62-1.094 1.333-2.923 1.07-4.522.245-2.155-1.113-2.41-2.97-.616-4.623.233-.215.348-.647.37-.988.12-1.773 1.296-2.21 2.76-2.095 1.605.12 2.756.93 3.722 2.84zm16.22-2.813c2.356-.664 4.172.193 4.715 2.224.563 2.11-.86 4.78-2.846 5.34-2.1.6-3.62-.34-4.25-2.61-.43-1.54 1.02-4.56 2.37-4.95zm25.448-25.023c1.404-.377 4.136 1.04 4.532 2.35.588 1.94-.892 3.982-3.443 4.574-1.422.33-3.096.843-3.697-1.204-.67-2.285.75-5.22 2.608-5.72zm53.046-120.05c-.173.6-.806 1.115-1.474 1.992-.378-.668-.658-.924-.632-1.15.242-2.078-1.867-3.09-3.468-4.373-.558-.448-1.186-1.217-1.05-1.708.32-1.15 1.244-2.248 2.947-2.344.754-.04 1.925.58 2.388 1.14 1.667 2 1.937 4.22 1.29 6.45zm4.608-17.736c.137-2.784.802-4.585 2.94-5.378.797-.297 1.768-.125 2.66-.167.1.363.203.726.305 1.09l-5.905 4.455zm8.778-2.216c2.93-1.028 4.316 1.8 6.52 2.516-3.552 1.73-6.05.715-6.52-2.516zm15.88-15.947c-.35 1.543-1.365 2.977-2.274 4.34-1.108 1.66-2.157 3.22-.95 5.286.23.4.175.96.273 1.58-5.44.82-8.7-2.96-7.03-7.84 1.02-2.98 2.15-6.04 5.37-7.28 1.06-.41 2.87-.29 3.66.38.79.67 1.19 2.44.94 3.54z'},{'color':'#9ed670','path':'M180.24 200.305c-.794-.672-2.6-.792-3.666-.382-3.22 1.244-4.357 4.298-5.377 7.283-1.667 4.875 1.59 8.658 7.03 7.84-.098-.62-.042-1.18-.272-1.575-1.208-2.06-.16-3.62.95-5.28.908-1.36 1.923-2.79 2.274-4.34.25-1.1-.15-2.87-.94-3.54zm-32.003 31.855c-1.703.097-2.628 1.195-2.947 2.344-.135.49.493 1.26 1.05 1.708 1.6 1.282 3.71 2.295 3.468 4.372-.026.227.253.483.632 1.15.668-.875 1.3-1.39 1.474-1.99.65-2.227.378-4.446-1.29-6.45-.462-.554-1.633-1.178-2.387-1.134zm11.223-15.53c-2.136.792-2.802 2.593-2.938 5.377 2.247-1.696 4.077-3.076 5.905-4.457-.102-.363-.205-.726-.304-1.09-.893.045-1.864-.128-2.662.17zm5.84 3.162c.47 3.23 2.968 4.246 6.52 2.516-2.203-.715-3.59-3.544-6.52-2.516z'},{'color':'#9ed670','path':'M419.62 646.47c.81-.15 1.97-.24 1.25-2-.3-.74-.24-1.62-.5-2.39-.1-.3-.6-.52-.96-.66-.46-.18-.97-.24-1.45-.35-.65-.15-1.75-.59-1.86-.41-.43.69-.81 1.61-.74 2.39.18 1.81 2.13 3.37 4.26 3.42zm-31.64-2.22c.35 2.1 2.03 2.72 3.82 3.22.49-.34.94-.62 1.36-.95 1.34-1.06 1.34-2.04.06-3.18-.25-.23-.49-.57-.56-.9-.45-2.06-1.86-1.65-3.2-1.23-1.48.47-1.7 1.68-1.48 3.04zm50.89-11.13c1.47.59 2.95.33 3.46-.76.56-1.16-.36-4.06-1.46-4.44-.55-.2-1.15-.25-1.46-.31-2.11.03-2.48.69-2.2 2.5.2 1.28.22 2.43 1.66 3.01zm7.62-21.63c-1.79-.18-1.91-2.03-2.97-2.91-.25-.2-1.11.01-1.43.31-.3.3-.27.95-.44 1.73-.37-.03-.85-.08-1.32-.12-.17 2.33.64 3.71 2.58 4.44 1.78.67 3.99-1.21 3.68-3.12-.02-.12-.06-.33-.1-.33zM318.1 467.99c-1.69 1.64-3.41 3.32-4.78 5.23-1.04 1.47-.31 2.6 1.49 2.92.8.15 1.61.27 2.22.37.51-1.51.87-2.89 1.43-4.19.37-.86 1.1-1.55 1.5-2.4.19-.4.2-1.25-.05-1.43-.5-.36-1.56-.74-1.81-.5z'},{'color':'#9ed670','path':'M310.85 465.64c-.74-.01-1.5.12-2.22.28-.47.11-.9.4-1.34.6.26.43.44.99.81 1.27 1.75 1.26 3.47.83 5.4-1.75-1.12-.18-1.88-.38-2.65-.4zm-32.97 2.28c.53.56.95 1.34 1.59 1.65 1.58.76 2.48 1.78 2.24 3.61-.07.52-.01 1.07-.01 1.77 4.32-1.8 4.87-3.65 4.84-7.32 0-.69-1.04-1.89-1.69-1.96-1.57-.17-3.24 0-4.78.4l-.38.16c-.65.35-1.2 1.14-1.81 1.69zm13.92 11.36c.19-.35-.17-1.26-.55-1.62-.41-.39-1.18-.61-1.73-.53-.27.04-.57.95-.56 1.46.01.74.29 1.47.63 2.95.96-.94 1.76-1.5 2.21-2.26zm-5.87 4.08c-1.77-.62-3.63-1.14-5.49-1.31-.7-.06-1.71.76-2.2 1.45-.51.73-.26 1.92.86 1.83 2.62-.19 3.98 1.1 4.64 3.66.64-.17 1.22-.15 1.4-.4.8-1.14 1.62-2.3 2.11-3.57.14-.35-.72-1.46-1.32-1.66zm8.59 6.15c-.98.3-1.7.66-2.44.71-1.54.09-2.91.59-2.92 2.24 0 1.37.52 2.81 1.11 4.08.35.78 1.21 1.03 1.98.06 1.04-1.32 2.23-2.52 3.29-3.82.4-.5 1.01-1.4.83-1.68-.45-.7-1.29-1.14-1.85-1.59zm6.07-16.67c-1.68.26-2.54 1.79-2.79 3.33-.1.66.56 1.63 1.14 2.18 1.66 1.58 3.81 2.76 3.68 5.53-.01.3.28.62.7 1.47.61-1.21 1.21-1.94 1.34-2.74.52-3 .13-5.92-1.64-8.44-.49-.7-1.69-1.44-2.43-1.33zm10.26 21.34c-.97.29-1.7.66-2.44.7-1.54.1-2.91.6-2.91 2.24 0 1.37.51 2.82 1.1 4.09.36.77 1.21 1.03 1.98.05 1.04-1.31 2.23-2.51 3.29-3.82.4-.49 1.01-1.4.83-1.68-.44-.69-1.28-1.13-1.85-1.58zm12.95-9.62c-.36-.14-1.46.73-1.67 1.32-.61 1.78-1.13 3.63-1.3 5.49-.07.71.76 1.72 1.45 2.2.72.51 1.91.26 1.83-.85-.19-2.63 1.1-3.99 3.66-4.64-.17-.65-.15-1.22-.41-1.4-1.13-.8-2.29-1.63-3.56-2.12zm9.49-5.31c-.47.98.11 2.46.27 4.06.73-.62 1.1-.91 1.44-1.22.39-.35.75-.75 1.15-1.09 1.38-1.16 1.43-1.81.2-3.42-1.06.53-2.65.82-3.06 1.67zm5.61 20.33c.53.74.89 1.71 1.54 1.98.62.27 1.59-.07 2.31-.38.32-.13.67-.95.54-1.26-.61-1.47-2.9-1.72-4.39-.34z'},{'color':'#4d7358','path':'M447.61 609.05c-.544-1.912-2.688-3.13-4.413-2.224-4.148 2.183-8.544 1.372-12.85 1.473-4.815.11-9.57-.65-14.328-1.39-5.42-.84-10.94-1.13-16.31-2.21-4.96-1.01-67.8 8.18-71.39 4-1.77-2.06-1.95-4.09-.26-6.22.14-.19.41-.38.4-.57-.08-3.03 2.74-3.44 4.39-4.91.58-.52 1.09-1.13 1.63-1.69.12-.13.21-.32.35-.38 3.53-1.41 5.85-4.46 8.89-6.5 2.58-1.73 5.39-3.14 7.99-4.85 2.66-1.76 5.14-3.79 7.8-5.56 4.2-2.81 8.42-5.59 12.75-8.21 7.7-4.66 15.34-9.41 22.25-15.23 3.43-2.9 6.89-5.77 10.26-8.74 2.5-2.21 2.08-5.16 1.81-8.07-.38-4.13-2.32-7.65-4.61-10.86-1.97-2.78-4.54-5.18-7.05-7.52-2.92-2.73-5.98-5.34-9.14-7.79-2.16-1.68-4.6-2.97-6.89-4.47-4.61-3.02-9.33-5.87-13.75-9.14-4.53-3.34-8.7-7.18-13.13-10.65-3.07-2.41-6.36-4.55-9.5-6.88-1.2-.89-2.18-2.11-3.43-2.9-2.02-1.28-4.19-2.32-6.27-3.5-1.31-.74-2.57-1.58-3.88-2.31-3.48-1.95-6.83-4.23-10.5-5.72-3.75-1.52-7.77-2.59-11.77-3.23-4.15-.67-8.43-.94-12.61-.72-3 .15-5.95 1.34-8.9 2.19-1.74.5-3.46 1.07-5.14 1.74 1.53-.4 3.21-.57 4.77-.4.65.07 1.69 1.27 1.69 1.96.03 3.67-.52 5.52-4.84 7.32 0-.71-.06-1.25.01-1.77.24-1.83-.66-2.86-2.24-3.61-.65-.31-1.06-1.09-1.59-1.65.61-.55 1.15-1.34 1.81-1.69-.17.07-.34.13-.5.2-4.75 2.07-6.68 5.86-5.89 11.11.84 5.57 4.23 9.8 8.36 13.33 4.06 3.46 8.49 6.48 12.55 9.94 2.41 2.05 4.89 3.82 7.81 5.07 3.99 1.69 7.9 3.56 11.83 5.38 1.84.84 3.63 1.78 5.48 2.59 5.47 2.39 10.92 4.81 16.44 7.08 9.16 3.77 18.37 7.41 27.54 11.15 2.81 1.15 5.58 2.4 8.33 3.69 1.82.86 2.01 1.67.65 3.1-3.09 3.24-6.39 6.3-9.41 9.61-3.36 3.67-8.05 5.34-11.9 8.24-3.47 2.61-7.09 5.05-10.44 7.81-4.59 3.78-9.01 7.78-13.46 11.74-3.45 3.07-6.88 6.17-10.23 9.35-2.24 2.12-4.4 4.34-6.47 6.63-3.42 3.77-6.83 7.56-10.05 11.51-1.55 1.91-2.79 4.12-3.908 6.33-.75 1.5.03 3.27 1.49 4.16 1.513.92 3.012 1.91 4.63 2.64 3.14 1.41 6.43 2.51 9.51 4.03 1.88.93 59.3 4.41 61.13 5.43 5.44 3.03 9.45-2.33 11.91 3.37 1.18 2.74 1.6 5.81 2.37 8.73.14.55.35 1.09.54 1.69-2.868 3.69-1.198 6.26 1.22 7.64 1.68.96 4.16.74 5.37-.46 1.16-1.16 1.42-4.11.64-5.64-1.38-2.67-2.78-5.34-3.96-8.11-2.09-4.89-4.01-9.84-6-14.77-.04-.1.01-.23.02-.49.34.15.68.23.92.43 7.52 6.37 15.102 12.66 22.5 19.17 2.24 1.98 3.98 4.54 5.87 6.89 1.28 1.59 2.72 2.84 4.82 3.13 1.075.14 3.31-1.34 3.38-2.44.165-2.42-.45-4.65-2.355-6.29-.49-.43-1.31-.69-1.96-.66-1.654.06-2.67-.91-3.624-1.97-2.79-3.1-5.42-6.35-8.33-9.33-2.49-2.55-5.31-4.77-7.9-7.23-.93-.88-1.6-2.03-2.4-3.05l.27-.44c2.11.87 4.2 1.78 6.32 2.62 3.71 1.45 7.44 2.83 11.15 4.28 3.196 1.25 6.35 2.62 9.56 3.83 3.56 1.34 7.17 2.52 10.74 3.82.61.22 1.25.58 1.67 1.06 1.55 1.72 3.18 2.87 5.74 2.25 1.69-.41 3.04-2.39 2.85-4.17-.21-1.94-1.79-3.94-3.45-4.06-.89-.06-1.85-.09-2.67.19-2.94.99-5.76.22-8.336-.9-2.91-1.27-5.54-3.19-8.32-4.77-2.83-1.62-5.71-3.16-8.56-4.75-1.23-.69-2.43-1.42-3.64-2.13l.07-.44c2.454 0 4.91-.07 7.36.01 6.27.204 12.54.48 18.81.72.42.02.88.1 1.253-.03 1.84-.63 3.097.14 4.44 1.372 2.03 1.87 6.12.31 6.47-2.44.17-1.32-.006-2.77-.373-4.06zM287.252 485.02c-.492 1.273-1.317 2.432-2.115 3.564-.18.256-.756.232-1.4.403-.654-2.563-2.016-3.847-4.64-3.655-1.118.08-1.364-1.107-.857-1.83.487-.69 1.5-1.52 2.202-1.454 1.86.175 3.714.692 5.49 1.307.596.205 1.458 1.31 1.32 1.665zm2.263-7.89c.555-.08 1.32.14 1.73.524.385.36.748 1.28.55 1.62-.446.764-1.246 1.32-2.207 2.263-.336-1.478-.616-2.21-.63-2.95-.01-.51.29-1.418.556-1.457zm6.023 15.644c-1.06 1.306-2.25 2.504-3.29 3.822-.77.974-1.628.72-1.984-.053-.587-1.273-1.104-2.717-1.102-4.088.003-1.643 1.374-2.146 2.913-2.24.742-.045 1.465-.41 2.444-.707.56.45 1.4.893 1.85 1.587.17.278-.43 1.183-.83 1.68zm9.124-10.17c-.14.808-.735 1.537-1.348 2.748-.413-.855-.705-1.173-.69-1.477.12-2.767-2.027-3.95-3.686-5.524-.578-.55-1.244-1.52-1.138-2.18.25-1.54 1.104-3.07 2.786-3.32.745-.11 1.94.62 2.432 1.33 1.766 2.53 2.16 5.45 1.644 8.44zm7.208 14.836c-1.058 1.306-2.25 2.504-3.29 3.822-.768.974-1.627.72-1.983-.053-.588-1.28-1.105-2.72-1.103-4.09.003-1.65 1.374-2.15 2.913-2.24.742-.05 1.465-.41 2.444-.71.57.45 1.41.89 1.85 1.58.18.28-.43 1.18-.83 1.68zm-3.768-29.657c-.378-.274-.55-.833-.814-1.26.444-.208.87-.496 1.336-.603.726-.166 1.48-.293 2.22-.278.77.016 1.533.22 2.66.396-1.938 2.584-3.654 3.012-5.402 1.745zm11.855 2.137c-.404.845-1.13 1.542-1.497 2.396-.56 1.3-.927 2.685-1.43 4.19-.616-.1-1.423-.222-2.226-.366-1.8-.322-2.53-1.455-1.485-2.917 1.36-1.913 3.08-3.59 4.78-5.236.24-.237 1.31.144 1.8.5.25.177.24 1.03.05 1.432zm4.152 22.795c.08 1.117-1.11 1.363-1.83.856-.7-.48-1.52-1.49-1.46-2.2.17-1.86.69-3.71 1.3-5.49.2-.59 1.31-1.46 1.66-1.32 1.27.5 2.43 1.32 3.56 2.12.25.18.23.76.4 1.4-2.57.66-3.85 2.02-3.66 4.64zM336.15 481c-.404.342-.762.738-1.153 1.093-.345.31-.706.6-1.438 1.22-.16-1.604-.74-3.082-.27-4.058.4-.853 1.99-1.14 3.06-1.676 1.22 1.6 1.18 2.25-.2 3.42zm6.602 20.182c-.723.304-1.697.644-2.318.38-.65-.277-1.004-1.244-1.537-1.978 1.49-1.383 3.78-1.136 4.393.338.13.312-.222 1.127-.54 1.26zm46.71 140.033c1.334-.425 2.75-.83 3.197 1.23.07.324.3.664.56.892 1.27 1.14 1.27 2.128-.06 3.182-.42.33-.87.61-1.36.95-1.8-.51-3.47-1.13-3.82-3.23-.23-1.35 0-2.56 1.48-3.03zm26.638-.555c.113-.18 1.21.256 1.855.408.484.114.99.175 1.45.354.36.14.86.358.96.655.26.77.2 1.653.502 2.398.715 1.76-.44 1.848-1.248 1.993-2.14-.043-4.09-1.613-4.26-3.416-.08-.786.3-1.702.74-2.392zm23.31-13.054c.31.063.908.117 1.458.31 1.098.39 2.023 3.28 1.465 4.448-.518 1.085-1.993 1.346-3.462.757-1.44-.57-1.46-1.73-1.66-3.01-.28-1.81.09-2.46 2.21-2.5zm3.5-12.663c-1.943-.733-2.755-2.114-2.58-4.446l1.314.125c.178-.777.142-1.43.45-1.727.31-.302 1.178-.517 1.423-.313 1.06.88 1.177 2.727 2.97 2.903.043.005.077.214.095.33.31 1.913-1.9 3.794-3.673 3.128z'},{'color':'#9ed670','path':'M44.682 613.297c-.26-.345-1.087-.69-1.36-.524-1.18.71-1.576 2.517-3.377 2.42-.042 0-.106.2-.142.313-.595 1.844 1.305 4.037 3.16 3.646 2.032-.43 3.044-1.673 3.22-4.005l-1.317-.075c-.06-.796.074-1.435-.184-1.775zm19.008 35.446c-.497.04-1.005.023-1.487.13-.378.084-.905.226-1.048.503-.372.722-.447 1.605-.86 2.296-.974 1.63.154 1.892.932 2.16 2.118.28 4.278-.98 4.725-2.736.194-.765-.042-1.728-.367-2.476-.085-.196-1.235.07-1.895.123zm28.144 4.445c-1.255-.62-2.593-1.237-3.347.732-.12.31-.402.612-.688.8-1.44.934-1.59 1.91-.42 3.153.36.39.76.738 1.2 1.15 1.85-.23 3.6-.588 4.26-2.616.42-1.303.39-2.53-1.01-3.22zm-47.324-20.99c-.313.017-.914-.02-1.486.087-1.144.218-2.495 2.937-2.12 4.175.35 1.15 1.768 1.63 3.31 1.27 1.51-.35 1.708-1.49 2.097-2.725.55-1.747.29-2.45-1.8-2.807z'},{'color':'#4d7358','path':'M180.036 456.914c-2.046-.556-4.157-.92-6.26-1.208-3.033-.41-6.13-1.16-9.118-.88-4.174.387-8.37 1.276-12.372 2.538-3.864 1.218-7.682 2.857-11.173 4.904-3.417 2-6.404 4.74-9.562 7.176-1.19.92-2.31 1.93-3.5 2.853-1.89 1.465-3.88 2.808-5.69 4.368-1.12.967-1.91 2.31-2.97 3.362-2.77 2.755-5.71 5.347-8.4 8.176-3.88 4.083-7.45 8.477-11.44 12.442-3.9 3.87-8.16 7.376-12.28 11.025-2.05 1.816-4.28 3.454-6.17 5.42-2.77 2.884-5.42 5.902-7.92 9.028-2.14 2.684-4.33 5.427-5.89 8.46-1.79 3.51-3.2 7.274-2.98 11.41.16 2.92.17 5.897 2.97 7.72 3.76 2.454 7.6 4.795 11.42 7.16 7.68 4.754 15.93 8.345 24.22 11.84 4.66 1.96 9.24 4.107 13.8 6.273 2.89 1.37 5.64 3.02 8.53 4.37 2.82 1.32 5.8 2.3 8.61 3.64 3.32 1.58 6.05 4.27 9.75 5.15.16.04.27.22.41.33.62.48 1.21 1.01 1.87 1.44 1.84 1.22 4.69 1.21 5.05 4.22.03.19.32.34.49.5 1.98 1.87 2.1 3.91.65 6.19-2.95 4.66-59.76 10.5-64.8 10.75-5.47.27-10.97-.28-16.45-.27-4.82.01-9.63.05-14.37-.79-4.25-.75-8.71-.61-12.49-3.39-1.57-1.15-3.87-.27-4.7 1.53-.55 1.23-.94 2.63-.98 3.96-.07 2.78 3.74 4.93 6.03 3.39 1.52-1.01 2.87-1.58 4.6-.69.35.19.82.18 1.23.22 6.24.71 12.47 1.39 18.71 2.13 2.44.3 4.86.73 7.28 1.1v.44c-1.3.52-2.6 1.07-3.92 1.56-3.05 1.15-6.13 2.24-9.17 3.4-2.99 1.15-5.87 2.65-8.94 3.46-2.71.72-5.62 1.05-8.38-.37-.77-.4-1.72-.52-2.6-.59-1.66-.14-3.52 1.6-4.02 3.49-.46 1.73.57 3.9 2.18 4.55 2.44 1 4.22.12 6.02-1.35.49-.4 1.18-.66 1.82-.79 3.73-.74 7.47-1.38 11.19-2.16 3.36-.7 6.68-1.58 10.03-2.33 3.88-.87 7.78-1.68 11.67-2.55 2.226-.5 4.43-1.09 6.646-1.63l.19.47c-.94.9-1.78 1.93-2.83 2.66-2.93 2.04-6.05 3.81-8.9 5.95-3.32 2.51-6.412 5.33-9.64 7.97-1.11.9-2.26 1.72-3.88 1.4-.64-.12-1.49.01-2.04.36-2.13 1.34-3.08 3.45-3.28 5.86-.1 1.1 1.89 2.91 2.97 2.93 2.12.03 3.73-.99 5.24-2.36 2.23-2.04 4.338-4.31 6.85-5.93 8.29-5.32 16.74-10.4 25.14-15.55.266-.16.61-.19.98-.29-.03.27 0 .4-.05.49-2.71 4.57-5.36 9.18-8.16 13.69-1.58 2.55-3.37 4.98-5.13 7.42-1.01 1.39-1.195 4.35-.22 5.67 1.02 1.37 3.43 1.96 5.24 1.26 2.59-1.01 4.63-3.3 2.36-7.38.285-.57.564-1.07.79-1.592 1.207-2.77 2.08-5.75 3.66-8.28 3.29-5.256 7.36-9.94 12.3-13.73 1.66-1.27 57.98-13.03 59.707-14.23 2.825-1.95 5.92-3.51 8.82-5.37 1.49-.95 2.83-2.14 4.19-3.28 1.31-1.09 1.83-2.95.87-4.33-1.42-2.03-2.96-4.04-4.78-5.702-3.75-3.44-7.68-6.69-11.604-9.93-2.38-1.96-4.84-3.85-7.37-5.62-3.78-2.66-7.62-5.232-11.48-7.772-4.97-3.27-9.93-6.58-15.02-9.67-3.71-2.25-7.64-4.14-11.45-6.22-4.234-2.32-9.113-3.284-12.97-6.44-3.47-2.83-7.17-5.38-10.694-8.14-1.55-1.213-1.47-2.04.2-3.15 2.53-1.68 5.09-3.31 7.71-4.86 8.53-5.03 17.12-9.96 25.64-15.02 5.13-3.046 10.17-6.23 15.233-9.39 1.72-1.07 3.36-2.26 5.05-3.366 3.63-2.37 7.23-4.79 10.93-7.04 2.71-1.65 4.91-3.77 7-6.15 3.52-4 7.47-7.64 10.98-11.65 3.585-4.09 6.324-8.76 6.35-14.4.02-5.31-2.444-8.78-7.435-10.14zM42.96 619.15c-1.853.393-3.752-1.8-3.158-3.645.036-.112.1-.314.142-.312 1.8.096 2.197-1.71 3.377-2.42.28-.166 1.1.18 1.36.523.26.34.13.98.19 1.774l1.32.075c-.17 2.333-1.19 3.576-3.22 4.006zm3.35 15.855c-.39 1.235-.586 2.374-2.096 2.726-1.542.36-2.96-.12-3.31-1.27-.375-1.23.976-3.95 2.12-4.17.572-.11 1.173-.07 1.487-.08 2.09.36 2.35 1.06 1.8 2.81zm19.642 16.09c-.447 1.757-2.607 3.016-4.725 2.736-.777-.26-1.905-.52-.93-2.15.41-.69.486-1.57.858-2.29.144-.27.67-.42 1.048-.5.48-.1.99-.09 1.487-.13.66-.05 1.81-.32 1.895-.12.324.75.56 1.71.367 2.48zm26.89 5.312c-.66 2.028-2.413 2.385-4.263 2.615-.44-.412-.84-.76-1.2-1.15-1.17-1.243-1.02-2.218.42-3.153.28-.19.57-.49.68-.8.75-1.97 2.09-1.36 3.34-.74 1.39.69 1.43 1.91 1.01 3.22zM120.387 517.8c-.432.913-1.36 1.59-2.462 2.79-.75-.996-1.532-1.58-1.57-2.208-.04-.71.445-1.95.95-2.094 1.35-.386 3.408.82 3.082 1.51zm-4.022-26.992c-1.565.475-3.17.817-5.288 1.354 2.134-3.48 5.332-5.115 7.703-7.69 1.6 2.735.496 5.452-2.416 6.336zm9.616 2.81c-.29.888-.61 1.78-1.04 2.605-.14.273-.71.528-1.01.458-.28-.06-.69-.62-.63-.87.46-2.25.84-4.54 1.59-6.7.46-1.3 1.76-1.47 2.87-1.02-.61 1.94-1.16 3.74-1.76 5.53zm10.92-22.43c-.02 1.275-.59 2.57-1.09 3.792-.6 1.49-1.18 2.89.11 4.324.25.273.29.724.47 1.198-4.16 1.525-7.34-.93-6.81-5.046.32-2.52.73-5.112 3.06-6.615.78-.49 2.22-.69 2.96-.29.73.4 1.34 1.73 1.32 2.64zm4.89 22.335c-.41-.217-.66-.745-.98-1.13.41-.268.79-.614 1.24-.788.7-.27 1.42-.504 2.16-.597.76-.095 1.55-.005 2.69.008-1.54 2.836-3.18 3.51-5.09 2.507zm6.99-19.99c.3-1.883.51-3.78.87-5.65.43-2.18 2.48-3.114 4.3-1.884.51.34.74 1.3.85 2.01.22 1.4.87 2.29 2.16 2.97 2.09 1.1 2.12 2.57 0 3.62-1.72.85-3.68 1.22-4.76 1.56-3.55.41-3.84.09-3.41-2.65zm16.43 20.642c-1.23.698-2.47 1.407-3.78 1.9-2.48.928-4.38-.254-4.88-3.43-.1-1.046.06-2.4 1.91-3.188 1.61-.687 2.68-1.736 1.99-3.95-.27-.884.62-2.344 1.35-3.232.35-.415 1.74-.386 2.37-.036.89.49.97 1.47.43 2.51-1.07 2.04-.93 3.66.26 4.91.16.16.32.34.51.46 1.82 1.23 1.79 2.95-.13 4.04zm3.38-29.785c-.62-.01-1.44-.014-2.25-.04-1.83-.06-2.71-1.075-1.89-2.672 1.08-2.09 2.54-4 3.98-5.873.21-.27 1.32-.047 1.86.234.27.13.39.98.26 1.4-.27.89-.89 1.69-1.13 2.59-.36 1.37-.53 2.79-.8 4.35zm13.45 11.865c-.3 1.33-.95 2.597-1.57 3.833-.14.28-.71.34-1.33.602-1.01-2.44-2.55-3.513-5.12-2.944-1.09.242-1.51-.9-1.11-1.687.38-.76 1.27-1.72 1.97-1.76 1.87-.1 3.78.14 5.62.5.62.11 1.64 1.08 1.55 1.45zm-2.44-9.994c-.32-.1-.68-.89-.61-1.31.38-2.46 2.44-3.4 5.52-2.61.15 2.19-2.39 4.72-4.9 3.93z'},{'color':'#9ed670','path':'M164.826 489.665c-1.187-1.247-1.324-2.867-.252-4.915.54-1.032.454-2.02-.43-2.51-.627-.35-2.024-.378-2.367.036-.733.89-1.622 2.35-1.347 3.233.687 2.21-.377 3.26-1.988 3.94-1.852.79-2.01 2.14-1.905 3.18.5 3.17 2.402 4.36 4.884 3.43 1.32-.49 2.56-1.2 3.79-1.9 1.93-1.1 1.96-2.81.13-4.04-.19-.13-.35-.3-.51-.47zm-29.24-21.115c-.737-.402-2.18-.205-2.955.29-2.33 1.504-2.74 4.097-3.06 6.616-.52 4.115 2.66 6.57 6.82 5.046-.18-.474-.22-.925-.47-1.198-1.28-1.434-.71-2.835-.1-4.324.5-1.22 1.07-2.517 1.1-3.79.02-.91-.58-2.242-1.31-2.64zm21.368 2.438c-1.292-.682-1.942-1.57-2.16-2.972-.11-.715-.334-1.675-.846-2.018-1.828-1.23-3.88-.296-4.3 1.885-.363 1.87-.57 3.767-.872 5.648-.437 2.74-.138 3.07 3.41 2.65 1.078-.34 3.04-.71 4.762-1.56 2.123-1.05 2.09-2.52.006-3.62zm23.528 3.812c-1.846-.352-3.756-.596-5.62-.5-.706.04-1.588 1.004-1.97 1.76-.395.787.02 1.928 1.114 1.686 2.57-.57 4.102.504 5.12 2.944.613-.262 1.187-.322 1.328-.602.625-1.236 1.274-2.502 1.577-3.833.09-.37-.92-1.34-1.54-1.456zm-10.212-18.76c-.542-.282-1.65-.504-1.858-.235-1.44 1.873-2.897 3.782-3.972 5.873-.82 1.598.064 2.613 1.892 2.67.815.028 1.63.032 2.256.042.278-1.564.44-2.986.807-4.354.24-.9.857-1.693 1.134-2.588.13-.427.01-1.27-.26-1.41zm-59.194 36.122c2.118-.537 3.723-.88 5.288-1.354 2.912-.883 4.015-3.6 2.415-6.335-2.38 2.574-5.57 4.21-7.71 7.69zm67.897-27.212c-.063.412.292 1.208.616 1.31 2.5.79 5.04-1.74 4.9-3.927-3.08-.79-5.15.155-5.52 2.616zm-54.098 24.154c-.75 2.157-1.13 4.45-1.587 6.7-.053.258.357.813.635.878.298.07.87-.185 1.014-.458.43-.825.748-1.717 1.043-2.605.597-1.79 1.15-3.6 1.766-5.54-1.115-.46-2.418-.29-2.87 1.01zm17.162 2.5c-.447.174-.825.52-1.235.79.325.385.575.913.988 1.13 1.912 1 3.55.33 5.09-2.508-1.14-.013-1.925-.103-2.687-.008-.734.093-1.462.328-2.156.597zm-24.733 24.684c-.504.144-.99 1.385-.95 2.094.04.628.82 1.213 1.57 2.21 1.1-1.2 2.03-1.88 2.462-2.793.326-.7-1.73-1.9-3.082-1.52z'}];var BEAR_HEAD=exports.BEAR_HEAD=[{'color':'#ffdbac','path':'M217.307 118.07c-.547.072-.776.123-.815.125.09-.052 1.676-.57 2.238-2.3.84-2.563-1.245-4.86-3.07-4.6-2.985-.74-3.83 4.222-3.502-.275.078-.277.147-.552.217-.828 0 0 1.62-2.382 7.783-.06 1.768.66 1.565 3.102 1.45 3.387-.94 2.2-1.095 4.12-4.3 4.55z'},{'color':'#8d5524','path':'M318.787 122.034c.867.62 1.613 1.05 2.25 1.604 1.022.904 1.53.564 1.657-.63.315-3.077-.212-6.066-1.578-8.807-1.304-2.59-2.9-5.04-4.333-7.58-1.45-2.57-2.796-5.21-4.283-7.76-2.098-3.6-4.37-7.1-6.4-10.74-.984-1.75-.407-3.62.3-5.4 1.67-4.22 3.475-8.4 4.964-12.69 1.153-3.34.275-6.79-.5-10.07-.328-1.38-1.405-2.71-3.466-2.92-4.044-.4-7.844.63-11.74 1.21-2.916.44-5.895.48-8.847.59-2.62.1-5.31-.27-7.87.13-2.46.39-4.7-.22-7.01-.58-5.76-.88-11.62-1.39-17.24-2.82-7.81-1.98-15.62-1.95-23.5-1.27-3.5.31-6.99 1.08-10.44 1.82-4.48.97-8.89 2.38-13.42 3.09-2.7.425-5.59.067-8.34-.304-2.96-.407-5.87-1.724-8.81-1.76-3.44-.03-7.28-.294-9.75 3.146-1.98 2.76-1.95 5.88-1.12 8.86 1.11 3.88 2.97 7.555 4.01 11.446 1.36 5.03.48 9.73-3.19 13.77-1.06 1.178-1.86 2.68-2.48 4.17-3.1 7.4-6.09 14.847-9.1 22.284-.15.36-.15.79-.27 1.53l3.88-.61c-1.58 6.14-2.5 12.13-2.1 18.662.86-.56 1.46-.89 2-1.3.52-.38.97-.83 1.89-1.062l-1.84 19.87c.22.12.44.24.67.36.72-.53 1.48-1.02 2.17-1.602.71-.59 1.17-.594 1.435.385.91 3.335 1.83 6.668 2.766 10 .36 1.27.768 2.526 1.3 4.28.81-.79 1.488-1.46 2.105-2.066 2.645 1.833 5.46 3.78 8.25 5.754.88.624 1.778 1.055 2.53-.01 1.016-1.434 1.91-.785 2.89-.03 3.29 2.54 6.59 5.073 10.49 8.08.236-.48.66-1.1.87-1.794.41-1.373 1.285-1.27 2.23-.75 3.157 1.727 6.73 2.84 8.87 6.007 1.51-.793 2.984-1.49 4.38-2.32 1.126-.68 2.06-.647 3.21.034 1.88 1.12 3.88 2.034 5.88 3.05 1.056-.786 2.257-1.5 3.236-2.455 1.17-1.15 2.29-1.042 3.56-.34 1.45.805 2.83 1.977 4.38 2.3 1.39.295 3.117-.05 4.45-.655 2.95-1.34 5.787-2.95 8.58-4.6 1.254-.74 2.177-.63 3.02.41.625.76 1.197.98 2.15.51 2.55-1.26 5.15-2.406 7.72-3.62 2.41-1.148 2.65-1.27 3.68 1.07.87 1.98 1.933 1.84 3.364 1.066 3.013-1.625 6.045-3.21 8.972-4.98 2.69-1.62 3.17-1.586 4.95 1.53 1.74-1.46 3.39-2.95 5.15-4.29 1.824-1.396 3.756-2.647 5.615-3.95 1.616.506 1.21 3.69 3.71 2.996l3.816-15.73c1.09 1.787 2.107 3.46 3.13 5.134.268-.014.53-.02.79-.04.4-1.292 1.077-2.58 1.15-3.9.224-4.24.216-8.49.332-12.732.06-2.56.174-5.12.286-8.084 1.17 1.14 2 2 2.89 2.795.36.315 1.08.78 1.24.65.42-.314.83-.904.86-1.41.09-1.36 0-2.73-.05-4.09m-97.49-21.32c-.93 2.2-1.09 4.12-4.293 4.55-.55.07-.776.12-.815.123.09-.05 1.677-.57 2.24-2.3.84-2.563-1.25-4.86-3.07-4.6-2.99-.74-3.83 4.22-3.503-.275.08-.28.15-.553.22-.83 0 0 1.62-2.383 7.785-.06 1.77.66 1.565 3.1 1.45 3.386zm29.92 1.86c-.22-2.03 3.45-3.124 6.09-2.11 1.053.408 1.67 1.11 2.306 1.688.64.57.373 2.13.52 3.255.03.24.17.497.13.71-.09.46-.21 1.235-.44 1.286-1.35.326-2.76.75-4.11.62-1.38-.136 2.46.244 2.53-1.13.33-6.234-4.85-4.496-5.46-3.2-1.636 3.497-1.02-.28-1.53-.43l-.04-.68zm-49.5 54.225c0-1.56.14-3.13.35-4.68.427-3.19.91-6.37 1.46-9.544.076-.38.66-.963 1-.96 4.137.047 8.26.1 12.38.325 2.61.15 5.2.62 7.79.89.417.04.95-.07 1.27-.32 1.046-.79 2.1-1.6 2.987-2.55.79-.855 1.36-1.9 2.17-3.075-1.02-.3-1.47-.49-1.94-.554-3.596-.55-7.182-1.356-10.802-1.53-3.78-.19-7.694-1.546-11.75.89.83-1.99 1.4-3.56 2.12-5.06 1.356-2.83 2.877-5.57 4.175-8.426 2.15-4.74 3.67-9.81 6.97-13.95.985-1.244 2.15-2.575 3.536-3.22 2.61-1.204 5.39-2.13 8.19-2.778 1.3-.31 3.03-.08 4.182.576 3.48 1.98 6.82 4.23 10.1 6.53.81.57 1.528 1.71 1.7 2.69.527 2.99 1.017 6.027 1.08 9.06.145 7.35.05 14.71.015 22.06 0 1.2-.19 2.41-.273 3.62-.21 3.01-.65 6.03-.53 9.034.08 1.84-.66 2.62-2.092 3.036-1.34.39-2.75.51-4.127.78-3.97.78-7.76 3.07-11.76 3.65-3.41.5-7.05-.72-10.5-.47-1.63.11-2.76-.4-3.14-2.247-.377-1.75-1.06-3.43-1.58-5.08-2.07-.44-2.04 1.266-2.617 2.26-2.002 3.438-2.356 3.885-5.39 2.62-.952-.395-1.902-.86-2.91-1.04-1.492-.27-2.06-1.23-2.064-2.534z'},{'color':'#ffdbac','path':'M202.372 164.93c-.208 1.548-.352 3.116-.35 4.677.005 1.305.572 2.266 2.07 2.538 1.003.176 1.954.642 2.908 1.04 3.03 1.264 3.384.816 5.387-2.62.572-.995.546-2.7 2.613-2.26.52 1.648 1.205 3.334 1.577 5.083.384 1.85 1.507 2.36 3.14 2.244 3.455-.25 7.088.972 10.498.468 4.004-.584 7.795-2.87 11.764-3.654 1.37-.272 2.78-.39 4.12-.778 1.43-.415 2.17-1.194 2.09-3.037-.13-3 .31-6.02.52-9.03.08-1.21.27-2.41.27-3.61.03-7.35.13-14.71-.02-22.06-.07-3.03-.56-6.06-1.08-9.05-.17-.98-.89-2.12-1.7-2.69-3.29-2.3-6.63-4.55-10.1-6.53-1.16-.65-2.89-.88-4.19-.58-2.8.65-5.58 1.58-8.19 2.78-1.388.65-2.55 1.98-3.54 3.22-3.305 4.14-4.82 9.21-6.97 13.95-1.298 2.85-2.82 5.6-4.174 8.43-.72 1.5-1.29 3.07-2.12 5.06 4.06-2.43 7.97-1.08 11.75-.89 3.62.18 7.21.98 10.8 1.53.47.07.926.26 1.94.56-.81 1.17-1.374 2.22-2.17 3.07-.88.96-1.94 1.77-2.98 2.56-.32.25-.854.36-1.27.32-2.59-.27-5.18-.74-7.79-.88-4.12-.22-8.24-.28-12.374-.32-.343 0-.93.58-1 .96-.554 3.178-1.04 6.35-1.465 9.547zm4.938-9.16c2.32.395 4.626.956 6.956 1.096 2.93.176 5.885.01 9.013-.014-.82 5.565-4.86 7.52-8.9 7.677-3.6.14-7.86-3.64-8.68-7.16-.28-1.18.38-1.81 1.61-1.61z'},{'color':'#8d5524','path':'M207.31 155.77c2.32.395 4.626.956 6.956 1.096 2.93.176 5.885.01 9.013-.014-.82 5.565-4.86 7.52-8.9 7.677-3.6.14-7.86-3.64-8.68-7.16-.28-1.18.38-1.81 1.61-1.61z'},{'color':'#ffdbac','path':'M257.607 113.273c1.055.406 1.67 1.108 2.308 1.686.638.57.376 2.12.518 3.25.03.24.175.49.133.7-.09.45-.203 1.23-.44 1.28-1.348.32-2.76.75-4.11.62-1.374-.14 2.466.24 2.536-1.13.33-6.24-4.85-4.5-5.46-3.2-1.634 3.49-1.018-.28-1.53-.43l-.04-.68c-.223-2.03 3.45-3.12 6.085-2.11zm38.286 44.617c-.08-.378.03-1.032.632-1.21.404.025.568.295.71.575.4.766-.31 4.11-.97 4.62-.127.1-.408.21-.43.178-1.023-1.384.363-2.753.058-4.164zm12.85-35.326c.523-.064.587.4.61.746.053.805.035 1.61.05 2.633-1.282-.606-1.297-1.605-1.314-2.595-.01-.443.25-.73.65-.784zm-4.466 20.093c-.01-.54-.057-.98-.008-1.417.04-.355.38-.458.69-.503.28-.045.45.09.59.344.37.66.22 5.34-.24 5.88-.25.29-.53.59-.96.43-.57-.21-.25-.61-.13-.92.51-1.29.18-2.59.04-3.8zm10.866-25.313c-.05-.547-.787-1.284.145-1.484.923-.2.89.798.998 1.45.062.37.094.747.14 1.116-.032.01-.065.01-.088.018.06.296.09.61.19.89.28.777-.386.957-.783 1.302-.23.196-.54.47-.787.11-.29-.406-.36-.865-.176-1.398.215-.64.412-1.345.36-2.004zm-17.498-20.21c1.038-.034.74.95.977 1.533-.095.57.646 1.56-.06 1.615-1.096.096-1.166-1.187-1.487-2.017-.216-.555-.052-1.114.57-1.13zm-3.165 49.823c.357-.774-.258-2.2.996-2.272.813-.046.47 1.043.508 1.26-.08 1.065.48 2.05-.818 2.058-.645.007-.924-.55-.687-1.046zm5.718-16.58c.36-.077.847.02.878.5.05 1.048.412 2 .653 2.995.15.608-.39 1.223-1.1 1.29-.83.087-.58-.65-.65-1.084-.15-.81-.23-1.63-.36-2.587.08-.33-.09-.95.57-1.11zm6.844-22.57c.157.697.172 1.615 1.067 1.753.56.095.59-.517.51-.984-.11-.723.03-1.658-1.01-1.754-.5-.04-.69.543-.58.984zm-6.697 7.758c-.35-.8-.228-1.59-.33-2.378-.073-.58-.403-1.04-.91-1.016-.595.03-.3.72-.496 1.19.3.7.45 1.47.12 2.32-.12.33.05 1.08.74 1.05.67-.04 1.11-.6.86-1.15z'}];var BEAR_BODY=exports.BEAR_BODY=[{'color':'#8d5524','path':'M123.23 407.09c2.54 5.367 4.585 11.127 6.215 16.96 1.69 6.046 3.03 12.193 5.647 17.854 2.378 5.145 4.632 10.366 6.878 15.588 2.153 5.002 4.23 10.047 6.332 15.076 1.015 2.428 1.977 4.888 3.068 7.27.23.5.927.718 1.525 1.15l.758-2.54c1.87 3 3.514 5.626 5.146 8.263 1.05 1.7 2 3.48 3.15 5.09.48.68 1.34 1 2.21 1.61l.58-3.45c1.16 1.14 2.01 2.12 2.99 2.91 2.2 1.77 4.42 3.51 6.71 5.12 2.49 1.75 4.91 4.01 7.63 4.86 5.71 1.78 11.56 3.22 17.43 3.97 4.88.63 9.88.068 14.83.03 3.19-.02 6.39.04 9.58-.08 3.95-.15 7.94-.914 11.85-.56 4.09.37 8.13 1.09 12.26.706 2.46-.23 4.98.19 7.43-.14 4.003-.536 8.08-1.013 11.93-2.3 5.08-1.7 10.19-3.66 14.883-6.424 4.543-2.67 8.71-6.295 12.783-9.9 2.663-2.35 4.827-5.45 7.273-8.144 5.614-6.18 9.633-13.57 11.87-22.06 2.093-7.945 3.785-16.04 5.43-24.13 1.17-5.75 2.263-11.56 2.864-17.413.87-8.46 1.575-16.98 1.77-25.49.24-10.13-.04-20.276-.27-30.41-.3-13.1-.73-26.194-1.2-39.285-.27-7.644-.722-15.28-1.11-22.916-.27-5.352-.62-10.702-.83-16.06-.27-6.675-.343-13.362-.683-20.03-.14-2.7-.643-5.4-1.17-8.05-.575-2.85-1.595-5.6-2.03-8.47-1.456-9.56-2.527-19.21-4.154-28.73-1.204-7.057-4.034-13.393-8.22-18.83-2.225-2.9-4.46-5.79-6.734-8.638-4.5-5.64-9.89-9.61-16.56-10.63-4.575-.695-9.21-.85-13.818-1.214-4.038-.32-8.076-.81-12.115-.85-5.53-.06-11.07.27-16.61.366-5.86.105-11.734 1.11-17.58-.35-.79-.2-1.7-.1-2.5.12-4.23 1.18-8.47 2.33-12.65 3.72-3.4 1.126-6.698 2.63-9.32 5.544-1.14 1.27-2.19 2.65-3.35 3.906-2.876 3.13-5.52 6.456-6.97 10.792-1.66 4.955-3.165 9.984-4.96 14.874-1.025 2.79-2.314 5.51-3.805 8.01-2.73 4.57-5.7 8.955-8.81 13.797l3.19 1.03-9.658 18.1c1.142.09 1.934.15 3.21.248-1.946 2.13-1.947 4.93-3.5 6.957-1.387 1.808-2.365 4.026-3.55 6.04-2.05 3.49-4.14 6.95-6.17 10.456-.194.34-.09.907-.13 1.37.4.036.813.16 1.2.09.57-.106 1.13-.347 2.256-.71-1.84 4.98-3.368 9.44-5.14 13.77-1.218 2.97-2.91 5.676-4.16 8.63-1.85 4.37-3.44 8.89-5.25 13.29-2.637 6.406-5.52 12.687-8.016 19.163-1.988 5.15-3.477 10.56-5.33 15.785-2.284 6.45-3.224 13.295-3.91 20.073-.39 3.88-1.694 33.08-.66 35.265z'},{'color':'#ffdbac	','path':'M188.564 477.052c-.192-.396-.72-.893-1.303-.586-.29.334-.24.703-.16 1.06.21.99 3.01 3.416 3.87 3.36.17-.013.46-.132.45-.18-.14-2.02-2.13-2.164-2.85-3.654zm9.668 17.472c-.25-.35-.843-.734-1.373-.315-.24.38-.13.74 0 1.07.35.93 3.48 2.76 4.31 2.53.16-.05.43-.22.42-.27-.45-1.96-2.44-1.7-3.37-3.03zm-39.826-44.82c-.49.26-.292.766-.124 1.126.392.836.846 1.63 1.387 2.66.78-1.406.25-2.414-.27-3.413-.24-.448-.62-.57-1-.374zm14.817 17.28c-.285-.544-.484-1.016-.764-1.42-.23-.328-.59-.215-.88-.07-.27.13-.35.372-.33.716.03.887 2.7 5.47 3.4 5.722.37.132.78.256 1.06-.174.37-.57-.12-.77-.4-1.002-1.16-.972-1.57-2.48-2.11-3.772zm-7.555 15.98c-.318-.518-.548-.972-.852-1.35-.25-.31-.6-.167-.88.004-.258.152-.32.4-.28.74.087.882 3.05 5.227 3.755 5.42.38.1.8.19 1.06-.263.34-.6-.16-.76-.45-.967-1.21-.87-1.72-2.34-2.34-3.584zm-21.792-30.758c-.255-.577-.015-1.773-.933-1.392-.912.375-.34 1.354-.08 2.07.146.408.324.805.486 1.203.03-.01.06-.03.08-.037.1.335.25.667.32 1.01.18.95.85.714 1.39.81.31.053.72.132.74-.382.03-.586-.16-1.087-.61-1.506-.54-.505-1.09-1.086-1.41-1.776zm2.648-57.526c-.416-.884.126-2.606-1.162-2.6-.836.005-.417 1.26-.442 1.517.146 1.247-.363 2.444.967 2.362.66-.04.91-.72.637-1.28zm33.87 95.688c-.733-.55-.973-2.36-2.103-1.648-.73.463.16 1.336.25 1.576.65 1.016.7 2.348 1.83 1.546.57-.396.51-1.126.03-1.474zm-10.302-38.198c-.356.148-.726.547-.49 1.05.524 1.075.728 2.252 1.06 3.397.195.705.997.982 1.656.604.767-.43.145-1-.03-1.48-.316-.9-.687-1.77-1.096-2.8-.252-.28-.442-1.01-1.1-.75zm-13.507 11.825c-.356.147-.726.547-.49 1.05.523 1.075.728 2.252 1.06 3.396.196.71.997.99 1.656.61.77-.43.15-1.01-.02-1.48-.31-.9-.69-1.77-1.09-2.8-.25-.27-.44-1.01-1.1-.75zm-4.728-30.098c.244.793.73 1.72.026 2.417-.44.45-.8-.145-.984-.66-.3-.79-.93-1.638-.09-2.38.41-.352.89.116 1.04.623zm10.05 3.568c-.13-1.018-.668-1.73-1.01-2.582-.25-.623-.213-1.29.24-1.583.534-.347.65.524 1.077.873.11.887.405 1.746 1.15 2.394.277.25.544 1.108-.078 1.504-.612.38-1.295.09-1.38-.6zm-20.942-13.222c-.13-1.018-.668-1.73-1.01-2.58-.25-.625-.212-1.292.242-1.584.532-.35.65.52 1.076.87.11.89.405 1.74 1.15 2.39.275.25.543 1.1-.08 1.5-.61.37-1.294.08-1.378-.61zm1.962 14.627c-.13-1.02-.668-1.732-1.008-2.582-.26-.623-.22-1.29.24-1.583.53-.346.65.523 1.07.873.11.888.4 1.747 1.15 2.394.27.25.54 1.108-.08 1.505-.61.378-1.3.086-1.38-.608z'}];var BEAR_LEGS=exports.BEAR_LEGS=[{'color':'#8d5524','path':'M235.568 541.888l.752-.2c.256.493.43 1.083.784 1.455.456.48 1.056.78 1.59 1.16.244-.61.675-1.187.702-1.828.125-3.03.223-6.072.132-9.13-.122-4.094-.258-8.21-.765-12.33-.614-5.004-2.002-10.047-2.5-15.055-.56-5.615-1.4-11.345-3.324-16.804-3.05-8.674-9.86-14.246-16.5-17.205-6.36-2.83-12.67-2.78-18.63-2.68-3.39.06-6.46 1.05-9.47 1.86-1.48.4-2.91 1.08-3.9 2.05-4.31 4.26-6.47 10.01-7.87 16.07-1.02 4.42-.88 9.5-.88 14.41 0 2.56.49 5.35 1.07 8.08.71 3.33 1.47 6.72 2.65 10.03 1.74 4.9 3.71 9.77 5.66 14.59 3.56 8.79 5.3 17.5 6.38 26.17.98 7.92 1.55 15.77 2.36 23.66.41 4.02.63 8.15 3.07 11.7-1.42 1.66-1.62 4.29-1.41 7.18.06.77.63 2.18 1.01 2.42.48.3 1.28 0 1.49-.59.47-1.3.73-2.89.95-4.46.11-.74.05-1.52.76-1.15.7.38 1.4.8 2.1 1.2l-.34.21c.33 2.11.57 4.24 1.03 6.3.14.64.95 1.5 1.39 1.56.45.06 1.07-.54 1.22-1.2.36-1.59.49-3.39.73-5.15 1.81.56 2.11 1.13 2.37 4.06.1 1.18.33 2.47.73 3.51.34.9 1 1.51 1.52 2.24.39-.83.88-1.56 1.13-2.52.14-.55-.13-1.47-.24-2.21-.13-.79-.29-1.57-.45-2.41l2.86 1.23c.74 1.9 1.34 3.73 2.08 5.36.63 1.41 1.32 1.32 1.54-.29.22-1.59.02-3.39.01-5.33 1.53.11 2.8-1.72 3.74-3.65 2.2-4.52 3.69-9.75 4.51-15.38.45-3.06.75-6.19 1.29-9.22.22-1.23.86-2.29 1.48-3.84.38 1.12.52 1.8.8 2.35.32.61.78 1.1 1.17 1.65.2-.55.52-1.08.56-1.66.27-3.98.42-8 .71-11.98.2-2.67.61-5.3.92-7.94l.47-.06c.46.6.85 1.29 1.37 1.76.812.72 1.72 1.27 2.58 1.9.05-1.08.21-2.15.13-3.22-.42-5.52-.97-11.04-1.586-16.59zm-38.802 63.683c-.142-.1-.284-.21-.424-.32.292-1.81.596-3.61.98-5.76 1.123 3.05.835 4.83-.556 6.09zm7.31 3.33c-.098.12-.26.11-.435.17-.58-1.84-.9-3.58-.3-5.05.12-.28.81-.3.95-.05.49.86.28 4.38-.2 4.94zm6.06 3.77c-.394-2.18-.708-3.86-1.027-5.54l.34-.08c.93 1.47 1.23 3.44.67 5.63zm5.126-4.99c1.28 1.04 1.56 2.68 1.52 4.8-1.22-1.27-1.303-3.08-1.52-4.79z'},{'color':'#ffdbac	','path':'M203.335 604.013c-.6 1.477-.274 3.215.306 5.057.18-.063.34-.056.44-.172.48-.56.7-4.08.21-4.94-.14-.25-.83-.23-.94.055zm-6.995 1.234c.142.11.283.216.425.325 1.39-1.256 1.68-3.038.556-6.083-.38 2.14-.68 3.95-.98 5.75zm18.922 2.423c.217 1.715.3 3.525 1.52 4.795.04-2.116-.24-3.756-1.52-4.794zm-5.804-.63c-.118.027-.233.056-.35.082.32 1.682.635 3.36 1.027 5.544.56-2.186.257-4.162-.677-5.627z'},{'color':'#8d5524','path':'M301.96 532.214c.28-.142.563-.284.846-.424.23.43.354.98.702 1.258.447.356 1.073.49 1.62.72.334-.695.874-1.412.972-2.076.47-3.142.915-6.285 1.152-9.39.32-4.158.622-8.333.516-12.404-.128-4.943-1.102-9.7-1.102-14.683 0-5.587-.365-11.04-1.826-16.23-2-7.095-7.713-11.234-16.333-12.765-6.762-1.2-13.678.875-20.26 2.735-3.746 1.06-7.23 2.97-10.64 4.69-1.676.846-3.322 1.958-4.514 3.248-5.2 5.626-8.184 12.148-10.36 18.763-1.59 4.826-1.963 9.98-2.48 15.012-.27 2.62-.022 5.33.33 7.952.43 3.194.917 6.44 1.862 9.49 1.397 4.505 3.047 8.916 4.68 13.27 2.984 7.953 3.982 16.36 4.244 24.918.24 7.82.04 15.685.09 23.522.02 3.993-.16 8.158 2.12 11.076-1.72 2.116-2.21 4.868-2.28 7.762-.02.77.45 2.044.85 2.175.49.163 1.39-.373 1.68-1.043.64-1.468 1.09-3.182 1.5-4.853.19-.792.22-1.575.94-1.4.72.17 1.44.404 2.15.61l-.38.31c.14 2.06.17 4.168.45 6.147.09.615.87 1.26 1.35 1.188.48-.072 1.22-.865 1.45-1.585.56-1.736.89-3.61 1.35-5.486 1.91.04 2.17.53 2.14 3.46-.02 1.18.1 2.43.42 3.38.27.82.93 1.25 1.4 1.85.5-.96 1.13-1.86 1.5-2.91.21-.6.02-1.46-.03-2.19-.05-.77-.14-1.53-.22-2.34l2.98.42c.6 1.72 1.06 3.42 1.69 4.88.54 1.25 1.29.96 1.71-.76.41-1.69.4-3.48.59-5.46 1.66-.34 3.23-2.58 4.47-4.83 2.89-5.27 5.09-11.07 6.61-17.08.83-3.27 1.5-6.56 2.42-9.82.37-1.32 1.18-2.6 2.04-4.37.29 1.04.37 1.69.62 2.17.28.53.73.91 1.09 1.36.27-.62.69-1.25.79-1.86.74-4.16 1.33-8.31 2.09-12.48.51-2.79 1.24-5.6 1.88-8.4.17-.06.35-.13.52-.2.43.48.79 1.08 1.31 1.4.82.5 1.75.8 2.62 1.19.18-1.11.47-2.26.5-3.33.16-5.52.16-11.02.1-16.52zm-49.333 76.62l-.426-.207c.51-1.938 1.03-3.873 1.68-6.183.91 2.788.4 4.694-1.24 6.39zm7.6 1.26c-.12.15-.295.186-.49.302-.436-1.716-.604-3.4.203-5.09.156-.325.907-.545 1.035-.332.442.737-.167 4.405-.75 5.12zm6.185 2.077c-.19-2.12-.352-3.74-.52-5.37.13-.06.26-.12.388-.19.86 1.23.973 3.16.132 5.56zm6.12-6.62c1.278.69 1.406 2.29 1.133 4.47-1.193-.94-1.085-2.77-1.134-4.46z'},{'color':'#ffdbac	','path':'M259.94 605.307c-.807 1.688-.64 3.373-.203 5.09.195-.118.37-.154.49-.302.58-.715 1.19-4.384.748-5.12-.127-.214-.878.006-1.035.332zm-7.74 3.32l.427.208c1.646-1.697 2.15-3.603 1.245-6.39-.645 2.31-1.165 4.244-1.67 6.182zm20.33-3.077c.05 1.694-.058 3.523 1.135 4.464.273-2.177.145-3.775-1.134-4.463zm-6.25 1.06l-.388.188c.168 1.627.33 3.252.52 5.373.84-2.4.727-4.33-.132-5.56zm-9.917-31.743c-.06-.383.047-1.043.577-1.21.353.035.493.313.61.6.334.783-.353 4.15-.94 4.65-.114.1-.362.203-.382.17-.867-1.422.375-2.774.135-4.21zm11.953-35.45c.458-.055.505.42.518.77.03.814 0 1.63-.007 2.665-1.11-.644-1.106-1.654-1.102-2.656.004-.45.238-.732.59-.78zm-4.31 20.23c.003-.547-.03-.996.02-1.435.046-.36.35-.454.618-.493.247-.04.394.1.513.36.315.67.093 5.4-.32 5.93-.22.28-.476.58-.85.41-.49-.23-.207-.63-.093-.94.48-1.3.212-2.62.113-3.85zm-11.93-20.16c-.03-.555-.665-1.317.155-1.5.82-.18.77.83.85 1.49.05.375.07.758.1 1.132-.03 0-.05 0-.08.01.05.3.07.62.15.9.23.79-.35.96-.71 1.3-.2.19-.48.46-.69.09-.24-.42-.29-.89-.12-1.42.2-.64.39-1.35.36-2.02zm7.02-26.053c.91-.01.63.976.825 1.573-.09.574.54 1.593-.08 1.632-.96.07-1-1.23-1.26-2.08-.18-.57-.02-1.13.52-1.13zm-3.756 50.34c.33-.776-.18-2.233.917-2.277.713-.028.39 1.066.42 1.286-.09 1.076.378 2.085-.757 2.064-.563-.008-.8-.576-.58-1.073zm5.336-16.646c.318-.07.74.04.76.528.022 1.06.32 2.03.513 3.042.12.62-.36 1.23-.99 1.283-.73.07-.49-.67-.55-1.11-.11-.82-.17-1.65-.26-2.62.08-.33-.06-.97.52-1.11zM246.46 525.26c.123.707.12 1.637.9 1.797.493.11.53-.51.47-.983-.08-.734.06-1.677-.843-1.8-.437-.05-.61.535-.527.985zm14.637 6.884c-.292-.817-.168-1.615-.24-2.414-.054-.587-.334-1.062-.78-1.05-.522.014-.278.717-.457 1.19.257.71.366 1.492.065 2.345-.108.326.023 1.09.63 1.072.593-.03.983-.588.782-1.143zm-40.07 43.1c-.06-.383.048-1.043.578-1.21.353.035.492.314.61.6.335.784-.353 4.152-.94 4.653-.114.098-.362.202-.383.17-.867-1.425.376-2.778.136-4.214zm6.13-40.62c.457-.055.504.42.517.77.03.813 0 1.63-.006 2.663-1.11-.644-1.105-1.653-1.102-2.656.003-.44.238-.73.59-.77zm-4.31 20.228c.003-.545-.03-.996.02-1.435.046-.357.35-.454.618-.492.248-.038.396.1.514.362.31.672.09 5.402-.32 5.938-.22.284-.48.585-.85.41-.5-.232-.21-.628-.1-.937.47-1.3.21-2.623.11-3.846zm10.018-25.367c-.033-.554-.665-1.316.155-1.498.813-.182.764.83.847 1.49.046.374.066.757.1 1.132-.03 0-.057 0-.08.01.05.3.07.62.15.9.23.79-.356.96-.71 1.3-.207.19-.483.46-.693.09-.245-.42-.298-.88-.126-1.42.2-.64.388-1.35.357-2.02zm-1.95-16.345c.91-.01.63.977.825 1.573-.094.575.535 1.59-.083 1.633-.964.073-1-1.228-1.265-2.075-.177-.56-.024-1.12.522-1.13zm-16.735 45.84c.33-.775-.182-2.233.918-2.278.714-.025.392 1.067.42 1.287-.088 1.07.38 2.08-.757 2.06-.56-.01-.79-.58-.58-1.07zm5.337-16.647c.317-.07.74.04.758.528.024 1.06.322 2.04.514 3.05.12.62-.36 1.23-.99 1.28-.73.07-.49-.67-.55-1.11-.11-.82-.17-1.65-.26-2.62.07-.33-.06-.97.52-1.11zm6.44-22.683c.123.71.118 1.64.9 1.8.493.11.53-.51.47-.983-.08-.735.06-1.678-.843-1.798-.44-.06-.61.53-.527.98zm-6.02 7.7c-.292-.817-.167-1.616-.24-2.414-.054-.587-.334-1.06-.778-1.047-.53.01-.28.71-.46 1.18.25.71.36 1.49.06 2.34-.11.32.02 1.09.63 1.07.59-.03.98-.59.78-1.15zM58.067 321.91c-.48-.077-1.22-.144-1.45.138-1.387 1.708-2.66 3.513-3.972 5.286 2.695.337 5.464-2.28 5.667-4.407.034-.344-.11-.995-.245-1.016zm-7.85-2.55l.63.7 4.895-4.522c-3.045-1.965-4.874-.424-5.526 3.82zm28.01-29.952l2.63-1.364m-21.187 44.89c2.646-.89 3.953-3.235 3.212-5.75-2.612 1.73-3.748 3.762-3.21 5.75z'},{'color':'#8d5524','path':'M78.228 289.408c-.307.185-.5.598-1.115 1.04-1.9 1.25-2.88 1.652-4.375 2.714m10.477-6.81c-.62.447-.644.74-1.458 1.23l-.898.464'},{'color':'#8d5524','path':'M80.86 288.044l-2.633 1.363m-5.49 3.755c-3.757 2.67-7.286 5.67-10.983 8.43-3.725 2.78-7.562 5.39-9.503 9.965-.37.884-1.27 1.516-1.81 2.348-.91 1.42-1.98 2.814-2.47 4.394-.32 1.03-.09 2.72.59 3.46.48.52 2.11-.05 3.23-.15.34-.03.68-.08 1.2-.14-.83 1.7-1.7 3.13-2.22 4.69-.29.88-.39 2.39.1 2.85.69.64 2.12.97 3.04.72 1.68-.46 3.21-1.45 5.34-2.48-.76 1.07-1.3 1.66-1.64 2.36-.8 1.63-1.21 3.31.4 4.76 1.51 1.36 3.05 1.26 4.29-.26 1.8-2.2 3.96-2.65 6.54-1.78.14.04.31-.02.47-.02 9.59.13 19.19.44 28.78.34 6.13-.07 12.25-.71 18.38-1.14.92-.07 1.8-.51 2.71-.64 5.15-.73 10.31-1.41 15.79-2.15l-.95-1.6c.39-.16.61-.33.83-.33 2.89-.04 5.92.32 7.48-3.1.15-.32.89-.44 1.38-.51 4.29-.65 8.59-1.22 12.86-1.91 1.14-.18 2.2-.76 3.32-1.1 1.29-.4 2.61-.74 3.91-1.11l-.1-.7-5.23-3.55.06-.79c1.87-.43 3.8-.67 5.6-1.32 5.11-1.84 10.17-3.82 15.23-5.79.72-.28 1.35-.79 2-1.22 1.73-1.15 1.67-1.99-.09-3.11-.8-.51-1.48-1.21-2.34-1.93 3.75-3.45 7.42-6.37 10.53-9.81 3.93-4.34 7.42-9.1 11.09-13.68 2.64-3.3 5.9-6.27 7.77-9.98 3.94-7.84 7.47-15.94 10.56-24.17 2.63-7.02 11.28-13.29 10.94-20.91-.22-4.99 4.8-15 4.36-19.97-.5-5.57-2.15-10.82-7.85-13.26-1.66-.71-3.63-.62-5.45-.98-3.552-.7-6.44 1.05-9.8 1.97-13.906 3.8-13.9.97-31.23 19.43-6.07 6.46-12.92 12.18-19.6 18.01-6.76 5.89-13.72 11.56-20.75 17.1-10.41 8.21-20.87 16.35-31.49 24.28-8.1 6.04-16.49 11.69-24.7 17.59M50.928 320l-.63-.7c.65-4.247 2.48-5.79 5.52-3.82l-4.9 4.52zm1.79 7.273c1.31-1.77 2.585-3.58 3.97-5.29.23-.28.97-.21 1.45-.135.136.02.28.67.25 1.015-.207 2.13-2.976 4.745-5.67 4.41zm7.025 5.6c-.53-1.99.6-4.02 3.22-5.75.74 2.513-.56 4.86-3.21 5.75zm140.47-127.04c0-.008.06.01.06.01l.1.04-.15-.05z'},{'color':'#8d5524','path':'M200.14 205.893c.008.004.152.043.152.043l-.092-.036s-.066-.012-.06-.007z'},{'color':'#ffdbac	','path':'M420.585 337.216c.47-.108 1.198-.224 1.445.04 1.5 1.596 2.894 3.297 4.323 4.962-2.644.513-5.58-1.89-5.936-3.98-.06-.34.038-.992.168-1.022zm7.585-3.046c-.19.246-.382.492-.574.737l-5.18-4.15c2.87-2.144 4.796-.74 5.754 3.414zm-29.942-27.762l-2.707-1.173m24.29 42.99c-2.68-.707-4.15-2.937-3.6-5.474 2.72 1.54 3.99 3.48 3.61 5.48z'},{'color':'#8d5524','path':'M398.228 306.408c.317.164.54.558 1.18.955 1.975 1.11 2.974 1.444 4.53 2.394m-10.873-6.04c.647.4.69.69 1.534 1.118l.92.4'},{'color':'#8d5524','path':'M393.065 303.718c-8.564-5.286-17.285-10.313-25.75-15.756-9.713-6.246-14.844-18.792-20.51-28.554-10.02-17.256-19.525-34.117-31.976-49.72-5.1-6.39-12.88-11.178-18.35-17.236-2.34-2.592-21.55-8.826-25.14-8.784-1.84.02-3.75-.424-5.49-.028-5.96 1.358-8.43 6.2-9.82 11.557-1.25 4.772 3.37 17.61 4.38 22.453 1.77 8.474 6.25 13.214 7.68 20.554 1.67 8.61 6.91 14.573 9.48 22.947 1.22 3.97 3.92 7.46 5.96 11.16 2.83 5.15 5.46 10.43 8.6 15.38 2.48 3.93 5.58 7.44 8.69 11.49-.96.55-1.74 1.12-2.6 1.47-1.9.77-2.1 1.59-.6 3.02.56.54 1.09 1.16 1.75 1.56 4.62 2.84 9.23 5.69 13.92 8.41 1.64.95 3.49 1.54 5.25 2.29l-.07.79-5.69 2.54-.21.67c1.21.6 2.44 1.17 3.64 1.79 1.03.54 1.97 1.29 3.05 1.67 4.06 1.45 8.17 2.79 12.25 4.19.46.16 1.16.4 1.25.75.96 3.63 3.97 3.82 6.79 4.38.22.05.4.25.76.47l-1.2 1.39c5.23 1.72 10.16 3.32 15.07 4.96.87.29 1.66.88 2.54 1.11 5.91 1.53 18.93 10.3 25 9.95 9.51-.54 18.99-1.48 28.47-2.25.16-.01.34.05.47-.01 2.49-1.02 4.66-.73 6.61 1.33 1.34 1.42 2.87 1.42 4.26-.03 1.49-1.54.96-3.18.05-4.74-.39-.67-.98-1.22-1.81-2.23 2.18.88 3.77 1.76 5.46 2.1.93.19 2.33-.23 2.95-.91.45-.49.24-1.98-.12-2.83-.63-1.5-1.6-2.86-2.55-4.49.52.02.86.05 1.19.05 1.11.02 2.77.48 3.21-.07.61-.77.72-2.46.32-3.46-.593-1.53-1.77-2.84-2.77-4.18-.59-.79-1.53-1.35-1.966-2.2-2.26-4.39-6.25-6.72-10.14-9.23-3.866-2.48-7.58-5.21-11.5-7.61m-5.714-3.35l-2.7-1.17m26.9 25.52c2.87-2.14 4.8-.74 5.76 3.41-.19.25-.38.5-.577.74-1.68-1.34-3.36-2.69-5.18-4.15zm-2 7.48c-.06-.34.04-.99.17-1.02.47-.11 1.2-.23 1.45.04 1.5 1.59 2.89 3.3 4.32 4.96-2.64.51-5.58-1.89-5.934-3.98zm-4.21 4.51c2.72 1.54 3.99 3.48 3.61 5.48-2.69-.71-4.15-2.94-3.6-5.47z'},{'color':'#ffdbac	','path':'M181.96 290.795c-.36.146-.848.606-.66 1.21.25.323.57.31.883.27.867-.095 3.272-2.573 3.328-3.414.02-.16-.05-.45-.09-.46-1.73-.07-2.1 1.86-3.45 2.4zm-33.77 16.62c.24.474.666.265.97.09.703-.41 1.368-.877 2.234-1.44-1.23-.732-2.077-.185-2.916.358-.374.245-.468.624-.288.992zm14.33-15.05c-.457.295-.854.504-1.192.79-.273.235-.166.582-.032.864.12.26.33.32.623.3.75-.06 4.59-2.82 4.79-3.5.1-.37.19-.78-.18-1.05-.5-.36-.66.13-.85.41-.8 1.16-2.08 1.61-3.16 2.17zm-15.105 23.352c-.486.267-1.52.063-1.163.957.352.886 1.17.297 1.776.02.345-.155.68-.34 1.014-.51-.01-.032-.028-.06-.035-.084.284-.115.563-.268.854-.34.81-.204.59-.863.65-1.39.04-.305.09-.716-.35-.722-.5-.014-.92.185-1.27.64-.41.54-.89 1.1-1.47 1.43zm24.045-12.58c.556.89 1.212.088 1.835-.042.425-.4 1.67-.335 1.32-.958-.535-.974-1.65-.31-2.527-.113-.588.132-.964.584-.627 1.114zm-7.476-.067c-.448.736-1.99 1.024-1.344 2.114.42.707 1.14-.193 1.34-.283.85-.66 1.99-.75 1.267-1.84-.356-.54-.98-.46-1.263.01zm-14.052-7.216c.138.347.49.7.914.455.904-.55 1.907-.78 2.876-1.14.597-.22.81-1.01.464-1.65-.395-.75-.87-.12-1.274.07-.76.33-1.495.72-2.368 1.15-.23.25-.852.46-.612 1.1zm-15.072 18.44c.673-.26 1.452-.767 2.07-.094.4.42-.098.79-.534.985-.667.316-1.374.958-2.035.147-.31-.397.08-.88.5-1.04zm2.737-9.982c-.87.156-1.46.705-2.18 1.063-.525.264-1.098.246-1.363-.192-.314-.514.428-.655.713-1.082.757-.13 1.483-.44 2.014-1.19.21-.28.94-.56 1.3.04.35.59.12 1.27-.47 1.38zm172.425 5.934c-.78.7.126 1.208.362 1.8.47.347.623 1.585 1.174 1.133.867-.7.018-1.69-.33-2.51-.23-.56-.742-.85-1.206-.43zm22.24 3.57c-.207-.33-.746-.728-1.308-.437-.275.3-.206.61-.113.91.25.83 3.11 2.77 3.95 2.68.16-.02.44-.14.44-.18-.22-1.72-2.19-1.75-2.96-2.99zm-22.054-16.443c-.425.318-.146.702.08.97.525.62 1.102 1.194 1.806 1.95.507-1.34-.18-2.078-.86-2.81-.306-.327-.696-.352-1.026-.11zm12.054 14.82c-.37-.397-.646-.752-.986-1.035-.28-.228-.603-.062-.855.12-.23.164-.26.38-.19.666.19.737 3.58 4.038 4.29 4.108.38.037.8.057 1-.362.26-.554-.24-.624-.55-.762-1.28-.58-1.95-1.76-2.69-2.734zm4.858 10.842c-.347-.432-.327-1.484-1.145-.978-.812.5-.088 1.204.29 1.753.212.312.454.608.68.91.03-.017.053-.04.077-.05.163.26.362.507.485.782.34.76.95.425 1.48.397.306-.02.72-.04.65-.48-.074-.5-.343-.88-.85-1.14-.606-.32-1.243-.69-1.667-1.2zm-31.955-38.32c-.78.703.125 1.21.362 1.8.468.35.623 1.587 1.174 1.134.87-.7.02-1.69-.33-2.51-.23-.56-.74-.85-1.2-.43zm54.76 50.535c-.803-.312-1.354-1.78-2.315-.955-.623.536.39 1.087.513 1.272.803.72 1.087 1.825 2.036.923.47-.444.28-1.045-.24-1.24zm-23.215-37.304c-.316.196-.602.605-.287.98.696.794 1.1 1.74 1.62 2.633.315.55 1.135.62 1.703.16.663-.52-.038-.88-.29-1.24-.464-.69-.977-1.35-1.553-2.13-.292-.19-.604-.76-1.192-.41zm-25.854-2.006c.375.616 1.007 1.294.453 2.022-.35.465-.8.04-1.07-.354-.43-.602-1.19-1.186-.5-1.978.33-.38.88-.085 1.11.31zm42.094 30.64c-.305-.83-.95-1.317-1.426-1.96-.352-.473-.435-1.04-.05-1.377.453-.398.72.307 1.19.513.263.722.7 1.382 1.53 1.773.313.15.72.81.192 1.27-.522.44-1.232.33-1.436-.23z'}];var BAT_HEAD=exports.BAT_HEAD=[{'color':'#36454f','path':'M360.26 36.885c-.06-.406-.466-.992-.805-1.06-1.612-.297-3.3-.22-4.845-.67-5.31-1.58-10.613-2.436-16.093-1.154-7.652 1.06-14.21 4.97-17.29 7.08-1.204.83-1.874 1.38-1.874 1.38-2.79 3.56-5.692 7.14-7.838 11.08-4.616 8.58-12.174 13.73-20.217 18.39-3.656 2.11-6.854 4.4-7.745 8.9-.263 1.4-1.043 2.69-1.62 4.13-6.45-1.79-12.82-4.31-19.394-5.24-9.89-1.43-19.92-2.43-29.87-2.32-7.12.08-14.23 2.23-21.33 3.5-.82.15-1.89.39-2.29.97-.75 1.08-1.53 1.47-2.31 1.47-.91 0-1.82-.52-2.68-1.15-1.21-.87-2.38-2.03-3.08-3.32-1.29-2.31-2.18-4.85-3.34-7.26-.32-.67-.99-1.17-1.36-1.81-.05-.08-.09-.18-.14-.28-.55-1.27-.55-2.88-1.32-3.96-3.29-4.65-7.09-8.86-11.96-11.96-3.28-2.07-6.76-3.86-9.95-6.05-12.15-3.58-26.66-5.06-27.13-5.11h-.01c-.42-.02-.81-.05-1.2-.07l-1.22-.07c-.36-.03-.71-.04-1.07-.08-.28-.01-.56-.02-.85-.05-1.05-.07-2.03-.12-3.03-.15-.39-.02-.78-.04-1.17-.04-.33-.01-.67-.02-1.02-.02-1.59-.01-3.19.05-4.86.14l-.66.03-1.85.11c-.62.04-1.26.07-1.91.09-.16 0-.33-.01-.5-.01-6.03 0-12.09 1.62-18.27 2.59-.66.1-1.31.2-1.97.28-.33.04-.66.09-.99.12-.96.11-1.91.2-2.88.25-.7.03-1.38.05-2.08.05-.39 0-.78.2-1.26.49-.3.18-.63.38-1.01.61-.23.14-.47.27-.74.42 5.93 1.86 11.08 3.05 14.92 7.13.11.12.22.23.34.34.23.21.46.42.72.62.13.1.26.19.39.29.28.2.57.39.86.59.86.58 1.77 1.13 2.59 1.76.32.24.63.51.93.8.09.09.18.19.28.29 0 0 .01 0 .01.01.11.13 9.57 11.15 10.49 14.54 3.01 4.61 4.18 9.95 6.22 14.93 1.27 3.1 1.88 6.47 3.05 9.61.17.45.35.9.54 1.34.19.45.4.89.63 1.33.69 1.31 1.56 2.54 2.7 3.67 2.18 2.17 4.48 3.63 6.89 4.26 1.74.45 3.53.47 5.34-.03l.28-.06c.35-.06.72-.07 1.09-.06.62.02 1.24.09 1.85.09h.01c-.06.15-.13.29-.2.43-.03.07-.07.13-.1.19-.45.81-1.01 1.22-1.3 1.76-.4.74-.79 1.49-1.18 2.23-.38.75-.76 1.5-1.15 2.25-1.44 2.81-2.87 5.63-4.39 8.4-.07.13-.13.25-.18.36-.08.15-.14.31-.2.46-.17.45-.28.89-.33 1.32-.15 1.22.12 2.39.57 3.63l.13.38c2.15 5.56 5.27 10.38 9.69 14.44.23.21.41.47.57.76.16.29.29.59.41.92.16.42.29.85.45 1.27.03.09.06.19.1.27.07.19.14.36.22.53v.01c.2.42.44.79.76 1.08 1.14 1.03 2.31 2.07 3.47 3.09 2.34 2.04 4.72 4.04 7.17 5.96 1.22.96 2.45 1.9 3.71 2.8 1.93 1.41 3.91 2.79 5.91 4.13 1.33.89 2.68 1.75 4.04 2.6 2.03 1.27 4.1 2.49 6.19 3.66 5.1 2.86 15.96 6.05 17.97 6.05.17 0 .29-.037.31-.09.51.48.75 1.1.84 1.78.31 1.99-.43 4.46 2.69 4.91.46-1.53.85-2.88 1.08-3.67 2.31 1.326 4.31 2.62 6.46 3.64 1.31.62 2.86.766 4.27 1.216 8.5 2.78 16.974 2.28 25.41-.25 6.06-1.82 12.05-3.85 18.17-5.8.03.08.08.263.14.45.39 1.205-1 3.21 2 3.14 2.78-.06 2.36-1.575 2.76-3.36-.11-2.62 3.64-4.21 3.79-4.31 5.64-3.41 11.34-6.74 16.88-10.27 2.47-1.575 4.62-3.63 6.96-5.385 7.54-5.63 14.674-11.644 18.814-20.4 2.2-4.64 4.03-9.38 2.68-14.63-.56-2.26-1.523-4.43-2.4-6.95 3.9.968 6.99-.15 9.72-2.4 1.1-.47 9.49-10.03 9.49-10.03.64-.99.7-2.54 1.53-3.18 3.954-3.01 5.78-7.26 7.06-11.773 1.09-3.85 2.23-7.82 2.43-11.77.08-3.12-1-13.27-1-13.27-.075-3.06-.635-6.12-.414-9.13.52-7.51.63-15.44 10.16-17.94.3-.09.65-.74.6-1.07zm-75.28 45.523l.1-.45v-.008c.035-.154.078-.298.112-.434.042-.153.093-.288.136-.432.534-1.63 1.434-3.004 2.613-4.208 1.17-1.214 2.65-2.266 4.33-3.232 2.52-1.45 5.04-2.936 7.48-4.54 1.52-1.01 3.01-2.06 4.42-3.18.57-.45 1.13-.908 1.67-1.383.28-.23.55-.47.82-.72.21-.18.41-.37.6-.57.6-.58 1.15-1.2 1.67-1.85.55-.67 1.06-1.36 1.56-2.07v-.01c.26-.35.5-.72.74-1.07.25-.36.48-.73.72-1.1s.47-.74.71-1.11c.48-.74.94-1.48 1.42-2.22v-.01c.24-.36.48-.73.72-1.08.45-.66.89-1.32 1.33-1.98.43-.67.87-1.34 1.29-2.02.85-1.34 1.71-2.68 2.58-4.02.31-.46.61-.92.93-1.38.15-.24.31-.47.46-.69.04-.05.15-.14.31-.26 1.39-1.06 7.71-4.57 20.18-6.62l.02-.01c.2-.03.41-.06.62-.08 1.09-.13 2.2-.12 3.31-.06 1.62.09 3.26.28 4.87.33v.01c0 .3-.01.6-.01.9v.01c-.84.16-1.7.3-2.56.44-.85.14-1.71.27-2.56.42-.43.07-.85.14-1.28.23l-.01.01c-.09 0-.16.02-.24.04-1.18.24-2.35.51-3.49.87-.19.06-.36.12-.55.18-.91.29-1.8.63-2.68.98-1.45.59-2.87 1.24-4.26 1.95-1.74.9-3.43 1.89-5.12 2.96-.56.37-1.12.73-1.68 1.1-.56.38-1.09.78-1.6 1.2-.33.28-.65.56-.97.86 0 0 0 .01-.01.01-.15.14-.3.3-.46.45-.15.14-.3.3-.45.45 0 0-.01 0 0 .01l-.43.46c-.01 0 0 .01 0 .01-.14.15-.28.31-.42.47v.01c-.13.16-.27.31-.41.48-.01.01 0 .01 0 .01l-.4.49c-.01 0-.01 0 0 .01-.13.16-.25.32-.39.48-.12.17-.24.34-.38.5v.01c-.12.17-.24.34-.37.51-.01 0-.01 0 0 .01-.12.16-.23.34-.36.51v.01l-.35.51v.01c-.23.35-.46.7-.69 1.04-.01 0 0 .01 0 .01-.23.35-.46.71-.69 1.06v.01c-.23.36-.45.71-.68 1.06v.01l-.67 1.06c-.91 1.41-1.84 2.8-2.88 4.12-.3.37-.61.74-.92 1.1-.32.36-.63.7-.96 1.04l-.02.02c-1.47 1.49-3.1 2.83-4.73 4.16-.24.18-.47.38-.7.56-.56.45-1.12.89-1.69 1.33-.57.44-1.15.88-1.71 1.33-.19.15-.39.3-.59.45-1.14.89-2.3 1.75-3.44 2.64l-.26.27c-.05.02-.09.03-.14.05-.03.01-.06.03-.09.03-2.26.82-3.76 2.27-4.78 4.14-.29.64-.53 1.34-.75 2.13l-.41.79-.01.01v.01c0 .02-.01.03-.01.06-.06.42-.12.83-.19 1.26l-.09.62-.19 1.3c-.04.21-.07.44-.1.67l-.21 1.37c-.07.46-.14.92-.21 1.4-.23-.08-.47-.17-.72-.25-.49-.18-1.01-.36-1.55-.55-.26-.09-.54-.19-.81-.29-1.11-.39-2.27-.79-3.41-1.2h-.002c-.12-1.41-.06-2.68.16-3.84zm38.498 9.527c-3.097-.865-5.727-3.18-8.56-4.708-.323-.17-.645-.34-.967-.483-4.71-2.155-7.64-6.39-9.99-11.436-.09.034-.19.068-.29.094-.19.067-.38.136-.57.194.23 1.366.17 2.894.72 4.073.85 1.8 1.82 3.48 2.87 5.06 3.42 5.14 7.79 9.25 12.16 13.36.59.54 1.09 1.21 1.62 1.83-.11.25-.21.51-.32.76-1.36-.73-2.76-1.38-4.13-2.12-.69-.38-1.39-.77-2.05-1.22-3.97-2.72-15.36-17.89-15.21-18.84.05-.1.1-.21.15-.33 1.67-1.54 3.35-3.07 5.09-4.67.21-.18.4-.36.61-.55.55-.51 1.12-1.02 1.69-1.55 2.9 3.12 6.21 6.76 9.6 10.32l1.97 2.06c2.68 2.78 5.41 5.56 8.24 8.46-.9.01-1.76-.11-2.59-.34zm.73-8.857l-.008-.01c-.79-.5-1.578-1.01-2.342-1.543 0 0-.008 0-.008-.01-.382-.253-.764-.524-1.137-.796l-.008-.01c-.373-.27-.747-.56-1.11-.84l-.01-.01c-.186-.15-.364-.29-.542-.44h-.01c-.177-.16-.354-.3-.533-.45l-.535-.46c-.178-.16-.348-.32-.518-.48-.347-.32-.678-.65-1.01-.99-.652-.68-1.28-1.4-1.865-2.16-.298-.38-.586-.78-.858-1.19-.542-.82-1.043-1.7-1.502-2.63-.39-.81-.738-1.65-1.043-2.55-.11-.3-.22-.61-.31-.93.16-.17.35-.38.56-.63.43-.5.97-1.13 1.63-1.89l1.06-1.23h.01c.18.31.35.6.51.85.54.86.98 1.43 1.16 1.92.05.16.08.3.07.46-.01.11-.01.21-.01.31 0 2.31 1.36 3.76 2.74 5.18.24.23.47.46.69.7.01 0 0 .01 0 .01.24.23.46.47.66.72.49.58.97 1.16 1.47 1.74.76.89 1.52 1.78 2.28 2.66 1.97 2.31 3.94 4.6 5.92 6.91h-.01c-.21.23-.44.46-.65.69h-.01c-.39-.26-.79-.5-1.18-.75h-.01c-.25-.16-.49-.31-.74-.46-.15-.09-.31-.2-.46-.29-.8-.49-1.59-.99-2.38-1.49zm-7.704-20.2c0-.084.008-.178.017-.263v-.008c.01-.085.03-.178.05-.263v-.008c0-.026.01-.042.02-.06.04-.17.1-.34.18-.518.11-.246.25-.518.42-.823.17-.297.38-.637.61-1.01.16-.255.33-.526.52-.814.05.08.08.17.12.24.92 1.85 1.83 3.67 2.72 5.48l3.29 6.65c-.07.1-.14.21-.2.31s-.12.21-.18.31h-.01v.01c-.02-.01-.04-.03-.06-.05-.35-.31-.72-.59-1.08-.89-1.15-.94-2.3-1.88-3.42-2.87-.13-.12-.25-.25-.36-.4-.05-.07-.11-.15-.16-.23-.26-.38-.49-.81-.73-1.2-.07-.11-.13-.22-.2-.32-.2-.3-.38-.59-.53-.85-.05-.09-.1-.16-.15-.25-.15-.24-.27-.46-.38-.68-.07-.13-.13-.27-.18-.39-.15-.38-.23-.72-.23-1.06zM206.844 87.49c11.725-.17 34.02 9.29 35.504 15.373-12.632-7.312-26.01-11.25-40.017-14.573 1.19-.51 2.72-.764 4.52-.798zm56.56 38.78c.195.652.365 1.306.51 1.976.202 1.002.346 2.02.43 3.045.154 1.83.137 3.68 0 5.54-.007.09-.016.17-.04.25-.044.17-.103.32-.188.49-.034.08-.085.16-.127.25-.07.12-.14.23-.2.35-.06.12-.12.23-.18.35-.33.04-.66.07-.98.1h-.01c-.11-.59-.26-1.2-.39-1.8-.09-.33-.16-.67-.23-1l-.03-.13c-.12-.62-.21-1.24-.21-1.87 0-.1 0-.19.01-.3v-.01c.01-.28.02-.56.02-.85 0-1.86-.29-3.65-.82-5.36-.06-.17-.11-.34-.17-.51-.12-.34-.25-.68-.38-1-.14-.33-.28-.65-.43-.98-.46-.96-.99-1.89-1.6-2.75-.7-1.01-1.5-1.96-2.36-2.84-.5-.5-1.02-.96-1.56-1.41-2.21-1.79-4.77-3.09-7.49-3.73-1.25-.29-2.52-.45-3.81-.45-.65 0-1.29.04-1.95.12-2.13.26-4.2.67-6.09 1.32-4.24 1.46-7.65 4.17-9.23 9.35-.36 1.2-.7 2.4-1.01 3.61-.55 2.07-1.06 4.16-1.57 6.25-.27 1.1-.54 2.2-.83 3.29-.08.32-.18.62-.28.93-.1.31-.21.61-.32.92v.01l-.22.01-.23.02c0-.01-.01-.04-.01-.06-.08-.5-.11-1.03-.23-1.5 0-.02-.01-.03-.01-.04-.04-.16-.09-.33-.16-.48-.59-1.32-1-2.61-1.27-3.86-.07-.31-.13-.62-.18-.93-.16-.93-.22-1.83-.22-2.7 0-5.06 2.37-9.39 5.63-12.93 2.03-2.21 4.41-4.12 6.77-5.71 4.51-3.04 10.36-2.58 15.75-.53.97.37 1.9.79 2.8 1.24 2.85 1.41 5.38 3.22 7.53 5.44.98 1.02 1.88 2.11 2.71 3.3.31.46.63.91.91 1.4.01 0 .01.01.01.01.27.45.51.91.74 1.38.15.31.29.63.43.94.26.63.5 1.27.7 1.93zm-11.03 5.616c0 .144-.007.297-.007.448-.06 2.97-.814 5.837-3.35 8.417h-.01c-.27-.81-.44-1.62-.534-2.41-.05-.47-.076-.94-.076-1.41 0-.22 0-.44.017-.66v-.01c.008-.21.025-.43.042-.64.008-.05.008-.1.017-.15.01-.12.035-.25.05-.38.12-.9.306-1.78.544-2.65.365-1.34.832-2.65 1.298-3.97v-.01c.12-.33.237-.65.348-.98v-.01c.237-.65.458-1.31.654-1.97v-.01c.1-.32.203-.65.288-.98.178 1.55.416 3.1.568 4.64.093.93.153 1.84.153 2.76zm-15.32 6.727c.008.085-.01.18-.033.272-.07.29-.29.603-.56.89-.2.212-.42.408-.64.543-.05.026-.1.068-.15.093-.09.05-.28-.01-.49-.12-.12-.06-.24-.12-.35-.21-.17-.12-.34-.26-.47-.4-.05-.06-.1-.11-.14-.17-.06-.08-.11-.17-.13-.24v-.01c-.14-.43-.27-.86-.39-1.29-.4-1.43-.68-2.87-.86-4.35-.09-.63-.15-1.28-.2-1.93-.01-.23-.03-.45-.04-.68-.13-2.18-.09-4.45.09-6.86.01 0 .01.01.01.01v-.01c.32.26.61.51.88.77.41.4.76.78 1.08 1.19.31.4.58.81.82 1.22.63 1.11.99 2.23 1.21 3.38.13.66.2 1.33.25 2 .15 1.99.02 4.01.18 5.94zM116.318 45.785c2.824-.56 5.632-1.56 8.458-1.603 5.532-.06 11.054.5 16.585.61.16-.017.33-.033.5-.04 6.3-.39 24.56 2.756 24.56 2.756 10.11 3.325 18.27 9.637 25.18 17.39 1.36 1.528 2.32 3.403 3.16 5.397.83 1.985 1.55 4.072 2.42 6.023 1.16 2.604 2.11 5.293 3.35 8.458-1.26.467-2.75 1.077-4.27 1.518-.33.077-.98-.38-1.24-.737-3.89-5.463-7.39-11.258-11.72-16.314-3.31-3.876-7.56-6.964-11.6-10.137-2.45-1.9-5.18-3.52-7.99-4.87-7.3-3.46-14.46-7.092-23.09-6.074-1.38.16-2.78.067-4.2-.12-2.51-.338-5.07-.975-7.6-1.127-3.52-.22-7.08.093-10.62.11-.6 0-1.19-.357-1.83-1.24zm75.027 38.286c-3.86-.72-7.38-.29-10.75.59-4.012 1.17-7.812 3.01-11.757 4.21-.025-.04-.05-.09-.068-.14l-1.053.33-.416-.85c2.77-1.34 5.46-2.84 8.32-3.96 2.52-.98 5.22-1.54 7.77-2.45.37-.13.73-.27 1.09-.41.55-.22 1-.69 1.43-1.23.42-.53.81-1.13 1.25-1.63.02.03.04.04.05.07.05-.06.1-.13.15-.18l-.01-.02c-.1-.01-.19-.01-.29-.01l.08.1h.08l-.01.02-.02.03c-.02-.02-.03-.02-.04-.04-2.4-.11-4.71-.02-6.95.4-2.51.55-4.93 1.56-7.25 3.19-2.43 1.73-5.69 2.3-9 3.01.03-.04.07-.1.11-.15-.49.1-.98.21-1.48.31.52-.62.92-1.43 1.57-1.85 5.02-3.21 10-6.51 16.2-7.4h.01c.65-.09 1.17-.92 1.76-1.41-.72-.4-1.43-1.13-2.13-1.13-1.73 0-3.46.11-5.19.24-2.45.89-4.75 2.2-6.87 4.09-2.3 2.05-5.61 3.06-8.94 4.24.43-.69.7-1.54 1.3-2.04 4.52-3.83 8.97-7.75 15-9.44.62-.17 1.03-1.07 1.53-1.64-.52-.2-1.07-.56-1.59-.74-4.42.71-8.42 2.26-11.94 5.43-2.28 2.06-5.58 3.1-8.91 4.29.43-.68.7-1.53 1.28-2.04 4.5-3.86 8.94-7.81 14.95-9.53.62-.18 1.03-1.08 1.53-1.64-.76-.29-1.57-.92-2.27-.82-2.48.33-4.91.92-7.37 1.4-.12-.24-.24-.47-.37-.7 2.5-1.21 5-2.41 7.99-3.86 1.47 1.38 3 2.83 4.56 4.31.05-.03.09-.05.15-.08 1.84 1.76 3.78 3.62 5.75 5.5.05-.02.08-.02.12-.04.02.03.04.06.07.09.14-.05.28-.09.43-.14 1.97 2.57 4.08 5.34 6.19 8.12h.03l-.02.02c1.23 1.71 2.47 3.42 4.01 5.56-.04-.01-.08-.02-.12-.02.05.05.08.1.13.15zm-36.292 22.32c-3.376.44-6.388-.25-8.882-1.78l-6.26-8.19-.69-1.99c-2.49-7.13-5.16-14.2-7.81-21.27l-9.09-13.69c-.59-.65-1.26-1.23-1.95-1.8-.98-.8-2.01-1.56-2.98-2.37.17-.28.34-.56.52-.82 1.51.63 3.14 1.11 4.54 1.94.01.01.02.01.02.01 4.99 2.99 8.97 6.86 11.41 12.35 2.52 5.65 5.53 11.09 8.36 16.6 1.42 2.77 2.7 5.64 4.46 8.17 3.32 4.73 6.78 9.45 13.13 10.46.5.08.94.48 1.65.86-.7.83-1.26 1.5-1.3 1.54-2.16 0-3.64-.16-5.09.03zm44.504 31.71c-.204.08-.407.15-.61.22-.407.13-.823.25-1.23.34-.83.2-1.663.32-2.485.35h-.06c-.253.01-.5.02-.754.01-1.196-.02-2.375-.22-3.487-.61-.22-.08-.44-.17-.65-.26h-.01c-.21-.1-.42-.2-.63-.31 0 .01 0 .01 0 0-.21-.11-.41-.23-.62-.36-.46-.28-.92-.6-1.37-.91-.33-.23-.66-.47-.97-.73-.21-.17-.41-.35-.6-.53-.29-.28-.56-.57-.79-.87-1.79-2.34-2.89-4.88-3.47-7.56-.05-.24-.1-.47-.14-.72-.1-.53-.17-1.08-.23-1.62-.01-.05-.01-.09-.01-.14 0-.04-.01-.08-.01-.12-.03-.35-.06-.7-.07-1.06v-.09c-.02-.42-.03-.85-.03-1.28v-.07c0-.42.02-.85.03-1.27.01-.24.02-.48.04-.73.01-.08.02-.15.02-.23.02-.15.03-.31.04-.47.03-.45.14-.87.27-1.26.05-.13.1-.25.15-.37.26-.59.64-1.08 1.07-1.53l.13-.12.04-.04c.28-.26.57-.51.88-.73.3-.23.63-.45.96-.66.65-.42 1.32-.82 1.92-1.25.22-.14.44-.28.67-.41.27-.15.55-.29.84-.42 0 0 .01-.01.02-.01 1.39-.62 2.96-1.02 4.43-1.54.21-.06.4-.13.61-.21 5.4.49 10.32 1.73 13.66 5.47.43.48.83.99 1.21 1.56.13.19.25.38.37.58.24.39.43.82.6 1.27.48 1.35.66 2.93.66 4.48 0 .72-.03 1.42-.09 2.1-.02.22-.04.44-.07.66-.26 2.09-1.12 4.06-2.39 5.79-.25.35-.51.69-.8 1.01-.43.49-.88.96-1.38 1.39-.97.88-2.04 1.65-3.19 2.28-.38.21-.77.41-1.17.58-.39.19-.8.35-1.2.5zm13.065 43.47c-.11-.78-.236-1.65-.38-2.62-.883-6.85-2.054-17.63-2.85-22.89.71.39 1.373.82 1.967 1.27 4.63 3.63 5.07 9.94 1.26 24.25zm9.834-7.85c-.06-.34-.11-.68-.17-1.03-.034-.24-.076-.48-.12-.72-.075-.48-.152-.97-.237-1.47-.2-1.24-.41-2.56-.65-4.01.41.26.77.5 1.08.73.2.15.38.31.54.47.24.24.42.49.56.74v.01c.6 1.15.22 2.6-1.01 5.3zm12.25 7.86h-.01c-.06-.33-.126-.65-.185-.96-.18-.94-.35-1.82-.52-2.66-.11-.56-.22-1.1-.32-1.64-.11-.54-.21-1.08-.32-1.63-.02-.15-.06-.3-.08-.46v-.01c.33.16.61.35.88.58.27.22.49.48.7.76.21.3.39.63.53.98.05.11.09.23.12.35.46 1.44.27 3.18-.77 4.71zm19.147-3.32v.01l-.34.08c-.12.03-.23.05-.347.09v-.01l-.61-3.37c-.23-1.23-.45-2.46-.68-3.69v-.01l1.23-.28c.255 2.4.5 4.81.755 7.2zm8.89-2.14h-.007l-.55.03-.552.03v-.01c-.11-.87-.23-1.75-.347-2.63-.17-1.26-.34-2.52-.483-3.78-.007-.05-.007-.1-.016-.15l-.323-3.95c0-.03.01-.05.02-.09 0-.04.007-.08.016-.12v-.01c.03-.08.05-.16.1-.23v-.01c.03-.04.04-.07.07-.12l.09-.12v-.01l.1-.12v-.01c.05-.04.08-.08.11-.11v-.01c.12-.12.25-.25.38-.39.1-.08.19-.18.29-.27.2-.18.4-.36.6-.55.19-.18.37-.35.54-.54l.01-.01v13.21zm10.368-23.39c-.01.44-.04.89-.06 1.34 0 .05-.01.11-.01.16-.35 7.97-.7 15.93-1.04 23.9h-.08l-.1 2.21c-.29.03-.59.05-.89.06-.07-.64-.14-1.33-.19-2.03-.42-5.02-.54-11.21-1.47-16.02-.09-.47-.19-.95-.3-1.4-.06-.25-.1-.5-.14-.74 0-.06 0-.11-.01-.17-.02-.17-.04-.34-.05-.5 0-.07 0-.15-.01-.23 0-.13 0-.27.01-.39 0-.07.01-.15.02-.22.01-.15.03-.3.05-.43l.03-.13c.05-.25.12-.5.2-.73v-.01c.08-.22.18-.44.29-.67.18-.32.39-.62.63-.9.08-.1.17-.19.24-.29l.34-.37h.01c.16-.17.33-.33.5-.49.17-.17.35-.33.53-.49.36-.32.72-.64 1.07-.97.16-.14.32-.3.48-.46v.01zm-.79-4.41l-1.09 1.69c-.54.84-1.1 1.67-1.69 2.47-.58.79-1.21 1.55-1.91 2.23-.14.15-.27.29-.43.45h-.01c-1.1 1.01-2.22 1.99-3.34 2.97-2.5 2.2-5.05 4.35-7.6 6.49-.14.13-.3.26-.46.38-3.54 2.98-7.11 5.93-10.62 8.94-.5.42-.97.75-1.43.98-.45.24-.91.38-1.37.44-.08.01-.17.04-.25.04-.06 0-.12.01-.18.01-.6 0-1.22-.15-1.89-.45-.27-.12-.54-.27-.83-.43-.14-.08-.28-.18-.44-.27-.06-.04-.12-.08-.18-.11-.06-.04-.11-.08-.17-.11-1.22-.79-2.43-1.59-3.63-2.42-.4-.27-.8-.55-1.2-.83-.95-.67-1.91-1.35-2.86-2.04-.38-.27-.76-.54-1.13-.82-1.21-.89-2.4-1.79-3.59-2.71-.07-.06-.14-.11-.21-.16-1.23-.96-2.45-1.93-3.66-2.9l-1.47-1.19c-.68-.57-1.37-1.13-2.06-1.7-.63-.52-1.26-1.04-1.89-1.57l-.92-.79-2.33-1.97c-1.28-1.08-2.56-2.2-3.84-3.3-.02-.02-.05-.04-.07-.07-1.33-1.14-2.66-2.3-3.99-3.45-.03-.03-.06-.05-.1-.08-.31-.26-.61-.51-.92-.76-.3-.26-.62-.5-.93-.74-.31-.25-.63-.49-.94-.74-.32-.24-.64-.49-.95-.74.14-.22.28-.46.42-.69.93.33 2 .45 2.73 1.02 2.01 1.61 3.99 3.23 5.98 4.87 1.11.9 2.2 1.81 3.3 2.71 1.11.9 2.2 1.8 3.3 2.7.83.67 1.66 1.34 2.48 2.02.28.23.56.46.84.68l3.33 2.67.01.01c.33.27.66.52.99.77.33.26.66.51.99.78 1.6 1.23 3.19 2.44 4.81 3.63.18.15.37.28.55.42.94.69 1.89 1.38 2.84 2.06.68.48 1.35.96 2.02 1.43.28.2.56.4.84.59 0 0 .01 0 .01.01.18.12.37.23.56.33s.41.2.62.28c.95.37 2.03.55 2.97.5.38-.01.77-.06 1.16-.13.43-.08.88-.19 1.31-.33.29-.1.56-.2.84-.33.27-.13.54-.25.78-.4 0 0 0 .01.01 0 .13-.07.25-.15.37-.22.38-.26.76-.51 1.13-.77 0 0 0 .01.01 0 .75-.52 1.49-1.05 2.22-1.59 1.83-1.35 3.6-2.77 5.32-4.24 1.38-1.18 2.72-2.38 4.05-3.61 1.33-1.24 2.63-2.49 3.92-3.76 3.25-3.21 6.42-6.53 9.6-9.83.02-.01.03-.03.05-.04.04-.03.09-.05.16-.06.09-.01.23-.01.41.04.12.03.26.07.42.13.11.04.24.09.37.15 0 .01-.01.02-.02.04-.35.48-.69.99-1.02 1.5zm24.13-18.14c-.18.65-.43 1.28-.74 1.91-.11.22-.23.44-.35.66-.24.44-.52.88-.84 1.29-.15.21-.31.42-.48.63-.51.61-1.07 1.18-1.7 1.72-.42.36-.87.7-1.35 1.02-.62.41-1.26.76-1.91 1.05-1.35.61-2.7.96-3.95 1.15-1.28.2-2.46.23-3.39.21-.15 0-.29 0-.44-.01-.28-.02-.55-.03-.82-.07h-.01c-.53-.05-1.06-.12-1.57-.23-.26-.04-.51-.09-.76-.16-.49-.11-.96-.25-1.42-.41 0 0-.01.01-.01 0-.92-.31-1.77-.71-2.55-1.17-1.17-.68-2.18-1.52-3.01-2.48-1.58-1.82-2.54-4.06-2.74-6.5v-.01c-.02-.17-.01-.36-.02-.55-.02-.97.05-1.97.26-2.98.04-.21.09-.42.14-.64.1-.38.21-.76.33-1.13.11-.36.24-.71.38-1.05 0-.01.01-.01.01-.01.11-.29.23-.57.36-.85.04-.11.1-.21.15-.31.13-.27.27-.53.4-.78.26-.47.54-.9.82-1.31.15-.21.31-.41.47-.61.25-.31.51-.61.79-.88.46-.46.94-.87 1.46-1.22s1.07-.66 1.65-.91c1.84-.8 3.99-1.07 6.43-.72 2.15.32 4.36.8 6.43 1.62.04.02.08.03.11.05.08.03.15.06.21.1 1.73.72 3.34 1.68 4.7 3 .27.27.55.55.79.84.42.47.8.98 1.15 1.53 1.6 2.53 1.89 5.48 1.08 8.27zm9.16-30.59c-7.8-4.98-16.88-4.93-25.9-5.98-.54-.06 0 0-1.88-.06-6.49-1.58-9.18-.89-13.57-1.22-1.13-.07-2.51.18-3.48.76-3.79 2.35-7.44 4.9-11.16 7.35-.64.42-3.98 2.48-4.64 2.87-.01-.01-.02-.06-.02-.11 0-.46.89-2.1 1.86-2.62 2.94-4.51 4.72-6.31 8.27-8.38 9.03-5.27 22.57-1.81 26.53-1.48 9.67 1.77 18.06 1.55 24.08 8.06l.12.04 1.67 2.09c-.32-.06-1.58-1.15-1.84-1.31zm7.7 5.21c-2.48-2.65-4.98-5.31-7.51-8.02 0 0-4.55-5.88-7.89-9.81l-2.46-2.75-.55-1.45c.85.76 7.06 5.76 9.48 8.62 3.23 3.79 5.98 7.98 8.91 12.02.23.33.3.78.03 1.41zm34.63-54.49c-.28 3.04-.9 6.07-.91 9.1-.04 2.57.54 5.15.98 7.7 0 0 .89 5.96.72 7.3-.12 7.56-1.27 14.82-5.1 21.43-1.81 3.12-3.91 6.06-5.87 9.09 0 0-7.11 8.17-8.24 8.87-2.28 1.47-2.32 1.54-9.65 1.36-.28-.59-.54-1.19-.82-1.76-.29-.58-.61-1.15-1.07-2.03.89.19 5.43-2.78 7.19-4.21 5.54-4.53 10.19-9.63 13.85-16 3.62-6.31 3.36-12.9 3.97-19.5.62-6.93.78-13.89 1.23-20.84.31-4.77 3.12-7.92 7.04-10.23.35-.21.84-.17 1.43-.1-4.01 2.21-4.35 6.02-4.72 9.85z'},{'color':'#d2a293','path':'M351.208 40.524c-3.92 2.316-6.728 5.463-7.042 10.23-.45 6.95-.61 13.914-1.23 20.845-.61 6.6-.348 13.19-3.97 19.5-3.656 6.37-8.305 11.47-13.844 16-1.757 1.43-6.295 4.4-7.186 4.21.467.87.78 1.45 1.077 2.02.28.57.543 1.17.823 1.76 7.33.17 7.372.11 9.654-1.36 1.137-.71 8.246-8.87 8.246-8.87 1.96-3.03 4.055-5.97 5.87-9.09 3.835-6.61 4.98-13.87 5.107-21.43.17-1.34-.72-7.3-.72-7.3-.442-2.55-1.02-5.13-.985-7.7.017-3.03.636-6.06.916-9.1.365-3.84.705-7.65 4.717-9.85-.59-.08-1.07-.11-1.43.09z'},{'color':'#d2a293','path':'M327.04 84.85c.245.154.49.298.737.46h.01c.39.245.788.49 1.178.746h.01c.21-.23.432-.458.643-.688l.01-.008c-1.978-2.308-3.955-4.606-5.922-6.914-.764-.882-1.52-1.774-2.282-2.664-.492-.576-.976-1.154-1.468-1.74-.204-.245-.424-.482-.662-.72 0 0 .008-.01 0-.01-.22-.237-.45-.475-.687-.704-1.383-1.424-2.74-2.876-2.74-5.184 0-.102 0-.203.01-.314.007-.152-.027-.296-.078-.458-.18-.483-.62-1.05-1.17-1.917-.16-.255-.33-.543-.52-.857-.39.44-.74.85-1.07 1.222-.66.755-1.2 1.39-1.63 1.883-.21.246-.4.458-.55.637.09.314.19.62.29.916.3.9.65 1.74 1.04 2.545.45.94.96 1.81 1.5 2.63.27.41.56.81.86 1.19.58.77 1.21 1.49 1.86 2.17.33.34.66.67 1.01.99l.51.48.53.46c.18.15.35.3.53.45h.01c.17.15.35.29.54.44l.01.01c.36.29.74.57 1.11.84l.01.01c.37.27.75.54 1.13.8 0 .01.01.01.01.01.76.54 1.55 1.04 2.34 1.55l.01.01c.79.5 1.58 1 2.37 1.49.15.09.3.2.46.29zm-9.206-1.035c-.662-.687-1.315-1.374-1.968-2.06-3.385-3.564-6.702-7.204-9.595-10.326-.56.52-1.13 1.03-1.68 1.54-.2.18-.4.37-.6.55-1.74 1.59-3.42 3.13-5.09 4.66-.05.11-.1.22-.15.32-.15.95 11.24 16.12 15.21 18.84.67.45 1.36.85 2.06 1.22 1.37.73 2.77 1.38 4.14 2.11.11-.26.21-.51.33-.77-.53-.62-1.03-1.29-1.62-1.83-4.37-4.11-8.74-8.22-12.16-13.36-1.05-1.58-2.02-3.26-2.86-5.07-.55-1.18-.49-2.71-.72-4.07.2-.06.39-.13.58-.19.1-.03.2-.06.29-.1 2.35 5.05 5.29 9.28 9.99 11.43.32.14.64.31.97.48 2.83 1.52 5.46 3.84 8.56 4.7.83.23 1.69.35 2.6.34-2.82-2.9-5.55-5.68-8.24-8.46zm-.524-18.798c.05.085.1.16.15.254.154.26.332.55.536.85.068.1.135.21.204.32.246.4.475.83.738 1.21.05.08.11.16.16.23.11.15.23.28.366.4 1.112 1 2.265 1.93 3.42 2.87.364.3.728.59 1.085.89.02.03.04.04.06.06v-.01c.07-.1.12-.2.19-.3.07-.1.12-.2.19-.3-1.1-2.2-2.19-4.41-3.29-6.64-.89-1.81-1.8-3.63-2.72-5.48-.04-.07-.08-.16-.12-.24-.19.29-.36.56-.52.82-.24.38-.44.71-.61 1.01-.17.31-.31.58-.42.83-.08.18-.14.35-.18.52-.01.02-.02.04-.02.06v.01c-.03.09-.04.18-.05.26v.01c-.01.09-.02.18-.02.27 0 .34.09.68.24 1.06.05.13.12.26.18.4.11.22.23.44.38.68zM304.362 91.34c-2.418-2.858-8.627-7.863-9.476-8.618l.552 1.46 2.46 2.756c3.334 3.928 7.89 9.808 7.89 9.808 2.528 2.714 5.022 5.37 7.508 8.025.27-.62.203-1.07-.026-1.4-2.935-4.05-5.684-8.23-8.908-12.02zm1.298 7.398c-6.022-6.515-14.404-6.295-24.076-8.06-3.962-.33-17.5-3.792-26.527 1.485-3.555 2.07-5.328 3.868-8.272 8.38-.967.52-1.858 2.156-1.858 2.622 0 .05.018.094.026.11.662-.39 3.996-2.45 4.64-2.867 3.716-2.452 7.373-5.005 11.165-7.348.967-.584 2.34-.838 3.48-.763 4.394.33 7.074-.356 13.572 1.222 1.883.06 1.34 0 1.883.06 9.026 1.04 18.104 1 25.908 5.98.27.15 1.52 1.24 1.85 1.3l-1.66-2.09-.12-.04zm-11.444 21.608c-.246-.297-.518-.576-.79-.84-1.366-1.315-2.977-2.282-4.7-2.994-.067-.035-.135-.068-.21-.094-.035-.018-.07-.026-.11-.042-2.07-.823-4.285-1.307-6.43-1.62-2.445-.357-4.59-.086-6.43.72-.578.255-1.13.56-1.647.917-.52.357-1.01.764-1.46 1.222-.28.272-.55.57-.79.883-.16.195-.32.398-.47.61-.29.408-.57.84-.83 1.307-.14.254-.27.51-.4.78-.05.103-.11.205-.15.315-.13.27-.25.56-.36.848 0 0-.01 0-.01.01-.14.34-.27.687-.38 1.05-.12.366-.22.74-.32 1.12-.06.213-.11.434-.15.646-.21 1.01-.29 2.01-.26 2.986.01.186 0 .374.02.55v.018c.19 2.435 1.15 4.674 2.74 6.5.83.957 1.84 1.798 3.01 2.485.78.458 1.63.848 2.55 1.17 0 .01.01 0 .01 0 .46.153.93.297 1.42.417.24.067.5.118.76.16.51.103 1.03.18 1.57.23h.01c.27.025.55.043.83.06.13.008.28.017.43.017.93.025 2.11-.008 3.39-.204 1.24-.195 2.6-.543 3.95-1.153.65-.29 1.29-.637 1.91-1.053.48-.322.92-.662 1.35-1.018.63-.54 1.19-1.12 1.7-1.72.17-.21.33-.42.48-.63.3-.42.59-.85.84-1.29.12-.22.24-.44.35-.66.3-.63.55-1.27.74-1.91.81-2.79.51-5.75-1.08-8.27-.35-.56-.73-1.07-1.15-1.53zm-15.737 13.82c-2.92-.077-5.86-2.58-5.82-4.946.04-2.113 2.94-5.845 4.54-5.837 3.76.025 7.31 2.782 7.23 5.625-.08 2.715-3 5.242-5.97 5.157z'},{'color':'#FFF','path':'M284.816 86.242c1.137.407 2.3.814 3.41 1.205.272.1.552.196.814.288.543.187 1.06.374 1.553.552.246.084.492.17.72.254.07-.48.137-.94.213-1.4l.204-1.37c.034-.23.067-.45.102-.66l.195-1.3c.034-.21.068-.42.093-.62.068-.42.136-.84.195-1.25v-.03c0-.02.008-.03.008-.06-.017.02-.025.03-.025.05l-.01.01c.307-1.08.706-2.08 1.206-3 1.018-1.86 2.52-3.32 4.776-4.14l.093-.03c.05-.01.093-.03.144-.05.077-.09.16-.18.246-.26h.008c1.15-.89 2.3-1.76 3.45-2.64.21-.15.4-.31.6-.45l1.72-1.33 1.7-1.34.71-.56c1.63-1.32 3.27-2.66 4.74-4.15l.02-.01c.33-.34.64-.68.96-1.04.31-.36.62-.73.92-1.1 1.04-1.31 1.98-2.7 2.89-4.11.23-.35.45-.7.68-1.06v-.01c.23-.35.45-.7.68-1.06v-.01c.23-.34.46-.7.69-1.05 0 0-.01-.01 0-.01.23-.35.46-.69.7-1.04v-.01l.36-.51v-.01c.13-.17.25-.34.37-.51-.01 0-.01 0 0 0 .13-.17.25-.34.37-.51v-.01c.14-.16.26-.33.38-.5v-.01c.14-.16.26-.32.39-.48v-.01l.4-.49s-.01 0 0-.01l.41-.47v-.01c.14-.15.28-.31.42-.47 0 0-.01-.01 0-.01.14-.15.29-.3.43-.46.16-.15.3-.31.45-.45.16-.15.31-.31.46-.45.01 0 .01-.01.01-.01.32-.3.64-.58.97-.86.51-.42 1.05-.82 1.61-1.2.56-.37 1.13-.73 1.69-1.1 1.69-1.06 3.39-2.06 5.13-2.96 1.39-.71 2.8-1.36 4.25-1.95.89-.34 1.78-.68 2.68-.98.19-.06.37-.12.56-.18 1.15-.36 2.32-.63 3.5-.87.08-.02.16-.04.24-.04 0 0 .01-.01.02-.01.42-.08.84-.16 1.28-.23.85-.14 1.7-.28 2.56-.41.86-.13 1.71-.27 2.56-.43v-.01c0-.29.01-.6.01-.9v-.01c-1.61-.05-3.25-.24-4.87-.33-1.11-.06-2.22-.07-3.31.06-.2.03-.4.06-.61.1h-.02c-12.47 2.05-18.79 5.57-20.18 6.63-.15.12-.26.21-.3.26-.15.23-.31.46-.45.7-.32.46-.62.92-.93 1.39-.87 1.33-1.73 2.68-2.58 4.02-.42.68-.85 1.35-1.29 2.02-.43.66-.87 1.32-1.32 1.98-.25.36-.48.72-.72 1.09v.01c-.48.74-.94 1.49-1.42 2.22-.23.37-.46.74-.7 1.11-.24.38-.48.74-.72 1.11v.01c-.24.36-.49.72-.74 1.08v.01c-.49.71-1.01 1.4-1.55 2.07-.53.65-1.08 1.27-1.67 1.85-.19.2-.39.39-.61.58-.27.24-.53.49-.81.72-.54.47-1.1.93-1.67 1.38-1.41 1.12-2.9 2.17-4.42 3.18-2.43 1.61-4.95 3.1-7.47 4.54-1.68.97-3.14 2.01-4.32 3.23-1.18 1.21-2.08 2.58-2.61 4.21-.04.15-.09.28-.13.43-.03.14-.08.28-.11.44l-.1.45c-.23 1.15-.29 2.42-.17 3.83h.01z'},{'color':'#36454f','path':'M277.215 123.383c-1.604-.008-4.505 3.724-4.547 5.837-.042 2.366 2.894 4.87 5.812 4.945 2.96.085 5.888-2.442 5.964-5.158.084-2.842-3.47-5.6-7.23-5.624z'},{'color':'#d2a293','path':'M272.982 146.602c-.16-.06-.306-.102-.424-.126-.178-.052-.314-.052-.407-.035-.06.01-.11.03-.16.06l-.05.05c-3.18 3.3-6.34 6.62-9.59 9.83-1.29 1.28-2.59 2.53-3.92 3.77-1.32 1.23-2.67 2.44-4.04 3.62-1.72 1.47-3.48 2.9-5.32 4.24-.73.54-1.46 1.06-2.21 1.59-.01.01-.01 0-.01 0-.37.27-.74.52-1.13.78-.12.08-.23.15-.36.22-.01.01-.01 0-.01 0-.24.14-.5.27-.78.4s-.56.23-.84.32c-.43.15-.87.25-1.31.33-.39.08-.78.12-1.16.14-.94.04-2.02-.13-2.97-.5-.21-.08-.42-.18-.62-.28s-.38-.21-.56-.33c0-.01-.01-.01-.01-.01-.28-.19-.56-.39-.84-.59-.67-.46-1.34-.95-2.02-1.42-.95-.68-1.89-1.37-2.83-2.06-.18-.13-.37-.27-.55-.41-1.62-1.19-3.21-2.4-4.81-3.63-.33-.27-.66-.52-.99-.78-.33-.25-.66-.51-.99-.77V161l-3.33-2.666c-.28-.22-.56-.45-.84-.68-.82-.674-1.65-1.344-2.48-2.014-1.1-.9-2.19-1.8-3.3-2.7-1.1-.9-2.19-1.806-3.3-2.705-1.99-1.64-3.98-3.26-5.98-4.87-.72-.57-1.79-.69-2.72-1.02-.14.23-.28.47-.42.69.31.243.64.49.95.734.31.24.63.48.94.74h.01c.31.23.63.48.93.73.31.26.62.5.92.76.04.03.07.05.1.08 1.33 1.15 2.66 2.31 4 3.45l.08.06c1.28 1.1 2.57 2.21 3.85 3.3.77.66 1.55 1.31 2.33 1.97.31.26.62.52.92.79l1.9 1.57c.68.56 1.37 1.12 2.06 1.69.49.4.97.8 1.47 1.19 1.21.98 2.42 1.94 3.65 2.9.08.05.15.1.21.16 1.19.91 2.39 1.81 3.59 2.7.38.28.76.55 1.13.82.95.68 1.91 1.37 2.87 2.04.4.28.81.56 1.21.83 1.2.83 2.41 1.63 3.63 2.42.06.03.12.08.18.12.06.03.12.07.18.11.16.09.3.19.44.27.29.16.56.31.84.43.67.29 1.29.45 1.89.45.06 0 .12-.01.17-.01.09 0 .17-.03.26-.04.46-.06.92-.21 1.37-.44.47-.23.94-.56 1.44-.98 3.51-3.01 7.08-5.97 10.62-8.94.16-.13.32-.26.46-.38 2.56-2.14 5.1-4.3 7.6-6.49 1.12-.98 2.24-1.96 3.35-2.97h.01c.16-.16.29-.3.43-.44.7-.69 1.33-1.45 1.91-2.23.59-.8 1.14-1.63 1.7-2.47.37-.56.73-1.13 1.1-1.69.33-.51.67-1.02 1.02-1.5.01-.02.02-.03.03-.05-.14-.06-.26-.11-.37-.15zm-1.416 7.525c-.178.16-.357.322-.526.492-.17.16-.34.32-.5.49 0 0 0 .01-.01.01-.118.12-.228.24-.338.37-.076.09-.16.18-.238.29-.373.48-.695.99-.916 1.57-.084.23-.152.47-.204.73l-.025.12c-.03.13-.05.28-.06.43-.01.07-.02.14-.02.22-.01.13-.01.26-.01.4.01.07.01.15.01.23.01.16.02.33.05.5.01.06.01.11.02.17.04.23.08.48.14.74.11.45.21.92.3 1.4.92 4.81 1.04 10.99 1.46 16.01.05.7.12 1.39.19 2.03l.89-.06c.03-.71.07-1.45.1-2.21.34-7.55.79-16.44 1.12-23.9 0-.05.01-.11.01-.17l.06-1.34c-.16.15-.31.3-.47.45-.36.33-.71.65-1.07.97zm-10.046-32.11s0-.01-.008-.01c-.29-.483-.602-.94-.916-1.4-.823-1.187-1.722-2.28-2.706-3.3-2.146-2.222-4.675-4.03-7.525-5.437-.908-.45-1.833-.865-2.8-1.24-5.387-2.043-11.24-2.51-15.754.536-2.35 1.586-4.73 3.495-6.77 5.71-3.25 3.537-5.63 7.864-5.63 12.928 0 .874.07 1.773.22 2.698.05.314.11.62.18.934.27 1.247.69 2.536 1.28 3.86.07.153.12.322.16.483 0 0 .01.02.01.04.12.47.16 1 .23 1.5 0 .02.01.05.01.07.08-.01.15-.02.23-.02.07-.01.15-.02.22-.02.1-.31.21-.61.31-.92.11-.31.21-.61.28-.93.29-1.1.56-2.2.84-3.29.51-2.09 1.01-4.18 1.57-6.25.32-1.21.65-2.41 1.02-3.61 1.58-5.19 4.99-7.89 9.23-9.35 1.9-.65 3.96-1.05 6.09-1.32.66-.09 1.3-.12 1.95-.12 1.29 0 2.56.15 3.81.45 2.72.63 5.29 1.94 7.49 3.73.55.44 1.06.9 1.56 1.4.87.87 1.67 1.82 2.36 2.84.61.86 1.14 1.79 1.6 2.76.15.32.29.64.43.97.12.32.25.66.37 1 .06.17.11.34.17.51.53 1.7.81 3.5.81 5.36 0 .29-.01.57-.02.85v.01c-.01.1-.01.19-.01.29.01.62.1 1.24.21 1.87l.03.12c.07.33.15.67.23 1 .15.6.29 1.21.4 1.8l.98-.09c.06-.12.12-.23.18-.35.06-.12.13-.23.2-.35.04-.09.1-.17.13-.25.09-.16.15-.32.19-.49.02-.09.03-.16.04-.25.14-1.86.16-3.72.01-5.54-.08-1.03-.23-2.04-.43-3.05-.14-.67-.31-1.32-.51-1.97-.2-.66-.44-1.3-.7-1.93-.14-.32-.28-.63-.43-.94-.23-.47-.47-.93-.75-1.38zm.68 41.425c-.195.187-.4.373-.594.552-.102.093-.195.186-.29.27-.125.137-.253.264-.372.392v.01c-.034.032-.068.075-.11.117v.01c-.035.04-.06.075-.094.118v.01c-.025.05-.06.08-.084.12v.01c-.026.05-.042.08-.068.12v.01c-.042.08-.068.16-.093.24v.01c-.01.04-.017.08-.017.12-.008.04-.017.06-.017.09l.33 3.96c.01.05.01.1.02.15.15 1.27.32 2.52.49 3.79.12.88.24 1.76.35 2.63.19-.01.37-.01.55-.01l.56-.02v-13.2c-.17.19-.35.37-.53.55zm-10.325 7.89c.23 1.23.45 2.46.68 3.69l.61 3.377c.118-.04.228-.06.347-.09l.34-.08v-.01c-.246-2.4-.5-4.8-.747-7.2-.407.09-.814.19-1.23.28z'},{'color':'#d2a293','path':'M251.367 125.47v.008c-.195.66-.417 1.323-.654 1.977v.008c-.11.33-.23.653-.348.984v.008c-.466 1.315-.933 2.63-1.298 3.97-.238.874-.424 1.756-.543 2.656-.017.13-.042.26-.05.39-.01.05-.01.1-.018.16-.017.21-.034.43-.042.65v.01c-.017.22-.017.44-.017.66 0 .47.025.94.076 1.41.093.79.263 1.6.535 2.41h.008c2.537-2.58 3.292-5.45 3.35-8.42 0-.15.01-.3.01-.44 0-.92-.06-1.83-.153-2.76-.153-1.54-.39-3.09-.568-4.64-.085.33-.188.66-.288.99zm-15.95 1.832c-.237-.416-.508-.823-.822-1.222-.314-.408-.67-.797-1.078-1.188-.272-.262-.56-.517-.874-.77v.007c-.178 2.41-.22 4.67-.093 6.85.01.23.026.45.042.68.05.65.11 1.3.204 1.93.187 1.47.466 2.92.865 4.35.12.43.25.86.4 1.29l.01.01c.03.07.08.16.14.24.04.06.1.11.15.17.13.13.3.28.47.39.12.08.24.15.36.21.21.11.4.17.49.12.05-.03.1-.07.15-.09.22-.14.44-.33.65-.55.27-.29.5-.6.57-.89.03-.09.04-.18.03-.27-.16-1.93-.03-3.94-.17-5.94-.05-.67-.12-1.33-.24-1.99-.22-1.14-.59-2.27-1.21-3.37zm-.06 49.204c-.136-.348-.313-.68-.526-.975-.2-.28-.43-.53-.69-.75-.26-.22-.55-.41-.87-.57l.09.46c.11.54.21 1.09.32 1.63.1.54.21 1.08.33 1.64.16.84.34 1.72.52 2.67.07.32.13.63.2.96v.01c1.05-1.53 1.23-3.26.77-4.71-.03-.11-.07-.23-.12-.34zM206.845 87.49c-1.8.033-3.325.287-4.513.797 14.006 3.324 27.385 7.26 40.017 14.574-1.49-6.08-23.78-15.54-35.51-15.37zm16.62 80.906c-.137-.255-.323-.5-.56-.738-.16-.153-.34-.314-.543-.467-.306-.22-.662-.46-1.078-.72.238 1.45.45 2.77.645 4.02.08.5.16.99.23 1.47l.12.72c.06.35.11.69.17 1.04 1.23-2.7 1.61-4.15 1.01-5.3zm-12.107-11.08c-.594-.45-1.256-.873-1.968-1.264.797 5.26 1.968 16.034 2.85 22.89.145.966.27 1.84.382 2.62 3.81-14.312 3.368-20.623-1.264-24.246zm-6.244-22.574c.484-.44.942-.908 1.375-1.39.28-.324.55-.663.8-1.01 1.26-1.73 2.12-3.7 2.38-5.795l.07-.662c.06-.68.09-1.383.09-2.096 0-1.56-.18-3.13-.67-4.48-.17-.45-.36-.88-.6-1.27-.12-.2-.24-.39-.37-.58-.38-.57-.79-1.09-1.21-1.56-3.34-3.74-8.27-4.98-13.66-5.47l-.6.21c-1.48.51-3.04.91-4.43 1.54-.01 0-.02.01-.02.01-.29.12-.57.27-.84.42-.23.13-.45.27-.66.41-.6.42-1.27.83-1.92 1.24-.33.21-.65.43-.96.66-.31.23-.6.47-.88.74l-.04.03-.13.12c-.44.45-.81.94-1.07 1.53-.05.12-.1.24-.15.37-.14.39-.24.81-.27 1.26-.02.15-.03.31-.05.46 0 .07-.01.15-.02.23-.03.24-.04.49-.04.72-.02.43-.04.85-.04 1.27v.07c0 .44.01.86.03 1.28 0 .04 0 .07.01.1.01.35.04.7.07 1.06 0 .03.01.07.01.12.01.04.01.08.02.13.06.54.14 1.09.24 1.62.04.25.09.48.14.72.58 2.68 1.69 5.23 3.48 7.57.23.31.5.59.79.87.18.19.39.36.6.53.31.26.64.5.98.74.45.31.9.63 1.37.92h.01c.21.13.41.25.62.36 0 .01 0 .01.01 0 .2.11.42.21.63.31h.01c.21.09.43.18.65.26 1.11.39 2.29.58 3.48.61.25.01.5 0 .75-.01h.06c.83-.03 1.66-.15 2.49-.35.4-.09.82-.21 1.23-.34.2-.07.4-.14.61-.21.39-.14.8-.31 1.19-.49.4-.18.79-.38 1.17-.59 1.14-.64 2.23-1.4 3.19-2.28zm-10.638-2.486c-4.046-.144-6.354-1.764-6.278-4.403.128-4.174 2.3-6.227 6.397-6.057 2.587.11 5.913 3.343 5.845 5.684-.06 2.3-3.275 4.878-5.964 4.776z'},{'color':'#36454f','path':'M194.595 121.796c-4.098-.17-6.27 1.883-6.397 6.057-.076 2.64 2.23 4.26 6.278 4.403 2.69.102 5.905-2.477 5.964-4.776.068-2.34-3.258-5.573-5.845-5.684z'},{'color':'#d2a293','path':'M187.146 78.488c-.44.5-.83 1.103-1.247 1.637-.43.535-.88 1.01-1.43 1.23-.36.144-.72.28-1.09.416-2.56.91-5.25 1.47-7.77 2.46-2.86 1.12-5.55 2.62-8.32 3.96.13.29.28.58.41.86.34-.1.7-.21 1.05-.32 3.94-1.25 7.78-2.99 11.82-4.06 3.37-.88 6.89-1.3 10.75-.58l-.12-.15c-1.53-2.04-2.78-3.71-4.03-5.36-.02-.03-.04-.04-.05-.07zm.026-.033l.008-.018h-.076c.008.018.017.025.042.042l.026-.03zm-4.768-6.397c-.026 0-.05.008-.078.008.01.018.026.026.043.043l.03-.06z'},{'color':'#d2a293','path':'M182.327 72.065c-.398-.38-.797-.763-1.195-1.136-.144-.18-.29-.37-.424-.55-.025-.03-.05-.06-.067-.09-.04.02-.07.02-.11.04-1.97-1.89-3.92-3.75-5.75-5.5-.06.02-.1.05-.15.07l-4.56-4.31c-2.98 1.44-5.49 2.65-7.99 3.85.13.23.26.46.37.7 2.46-.49 4.9-1.07 7.38-1.4.71-.1 1.51.53 2.27.82-.5.57-.91 1.46-1.52 1.64-6.01 1.71-10.45 5.66-14.95 9.52-.58.51-.86 1.36-1.28 2.04 3.33-1.19 6.63-2.23 8.91-4.29 3.52-3.18 7.53-4.73 11.95-5.43.52.18 1.07.53 1.58.74-.5.56-.9 1.46-1.53 1.63-6.02 1.68-10.48 5.6-15 9.44-.59.51-.86 1.35-1.3 2.04 3.34-1.18 6.65-2.19 8.95-4.24 2.12-1.89 4.42-3.2 6.87-4.09 1.73-.13 3.46-.24 5.19-.24.7 0 1.42.73 2.13 1.12-.58.49-1.11 1.33-1.75 1.42h-.01c-6.2.89-11.17 4.19-16.19 7.4-.65.42-1.05 1.22-1.57 1.85l1.48-.31c2.95-.61 5.78-1.24 7.98-2.73 2.61-1.77 5.34-2.8 8.17-3.33 2.24-.42 4.56-.51 6.96-.4-.02-.04-.05-.06-.07-.09L182.12 72c.1-.006.18-.014.27-.024zM171.97 158.2c1.22.957 2.45 1.9 3.707 2.807 1.934 1.408 3.91 2.782 5.913 4.115-2.002-1.333-3.98-2.715-5.913-4.124-1.256-.907-2.486-1.84-3.708-2.8zm-11.403-10.13c.195.424.433.798.755 1.086 1.154 1.035 2.308 2.07 3.48 3.088-1.164-1.027-2.326-2.062-3.47-3.097-.324-.29-.56-.653-.765-1.077zm.873-43.25c-.703-.373-1.144-.78-1.645-.856-6.354-1.01-9.815-5.727-13.132-10.46-1.765-2.528-3.046-5.404-4.462-8.17-2.82-5.505-5.83-10.943-8.35-16.593-2.44-5.48-6.42-9.35-11.41-12.34 0 0-.01 0-.02-.01-1.4-.82-3.03-1.3-4.54-1.93-.17.27-.34.54-.51.83.98.82 2.01 1.57 2.99 2.38.69.57 1.36 1.15 1.95 1.8l9.1 13.69c2.66 7.07 5.32 14.14 7.82 21.27.23.66.47 1.33.7 2l6.27 8.2c2.5 1.53 5.51 2.22 8.88 1.79 1.45-.18 2.94-.02 5.09-.02.04-.03.6-.7 1.3-1.53zm-2.06 40.246c-.153-.288-.34-.543-.57-.755.222.22.41.47.57.76zM145.815 42.383v-.01c-.408-.015-.807-.04-1.213-.067.39.026.78.052 1.205.077h.008zm-3.852 61.895h.01c-1.138-1.13-2.003-2.358-2.7-3.665.688 1.307 1.553 2.545 2.69 3.665z'},{'color':'#FFF','path':'M128.77 46.913c2.53.152 5.092.79 7.603 1.128 1.425.19 2.824.28 4.207.12 8.63-1.02 15.797 2.62 23.093 6.08 2.808 1.35 5.54 2.97 7.99 4.87 4.048 3.17 8.29 6.26 11.607 10.14 4.334 5.06 7.83 10.85 11.724 16.32.263.36.917.82 1.247.74 1.53-.44 3.02-1.05 4.28-1.52-1.25-3.16-2.19-5.85-3.35-8.46-.87-1.95-1.58-4.04-2.41-6.02-.84-1.99-1.8-3.87-3.15-5.39-6.9-7.75-15.06-14.06-25.17-17.39 0 0-18.26-3.15-24.56-2.76-.18.01-.35.03-.5.04-5.53-.11-11.05-.67-16.58-.61-2.82.05-5.63 1.05-8.45 1.61.64.88 1.23 1.24 1.82 1.24 3.55-.02 7.1-.33 10.63-.11zm.128-4.76c-.62.025-1.255.06-1.908.085h-.5c.17 0 .338.008.5.008.653-.024 1.29-.058 1.908-.093z'}];var BAT_BODY=exports.BAT_BODY=[{'color':'#bac2c9','path':'M324.784 393.07c.88.382 1.496.652 2.113.92.17-.128.338-.258.507-.386-1.092-4.354-2.18-8.71-3.282-13.06-1.112-4.386-2.242-8.768-3.34-13.057 1.044-.275 1.796-.54 2.563-.663 1.43-.234 1.625-.727.9-2.197-1.157-2.347-2.357-4.674-3.36-7.126-1.667-4.06-3.21-8.22-4.768-12.35-.714-1.9-1.346-3.85-2.176-6.24.76.35 1.07.53 1.39.62.49.14.99.2 1.48.3.05-.7.25-1.47.1-2.1-.27-1.13-.73-2.2-1.15-3.28-1.67-4.33-3.44-8.59-4.98-13-.7-2-1.03-4.24-1.36-6.41-.08-.55.41-1.71.79-1.83 1.47-.47 1.2-1.53.79-2.73-.49-1.45-1.06-2.86-1.5-4.33-1.32-4.47-1.51-9.12-1.33-14.25.52.6.74.94 1.02 1.15.37.28.78.45 1.17.66.14-.52.34-1.04.39-1.57.04-.42-.11-.88-.21-1.32-1.8-7.81-1.61-15.75-.95-23.72.04-.41.38-.77.68-1.34l2.32 3.81c.22-.07.44-.15.65-.22.45-5.78-.4-11.51-1.09-17.7.62.69.94 1.1 1.31 1.44.48.45.98.84 1.47 1.26.22-.85.72-1.76.62-2.56-.32-2.71-.82-5.39-1.32-8.06-.38-2.07-.85-4.11-1.28-6.162 1.31.95 2.4 2.73 4.04.18l-5.612-13.29c-.194-.46-.623-1-.55-1.376.567-2.79-1-4.29-2.153-6.02-1.41-2.12-2.89-4.17-4.293-6.3-.21-.32-.16-.915-.23-1.38.345.04.69.06 1.04.13.4.074.81.29 1.2.26.37-.03.986-.23 1.03-.48.085-.476-.034-1.23-.302-1.547-4.06-4.783-7.7-10.284-13.072-12.903-.1-.05-.13-.35-.25-.694l3.806.35c.05-.24.094-.48.14-.72-1.5-1.772-2.9-3.72-4.52-5.29-6.162-5.995-13.54-8.17-20.9-10.07-3.71-.96-7.602-.795-11.42-.982-2.64-.13-5.284 0-7.93.03-5.532.06-11.02-1.49-16.61-.26-3.83.84-7.782.72-11.68 1.113-4.79.484-9.71.175-14.22 2.72-4.454 2.512-8.98 4.983-13.113 8.213-3.175 2.48-5.84 6.044-8.66 9.24-2.076 2.36-4.036 4.9-6.01 7.4-.184.24-.266 1.03-.14 1.167.42.444.94.85 1.46.98.34.08.75-.366 1.34-.69-.16.695-.17 1.1-.327 1.38-2.01 3.66-4.04 7.31-6.07 10.96-.657 1.177-1.365 2.25-.33 3.78.233.348-.086 1.55-.38 2.19-1.118 2.42-2.41 4.72-3.487 7.17-1.02 2.32-.71 3.03 1.44 3.76-.28.81-.54 1.62-.83 2.408-1.71 4.698-3.45 9.37-5.11 14.1-.15.44.248 1.19.39 1.797.43-.21.91-.34 1.287-.66.34-.3.57-.826.85-1.25l.4.216c-.46 2.14-1 4.26-1.37 6.42-.27 1.61-1.2 3.71 1.01 3.87-.42 2.54-.9 4.93-1.21 7.36-.37 2.98-.2 3.22 2.155 4.05-.49 2.65-1.066 5.294-1.42 7.984-.13.96.295 2.034.468 3.06.5-.626 1-1.25 1.5-1.87.09-.1.21-.15.4-.284 1.718 3.104 1.57 6.5.91 9.914-1.1 5.72-2.31 11.406-3.4 17.13-.11.59.35 1.355.54 2.04.45-.375.93-.714 1.35-1.14.2-.21.3-.584.69-1.385.04 1.01.17 1.54.05 1.94-.56 1.81-1.15 3.62-1.83 5.36-.69 1.79-.33 2.82 1.26 3.15-.12.405-.19.69-.29.95-1 2.58-2.06 5.13-2.98 7.76-.21.6.09 1.49.16 2.25.454-.18.945-.28 1.36-.56.515-.35.97-.854 1.45-1.29-1.99 9.63-5.84 18.15-8.76 27.16l1.48 1.084c-1.13 3.72-2.274 7.35-3.33 11.02-.43 1.504-1.1 3.31 1.51 3.624-1.124 2.4-2.32 4.43-3.08 6.69-1.14 3.37-2.103 6.86-2.904 10.39-.81 3.59-.515 4.36 1.37 5.392-.38 1.47-.79 2.945-1.147 4.45-.68 2.86-1.49 5.7-1.93 8.63-.44 2.9 0 3.39 2.415 3.66-.26 2.75-.673 5.51-.75 8.27-.16 5.88-.56 11.71-1.49 17.48-.437 2.7-.01 3.137 2.166 2.407 0 .623-.02 1.215.008 1.804.238 4.73.44 9.468.76 14.188.06.846.595 1.636.916 2.47l1.914-1.34c-.12 1.696-.38 3.02-.29 4.3.256 3.36.62 6.71 1.03 10.04.14 1.12-.436 2.95.95 3.107.63.07 1.358-1.25 2.21-2.11.25.77.65 1.66.85 2.62.58 2.81.99 5.688 1.66 8.46.38 1.59 1.025 3.18 2.815 1.77.316-.242 1.19.308 1.63.76.58.61.9 1.6 1.47 2.22 1.276 1.39 2.864 2.42 3.9 4.04 1.485 2.31 3.38 3.42 5.475 4.24 3.61 1.416 7.19 2.96 10.85 4.12 4.95 1.56 9.93 3.12 14.96 4.098 4.37.846 8.83.923 13.25 1.245 2.23.16 4.47.25 6.7.12 3.446-.19 6.88-.71 10.328-.885 5.82-.3 11.646-.436 17.44-.64-.22.96.35 1.05 1.32.77 1.61-.47 3.23-.97 4.87-1.15 4.22-.47 8.307-1.51 12.377-3.06 10.24-3.92 19.74-9.46 27.6-18.98.2-.245.73-.39.93-.23 1.83 1.415 2.28-.31 2.72-1.936.457-1.68.83-3.4 1.26-5.21 1.45 1.86 2.04 1.73 2.56-.52.8-3.45 1.62-6.91 2.23-10.42.838-4.77 1.46-9.6 2.21-14.39.298-1.88.69-3.736 1.147-6.14.74 1.22 1.13 2.2 1.757 2.76.34.304 1.56-.067 1.565-.2.105-2.027.07-4.067.07-5.53 1.16-1.68 3.015-3.13 3.13-4.784.316-4.45-.13-8.982-.226-13.49-.02-.652.19-1.33.36-1.98.174-.68.603-1.33.614-2 .06-3.69.03-7.38.03-11.25l2.06 1.447c.17-.85.497-1.61.42-2.3-.2-1.93-.51-3.85-.89-5.733-.483-2.39-1.07-4.75-1.65-7.3zM180.5 251.867c.192-4.217.96-8.097 3.622-10.854-.618 3.99-1.008 8.095-3.622 10.854zm4.157-23.102c.39-1.188.72-2.414 1.18-3.555.88-2.186 1.813-4.336 2.776-6.463.133-.292.56-.366.85-.54.09.393.335.86.244 1.166-1.074 3.597-2.082 7.265-5.05 9.392zm2.912 69.713c-.87-4.213-1.79-8.177-.94-12.655 1.98 2.096 2.6 10.24.94 12.655zm1.83-29.135l1.47-8.753c1.19 3.03.54 7.143-1.48 8.753zm4.02-25.868c1.39-4.974.82-10.05 3.42-14.07 1.66 2.557-.18 10.46-3.43 14.07zm4.01-30.024c-.9-2.99 1.06-4.7 2.03-6.56 1.05-2.01 2.83-3.4 4.31-5.08.73 1.96-3.46 9.63-6.35 11.65zm2.94 33.65l-.54-.18 1.36-6.3c1.25 2.57.04 4.49-.82 6.49zm2.8 34.69v-12.04c2.25 1.91 2.02 10.58 0 12.04zm2.87-60.4l-.78-.47c.24-.83.41-1.71.74-2.48 1.09-2.6 2.17-5.22 3.42-7.69.24-.49 1.24-.36 1.89-.51l.18.59-5.47 10.59zm7.05 35.26c-1-4.3-.81-8.54.03-12.78l.54-.5c.39.7 1.16 1.46 1.1 2.1-.34 3.76-.87 7.5-1.68 11.2zm2.04-27.78c-.18-3.76 1.42-6.28 2.81-8.98.87 1.67-.56 6.33-2.81 8.99zm5.19-20.37l-.41-.42c.27-3.62 1.83-6.11 4.3-5.76l-3.9 6.19zm6.74 51.33c-1.46-1.44-1.72-7.86-.46-11 1.04 3.5.99 7.1.46 11.01zm72.12-20.52c-1.06-3.57-3.35-6.45-3.71-10.63 2.76-.29 3.71 2.12 3.71 10.64zm-25.16-17.82c.03.4-.14.91-.36 1.2-.13.18-.67.19-.78.02-1.13-1.74-2.22-3.54-3.32-5.32 1.9-.34 4.3 2.37 4.44 4.11zm-14.98-36.53l-4.95-3.68c3.65-.14 4.7.6 4.94 3.69zM231.45 192c1.84-1.72 3.69-3.443 5.53-5.166-.126 2.53-3.46 5.685-5.53 5.168zm2.58 23.856c-.106.433-.65.694-1 1.035-.2-.54-.64-1.16-.56-1.62.373-2.19.89-4.34 1.353-6.51 1.256 2.5.757 4.82.207 7.1zm2.92 67.44l-.54.03c-.32-1.52-.68-3.025-.94-4.56-.07-.386.18-.86.28-1.292.36.23.88.33 1.064.7.85 1.69.62 3.427.14 5.126zm2.84-38.762V234l.53-.045c1.55 2.626 1.226 8.625-.53 10.56zm4.25-32.913c-1.6-2.88-.643-5.81-.19-9.12 1.86 2.8 1.87 7.12.193 9.12zm10.57 51.95c-2.213-.07-2.24-2.39-2.6-3.88-.634-2.62-.83-5.41-1.21-8.12l.756-.27c2.07 3.61 3.32 7.56 3.055 12.27zm-3.784-33.76c1.82 2.35 2.15 4.64.93 6.71-.327-2.35-.61-4.39-.93-6.71zm5.83-26.47c-1.576-2.44-3.15-4.89-4.92-7.65 2.69-.04 5.59 4.36 4.92 7.66zm.91 13.25c2.79-.05 5.24 2.68 5.155 5.89l-5.15-5.89zm5.94-20.17c3.057-.75 6.82 3.8 6.364 8.34l-6.37-8.34zm2.43 48.57c.63 2.83 1.27 5.65 2.02 9-2.06-1.12-3.204-6.32-2.02-9zm5 36.12c-.733-3.79-3.325-7.25-2.128-11.38l1.1-.06c.943 3.72 2.31 7.37 1.027 11.44zm1.522-45.3c1.935 1.43 3.023 4.37 2.905 7.76-1.9-2.08-2-4.95-2.9-7.76zm2.432-47.16l.56-.79c1.1 1.08 2.24 2.11 3.29 3.26.71.78 1.27 1.76 1.94 2.6.95 1.18.973 1.23.067 3.79l-5.855-8.85zm4.9 114.58c-1.51-2.82-2.732-5.12-1.092-8.14 1.594 2.28 1.386 4.92 1.093 8.15zm1.31-73.87c.566.27 1.418.34 1.647.86.863 1.95 2.156 3.81 1.813 6.27l-.536.21-3.43-6.544c.17-.26.34-.52.507-.78zm3.28 38.86c-1.75-3.2-1.59-6.52-.755-9.91 1.44 1.27 1.8 5.6.76 9.91zm8.4-18.22l.745-.14c.31 2.84.618 5.68.92 8.51l-.66.14c-1.564-2.55-.89-5.62-1-8.51zm1.773 31.9l-.67-.12c.34-3.04.67-6.09 1.05-9.52 1.54 2.07 1.12 7.55-.374 9.656zm6.31 51.4c-1.5-3.93-3-7.86-4.506-11.8l.443-.32c1.894 1.32 4.773 8.99 4.063 12.13z'},{'color':'#d2a293','path':'M203.784 201.8c-1.478 1.68-3.256 3.074-4.31 5.085-.97 1.856-2.934 3.568-2.034 6.566 2.89-2.02 7.08-9.69 6.344-11.65zm47.034 49.74c.38 2.716.577 5.506 1.21 8.122.362 1.49.388 3.808 2.602 3.88.263-4.712-.988-8.66-3.055-12.27-.252.09-.504.18-.757.268zm-57.388-8.065c3.245-3.608 5.088-11.513 3.426-14.07-2.602 4.02-2.028 9.095-3.425 14.07zm19.706.373c-.833 4.24-1.024 8.485-.03 12.785.808-3.698 1.337-7.432 1.676-11.193.058-.636-.714-1.395-1.1-2.097l-.546.505zm-3.692-33.125c-1.252 2.476-2.33 5.097-3.422 7.698-.325.78-.5 1.66-.742 2.49l.775.47 5.47-10.59-.182-.58c-.653.16-1.65.03-1.9.52zm59.383 58.97c-1.197 4.124 1.395 7.586 2.128 11.376 1.282-4.07-.084-7.72-1.028-11.44-.366.02-.733.04-1.1.05zm-5.303-73.313l6.365 8.343c.45-4.546-3.31-9.09-6.37-8.342zM187.57 298.478c1.662-2.416 1.045-10.558-.94-12.655-.842 4.477.073 8.442.94 12.655zm107.918-69.832c.363 4.184 2.652 7.066 3.708 10.637.008-8.52-.948-10.925-3.708-10.637zM180.5 251.866c2.613-2.76 3.003-6.863 3.622-10.853-2.663 2.758-3.43 6.637-3.622 10.854zm100.198-58.196c-.67-.835-1.232-1.824-1.94-2.6-1.05-1.15-2.187-2.174-3.288-3.252-.186.264-.373.528-.56.79l5.854 8.85c.906-2.56.882-2.607-.066-3.787zm-90.99 25.703c.09-.305-.155-.773-.244-1.167-.29.175-.718.25-.85.54-.964 2.127-1.898 4.278-2.776 6.464-.46 1.14-.79 2.367-1.18 3.555 2.967-2.127 3.975-5.795 5.05-9.392zm107.107 101.753c-.147.11-.294.218-.442.327 1.503 3.934 3.003 7.867 4.504 11.8.71-3.14-2.17-10.806-4.062-12.127zm-93.635-51.384v12.04c2.023-1.467 2.257-10.13 0-12.04zm36.632-35.754v10.517c1.753-1.936 2.077-7.935.528-10.562l-.528.045zm-12.732 25.817c.535-3.913.58-7.51-.458-11.007-1.262 3.14-.996 9.568.458 11.007zm56.565-1.538c-.833 3.388-.996 6.702.757 9.908 1.042-4.31.684-8.64-.757-9.908zm-39.582-46.677c1.675-2.01 1.666-6.32-.194-9.123-.46 3.313-1.42 6.244.19 9.122zm7.69-15.937c1.774 2.762 3.347 5.207 4.92 7.653.67-3.295-2.235-7.69-4.92-7.653zm-19.26 19.582c-.08.468.36 1.08.56 1.626.346-.34.895-.6 1-1.03.55-2.27 1.048-4.59-.206-7.09-.465 2.17-.98 4.32-1.353 6.51zm61.407 66.49l.673.127c1.49-2.104 1.917-7.584.376-9.655-.38 3.436-.72 6.48-1.05 9.527zm-9.32-45.29c.343-2.46-.95-4.314-1.813-6.267-.23-.515-1.08-.58-1.647-.853l-.502.78 3.432 6.546.53-.2zm-11.667-13.76c.11.17.645.16.774-.018.215-.292.386-.803.355-1.193-.137-1.746-2.54-4.456-4.444-4.115 1.1 1.78 2.182 3.58 3.315 5.32zm-57.763 6.175c2.25-2.66 3.682-7.314 2.812-8.984-1.386 2.698-2.988 5.224-2.813 8.985zm4.783-20.796l.407.425 3.896-6.19c-2.477-.35-4.03 2.13-4.303 5.76zm59.877 95.133c.292-3.225.5-5.862-1.093-8.146-1.64 3.03-.416 5.33 1.092 8.15zm-11.833-49.232c-.754-3.353-1.39-6.177-2.023-9-1.183 2.677-.04 7.874 2.023 9zm-30.974-67.152c-1.844 1.723-3.69 3.443-5.534 5.166 2.07.51 5.4-2.64 5.53-5.17zm20.584 29.75l5.153 5.885c.083-3.205-2.362-5.937-5.153-5.886zm35.958 33.257l-.745.14c.108 2.888-.565 5.96 1.002 8.51l.664-.138-.92-8.51zm-104.138 19.533c2.016-1.61 2.665-5.723 1.475-8.753l-1.475 8.753zm83.07-33.568c.904 2.807 1.002 5.678 2.906 7.758.118-3.39-.97-6.33-2.906-7.758zm-36.707 41.67c-.1.433-.345.905-.28 1.292.263 1.534.622 3.04.945 4.558.18-.01.36-.02.54-.028.484-1.698.715-3.433-.138-5.125-.188-.37-.703-.472-1.067-.698zm18.347-96.198l4.942 3.686c-.25-3.09-1.3-3.827-4.95-3.686zm-3.272 48.533c.32 2.326.603 4.358.93 6.71 1.22-2.064.89-4.36-.93-6.71zm-51 17.128l.536.185c.87-2.005 2.07-3.92.83-6.49l-1.36 6.305z'}];var BAT_LEGS=exports.BAT_LEGS=[{'color':'#36454f','path':'M271.546 479.305c-.812-6.282-1.998-12.275-6.484-16.957-3.99-4.163-10.154-4.117-13.34.872-1.8 2.814-3.58 5.757-4.742 8.93-.87 2.374-3.094 4.802-1.714 6.95-.34 2.726-.58 4.65-.818 6.575.138-.112.276-.225.415-.336l-.097.67c-.048 4.26-.147 8.52-.168 12.78-.007 1.42-.005 2.84.01 4.26.063 5.86.7 11.74.448 17.57-.464 10.69-1.395 21.35-2.136 32.02-.107 1.52-.752 2.17-2.112 2.92-1.504.82-3.448 3.02-3.41 4.57.156 6.24.816 12.49 1.667 18.67.516 3.75 5.332 5.98 7.423 3.56 1.27-1.47 2.247-1.36 3.715-.97 4.815 1.28 9.033-3.49 8.225-9.08-.44-3.04-.894-6.12-.967-9.18-.11-4.73-1.68-7.57-5.45-8.92.22-.8.46-1.6.67-2.41 2.63-10.1 5.45-20.09 10.18-29.28 1.92-3.73 3.77-7.55 5.18-11.53 3.62-10.2 4.93-20.8 3.52-31.73zm-27.843 101.11c-.527-2.77-1.265-5.156-1.375-7.577-.194-4.21-.092-8.446.107-12.658.04-.873 1.05-1.69 1.843-2.875 1.63 4.925 1.376 21.03-.575 23.11zm9.067-21.55c1.887 13.13.986 19.16-2.803 19.98 1.315-6.356-.216-13.234 2.803-19.98zm-18.876-4.378c-.907-9.035-1.917-18.104-2.07-27.175-.174-10.403.534-20.823.838-31.236.27-9.25-.24-18.396-2.83-27.283-2.06-7.073-5.234-9.42-11.84-8.607-4.825.593-8.015 3.974-9.412 9.26-1.214 4.588-1.338 9.173-1.15 13.882.26 6.49.512 12.91 2.642 19.105 1.733 5.04 3.096 10.245 4.504 15.417 1.904 6.99 3.788 13.99 5.5 21.043 1.22 5.02 2.463 10.083 2.206 15.457-3.162.492-5.888 1.552-6.88 4.992-.584 2.02-.882 4.297-.717 6.4.34 4.342 1.094 8.645 1.648 12.968.527 4.11 3.175 5.395 6.567 2.833 1.336 1.885 2.875 2.137 4.78 1.304 1.143-.5 2.485-.782 3.697-.66 2.118.21 2.965-1.102 3.556-2.97 1.803-5.713 1.608-11.644 1.14-17.502-.197-2.46-1.932-4.758-2.18-7.228zm-9.94 5.154c-1.193 5.23-1.046 10.51-.678 15.81.054.78.123 1.57.184 2.35-.96-.78-1.22-2.97-3.27-.05-.49-5.33-1.25-9.9-1.158-14.46.038-1.9 1.81-3.83 2.992-5.58.254-.37 1.368-.02 2.085 0-.05.65-.02 1.33-.16 1.95zm5.414 19.99c-.82.17-1.33-.06-1.983-1.87-1.978-5.44-1.606-10.84-.772-16.36.264-1.74.792-3.07 2.755-2.85v21.09z'},{'color':'#d2a293','path':'M244.862 485.34c-.14.11-.276.223-.415.335.113.1.218.213.315.335-.046 4.262-.146 8.524-.167 12.785.02-4.26.12-8.523.168-12.783.035-.224.068-.45.1-.673zm-2.428 74.84c-.2 4.21-.3 8.448-.107 12.657.11 2.42.848 4.806 1.375 7.577 1.952-2.078 2.206-18.185.575-23.11-.792 1.186-1.802 2.002-1.843 2.875zm10.336-1.315c-3.02 6.746-1.488 13.624-2.803 19.98 3.79-.82 4.69-6.85 2.803-19.98zm12.76-47.655c-.247-.13-.493-.263-.74-.395m-42.766 46.88c-1.184 1.748-2.954 3.678-2.992 5.58-.092 4.558.67 9.134 1.158 14.465 2.05-2.916 2.31-.73 3.27.053-.062-.78-.13-1.562-.184-2.343-.37-5.3-.516-10.588.68-15.81.14-.623.107-1.298.154-1.948-.717-.02-1.832-.372-2.086.003zm4.59 3.695c-.835 5.517-1.207 10.916.77 16.36.655 1.807 1.165 2.04 1.984 1.873v-21.088c-1.963-.22-2.49 1.115-2.755 2.854z'},{'color':'#36454f','path':'M226.083 183.28c-.197-.333-.608-.61-.982-.755-.22-.087-.45-.162-.7-.224-.08-.02-.17-.03-.25-.05-.17-.03-.34-.07-.52-.1-.13-.02-.26-.02-.4-.04-.14-.01-.28-.03-.43-.04-.16-.01-.34 0-.51 0-.13 0-.25-.01-.38 0l-.62.03c-.1.01-.19.01-.29.02-.25.02-.51.06-.77.09-.06.01-.12.01-.18.02l-.87.15-.09.02c-4.01.59-11.49 6.92-11.49 6.92-4.74 3.82-12.27 7.63-14.78 13.06-.15.33-.68.46-1.03.7-1.74 1.23-3.61 2.3-5.21 3.7-4.55 4-8.3 8.88-13.71 11.96-1.67.95-2.84 2.75-4.23 4.17-.51.52-.91 1.26-1.53 1.54-2.05.95-4.21 1.68-6.28 2.58-2.01.88-15.46 8.38-16.11 8.71-2.25 1.13-4.51 2.27-6.7 3.52-1.08.61-1.92 1.78-3.04 2.16-4.31 1.45-8.78 2.47-13.04 4.05-4.95 1.83-9.68 4.25-14.62 6.09-3.31 1.23-6.85 1.85-10.26 2.83-5.95 1.71-11.81 3.78-17.84 5.14-7.08 1.6-14.34 2.4-21.44 3.92-3.73.81-7.27 2.51-10.96 3.59-.81.24-2.39-.18-2.76-.8-1.27-2.14-2.09-4.53-3.22-6.77-2.16-4.3-.19-5.14 3.83-4.93 1.53.08 3.08-.21 4.62-.33l.19-.95c-.96-1.03-2.11-1.93-2.87-3.1-3.16-4.88-8.66-3.56-12.56-1.32-2.18 1.26-3.58 3.28-3.18 5.71 1.02 6.19 2.26 12.29 6.95 17.13 3.59 3.71 3.45 4.34.7 8.72-3.79 6.04-7.76 11.98-11.43 18.09-6.51 10.86-12.27 22.08-16.99 33.88-3.52 8.8-4.82 17.9-5.49 27.18-.43 5.91-.47 11.85-.81 17.77-.36 6.34-.99 12.68-1.23 19.03-.17 4.62.88 9.41.02 13.86-1.52 7.84-.56 15.43.43 23.13 2.2.06 2.69-1.16 2.89-2.98.34-3.01.43-6.19 1.51-8.97 1.76-4.53 4.61-8.28 9.57-10.1 3.26-1.19 5.94.5 8.9.79 6.78.67 9.34 5.66 11.85 10.72 1.9 3.82 3.44 7.82 5.18 11.8 2.71-.08 2.47-1.78 1.78-3.7-1.37-3.86-1.93-7.91-.01-11.58 1.73-3.29 4.29-6.16 6.51-9.19.23-.32.64-.55 1-.74 4.24-2.26 8.32-4.91 12.76-6.64 6.14-2.39 12.48-4.35 18.87-5.98 6.05-1.55 12.23-1.86 18.57-1.18 5.5.6 10.29 2.23 14.49 5.72 4.58 3.81 9.29 7.5 12.03 13.38.63-1.42.78-2.74.59-3.99-.42-2.65-1.32-5.26-1.46-7.91-.13-2.65.25-5.36.73-7.98 1.01-5.55 1.22-11.54 3.56-16.5 4.61-9.73 10.37-18.92 15.82-28.24 7.91-13.52 17.24-26 27.68-37.68 9.18-10.25 18.29-20.56 27.25-30.99 3.6-4.19 7.16-8.53 9.98-13.25 6.59-11 12.33-22.38 14.97-35.15 2.44-11.75 4.17-23.52 4.69-35.52.27-6.03-3.87-9.64-6.51-14.11zM34.848 261.21c-.715-2.534-1.253-5.39-.82-7.92.04-.236.095-.458.163-.664.94-3.013 4.44-2.927 6.99-3.322 1.21-.188 2.71 1.564 4.08 2.435l-.02.03h.01l-.63.99c-.72-.03-1.44-.08-2.17-.09-2.43-.03-4.19 1.11-4.92 2.83-.55 1.33-.49 3 .37 4.74 1.62 3.29 3.42 6.49 4.99 9.81.45.95.36 2.15.09 3.33v-.01.03c-4.85-2.86-6.74-7.45-8.09-12.23zm192.24-68.585c-.077.198-.168.396-.276.6-3.277 6.047-6.513 12.14-10.205 17.934-6.957 10.91-15.053 20.96-24.307 30.03-.663.65-1.554 1.08-2.148 1.78-.676.79-1.493 1.65-1.836 2.58-.045.13-.083.25-.108.38-.098.5-.23.96-.4 1.39-1.173 2.98-4.053 4.12-7.747 3.6-2.53-.36-5.3.83-7.95 1.41-7.15 1.57-14.24 3.45-21.44 4.73-11.4 2.03-22.85 3.82-34.32 5.45-10.58 1.51-21.24 2.47-31.81 4.06-7.73 1.16-15.37 2.93-23.05 4.44-3.69.72-7.39 1.47-11.74 2.34 1.38 2.39 2.43 4.54 3.78 6.47 3.34 4.77 6.83 9.45 10.25 14.17 3.85 5.32 8.05 10.43 11.45 16.02 7.04 11.55 15.59 22.14 21.21 34.63 3.02 6.68 7.71 12.6 11.16 19.11 3.9 7.36 7.32 14.98 10.82 22.55 1.58 3.43 2.86 6.99 4.25 10.51.13.33.05.74.1 1.74l-.01-.02v.05c-3.18-5.12-6.08-9.68-8.87-14.31-6.79-11.27-13.45-22.62-20.31-33.85-6.73-11.02-13.45-22.05-20.52-32.84-4.66-7.11-9.96-13.81-14.95-20.71-3.08-4.25-6.02-8.6-9.24-12.74-.43-.56-.89-1.35-1.51-1.85-.13 6.48-1.07 33.03-1.2 38.5v.64c-.08 6.3 0 12.6-.38 18.88-.75 12.16 1.24 24.37-1.02 36.54-1.12 6-1.13 12.2-1.79 18.29-.19 1.77-.86 3.49-1.31 5.23l-.01.03-.8-.15c-1.17-8.71-1.88-17.39-1.04-26.24 1.38-14.57 2.23-29.2 3.39-43.79.31-3.87 1.02-7.71 1.4-11.59.25-2.51.5-30.75.63-36.61-.1.04-.2.09-.3.15-.84.48-1.69 1.28-2.08 2.14-3.49 7.57-6.5 15.38-10.38 22.74-4.5 8.54-9.76 16.69-14.66 25.03-1.93 3.28-3.76 6.61-6.32 9.75.58-2.41.84-4.97 1.68-7.27.12-.33.25-.66.4-.98 5.13-11.12 10.21-22.28 15.93-33.09 3.72-7.04 8.27-13.69 12.93-20.16 2.37-3.29 2.72-8.02 6.97-9.96 1.03-.47 1.99-1.09 3.04-1.48 7.7-2.82 15.81-3.69 23.84-4.93 6.7-1.03 13.47-1.84 20.01-3.55 7.31-1.9 14.91-1.24 22.13-3.29 1.17-.34 4.39-.74 4.94-.83 5.92-.97 11.81-2.1 17.73-3.04 2.35-.37 4.76-.33 7.13-.6 2.09-.24 4.41-.18 6.16-1.13 1.96-1.05 2.95-1.83 5.79-1.3 3.53.65 7.71-2.05 11.55-3.46.68-.25 4.62-1.35 6.03-1.38.14-1.93.03-3.43.44-4.76 0-.01.01-.02.01-.02v-.02c.22-.72 1.56-1.77 2.04-1.61 4.24 1.42 6.18-1.35 8.04-4.22 1.88-2.9 3.91-5.74 5.39-8.85 3.01-6.35 5.69-12.85 8.51-19.28 1.51-3.44 3.22-6.82 4.47-10.35v-.01c.92-2.64 1.82-5.14 3.99-6.87.48-.47.96-.81 1.42-.95l.2-.07c.56-.27 2.04-.96 3.36-1.76.54-.36.9-.62.95-.65.76-.54 1.72-1.06 2.61-1.09 1.9-.05 4.68-.51 5.53.51 1.55 1.88 3.62 4.28 2.49 7.11z'},{'color':'#d2a293','path':'M224.583 185.547c-.844-1.02-3.632-.568-5.533-.513-.886.023-1.854.545-2.61 1.087-.29.21-.61.42-.937.62-1.316.8-2.792 1.49-3.358 1.76l-.215.11c-.524.27-.986.58-1.407.92-2.162 1.73-3.062 4.24-3.99 6.88-.004.02-.01.03-.016.04-1.242 3.54-2.958 6.91-4.468 10.36-2.82 6.44-5.5 12.94-8.51 19.28-1.48 3.1-3.51 5.95-5.39 8.84-1.86 2.87-3.8 5.64-8.04 4.22-.48-.16-1.79.88-2.03 1.59 0 .01-.01.02-.01.02-.41 1.33-.3 2.83-.44 4.76v.04c-1.4.03-5.36 1.14-6.04 1.39-3.84 1.41-8.02 4.1-11.55 3.45-2.84-.53-3.83.25-5.79 1.3-1.76.94-4.08.89-6.17 1.13-2.37.27-4.78.22-7.13.6-5.92.94-11.82 2.07-17.73 3.04-.56.09-3.78.49-4.95.82-7.22 2.05-14.83 1.39-22.13 3.3-6.53 1.7-13.31 2.52-20.01 3.55-8.04 1.24-16.14 2.11-23.84 4.93-1.05.39-2.01 1.01-3.04 1.48-4.25 1.94-4.6 6.67-6.97 9.96-4.67 6.47-9.21 13.13-12.93 20.16-5.72 10.82-10.8 21.98-15.93 33.1-.15.31-.27.63-.39.95-.84 2.29-1.1 4.85-1.68 7.26 2.56-3.14 4.39-6.47 6.32-9.75 4.9-8.34 10.15-16.49 14.66-25.03 3.88-7.36 6.89-15.18 10.38-22.75.4-.86 1.24-1.65 2.08-2.14.1-.06.2-.1.3-.15-.13 5.87-.38 34.11-.63 36.62-.38 3.87-1.1 7.71-1.41 11.59-1.17 14.6-2.01 29.22-3.4 43.79-.84 8.85-.13 17.53 1.04 26.24l.8.15.01-.03c.45-1.73 1.12-3.44 1.3-5.2.65-6.09.67-12.29 1.79-18.3 2.26-12.16.28-24.37 1.02-36.54.39-6.28.3-12.58.38-18.88l.02-.68c.13-5.47 1.08-32.01 1.21-38.5.62.5 1.08 1.28 1.51 1.84 3.22 4.14 6.17 8.49 9.25 12.74 4.99 6.9 10.29 13.6 14.95 20.72 7.08 10.79 13.8 21.82 20.52 32.83 6.86 11.23 13.52 22.58 20.31 33.85 2.79 4.63 5.69 9.18 8.87 14.31v-.05c-.05-.96.02-1.36-.1-1.69-1.39-3.52-2.67-7.09-4.25-10.52-3.5-7.57-6.92-15.19-10.82-22.55-3.45-6.52-8.14-12.43-11.15-19.11-5.63-12.48-14.18-23.07-21.21-34.63-3.41-5.59-7.61-10.7-11.46-16.02-3.42-4.72-6.91-9.4-10.25-14.17-1.36-1.94-2.41-4.1-3.8-6.5l.02-.01c4.35-.86 8.05-1.61 11.74-2.33 7.68-1.51 15.32-3.28 23.05-4.44 10.57-1.58 21.23-2.543 31.81-4.05 11.47-1.633 22.92-3.42 34.32-5.453 7.2-1.28 14.29-3.16 21.45-4.73 2.64-.58 5.42-1.78 7.95-1.42 3.69.527 6.57-.62 7.75-3.6.16-.42.3-.87.39-1.35.03-.15.07-.29.12-.43.34-.93 1.16-1.79 1.84-2.584.59-.7 1.49-1.13 2.15-1.78 9.25-9.08 17.35-19.13 24.31-30.04 3.69-5.8 6.93-11.89 10.2-17.94.11-.2.2-.4.28-.6 1.1-2.82-.96-5.2-2.51-7.07zM42.95 273.4c.258-1.175.345-2.36-.097-3.297-1.565-3.318-3.37-6.522-4.986-9.816-.862-1.76-.922-3.443-.353-4.778.73-1.72 2.494-2.86 4.924-2.83.724 0 1.444.06 2.168.08.212-.33.423-.67.634-1-.002 0-.005 0-.006-.01-1.364-.87-2.866-2.62-4.064-2.44-2.545.39-6.024.31-6.98 3.29-.067.2-.122.42-.163.66-.432 2.53.106 5.38.82 7.92 1.35 4.78 3.247 9.36 8.097 12.22l.007-.04z'},{'color':'#36454f','path':'M247.422 197.39c.524 11.996 2.256 23.772 4.69 35.52 2.643 12.772 8.385 24.152 14.968 35.148 2.827 4.718 6.383 9.056 9.98 13.247 8.96 10.433 18.07 20.742 27.245 30.992 10.446 11.676 19.774 24.16 27.683 37.68 5.45 9.315 11.203 18.508 15.813 28.236 2.35 4.952 2.56 10.942 3.56 16.493.48 2.626.86 5.337.73 7.983-.13 2.65-1.04 5.25-1.45 7.9-.2 1.25-.04 2.57.59 3.99 2.74-5.88 7.45-9.57 12.03-13.38 4.21-3.5 8.99-5.13 14.49-5.72 6.34-.69 12.52-.37 18.57 1.18 6.39 1.63 12.73 3.59 18.87 5.98 4.44 1.72 8.53 4.38 12.76 6.64.37.19.77.41 1 .73 2.22 3.03 4.78 5.9 6.51 9.2 1.93 3.66 1.36 7.71-.01 11.58-.68 1.91-.92 3.62 1.79 3.7 1.73-3.99 3.28-7.98 5.18-11.8 2.51-5.07 5.07-10.06 11.84-10.72 2.96-.29 5.65-1.98 8.9-.79 4.96 1.82 7.82 5.58 9.58 10.1 1.08 2.77 1.18 5.95 1.51 8.97.2 1.82.69 3.04 2.89 2.98.99-7.71 1.96-15.29.43-23.13-.87-4.45.19-9.24.02-13.87-.23-6.35-.87-12.68-1.23-19.03-.33-5.92-.38-11.86-.8-17.77-.67-9.28-1.97-18.38-5.49-27.18-4.72-11.8-10.47-23.02-16.99-33.88-3.67-6.11-7.65-12.05-11.44-18.09-2.74-4.38-2.88-5.01.71-8.72 4.69-4.84 5.93-10.94 6.95-17.13.4-2.43-1-4.45-3.19-5.71-3.9-2.25-9.4-3.56-12.56 1.31-.76 1.16-1.91 2.07-2.87 3.09l.19.95c1.54.12 3.09.41 4.62.33 4.01-.2 5.98.64 3.82 4.93-1.12 2.23-1.94 4.63-3.22 6.77-.37.62-1.95 1.04-2.76.8-3.69-1.08-7.22-2.79-10.96-3.59-7.1-1.52-14.36-2.33-21.44-3.92-6.03-1.36-11.89-3.43-17.84-5.13-3.41-.98-6.95-1.61-10.27-2.84-4.94-1.84-9.67-4.26-14.62-6.09-4.26-1.58-8.72-2.6-13.04-4.05-1.13-.38-1.96-1.55-3.04-2.16-2.19-1.25-4.45-2.38-6.7-3.52-.65-.33-14.1-7.83-16.11-8.7-2.07-.9-4.22-1.64-6.28-2.58-.62-.28-1.02-1.02-1.53-1.54-1.39-1.42-2.57-3.22-4.23-4.17-5.41-3.08-9.16-7.95-13.71-11.95-1.59-1.4-3.46-2.48-5.21-3.7-.35-.25-.88-.38-1.03-.7-2.51-5.43-10.04-9.24-14.78-13.06 0 0-7.48-6.33-11.49-6.92-.03-.01-.06-.01-.09-.02-.29-.06-.59-.11-.88-.15-.06-.01-.12-.01-.18-.02-.26-.03-.51-.07-.77-.09-.1-.01-.19-.01-.29-.02l-.63-.03c-.13 0-.25.01-.38.01-.16 0-.34 0-.51.01-.14.01-.29.03-.43.04-.13.01-.27.02-.4.04-.18.02-.35.06-.52.1-.08.02-.17.03-.25.05-.25.06-.48.13-.7.22-.37.15-.78.42-.98.75-2.65 4.48-6.78 8.09-6.52 14.11zm189.657 76.048l-.01-.038s0 .003-.01.003c-.27-1.187-.36-2.388.09-3.335 1.56-3.317 3.37-6.52 4.98-9.815.85-1.743.92-3.414.36-4.744-.73-1.72-2.5-2.86-4.93-2.83-.72 0-1.44.06-2.17.08l-.64-1 .01-.01-.02-.03c1.36-.87 2.87-2.63 4.07-2.44 2.55.4 6.05.31 6.99 3.32.06.2.12.43.16.66.43 2.53-.11 5.38-.82 7.92-1.35 4.77-3.25 9.36-8.1 12.22zm-181.66-87.925c.84-1.02 3.63-.567 5.53-.514.88.02 1.85.55 2.61 1.08.04.03.4.29.95.65 1.31.8 2.79 1.49 3.35 1.75.06.02.13.05.2.07.45.14.94.48 1.42.95 2.16 1.73 3.06 4.23 3.99 6.87v.01c1.24 3.53 2.96 6.9 4.47 10.35 2.82 6.43 5.5 12.93 8.51 19.28 1.47 3.1 3.51 5.94 5.39 8.84 1.86 2.86 3.79 5.63 8.04 4.21.47-.16 1.81.89 2.03 1.61v.03c.41 1.33.3 2.82.43 4.75 1.4.03 5.34 1.13 6.02 1.38 3.84 1.41 8.02 4.1 11.54 3.45 2.84-.53 3.83.25 5.79 1.3 1.75.94 4.07.89 6.16 1.13 2.37.27 4.77.22 7.12.6 5.92.94 11.81 2.07 17.73 3.04.55.08 3.78.49 4.94.82 7.22 2.05 14.83 1.39 22.13 3.29 6.53 1.7 13.31 2.52 20.01 3.55 8.03 1.24 16.13 2.11 23.84 4.93 1.05.38 2.01 1.01 3.04 1.48 4.24 1.94 4.59 6.67 6.96 9.95 4.66 6.47 9.21 13.12 12.93 20.16 5.72 10.81 10.8 21.97 15.92 33.09.15.32.28.65.4.98.84 2.29 1.09 4.85 1.68 7.26-2.56-3.13-4.4-6.47-6.33-9.75-4.9-8.34-10.15-16.49-14.66-25.03-3.88-7.36-6.9-15.17-10.39-22.75-.4-.86-1.25-1.65-2.08-2.14-.11-.06-.21-.11-.31-.15.13 5.86.38 34.1.63 36.61.38 3.87 1.1 7.71 1.41 11.59 1.16 14.59 2.01 29.22 3.39 43.79.84 8.85.13 17.53-1.04 26.24l-.81.15-.01-.03c-.45-1.74-1.13-3.46-1.32-5.23-.66-6.1-.67-12.29-1.79-18.3-2.27-12.17-.28-24.38-1.03-36.54-.39-6.28-.3-12.59-.39-18.89v-.65c-.13-5.47-1.08-32.01-1.21-38.5-.62.5-1.08 1.28-1.51 1.84-3.22 4.14-6.17 8.48-9.24 12.73-5 6.9-10.29 13.6-14.96 20.71-7.08 10.79-13.8 21.82-20.53 32.83-6.86 11.23-13.52 22.57-20.31 33.85-2.79 4.62-5.69 9.18-8.87 14.3v-.06l-.01.02c.05-1-.03-1.41.1-1.74 1.39-3.52 2.66-7.09 4.25-10.52 3.5-7.57 6.92-15.19 10.82-22.56 3.45-6.52 8.14-12.43 11.15-19.12 5.62-12.49 14.17-23.08 21.21-34.63 3.4-5.59 7.6-10.7 11.45-16.02 3.41-4.72 6.9-9.4 10.24-14.17 1.35-1.93 2.4-4.08 3.78-6.48-4.36-.87-8.05-1.61-11.75-2.34-7.68-1.51-15.32-3.28-23.05-4.44-10.57-1.59-21.23-2.55-31.81-4.06-11.47-1.63-22.92-3.42-34.32-5.45-7.21-1.28-14.3-3.16-21.45-4.74-2.65-.58-5.43-1.78-7.96-1.42-3.69.53-6.58-.62-7.75-3.6-.17-.43-.31-.89-.4-1.39-.03-.13-.07-.26-.11-.39-.34-.93-1.16-1.79-1.84-2.59-.59-.7-1.48-1.13-2.15-1.78-9.25-9.08-17.35-19.13-24.3-30.04-3.69-5.8-6.93-11.89-10.21-17.93-.1-.2-.2-.4-.27-.6-1.13-2.83.94-5.23 2.493-7.11z'},{'color':'#d2a293','path':'M255.44 185.547c.843-1.02 3.63-.568 5.532-.513.886.024 1.854.545 2.61 1.087.29.21.61.42.937.62 1.31.8 2.79 1.49 3.35 1.76l.21.11c.52.27.98.58 1.4.92 2.16 1.73 3.06 4.24 3.99 6.88 0 .02.01.03.01.04 1.24 3.54 2.95 6.91 4.46 10.36 2.81 6.44 5.49 12.94 8.51 19.28 1.47 3.1 3.51 5.95 5.39 8.84 1.86 2.87 3.79 5.64 8.04 4.22.47-.16 1.79.88 2.03 1.59v.02c.41 1.33.3 2.83.44 4.76v.04c1.39.03 5.35 1.14 6.03 1.39 3.84 1.41 8.02 4.1 11.54 3.45 2.84-.53 3.83.25 5.79 1.3 1.75.95 4.07.89 6.16 1.13 2.37.27 4.77.22 7.12.6 5.92.94 11.81 2.07 17.73 3.04.55.09 3.78.49 4.94.82 7.22 2.05 14.83 1.39 22.13 3.3 6.53 1.7 13.31 2.52 20.01 3.55 8.03 1.24 16.14 2.11 23.84 4.93 1.05.39 2.01 1.01 3.04 1.48 4.25 1.94 4.59 6.67 6.96 9.96 4.66 6.47 9.2 13.13 12.93 20.16 5.72 10.82 10.8 21.98 15.92 33.1.14.31.27.63.39.95.83 2.29 1.09 4.85 1.67 7.26-2.56-3.13-4.4-6.47-6.33-9.75-4.89-8.34-10.15-16.49-14.66-25.03-3.88-7.36-6.9-15.17-10.39-22.75-.4-.85-1.25-1.65-2.08-2.13-.11-.06-.21-.11-.31-.15.13 5.87.38 34.11.62 36.62.38 3.88 1.1 7.72 1.4 11.59 1.16 14.6 2.01 29.22 3.39 43.79.84 8.86.13 17.54-1.04 26.24l-.8.15-.01-.03c-.45-1.73-1.12-3.44-1.31-5.2-.66-6.1-.67-12.3-1.79-18.3-2.27-12.16-.28-24.37-1.03-36.54-.39-6.28-.3-12.59-.39-18.88 0-.16-.01-.4-.01-.68-.13-5.47-1.08-32.01-1.21-38.5-.62.5-1.09 1.29-1.52 1.84-3.22 4.14-6.17 8.49-9.25 12.74-5 6.9-10.29 13.6-14.96 20.72-7.08 10.79-13.8 21.82-20.52 32.84-6.86 11.23-13.52 22.58-20.32 33.85-2.79 4.63-5.69 9.18-8.87 14.3v-.06c.05-.95-.02-1.36.1-1.68 1.39-3.52 2.67-7.09 4.25-10.51 3.5-7.57 6.93-15.19 10.83-22.55 3.45-6.51 8.14-12.43 11.15-19.11 5.63-12.48 14.17-23.07 21.21-34.63 3.41-5.59 7.6-10.7 11.45-16.02 3.42-4.72 6.91-9.39 10.25-14.17 1.36-1.94 2.41-4.1 3.8-6.5l-.03-.01c-4.35-.86-8.05-1.61-11.74-2.33-7.68-1.51-15.32-3.28-23.05-4.44-10.57-1.58-21.23-2.55-31.81-4.06-11.47-1.63-22.92-3.42-34.32-5.45-7.2-1.28-14.3-3.16-21.45-4.73-2.64-.58-5.42-1.78-7.95-1.41-3.7.53-6.58-.62-7.75-3.6-.17-.41-.3-.86-.39-1.35-.03-.14-.07-.28-.12-.42-.34-.93-1.16-1.79-1.84-2.58-.59-.7-1.49-1.13-2.15-1.79-9.25-9.08-17.35-19.12-24.3-30.04-3.69-5.79-6.93-11.88-10.2-17.93-.11-.2-.2-.4-.28-.6-1.1-2.81.95-5.2 2.5-7.07zM437.07 273.4c-.256-1.174-.343-2.36.1-3.296 1.564-3.318 3.37-6.522 4.985-9.816.862-1.76.922-3.443.353-4.778-.73-1.715-2.494-2.854-4.924-2.83-.724.008-1.444.06-2.168.09l-.634-.996c.002 0 .005-.002.006-.004 1.364-.87 2.866-2.617 4.064-2.43 2.545.395 6.024.31 6.98 3.288.067.207.122.428.163.666.432 2.53-.106 5.384-.82 7.92-1.35 4.78-3.247 9.367-8.097 12.226 0-.016-.004-.028-.007-.04z'}];var GIRAFFE_HEAD=exports.GIRAFFE_HEAD=[{'color':'#FFF','path':'M282.07 38.95l-.01-.01v.01h.01z'},{'color':'#000','path':'M272.34 44.1l-.02.02c1.22.42 2.65.9 4.11 1.41 0-.01-.01-.03-.01-.04-1.43-.49-2.87-.98-4.08-1.39zm-.7 7.24c-.55-.35-1.16-.62-1.88-1-.01.01-.02.01-.03.02.73.38 1.37.66 1.93 1.02.46.3.84.72 1.26 1.09 0-.01.01-.01.01-.01-.43-.38-.81-.8-1.29-1.12zm-3.78 4.67c-.56-.2-1.18-.26-1.78-.37l-.06.03c.62.11 1.27.17 1.86.38.64.22 1.23.59 1.84.88l.01-.01c-.62-.31-1.22-.69-1.87-.91zm-4.69 11.63c.09.88-.54 1.03-2.4 1.6-2.89.88-5.69 2.01-8.53 3.01-.22.07-.47.09-.71.14h-.01c-.14-.12-.27-.24-.4-.35-.01 0-.01.01-.01.01.14.13.28.24.43.37l-1.05 1.62c1.59.59 3.02 1.24 4.23 2.21.19.13.37.29.54.46.07.04.13.1.18.17.08.06.15.13.21.21.12.11.23.23.32.35.09.09.16.18.24.28.45.57 1.17 1.2 1.85 1.3 1.09.17 2.02.5 2.76 1.13.09.08.18.16.27.25v.01c-.938 1.41-1.37 3.73-1.6 4.74-1.17 5.31-2.06 10.67-3.01 16.03-.04.3-.04.61 0 .92-.22 1.03-.36 2.19-.43 3.05.09-.85.22-2 .45-3.02-.04-.3-.05-.61 0-.91.94-5.36 1.84-10.73 3-16.04.24-1.01.66-3.33 1.61-4.75l1.19.16c2.48-2.96 4.15-6.12 2.63-10.07.69-.62 1.32-1.19 1.96-1.77-.6-.27-1.2-.54-1.93-.86-.13-.42-.26-.85-.42-1.3l-1.49.49c.06.22.1.4.12.56zm.53 4.43c.11.17.18.36.24.57.03.07.04.14.06.22 0 .02.01.04.01.06.01.04.02.08.02.12.21 1.41-.41 3.29-1.82 4.8l-.03.03c.34-2.44.62-4.43.92-6.49.25.18.46.42.6.69z'},{'color':'#FFF','path':'M263.11 71.41c-.29 2.05-.56 4.02-.9 6.43 1.41-1.51 2.03-3.39 1.82-4.8 0-.04-.01-.08-.02-.12 0-.02-.01-.04-.01-.06-.02-.08-.03-.15-.06-.22-.062-.21-.132-.4-.24-.57-.15-.26-.35-.48-.59-.66zm9.5-12.68c1.2-1.26 2.55-2.39 3.9-3.49 3.61-3.65 8.29-8.79 7.73-14.41-.03-.32.14-.67.068-.97-.06-.27-.11-.58-.18-.86-.04-.15-.09-.3-.16-.42-.05-.09-.11-.17-.18-.23-.63.24-1.3.45-1.68.58 0 .02-.01.05-.01.07 0 0-.02-.02-.02-.03h-.01c-.9.31-1.78.62-2.66.94-.43.17-.88.33-1.3.5-2.15.88-4.16 1.97-5.772 3.69 1.21.41 2.65.9 4.08 1.39 0 .01.01.03.01.04h.01c.03.2.08.41.13.62-2.2 1.36-4.4 2.72-6.81 4.19.72.38 1.33.65 1.88 1 .48.32.86.74 1.29 1.12 0 0-.01 0-.01.01l.03.03c-.5.36-.97.86-1.53 1.06-1.73.62-3.5 1.14-5.34 2.08.6.11 1.22.17 1.78.37.65.22 1.25.6 1.87.91l-.01.01c.01.01.02.02.03.02-.52.4-1 1.01-1.6 1.18-2.12.63-4.342 1.06-5.79 2.93-.21.26-.302.62-.42.92.34.12.688.37 1.01.35 3.534-.41 7.024-.87 9.664-3.6z'},{'color':'#000','path':'M262.95 66.75c0-.01-.01-.03-.02-.04.04.12.08.23.11.34l-.09-.3zm-.65-18.56c-1.37 2.91-2.71 5.82-4.08 8.71-.33-.23-.6-.47-.83-.73.22.27.51.53.85.76 1.36-2.89 2.72-5.81 4.08-8.72l-.02-.02zm22.03-8.3c-.06-.28-.11-.61-.2-.89.07.28.12.59.18.86.07.3-.1.65-.07.97.56 5.62-4.12 10.76-7.73 14.41-1.35 1.1-2.7 2.23-3.898 3.49-2.64 2.73-6.13 3.19-9.66 3.6-.32.02-.67-.23-1.01-.35 0 .01-.01.01-.01.02.35.13.71.39 1.04.36 3.52-.41 7.02-.86 9.66-3.6 1.2-1.25 2.55-2.38 3.9-3.48 3.608-3.65 8.29-8.8 7.728-14.42-.03-.31.14-.66.07-.97zm-31.85 145.48c-.03.1 5.69.06 8.79.13-.01-.01-.02-.03-.03-.04-3.01-.06-8.42-.02-8.75-.12 0 .01-.01.02-.01.03z'},{'color':'#FFF','path':'M262.3 48.19c-.1-.09-.2-.19-.3-.28-1.5 1.66-3.07 3.27-4.47 5.01-.75.94-.88 1.87-.5 2.68.04.09.09.17.14.26.06.09.13.19.2.28.01.01.02.02.02.03.23.26.5.5.83.73 1.37-2.89 2.71-5.8 4.08-8.71z'},{'color':'#000','path':'M258.42 170.65v.02c.01.01.01.02.01.03.11-.94.15-1.86.17-2.74.01-1.38-.08-2.7-.22-3.99.13 1.28.22 2.59.2 3.95-.01.88-.06 1.8-.16 2.73z'},{'color':'#602320','path':'M257.45 159.62c-.03.02-.06.05-.09.08-.21.2-.44.62-.65.7-.08.03-.14.1-.18.19-.13.25-.1.73.03 1.16.31.99.59 2.03.84 3.13.16.71.31 1.44.45 2.2.03.21.07.42.11.64.04.17.07.35.09.52.13.78.25 1.59.37 2.41.1-.93.15-1.85.16-2.73.02-1.36-.07-2.67-.2-3.95-.01-.03-.01-.06-.01-.08-.062-.59-.13-1.17-.21-1.74-.08-.6-.17-1.19-.25-1.79 0-.01 0-.02-.01-.03-.012-.13-.03-.24-.062-.34-.04-.15-.08-.26-.13-.33-.078-.1-.168-.1-.258-.04zm-1.93 18.07c-.12 0-.27.13-.41.37-.05.07-.1.16-.15.26-.97 1.91-1.66 4.84-2.47 7.02.33.1 5.74.06 8.75.12-.82-1.28-1.61-2.09-2.52-2.38-.59-.18-1.15-.53-1.63-1.25-.06-.09-.12-.18-.18-.28-.11-.2-.22-.41-.32-.65-.21-.49-.39-1.08-.54-1.8-.03-.17-.07-.35-.1-.53-.01-.01-.01-.02-.01-.03-.05-.29-.11-.5-.18-.64-.08-.14-.16-.2-.24-.21z'},{'color':'#FFF','path':'M256.48 101.18c.95-5.36 1.84-10.72 3.01-16.03.23-1.01.66-3.33 1.6-4.74-.09-.09-.18-.17-.27-.26-.74-.6-1.66-.93-2.74-1.09-.69-.1-1.4-.74-1.86-1.31-.08-.11-.17-.21-.25-.31-.09-.12-.2-.24-.32-.35-.06-.08-.13-.15-.21-.21-.05-.07-.11-.13-.18-.17-.17-.17-.35-.33-.54-.46-1.21-.95-2.64-1.6-4.22-2.18-.36.85-.74 1.63-1.06 2.43-.98 2.43-1.36 4.96-1.53 7.51-.08 1.29-.12 2.6-.14 3.9-.01.4-.02.8-.01 1.2h-.01c0 .08 0 .16.01.24.01.16.01.33.01.49.01.49.03.97.07 1.45.02.3.06.61.09.91.08.59.18 1.17.31 1.74 0 .01 0 .02.01.03.07.29.15.58.24.86.22.68.45 1.36.7 2.03.04.13.08.25.13.37.85 2.3 1.81 4.56 2.78 6.81.29.71.6 1.42.9 2.13.1.25.21.5.33.76 0 .01.01.02.01.03.22.49.45.98.69 1.47 0 .01.01.02.01.03.12.24.228.47.35.71l.6 1.23c.19.39.38.77.57 1.16.33-1.83.22-3.58.38-5.29.02-.2.05-.59.11-1.09-.01-.01-.01-.02 0-.03.07-.86.21-2.02.43-3.05-.04-.31-.04-.62 0-.92z'},{'color':'#000','path':'M255.56 111.56c0 .01.01.02.01.03.33-1.83.23-3.57.38-5.29.02-.2.05-.6.1-1.12-.06.5-.09.89-.108 1.09-.162 1.71-.052 3.46-.382 5.29zm-.84 20.6l-.01.01c.02.1.03.2.04.3 0-.11-.02-.21-.03-.31zm.03.31c.02.2.04.41.05.64.18 3.63.33 7.19.22 11.89-.03.9-.18 2.24-.76 3.1-.73 1.05-1.4 1.27-2.04.21.64 1.11 1.32.89 2.06-.18.58-.85.73-2.2.75-3.1.12-4.7-.03-8.25-.22-11.89-.01-.24-.03-.46-.06-.67z'},{'color':'#602320','path':'M254.26 148.1c.58-.86.73-2.2.76-3.1.11-4.7-.04-8.26-.22-11.89-.01-.23-.03-.44-.05-.64-.01-.1-.02-.2-.04-.3-.64.56-1.34 1.07-2.11 1.52-2.06 1.18-4.19 1.96-6.31 2.17.14.72.21 1.48-.11 2.45-.028.087-.045.168-.054.247l-.002.017c-.008.078-.01.153-.004.226 0 .11.03.22.06.32.02.05.04.1.06.14.05.08.09.15.14.21.01.01.022.02.022.03.09.1.18.18.26.24.24.17.47.36.69.58.11.1.22.21.32.32.42.43.81.91 1.18 1.44.1.13.19.27.28.41.65 1 1.25 2.04 1.82 3.17.34.66.66 1.35.978 2.08.05.12.11.23.15.34.05.08.09.16.14.23.64 1.06 1.31.84 2.04-.21z'},{'color':'#000','path':'M254.04 108.46c.13.25.25.5.36.75.2.39.39.79.59 1.19l-.6-1.23c-.12-.24-.23-.47-.35-.71zm-1.03-2.25c.11.24.21.48.32.72-.12-.26-.23-.51-.33-.76 0 .01 0 .03.01.04z'},{'color':'#FFF','path':'M251.53 72.39c.24-.05.49-.07.71-.14 2.84-1 5.64-2.13 8.53-3.01 1.86-.57 2.49-.72 2.4-1.6-.02-.16-.06-.34-.12-.56 0-.01-.01-.02-.01-.03-.03-.11-.07-.22-.11-.34-.03-.11-.07-.22-.11-.34-.01-.02-.01-.03-.02-.04-.04-.12-.08-.25-.13-.39-.01-.01-.02-.03-.02-.04-.182-.5-.45-1.01-.79-1.46-.12-.15-.24-.3-.36-.43-.7-.73-1.6-1.12-2.48-1.12-.77-.01-1.52.27-2.08.86-.07.07-.15.16-.22.25 0 .01 0 .01-.01.02-.25.32-.49.65-.74.98l-.72.99c-1.41 2-2.74 4.04-4.13 6.05.13.11.26.23.398.35h.012zm.82 45.15c-.8.92-1.56 1.86-2.13 2.9-.27.47-.11 1.18-.14 1.78.53-.19 1.09-.3 1.56-.58.74-.46 1.53-.95 2.09-1.6.54-.62.97-1.42 1.17-2.22.02-.07.01-.14-.01-.21-.02-.05-.04-.1-.07-.15-.18-.3-.52-.64-.74-.99-.82.49-1.4.69-1.73 1.07z'},{'color':'#000','path':'M253.73 120.04c-.56.65-1.35 1.14-2.09 1.6-.47.28-1.03.39-1.56.58v.03c.53-.19 1.11-.29 1.58-.57.728-.47 1.52-.96 2.09-1.6.54-.63.97-1.43 1.17-2.22.02-.08.01-.16-.03-.25.02.07.03.14.01.21-.2.8-.63 1.6-1.17 2.22zm-1.8 27.7c-.32-.73-.64-1.42-.98-2.08.33.67.66 1.36.98 2.08z'},{'color':'#602320','path':'M249.68 177.96c1.15-1.88 2.12-4.17 2.93-6.9.22-.75.34-1.69.3-2.93.03-.91-.04-1.74-.2-2.42-.05-.17-.09-.34-.15-.49-.04-.11-.078-.22-.13-.32-.04-.11-.09-.2-.148-.29-.06-.1-.12-.19-.19-.27-.28-.34-.56-.72-.83-1.13-.01-.01-.01-.02-.02-.03-.26-.38-.51-.78-.76-1.21-.46-.77-.91-1.59-1.37-2.44-.11-.18-.22-.37-.32-.56-.37-.66-.67-.72-.83.41-.4 2.76-1.22 4.7-2.08 6.64-.35.78-.7 1.56-1.04 2.39-.56 1.39-.69 2.25-.34 3.19.02.07.05.13.08.2.03.08.07.16.11.24.09.17.19.34.3.52.15.22.29.45.43.66.01.01.01.02.02.03.31.46.61.9.9 1.37.02.02.04.05.05.08.29.45.56.92.82 1.43.18.36.35.74.51 1.15.12.3.24.55.36.75.13.19.25.35.37.45.408.33.828.13 1.228-.52z'},{'color':'#000','path':'M252.92 168.17c.03-.93-.04-1.77-.21-2.46.16.68.23 1.51.2 2.42.04 1.24-.08 2.18-.3 2.93-.81 2.73-1.78 5.02-2.93 6.9-.4.65-.82.85-1.23.52-.12-.1-.24-.26-.37-.45.13.22.26.38.39.49.41.32.83.13 1.23-.53 1.14-1.87 2.11-4.16 2.92-6.89.23-.75.34-1.7.3-2.93zm-4.07-26.09c-.37-.53-.76-1.01-1.18-1.44.41.43.8.91 1.18 1.44zm-2.45-2.58c.08.11.18.2.27.27.23.17.46.35.68.55-.22-.22-.45-.41-.69-.58-.08-.06-.17-.14-.26-.24z'},{'color':'#FFF','path':'M246.55 127.92c-1.76.1-3.45.88-5.07 2.33-.08.08-.17.15-.24.23.06.02.11.05.17.07 1.23.54 2.89.81 4.61.83h.23c2.42-.01 4.87-.53 6.22-1.46-2-1.42-3.96-2.1-5.84-2.01-.02 0-.05.01-.08.01zm-.55 5c-2.32 0-4.53-.77-6.78-1.54.05.07.11.136.167.204.095.113.194.223.3.328.15.146.31.285.48.416.087.066.177.13.27.193.092.07.185.13.283.19 1.4.84 3.26 1.27 5.01 1.23 1.94-.06 3.72-.68 4.55-1.96-1.1.52-2.17.79-3.22.9-.36.03-.71.05-1.06.04z'},{'color':'#602320','path':'M240.86 10.25c1.25.92 2.9 1.32 4.45 1.97.98-.57 1.82-.96 2.54-1.5.69-.53.8-1.18.53-1.78-.03-.06-.05-.11-.09-.16-.06-.1-.13-.2-.21-.3-.04-.05-.08-.09-.13-.14-.7-.72-2.51-1.23-4.142-1.21-.97.01-1.88.21-2.42.65-.57.47-.96 1.1-.96 1.66-.01.15.03.29.09.43.082.14.182.27.342.38z'},{'color':'#000','path':'M236.64 119.08h-.01c1.25 2.28 3.01 3.73 5.4 4.78-.01-.19-.04-.38-.07-.56.03.17.05.35.06.53-2.38-1.04-4.13-2.48-5.38-4.75zm9.38 12.3c-1.72-.02-3.38-.29-4.61-.83-.06-.02-.11-.05-.17-.07l-.02.02c.06.02.14.05.2.08 1.24.55 2.9.82 4.61.83.09 0 .16.01.23.01 2.43-.01 4.9-.53 6.24-1.48-.01-.01-.02-.01-.03-.02-1.35.93-3.8 1.45-6.22 1.46h-.23zm1.83-120.66c-.72.54-1.56.93-2.54 1.5-1.55-.65-3.2-1.05-4.45-1.97-.16-.11-.26-.24-.34-.38.07.15.18.3.35.42 1.25.91 2.91 1.31 4.46 1.96.97-.57 1.82-.95 2.54-1.49.69-.54.79-1.21.51-1.82.27.6.16 1.25-.53 1.78zm-7.682 121.607c-.17-.13-.33-.27-.48-.416.15.15.31.29.48.42zm5.562 1.613c-1.75.04-3.61-.39-5.01-1.23-.1-.06-.19-.125-.285-.19.104.072.193.154.304.22 1.393.85 3.26 1.28 5.01 1.23 1.97-.05 3.78-.7 4.58-2.01-.027.01-.03.02-.05.02-.83 1.28-2.61 1.9-4.55 1.96zm-6.54-2.57c.056.078.135.14.197.214-.056-.068-.116-.133-.167-.204-.01 0-.02-.01-.03-.01z'},{'color':'#FFF','path':'M237.59 118.92c-.31.01-.63.06-.95.16 1.25 2.27 3 3.71 5.38 4.75-.01-.18-.03-.36-.06-.53-.03-.17-.06-.34-.1-.51-.07-.31-.17-.61-.28-.89-.13-.31-.272-.6-.45-.86-.83-1.33-2.14-2.15-3.54-2.12z'},{'color':'#602320','path':'M237.57 160.68c.13.02.26-.01.37-.06.09-.05.18-.11.27-.2.05-.06.11-.12.15-.2 1.56-2.55 2.91-5.27 4.16-7.96.31-.64.3-1.53.15-2.31-.01-.01-.01-.02-.01-.03-.03-.14-.07-.27-.11-.37-.2-.45-.5-.5-.83-.4-1.22.05-2.39.94-3.51 2.33-.67.81-1.33 1.74-2.02 2.45-.09.1-.18.19-.27.29-.25.29-.44.56-.58.84-.38.75-.36 1.51 0 2.65.07.23.16.47.26.73.13.33.28.64.43.91.48.8 1.05 1.3 1.54 1.33z'},{'color':'#FFF','path':'M240.25 62.1c-1.55.32-3.11.63-4.77.97.72.58 1.18.9 1.72.88.69-.02 1.49-.58 3.05-1.85z'},{'color':'#000','path':'M237.2 63.95c-.54.02-1-.3-1.72-.88h-.02c.74.6 1.21.93 1.76.92.7-.03 1.51-.61 3.11-1.91-.02 0-.05.01-.07.01l-.01.01c-1.56 1.27-2.36 1.83-3.05 1.85zm5.32 88.31c-1.25 2.69-2.6 5.41-4.16 7.96-.04.08-.1.14-.15.2-.09.09-.18.15-.27.2-.11.05-.24.08-.37.06-.49-.03-1.06-.53-1.54-1.33.47.83 1.05 1.33 1.55 1.37.13.01.26-.01.37-.07.1-.04.18-.11.27-.19.06-.06.11-.13.16-.21 1.56-2.55 2.9-5.27 4.16-7.96.31-.64.3-1.55.13-2.34.15.78.16 1.67-.15 2.31zm-2.74-17.92c-2.02 3.26-4.4 6.19-6.19 9.52-.08.15-.16.3-.24.44-.15.23-.31.38-.52.21-.01.01.01.03.02.04.2.16.37.01.52-.22.08-.13.16-.29.23-.43 1.8-3.34 4.18-6.27 6.21-9.54-.01-.01-.02-.01-.03-.02zm-7.49-10.4l-.01.01c.1.41.14.84.22 1.25-.07-.42-.11-.85-.21-1.26z'},{'color':'#602320','path':'M233.35 144.3c.08-.14.16-.29.24-.44 1.79-3.33 4.17-6.26 6.19-9.52-.26-.16-.51-.33-.76-.51-.63-.47-1.21-1-1.75-1.58 0-.01-.01-.02-.02-.03-.27-.28-.53-.57-.77-.87 0-.01-.01-.02-.02-.03-.43-.52-.83-1.06-1.22-1.61-.55-.78-1.09-1.58-1.62-2.36-.23-.33-.46-.65-.69-.97-.06-.08-.11-.16-.15-.25-.14-.28-.22-.6-.28-.93-.08-.41-.12-.84-.22-1.25-.04.03-.08.06-.12.1-.12.13-.23.26-.35.4-.75 1-1.18 2.45-1.06 4.52.11 1.96.26 3.9.57 5.76 0 .01 0 .02.01.03.11.62.23 1.24.38 1.84.24 1.03.45 2.09.6 3.18.17 1.12.28 2.26.33 3.45.01.3-.02.67.03.95.01.07.03.12.06.17.02.07.05.12.1.16.21.17.37.02.52-.21z'},{'color':'#000','path':'M233.73 112.88c-.18 1.03-1.17 1.93-1.8 2.88-.21-.06-.41-.11-.61-.17 0 .01.01.03.01.04.2.06.4.11.61.17.63-.96 1.62-1.86 1.8-2.88.44-2.47.63-5.01.67-7.52.03-2.42-.48-4.71-1.23-6.94.73 2.22 1.24 4.49 1.21 6.9-.04 2.52-.23 5.05-.66 7.52zm-1.91-18.08c-.6-1.5-1.23-2.99-1.78-4.5-.2-.54-.41-1.08-.63-1.62.21.53.42 1.06.61 1.59.55 1.52 1.19 3.02 1.8 4.53zm-.63 74.016c.043.14.075.287.12.424.23.66.13 1.43-.12 2.05-.92 2.23-1.77 4.49-2.65 6.66-.38.96-.74 1.22-1.09.64.35.63.72.38 1.11-.61.87-2.16 1.72-4.43 2.64-6.66.26-.61.36-1.38.13-2.05-.05-.148-.093-.303-.14-.454z'},{'color':'#602320','path':'M228.54 177.95c.88-2.17 1.73-4.43 2.65-6.66.25-.62.35-1.39.12-2.05-.045-.137-.077-.285-.12-.424-.2-.63-.38-1.274-.55-1.937-.01-.01-.01-.02-.01-.03-.2-.81-.38-1.64-.57-2.46-.1-.43-.19-.85-.29-1.26-.09-.4-.19-.79-.29-1.17 0-.02-.01-.03-.01-.05-.15-.59-.32-1.16-.51-1.7-.06-.18-.12-.36-.19-.53-.08-.23-.17-.49-.27-.68-.02-.04-.04-.07-.06-.1-.08-.13-.16-.22-.27-.23-.24-.03-1.64 1.98-2.34 3.28-.1.19-.18.36-.25.51-.75 1.71-1.07 3.3-.95 5.14.01.24.03.48.07.72.02.2.05.4.1.6.05.35.12.7.21 1.07.24 1 .5 1.98.78 2.96.15.52.3 1.05.45 1.58.27.97.55 1.96.82 2.98.13.5.26.85.39 1.08.35.58.71.32 1.09-.64z'},{'color':'#000','path':'M225.55 122.1c.6 3.34 1.3 6.88 1.3 10.67 0 6.83-.74 13.15-2.77 17.45-.14.28-.26.4-.37.4-.06.01-.11-.03-.16-.09.04.09.11.14.18.13.11 0 .23-.12.36-.41 2.03-4.29 2.77-10.61 2.77-17.44.01-3.8-.7-7.36-1.31-10.71zm-1.05-24.33c-.72-1.39-1.54-2.71-2.52-3.92.97 1.22 1.79 2.53 2.52 3.92zm-4.31 66.94c-.31-2.02-.74-3.87-1.1-5.84-.03-.14-.06-.28-.09-.44.02.14.05.27.07.4.36 1.98.8 3.85 1.12 5.88z'},{'color':'#602320','path':'M224.08 150.22c2.03-4.3 2.77-10.62 2.77-17.45 0-3.79-.7-7.33-1.3-10.67-.09-.49-.18-.97-.26-1.45-.09-.51-.18-1.03-.28-1.54-.13-.69-.27-1.38-.43-2.08-.01-.1-.04-.19-.06-.28-.18-.81-.38-1.63-.59-2.44-.67-2.58-1.51-5.14-2.54-7.63-.08-.2-.17-.4-.26-.59-.08-.2-.17-.4-.25-.6-.01-.01-.01-.02-.02-.03-.07-.17-.15-.33-.22-.49-.12-.25-.23-.5-.35-.74-.19-.39-.39-.79-.59-1.18-.2-.38-.41-.77-.62-1.14-.22-.39-.44-.78-.67-1.16-.02.39-.08.72-.03 1.08 0 .05.01.09.01.14.05.43.09.87.14 1.3.07.78.13 1.56.18 2.34.02.17.03.34.04.51v.01c.01.2.03.39.03.59.27 4.49.21 8.91.04 13.35-.1 2.37-.23 4.75-.36 7.14-.14 2.48-.28 4.97-.39 7.49-.03.68.03 1.21.14 1.62.07.23.16.42.26.58.04.06.08.11.12.16.05.06.1.12.15.16.54.48 1.08.8 1.58 1.38.116.132.226.285.34.424.068.082.135.166.202.25.102.13.21.248.308.385.21.32.42.67.61 1.06.2.41.37.87.52 1.41.07.25.14.51.19.79 0 .01 0 .02.01.04.06.28.11.58.15.91l.06.52c.07.55.1 1.16.12 1.83.02.53.08 1.07.15 1.6.07.54.17 1.08.25 1.6.01.01.01.02.01.03.05.37.12.68.2.88.03.08.06.15.11.2.05.06.1.1.16.09.11 0 .23-.12.37-.4z'},{'color':'#FFF','path':'M217.07 79.73c.31.6.56 1.04.79 1.47.08.14.16.28.23.42.05.09.09.17.14.26.65-.71 1.14-1.25 1.89-2.08-1.13-.03-1.84-.04-3.05-.07z'},{'color':'#000','path':'M218.74 137.22c-.05-.04-.1-.1-.15-.16-.04-.05-.08-.1-.12-.16.04.08.08.14.13.2.06.06.11.12.16.16.54.47 1.07.8 1.57 1.38.11.122.22.253.33.384-.115-.14-.224-.292-.34-.424-.5-.58-1.04-.9-1.58-1.38zm2.122 2.056c.107.138.215.275.318.424.21.31.41.64.6 1.02-.19-.39-.4-.74-.61-1.06-.098-.138-.206-.254-.308-.384z'},{'color':'#602320','path':'M218.27 180.93c.89-.22 1.58-1.92 1.9-4.5.2-1.7.34-3.43.41-5.2.08-1.91-.02-3.58-.2-5.14-.06-.47-.12-.93-.19-1.38-.32-2.03-.76-3.9-1.12-5.88-.02-.13-.05-.26-.07-.4-.16-.81-.36-1.8-.56-2.25-.01-.04-.03-.08-.05-.11-.01-.03-.03-.05-.05-.07s-.03-.03-.05-.04c-.02-.01-.04-.01-.05 0-.04.01-.07.04-.1.07-.45.45-.41 2.51-.74 3.62-.09.25-.15.54-.21.83l-.45 2.22c-.1.49-.19.98-.29 1.47-.14.73-.28 1.46-.39 2.2-.12.74-.23 1.47-.32 2.21-.15 1.39-.24 2.79-.22 4.22.03 1.53.19 3.08.52 4.69.09.41.18.78.27 1.12.01.04.02.07.03.1.03.1.06.19.09.28.1.33.21.61.32.86.41.85.9 1.23 1.52 1.08z'},{'color':'#000','path':'M220.58 171.23c-.07 1.77-.21 3.5-.41 5.2-.32 2.58-1.01 4.28-1.9 4.5-.62.15-1.11-.23-1.52-1.08.41.87.91 1.27 1.53 1.11.9-.21 1.59-1.91 1.9-4.49.2-1.7.34-3.43.41-5.2.08-1.93-.02-3.62-.21-5.18.18 1.56.28 3.23.2 5.14zm-2.88-81.37c.27.24.54.48.83.69 1.32.96 2.44 2.06 3.43 3.27-.98-1.23-2.12-2.34-3.44-3.3-.29-.22-.57-.46-.83-.7-.47-.43-.9-.89-1.34-1.38-.32-.33-.63-.67-.96-.99l-.03-.03c1.83-2.12 3.59-4.22 5.44-6.23.58-.63 1.15-1.27.99-2.05-.01-.01-.01-.02-.01-.04-.02-.08-.05-.16-.09-.25-.01-.02-.02-.05-.03-.07-.24-.5-.62-.59-1.02-.56-.31.03-.63.12-.94.14-.11.01-.21.01-.31 0-3.4-.36-6.77-.99-10.16-1.54-.27-.04-.52-.16-1.16-.36-.01 0-.02-.01-.03-.01.32-.74.63-1.49.95-2.24l.33-.81-1.55-.12c-.07.12-.13.25-.2.37-.44.85-.86 1.63-1.4 2.63-.02-.05.48.47.37.66-1.25 2.2.93 1.29 1.58 1.66.32.19.81.09 1.23.11-.42 2.53.11 4.59 1.72 6.58.44.54.97 1 1.49 1.48.9.84 1.79 1.7 2.7 2.54l1.1-.83c.44.48.88.95 1.34 1.38zm.39-8.24c-.07-.14-.15-.28-.23-.42-.23-.43-.48-.87-.79-1.47-.01-.01-.01-.02-.02-.03 1.23.02 1.95.04 3.1.07l-.03.03c-.75.83-1.24 1.37-1.89 2.08-.05-.09-.09-.17-.14-.26z'},{'color':'#602320','path':'M217.11 16.56c.38-.63.35-1.68.1-2.4-.01-.03-.02-.06-.03-.08-.04-.11-.09-.21-.14-.3-.07-.14-.16-.28-.24-.41-.18-.27-.38-.53-.59-.78-.67.02-1.56-.07-1.83-.12-.19-.03-.37-.04-.54-.06-.15-.01-.3-.01-.45 0-1.02.06-1.87.5-2.56 1.34l-2.3.91c-.19.08-.38.14-.56.21.06.17.12.35.18.53.04.11.08.22.11.33.15.48.31.94.6 1.32.86 1.1 2.23 1.67 3.64 1.73 1.81.08 3.69-.68 4.61-2.22z'},{'color':'#FFF','path':'M214.38 69.31c-.63-.25-1.18-.37-1.68-.35-.82.04-1.47.5-1.99 1.51-.51.97-.95 1.97-1.37 2.97-.11.27-.23.54-.34.81-.31.73-.61 1.47-.93 2.21.64.2.89.32 1.16.36 3.39.55 6.76 1.18 10.16 1.54.1.01.2.01.31 0 .31-.02.63-.11.94-.14.4-.03.78.06 1.02.56.01.02.02.05.03.07.04.09.07.17.09.25 0 .02 0 .03.01.04.19.8-.39 1.44-.98 2.09-1.84 2.01-3.59 4.09-5.42 6.22.33.32.64.66.96.99.44.49.87.95 1.34 1.38.26.24.54.48.83.7 1.32.96 2.46 2.07 3.44 3.3.01.01.02.02.02.03.98 1.21 1.8 2.53 2.52 3.92.64 1.23 1.22 2.5 1.76 3.79.14.32.27.64.4.96.39.97.77 1.94 1.15 2.91.47 1.18.89 2.37 1.29 3.57.21.62.41 1.23.62 1.85.19.59.39 1.17.59 1.76.05.14.09.27.14.41.25.74.49 1.46.74 2.19.04.13.09.25.13.38.2.06.4.11.61.17.63-.95 1.62-1.85 1.8-2.88.43-2.47.62-5 .66-7.52.03-2.41-.48-4.68-1.21-6.9-.4-1.23-.87-2.45-1.36-3.66-.61-1.51-1.25-3.01-1.8-4.53-.19-.53-.4-1.06-.61-1.59 0-.01-.01-.02-.02-.04-.21-.53-.44-1.07-.68-1.6-.1-.22-.19-.43-.3-.64-.37-.82-.77-1.64-1.17-2.45-.54-1.07-1.1-2.13-1.68-3.19-.56-1.02-1.12-2.03-1.68-3.04-2.12-3.83-5.27-6.74-9.5-8.41z'},{'color':'#000','path':'M211.73 62.9c-.09-.2-.19-.39-.27-.59.08.21.18.42.28.63.76-.82.99-1.73.85-2.65.13.91-.11 1.81-.86 2.61z'},{'color':'#FFF','path':'M212.59 60.29c-.09-.61-.33-1.22-.71-1.81-.19-.3-.41-.6-.66-.89 0-.01-.01-.02-.02-.03-.25-.27-.51-.54-.79-.81-.14-.13-.3-.26-.46-.4-.95-.77-2.07-1.44-3.22-1.92.77 1.06 1.53 2.02 2.2 3 .01.02.02.03.02.04.23.32.44.64.63.97.51.87.93 1.78 1.35 2.72.17.38.35.76.53 1.15.08.2.18.39.27.59.75-.8.99-1.7.86-2.61z'},{'color':'#000','path':'M208.95 57.47c.23.33.44.67.64 1.01.5.85.92 1.75 1.34 2.68-.42-.94-.84-1.85-1.35-2.72-.19-.33-.4-.65-.63-.97zm8.26-43.31c.25.72.28 1.77-.1 2.4-.92 1.54-2.8 2.3-4.61 2.22-1.41-.06-2.78-.63-3.64-1.73 0 .01.01.03.02.04.85 1.09 2.22 1.66 3.63 1.73 1.82.08 3.7-.68 4.62-2.23.38-.62.35-1.67.1-2.39-.01-.01-.01-.03-.02-.04zm-8.28 43.27c-.67-.98-1.43-1.94-2.2-3 .75 1.06 1.52 2.02 2.2 3zm-5.83 4.41h-.01c.02.19.04.4.07.62-.02-.23-.04-.44-.06-.62zm-5.59-.6c.01 0 .02.01.03.01.27-.42.45-.97.83-1.24 1.04-.74 2.16-1.33 3.24-2 0-.01-.01-.02-.01-.03-1.08.66-2.2 1.26-3.24 1.99-.39.29-.57.84-.85 1.27zm2.85 2.91c-.46.22-.71.84-1.06 1.27.01.01.02.02.03.02.34-.44.59-1.03 1.04-1.25.88-.44 1.86-.65 2.87-.97-.03-.25-.05-.52-.08-.76l.06.73c-1 .32-1.99.53-2.86.96zm2.51-9.96c-.09 0-.15-.01-.22-.04-1-.47-2.03-.59-3.05-.58-1.04.01-2.07.13-3.11.15-.29 0-.59-.01-.88-.02-.41-.04-.82-.08-1.23-.07-.13 0-.26.01-.4.02-.41.06-.8.27-1.19.41.01.01.01.03.02.04.39-.14.77-.36 1.18-.41.14-.02.27-.02.4-.02.41-.01.82.03 1.23.06.29.02.59.02.88.02 1.04-.01 2.07-.13 3.11-.14 1.02-.01 2.05.11 3.05.58.07.03.13.04.22.04.26.01.62-.1 1.24-.15-.02-.01-.03-.02-.05-.04h-.01c-.59.07-.95.16-1.19.15z'},{'color':'#000','path':'M207.3 71.27c-.32-.01-.68-.07-1.06-.18-3.11-.86-6.32-1.43-9.32-2.56-1.99-.75-3.68-2.29-5.53-3.44-.44-.27-.98-.36-1.68-.59h-.01l-.75-.24-.03-.01c-1.56-2.33-3.09-4.58-4.35-6.46 0 .01.01.03.01.04 1.26 1.87 2.79 4.13 4.35 6.46l.78.24c.7.24 1.25.32 1.69.59 1.86 1.16 3.54 2.69 5.54 3.44 2.99 1.13 6.21 1.7 9.31 2.56.38.11.74.18 1.07.18.97.03 1.64-.46 1.88-1.9-.01 0-.01-.01-.02-.01-.24 1.42-.91 1.91-1.88 1.88z'},{'color':'#FFF','path':'M188.95 64.26l.75.24h.01c.7.23 1.24.32 1.68.59 1.85 1.15 3.54 2.69 5.53 3.44 3 1.13 6.21 1.7 9.32 2.56.38.11.74.17 1.06.18.97.03 1.64-.46 1.88-1.88-1.4-.73-2.83-1.62-4.39-2.17-1.32-.48-2.79-.48-4.17-.82-.49-.12-.88-.61-1.31-.94l.02-.02c-.01 0-.02-.01-.03-.02.35-.43.6-1.05 1.06-1.27.87-.43 1.86-.64 2.86-.96l-.06-.73c-.03-.22-.05-.43-.07-.62-.55.25-.93.57-1.26.54-1.04-.1-2.07-.3-3.09-.54-.43-.1-.82-.37-1.22-.56.01-.01.01-.02.02-.03-.01 0-.02-.01-.03-.01.28-.43.46-.98.85-1.27 1.04-.73 2.16-1.33 3.24-1.99-.05-.14-.1-.29-.15-.43-.62.23-1.2.32-1.74.32-2.37.01-4.17-1.76-6.25-2.64-.05-.02-.1-.05-.13-.1-.1-.08-.17-.22-.24-.37-.05-.1-.09-.22-.14-.33-.02-.06-.04-.12-.07-.17-.03-.06-.05-.11-.08-.16h.01c-.01-.01-.01-.03-.02-.04.39-.14.78-.35 1.19-.41.14-.01.27-.02.4-.02.41-.01.82.03 1.23.07.29.01.59.02.88.02 1.04-.02 2.07-.14 3.11-.15 1.02-.01 2.05.11 3.05.58.07.03.13.04.22.04.24.01.6-.08 1.19-.15-1.64-1.15-2.76-2.29-4.13-2.79-2.65-.94-5.39-1.63-8.15-2.2-.66-.13-1.33-.21-1.99-.23-1.98-.05-3.95.38-5.85 1.03-.91.31-1.5.68-1.19 1.67.05.17.13.36.24.57.11.2.2.41.29.62 0 .01.01.02.02.04.59 1.47.78 3.17 1.27 5.04 1.26 1.88 2.79 4.13 4.35 6.46l.03.01z'},{'color':'#EB8C00','path':'M285.66 36.77c-1.12.12-2.25.27-3.34.53-.97.23-1.4.4-1.53.54-.76.32-1.68.76-2.82 1.38-3.17 1.74-6.69 2.87-10.02 4.3-1.43.61-2.99 1.02-4.21 1.9-2.87 2.02-5.57 4.28-8.38 6.49-.52-1.02-1.38-2.31-1.89-3.72-1.02-2.9-3.17-5.41-3.07-8.68.02-1.02.06-2.04-.05-3.06-.18-1.69-.57-3.36-.69-5.05-.3-4.6-.52-9.22-.77-13.82-.12-2.41-.55-4.8.9-7.08.37-.58-.01-2-.54-2.66-2.12-2.65-6.51-2.75-9.11-1.3-1.24.7-1.93 2.56-1.17 3.7 2.168 3.19 1.668 6.88 2.15 10.38.59 4.42-.022 8.77-.8 13.17-.85 4.82-5.02 8.67-10.22 8.81-1.78.06-3.74-.34-4.7-2.26-2.96-5.9-4.99-12.13-6.66-18.48-.39-1.49-.65-3.36-.06-4.67.77-1.75.15-2.85-.74-4.04-.74-.99-.96-1.49-1.16-1.67-.19-.37-2.06-.97-2.56-.92-2.24.21-4.55.21-6.22 2.15-.74.87-2.12 1.26-1.56 2.83.56 1.61.93 3.28 1.53 4.88.68 1.76 1.68 3.41 2.28 5.19 1.04 3.06 2.48 5.99 2.86 9.31.33 2.87 1.09 5.71 1.84 8.52 1.26 4.76-.33 9.12-1.71 13.6-.52-.49-.98-.94-1.46-1.36-4.21-3.75-9.64-5-14.75-6.91-1.82-.67-3.79-1.27-5.7-1.33-1.43-.05-3.29-1.35-4.49.66-.07.12-.5.03-.76.07-1.27.18-2.6.24-3.82.61-.93.29-1.26 1.09-.94 2.14.36 1.24.51 2.54.81 3.8.83 3.55 1.92 7.01 5.1 9.28 2.68 1.91 5.39 3.84 8.31 5.41 1.91 1.02 4.18 1.43 6.31 2.1 1.86.57 3.75 1.12 5.92 1.77l1.55.12c.43-1 .87-1.99 1.37-2.96.52-1.02 1.18-1.48 2-1.52.5-.02 1.05.1 1.68.35 4.23 1.68 7.38 4.58 9.5 8.41.57 1.02 1.13 2.05 1.69 3.08.58 1.06 1.14 2.12 1.68 3.19.4.81.8 1.63 1.17 2.45.11.21.2.42.3.64.24.53.47 1.07.68 1.6.01.02.02.03.02.04.22.54.43 1.08.63 1.62.55 1.51 1.18 3 1.78 4.5.49 1.21.96 2.43 1.36 3.66.75 2.23 1.26 4.52 1.23 6.94-.04 2.51-.23 5.05-.67 7.52-.18 1.02-1.17 1.92-1.8 2.88-.21-.06-.41-.11-.61-.17 0-.01-.01-.03-.01-.04-.04-.13-.09-.25-.13-.38-.25-.73-.49-1.45-.74-2.19-.05-.14-.09-.27-.14-.41-.2-.59-.4-1.17-.59-1.76-.21-.62-.41-1.23-.62-1.85-.4-1.2-.82-2.39-1.29-3.57-.38-.97-.76-1.94-1.15-2.91-.13-.32-.26-.64-.4-.96-.54-1.29-1.12-2.56-1.76-3.79-.73-1.39-1.55-2.7-2.52-3.92 0-.01-.01-.02-.02-.03-.99-1.21-2.11-2.31-3.43-3.27-.29-.21-.56-.45-.83-.69-.46-.43-.9-.9-1.34-1.38l-1.1.83c.3.27.6.55.91.82-.03.43-.05.89-.07 1.33-.25 6.49 1.81 13.64 2 20.09.22 7.73-.73 16.06-1.29 23.99-.19 2.66-.52 5.26-.68 8.06-.35 6.19-2.56 9.4-3.76 15.03-.84 3.98-2.47 8.81-4.42 13.19-2.67 6.02-1.68 2.65-2.67 6.02-.6 2.03 10.47 15.83 33.22 16.89 17.78.83 33.47-12.39 32.17-17.39-.5-1.95-3.45-4.37-5-7.7-3.96-8.53-6.85-11.24-7.52-19.79-.522-6.52-.82-13.4-1.08-20.25.568-.75 1.09-1.55 1.568-2.38 1.11-1.93 2.06-4.02 1.59-6.35-.29-1.45-.53-2.78.32-4.19.99-1.66.57-2.55-1.13-3.54-1.03-.6-2.03-1.14-1.8-2.73.22-1.59.08-3.24-.08-4.85-.04-.35.07-1.68.14-2.98.09-.13.16-.25.18-.37.73-3.87 1.24-7.75 2.02-11.6.562-2.75 1.45-5.44 2.15-8.16.04-.2.18-1.08.27-1.86l-1.188-.16c-.95 1.42-1.37 3.74-1.61 4.75-1.16 5.31-2.06 10.68-3 16.04-.05.3-.04.61 0 .91-.23 1.02-.36 2.17-.45 3.02-.01.01-.01.02 0 .03-.05.52-.08.92-.1 1.12-.15 1.72-.05 3.46-.38 5.29 0-.01-.01-.02-.01-.03-.19-.39-.38-.77-.57-1.16-.2-.4-.39-.8-.59-1.19-.11-.25-.23-.5-.36-.75 0-.01-.01-.02-.01-.03-.24-.49-.47-.98-.69-1.47 0-.01-.01-.02-.01-.03-.11-.24-.21-.48-.32-.72-.01-.01-.01-.03-.01-.04-.3-.71-.61-1.42-.9-2.13-.97-2.25-1.93-4.51-2.78-6.81-.05-.12-.09-.24-.13-.37-.26-.68-.49-1.37-.72-2.07-.08-.27-.16-.54-.22-.82-.01-.01-.01-.02-.01-.03-.14-.57-.24-1.15-.31-1.74-.05-.31-.08-.62-.1-.94-.04-.48-.062-.97-.08-1.46 0-.24-.01-.49-.01-.73h.01c-.01-.4 0-.8 0-1.19.03-1.31.06-2.61.14-3.91.17-2.55.56-5.08 1.53-7.5.32-.81.7-1.59 1.07-2.43l1.05-1.62c-.15-.13-.29-.24-.43-.37 0 0 0-.01.01-.01l-.022-.02c1.39-2.02 2.73-4.07 4.14-6.06.47-.67.95-1.33 1.45-1.98.07-.1.15-.19.23-.27.57-.59 1.32-.87 2.09-.86.88.01 1.78.4 2.47 1.12.14.15.27.3.38.47.34.45.61.96.79 1.46 0 .01.01.03.02.04.05.14.09.27.13.39.01.01.01.02.022.04.04.12.08.23.11.34.01.01.02.03.02.04l.09.3c0 .01.01.02.01.03l1.49-.49v-.01c-.01-.07-.04-.14-.06-.22-.28-.89-.58-1.84-.89-2.85 1.28-.23 2.56-.32 3.75-.68 1.46-.43 3.02-.84 4.24-1.69 2.1-1.48 3.99-3.27 5.91-4.98.068-.06.108-.13.148-.21.65-.57 1.72-1.54 1.93-1.76 2.23-2.21 4.2-4.54 5.35-7.53 1.16-3.03.37-6.18 1.03-9.21.042-.21-.208-.68-.288-.68zM207.32 71.3c-.33 0-.69-.07-1.07-.18-3.1-.86-6.32-1.43-9.31-2.56-2-.75-3.68-2.28-5.54-3.44-.44-.27-.99-.35-1.69-.59l-.78-.24c-1.56-2.33-3.09-4.59-4.35-6.46 0-.01-.01-.03-.01-.04-.49-1.87-.68-3.57-1.27-5.04-.01-.02-.02-.03-.02-.04-.09-.21-.18-.42-.29-.62-.11-.21-.19-.4-.24-.57-.33-1.02.25-1.39 1.18-1.71 1.9-.65 3.87-1.08 5.85-1.02.66.02 1.33.09 1.99.23 2.75.57 5.5 1.25 8.15 2.2 1.39.5 2.52 1.67 4.19 2.82h-.04c.02.02.03.03.05.04-.62.05-.98.16-1.24.15-.09 0-.15-.01-.22-.04-1-.47-2.03-.59-3.05-.58-1.04.01-2.07.13-3.11.14-.29 0-.59 0-.88-.02-.41-.03-.82-.07-1.23-.06-.13 0-.26 0-.4.02-.41.05-.79.27-1.18.41.02.05.05.1.07.16.03.05.05.11.07.17.05.11.09.23.14.33.07.15.14.29.24.37.03.03.07.05.11.07 2.08.87 3.89 2.64 6.25 2.64.55 0 1.13-.1 1.75-.32 0 .01.01.02.01.03.05.14.1.29.15.43 0 .01.01.02.01.03-1.08.67-2.2 1.26-3.24 2-.38.27-.56.82-.83 1.24.39.19.77.46 1.19.56 1.02.23 2.05.43 3.09.53.33.04.7-.28 1.27-.54v.04h.01c.02.18.04.39.06.62.03.24.05.51.08.76-1.01.32-1.99.53-2.87.97-.45.22-.7.81-1.04 1.25.42.33.8.81 1.28.92 1.38.35 2.85.35 4.17.82 1.56.55 3 1.46 4.41 2.18 0 .01 0 .02-.01.03.01 0 .01.01.02.01-.24 1.44-.91 1.93-1.88 1.9zm4.42-8.36c-.1-.21-.2-.42-.28-.63-.18-.39-.36-.77-.53-1.15-.42-.93-.84-1.83-1.34-2.68-.2-.34-.41-.68-.64-1.01 0-.01-.01-.02-.02-.04-.68-.98-1.45-1.94-2.2-3-.01-.01-.01-.02-.02-.03 1.16.48 2.29 1.15 3.24 1.95.16.14.32.27.46.4.28.27.54.54.79.81.01.01.02.02.02.03.26.29.48.59.66.89.38.59.62 1.2.71 1.81.14.92-.09 1.83-.85 2.65zm5.39-46.35c-.92 1.55-2.8 2.31-4.62 2.23-1.41-.07-2.78-.64-3.63-1.73-.01-.01-.02-.03-.02-.04-.29-.38-.45-.84-.6-1.32-.03-.11-.07-.22-.11-.33-.06-.18-.12-.36-.18-.53-.01-.01-.01-.03-.02-.04.18-.07.37-.13.56-.2l2.3-.91c.69-.84 1.54-1.29 2.56-1.34.15-.01.3-.01.46 0 .17.01.35.02.54.05.26.05 1.16.14 1.83.12.22.27.43.54.6.82.08.13.17.27.24.41.05.09.1.19.14.3.01.02.02.05.03.08.01.01.01.03.02.04.25.72.28 1.77-.1 2.39zm24 104.45c.18.26.32.55.45.86.11.28.21.58.28.89.04.17.07.34.1.51.03.18.06.37.07.56-2.39-1.05-4.15-2.5-5.4-4.78h.01c0-.01-.01-.03-.02-.04.32-.1.65-.15.96-.15 1.41-.03 2.73.8 3.55 2.15zm9.2 10.92c-.8 1.31-2.61 1.96-4.58 2.01-1.75.05-3.61-.38-5.01-1.23-.11-.067-.2-.148-.304-.22-.092-.063-.18-.127-.268-.193-.17-.13-.332-.27-.48-.416-.107-.1-.207-.21-.3-.322-.063-.074-.142-.136-.198-.214.01 0 .02.01.03.01-.02-.02-.03-.03-.04-.05 2.25.78 4.48 1.55 6.81 1.56.35 0 .7-.02 1.05-.05 1.07-.11 2.16-.38 3.28-.92-.01.02-.03.04-.04.06.02 0 .03-.01.05-.02zm-10.02-69.91c-.02.01-.04.03-.05.04.02 0 .05-.01.07-.01-1.6 1.3-2.41 1.88-3.11 1.91-.55.01-1.02-.32-1.76-.92h.02c-.01-.02-.03-.03-.04-.04 1.7-.34 3.29-.66 4.87-.98zm-19.72 109.22c-.07 1.77-.21 3.5-.41 5.2-.31 2.58-1 4.28-1.9 4.49-.62.16-1.12-.24-1.53-1.11-.11-.25-.22-.53-.32-.86-.03-.09-.06-.18-.09-.28-.01-.03-.02-.06-.03-.1-.1-.35-.2-.74-.29-1.16-.33-1.61-.49-3.16-.52-4.68-.02-1.43.07-2.84.23-4.23.08-.74.19-1.47.31-2.2v-.01c.12-.74.25-1.46.39-2.19v-.01l.3-1.47c.14-.73.29-1.47.44-2.22.06-.29.13-.57.21-.83.33-1.11.29-3.16.74-3.61.03-.04.06-.06.1-.08.02-.01.03-.01.05 0 .03.01.05.04.07.08.02.02.04.04.05.07.02.03.04.07.05.11.2.45.4 1.44.56 2.25.03.16.06.3.09.44.36 1.97.79 3.82 1.1 5.84.07.45.13.91.19 1.38.19 1.56.29 3.25.21 5.18zm3.14-20.61c-.07.01-.14-.04-.18-.13-.05-.05-.08-.12-.11-.2-.08-.2-.15-.51-.2-.88 0-.01 0-.02-.01-.03-.08-.52-.18-1.06-.25-1.6-.09-.54-.15-1.09-.16-1.64-.02-.65-.05-1.25-.11-1.79l-.06-.52c-.04-.33-.09-.63-.15-.91-.01-.02-.01-.03-.01-.04-.05-.28-.12-.54-.19-.79-.15-.54-.32-1-.52-1.41-.19-.38-.39-.71-.6-1.02-.103-.15-.21-.287-.318-.424-.067-.085-.134-.17-.202-.25-.11-.132-.22-.263-.33-.385-.5-.58-1.03-.91-1.57-1.38-.05-.04-.1-.1-.16-.16-.05-.06-.09-.12-.13-.2-.1-.16-.19-.35-.26-.58-.13-.41-.19-.95-.16-1.66.12-2.52.26-5.01.4-7.49.13-2.39.26-4.77.36-7.14.16-4.41.22-8.83-.03-13.31-.01-.21-.03-.42-.04-.63v-.01l-.03-.47c-.06-.79-.12-1.58-.2-2.38l-.12-1.26c-.01-.06-.01-.11-.02-.17-.05-.37.01-.7.02-1.08.01.01.01.02.02.03.23.38.45.77.67 1.16.21.37.42.76.62 1.14.2.39.4.79.59 1.18.12.24.23.49.35.74.07.16.15.32.22.49.01.01.01.02.02.03.08.2.17.4.25.6.09.19.18.39.26.59 1.03 2.49 1.87 5.05 2.54 7.63.21.81.41 1.63.59 2.44.02.09.05.18.06.28.16.7.3 1.39.43 2.08.1.51.19 1.03.28 1.54.08.48.17.96.26 1.45.61 3.35 1.32 6.91 1.31 10.71 0 6.83-.74 13.15-2.77 17.44-.13.29-.25.41-.36.41zm7.47 20.66c-.92 2.23-1.77 4.5-2.64 6.66-.39.99-.76 1.24-1.11.61-.13-.23-.26-.58-.39-1.08-.27-1.02-.55-2.01-.82-2.98-.15-.53-.3-1.06-.45-1.58-.28-.98-.54-1.96-.78-2.96-.09-.37-.16-.72-.21-1.07-.05-.2-.08-.4-.1-.6-.04-.24-.06-.48-.07-.72-.14-1.85.18-3.46.93-5.18.07-.15.16-.32.26-.51.69-1.3 2.09-3.31 2.33-3.28.11.02.21.12.29.27.02.03.04.06.06.1.1.19.19.45.27.68.07.17.13.35.19.53.19.54.36 1.11.51 1.7 0 .02.01.03.01.05.1.38.2.77.29 1.17.1.41.19.83.29 1.26.19.82.37 1.65.57 2.46 0 .01 0 .02.01.03.17.662.35 1.306.55 1.937.047.15.09.305.14.454.23.67.13 1.44-.13 2.05zm2.17-26.99c-.15.23-.32.38-.52.22-.01-.01-.03-.03-.02-.04-.05-.04-.08-.09-.1-.16-.03-.05-.05-.1-.06-.17-.07-.29-.04-.67-.05-.99-.04-1.17-.15-2.31-.31-3.41-.16-1.11-.37-2.18-.62-3.21-.14-.59-.26-1.2-.36-1.81-.01-.01-.01-.02-.01-.03-.32-1.87-.48-3.82-.59-5.79-.11-2.08.32-3.52 1.07-4.52.11-.15.22-.28.34-.4.05-.05.09-.08.13-.12 0 .02.01.03.01.05l.01-.01c.1.41.14.84.21 1.26.06.33.14.65.28.93.04.08.09.15.14.22.24.33.47.66.7 1 .53.78 1.07 1.58 1.62 2.36.39.55.79 1.09 1.22 1.61.01.01.02.02.02.03.24.3.5.59.77.87.01.01.02.02.02.03.54.57 1.11 1.09 1.73 1.54.26.19.52.37.79.53 0 .01-.01.01-.01.02.01.01.02.01.03.02-2.03 3.27-4.41 6.2-6.21 9.54-.07.14-.15.3-.23.43zm9.17 7.96c-1.26 2.69-2.6 5.41-4.16 7.96-.05.08-.1.15-.16.21-.09.08-.17.15-.27.19-.11.06-.24.08-.37.07-.5-.04-1.08-.54-1.55-1.37-.15-.27-.3-.58-.43-.91-.1-.26-.19-.5-.26-.73-.38-1.16-.4-1.94-.02-2.69.14-.28.34-.55.59-.84.08-.09.17-.19.27-.29.68-.71 1.35-1.63 2.01-2.45 1.12-1.38 2.29-2.27 3.52-2.33.34-.1.65-.04.84.44.04.1.08.23.11.37 0 .01 0 .02.01.03.17.79.18 1.7-.13 2.34zm5.93 26.23c-.13-.11-.26-.27-.39-.49-.12-.2-.24-.45-.36-.75-.16-.41-.33-.79-.51-1.15-.26-.51-.53-.98-.82-1.43-.01-.03-.03-.06-.05-.08-.29-.47-.59-.91-.9-1.37-.01-.01-.01-.02-.02-.03-.14-.21-.28-.44-.43-.66-.11-.18-.21-.35-.3-.52-.04-.08-.08-.16-.11-.24-.03-.07-.06-.13-.08-.2-.01-.01-.02-.03-.02-.04-.35-.94-.21-1.8.35-3.18.33-.84.69-1.62 1.04-2.4.86-1.94 1.67-3.88 2.08-6.64.16-1.12.46-1.07.83-.41l.33.6c.46.85.91 1.67 1.37 2.44.25.43.5.83.76 1.21.01.01.01.02.02.03.27.4.54.77.82 1.1.07.09.14.19.2.3.06.09.11.18.15.29.05.1.09.21.13.32.06.15.1.32.15.49.17.69.24 1.53.21 2.46.04 1.23-.07 2.18-.3 2.93-.812 2.73-1.78 5.02-2.92 6.89-.4.66-.82.85-1.23.53zm8.04-17.97c.05-.09.11-.15.19-.19.2-.07.43-.49.65-.7.03-.03.06-.06.09-.07.1-.07.19-.07.27.07.05.07.09.18.13.33.03.1.05.21.06.34.01.01.01.02.01.03.08.6.17 1.19.25 1.79.08.57.15 1.15.21 1.74 0 .02 0 .05.01.08.14 1.29.23 2.61.22 3.99-.02.88-.06 1.8-.17 2.74 0-.01 0-.02-.01-.03v-.02c-.12-.82-.24-1.63-.37-2.41-.02-.17-.05-.35-.09-.52-.04-.22-.08-.43-.11-.64-.14-.76-.29-1.49-.448-2.2-.25-1.1-.53-2.14-.84-3.13-.142-.44-.182-.93-.052-1.2zm-1 17.1c.09.01.18.08.25.25.07.14.13.35.18.64 0 .01 0 .02.01.03.03.18.07.36.1.53.15.72.33 1.31.54 1.8.102.24.21.45.32.65.06.1.12.19.18.28.48.69 1.03 1.03 1.61 1.21.92.29 1.72 1.12 2.56 2.42h-.02c.01.01.02.03.03.04-3.1-.07-8.82-.03-8.79-.13 0-.01.01-.02.01-.03-.01 0-.02-.01-.02-.01.8-2.17 1.5-5.12 2.48-7.05.04-.1.09-.19.14-.26.15-.23.29-.37.42-.37zm-.48-32.62c-.02.9-.17 2.25-.75 3.1-.74 1.07-1.42 1.29-2.06.18-.05-.07-.09-.15-.14-.23-.04-.11-.1-.22-.15-.34-.32-.72-.65-1.41-.98-2.08-.57-1.13-1.17-2.17-1.82-3.17-.09-.14-.18-.28-.28-.41-.38-.53-.77-1.01-1.18-1.44-.1-.11-.21-.22-.32-.32-.22-.2-.45-.38-.68-.55-.09-.07-.19-.16-.27-.27 0-.01-.01-.02-.02-.03-.05-.06-.09-.13-.14-.21-.022-.04-.04-.09-.062-.14-.04-.11-.07-.22-.08-.35-.004-.064.02-.13.024-.196 0-.005 0-.01.002-.017.01-.092.006-.18.034-.277.32-.98.25-1.74.11-2.46 2.12-.2 4.25-.98 6.32-2.17.76-.44 1.47-.96 2.12-1.52v.04l.01-.01c.01.1.03.2.03.31.03.21.05.43.06.67.192 3.64.342 7.19.222 11.89zm-4.82-24.63c.57-1.03 1.33-1.98 2.12-2.89.34-.39.91-.59 1.73-1.08.24.35.6.72.76 1.03.03.05.05.1.07.15.04.09.05.17.03.25-.2.79-.63 1.59-1.17 2.22-.57.64-1.36 1.13-2.09 1.6-.47.28-1.05.38-1.58.57v-.03h-.01c.03-.62-.13-1.34.14-1.82zm2.28 9.5c-.01 0-.01.01-.02.02.01.01.02.01.03.02-1.34.95-3.81 1.47-6.24 1.48-.07 0-.14-.01-.23-.01-1.71-.01-3.37-.28-4.61-.83-.06-.03-.14-.06-.2-.08l.02-.02c-.01-.01-.03-.01-.04-.02.09-.09.18-.16.27-.24 1.61-1.46 3.312-2.24 5.07-2.34.03 0 .05-.01.08-.01 1.88-.09 3.85.6 5.87 2.03zm-4.62-119.14c-.72.54-1.57.92-2.54 1.49-1.55-.65-3.21-1.05-4.46-1.96-.17-.12-.28-.27-.35-.42-.06-.14-.1-.28-.09-.43-.03-.57.36-1.22.94-1.69.54-.45 1.45-.64 2.42-.65 1.63-.02 3.45.48 4.14 1.2.06.06.11.12.15.18.08.1.15.2.21.3.04.05.06.1.09.16.28.61.18 1.28-.51 1.82zm34.17 28.14h.01c0 .01 0 .01-.01.02v-.02zm-23.8 18.03c-.34-.23-.63-.49-.85-.76 0-.01-.01-.02-.02-.03-.07-.09-.14-.19-.2-.28-.05-.09-.1-.17-.14-.26-.41-.83-.28-1.76.488-2.71 1.39-1.75 2.96-3.35 4.46-5.02.11.11.22.2.33.3 0 .01-.01.01-.01.02l.02.02c-1.358 2.91-2.718 5.83-4.078 8.72zm18.29-1.65c-1.35 1.1-2.7 2.23-3.9 3.48-2.64 2.74-6.14 3.19-9.66 3.6-.33.03-.69-.23-1.04-.36 0-.01.01-.01.01-.02-.01 0-.02-.01-.03-.01.14-.32.22-.67.43-.94 1.45-1.87 3.67-2.3 5.79-2.93.602-.18 1.07-.77 1.59-1.17-.608-.29-1.2-.66-1.84-.88-.59-.21-1.24-.27-1.86-.38l.062-.03c-.03 0-.05-.01-.08-.01 1.86-.96 3.65-1.48 5.4-2.11.57-.2 1.02-.69 1.52-1.05-.42-.37-.8-.79-1.26-1.09-.56-.36-1.2-.64-1.93-1.02.01-.01.02-.01.03-.02-.02 0-.03-.01-.05-.02 2.42-1.48 4.63-2.84 6.84-4.2-.05-.2-.08-.4-.12-.59-1.46-.51-2.89-.99-4.11-1.41l.02-.02c-.01-.01-.03-.02-.04-.02 1.62-1.72 3.64-2.83 5.79-3.71.42-.17.87-.33 1.3-.5.88-.32 1.77-.63 2.66-.94h.01v.01l.01.01.01.01c0-.02.01-.04.01-.06.38-.14 1.05-.35 1.69-.59.08.07.14.16.19.27.07.12.12.27.16.42.09.28.14.61.2.89.07.31-.1.66-.07.97.558 5.62-4.122 10.77-7.732 14.42z'}];var GIRAFFE_BODY=exports.GIRAFFE_BODY=[,{'color':'#602320','path':'M210.537 462.05c1.668.214 2.783-1.147 3.164-3.563.06-.434.07-.865.09-1.083.07-3.79-1.79-6.418-5.14-7.564-.91-.307-1.8-.665-2.68-1.044-.96-.42-2.02-1.075-2.74.132-.16.275-.25.546-.27.81-.06.793.44 1.53 1.06 2.147.42.41.9.798 1.42 1.033 2.35 1.044 3.15 2.896 3.12 5.333v.32l-.01.31c-.04 1.42-.02 2.91 2.01 3.18zm94.45-88.46c-.7-.002-1.6.235-2.74.68-.71.28-1.327.667-1.862 1.185-.152.147-.3.303-.44.473-.204.25-.423.535-.66.778s-.49.445-.772.533c-1.398.44-1.882 1.13-1.908 2.02-.006.29.037.61.114.95.07.31.17.65.29 1 1.24 3.8 2.71 7.56 3.01 11.57.04.53.06 1.06.06 1.61-.01.53-.03 1.08-.09 1.63-.13 1.34.21 2.73.36 4.23.23-.09.44-.2.64-.32.49-.3.87-.68 1.15-1.11.11-.18.22-.35.31-.54.66-1.36 1.55-2.57 2.63-3.54.27-.25.54-.49.83-.7 1.19-.87 1.39-2.01 1.44-3.11.01-.25.01-.5.02-.74.08-4.27-.05-8.53-.2-12.8-.1-2.66-.68-3.82-2.22-3.83zm2.323 62.293c.102-1.744.283-3.484.502-5.222l-.62-.18c-.124.18-.27.35-.36.53-.572 1.17-1.22 2.24-1.94 3.24-2.27 3.17-5.222 5.57-8.53 7.59-1.22.75-2.484 1.44-3.785 2.1-1.176.59-2.506.95-3.586 1.75-.28.21-.55.45-.79.73-.74.88-1.11 1.75-1.24 2.63-.02.18-.04.36-.04.54-.01.55.07 1.1.2 1.66.19.76.48 1.52.83 2.31.76 1.77 1.27 2.49 2.53 2.45.42-.01.93-.1 1.56-.27.59-.16 1.11-.39 1.59-.67 1.25-.71 2.24-1.74 3.2-2.82.38-.41.75-.83 1.14-1.24 2.4-2.5 4.44-5.57 8.36-5.97.31-.03.52-.12.66-.25.1-.09.16-.19.21-.32.07-.18.09-.4.1-.63.02-.43.03-.87.03-1.3.01-.44 0-.88-.02-1.32-.05-.89-.07-1.77-.06-2.66.01-.88.04-1.76.09-2.63zm-14.625-126.385c-.574-.99-1.127-1.992-1.686-2.99-.25-.438-.44-.768-.62-1.03-.25-.364-.45-.574-.65-.583-.35-.014-.71.502-1.36 1.573-2.83 4.625-6.74 7.573-12.21 8.116-.46.043-.92.066-1.38.077-.46.01-.92.01-1.38 0-.93-.01-1.85-.05-2.76-.05v.15c-.47 0-.94.01-1.4.01-.24.01-.47.01-.7.01-.24.01-.47 0-.7-.01-.47 0-.93.01-1.4-.01-1.25-.04-2 .32-2.07 1.2-.02.29.03.64.16 1.05 1.12 3.36 2.13 6.82 4.14 9.73.31.46.63.93.97 1.39 1.45 1.99 3.19 3.79 6.04 3.75 1.72-.02 3.38-.19 4.97-.5 4.32-.83 8.17-2.71 11.52-5.62 1.06-.92 2.06-1.94 3.03-3.06.48-.58.75-1.27.88-2.02.04-.21.06-.43.08-.65.03-.58.04-1.16.03-1.73-.06-2.06-.48-4.03-1.72-5.86-.65-.94-1.24-1.92-1.82-2.91zm8.435 32.492c-.722 1.376-1.67 2.428-2.76 3.275-1.306 1.017-2.81 1.738-4.362 2.368-1.293.525-2.62.986-3.89 1.5-1.856.758-3.675 1.548-5.407 2.473-1.73.925-3.37 1.984-4.87 3.28-1.36 1.17-2.04 2.433-2.1 3.74-.05 1.306.52 2.654 1.68 3.994.63.724 1.26 1.448 1.88 2.174.63.724 1.26 1.442 1.89 2.162.63.72 1.26 1.443 1.9 2.153.21.23.44.43.68.61.44.33.92.56 1.43.6.47.04.96-.08 1.45-.41 3.26-2.16 6.45-4.38 9.58-6.72.44-.33.83-.71 1.21-1.11 1.34-1.43 2.45-3.12 4.59-3.69.76-.2 1.19-.87 1.26-1.77.02-.3 0-.62-.06-.95-.1-.56-.17-1.13-.25-1.7-.3-2.27-.45-4.56-.83-6.82-.52-3.06.04-6.27-1.34-9.43-.13.34-.24.67-.35 1-.4 1.15-.74 2.24-1.26 3.24zm-15.177-88.18c.263-.867.386-1.712.406-2.54.05-2.49-.83-4.82-1.72-7.09-.2-.495-.47-.693-.79-.727-.38-.04-.82.156-1.26.358-.37.17-.73.34-1.06.39-.18.02-.31.07-.42.13-.21.12-.3.29-.29.49.01.2.12.43.31.64 2.16 2.46 3.67 5.26 4.8 8.36zm-6.836 6.6c-.22-.194-.47-.298-.746-.31-.45-.017-.97.19-1.5.527-1.32.84-2.44 1.9-3.54 2.987s-2.18 2.197-3.41 3.134c-.24.182-.38.523-.5.797-.03.078-.06.152-.1.213 0 .832.16 1.026 1.84 1.208 3.89.417 7.52 1.412 10.75 3.482.81.518 1.6 1.085 2.35 1.748 2.53 2.22 5.21 4.243 7.68 6.52.62.568 1.23 1.14 1.82 1.75.48.493 1.02 1.298 1.68 1.204.1-.014.19-.045.29-.1.34-.175.43-.42.42-.695-.03-.47-.38-1.023-.43-1.48-.37-2.847-1.84-5.416-2.06-8.322-.33-4.472-2.39-7.277-7.2-7.942-.59-.08-1.19-.2-1.77-.35-2.08-.54-3.99-1.6-5.13-3.85-.11-.22-.25-.38-.4-.51zm-12.322 197.535c.21.445.418.894.617 1.344.7 1.57 1.293 3.18 1.53 4.89.058.41.12.77.204 1.11.215.85.607 1.45 1.537 1.75.36.12.79.2 1.342.22.533.02 1.064.04 1.592.04 3.7.02 7.28-.49 10.863-1.27.39-.09.787-.33 1.07-.63.094-.1.176-.21.24-.32.064-.11.112-.23.137-.34.067-.33-.05-.66-.476-.89-1.09-.59-1.87-1.44-2.61-2.33-.74-.88-1.44-1.79-2.37-2.5-2.32-1.76-3.78-3.78-4.39-6.05-.23-.86-.33-1.74-.32-2.66.02-1.53.38-3.15 1.08-4.84.16-.4.22-.69.21-.9-.03-.36-.29-.49-.68-.48-.21 0-.46.04-.74.11-1.93.45-3.9.81-5.79 1.39-1 .31-1.85.8-2.54 1.42-.86.77-1.46 1.75-1.76 2.82-.15.55-.23 1.13-.21 1.73.03 1 .3 2.03.85 3.02.22.41.43.71.43 1.02.01.19-.06.37-.25.59-.09.66.22 1.17.47 1.7zm5.975 25.978c.184.082.404.127.7.098l.214-.02c.176-.02.344-.03.49-.08 2.77-.77 5.568-1.4 8.38-1.96 1.876-.37 3.757-.71 5.64-1.05 2.826-.49 5.654-.97 8.477-1.49 1.32-.24 2.37-.7 3.2-1.35.56-.43 1.02-.95 1.41-1.55.58-.89.98-1.96 1.25-3.16.31-1.36.62-2.72.95-4.08.33-1.35.68-2.7 1.09-4.04.09-.29.15-.56.18-.81.07-.75-.16-1.32-.67-1.81-.18-.17-.39-.34-.64-.5-.63-.41-1.25-.64-1.85-.63-.33.01-.66.11-.99.29-.25.14-.5.33-.75.58-1.49 1.55-2.73 3.27-3.78 5.13-2.08 3.67-4.83 6.55-9.2 7.26-1.13.18-2.26.31-3.4.41-1.14.1-2.28.18-3.42.27-2.38.19-4.61.71-6.56 1.99-.51.34-1.01.71-1.48 1.17-.47.46-.7.91-.78 1.36-.02.15-.03.29-.02.44.03.6.29 1.2.58 1.81.3.61.38 1.49 1.03 1.78zm-5.666-188.383c1.318 1.61 2.553 3.27 3.697 5 .46.693.91 1.392 1.34 2.108.15.242.3.417.45.55.2.17.41.267.62.28.38.02.8-.195 1.26-.585 1.92-1.627 3.81-3.286 5.41-5.22.36-.44.7-.895 1.02-1.36.81-1.195 1.43-2.483 1.68-3.92.05-.277.09-.56.11-.85.02-.283.03-.572.01-.87-.06-1.87-.61-3.437-2.1-4.85-1.36-1.28-3.2-1.422-4.5-2.568-.37-.327-.74-.58-1.12-.788-.52-.29-1.04-.476-1.58-.52-.91-.08-1.85.212-2.82.908-.78.558-1.55 1.16-2.25 1.824-.69.66-1.32 1.39-1.81 2.19-.63 1.03-1.33 2.19-1.65 3.36-.12.43-.18.86-.17 1.29.03.72.27 1.43.85 2.08.56.63 1.09 1.27 1.62 1.92zm16.74 86.006c-3.827-1.985-6.743-4.636-8.433-8.68-.49-1.196-2.92-2.312-4.38-2.27-.33.008-.62.08-.81.226-.7.514-.95 1.11-.99 1.744-.03.632.16 1.3.33 1.963.09.3.17.61.22.91.02.07.05.14.09.19 2.01 2.72 2.62 5.88 2.95 9.13.03.22.08.42.14.61.16.47.45.83.86 1.1.16.1.34.2.53.27 2.64.95 4.52 2.65 5.58 5.29.29.71.71 1.09 1.22 1.19.13.02.26.03.39.03.41-.02.85-.19 1.3-.47 1.89-1.17 3.16-2.7 3.22-4.76.01-.3-.01-.6-.05-.91v-.03c.05-.5.07-1 .06-1.48-.04-1.25-.34-2.38-1.1-3.23-.29-.33-.64-.63-1.09-.86zm-15.44-35.986c.366.615.87.883 1.466.884.2 0 .41-.03.63-.085 1.37-.34 2.724-.74 4.07-1.15 4.79-1.49 9.463-3.35 14.244-4.92-.86-.16-1.71-.23-2.55-.24-2.57-.01-5.06.62-7.484 1.5-2.096.76-4.168 1.51-6.355 1.59-.73.02-1.473-.03-2.232-.17l-.475-.12c-.207-.06-.416-.11-.615-.12-.354-.02-.678.08-.914.5-.11.18-.17.37-.2.56-.1.58.09 1.18.41 1.72zm-5.128-139.217c2.963.143 6.793-3.49 6.854-6.517-.003-.805-.133-1.573-.332-2.323-.514-1.934-1.506-3.734-2.12-5.643-.24-.742-.423-1.5-.495-2.29-.023-.247-.21-.578-.484-.653-.08-.022-.16-.03-.26-.002-.23.064-.43.313-.56.57-.04.073-.08.147-.1.218-.84 2.533-2.21 4.8-3.49 7.116-.43.77-.84 1.54-1.23 2.34-.39.8-.61 1.6-.65 2.39-.07 1.31.33 2.59 1.21 3.82.41.57.89.92 1.63.96zm8.75 218.063c2.158 1.687 4.453 2.93 7.09 3.252.316.04.633.078.96.09.435.013.88.002 1.335-.036 5.39-.338 10.64-1.35 15.36-4.176 1.36-.818 2.12-1.563 2.39-2.47.07-.225.1-.46.11-.708.02-.75-.23-1.626-.7-2.725-.59-1.41-1.28-2.793-1.78-4.228-.12-.358-.25-.718-.34-1.084-1.14-4.55-3.84-7.48-7.72-8.91-.89-.33-1.85-.58-2.87-.75-3.07-.52-6.19-.7-9.31-.85-3.12-.15-6.25-.27-9.35-.7-.2-.02-.45-.11-.71-.19-.32-.1-.66-.21-.95-.2-.29.01-.55.12-.71.45-.07.13-.11.3-.15.51-.02.16-.02.31 0 .45.15 1.01 1.33 1.48 2.27 1.92.09.04.19.06.29.09.1.03.19.06.28.08.1.03.2.04.29.08 1.3.58 2.35 1.39 3.16 2.64 1.38 2.16 2.06 4.33 2.08 6.5.03 2.17-.6 4.33-1.83 6.49-.41.73-.63 1.36-.65 1.94-.03.96.47 1.78 1.52 2.59zm-19.466-169.45c1.985 1.413 4.155 2.58 5.864 4.33 1.432 1.464 3.04 1.606 4.637.696 1.18-.678 2.29-1.44 3.36-2.253 1.5-1.15 2.91-2.41 4.17-3.84.48-.54.75-1.21.79-2.03.01-.2.02-.41 0-.63v-.03c.02-.14.02-.28.02-.41 0-.14-.01-.28-.03-.42-.16-1.18-.92-2.15-2.18-2.69-.75-.32-1.48-.68-2.19-1.05-2.13-1.14-4.13-2.51-6.11-3.89-.87-.61-1.55-.66-1.93.36-1.3 3.49-4.36 5.49-6.71 8.09-.74.82-1.11 1.42-1.08 1.99.05.57.51 1.09 1.42 1.74zm5.555 122.148c-.163.127-.25.298-.28.478-.023.175.008.356.087.514 1.258 2.58 1.975 5.413 3.674 7.777.37.512.727 1.443 1.38 1.238.846-.27.71-1.31.9-2.37-.87-2.78-2.702-5.22-4.757-7.53-.26-.28-.67-.34-1.01-.09zm1.127 114.89c1.484-.092 2.957-.04 4.072.194 1.054.122 1.415-.136 1.47-.563.025-.253-.05-.562-.15-.888-1.473-4.605-3.428-9.038-4.543-13.776-.66-2.86-1.58-5.66-2.4-8.49-.15-.5-.4-1.07-1.03-.97-.49.09-.58.47-.59.86 0 .13.01.26.02.38.19 2.36.39 4.7.6 7.06.3 3.5 1.23 6.96 1.15 10.49-.02 1.18-.16 2.37-.48 3.56-.04.18-.07.34-.08.5-.08 1.09.59 1.77 1.99 1.68zm-1.452-56.424c2.138-.898 4.308-1.492 6.456-1.236.354 0 .664.015.945.02.15.003.28.004.41-.002.13-.005.26-.017.38-.037.08-.014.17-.015.26-.006.36.03.78.19 1.1.15.24-.03.42-.18.49-.58.02-.18-.01-.32-.08-.46-.26-.49-1.02-.71-1.51-.78-1.89-.26-3.75-.74-5.63-1.04-1.13-.18-2.26-.3-3.42-.26-1.11.04-2.33-.11-2.75 1.25-.14.48-.28 1.01-.28 1.51.01.51.15.99.55 1.39.91.89 2.1.49 3.12.06zm-2.612-212.292c-.03.306-.148.634-.4.998-.05.078-.084.153-.1.226-.09.497.6.866 1.207 1.053 1.986.593 3.848 1.443 5.66 2.455 1.88 1.06 3.71 2.182 5.47 3.42.585.412 1.165.837 1.735 1.277.428.33.863.57 1.303.75.566.236 1.14.367 1.725.382 1.04.02 2.11-.28 3.205-.83.58-.29.98-.64 1.252-1.01.182-.25.305-.5.387-.75.06-.19.097-.37.115-.55.016-.17.018-.33.008-.48-.195-4.28-1.598-7.54-2.805-10.85-.4-1.09-.95-1.86-1.678-2.3-.545-.33-1.188-.47-1.943-.42-.25.01-.52.05-.8.11-1.15.25-2.25.35-3.32.33-1.61-.04-3.15-.36-4.62-.93-1.48-.57-2.89-1.39-4.26-2.41-.4-.3-.83-.93-1.51-.23-.94.96-1.73 3.7-1.79 5.68-.02.65.05 1.22.22 1.61.35.81 1.02 1.51.92 2.42zm-.715 107.597c.88-.992 1.36-2.07 1.45-3.178.085-1.103-.216-2.235-.897-3.34-.973 1.77-2.477 2.917-3.992 4.053-.727.543-1.32 1.25-1.596 2.088-.3.916-.547 1.845-.552 2.757 0 .915.24 1.813.92 2.666.492.62 1.23.82 2.006.74.342-.04.51-.27.53-.53.004-.08-.004-.17-.028-.26-.08-.29-.12-.56-.135-.82-.11-1.77 1.17-2.9 2.29-4.16zm-2.435-48.122c.695.133.95-.553 1.217-1.065.912-1.76 1.762-3.51 3.53-4.678.794-.516 1.936-1.16 1.94-2.188 0-.146-.025-.298-.076-.46-.37-1.177-1.87-1.25-2.97-1.606-.27-.083-.58-.093-.67-.103-.99-.072-1.79.04-2.02.88-.67 2.537-1.27 5.085-1.81 7.655-.02.078-.03.16-.04.24-.04.578.2 1.2.88 1.325zm-6.918-81.63c1.268.89 2.3-.746 3.264-1.555 2.834-2.405 4.36-5.956 7.113-8.39 2.537-2.243 3.193-5.18 3.797-8.22.027-.145.042-.28.045-.407.01-.9-.56-1.39-1.54-1.57-2.25-.42-4.47-.92-6.76-.98-1.66-.02-2.28-.03-2.32.58-.02.38.18.98.49 1.93.5 1.54.75 3.05.64 4.52-.11 1.48-.59 2.93-1.56 4.36-1.24 1.81-2.65 3.56-3.37 5.68-.24.7-.52 1.49-.58 2.22-.06.73.1 1.4.75 1.85zm-4.176 42.73c2.383-2.283 4.635-4.708 6.908-7.104.274-.29.41-.64.44-1 .025-.36-.05-.73-.197-1.08-.316-.73-.982-.83-1.688-.72-2.14.05-4.012.84-5.72 2.07-1.005.73-1.978 1.55-3.052 2.18-1.294.76-1.87 1.37-1.79 2.2.054.5.348 1.08.868 1.83 1.22 1.74 3.186 2.59 4.23 1.59zm-11.002-21.145c.9 1.863 1.545 3.827 1.678 5.926.03.42-.104.96.39 1.177.573.25.972-.22 1.33-.56 3.552-3.32 7.5-6.19 10.99-9.59 1.29-1.26 1.75-2.66 1.864-4.64.03-.17.044-.34.042-.5-.024-1.16-.876-2.04-2.244-2.16-4.084-.37-7.9-2.88-12.29-1.16-1.89.74-3.315 1.93-3.473 3.84-.03.27-.02.55.01.85.24 2.36.64 4.67 1.7 6.84zm-9.274-35.043c3.01 2.354 5.047 5.26 6.06 8.985.56 2.068 2.18 2.323 3.632.81 2.96-3.09 6.13-5.947 9.396-8.71.793-.67 2.098-1.315 2.115-2.37 0-.15-.02-.307-.08-.474-.51-1.494-2.24-1.187-3.52-1.116-3.11.174-5.88-.45-8.64-2.087-2.14-1.27-4.32-2.958-6.91-2.692-1.1.01-1.96.08-2.84.28-1.49.36-2.21 1-2.22 2.16 0 .39.08.83.24 1.34.52 1.67 1.52 2.9 2.79 3.89zm-4.758 65.07c1.587 2.293 3.397 4.432 4.933 6.754 1.035 1.56 2.057 1.56 3.162.33 1.77-1.97 3.43-4.03 5.13-6.05.233-.28.39-.59.437-.9.04-.32-.024-.63-.234-.92-1.986-2.73-2.99-6.09-5.303-8.63-.398-.43-.758-.91-1.402-.96-.613-.04-4.637 2.32-5.854 3.41-1.22 1.11-1.91 2.17-2.05 3.3-.14 1.12.25 2.3 1.18 3.64zm-16.835-30.005c1.33.45 2.7.776 3.98 1.318 3.12 1.33 6.04 2.836 6.162 6.92.03.982.594 1.974 1.033 2.905.46.993 1.197 1.514 2.293.758 5.43-3.72 7.163-9.33 7.47-15.45.2-3.87-1.363-7.4-3.11-10.88-3.02-6.03-5.907-12.11-9.888-17.76-.215.34-.48.62-.582.93-2.94 9.65-5.865 19.32-8.793 28.97-.047.16-.077.31-.092.45-.09.98.566 1.54 1.527 1.87zm7.735 202.7c-.15 1.93-.886 3.774-.914 5.71-.003.274.007.55.037.83.082.777.152 1.822 1.186 1.822.85-.01 1.07-.952 1.18-1.668.37-2.224.56-4.442.57-6.654.02-3.695-.44-7.375-1.36-11.04-.09 3.674-.42 7.337-.72 11zm.308-13.018c.194-.04.387-.093.592-.144-.346-2.296-.522-4.632-1.093-6.877-.432-1.65-1.648-2.94-3.254-3.72-.39-.18-.88-.45-1.19.04-.085.14-.14.32-.16.51-.014.19.005.37.07.51 1.576 3.29 2.712 6.81 5.035 9.7zM194.234 260.02c1.412 2.253 3.018 3.34 5.566 3.042 2.21-.256 3.932-1.82 4.535-4.206.3-1.183.495-2.382.564-3.607.02-.41.03-.81.02-1.22.05-4.79-3.2-8.05-5.54-11.71-.7-1.1-1.86-2.86-2.58-2.75-1.46.21-.98 2.33-1.75 3.45-.16.24-.31.51-.41.79-1.14 3-2.23 6-2.35 9.04-.09 2.36.41 4.74 1.93 7.16zm-8.414 36.764c3.326 2.047 6.797 3.88 9.744 6.48.89.777 1.586.49 2.322-.175 2.037-1.85 3.787-3.88 5.13-6.32 2.17-3.96 4.103-8.02 5.27-12.38.694-2.63 1.852-5.11 2.434-7.09.098-2.7-.83-4.49-1.402-6.39-.5-1.67-1.268-1.55-2.29-.37-1.507 1.72-2.028 3.91-2.93 5.91-2.036 4.48-5.433 7.24-10.192 8.36-3.766.88-7.695.86-11.318 2.68-1.48.74-2.368 1.58-2.46 2.68-.047.65.188 1.39.75 2.25 1.26 1.89 3.05 3.18 4.942 4.34zm-5.218 81.936c.818 5.987 5.18 10.132 11.207 9.712 6.81-.48 12.32-4.022 15.39-10.11 1.9-3.774 3.06-7.8 3.12-11.99.02-1.903-.17-3.842-.63-5.806-.66-2.805-1.11-5.64-2.27-8.3-.47-1.096-1.04-2.273-2.39-2.355-1.37-.08-2.04 1.11-2.61 2.11-.89 1.58-1.4 3.26-1.48 5.02-.03.59-.01 1.18.06 1.78.04.36.06.71.07 1.05.03 2.38-.81 4.49-2.75 5.88-4.18 2.98-9.03 4.44-12.79 5.33-4.6-.04-5.38.14-5.42 2.86-.01.39 0 .83.02 1.33.03 1.17.27 2.34.44 3.5zm10.388 117.675c6.938.348 13.816-.646 20.725-1.013.722-.04 1.2-.176 1.283-.57.04-.237-.05-.56-.313-1.004-1.523-2.61-3.008-5.24-4.492-7.87-.848-1.506-2.303-1.946-3.848-2.273-1.23.276-2.354.552-3.244 1.648-1.95 2.404-4.19 4.512-7.15 5.74-1.41.584-2.82 1.27-3.99 2.314-.62.55-1.45 1.125-1.41 1.952.01.11.03.24.08.37.36.98 1.53.65 2.38.7zm0-166.513c2.834 4.708 5.535 6.826 10.06 2.672 1.505-1.392 3.09-2.713 4.626-4.084 1.93-1.727 2.607-4.035 2.885-6.1-.1-2.47-.7-4.413-1.48-6.344-1.25-3.122-3.67-4.688-6.92-3.95-2.76.634-5.25.235-7.63-1.177-.77-.47-1.69-.59-2.43-.98-2.11-1.08-3.19.44-4.19 1.64-.75.89-1.64 1.91-1.67 3.07-.01.52.15 1.07.58 1.64 3.09 4.1 3.63 9.36 6.2 13.6zm-10.715-50.415c3.152 1.024 9.445-.727 11.678-3.213.412-.458.59-.844.563-1.22-.034-.38-.28-.75-.708-1.174-1.422-1.412-3.102-2.19-5.025-2.598-1.637-.36-3.316-.656-4.605-2.55-.95 3.42-1.75 6.326-2.56 9.232-.07.257-.12.493-.113.704.016.358.207.64.77.82zm-1.3 173.4c2.865.37 5.22-.357 6.98-2.783.942-1.31 1.903-2.702 3.142-3.705 2.226-1.79 3.228-3.73 3.208-5.91-.016-1.32-.4-2.72-1.11-4.23-.962-2.05-1.995-2.9-4.218-2.26-4.502 1.31-9.057 2.44-13.54 3.82-1.595.49-2.956.43-4.48-.17-2.784-1.08-4.606-3.28-6.798-5.81-.08.99-.11 1.95-.12 2.89-.03 1.42-.01 2.8-.03 4.14-.02 1.34-.08 2.65-.25 3.95-.04.28.24.68.49.92 4.6 4.8 9.96 8.21 16.72 9.1zm-10.522-33.322c1.955.276 3.152 1.617 4.4 3.05 1.936 2.21 4.523 3.377 7.422 3.735 2.648.175 4.246-1.32 5.127-3.48.582-1.432 1.36-2.61 2.56-3.48 1.34-.972 2.33-2.25 3.345-3.5.696-.862 1.062-1.806 1.13-2.72.14-2.01-1.15-3.88-3.535-4.462-3.357-.817-6.693-1.534-9.938-2.824-3.768-1.505-5.016-.84-6.97 2.865-1.647 3.12-2.446 6.63-4.228 9.7-.104.18-.164.33-.183.46-.04.38.276.57.87.65zm-1.073-74.21c1.974.666 2.75 2.65 4.41 3.562 4.76 2.64 10.142 3.99 14.696 7.102.828.56 1.883.24 2.63-.55.377-.4.556-.82.587-1.26.026-.44-.09-.9-.302-1.38-.55-1.3-1.61-2.06-2.71-2.83-1.02-.72-2.13-1.35-2.45-2.72-1.13-4.73-2.49-9.42-2.42-15.85.15-2.18-1.03-5.46-2.98-8.54-1.98-3.14-4.84-5.55-7.09-8.47-.7-.9-1.04-.44-1.44.48-1.08 2.56-1.06 5.34-1.46 7.97-.98 6.61-1.32 13.32-1.88 19.99-.02.32-.08.71-.09 1.09-.02.62.06 1.21.53 1.37zm-2.446 50.323c1.023-1.82 2.354-2.763 3.49-3.898 1.492-1.475 2.155-2.435 2.183-3.587.015-.897-.353-1.914-1.017-3.38-1.056-2.317-1.943-4.696-1.83-7.175.048-1.132.304-2.285.848-3.46.517-1.13.805-2.144.847-3.087.084-2.07-1.02-3.81-3.496-5.72.1 1.89.1 3.77.04 5.64-.2 6.27-1.09 12.48-1.21 18.88-.04 1.92 0 3.85.14 5.8zm5.66 97.035l-1.864-2.918c-1.074-1.35-2.508-2.18-3.91-1.28-.2.13-.26.48-.256.927.01.76.203 1.803.215 2.563.23.174.47.337.71.512h.01c.57-.223 1.12-.446 1.68-.668l-.66-.57.04.01-.05-.04c1.35.47 2.71.96 4.06 1.45zm-3.01-8.68c1.34 2.936 5.352 5.2 7.982 4.133 2.426-.993 4.975-2.16 6.867-3.91 3.307-3.06 6.99-5.373 11.053-7.205 2.65-1.19 3.86-3.29 3.818-6.22.017-.16.024-.32.024-.47-.007-1.13-.45-2.15-1.13-3.16-2.006-2.97-6.252-3.38-8.832-1.86-1.78 1.05-3.654 1.95-5.537 2.79-4.63 2.07-9.2 2.85-13.44-.9-1.39-1.22-2.97-1.89-4.63-.74-.81.57-1.13 1.29-1.19 2.06-.05.77.16 1.6.41 2.36 1.43 4.42 2.66 8.92 4.59 13.15zm-6.244-3.503c.164.79 1.055 1.423 1.63 2.13.382-.495 1.13-1.048 1.09-1.467-.203-1.247-.745-2.432-1.154-3.64-.38.03-.758.072-1.145.113-.12.73-.4 1.486-.46 2.195-.01.23 0 .46.04.67zm-1.083 6.723c-.65-1.852-1.12-3.503-1.822-5.03-.248-.534-1.066-.892-1.69-1.107-.194-.062-.85.553-.93.932-.022.098-.032.202-.033.31.01 1.7 2.437 4.572 4.475 4.895zm-6.433-4.787c-.192-1.098-.377-2.207-.57-3.305-.414.21-1.213.47-1.233.61.17 1 .5 1.98.79 2.97.34-.09.68-.17 1.02-.26zm-6.98-9.646c-.046-1.732-1.158-2.558-3.378-2.53 1.048 1.565 1.915 2.85 3.065 4.56.23-.777.33-1.453.32-2.03zm-3.576-3.946c.173-.09.33-.506.342-.82 0-.1-.01-.19-.045-.253-.624-1.13-1.3-2.31-3.425-1.93.81 1.14 1.34 2 1.992 2.74.225.25.858.4 1.136.27zm-4.04-5.91c-.55-1.332-1.045-2.706-3.29-2.582.853 1.057 1.705 2.123 2.57 3.18.232-.19.475-.395.72-.598zM351.298 253.9l-.08.09.11.092-.03-.183z'},{'color':'#EB8C00','path':'M310.25 386.59c-.39-13.652-1.984-27.18-3.305-40.752-.39-4.083-1.525-8.126-.912-12.29.113-.727-.736.02-.838-.626-1.023-5.976-1.127-12.035-1.607-18.053-.94-11.86-2.14-23.67-5.2-35.19-1.873-7.08-1.322-14.53-3.26-21.59-1.392-5.06-2.462-9.87-3.107-15.09-1.11-9.07-4.46-17.47-6.41-26.33-2.67-12.16-8.57-38.16-15.99-40.12-3.72-.98-8.2-.68-12.01-.72-3.67-.04-7.32.28-11 .05-4.39-.28-8.81-.28-13.21-.26-8.6.03-17.62.42-26.51 1.53-4.15.51-15.24 24.08-16.94 37.78-.66 5.33-1.57 10.75-2.82 15.98-1.1 4.57-2.08 9.16-2.56 13.84-.51 4.94-.69 9.96-2.01 14.77-2.05 7.47-4.91 14.55-6.64 22.14-1.76 7.82-3.96 15.31-5.64 22.73-1.53 6.81-4.06 13.31-4.73 20.41-.72 7.62-1.2 15.28-1.79 22.92-.35 4.44-.64 8.96-.43 13.48.19 3.74.03 7.52-.18 11.28-.37 6.55-1.49 13.05-1.22 19.64.19 4.21-.46 8.38-.66 12.57-.43 8.54-1.59 17.03-1.92 25.58-.21 5.45.19 10.92-.5 16.37-.61 4.76-.67 9.49.07 14.31.6 4 .71 8.06 2.09 11.92.52 1.48.09 1.99-1.52 1.69-1.93-.36-3.38-1.46-4.69-2.77l-12.41-12.59c-5.63-5.7-12.5-9.85-18.7-14.82-1.65-1.32-2.72-2.56-2.37-4.78.55-3.59.43-7.22.38-10.83-.01-.81.33-2.05-.89-2.17-1.13-.11-1.6.94-1.78 1.93-.31 1.67-.53 3.34-.79 5.01-.36-1.63-1.09-3.13-.84-4.8.13-.98.3-2.34-1.23-2.29-1.41.04-1.38 1.33-1.27 2.37.2 1.95.48 3.89.75 6.03-.82-.28-1.12-.79-1.43-1.27-.67-1.06-1.27-2.17-1.99-3.18-.46-.64-1.08-1.43-1.98-.93-.85.48-.76 1.31-.31 2.14.34.61.57 1.29 1.07 2.45-3.06-2.18-5.42-4.33-7.32-6.93-.75-1.01-1.57-1.2-2.42-.55-.86.65-.6 1.57.07 2.32.39.44.84.83 1.27 1.23 2.04 1.93 4.08 3.88 6.12 5.81-3.16-.76-5.82-2.25-8.01-4.52-.65-.68-1.52-1.2-2.31-.41-.8.8-.3 1.64.43 2.28l3.3 2.89c-.96.39-2.2.572-2.06 1.902.12 1.2 1.28 1.32 2.09 1.75 2.19 1.19 4.41 2.3 6.63 3.44l-.155.64h-5.46c-.74.01-1.48-.04-2.16.335-.49.26-.78.68-.67 1.28.08.44.38.72.78.75.01.02 0 .04.01.06 2.61.245 5.16.79 7.67.685.85.07 1.72.08 2.59-.04.04 0 .07-.01.11-.01 2.39.05 4.66.43 6.82 1.25.11.05.23.11.345.17 6.35 3.53 11.535 8.41 16.02 14.08 4.645 5.89 8.73 12.2 13.52 18 3.06 3.7 6.56 6.7 10.52 9.045.94.677 1.94 1.27 3.04 1.64.92.44 1.852.86 2.812 1.24 1.62.644 3.21 2.17 4.847 1.78 2.42-.58 3.99.737 5.92 1.475 5.883 2.22 11.86 3.78 18.3 3.675 6.65-.1 13.28-.55 19.843-1.32 6.15-.716 12.19-.52 18.31-.307 4.71.17 9.42.734 14.15.52 2.57-.11 5.35-.31 7.19-1.79 1.84-1.466 3.55-1.34 5.45-1.395 4.79-.13 9.58-.29 14.37-.28 3.305.01 6.72-.8 9.894.39 3.094 1.17 5.63.3 8.15-1.27 7.245-4.47 10.93-11.75 14.083-19.1 2.02-4.654 2.89-9.914 3.624-15 1.34-9.19 1.79-18.47 1.87-27.754.06-7.58.21-15.16.1-22.73-.12-7.6-.146-15.2-.36-22.81zm-199.13 49.986l.083-.092.03.183-.112-.09zm27.387 26.988c-.87-1.065-1.73-2.14-2.588-3.203 0 0 .01.01.01 0 2.24-.12 2.74 1.25 3.29 2.59v.02l-.73.61zm3.623 5.046c-.656-.747-1.188-1.617-2.006-2.763h.015c2.12-.382 2.8.8 3.42 1.935.03.062.04.152.04.253-.01.315-.17.75-.35.842-.28.132-.91-.022-1.14-.267zm4.4 6.243c-1.155-1.72-2.024-3.01-3.08-4.585h.017c2.22-.025 3.332.8 3.377 2.532.014.582-.09 1.265-.313 2.053zm6.274 7.88c-.285-.993-.625-1.975-.787-2.977 0-.002.003-.004.004-.006.03-.146.82-.407 1.24-.61l.57 3.306v.02c-.34.094-.68.175-1.02.268zm2.978-.395c0-.108.01-.213.032-.31.082-.38.736-.994.932-.933.623.215 1.44.573 1.69 1.106.7 1.53 1.17 3.18 1.82 5.04l.01.03c-2.05-.31-4.496-3.22-4.484-4.92zm98.246-263.098c.054-1.977.85-4.714 1.786-5.68.676-.707 1.105-.072 1.504.224 1.37 1.02 2.785 1.84 4.26 2.41 1.475.572 3.008.897 4.617.93 1.072.024 2.18-.082 3.322-.33.277-.06.54-.1.79-.117.757-.05 1.4.09 1.944.417.73.438 1.28 1.21 1.68 2.298 1.21 3.316 2.61 6.57 2.81 10.85.01.146.01.307-.01.474-.02.182-.05.372-.11.566-.08.25-.2.502-.38.747-.27.36-.67.71-1.25 1-1.09.55-2.16.85-3.2.82-.58-.02-1.16-.15-1.72-.38-.44-.18-.87-.42-1.3-.75-.57-.44-1.15-.87-1.73-1.28-1.76-1.24-3.58-2.36-5.47-3.42-1.81-1.01-3.67-1.86-5.66-2.46-.61-.19-1.32-.57-1.2-1.08.02-.08.05-.15.1-.23.25-.36.37-.69.4-1 .09-.89-.57-1.6-.92-2.4-.17-.4-.24-.98-.22-1.64zm30.604 45.535c.582.153 1.176.27 1.77.356 4.812.67 6.868 3.47 7.206 7.95.215 2.91 1.69 5.48 2.057 8.32.057.46.4 1.02.434 1.48.02.29-.08.54-.42.72-.1.06-.2.09-.29.1-.66.1-1.19-.71-1.68-1.2-.58-.61-1.2-1.18-1.81-1.75-2.47-2.27-5.16-4.3-7.68-6.52-.76-.66-1.54-1.23-2.35-1.75-3.23-2.07-6.86-3.06-10.75-3.48-1.7-.18-1.86-.38-1.85-1.23.03-.06.07-.13.1-.21.12-.27.25-.61.5-.8 1.23-.94 2.31-2.05 3.41-3.13s2.22-2.15 3.54-2.98c.53-.34 1.05-.54 1.5-.52.28.02.53.12.75.31.15.13.28.29.4.52 1.13 2.25 3.04 3.31 5.12 3.85zm18.106 72.978c1.383 3.163.818 6.367 1.342 9.426.385 2.25.535 4.54.834 6.81.074.56.15 1.13.25 1.69.06.33.08.65.06.95-.06.91-.492 1.59-1.257 1.79-2.135.57-3.244 2.26-4.586 3.69-.37.4-.76.78-1.2 1.11-3.13 2.33-6.32 4.55-9.58 6.71-.49.32-.97.44-1.44.4-.5-.04-.98-.27-1.42-.6-.23-.18-.46-.38-.67-.62-.64-.71-1.26-1.43-1.89-2.16-.63-.72-1.26-1.44-1.88-2.17-.62-.73-1.25-1.45-1.87-2.18-1.16-1.35-1.73-2.71-1.67-4.02.06-1.31.75-2.57 2.11-3.74 1.51-1.3 3.15-2.36 4.88-3.28 1.73-.93 3.55-1.72 5.41-2.48 1.27-.51 2.6-.97 3.89-1.5 1.55-.63 3.06-1.35 4.36-2.37 1.09-.85 2.04-1.9 2.76-3.28.53-1 .87-2.09 1.26-3.24.11-.33.23-.66.36-1zm4.656 52.457v.004c-.004.248-.008.5-.02.757-.045 1.11-.246 2.25-1.443 3.12-.29.22-.56.46-.83.7-1.07.98-1.97 2.18-2.63 3.54-.09.19-.19.37-.31.54-.28.43-.66.81-1.15 1.11-.19.12-.4.23-.64.32-.14-1.51-.49-2.9-.36-4.25.06-.55.08-1.09.09-1.63 0-.53-.02-1.06-.06-1.59-.3-4-1.76-7.77-3.01-11.57-.12-.35-.22-.68-.29-1-.08-.34-.12-.67-.11-.97.03-.89.51-1.59 1.91-2.03.28-.08.54-.29.77-.53s.46-.52.66-.78c.14-.17.29-.32.44-.47.54-.51 1.16-.9 1.86-1.18 1.14-.44 2.04-.68 2.74-.68 1.54.01 2.12 1.17 2.22 3.82.14 4.27.28 8.54.2 12.8zm-39.217-46.94c.236-.42.56-.525.914-.507.2.01.41.06.62.113.16.042.32.086.48.118.76.148 1.51.198 2.24.172 2.19-.077 4.26-.827 6.36-1.595 2.43-.88 4.92-1.51 7.49-1.5.84.01 1.69.08 2.55.24l.05.01c-4.79 1.57-9.48 3.44-14.29 4.93-1.34.42-2.7.81-4.07 1.15-.22.06-.43.09-.63.09-.6 0-1.1-.27-1.46-.88-.32-.55-.51-1.16-.41-1.74.04-.19.1-.38.2-.57zm17.84 42.363c.014.48-.003.977-.054 1.482v.02c.043.312.06.614.052.906-.05 2.08-1.32 3.61-3.214 4.79-.44.29-.88.45-1.29.47-.13.01-.26 0-.39-.03-.5-.1-.92-.48-1.21-1.19-1.06-2.64-2.94-4.34-5.58-5.29-.19-.07-.37-.17-.53-.27-.4-.26-.69-.62-.85-1.1-.06-.19-.11-.39-.14-.61-.32-3.24-.94-6.4-2.94-9.13-.04-.05-.07-.12-.09-.19-.05-.3-.13-.61-.22-.91-.17-.67-.36-1.35-.33-1.98.04-.63.29-1.23.99-1.74.2-.14.48-.21.82-.22 1.46-.04 3.89 1.08 4.38 2.28 1.69 4.04 4.61 6.69 8.44 8.68.44.23.79.53 1.09.86.76.85 1.06 1.98 1.1 3.23v.01zm10.172-65.646v.02c-.02.224-.05.44-.08.656-.13.75-.4 1.443-.89 2.016-.96 1.12-1.97 2.14-3.03 3.06-3.35 2.91-7.2 4.79-11.52 5.62-1.6.3-3.25.48-4.98.5-2.85.03-4.58-1.77-6.04-3.76-.34-.46-.66-.93-.97-1.39-2.02-2.92-3.02-6.38-4.15-9.74-.14-.41-.19-.77-.17-1.06v-.01c.07-.88.82-1.24 2.07-1.2.46.02.93.01 1.39.02.23 0 .46.01.69.01.23 0 .47-.01.7-.01.47-.01.93-.02 1.4-.02v-.14c.91 0 1.84.04 2.76.05.46.01.92.01 1.38 0 .46-.01.92-.03 1.37-.08 5.47-.55 9.38-3.49 12.21-8.12.65-1.07 1.01-1.59 1.36-1.58.2.01.4.22.64.58.17.26.37.59.61 1.03.56 1 1.11 2 1.68 2.99.57.99 1.17 1.96 1.81 2.9 1.24 1.83 1.66 3.8 1.72 5.85.02.57.01 1.14-.02 1.72zm-31.56-28.454c-.01-.427.05-.86.17-1.292.31-1.17 1.02-2.33 1.65-3.36.49-.81 1.12-1.53 1.81-2.2.69-.66 1.46-1.26 2.25-1.82.97-.69 1.91-.99 2.82-.91.53.05 1.06.23 1.58.52.37.21.74.46 1.12.79 1.3 1.15 3.14 1.29 4.5 2.57 1.49 1.41 2.04 2.98 2.1 4.85.01.3.01.59-.01.87-.02.3-.06.59-.1.88-.24 1.44-.86 2.73-1.68 3.92-.32.47-.65.92-1.02 1.36-1.6 1.94-3.49 3.59-5.4 5.22-.47.39-.88.61-1.26.59-.22-.01-.42-.1-.62-.28-.16-.13-.31-.31-.45-.55-.44-.71-.89-1.41-1.34-2.1-1.15-1.73-2.38-3.39-3.7-5-.53-.64-1.06-1.28-1.62-1.91-.58-.66-.82-1.38-.84-2.11zm-13.5-38.32c-.04-.566.33-1.175 1.08-1.99 2.35-2.6 5.41-4.606 6.71-8.096.38-1.014 1.06-.962 1.93-.358 1.98 1.38 3.97 2.75 6.11 3.89.71.37 1.44.73 2.19 1.05 1.25.54 2.02 1.5 2.18 2.68.01.13.03.27.03.41 0 .13 0 .27-.02.41v.01c.02.22.01.42 0 .62v.02c-.05.82-.32 1.49-.79 2.03-1.26 1.43-2.67 2.69-4.17 3.83-1.07.81-2.19 1.57-3.36 2.25-1.6.91-3.21.77-4.64-.7-1.71-1.75-3.88-2.92-5.86-4.33-.92-.66-1.38-1.19-1.42-1.77zm12.74 131.527c-.2 1.064-.06 2.117-.91 2.394-.66.205-1.01-.727-1.38-1.238-1.7-2.364-2.42-5.2-3.68-7.777-.09-.17-.12-.36-.09-.54.03-.18.11-.35.28-.48.34-.26.75-.2 1 .09 2.05 2.31 3.88 4.75 4.75 7.53zm-12.71-103.552c.54-2.57 1.14-5.118 1.81-7.656.22-.84 1.03-.952 2.02-.88.09.01.39.02.66.104 1.1.357 2.6.43 2.97 1.606.05.162.07.314.07.46.01 1.042-1.14 1.69-1.94 2.21-1.77 1.168-2.62 2.917-3.53 4.678-.27.512-.52 1.198-1.22 1.065-.7-.126-.93-.762-.89-1.345 0-.082.02-.163.03-.242zm30.24 146.546c-.46.038-.9.05-1.34.035-.33-.02-.65-.05-.96-.09-2.64-.33-4.93-1.57-7.09-3.26-1.05-.82-1.56-1.64-1.52-2.62.02-.58.24-1.22.65-1.94 1.23-2.16 1.85-4.32 1.83-6.49-.03-2.17-.71-4.33-2.09-6.48-.81-1.25-1.87-2.06-3.17-2.64-.09-.04-.19-.06-.29-.08-.1-.03-.19-.06-.28-.08-.1-.03-.2-.05-.29-.09-.94-.44-2.12-.91-2.27-1.92-.02-.15-.02-.3 0-.47.03-.21.08-.38.14-.51.16-.33.42-.44.71-.45.29-.01.63.1.95.2.26.08.5.16.71.19 3.1.42 6.23.55 9.35.7 3.12.15 6.24.33 9.31.85 1.02.17 1.98.42 2.87.75 3.88 1.43 6.58 4.36 7.72 8.91.09.36.22.72.34 1.08.5 1.43 1.2 2.82 1.78 4.22.46 1.1.71 1.97.7 2.72v.01c-.01.25-.04.49-.11.72-.26.91-1.02 1.65-2.39 2.47-4.72 2.83-9.97 3.84-15.35 4.18zm-.57-182.928c-.01-.198.08-.37.29-.486.1-.058.24-.106.41-.128.32-.042.69-.213 1.05-.38.43-.203.88-.4 1.25-.36.31.035.59.233.78.728.89 2.27 1.77 4.6 1.71 7.09-.02.835-.15 1.688-.41 2.56-1.13-3.1-2.64-5.904-4.8-8.36-.2-.222-.31-.456-.32-.664zm-20.41-43.25c.04-.788.26-1.588.65-2.396.38-.793.79-1.57 1.22-2.34 1.27-2.316 2.65-4.584 3.48-7.117.02-.07.05-.145.09-.218.13-.257.34-.506.56-.57.09-.03.17-.02.25.002.27.076.46.407.48.653.07.79.25 1.548.49 2.29.61 1.91 1.6 3.71 2.12 5.643.2.75.33 1.518.33 2.323v.01c-.05 3.028-3.89 6.67-6.86 6.528-.74-.042-1.22-.388-1.63-.962-.89-1.236-1.29-2.525-1.21-3.845zm-42.79-19.115c0-1.15.72-1.79 2.22-2.15.88-.2 1.74-.26 2.85-.27 2.59-.26 4.77 1.43 6.92 2.69 2.75 1.64 5.52 2.26 8.64 2.09 1.28-.07 3.01-.37 3.52 1.12.05.17.08.33.08.48 0 1.07-1.32 1.72-2.12 2.4-3.27 2.76-6.44 5.62-9.4 8.71-1.46 1.52-3.07 1.26-3.64-.81-1.01-3.72-3.05-6.63-6.06-8.98-1.27-.99-2.27-2.22-2.78-3.89-.16-.52-.24-.96-.24-1.35zm-20.11 38.43c.01-.14.04-.29.09-.44 2.93-9.65 5.85-19.31 8.79-28.96.1-.31.36-.59.58-.93 3.98 5.65 6.86 11.73 9.88 17.77 1.75 3.49 3.31 7.02 3.11 10.89v.02c-.31 6.12-2.04 11.74-7.47 15.47-1.1.76-1.83.24-2.3-.76-.44-.93-1.01-1.92-1.04-2.9-.12-4.08-3.04-5.59-6.16-6.92-1.28-.54-2.65-.87-3.98-1.32-.97-.33-1.63-.9-1.53-1.89zm-17.4 69.33c.09-1.09.97-1.94 2.46-2.68 3.62-1.82 7.55-1.8 11.31-2.68 4.76-1.11 8.15-3.88 10.19-8.36.9-2 1.42-4.19 2.92-5.91 1.02-1.18 1.79-1.3 2.29.37.57 1.9 1.5 3.7 1.4 6.39v.02c-.59 1.99-1.74 4.47-2.44 7.1-1.17 4.36-3.1 8.41-5.27 12.38-1.34 2.44-3.09 4.48-5.13 6.32-.74.67-1.43.95-2.32.18-2.95-2.6-6.42-4.43-9.75-6.48-1.9-1.15-3.69-2.44-4.94-4.34-.57-.86-.81-1.61-.75-2.27zm4.09 24.44c.03-1.15.91-2.18 1.67-3.07 1-1.19 2.09-2.71 4.19-1.63.75.39 1.66.51 2.44.98 2.38 1.41 4.87 1.81 7.63 1.17 3.24-.74 5.67.83 6.92 3.95.78 1.93 1.38 3.87 1.48 6.34v.02c-.28 2.07-.95 4.38-2.89 6.11-1.54 1.37-3.12 2.69-4.63 4.08-4.53 4.15-7.23 2.04-10.06-2.67-2.57-4.24-3.12-9.5-6.2-13.6-.44-.58-.6-1.14-.58-1.67zm-4.08 59.26c.03-2.72.82-2.9 5.41-2.85 3.75-.89 8.6-2.35 12.78-5.33 1.94-1.39 2.79-3.51 2.75-5.88-.01-.34-.03-.68-.07-1.03-.07-.61-.1-1.21-.07-1.8.08-1.76.59-3.44 1.48-5.02.57-1 1.23-2.19 2.61-2.11 1.35.09 1.91 1.26 2.38 2.36 1.16 2.66 1.61 5.5 2.27 8.3.46 1.97.65 3.91.63 5.81-.06 4.19-1.22 8.23-3.13 12.01-3.07 6.09-8.58 9.63-15.4 10.11-6.03.42-10.39-3.73-11.21-9.71-.17-1.17-.41-2.34-.44-3.51-.02-.5-.03-.95-.02-1.34zm28.14 58.26c-.11.72-.34 1.66-1.19 1.67-1.04 0-1.11-1.04-1.19-1.82-.03-.28-.04-.57-.04-.85.03-1.93.76-3.78.91-5.71.3-3.66.63-7.32.71-11 .91 3.67 1.37 7.35 1.35 11.04-.01 2.22-.2 4.45-.58 6.68zm-40.7-13.25c.02-.13.08-.28.18-.46 1.78-3.07 2.58-6.58 4.23-9.7 1.95-3.7 3.2-4.37 6.97-2.86 3.24 1.29 6.58 2.01 9.94 2.83 2.38.59 3.67 2.45 3.53 4.46-.07.93-.43 1.88-1.13 2.75-1.02 1.25-2.01 2.53-3.35 3.5-1.2.87-1.98 2.05-2.56 3.48-.88 2.16-2.48 3.66-5.13 3.48-2.9-.36-5.49-1.52-7.42-3.73-1.25-1.43-2.45-2.77-4.4-3.05-.61-.08-.93-.28-.87-.67zm34.41-16.67c.01-.19.07-.37.16-.51.31-.49.8-.22 1.19-.04 1.6.78 2.82 2.07 3.25 3.73.57 2.25.74 4.58 1.09 6.88v.02c-.21.05-.4.11-.6.15-2.32-2.89-3.46-6.41-5.04-9.69-.07-.14-.09-.33-.07-.53zm-9.7-149.36c.12-3.04 1.21-6.03 2.35-9.04.1-.28.24-.54.41-.79.76-1.11.29-3.23 1.75-3.45.72-.1 1.88 1.66 2.58 2.75 2.33 3.67 5.58 6.92 5.53 11.71 0 .41-.01.81-.03 1.21-.07 1.23-.27 2.44-.57 3.63-.61 2.39-2.33 3.95-4.54 4.21-2.55.3-4.16-.79-5.57-3.04-1.53-2.43-2.03-4.82-1.94-7.19zm-12.79 25.78c-.01-.21.04-.44.11-.7.81-2.9 1.61-5.81 2.56-9.23 1.29 1.9 2.97 2.19 4.6 2.55 1.92.41 3.6 1.19 5.02 2.6.43.43.67.8.71 1.18.03.38-.15.78-.57 1.24-2.24 2.49-8.53 4.24-11.68 3.22-.57-.18-.76-.47-.77-.84zm-12.65 65.31c.01-.37.07-.77.1-1.09.56-6.66.9-13.37 1.88-19.98.4-2.63.38-5.41 1.46-7.97.4-.92.74-1.38 1.44-.48 2.25 2.92 5.1 5.33 7.09 8.47 1.94 3.08 3.12 6.36 2.98 8.54-.07 6.42 1.29 11.11 2.42 15.84.33 1.37 1.43 2 2.45 2.72 1.09.76 2.16 1.52 2.71 2.82.21.48.33.94.3 1.38-.03.45-.21.87-.59 1.28-.75.79-1.81 1.11-2.63.54-4.56-3.11-9.94-4.46-14.7-7.1-1.66-.91-2.44-2.9-4.41-3.56-.49-.16-.56-.76-.53-1.39zm-2.06 45.9c.12-6.39 1-12.61 1.2-18.87.06-1.87.05-3.75-.05-5.63 2.47 1.91 3.58 3.65 3.5 5.73-.04.95-.32 1.97-.84 3.11-.54 1.17-.8 2.32-.85 3.44-.11 2.48.77 4.86 1.83 7.18.66 1.47 1.03 2.48 1.02 3.38-.02 1.16-.68 2.13-2.19 3.61-1.14 1.14-2.47 2.08-3.49 3.9-.14-1.96-.18-3.9-.14-5.82zm-3.03 53c.16-1.3.22-2.62.24-3.96.02-1.35 0-2.72.03-4.15.01-.94.04-1.91.11-2.9 2.19 2.53 4.01 4.73 6.8 5.8 1.53.59 2.89.66 4.49.16 4.48-1.38 9.04-2.51 13.54-3.82 2.22-.64 3.25.21 4.22 2.25.71 1.52 1.09 2.92 1.11 4.23.02 2.2-.98 4.14-3.21 5.93-1.24 1.01-2.2 2.4-3.14 3.71-1.76 2.43-4.11 3.16-6.98 2.79-6.76-.88-12.12-4.3-16.72-9.1-.25-.24-.54-.64-.49-.93v-.01zm1.2 39.82c-.58-.7-1.47-1.34-1.63-2.12-.05-.22-.06-.45-.04-.69.05-.71.33-1.46.46-2.19.38-.04.76-.08 1.14-.11.41 1.21.95 2.4 1.15 3.64v.01c.06.42-.71.98-1.1 1.49zm3.6 8.62l-.05-.01.65.57.01.02c-.56.23-1.12.45-1.7.68h-.01c-.24-.18-.48-.34-.71-.51-.01-.77-.21-1.82-.21-2.58-.01-.44.05-.79.25-.92 1.4-.9 2.83-.07 3.91 1.28l1.86 2.92.02.03c-1.35-.48-2.7-.97-4.04-1.44zm8.99-3.1c-2.63 1.07-6.65-1.19-7.98-4.13-1.94-4.24-3.16-8.73-4.6-13.15-.25-.77-.47-1.6-.41-2.38.05-.77.37-1.49 1.18-2.06 1.66-1.14 3.24-.47 4.63.75 4.25 3.75 8.81 2.97 13.44.9 1.88-.84 3.76-1.74 5.54-2.78 2.58-1.51 6.82-1.1 8.83 1.87.68 1.01 1.12 2.04 1.13 3.17 0 .17-.01.33-.03.5.04 2.93-1.17 5.02-3.82 6.22-4.07 1.83-7.75 4.15-11.06 7.21-1.9 1.75-4.44 2.92-6.87 3.91zm36.15 7.24c-6.91.37-13.79 1.36-20.73 1.01-.85-.05-2.02.28-2.38-.7-.05-.13-.07-.26-.08-.39-.04-.82.79-1.4 1.41-1.95 1.17-1.04 2.58-1.73 3.99-2.31 2.96-1.23 5.2-3.33 7.15-5.74.89-1.1 2.01-1.37 3.24-1.65 1.54.33 3 .77 3.85 2.27 1.48 2.63 2.97 5.26 4.49 7.87.26.45.35.77.31 1.01-.07.41-.55.56-1.29.6zm1.98-36.89c-.38 2.42-1.5 3.78-3.16 3.56-2.05-.27-2.05-1.77-2.01-3.19l.01-.31v-.29c.02-2.44-.78-4.29-3.12-5.34-.52-.23-1-.62-1.42-1.03-.62-.62-1.12-1.36-1.05-2.16.03-.27.11-.54.28-.81.72-1.2 1.78-.55 2.74-.13.88.38 1.77.74 2.68 1.05 3.35 1.15 5.22 3.77 5.15 7.56v.01c-.02.22-.03.66-.09 1.1zm15.41-204.71c-1.7 2.03-3.36 4.09-5.13 6.05-1.11 1.23-2.13 1.23-3.16-.34-1.54-2.32-3.35-4.46-4.94-6.75-.94-1.35-1.33-2.54-1.18-3.67.15-1.12.83-2.19 2.05-3.3 1.22-1.09 5.24-3.45 5.85-3.41.64.05 1 .53 1.4.96 2.31 2.54 3.31 5.9 5.3 8.63.21.29.28.61.24.92-.04.33-.2.65-.44.93zm2.87-23.96c-.5-.21-.36-.75-.39-1.17-.14-2.1-.78-4.06-1.68-5.92-1.06-2.17-1.46-4.49-1.7-6.84-.03-.31-.04-.59-.02-.87.16-1.91 1.59-3.1 3.47-3.84 4.4-1.72 8.21.8 12.3 1.17 1.37.11 2.22 1 2.25 2.16 0 .17-.01.34-.05.52-.11 1.98-.57 3.39-1.86 4.65-3.49 3.4-7.44 6.27-10.99 9.59-.36.34-.76.81-1.33.57zm15.84 6.94c-2.28 2.4-4.53 4.82-6.91 7.1-1.05.99-3.01.15-4.23-1.59-.53-.76-.82-1.35-.87-1.85-.08-.83.49-1.44 1.79-2.2 1.07-.62 2.05-1.44 3.05-2.18 1.71-1.24 3.58-2.02 5.72-2.08.7-.11 1.37-.01 1.69.72.14.35.22.72.19 1.08-.03.36-.16.72-.44 1.01zm-2.74-35.63c-.65-.46-.82-1.14-.75-1.87.06-.73.34-1.52.57-2.21.71-2.12 2.13-3.87 3.36-5.68.97-1.43 1.45-2.88 1.56-4.36.11-1.47-.14-2.96-.64-4.5-.31-.97-.51-1.57-.49-1.94.04-.62.66-.61 2.32-.58 2.29.06 4.51.56 6.75.98.98.19 1.55.67 1.54 1.58-.01.14-.02.28-.05.43-.61 3.04-1.26 5.98-3.8 8.22-2.75 2.44-4.28 5.99-7.11 8.39-.96.81-2 2.45-3.26 1.56zm7.06 133.9c.01.26.05.53.13.82.02.09.03.18.03.26-.01.28-.17.51-.53.56-.77.08-1.51-.12-2-.74-.68-.86-.92-1.76-.92-2.69.01-.92.26-1.84.56-2.76.27-.84.87-1.54 1.59-2.09 1.52-1.14 3.02-2.28 3.99-4.05.68 1.11.98 2.24.9 3.34-.09 1.12-.57 2.21-1.45 3.2-1.12 1.26-2.39 2.39-2.3 4.15zm11.14 157.17c-1.12-.23-2.59-.28-4.07-.19-1.41.09-2.08-.59-1.99-1.7.01-.16.04-.32.09-.49.31-1.19.45-2.38.48-3.55.08-3.52-.85-6.98-1.15-10.47-.21-2.35-.41-4.7-.6-7.05-.01-.13-.02-.27-.02-.41 0-.39.09-.77.59-.85.63-.1.88.47 1.03.97.82 2.82 1.74 5.63 2.4 8.49 1.11 4.74 3.07 9.17 4.54 13.78.1.33.17.64.15.89-.05.44-.4.71-1.47.59zm.93-57.85c-2.15-.26-4.32.34-6.46 1.24-1.02.43-2.21.83-3.12-.06-.41-.4-.55-.89-.55-1.41 0-.5.13-1.03.28-1.51.42-1.36 1.64-1.2 2.75-1.24 1.16-.04 2.29.08 3.42.26 1.88.31 3.74.79 5.63 1.04.48.07 1.25.29 1.51.78.07.13.1.28.08.46-.01.01 0 .01 0 .02-.07.41-.25.55-.49.58-.32.04-.74-.12-1.1-.16-.09 0-.18 0-.26.01-.12.02-.25.04-.38.04-.13.01-.26.01-.4 0-.28 0-.59-.02-.95-.02zm4.9 30.96c-.09-.33-.15-.7-.21-1.11-.24-1.71-.83-3.32-1.53-4.9-.2-.45-.41-.9-.62-1.34-.25-.54-.57-1.05-.47-1.72.19-.22.26-.41.26-.6-.01-.3-.22-.59-.43-1-.56-1-.83-2.04-.86-3.05-.02-.59.06-1.18.21-1.73.3-1.07.9-2.05 1.76-2.82.69-.62 1.54-1.11 2.54-1.42 1.89-.58 3.86-.94 5.79-1.39.28-.06.53-.1.74-.11.4-.01.65.12.68.48.02.21-.05.51-.21.92-.69 1.69-1.05 3.3-1.07 4.82-.02.92.09 1.8.32 2.65.6 2.26 2.07 4.29 4.38 6.05.93.71 1.64 1.62 2.38 2.5.74.88 1.52 1.74 2.62 2.32.42.23.54.56.47.89-.03.12-.07.25-.14.36-.07.12-.15.22-.24.32-.29.31-.68.55-1.07.63-3.59.78-7.17 1.3-10.87 1.28-.53 0-1.06-.02-1.59-.04-.55-.02-.98-.11-1.34-.22-.93-.3-1.32-.9-1.54-1.76zm35.41-.07c-.41 1.34-.77 2.69-1.09 4.04-.33 1.36-.63 2.72-.94 4.08-.28 1.21-.68 2.27-1.25 3.17-.39.6-.85 1.12-1.41 1.55-.84.65-1.89 1.11-3.2 1.36-2.83.52-5.65.99-8.48 1.49-1.89.33-3.77.67-5.64 1.05-2.81.56-5.61 1.19-8.38 1.96-.15.05-.32.06-.49.08l-.22.02c-.3.03-.52-.01-.7-.09-.66-.29-.74-1.17-1.03-1.78-.29-.61-.55-1.21-.58-1.81v-.02c0-.15 0-.29.03-.44.07-.45.31-.9.78-1.36.47-.45.97-.83 1.49-1.16 1.95-1.28 4.18-1.8 6.56-1.99 1.14-.09 2.28-.17 3.42-.27 1.14-.1 2.27-.22 3.4-.4 4.37-.71 7.12-3.59 9.2-7.26 1.06-1.86 2.29-3.58 3.79-5.12.24-.25.49-.44.75-.57.32-.18.65-.28.99-.29.6-.01 1.21.22 1.84.63.25.16.46.33.64.51.51.49.74 1.06.67 1.81-.02.26-.08.54-.17.84zm2.76-29.34c-.05.87-.08 1.74-.09 2.62-.01.88.01 1.77.06 2.65.02.44.03.88.02 1.32-.01.44-.02.88-.04 1.33 0 .24-.03.45-.1.64-.04.12-.11.23-.2.32-.14.13-.35.22-.66.25-3.91.39-5.96 3.47-8.35 5.97-.39.41-.76.83-1.14 1.25-.96 1.08-1.95 2.11-3.2 2.82-.48.28-1 .52-1.59.68-.63.17-1.13.26-1.55.27-1.27.03-1.77-.68-2.53-2.45-.34-.79-.64-1.56-.83-2.31-.14-.57-.22-1.13-.2-1.68 0-.18.02-.36.04-.54.12-.87.49-1.74 1.23-2.62.24-.28.51-.52.8-.73 1.08-.8 2.41-1.15 3.58-1.74 1.3-.66 2.56-1.35 3.78-2.1 3.31-2.02 6.26-4.42 8.53-7.58.72-1 1.37-2.07 1.94-3.24.09-.18.24-.36.36-.53.21.07.42.13.62.19-.22 1.75-.4 3.5-.5 5.25z'}];var GIRAFFE_LEGS=exports.GIRAFFE_LEGS=[{'color':'#EB8C00','path':'M224.922 188.83c-3.43-2.512-7.242-3.377-11.02-3.877-3.4-.45-7.03.546-10.523 1.13-4.9.816-9.53 2.517-13.77 5.097-4.14 2.517-8.73 4.368-12.05 8.115-.69.772-20.33 13.08-21.15 13.713-2.92 2.232-5.95 4.33-8.76 6.692-1.85 1.553-3.21 3.686-5.09 5.19-4.59 3.684-9.42 13.877-12.98 18.534-1.88 2.462-3.61 5.12-4.93 7.917-2.42 5.15-5.35 10.09-6.11 15.95-.41 3.12-1.61 6.14-2.54 9.18-.13.43-.81.98-1.22.97-2.25-.04-3.78.76-4.96 2.8-.81 1.41-2.06 1.89-4.05.9-3.5-1.74-7.34-2.8-11.02-4.17-2.59-.96-5.2-1.89-7.74-2.98-3.67-1.58-7.3-3.27-10.9-4.99-3.48-1.65-6.91-3.43-10.38-5.1-1.56-.75-3.13-1.66-4.79-1.97-2.17-.4-3.32-1.47-4.3-3.39-1.61-3.13-3.66-6.06-7.69-6.22-2.23-.09-3.67-.49-3.48-3.27.05-.79-1.31-1.7-2.06-2.52-.27-.29-.71-.45-.97-.74-3.84-4.25-7.72-8.46-11.46-12.79-1.29-1.48-2.49-1.18-3.55-.14-2.31 2.29-4.49 4.72-6.64 7.17-.31.36-.43 1.29-.19 1.67.99 1.58 2.15 3.04 3.24 4.56.38.53.71 1.08 1.07 1.61-.62.15-1.01.06-1.26-.18-1.16-1.08-2.24-2.26-3.45-3.28-.45-.38-1.19-.43-1.8-.63-.15.48-.28.98-.45 1.46-.22.63-.34 1.32-.7 1.85-2.14 3.18-4.1 6.45-4.69 10.31-.09.56.37 1.62.82 1.78 2.74 1.02 5.52 1.97 8.35 2.7 3.34.87 6.79 1.32 10.1 2.27 1.92.55 4.28.88 5.12 3.2 1.38 3.84 4.75 4.21 8 4.61 2.28.28 4.77-.57 6.58 1.62.14.18.75.2.96.04 1.42-1.04 2.34.03 3.42.69 1.12.68 2.27 1.34 3.48 1.85 6.68 2.82 13.38 5.6 20.07 8.39 2.36.98 4.82 1.78 7.03 3.01 2.075 1.16 4.4 1.37 6.55 2.19 3.83 1.47 7.96 2.18 11.97 3.15.88.21 1.9.01 2.68.37 2.3 1.07 4.495 2.36 6.755 3.51 6.262 3.19 11.343-.88 13.09-6.08.44-1.31.31-2.81.432-4.18l.6.99c-1.084-8.43 4.586-13.52 7.98-19.62.43.32.775.58 1.15.85.47-1.15.7-2.29 1.33-3.15 2.02-2.79 4.74-4.98 7.1-7.44 6.02-6.28 20.136-23.44 41.83-28.76 7.2-1.77 14.44-1.64 21.63-2.693 5.81-.855 11.34-1.64 16.02-5.675 3.63-3.12 6.51-6.82 6.93-11.4.72-7.91-.41-15.37-7.697-20.71zm-200.74 61.94c-.89 1.896-1.893 3.74-2.858 5.6-.25.486-.593.942-.755 1.456-.77 2.438-.76 2.443-3.51 1.302 1.33-2.314 2.64-4.595 3.97-6.867.48-.83.93-1.7 1.55-2.43.26-.31.92-.29 1.4-.41.08.46.36 1.02.2 1.36zm1.78-4.51l-.557-.43 6.448-9.19c.886.67 1.638 1.236 2.558 1.93-3.35 2.127-4.55 6.384-8.45 7.69zm102.656 1.823c2.725-3.486 5.402-7.01 8.13-10.493.176-.224.62-.236.9-.333.07 1.927.46 3.835.123 5.605-.39 2.058-1.16 4.15-2.25 5.932-.82 1.34-2.3 2.388-3.7 3.203-.51.296-1.86-.23-2.42-.79-.76-.77-1.87-1.72-.77-3.124zm-6.076 11.783c.276.014.552.03.828.043.45 2.32 1.053 4.62 1.3 6.96.166 1.58-2.574 3.38-4.99 3.48l2.862-10.5zm4.25 21.894c-.394 1.084-.656 1.97-.08 3.362.55 1.326-.228 3.373-.81 4.96-1.404 3.838-2.252 4.104-6.033 2.465-.38-.163-.91-.086-1.19-.327-.66-.572-1.47-1.19-1.7-1.948-.11-.36.87-1.175 1.48-1.622 2.46-1.814 3.07-4.36 3.25-7.237.08-1.36.46-2.912 1.26-3.97 1.58-2.117 3.56-1.073 5.59-.023-.64 1.553-1.26 2.927-1.77 4.34zm5.123-9.956c-1.343.075-2.25.186-3.153.152-.49-.018-1.113-.148-1.41-.473-.202-.224-.066-.928.133-1.303.215-.402.665-.692 1.042-.993 2.523-2 2.827-3.148 1.626-5.958-.294-.69-.655-1.44-.65-2.15.003-.92.103-2.41.596-2.62.88-.37 2.32-.33 3.11.19 1.87 1.2 3.5 2.78 5.16 4.15l-6.47 9zM144.83 256.6c-1.28 1.15-2.43 1.582-3.342-.436-.246-.54-.81-.936-1.218-1.406-1.393-1.6-1.286-2.816.663-3.4 2.896-.867 5.855-.957 8.56 1.036-1.706 1.538-3.182 2.876-4.664 4.207zm5.86-11.49c-1.354-1.643-2.934-1.967-4.966-1.045-.787.356-1.756.306-2.643.44.13-.853.19-1.72.39-2.552.11-.448.46-.843.72-1.25 1.59-2.476 2.18-2.48 4.24-.186.45.5 1.08.855 1.67 1.2 1.67.964 2.64 2.365 2.54 4.666-.66-.416-1.47-.7-1.94-1.273zm231.89 10.23c-1.817-1.652-3.812-3.107-5.655-4.73-1.25-1.096-2.36-2.35-3.572-3.493-3.322-3.137-6.73-6.184-9.97-9.402-1.612-1.602-2.946-3.488-4.38-5.267-5.22-6.482-11.473-11.854-18.1-16.805-4.783-3.573-10.598-5.024-15.63-8.208-6.13-3.876-33.933-18.125-40.772-20.433-8.38-2.828-16.59-2.93-24.76.69-4.86 2.157-8.71 4.972-8.94 11.004-.23 6.078.11 11.857 5.2 16.16 1.47 1.24 2.99 2.406 4.47 3.63 6.11 5.058 13.01 8.517 20.89 9.608 4.66.646 9.21 1.725 13.72 2.934 4.03 1.08 19.77 9.228 23.77 10.423 2.96.89 16.11 4.73 19.04 5.68 3.06 1 5.94 2.56 9 3.55 4.06 1.32 10.9 4.81 13.94 7.39 1.85 1.57 3.78 3.06 5.17 4.17.34 2.6.07 4.99 1.01 6.71 1.25 2.28-5.21 8.11-4.45 8.65-1.25 2.16-2.35 4.47-3.82 6.51-2.54 3.54-5.32 6.91-7.98 10.37-1.98 2.59-3.85 5.26-5.91 7.78-1.48 1.81-3.22 3.4-4.79 5.14-2.65 2.93-4.67 6.66-9.28 6.97-.12.01-.26.11-.36.2-3.11 2.79-6.1 5.58-7.13 9.96-.62 2.65-2 4.77-4.98 5.89-3.3 1.25-6.36 3.23-9.42 5.06-2.56 1.53-4.97 3.3-7.66 5.11.03-.23-.05-.05.01.04 2.53 3.91 5.04 7.82 7.64 11.68.32.48 1.1.64 1.78 1.02.03 2.39 1.69 3.75 3.5 4.93 2.26 1.48 4.62 2.82 6.9 4.27 1.14.73 1.83.36 2.28-.76.87-2.12 1.62-4.3 2.6-6.37 1.34-2.81 2.92-5.51 4.25-8.33 1.21-2.55 2.23-5.18 3.31-7.78.62-1.49 1.29-2.88 3.15-3.16.45-.06 1.04-.25 1.28-.59 1.95-2.75 3.95-5.48 5.67-8.37.75-1.25.63-3.01 1.34-4.3 1.94-3.52 3.96-7.02 6.24-10.32 3.77-5.47 7.73-10.81 11.7-16.15 3.43-4.6 6.9-9.17 10.47-13.66 1.91-2.41 10.76-9.7 11.82-12.58 2.67-7.23 2.86-9.84-2.53-14.75zm-39.936-35.998l6.816 5.612-1.96 8.608c-3.34-1.54-5.296-3.847-5.286-7.446.006-2.13.26-4.258.43-6.774zm13.564 18.14c-.682 2.96-1.047 6.162-3.656 8.334-1.092.91-2.014 2.028-3.133 2.896-.39.302-1.21.322-1.72.154-3.93-1.285-7.84-2.648-12.03-4.083.84-2.05 1.54-3.825 2.29-5.577.94-2.188 2.92-2.73 4.91-1.363.57.392 1.14.803 1.65 1.272 2.93 2.708 6.76 1.482 7.73-2.497.27-1.13.69-2.525 2.05-1.903.91.412 2.07 1.993 1.89 2.768zM315.2 345.72c-.2.247-1.333.17-1.6-.144-1.89-2.204-3.665-4.508-5.667-7.02l2.31-1.804c1.878 2.463 3.7 4.75 5.366 7.15.25.368-.05 1.372-.41 1.818zm9.427 7.424c-2.356-1.16-4.728-2.295-7.05-3.524-.26-.14-.4-.873-.286-1.23.08-.24.85-.534 1.07-.405 2.32 1.317 4.6 2.718 6.88 4.095l-.61 1.064zm38.64-104.3c-1.018-.373-2.488-1.275-2.578-2.087-.29-2.59-.03-5.238.02-7.95l4.32 1.904c-.15.11-.47.33-.82.57l3.87 3.54c-.95 1.21-1.62 2.31-2.53 3.13-.59.54-1.7 1.12-2.29.9zm7.584 10.69c-2.21 1.77-4.42 1.167-6.04-1.447 1.43-.753 2.68-1.512 4.01-2.087 1.6-.69 1.82.906 2.32 1.725.26.414.09 1.513-.28 1.81zm9.76 10.94c-.31.62-3.97.494-4.67-.14-1.01-.928-1.53-1.92-.43-3.226.85-1 1.48-2.175 2.28-3.22 2.28-2.98 2.3-4.494-.19-7.187-1.16-1.25-2.57-2.27-3.7-3.55-.51-.58-.61-1.53-.9-2.31l.87-.39c.77 1.57 3.69 1.52 2.89 4.31-.04.14.47.44.72.67 2.6 2.4 3.87 5.51 4.75 8.84.63 2.38-.63 4.28-1.59 6.23zM226.22 469.278c-3.634-3.46-8.1-5.036-12.734-5.232-3.743-.16-7.512.77-11.277.895-2.98.1-5.62 1.45-7.62 3.45-2.75 2.75-5.06 6.16-7.19 9.57-1.73 2.77-2.57 6.08-2.88 9.53-.3 3.26-.25 6.6.13 9.75.76 6.29 2.83 12.25 5.18 18.04 1.37 3.39 2.93 6.72 3.97 10.24 1.36 4.59 2.32 9.33 3.4 14.03.77 3.39 1.23 6.89 2.24 10.19.94 3.08.93 5.98-.3 8.79-1.66 3.81-1.21 7.4.49 10.9 1.35 2.79 2.6 5.58 2.89 8.81.25 2.88.75 5.75.81 8.62.1 5.42-.03 10.84.86 16.21.15.94.13 2.01-.1 2.92-1.06 4.25-2.39 8.41-3.28 12.7-.75 3.61-.78 7.3 1.24 10.6.3.5.61 1.23.52 1.77-.3 1.76-.67 3.53-1.23 5.21-1.36 4.1-2.85 8.15-4.27 12.23-1.18 3.38-2.34 6.78-3.62 10.51.54.25 1.23.79 1.97.88 2.68.36 5.38.55 8.07.86 1.67.2 3.14.11 3.73-2.31.06.24.15.48.18.73.2 1.67.67 2.25 2.37 1.62 2.27-.85 4.73-1.05 7.09-1.65 1.63-.41 3.26-.89 4.8-1.59 1.35-.61 1.59-1.95 1.02-2.92-1.48-2.49-3.13-4.93-4.17-7.66-1.73-4.51-3.09-9.21-4.45-13.89-.24-.8.1-1.98.47-2.82.59-1.33 1.51-2.47 2.16-3.78 1.7-3.42.11-6.86-.29-10.2-.67-5.59-2.23-11.05-2.86-16.65-.82-7.25-1.23-14.58-.85-21.93.14-2.82.47-5.51 1.89-7.91.74-1.25 1.9-2.43 2.1-3.79.47-3.1.47-6.3.64-9.46.14-2.67-.08-5.43.45-7.99 1.3-6.28 2.87-12.46 5.14-18.47 2.92-7.73 5.17-15.8 7.55-23.78.81-2.73 1.32-5.62 1.62-8.48.36-3.44.44-6.92.47-10.39.06-7-1.47-13.4-6.39-18.1zm-32.508 50.402c-.513-1.14-.948-2.106-1.32-2.937 2.41-.616 4.63-1.067 6.782-1.77 1.935-.632 3.366.388 4.61 1.658 1.806 1.85 3.424 3.94 5.093 5.95.25.3.34.77.592 1.38-2.34-.32-4.46-.27-6.21-2.22-2.68-2.98-6-3.1-9.56-2.04zm6.216 25.315c-.51-3.213-.924-6.18-1.468-9.112-.342-1.852-.96-3.64-1.282-5.495-.1-.573.278-1.34.6-1.896.34-.583.928-.975 1.315-1.532.926-1.335 1.988-1.484 2.938-.235 2.28 2.995 4.31 6.146 4.3 10.4 0 1.395-.39 2.21-1.48 3.004-1.41 1.03-2.57 2.52-3.84 3.81-.29.29-.59.57-1.08 1.05zm2.562 8.627c-.967-.468-1.338-3.837-.552-4.723 1.464-1.65 3.688-1.49 4.604.56.964 2.16 1.61 4.5 2.567 7.26-2.58-1.21-4.6-2.13-6.62-3.11zm1.888 99.153c-2.214-.292-4.48-.074-6.812-.074l.376-2.18h8.527c-.35 1.6-.53 2.46-2.09 2.26zm1.958-77.802c-1.062.36-1.63.003-1.82-1.062-.36-1.99-.857-4.01-.83-6.01.046-3.07 3.855-6.45 6.604-6.11.384.05.848.44 1.056.83.262.49.48 1.16.4 1.7-.51 3.46-.047 7.15-1.735 10.09-1.32.2-2.55.21-3.67.59zm8.324 73.376c2.457-.69 2.47-.63 4.014 2.76-3.16 1.88-6.628 2.01-10.293 2.49l-.15-3.21c2.34-.76 4.37-1.48 6.43-2.06zm4.966-115.09c-.732 2.83-1.614 5.61-2.37 8.43-.428 1.6-.72 3.25-1.1 4.99-3.88-1.46-5.554-4.96-4.796-8.95.258-1.36-.03-2.85-.094-4.27-.053-1.17-.14-2.34-.223-3.67 2.767-.27 5.245-.46 7.66 1.06 1.03.64 1.17 1.44.923 2.39zm-9.31-46.59c-4.374.17-8.72 1.28-13.24 2 6.936-4.62 22.734-5.47 26.713-1.03-4.79-.39-9.14-1.15-13.47-.97zm72.615-17.49c-3.51-3.51-7.61-5.76-12.38-6.86-3.78-.88-7.43-.51-11.13-.34-3.26.15-5.76 2.28-8.08 4.69-.89.93-1.84 1.79-2.71 2.75-1 1.08-2.26 2.05-2.84 3.39-.83 1.9-1.12 4.1-1.67 6.16-1.74 6.54-2.08 13.18-.75 19.83.76 3.76 1.76 7.48 2.95 11.09 1.01 3.04 2.58 5.84 3.67 8.86 2.05 5.69 4.12 11.38 5.83 17.21 1.51 5.14 2.73 10.42 3.65 15.73.4 2.26.43 4.81-.85 7.11-.77 1.38-1.46 3.12-1.48 4.7-.02 2.58.31 5.25.91 7.75.96 3.97 2.6 7.76 3.33 11.78.7 3.87.83 7.93.79 11.91-.04 4.78-.47 9.56-.86 14.32-.35 4.37-.61 8.77-2.32 12.85-.97 2.32-1.32 4.79-.21 7.21.49 1.07 1.23 2 1.73 3.08.34.73.76 1.69.6 2.39-.57 2.45-1.38 4.82-2.1 7.23-1.07 3.56-2.16 7.12-3.17 10.7-.11.4.2.97.24 1.13-.46 1.2-1.23 2.3-1.12 3.28.08.72 1.26 1.37 2.04 1.88.36.23.92.05 1.39.06 2.91.01 5.82.02 8.73.06.37 0 .81.13 1.08.38 1.08 1.03 3.64 1.19 4.85.25.16-.13.37-.24.56-.24.84.01 1.71.25 2.51.06 1.29-.31 2.5-1.07 3.8-1.3 1.74-.31 2-1.45 1.46-2.93-.81-2.24-1.95-4.33-2.72-6.59-1.64-4.8-3.09-9.68-4.73-14.48-.81-2.39-.18-4.49.81-6.43 2.15-4.23 2.156-8.6.72-12.96-.93-2.81-1.75-5.54-2.07-8.58-1.08-10.16-.7-20.3-.13-30.45.13-2.31.627-4.53 1.85-6.68 1.96-3.43 2.71-7.22.56-11.18-1.23-2.26-1.153-4.89-.68-7.488.56-3.04 1.39-6.08 1.517-9.15.2-4.966 2.2-9.13 3.905-13.46 1.55-3.92 3.35-7.73 4.67-11.75 1.55-4.716 2.584-9.646 4.04-14.405 2.07-6.76 2.26-13.526.13-20.23-1.43-4.52-2.99-9.17-6.25-12.427zm-22.24 76.54c-2.2-6.81-4.42-13.64-6.61-20.42 1.58-1.25 2.92-2.56 4.45-3.46.88-.52 2.29-.89 3.03-.44 1.08.67 1.13 2.17.78 3.71-.48 2.14-.59 4.4-.85 6.61-.04.32.09.7-.02.96-1.67 3.98 1.19 5.93 2.93 8.36.79 1.1 1.68 2.11 2.52 3.16l-.32.59-5.88.9zm5.67 107.89l-8.81-.69-.15-.48c.35-.31.69-.87 1.05-.88 2.61-.08 5.21-.04 7.93-.04v2.08zm1.23-77.19c-.64-.65-1.33-1.39-1.66-2.25-1.16-3.08-3.39-5.71-3.23-9.35.07-1.54.4-3.46 1.87-3.59 1.48-.14 3.45-.13 4.33 1.77.97 2.1 1.61 4.38 2.15 5.91-.64 2.95-1.01 5.08-1.59 7.14-.3 1.07-1.19 1.03-1.85.37zm8.03 75.07c1.59-.46 2.32.73 3.3 1.49l-.09.55c-.99.27-1.97.58-2.97.79-1.77.37-3.55.68-5.34.99-.81.14-1.69.02-1.59-1.16.05-.5.76-1.17 1.27-1.33 1.79-.55 3.64-.83 5.44-1.35zm-2.87-97.58c-.51 1.4-1.22 2.72-1.86 4.07-1.25-.84-2.51-1.59-3.69-2.49-.6-.46-1.5-1.21-1.46-1.76.1-1.5.67-3.24 2.29-3.08 1.48.14 2.93.93 4.33 1.62.3.15.55 1.2.4 1.63zm3.97-21.66c-1.34 3.07-1.68 6.39-2 9.73-.05.51-.14 1.01-.24 1.66-1.56-2.32-2.93-4.43-4.38-6.47-.82-1.15-1.76-2.18-2.66-3.26-2.36-2.83-1.43-6.82 1.78-8.17 2.06-.88 3.87-.88 5.77.51 1.77 1.29 2.67 3.87 1.75 5.98zm5.16-12c-.55 1.49-1.2 2.95-1.91 4.67-2.58-4.81-4.11-5.46-8.65-4.32-.96.24-2.12.1-3.05-.29-1.33-.56-1.71-1.85-1.14-3.4.49-1.34.6-3.12 2.6-2.52 1.93.58 3.87 1.06 5.81 1.58.22.06.49.13.66.03 2.99-1.69 3.74 1.99 5.59 3.01.18.1.25.88.12 1.23zm-4.3-34.32c-3.85-.72-7.71-1.68-11.6-1.89-2.71-.14-5.47.8-8.21 1.28-.84.15-1.68.36-2.82.61 6.12-5.83 23.06-4.44 28.25 1.33-1.87-.45-3.73-.99-5.61-1.34z'},{'color':'#602320','path':'M206.33 537.125c.012-4.254-2.015-7.406-4.296-10.4-.95-1.25-2.013-1.1-2.938.235-.388.557-.975.95-1.314 1.532-.322.557-.7 1.324-.6 1.896.32 1.855.94 3.643 1.28 5.495.545 2.934.958 5.9 1.47 9.112.49-.48.787-.763 1.077-1.056 1.27-1.29 2.42-2.78 3.84-3.81 1.08-.8 1.47-1.61 1.48-3.01zm12.377-6.257c-2.415-1.523-4.894-1.335-7.66-1.064.082 1.33.17 2.496.223 3.665.062 1.42.352 2.91.094 4.27-.758 3.99.916 7.49 4.795 8.94.38-1.75.67-3.39 1.1-5 .75-2.82 1.63-5.61 2.37-8.44.24-.95.1-1.75-.93-2.4zm-6.96 33.432c.08-.534-.14-1.21-.4-1.693-.207-.385-.67-.78-1.055-.827-2.75-.34-6.558 3.04-6.603 6.112-.03 2.003.46 4.027.82 6.02.19 1.064.76 1.422 1.82 1.06 1.12-.38 2.35-.39 3.67-.586 1.69-2.94 1.22-6.63 1.73-10.087zm-8.472-42.572c1.75 1.944 3.87 1.895 6.203 2.222-.256-.606-.35-1.073-.6-1.375-1.668-2.012-3.286-4.098-5.092-5.943-1.244-1.27-2.676-2.29-4.61-1.658-2.153.702-4.37 1.153-6.783 1.77.373.83.81 1.796 1.32 2.937 3.563-1.05 6.88-.93 9.562 2.05zm-6.195-33.055c4.518-.722 8.864-1.823 13.238-2 4.326-.175 8.68.583 13.473.968-3.97-4.43-19.77-3.58-26.71 1.04zm9.463 60.79c-.916-2.054-3.14-2.21-4.604-.564-.79.88-.42 4.25.55 4.72 2.01.97 4.04 1.9 6.62 3.1-.96-2.76-1.61-5.11-2.57-7.27zm1.84 104.144c3.664-.487 7.132-.615 10.292-2.5-1.544-3.384-1.557-3.44-4.014-2.76-2.06.575-4.09 1.3-6.43 2.054.05.97.1 2.05.16 3.21zm-10.813-.907c2.33 0 4.597-.218 6.81.075 1.56.206 1.74-.663 2.093-2.256h-8.527l-.377 2.18zm69.334-108.464c-.844-1.052-1.73-2.064-2.52-3.165-1.744-2.42-4.598-4.37-2.93-8.35.11-.26-.016-.64.022-.96.257-2.21.367-4.46.85-6.61.35-1.54.305-3.04-.775-3.71-.74-.46-2.15-.08-3.02.43-1.53.91-2.87 2.21-4.44 3.46l6.62 20.42c1.85-.28 3.87-.59 5.89-.9l.33-.59zm8.063-17.95c-1.9-1.388-3.707-1.38-5.77-.51-3.21 1.36-4.137 5.344-1.77 8.176.898 1.073 1.843 2.105 2.662 3.254 1.44 2.037 2.81 4.15 4.38 6.463.09-.66.19-1.16.23-1.67.31-3.34.65-6.66 2-9.73.92-2.11.02-4.7-1.75-5.99zm-5.517 49.778c.577-2.055.947-4.187 1.588-7.137-.54-1.524-1.186-3.812-2.15-5.91-.875-1.902-2.847-1.907-4.324-1.774-1.47.132-1.805 2.043-1.87 3.587-.16 3.64 2.07 6.272 3.238 9.35.327.866 1.017 1.606 1.66 2.252.66.666 1.556.705 1.857-.368zm12.3-57.02c-1.852-1.02-2.604-4.7-5.587-3.014-.173.1-.447.027-.66-.03-1.938-.513-3.882-1-5.805-1.58-1.998-.6-2.104 1.182-2.595 2.52-.568 1.55-.187 2.838 1.144 3.397.93.39 2.09.53 3.05.29 4.542-1.143 6.075-.49 8.657 4.316.72-1.72 1.364-3.173 1.916-4.67.13-.345.062-1.127-.12-1.228zm-26.818-33.08c1.142-.25 1.98-.463 2.825-.61 2.737-.48 5.495-1.42 8.21-1.28 3.883.205 7.742 1.167 11.6 1.885 1.885.35 3.744.88 5.614 1.33-5.19-5.77-22.12-7.16-28.24-1.33zm17.413 66.33c-1.397-.69-2.854-1.484-4.336-1.626-1.63-.156-2.19 1.582-2.29 3.08-.04.554.87 1.306 1.46 1.763 1.17.9 2.43 1.66 3.68 2.5.64-1.35 1.35-2.66 1.86-4.07.16-.43-.1-1.48-.4-1.63zm-3.43 101.882c-.102 1.18.775 1.3 1.59 1.16 1.785-.305 3.567-.623 5.34-.99 1-.21 1.982-.525 2.973-.793.03-.186.062-.37.095-.555-.977-.763-1.71-1.95-3.296-1.496-1.797.517-3.645.802-5.435 1.347-.512.15-1.224.82-1.267 1.32zm-10.48-2.6c-.355.01-.695.57-1.043.874.053.158.104.317.16.476 2.913.23 5.828.458 8.81.692v-2.083c-2.715 0-5.322-.035-7.927.04zM122.975 277.44c-.79 1.06-1.174 2.612-1.257 3.97-.173 2.877-.78 5.423-3.248 7.238-.608.447-1.594 1.263-1.482 1.622.235.758 1.038 1.376 1.7 1.948.278.24.808.164 1.183.327 3.79 1.64 4.63 1.373 6.04-2.464.58-1.58 1.36-3.63.81-4.96-.57-1.39-.31-2.28.08-3.36.52-1.41 1.13-2.78 1.77-4.34-2.03-1.05-4.01-2.09-5.59.02zm7.125-18.976c-.494.207-.594 1.7-.598 2.616-.004.716.357 1.458.65 2.148 1.2 2.81.897 3.957-1.625 5.958-.378.3-.827.59-1.042.993-.2.37-.335 1.08-.132 1.3.296.32.92.45 1.41.47.902.03 1.81-.08 3.152-.15l6.468-9c-1.663-1.37-3.292-2.95-5.165-4.15-.797-.51-2.236-.56-3.12-.19zm-.707-7.26c.557.56 1.91 1.086 2.42.79 1.398-.814 2.88-1.863 3.7-3.203 1.092-1.78 1.866-3.87 2.258-5.93.34-1.77-.05-3.67-.12-5.6-.28.1-.72.11-.9.34-2.73 3.48-5.4 7.01-8.13 10.49-1.09 1.41.02 2.36.78 3.13zm11.54.15c-1.95.585-2.056 1.8-.663 3.4.41.47.973.866 1.218 1.407.913 2.02 2.063 1.59 3.34.44 1.482-1.33 2.96-2.67 4.663-4.21-2.7-1.99-5.66-1.9-8.55-1.03zm9.167-9.64c-.59-.343-1.222-.7-1.67-1.2-2.064-2.293-2.654-2.29-4.243.19-.26.405-.607.8-.718 1.25-.21.83-.27 1.697-.39 2.55.88-.135 1.85-.084 2.64-.44 2.03-.92 3.61-.597 4.96 1.045.47.57 1.29.86 1.94 1.27.09-2.3-.88-3.71-2.54-4.67zm-25.43 25.16c-.247-2.342-.85-4.646-1.3-6.967l-.828-.045-2.864 10.496c2.418-.104 5.157-1.907 4.99-3.485zm-102.086-17.05c-.62.726-1.07 1.602-1.556 2.435-1.325 2.27-2.633 4.55-3.97 6.87 2.76 1.14 2.742 1.13 3.51-1.31.162-.52.504-.97.755-1.46.965-1.86 1.967-3.71 2.86-5.6.162-.35-.124-.9-.2-1.36-.478.13-1.133.1-1.4.41zm2.82-3.996c.187.142.37.286.557.43 3.9-1.306 5.1-5.563 8.45-7.69l-2.55-1.928c-2.21 3.146-4.33 6.167-6.45 9.187zm328.913-11.116c-1.363-.622-1.78.772-2.055 1.903-.967 3.98-4.793 5.205-7.73 2.497-.507-.47-1.077-.88-1.65-1.272-1.993-1.367-3.972-.824-4.91 1.363-.753 1.752-1.456 3.526-2.298 5.577 4.19 1.435 8.098 2.798 12.027 4.083.52.168 1.33.148 1.72-.154 1.12-.87 2.04-1.99 3.14-2.9 2.61-2.17 2.98-5.38 3.66-8.34.18-.78-.98-2.36-1.89-2.77zm23.127 20.696c-.246-.228-.754-.52-.713-.662.81-2.784-2.12-2.737-2.88-4.306l-.86.39c.29.783.4 1.73.91 2.313 1.13 1.28 2.55 2.303 3.71 3.558 2.49 2.7 2.47 4.21.19 7.19-.79 1.05-1.43 2.22-2.27 3.22-1.11 1.31-.59 2.3.43 3.23.69.64 4.36.76 4.67.14.97-1.95 2.22-3.84 1.59-6.22-.87-3.33-2.15-6.44-4.75-8.84zM347.5 233.562l1.96-8.608-6.816-5.612c-.17 2.516-.424 4.645-.43 6.774-.01 3.6 1.947 5.905 5.287 7.446zm20.583 11.252l-3.87-3.532.817-.57-4.318-1.905c-.05 2.713-.31 5.36-.023 7.95.09.813 1.56 1.715 2.57 2.088.59.216 1.69-.365 2.28-.9.91-.828 1.58-1.923 2.53-3.13zm-57.84 91.94l-2.31 1.804c2.002 2.51 3.777 4.814 5.666 7.02.26.31 1.4.39 1.6.143.36-.44.66-1.45.41-1.81-1.67-2.4-3.49-4.69-5.37-7.15zM368.813 256c-1.328.576-2.578 1.334-4.004 2.087 1.61 2.613 3.82 3.217 6.04 1.448.37-.296.54-1.396.28-1.81-.5-.82-.73-2.415-2.32-1.725zm-51.52 92.39c-.115.356.024 1.09.286 1.23 2.32 1.228 4.69 2.362 7.04 3.523.2-.355.41-.71.61-1.065-2.29-1.377-4.56-2.777-6.88-4.095-.23-.128-.99.167-1.07.406z'}];var FOX_HEAD=exports.FOX_HEAD=[{'color':'#FFF','path':'M298.986 133.654c-2.78-1.61-5.627-2.605-8.748-1.04 2.88.81 5.694 2.09 8.748 1.04z'},{'color':'#ae0001','path':'M332.596 133.874c-4.02-2.354-7.63-5.32-10.84-8.616-4.575-4.72-8.647-9.93-13.092-14.79-1.335-1.468-1.73-2.956-1.61-4.784.055-.712.033-1.446-.043-2.157-.71-7.192-.65-14.407-.83-21.622-.01-.262-.01-.536-.01-.8 0-3.623.58-7.225.45-10.826-.26-6.99-.56-13.96-1.14-20.93-.48-5.89-.31-11.82-.99-17.69-.14-1.13-.62-1.36-1.48-1.19-.68.15-1.4.41-1.97.81-4.95 3.44-9.04 7.83-13.14 12.16-2.62 2.78-5.15 5.69-7.7 8.56-3.3 3.73-6.66 7.41-9.77 11.32-.82 1.01-1.6 2.04-2.38 3.09-1.5 2.03-2.82 4.53-6.05 2.62-.08-.05-.24.13-.36.12-2.44-.21-4.94-.56-7.27-1.02-4.95-.97-9.98-1.34-14.91-2.39-5.12-1.1-10.1-.06-15.07 1.07-3.42.78-6.85 1.6-10.25 2.49-.83.22-1.27.01-1.89-.51-1.06-.88-2.07-1.8-3.05-2.76-2.75-2.63-5.31-5.45-8.18-7.97-5.74-5.04-10.74-10.84-16.79-15.58-4.43-3.47-8.38-7.55-13.34-10.37-1.34-.77-2.77-1.35-4.03-.77-1.19.53-1.01 2.12-.99 3.38.13 6.93.23 13.87.32 20.8.05 4.41-.1 8.86-.22 13.29-.26 10.03.04 20.06-.19 30.09-.09 4.29-.23 8.57.12 12.84.1 1.26.24 2.52.44 3.78.28 1.73.3 3.46-.97 5.02-2.76 3.39-5.4 6.9-8.54 9.95-2.7 2.64-5.72 4.92-9.67 5.43-.35.04-.75.12-.78.46-.04.43.12.99.55 1.17.59.23 1.26.35 1.9.4 2.39.23 4.71.68 7.02 2l-3.47.85c-.51.12-1.11.21-1.21.82-.13.75.62.69 1.04.92 1.68.88 3.34 1.77 5.23 2.78-2.51.99-2.5 1.17-.77 2.77 1.47 1.35 3.12 2.37 4.9 3.14 1.44.61 1.98 1.26.76 2.54-.63.67-.53 1.21.34 1.44 3.52.94 6.42 3.19 9.79 4.46.5.19 1.55 0 1.39.98-.12.8-.96.41-1.48.5-.39.06-.82.01-.93.51-.1.47-.05.89.46 1.16 2.55 1.26 5.06 2.62 7.79 3.46 5.33 1.61 11.03 2 15.89 5.07.9.56 2.48-.15 2.76.35 1.02 1.76 3.02 1.57 4.3 2.66.77.64 2.48.64 2.34 1.7-.16 1.38-1.73.69-2.68.81-.91.11-1 .69-1.05 1.36-.08.89.56.92 1.17.87.66-.03 1.25-.28 1.87-.49 2.73-.89 5.59-1.41 8.25-.08 5.17 2.58 10.78 4.22 15.71 7.29 1.54.98 3.34 1.31 4.82 2.56 1.66 1.42 3.76 2.77 5.85 3.12 1.68.27 3.36.72 4.87 1.25 4.68 1.63 8.78.5 12.91-1.63 2.82-1.46 5.07-3.69 7.68-5.42 3.92-2.6 7.8-5.25 11.44-8.23 2.75-2.26 5.11-5.27 9.48-4.21.75.19 1.56.34 2.36.55 1.8.5 3.74.46 5.45 1.4.63.35 1.54.62 1.87-.25.35-.95-.57-1.38-1.305-1.62-1.666-.55-3.35-1.05-5.11-1.27-1.48-.19-2.95-.52-4.57-.81 1.12-1.36 2.49-1.82 3.46-2.73 2.59-2.4 5.26-4.29 9.06-3.24.58.16 1.04-.1 1.14-.76.08-.53.09-1.04-.6-1.26-.38-.12-.91-.06-1.092-.76 4.73-3.39 10.66-4.22 15.89-7.2-.85-.48-1.44-.87-2.08-1.15-.34-.15-.82-.07-.92-.56-.12-.64.47-.76.85-.91 1.63-.68 3.08-1.74 4.84-2.12.75-.15 1.63-.25 1.82-1.22.21-1.07-1.08-.74-1.54-1.73 2.31-.81 4.56-1.61 6.82-2.38.728-.24 1.47-.57 1.47-1.358-.01-.61-.75-.77-1.31-.98-.46-.174-1.14-.294-1.18-.875-.05-.58.57-.84 1.03-1.05 3.53-1.51 7.07-3.03 10.64-4.48.666-.27 1.68.01 1.826-1.02.12-.93-.68-1.3-1.38-1.72zm-33.03-34.78c.033-.078.066-.154.11-.23.8-1.555.69-3.362.646-5.048-.197-7.893.68-15.753.45-23.646-.056-1.785.623-3.514 1.575-5.562.525 1.763 2.003 2.715 2.354 3.788.42 1.28.3 3.02.21 4.565-.15 2.71-.23 5.41-.25 8.13-.04 3.24-.02 6.51.01 9.76.05 3.58.51 7.12.44 10.69-.02 1.48.46 2.96.02 4.46-1.19.01-1.78-.72-2.15-1.66-.58-1.48-1.86-2.34-2.89-3.42-.52-.56-.83-1.01-.51-1.8zm-.58 34.56c-3.054 1.05-5.868-.23-8.748-1.04 3.12-1.565 5.968-.57 8.748 1.04zm-8.22-7.96c2.09-2.1 4.684-2.736 7.694-3.81-1.97 3.155-4.258 4.425-7.695 3.81zm-2.322-56.773c.055-.13.12-.26.175-.39 1.76-3.94 3.32-8 4.99-11.96 1.55-3.69 3.15-7.44 5.21-11.02-.04 17.44.27 34.85-.66 52.81-2.48-3.59-5.3-6.15-7.7-9.1-1.73-2.11-3.64-4.1-5.64-5.96-.99-.91-1.25-1.75-.86-2.9 1.32-3.89 2.77-7.71 4.46-11.46zm-20.736.72c1.63-1.52 2.78-3.41 4.14-5.14.185-.24.382-.48.59-.72.777-.91 1.358-2 2.967-2.05 1.14-.03 2.332-.79 3.197-1.75.274-.3.69-.45 1.062-.16.318.25.088.62.033.91-.142.7-.372 1.39-.438 2.1-.05.53-.44 1.3.26 1.58.77.31 1.45-.24 1.81-.86.61-1.08 1.43-1.94 2.7-2.62-.3 1.82-.6 3.64-.9 5.44-.09.52-.2 1.03-.23 1.56-.05.54.06 1.08.56 1.39.55.38 1.02-.03 1.41-.34.71-.55 1.33-1.22 2.02-1.87.39.22.37.53.25.81-.05.11-.11.21-.18.31-2.1 3.21-2.97 6.93-4.34 10.45-.44 1.1-.71 1.22-1.6.56-4.09-3.01-8.07-6.23-12.97-7.92-1.1-.37-1.21-.88-.37-1.65zm14.77 59.82c-3.504 1.44-6.46 3.68-10.247 3.92-.27.56-.77.94-1.36.94-.41 0-.78-.19-1.06-.49-1.46.43-2.84 1.1-4.2 1.8-1.25.65-2.52 1.04-3.89 1.19.74-5.72 12.92-10.03 20.77-7.34zm-44.59 44.19c1.926-.37 3.677-1.26 5.55-1.8 3.952-1.15 7.794-.34 11.66.19.732.1 2.068.22 1.816 1.49-.022.08-.033.17-.055.25-.17.73-.5 1.66-1.97 1.24-2.19-.23-4.57-.99-7.09-.93-3.18.08-6.09 1.23-9.12 1.89-.7.15-1.47.77-1.95-.17-.04-.05-.06-.12-.09-.18-.47-1.18.24-1.76 1.23-1.94zm-12.372-38.1c-2.644-.75-5.383-.22-7.993-.56-.286.34-.68.55-1.12.55-.7 0-1.286-.54-1.49-1.28-.24-.11-.48-.24-.717-.38-2.485-1.53-5.047-2.91-8.287-3.61 4.55-2.52 16.75.9 19.6 5.3zm-33.28-64.22c.568.17 1.18.87 1.76.14.44-.54.385-1.22.155-1.88-.58-1.62-1.13-3.25-1.56-5.03 1.95 1.35 4.59 1 6.23 2.89.32.37.84.74 1.38.29.57-.47.68-1.08.37-1.76-.47-1.05-.92-2.11-1.58-3.65 3.29 1.73 6.46 2.88 8.98 4.99.58.48 1.13 1.03 1.63 1.63 1.32 1.57 1.45 1.78-.32 2.62-5.04 2.43-9.89 5.18-14.36 8.57-.81.6-1.6.96-2.09-.03-.03-.07-.06-.13-.1-.21-1.3-3.22-3.39-6.16-3.61-9.94 1.32-.06 2.07 1.06 3.13 1.38zm-.59 53.23c-.297-.28-.8-.62-.374-1.14.35-.4.766-.28 1.237-.1 1.83.74 2.9 2.25 3.84 3.88-1.84-.49-3.38-1.38-4.71-2.63zm4.278 9.11c-3.054 1.05-5.868-.23-8.747-1.04 3.12-1.56 5.967-.57 8.747 1.04zM176.7 53.51c3.427 6.82 7.63 13.21 10.904 20.12 1.16 2.44 2.43 4.86 3.723 7.26.01.032.033.054.044.086.55 1.03.29 1.62-.58 2.485-3.86 3.87-7.55 7.88-10.09 12.86-1.59 3.08-4.11 5.66-5.42 8.97l-.52-.13c0-2.77-.16-5.55.05-8.31.25-3.37-.02-6.7-.4-10.03-.17-1.57.01-3.12.01-4.66 0-4.58-.63-9.1-.92-13.66-.07-.93-.12-1.85-.14-2.78-.15-6.14-.09-12.28-.41-18.82 1.96 2.1 2.72 4.48 3.78 6.59zm-9.426 54.463c-.01-11.09.372-22.18.252-33.27-.044-3.82 1.456-7.18 1.74-10.88.69.24.777.69.93 1.13.308.91.34 1.76 1.37 2.53.35.27.503.67.56 1.14.086.84-.122 1.91-.078 2.75.318 6 .756 11.99 1.007 18 .208 5.08.044 10.12-.12 15.18-.044 1.16-.56 2.484.48 3.56.308.305.045.6-.13.862-1.544 2.31-3.032 4.665-4.992 6.888-.603-1.38-.854-2.76-.963-4.12-.088-1.27-.056-2.53-.056-3.755zm143.656 39.64c-1.17.51-1.38 1.02-.18 1.67 1.51.83-.01 1.27-.295 1.36-2.047.658-3.81 1.895-5.77 2.694-.45.185-1.16.283-.875 1.03.22.566.645.993 1.38.83.634-.154 1.28-.21 2.035.09-.776 1.05-1.926 1.21-2.933 1.52-4.225 1.26-8.144 3.12-11.67 5.76-.645.48-1.312.52-2.024.52-8.54.09-16.54 2.246-24.04 6.297-.963.525-1.83 1.26-2.704 1.938-.196.153-.535.24-.7.427-.1.12-.12.28.01.53.21.36.614.58 1.02.58.12 0 .24-.01.35-.06.614-.22 1.17-.59 1.708-.97 6.502-4.65 14.013-6.06 21.742-6.77.153-.01.33.17.657.35-2.58 1.84-5.09 3.62-7.58 5.4-.61.44-1.3.49-2.03.56-4.68.37-9.48.07-13.88 2.11-.23.11-.57.14-.9.18-.65.1-1.28.26-1.04 1.12.37 1.37 1.63.6 2.5.28 3.22-1.17 6.54-1.73 9.94-1.87.5-.03 1.21-.31 1.44.23.33.72-.51.91-.91 1.29-5.68 5.34-12.55 9.11-18.62 13.94-1.67 1.34-3.91 1.94-6.18 2.52-7.12 1.84-12.46-1.76-18.08-4.83-4.81-2.63-9.54-5.39-14.76-7.16-.38-.13-1.11-.07-1-.7.16-.89.84-.24 1.26-.23 3.23.12 6.44.41 9.59 1.2.29.06.74.05.91-.12.42-.41-.11-.68-.31-.97-.32-.5-.76-.78-1.23-.96-.48-.18-1-.23-1.51-.27-4.6-.25-9.16-.88-13.78-1.09-3.21-.14-6.45-1.57-9.28-3.37-2.03-1.29-4.28-2.14-6.49-3.04-.8-.31-1.59-.65-2.36-1.02-5.03-2.34-10.74-2.56-15.86-4.73-1.17-.5-2.32-1.05-3.72-1.67.93-.75 1.76-.91 2.65-.96.73-.03 1.36-.47 1.43-1.13.08-.87-.81-.91-1.42-.97-3.47-.34-6.38-2.17-9.37-3.67-.93-.47-2.16-.54-2.93-1.73 1.57-.25 3.41 1.47 4.38-.92-3.16-1.49-6.67-2.55-9.98-5.03 2.78.05 4.78-1.02 7-1.21 4.88-.4 9.76-.68 14.66-.63 8.08.06 15.97 1.32 23.52 4.32 4.27 1.68 8 4.34 11.84 6.77 2.65 1.67 5.29 3.43 7.73 5.34 2.36 1.86 4.33 4.3 6.22 6.74 1.83 2.36 3.2 4.97 4.73 7.51 1.54 2.53 3.88 4.73 7.39 4.55 3.77-.18 7.55-.23 11.32-.45 1.85-.11 4.03-2.597 4.02-4.51 0-.67.32-1.12.57-1.63.01-.037.03-.07.06-.1.7-1.47 1.52-2.87 2.39-4.24 1.48-2.33 3.11-4.56 4.65-6.85 2.34-3.5 4.76-6.82 8.15-9.423 1.578-1.214 3.27-2.145 4.95-3.14 5.13-3.055 10.55-5.55 16.585-5.9 4.35-.25 8.59-1.314 12.98-1.074 2.21.12 4.21.737 6.31 1.8-1.18.62-2.33 1.32-3.56 1.86z'},{'color':'#ae0001','path':'M228.33 174.205c-3.69-2.223-7.806-3.45-11.78-5.036-.59-.23-1.15-.46-1.686-.54-2.628-1.44-9.098-1.77-11.824-2.42-.678-.17-1.313-.29-1.894-.2-.45-.21-1.368-.37-3.273-.48-.7-.06-1.04.29-1.105.88-.077.63.164.92.777 1 .065.01.153.02.24.02 1.26.07 2.18.12 2.814.07.83.11 1.14-.15 4.08.46.1.1.5.09.56 0 1.91.37 3.52.92 5.25.92 1.02.33 1.75.53 2.32.63l-.01.01c5.15 2.19 10.63 3.84 15.54 6.76l.21.12c.46.27.83.35 1.17-.11.34-.44.23-.91-.12-1.24-.38-.36-.84-.63-1.28-.89z'},{'color':'#FFF','path':'M168.293 115.843c1.96-2.223 3.448-4.576 4.992-6.887.175-.262.438-.558.13-.864-1.04-1.073-.524-2.397-.48-3.56.164-5.056.328-10.092.12-15.172-.25-6.01-.69-12-1.007-17.998-.044-.843.165-1.905.077-2.748-.055-.47-.208-.876-.56-1.14-1.028-.766-1.06-1.62-1.368-2.527-.153-.438-.24-.887-.93-1.128-.285 3.7-1.785 7.06-1.74 10.88.12 11.09-.264 22.18-.253 33.27 0 1.22-.033 2.48.055 3.75.1 1.36.36 2.73.96 4.11zm24.522-35.755c.493.996 1.28.634 2.09.032 4.468-3.394 9.318-6.142 14.364-8.572 1.76-.843 1.63-1.05.31-2.616-.51-.602-1.05-1.15-1.63-1.63-2.52-2.114-5.69-3.264-8.98-4.993.66 1.53 1.11 2.59 1.58 3.64.31.68.2 1.29-.37 1.76-.54.45-1.06.08-1.38-.29-1.64-1.9-4.28-1.55-6.23-2.89.43 1.78.98 3.41 1.56 5.03.23.65.28 1.33-.16 1.88-.58.72-1.2.02-1.77-.14-1.06-.32-1.82-1.44-3.13-1.38.22 3.77 2.31 6.72 3.61 9.94l.1.21zm-19.333-11.572c.285 4.555.92 9.076.92 13.652 0 1.543-.187 3.098-.01 4.663.382 3.33.656 6.66.403 10.03-.207 2.76-.043 5.54-.043 8.31l.526.13c1.303-3.31 3.832-5.89 5.42-8.97 2.538-4.98 6.228-8.99 10.092-12.86.865-.86 1.128-1.45.58-2.48-.01-.03-.032-.05-.043-.08-1.292-2.39-2.562-4.81-3.723-7.26-3.273-6.9-7.477-13.3-10.904-20.12-1.062-2.11-1.817-4.49-3.777-6.59.33 6.54.263 12.68.416 18.82.02.93.06 1.85.14 2.78zm63.255 107.254c.482.942 1.248.33 1.95.176 3.03-.656 5.943-1.806 9.118-1.883 2.518-.065 4.894.7 7.083.93 1.478.417 1.807-.514 1.97-1.236.022-.087.033-.175.055-.252.252-1.27-1.083-1.39-1.817-1.488-3.865-.526-7.707-1.336-11.66-.187-1.872.548-3.623 1.435-5.55 1.807-.997.186-1.708.767-1.237 1.95.03.062.05.13.08.184z'},{'color':'#FFF','path':'M295.188 145.018c-6.033.35-11.452 2.846-16.586 5.9-1.675.998-3.372 1.928-4.948 3.144-3.383 2.605-5.803 5.923-8.145 9.426-1.55 2.288-3.18 4.52-4.66 6.854-.87 1.368-1.69 2.77-2.39 4.236-.03.033-.05.065-.06.1-.25.513-.57.962-.57 1.63.01 1.916-2.17 4.4-4.02 4.51-3.78.22-7.56.274-11.32.45-3.52.175-5.86-2.025-7.39-4.555-1.54-2.54-2.9-5.146-4.73-7.51-1.88-2.44-3.86-4.883-6.22-6.744-2.45-1.92-5.08-3.67-7.73-5.35-3.83-2.43-7.57-5.09-11.84-6.78-7.56-3-15.45-4.26-23.53-4.33-4.9-.05-9.78.23-14.66.63-2.23.19-4.22 1.26-7 1.21 3.31 2.47 6.82 3.53 9.98 5.02-.98 2.39-2.81.67-4.38.92.77 1.19 2 1.26 2.93 1.73 2.99 1.5 5.9 3.33 9.37 3.67.61.06 1.5.09 1.42.97-.07.65-.7 1.09-1.44 1.12-.89.05-1.72.22-2.65.96 1.4.62 2.55 1.17 3.72 1.67 5.12 2.17 10.84 2.39 15.86 4.73.77.36 1.56.7 2.36 1.02 2.21.9 4.46 1.74 6.49 3.03 2.84 1.81 6.08 3.23 9.29 3.37 4.62.21 9.18.83 13.78 1.08.51.03 1.03.08 1.51.26.47.17.91.46 1.23.95.2.28.72.56.31.96-.18.17-.63.18-.91.12-3.16-.79-6.36-1.09-9.59-1.21-.43-.02-1.11-.66-1.26.23-.11.63.62.56 1 .7 5.21 1.77 9.95 4.53 14.76 7.16 5.61 3.06 10.95 6.66 18.08 4.82 2.28-.58 4.51-1.18 6.19-2.52 6.06-4.84 12.94-8.61 18.62-13.95.39-.37 1.23-.57.91-1.29-.23-.54-.95-.25-1.44-.23-3.41.14-6.73.7-9.94 1.87-.87.32-2.13 1.09-2.5-.28-.24-.87.39-1.03 1.04-1.13.34-.05.68-.08.91-.19 4.4-2.04 9.19-1.74 13.88-2.12.73-.06 1.42-.12 2.03-.56 2.5-1.77 5-3.55 7.59-5.39-.33-.17-.51-.36-.66-.35-7.73.71-15.24 2.12-21.74 6.77-.54.37-1.09.74-1.71.96-.11.04-.23.05-.35.05-.4 0-.81-.22-1.02-.58-.13-.26-.11-.42-.01-.54.17-.19.5-.27.7-.43.88-.68 1.74-1.41 2.71-1.94 7.5-4.05 15.5-6.21 24.04-6.3.71 0 1.38-.05 2.02-.53 3.53-2.64 7.44-4.5 11.67-5.76 1.01-.31 2.16-.47 2.93-1.52-.76-.3-1.4-.24-2.04-.09-.73.16-1.16-.26-1.38-.83-.29-.75.43-.85.88-1.03 1.96-.8 3.72-2.04 5.77-2.7.28-.09 1.8-.53.29-1.36-1.19-.65-.98-1.16.19-1.67 1.23-.54 2.38-1.24 3.56-1.86-2.1-1.06-4.11-1.67-6.32-1.8-4.39-.24-8.64.82-12.98 1.07zm-65.457 31.31c-.34.46-.71.384-1.17.11-.06-.043-.14-.087-.21-.12-4.91-2.923-10.38-4.576-15.54-6.766l.01-.01c-.57-.1-1.3-.307-2.32-.635-1.73 0-3.34-.547-5.25-.92-.05.088-.46.1-.56 0-2.93-.612-3.25-.35-4.08-.46-.63.044-1.55 0-2.81-.076-.08 0-.17-.01-.24-.02-.61-.08-.85-.37-.77-1 .07-.59.41-.94 1.11-.88 1.91.11 2.83.28 3.28.48.58-.09 1.22.04 1.9.2 2.73.66 9.2.99 11.83 2.42.54.08 1.1.31 1.69.54 3.98 1.59 8.09 2.82 11.78 5.04.45.26.91.53 1.28.89.35.33.46.8.12 1.24zm28.69 8.978c-6.45 2.66-12.99 3.788-19.77 1.28-.37-.13-.73-.306-1.07-.48-.57-.307-1.04-.79-.72-1.413.27-.547.89-.35 1.39-.153 1.83.71 3.65 1.467 5.66 1.522.77.02 1.55.35 2.33-.012 3.73-.7 7.73-.218 11.07-2.693.77-.57 1.79-.25 2.22.56.52.973-.47 1.126-1.1 1.39zm44.56-80.99c.38.94.97 1.673 2.16 1.663.44-1.5-.04-2.98-.02-4.46.07-3.57-.39-7.11-.44-10.69-.03-3.25-.05-6.52-.01-9.76.02-2.72.1-5.42.25-8.13.09-1.55.21-3.29-.2-4.57-.35-1.08-1.82-2.03-2.35-3.79-.95 2.05-1.63 3.77-1.57 5.56.23 7.89-.64 15.75-.44 23.64.05 1.68.15 3.49-.64 5.04-.04.07-.07.15-.11.23-.31.79-.01 1.23.52 1.79 1.03 1.08 2.31 1.94 2.89 3.42zm-18.14-21.032c2.01 1.86 3.91 3.854 5.64 5.966 2.4 2.945 5.23 5.507 7.7 9.098.93-17.965.63-35.372.66-52.812-2.06 3.58-3.65 7.334-5.21 11.024-1.66 3.963-3.23 8.025-4.99 11.966-.05.13-.12.262-.17.394-1.7 3.755-3.14 7.576-4.47 11.462-.39 1.15-.13 1.993.86 2.902zm13.63 38.602c-3.01 1.073-5.6 1.708-7.69 3.81 3.44.613 5.73-.657 7.7-3.81zm-30.38-50.6c4.91 1.686 8.88 4.905 12.98 7.916.89.656 1.16.536 1.6-.56 1.37-3.514 2.24-7.235 4.34-10.443.07-.1.13-.2.18-.31.12-.29.15-.59-.25-.81-.69.64-1.31 1.31-2.02 1.87-.38.31-.85.71-1.41.34-.49-.32-.6-.86-.56-1.39.04-.53.15-1.04.23-1.56.3-1.81.61-3.63.9-5.44-1.27.68-2.09 1.53-2.7 2.61-.36.62-1.04 1.17-1.81.86-.7-.29-.3-1.05-.26-1.58.07-.71.3-1.4.44-2.1.06-.3.29-.66-.03-.91-.37-.29-.79-.15-1.06.16-.86.96-2.06 1.72-3.2 1.75-1.61.04-2.19 1.14-2.97 2.05-.21.24-.4.48-.59.72-1.36 1.73-2.51 3.62-4.14 5.14-.83.77-.72 1.28.38 1.65zm1.73 62.527c-.31-.337-.51-.817-.51-1.354 0-1.02.71-1.85 1.58-1.85.87 0 1.58.83 1.58 1.85 0 .33-.08.64-.21.91 3.79-.25 6.75-2.49 10.25-3.92-7.85-2.69-20.03 1.62-20.77 7.34 1.38-.15 2.65-.54 3.9-1.19 1.36-.71 2.74-1.38 4.2-1.8z'},{'color':'#ae0001','path':'M257.297 183.357c-3.34 2.475-7.346 1.993-11.068 2.693-.79.36-1.57.033-2.34.012-2.02-.055-3.83-.81-5.66-1.522-.51-.197-1.12-.394-1.39.153-.32.624.15 1.105.72 1.413.34.175.7.35 1.07.48 6.77 2.508 13.32 1.38 19.77-1.28.63-.263 1.62-.416 1.1-1.39-.44-.81-1.46-1.128-2.23-.56z'},{'color':'#FFF','path':'M205.91 130.24c3.24.7 5.8 2.08 8.286 3.612.237.146.476.273.717.388-.05-.18-.083-.366-.083-.563 0-1.02.705-1.848 1.574-1.848s1.574.82 1.574 1.84c0 .5-.174.96-.455 1.3 2.61.34 5.35-.19 7.993.56-2.857-4.4-15.053-7.82-19.607-5.3zm-18.732 2.375c2.88.81 5.692 2.09 8.747 1.04-2.78-1.61-5.628-2.606-8.747-1.04zm5.332-9.305c-.473-.187-.888-.307-1.238.098-.427.515.076.854.373 1.14 1.324 1.258 2.868 2.145 4.707 2.638-.942-1.633-2.004-3.143-3.843-3.876z'},{'color':'#ae0001','path':'M216.405 131.83c-.87 0-1.574.826-1.574 1.847 0 .197.04.384.09.563.21.743.79 1.284 1.49 1.284.44 0 .84-.21 1.12-.55.28-.332.46-.79.46-1.297 0-1.02-.7-1.848-1.57-1.848zm54.465-1.218c-.87 0-1.574.828-1.574 1.848 0 .536.2 1.017.51 1.354.28.304.653.494 1.064.494.586 0 1.09-.38 1.362-.938.13-.27.212-.578.212-.91 0-1.02-.705-1.848-1.574-1.848z'}];var FOX_BODY=exports.FOX_BODY=[{'color':'#FFF','path':'M132.022 370.948c-1.98-3.966-4.478-7.656-8.29-10.367-4.076-2.89-8.417-5.55-12.76-8.16-2.695-1.62-5.498-3.2-8.45-4.29-6.435-2.37-12.922-4.45-19.135-6.64-.783-.27-1.63-.36-2.438-.54l-.31.4c2.64 3.2 4.17 6.96 5.41 10.77 2.32 7.19 4.57 14.4 6.61 21.67.9 3.21 1.12 6.59 1.66 9.95.86-2.33.86-2.33 2.94-2.14.86 3.19 3.58 4.89 6.23 6.97.25-3.71.42-7.16.74-10.58.07-.75.4-1.86.97-2.11.9-.39 1.4.58 2.05 1.2 3.05 2.95 6.29 5.76 9.48 8.6.03.03.14 0 .57 0 1.18-4.58 2.39-9.22 3.67-14.17 5.98 2.56 9.45 7.81 15.73 9.76-.15-.68-.15-1.13-.34-1.49-1.45-2.88-2.91-5.86-4.37-8.79z'},{'color':'#ae0001','path':'M318.847 435.89c-.295-5.986-1.994-11.835-3.78-17.65-1.642-5.347-3.24-10.686-4.553-16.01-.99-4.01-1.585-8.05-2.458-12.01-1.595-7.224-3.122-14.604-4.697-22.01-1.64-7.71-1.45-15.67-.87-23.64.6-8.35 1.36-16.753 1.74-25.022.32-7.106.8-13.21.99-19.42.12-3.887.2-7.726.16-11.568-.04-3.068-.2-6.162-.39-9.252-.47-7.463-.28-15.136-.77-22.967-.69-10.84-.18-22.07 1.49-32.9.84-5.44.49-10.68-.75-15.57-1.03-4.06-2.59-7.91-3.85-11.94-1.23-3.9-3.43-7.16-6.22-10.04-2.57-2.66-5.41-5.26-9.64-5.35-1.07-.02-2.22-.1-3.17-.5-3.96-1.69-8.28-1.68-12.5-2.01-2.82-.22-5.7-.15-8.53-.29-2.72-.14-5.44-.36-8.16-.59-4.18-.35-8.38-.71-12.53-1.08-1.42-.12-2.85-.34-4.26-.28-4.51.18-8.94.5-13.34.71-5.77.29-11.52.59-17.13.8-.44.02-.9 0-1.34-.1-2.41-.51-4.81.05-6.87 1.21-4.56 2.57-8.48 5.96-11.85 9.79-2.73 3.11-5.22 6.31-7.04 10-1.41 2.85-3.09 5.56-3.98 8.64-1.33 4.61-1.44 9.69-1.4 14.77.02 2.61.18 5.29.47 7.94.77 6.99 1.05 14 1.05 20.9-.004 8.64.02 17.23-.304 25.82-.11 3.01-.29 6.03-.35 9.02-.096 4.71 0 9.41-.113 14.12-.096 4.02-.39 8.07-.56 12.1-.267 6.51-.04 13.07-.3 19.52-.23 5.6-.73 11.19-1.6 16.67-.79 4.93-1.8 9.93-3.59 14.55-1.34 3.48-2.26 7.04-3.32 10.58-.96 3.19-1.69 6.47-2.43 9.74-.66 2.93-1.13 5.91-1.8 8.85-.845 3.74-2.054 7.47-3.08 11.244-.84 3.11-1.5 6.3-2.3 9.45-.743 2.946-1.57 5.91-2.265 8.87-.457 1.95-.72 3.935-1.05 5.91-.84 5.03-1.857 10.073-2.367 15.103-.494 4.87-.575 9.76-.47 14.6.09 3.82.52 7.62 1.01 11.38.36 2.738.93 5.44 1.46 8.44-1.03-.58-1.87-.97-2.604-1.49-6.22-4.35-10.32-10.192-10.56-18.03-.07-2.24-.23-4.494-.168-6.76.145-5.094.163-10.244.94-15.353.94-6.21 2.655-12.39 3.84-18.58.52-2.71.902-5.476.84-8.17-.036-1.51-.39-2.99-.245-4.56.53-5.67.08-11.3-1.63-16.67-1.227-3.84-2.668-7.63-4.22-11.34-.98-2.34-2.26-4.61-3.52-6.85-1.41-2.51-2.97-4.9-5.17-7.01-3.19-3.06-6.824-5.55-10.83-7.68-5.094-2.7-9.978-5.86-15.25-8.12-5.71-2.44-11.757-4.14-17.48-6.02-2.21-.73-4.52-1.14-6.75-1.577-1.18-.23-2.31-.013-3.09 1.33 3.35 2.437 5.57 5.66 6.84 9.508 1.14 3.45 2.364 6.89 3.49 10.35.933 2.88 1.67 5.835 2.7 8.67 1.615 4.48 2.96 8.96 2.825 13.78-.098 3.58-.3 7.11-1.265 10.63-1.042 3.82-1.48 7.81-2.333 11.7-.63 2.89-1.56 5.74-2.21 8.62-.7 3.073-1.06 6.24-1.93 9.25-1.213 4.22-1.38 8.57-1.61 12.835-.27 5.03.155 10.11.316 15.16.17 5.58.82 11.12 1.93 16.6l.6 2.95c1.04 5.22 4.11 9.54 6.43 14.163.42.83.81 1.69 1.33 2.45 3 4.485 7.02 8.03 11 11.54 2.09 1.84 4.37 3.6 6.84 4.81 8.5 4.144 17.74 5.726 27.02 6.974 2.46.34 4.95.54 7.41.82 3.08.36 6.18.68 9.24 1.12 3.16.45 6.3 1.06 9.46 1.51 2.72.39 4.71 1.75 6.09 4.14.49.856 1.26 1.58 2 2.246.46.41 1.14.57 2.2 1.09-.37-1.178-.56-1.77-.8-2.51.406.082.73.08.965.22 2.47 1.39 4.998 2.842 7.41 4.4 4.88 3.13 10.2 5.403 15.71 6.99 6.28 1.806 12.8 2.56 19.26 3.514 4.84.71 9.67 1.46 14.51 2.2 2.36.36 4.74.96 7.116.99 5.74.09 11.55.464 17.143-1.32.89-.287 1.89-.25 2.76-.56 2.07-.73 4.08-1.7 6.18-2.36 3.18-1.01 6.42-1.9 9.12-4 .84-.65 1.58-1.52 2.5-2.037 2.09-1.17 4.27-2.21 6.425-3.27 5.94-2.93 11.14-6.81 15.17-12.11 3.58-4.71 6.8-9.67 8.89-15.26 1.85-4.95 3.86-9.85 5.606-14.826 1.416-4.033 2.42-8.23 3.864-12.27 3.01-8.423 3.69-17.3 4.175-26.17.107-1.96-.83-4.07-.93-6.09zM120.99 371.47c-1.28 4.94-2.488 9.582-3.67 14.168-.424.005-.532.038-.568.006-3.157-2.845-6.433-5.648-9.48-8.598-.648-.626-1.144-1.594-2.05-1.202-.57.247-.9 1.36-.97 2.112-.318 3.42-.49 6.87-.74 10.584-2.652-2.084-5.375-3.787-6.237-6.97-2.078-.19-2.075-.192-2.943 2.135-.54-3.354-.762-6.74-1.662-9.945-2.04-7.26-4.29-14.477-6.617-21.663-1.234-3.812-2.76-7.565-5.41-10.765.103-.13.204-.262.305-.393.81.17 1.656.26 2.438.54 6.21 2.18 12.7 4.26 19.134 6.64 2.953 1.09 5.756 2.67 8.452 4.29 4.342 2.61 8.683 5.26 12.758 8.16 3.813 2.71 6.312 6.4 8.29 10.36 1.46 2.92 2.912 5.91 4.364 8.78.184.36.19.81.334 1.49-6.275-1.96-9.75-7.21-15.727-9.76zm172.66-182.996c-4.638 5.602-8.127 11.916-11.096 18.462-2.734 6.028-5.38 12.056-7.77 18.044-1.11 2.775-2.262 5.517-3.163 8.31-.67 2.08-1.16 4.225-1.56 6.372-.98 5.205-1.65 10.425-2.22 15.57-.54 4.913-1.07 9.765-1.28 14.64-.19 4.663-.1 9.36.04 14.035.19 6.704.31 13.434.77 20.184.4 5.77 1.23 11.48 1.86 17.45.28 2.66.66 5.33 1.17 7.93.56 2.84 1.22 5.67 2 8.44 1.29 4.63 2.64 9.26 3.96 13.89 1.57 5.54 3.22 11.07 4.64 16.65 1.4 5.46 2.65 10.99 3.91 16.46 1.18 5.1 2.63 10.1 3.6 15.26 1.37 7.27 2.93 14.65 2.67 22.15-.25 7.32-.25 14.69-1.57 21.84-.85 4.56-1.33 9.26-2.79 13.65-2.37 7.1-5.56 13.94-10.35 19.94-4.73 5.92-10.26 10.76-17.3 13.5-3.29 1.28-6.93 1.94-10.47 2.29-7.38.75-14.76.13-22.08-1.3-5.5-1.07-11.1-1.74-16.39-3.72-1.89-.71-3.77-1.49-5.55-2.44-4.21-2.25-7.73-5.27-10.85-9-4.26-5.09-6.12-11.03-6.99-17.25-.95-6.87-1.11-13.86-1.15-20.84-.01-2.55.64-5.18.97-7.77.47-3.6.91-7.24 1.38-10.84.07-.54.2-1.09.36-1.62 1.81-6.33 3.65-12.68 4.92-19.03 1.53-7.65 4.23-14.68 6.25-21.95 1.91-6.84 4.03-13.59 5.85-20.46 1.77-6.7 3.46-13.47 4.87-20.32.88-4.29 1.15-8.75 1.717-13.14.894-6.96 1.18-13.97.95-21.01-.22-6.63-.54-13.28-.79-19.92-.15-3.99-.135-7.99-.48-11.96-.71-8.14-1.356-16.32-2.447-24.34-.544-3.97-2.25-7.7-3.62-11.52-.28-.78-.55-1.61-.95-2.31-2.6-4.51-3.833-9.87-6.12-14.74-2.21-4.7-5.106-9.13-7.79-13.72-2.03-3.47-4.573-6.41-7.79-8.67 2.595-4.58 6.197-7.9 9.8-11.38 4.27-4.13 9.81-4.74 15.35-5.05 6.75-.38 13.6-.37 20.58-.55 2.22-.06 4.476-.45 6.706-.32 4.96.28 10 .76 14.93 1.19.46.04.94.12 1.39.13 5.58.22 11.24.22 16.81.58 2.17.14 4.36.28 6.53.51 1.624.17 3.78-.07 5.246.75.77.43 1.33 1.12 2.1 1.53-.09-.06-.173-.13-.27-.19 2.79-.7 5.66.92 7.89 2.23.52.3 4.47 2.5 3.69 3.44z'},{'color':'#FFF','path':'M289.968 185.028c-2.234-1.31-5.105-2.93-7.893-2.228.095.055.178.122.272.188-.77-.41-1.335-1.102-2.1-1.532-1.465-.824-3.62-.577-5.246-.752-2.16-.234-4.35-.368-6.53-.508-5.56-.36-11.23-.354-16.81-.574-.45-.018-.93-.09-1.39-.13-4.93-.434-9.96-.915-14.93-1.19-2.23-.125-4.48.265-6.71.323-6.98.18-13.83.172-20.57.55-5.53.31-11.07.924-15.34 5.05-3.6 3.482-7.21 6.802-9.8 11.386 3.22 2.26 5.76 5.2 7.79 8.67 2.68 4.59 5.58 9.02 7.79 13.72 2.29 4.87 3.52 10.23 6.12 14.74.4.7.67 1.53.95 2.32 1.37 3.82 3.08 7.55 3.62 11.52 1.09 8.02 1.74 16.2 2.44 24.34.35 3.97.33 7.98.48 11.97.25 6.63.57 13.29.79 19.92.23 7.04-.05 14.06-.95 21.02-.56 4.39-.83 8.85-1.71 13.14-1.4 6.85-3.09 13.63-4.86 20.33-1.82 6.87-3.94 13.62-5.84 20.46-2.02 7.27-4.72 14.3-6.25 21.95-1.27 6.35-3.1 12.71-4.91 19.03-.15.53-.28 1.09-.35 1.63-.47 3.6-.91 7.24-1.37 10.84-.33 2.59-.98 5.22-.97 7.77.05 6.98.21 13.98 1.16 20.85.87 6.23 2.73 12.16 6.99 17.25 3.12 3.73 6.64 6.75 10.85 9 1.78.95 3.66 1.73 5.55 2.44 5.29 1.98 10.89 2.65 16.39 3.72 7.32 1.43 14.7 2.05 22.09 1.3 3.53-.35 7.17-1.01 10.47-2.29 7.05-2.74 12.58-7.57 17.31-13.49 4.79-6 7.99-12.84 10.36-19.94 1.46-4.38 1.94-9.08 2.79-13.64 1.33-7.15 1.32-14.52 1.58-21.84.26-7.51-1.295-14.88-2.666-22.15-.97-5.16-2.42-10.16-3.6-15.26-1.27-5.47-2.52-10.99-3.91-16.45-1.423-5.58-3.07-11.11-4.64-16.65-1.314-4.63-2.67-9.26-3.96-13.89-.77-2.76-1.44-5.6-1.99-8.43-.51-2.6-.89-5.27-1.17-7.93-.63-5.97-1.463-11.68-1.86-17.44-.46-6.75-.58-13.48-.77-20.184-.13-4.677-.23-9.374-.033-14.036.205-4.876.73-9.73 1.28-14.64.57-5.14 1.235-10.36 2.215-15.57.406-2.144.897-4.29 1.568-6.37.9-2.79 2.058-5.53 3.166-8.31 2.39-5.99 5.035-12.014 7.77-18.04 2.97-6.548 6.46-12.86 11.097-18.46.78-.94-3.17-3.14-3.68-3.44z'},{'color':'#FFF','path':'M103.512 388.542c-2.645-2.083-5.373-3.792-6.24-6.97-2.07-.19-2.067-.19-2.933 2.14-.55-3.364-.78-6.748-1.67-9.958-2.04-7.262-4.29-14.47-6.62-21.66-1.24-3.81-2.76-7.558-5.41-10.76l.3-.4c.81.176 1.66.272 2.44.547 6.21 2.18 12.69 4.26 19.13 6.64 2.96 1.1 5.76 2.69 8.45 4.31 4.34 2.61 8.68 5.26 12.76 8.17 3.81 2.71 6.31 6.4 8.28 10.36 1.46 2.93 2.93 5.85 4.37 8.79.18.37.18.82.32 1.49-6.27-1.95-9.75-7.2-15.73-9.75-1.29 4.94-2.49 9.58-3.67 14.17-.42.01-.54.04-.58.01-3.19-2.84-6.42-5.64-9.47-8.59-.65-.63-1.14-1.61-2.06-1.21-.57.25-.9 1.37-.97 2.12-.31 3.43-.5 6.88-.74 10.59z'},{'color':'#ae0001','path':'M224.8 194.018c1.306.943 1.686 2.055 1.072 3.486-.79 1.845-1.764 3.51-3.458 4.38l-.94-1.48c1.027-2.17 1.63-4.613 3.326-6.386zm8.826 11.232c-.226 2.31-.307 4.558-1.608 6.243-.27.35-.59.728-.948.85-.302.104-.81 0-1.01-.267-.267-.36-.53-1.052-.434-1.435.22-.88.608-1.72 1.017-2.51.4-.77.955-1.42 1.36-2.2.386-.74.868-.87 1.623-.67zm-21.562-4.735c.445.486.844.78 1.047 1.207.15.312.18.927.02 1.178-.56.89-1.21 1.686-1.87 2.41-.58.643-1.6.65-2.17.117-.21-.195-.35-.484-.62-.86 1.22-1.257 2.39-2.59 3.6-4.052zm-4.54-12.135c-.736 1.15-1.52 2.098-2.677 2.512-.333.12-.643.296-.98.392-.803.23-1.04.045-1.468-.98.6-.672 1.21-1.476 1.91-2.213.91-.95 2.12-.92 3.2.29zm73.4-.147c1.724.934 3.01 1.937 3.85 3.346.36.6.27.88-.31 1.48-.54.56-.846.28-1.22-.05-.82-.72-1.75-1.43-2.073-2.72-.14-.61-.34-1.23-.24-2.07zM255.3 209.21c1.18.158 1.56.523 1.772 2.16.1.78.19 1.583.138 2.374-.056.815-.416 1.522-1.28 1.81-1.792-1.615-.934-4.05-.63-6.343zm-12.46-17.838c.713.066 1.19.667 1.22 1.527.05 1.45.067 2.92.03 4.38-.025.99-.334 1.41-.85 1.43-.785.02-1.262-.56-1.38-1.54-.145-1.25.38-2.23.756-3.25.296-.81.57-1.56.226-2.56zm-13.235-6.308c-.004 1.438-.866 1.883-1.566 2.47-.51.43-1.03.87-1.6 1.146-.29.14-.76.088-1-.132-.19-.174-.28-.773-.21-1.117.41-2.04 2.8-3.36 4.37-2.36zm39.373 13.84c.305.262.58.41.758.657.53.73 1.014 1.48 1.52 2.17.48.66.43 1.5.356 2.33-.022.26-.336.55-.507.81-1.75-1.04-2.79-4.01-2.127-5.96zm-11.75-11.604c.43-.654.942-.33 1.116-.05.584.94 1.48 1.218 2.2 1.826.937.79.98 1.514.133 2.424-.506.545-1.068.437-1.42-.03-.635-.844-1.16-1.842-1.688-2.83-.22-.407.38-1.097-.35-1.34z'}];var FOX_LEGS=exports.FOX_LEGS=[{'color':'#ae0001','path':'M267.494 658.59c-2.467-1.088-3.14-3.034-2.927-5.6.417-5.042.693-10.097 1.015-15.146.255-3.976.433-7.958.753-11.925.69-8.53 1.37-17.06 2.196-25.57.87-8.93 1.61-17.88 2.93-26.75 1.7-11.4 4.56-91.71 3.71-103.38-.49-6.73-1.86-13.19-3.96-19.51-1.27-3.85-4.01-6.36-8.22-6.92-1.78-.24-3.55-.46-5.33-.69-3.98-.35-7.51.51-10.39 3.46-1.04 1.06-2.14 2.07-3.24 3.08-4.32 3.95-6.18 8.62-5.57 14.65.58 5.72-.24 80.58-.21 86.35.05 7.66-.16 15.33.17 22.98.27 6.02 1.25 12.02 1.77 18.04.5 5.74.98 11.49 1.11 17.24.07 2.91.02 5.81.15 8.74.38 8.51 1.33 17 .59 25.58-.57 6.71-.2 13.5-.33 20.26-.02 1.35-.27 2.73-.64 4.03-1.42 4.97-.32 7.72 4.57 9.63 5.37 2.09 11.02 2.18 16.69 1.48 3.87-.48 7.22-2.08 10.12-4.6.55-.48 1.09-1.54.94-2.17-.81-3.34-1.91-6.6-2.77-9.92-.45-1.74-1.55-2.71-3.08-3.38zm-21.574-52.907c.116-.243.32-.443.596-.815 2.63 2.87 1.173 7.82 5.5 10.146l6.318-13.31c.442 1.856.772 3.605 1.28 5.3.858 2.862 2.23 3.37 4.99 1.677-1.105 15.62-2.193 31.04-3.308 46.81-5.707-.03-11.144 1.04-15.984 4.67 0-5.52.083-10.57-.02-15.61-.176-8.75-.484-17.5-.707-26.25-.106-4.25-.59-8.56 1.335-12.6zm21.236 67.837c-3.51 1.54-7.052 3.09-11.15 2.124-1.792-.424-3.75-.095-5.624-.23-1.077-.075-2.182-.268-3.192-.636-3.086-1.116-3.654-2.647-2.802-5.804 1.77-6.56 6.17-9.616 12.73-10.032.985-.062 1.96-.278 3.254-.47 2.737.763 5.517 1.927 7.173 4.76.794 1.36 1.457 2.828 1.96 4.322.906 2.69.18 4.857-2.35 5.966z'},{'color':'#FFF','path':'M245.295 644.54c.102 5.044.02 10.094.02 15.614 4.84-3.625 10.276-4.7 15.983-4.665l3.307-46.81c-2.76 1.69-4.13 1.18-4.988-1.68-.51-1.7-.84-3.45-1.28-5.3-2.124 4.47-4.17 8.78-6.32 13.31-4.327-2.33-2.87-7.28-5.5-10.15-.275.37-.478.57-.595.81-1.925 4.04-1.442 8.35-1.333 12.6.22 8.75.52 17.5.7 26.25zm22.25 18.693c-1.657-2.833-4.437-3.997-7.174-4.76-1.29.192-2.26.41-3.25.47-6.56.416-10.96 3.473-12.73 10.032-.85 3.157-.28 4.688 2.8 5.804 1.01.36 2.12.56 3.19.63 1.88.13 3.84-.2 5.63.23 4.1.96 7.64-.59 11.15-2.13 2.53-1.11 3.26-3.28 2.35-5.97-.5-1.5-1.16-2.96-1.96-4.33zm-47.995-4.287c-.982-.063-1.953-.278-3.25-.48-2.747.77-5.517 1.93-7.18 4.763-.793 1.36-1.45 2.83-1.952 4.31-.907 2.69-.19 4.86 2.343 5.97 3.52 1.53 7.06 3.08 11.15 2.13 1.8-.43 3.76-.1 5.63-.24 1.07-.08 2.18-.27 3.19-.63 3.09-1.12 3.65-2.65 2.81-5.81-1.77-6.56-6.17-9.61-12.73-10.03zm11.802 1.21c0-5.518-.087-10.568.026-15.62.176-8.754.48-17.495.705-26.25.1-4.257.592-8.553-1.335-12.608-.113-.24-.315-.44-.59-.807-2.633 2.88-1.172 7.81-5.506 10.14-2.154-4.52-4.194-8.83-6.323-13.3-.45 1.86-.77 3.61-1.28 5.29-.86 2.88-2.23 3.38-4.99 1.68 1.1 15.62 2.19 31.05 3.3 46.82 5.7-.04 11.15 1.03 15.98 4.66z'},{'color':'#ae0001','path':'M233.575 449.655c-1.096-1.008-2.205-2.016-3.25-3.073-2.87-2.948-6.41-3.816-10.392-3.464l-5.328.68c-4.208.567-6.94 3.074-8.225 6.915-2.09 6.336-3.464 12.798-3.955 19.524-.844 11.664 1.09 91.972 2.79 103.37 1.31 8.868 2.054 17.824 2.922 26.742.82 8.51 1.512 17.04 2.192 25.57.32 3.96.5 7.94.75 11.92.33 5.05.59 10.1 1.02 15.14.2 2.57-.47 4.51-2.94 5.6-1.53.66-2.62 1.63-3.08 3.37-.86 3.32-1.96 6.59-2.77 9.91-.15.63.39 1.69.94 2.16 2.9 2.52 6.25 4.12 10.11 4.59 5.67.7 11.32.61 16.69-1.48 4.88-1.9 5.98-4.66 4.57-9.64-.38-1.3-.62-2.68-.65-4.03-.13-6.75.24-13.54-.34-20.26-.73-8.58.21-17.07.59-25.57.14-2.94.08-5.84.15-8.74.12-5.76.6-11.52 1.09-17.25.52-6.02 1.51-12.02 1.77-18.05.34-7.65.14-15.32.18-22.99.03-5.77.13-80.625.7-86.34.6-6.03-1.25-10.708-5.57-14.66zm-21.508 159.02c2.76 1.7 4.132 1.196 4.99-1.676.503-1.69.83-3.44 1.27-5.29 2.13 4.47 4.17 8.77 6.324 13.3 4.34-2.33 2.88-7.27 5.51-10.14.28.36.48.56.59.8 1.93 4.05 1.44 8.35 1.34 12.61-.22 8.75-.53 17.49-.7 26.25-.11 5.05-.02 10.1-.02 15.62-4.83-3.63-10.27-4.7-15.98-4.66-1.11-15.77-2.2-31.2-3.3-46.82zm17.41 66.104c-1.01.36-2.118.55-3.188.63-1.88.13-3.83-.19-5.63.23-4.1.95-7.64-.59-11.15-2.13-2.53-1.11-3.25-3.28-2.35-5.97.5-1.49 1.16-2.96 1.95-4.32 1.66-2.84 4.43-4 7.18-4.77 1.3.2 2.27.41 3.25.48 6.56.41 10.96 3.46 12.73 10.02.84 3.16.27 4.68-2.81 5.8z'},{'color':'#FFF','path':'M345.11 304.58c.07-.218-.24-.87-.486-1.033.247.163.555.815.485 1.034zm-205.993-1.034c2.65-1.772 2.917-5.435 5.405-7.45-2.49 2.015-2.753 5.675-5.405 7.45zm0 0c-.246.164-.554.816-.485 1.035-.07-.21.24-.87.485-1.03z'},{'color':'#ae0001','path':'M372.41 342.203c-.78-6.254-2.635-11.544-4.148-16.846-2.66-9.324-6.05-19.03-10.25-28.432-2.586-5.787-4.934-11.47-7.848-17.246-2.5-4.96-5.172-10.06-7.962-16.68-7.432-18.01-19.596-33.36-28.824-50.4-4.483-7.81-11.217-13.62-19.046-18.54-6.87-4.32-13.895-7.83-21.07-10.9-3.61-1.55-7.28-2.76-10.8-4.31-2.924-1.3-5.542-.66-7.86.59-2.213 1.19-3.624 3.53-3.68 5.96-.075 3.18.477 6.62 2.677 9.55 2.27 3.03 4.4 6.16 7.23 8.68 5.16 4.59 11.16 8.38 16.9 12.42 6.08 4.29 11.7 9.03 16.11 14.99 3.32 4.48 6.11 9.93 8.99 14.26 7.3 10.97 16.97 20.8 22.99 32.66 3.18 6.26 6.09 13.38 9.86 19.21 1.68 2.6 3.57 4.93 5.13 7.59 1.93 3.28 3.45 6.87 5.05 10.24 3.92 8.26 5.14 16.7 5.71 25.43.14 2.27.26 4.17.56 6 .74 4.54 1.28 8.64 1.13 12.85-.08 2.12.07 4.41.27 6.93.17 2.25 3.27 7.29 5.77 9.35 2.69 2.22 7.81 2.91 8.99 1.23 1.73-2.48 3.46-4.98 4.33-8.23.96-3.57 1.05-7.82 1.49-12.38-.83-4.66-1.17-9.5-1.74-14.04zm-6.377 31.332c-.854 1.255-2.255 2.096-4.862.283-2.56-1.778-3.52-4.05-4.2-6.148-.21-.66-.26-1.273-.31-1.852-.25-3.35-.34-6.394-.7-9.5-.32-2.858-.85-5.71-1.21-8.675-.47-3.788-.73-8.177-1.35-12.58-.68-4.88-1.51-9.878-2.75-14.852-.9-3.62-2.54-7.03-4.1-10.55-.71-1.61-2.07-3.03-1.42-5.07.07-.21-.23-.87-.48-1.03-2.65-1.77-2.92-5.43-5.4-7.45 1.63.89 2.91 2.61 4.43.87-.8-2.89-2.31-5.99-1.83-10.11 1.73 2.75 3.25 4.74 4.61 6.81 1.12 1.71 2.03 1.8 3.37.33-1.01-3.69-1.83-7.76-2.76-12.77.83.85 1.24 1.09 1.47 1.5 3.56 6.43 6.29 12.59 9.26 19.31 2.55 5.73 4.59 11.39 6.09 16.98 1.91 7.15 3.67 13.62 5.4 21.87.99 4.73 1.08 9.62 1.47 14.45.63 7.92-1.53 13.6-4.67 18.23z'},{'color':'#FFF','path':'M369.24 340.87c-1.73-8.252-3.49-14.722-5.397-21.872-1.493-5.594-3.54-11.255-6.083-16.983-2.98-6.716-5.708-12.875-9.263-19.303-.226-.41-.638-.65-1.462-1.497.926 5.01 1.745 9.078 2.755 12.77-1.333 1.47-2.25 1.384-3.365-.325-1.354-2.073-2.876-4.062-4.607-6.806-.476 4.124 1.03 7.224 1.833 10.11-1.52 1.74-2.8.015-4.43-.868 2.49 2.015 2.76 5.675 5.41 7.45.25.164.56.815.49 1.034-.65 2.04.71 3.462 1.42 5.073 1.57 3.524 3.21 6.93 4.11 10.558 1.24 4.98 2.07 9.98 2.75 14.86.62 4.4.89 8.79 1.36 12.58.37 2.97.9 5.82 1.22 8.68.35 3.11.44 6.15.7 9.5.05.58.1 1.19.31 1.85.68 2.1 1.65 4.37 4.21 6.15 2.61 1.81 4.01.97 4.86-.28 3.14-4.62 5.31-10.31 4.68-18.22-.39-4.82-.48-9.71-1.47-14.44z'},{'color':'#ae0001','path':'M229.14 179.458c-2.318-1.253-4.936-1.888-7.86-.596-3.52 1.557-7.188 2.763-10.8 4.31-7.175 3.072-14.2 6.582-21.07 10.896-7.828 4.918-14.563 10.725-19.044 18.534-9.228 17.04-21.39 32.397-28.825 50.4-2.79 6.62-5.46 11.718-7.96 16.68-2.91 5.774-5.26 11.455-7.85 17.242-4.2 9.4-7.59 19.108-10.25 28.433-1.51 5.3-3.36 10.59-4.14 16.846-.56 4.534-.91 9.375-1.74 14.035.45 4.56.54 8.814 1.5 12.383.88 3.26 2.6 5.75 4.34 8.23 1.18 1.68 6.29.99 8.99-1.23 2.51-2.06 5.6-7.09 5.78-9.35.2-2.52.36-4.81.28-6.93-.15-4.21.39-8.31 1.14-12.85.3-1.82.42-3.73.56-6 .56-8.73 1.78-17.16 5.71-25.42 1.6-3.37 3.12-6.95 5.05-10.24 1.57-2.65 3.46-4.98 5.14-7.58 3.77-5.83 6.68-12.95 9.87-19.21 6.02-11.86 15.69-21.69 22.99-32.66 2.88-4.32 5.67-9.78 8.99-14.26 4.41-5.95 10.04-10.69 16.11-14.98 5.73-4.04 11.74-7.84 16.9-12.43 2.83-2.52 4.96-5.65 7.24-8.68 2.2-2.93 2.75-6.37 2.68-9.55-.05-2.43-1.46-4.775-3.68-5.97zm-90.023 124.088c-.246.164-.554.817-.485 1.035.65 2.05-.702 3.47-1.42 5.08-1.564 3.53-3.205 6.93-4.106 10.56-1.237 4.98-2.07 9.97-2.75 14.86-.617 4.4-.884 8.79-1.354 12.58-.366 2.97-.894 5.82-1.216 8.68-.35 3.11-.44 6.15-.696 9.5-.044.58-.097 1.2-.31 1.86-.68 2.1-1.647 4.37-4.21 6.15-2.607 1.81-4.007.97-4.86-.28-3.144-4.62-5.306-10.31-4.677-18.22.387-4.82.478-9.71 1.47-14.44 1.73-8.25 3.486-14.72 5.395-21.87 1.493-5.59 3.54-11.25 6.083-16.98 2.98-6.71 5.71-12.87 9.27-19.3.23-.41.64-.65 1.46-1.49-.92 5.01-1.74 9.08-2.75 12.77 1.34 1.47 2.25 1.39 3.37-.32 1.36-2.07 2.88-4.06 4.61-6.81.48 4.13-1.03 7.23-1.83 10.11 1.53 1.74 2.81.02 4.43-.86-2.49 2.02-2.75 5.68-5.4 7.45z'},{'color':'#FFF','path':'M140.092 296.965c.8-2.888 2.308-5.988 1.832-10.11-1.73 2.742-3.254 4.732-4.607 6.806-1.115 1.71-2.032 1.8-3.366.33 1.01-3.69 1.83-7.76 2.76-12.77-.82.85-1.23 1.09-1.46 1.5-3.55 6.43-6.28 12.59-9.26 19.31-2.54 5.73-4.59 11.39-6.08 16.99-1.91 7.15-3.66 13.62-5.39 21.87-.99 4.73-1.08 9.62-1.47 14.45-.63 7.92 1.54 13.6 4.68 18.23.86 1.26 2.26 2.1 4.86.28 2.56-1.78 3.53-4.05 4.21-6.15.22-.66.27-1.27.31-1.85.26-3.35.35-6.39.7-9.5.32-2.86.85-5.71 1.22-8.67.47-3.79.74-8.18 1.36-12.58.68-4.88 1.52-9.88 2.75-14.85.9-3.62 2.54-7.03 4.11-10.55.72-1.61 2.07-3.03 1.42-5.07-.07-.22.24-.87.49-1.03 2.65-1.773 2.92-5.433 5.41-7.45-1.62.88-2.9 2.61-4.43.87z'}];var ZEBRA_HEAD=exports.ZEBRA_HEAD=[{'color':'#FFF','path':'M235.315 128.36c.132-.076.263-.143.373-.143.45.01.285-.022-.12-.033-.122.033-.232.077-.353.143l.1.033z'},{'color':'#FFF','path':'M257.762 181.24c-2.13 1.36-4.404 2.48-6.7 3.58.44.098-9.927 5.095-11.607 4.744-1.67.35-6.578-2.087-6.523-2.252-.198-.098-.406-.187-.615-.296-3.723-1.933-7.655-3.525-11.158-5.776-3.83-2.45-7.27-5.49-10.89-8.292-.4 1.417-.95 3.14-1.3 4.887-.1.46.3 1.13.66 1.538 3.88 4.37 7.73 8.895 12.96 11.63 2.82 1.472 6.17 2.108 9.37 2.657 1.6.275 3.26.23 4.92.198 0 0 .4-.1.45-.01.7-.013 1.4-.013 2.11.01 2.49-.1 5.05.22 7.48-.198 3.19-.55 6.54-1.186 9.38-2.657 5.23-2.735 9.07-7.26 12.96-11.63.36-.407.75-1.077.67-1.538-.37-1.746-.92-3.47-1.3-4.887-3.63 2.8-7.06 5.842-10.89 8.29zm10.862-147.775c-.077-.67.812-1.45 1.482-2.482-.373 0-.878-.154-1.054.022-2.076 2.12-3.272 4.733-4.415 8.005 1.153-.527 1.834-.823 2.69-1.218-.966-1.8-.198-2.307 1.516-2.196.582.043 1.197-.297 1.987-.505-.944-.64-2.14-1.07-2.206-1.62z'},{'color':'#000','path':'M273.225 24.603c-3.042 1.076-5.172 3.196-6.852 5.865-1.956 3.097-4.272 6.106-4.404 9.895-.09 2.636.46 5.315.89 7.95.04.31 1.33.813 1.68.605 2.1-1.263 3.99-2.92 6.16-4.052 4.44-2.33 7.45-5.832 8.36-10.675.71-3.81.58-7.76-1.68-11.16-1.65.63-2.89 1.13-4.17 1.58zm-4.382 10.993c-1.714-.11-2.482.395-1.516 2.196-.856.395-1.538.69-2.69 1.218 1.142-3.272 2.34-5.886 4.415-8.005.176-.176.68-.022 1.054-.022-.67 1.032-1.56 1.812-1.482 2.482.065.55 1.263.977 2.207 1.625-.79.21-1.4.55-1.98.506z'},{'color':'#FFF','path':'M280.98 20.22c-.286-1.416-1.023-1.866-2.34-1.668-.46.077-.956.032-1.362.187-7.402 2.83-14.002 6.66-16.352 14.9-.812 2.85-.68 5.96-1.175 8.91-.42 2.57-1.13 5.09-1.89 8.46 1.88 1.46 4.15 3.24 6.43 5.02-.13.23-.26.45-.39.68.25-.33.46-.67.73-.99 1.4-1.73 2.94-3.04 5.08-4.07 3.19-1.54 6.21-3.65 8.25-6.8.86-1.31 2.02-2.42 2.88-3.73 3.02-4.64 2.89-9.68 1.7-14.81-.47-2.06-1.13-4.07-1.54-6.12zm-1.913 13.97c-.91 4.843-3.92 8.346-8.368 10.675-2.17 1.13-4.06 2.79-6.17 4.052-.34.208-1.64-.296-1.68-.604-.43-2.636-.98-5.315-.89-7.95.13-3.79 2.45-6.8 4.4-9.896 1.68-2.668 3.81-4.79 6.85-5.865 1.27-.45 2.51-.955 4.16-1.58 2.26 3.404 2.39 7.357 1.68 11.168zm-21.393 104.912c-.175 1-.34 1.998-.505 3.008.15.044.31.088.47.132.73-.69 1.47-1.383 2.73-2.58-1.26-.253-1.98-.407-2.71-.56zm2.66-49.97c-.528-1.36-1.066-2.78-1.726-4.524-1.274 1.647-2.525 3.262-4.008 5.184 2.262-.264 4.008-.462 5.733-.66zm4.534 50.375c-2.45 2.064-5.667 4.755-8.874 7.446-.725.604-1.427 1.208-2.152 1.8-.484.407-.978.802-1.472 1.198-.923.73-1.318 1.63-.593 2.56 1.592 2.06.78 4.07.033 6.08-.318.88-.89 1.66-1.34 2.48.198.16.396.32.594.47 1.943-2.03 4.052-3.93 5.81-6.12 2.217-2.74 3.853-5.99 6.26-8.53 1.756-1.85 1.866-3.84 1.8-5.41-.034-.78-.122-1.45-.066-1.95zm-15.288 15.068c-3.91.154-6.644 5.788-4.36 9.74 1.91-1.097 4.92-7.82 4.36-9.74z'},{'color':'#000','path':'M255.368 67.015c-2.877-2.48-5.567-5.172-8.346-7.764-.318-.29-.69-.54-1.087-.85-1.087.97-1.614 1.33-.23 2.85 4.04 4.44 9.784 7.22 12.552 12.86.55 1.12 1 2.3 1.724 3.3.36.5 1.19.64 1.82.95.04-.58.26-1.22.09-1.72-1.29-3.78-3.46-6.96-6.51-9.6zm-5.698-16.43c-1.188-.47-2.24-1.284-3.362-1.932-.295-.242-.593-.473-.878-.714-.175.58-.494 1.16-.472 1.73.02.46.33 1.09.703 1.32.83.51 1.77.84 2.68 1.19 5.18 2.01 8.78 5.97 12.52 9.79.42.43 1.29.43 1.94.62-.05-.62.13-1.45-.21-1.81-3.77-4.08-7.54-8.14-12.91-10.22zm8.39 10.852c-3.306-2.263-6.612-4.536-9.863-6.886-.988-.71-1.757-1.73-2.713-2.49-.44-.34-1.108-.38-1.668-.56 0 .57-.242 1.43.044 1.68 2.394 2.11 4.842 4.15 7.358 6.13 2.01 1.57 4.107 3.03 6.205 4.49 3.064 2.14 5.063 4.93 5.183 8.78.055 1.62.945 1.39 2.12 1.3.02-5.55-2.373-9.5-6.667-12.43zm-14.442 2.593c-.527-.53-1.713-.397-2.592-.573.274.747.352 1.68.845 2.207 3.83 4.053 7.71 8.05 11.62 12.015.86.86.94 1.52.19 2.53-4.57 6.19-7.06 13.19-8.12 20.8-.94 6.75-2.27 13.44-3.47 20.41 1.61 1.01 2.08.83 2.44-1.23 1.42-8.07 2.53-16.21 4.37-24.17.47-2.05 1.24-4.02 2.11-5.98.93-2.08 1.95-4.12 2.84-6.19.5-1.13 1.18-2.2 1.9-3.21 1.15-1.6 1.15-2.93-.23-4.37-3.93-4.11-7.85-8.25-11.88-12.27z'},{'color':'#000','path':'M241.333 87.54c.406-.372.78-.965.845-1.514.21-1.736.32-3.493.373-5.25.02-.505-.28-1.02-.43-1.538-.25-.01-.5-.022-.74-.033-.24.9-.49 1.8-.73 2.7-.32 1.198-.73 2.374-.91 3.592-.1.647.12 1.384.4 2 .08.176.99.252 1.22.044zm-4.525-8.302c-.164.516-.46 1.032-.44 1.538.056 1.757.154 3.514.374 5.25.066.55.43 1.142.847 1.515.23.21 1.14.14 1.21-.04.26-.61.48-1.35.39-2-.19-1.22-.61-2.39-.92-3.59-.24-.9-.49-1.8-.73-2.7l-.75.03z'},{'color':'#FFF','path':'M252.27 167.742c-1.152 1.01-2.337 2-3.612 2.92 0 .45.022 1.297 0 2.153-.044 2.263-1.44 4.283-3.37 4.613-5.47.956-4.24.802-9.83-.176-.363-.055-.66-.12-.934-.197-1.922-.33-4.218-1.977-4.273-4.24-.01-.856 0-1.702 0-2.152-6.72-4.865-11.57-11.3-17.79-17.1-.24 3.076-.52 5.777-.59 8.48-.01.55.77 1.13 1.21 1.668 4.92 5.95 10.82 10.71 17.67 14.22 2.79 1.43 5.66 2.71 8.67 3.55 2.29-.62 4.48-1.5 6.64-2.51.72-.33 1.43-.68 2.13-1.03.8-.41 1.58-.84 2.36-1.28 5.85-3.36 10.95-7.68 15.3-12.92.45-.53 1.22-1.11 1.21-1.66-.06-2.7-.35-5.4-.58-8.48-5.05 4.7-9.21 9.82-14.19 14.18z'},{'color':'#000','path':'M243.585 99.665c.46-6.238 2.965-11.773 4.71-17.572.517-1.757.45-3.074-1.086-4.535-1.78-1.69-2.99-3.976-4.45-5.996-.29-.395-.6-.79-.89-1.186-.24.022-.47.044-.72.065-.04.82-.41 1.85-.06 2.43 1.31 2.09 2.95 3.97 4.28 6.04.49.78.88 1.98.63 2.79-1.01 3.4-2.31 6.69-3.42 10.05-.42 1.23-.71 2.53-.89 3.81-.7 4.66-1.36 9.33-1.99 13.99-.1.74-.18 1.49-.28 2.22-.09-.73-.18-1.48-.28-2.22-.63-4.67-1.29-9.33-1.99-13.99-.19-1.28-.47-2.58-.88-3.81-1.12-3.36-2.42-6.65-3.43-10.05-.25-.81.14-2.01.63-2.79 1.33-2.07 2.97-3.95 4.28-6.04.36-.58-.01-1.61-.06-2.42l-.7-.06c-.31.4-.61.79-.89 1.19-1.46 2.02-2.68 4.31-4.45 6-1.54 1.46-1.62 2.78-1.09 4.54 1.73 5.8 4.24 11.34 4.7 17.58.51 6.97 1.84 13.89 2.82 20.83.03.28.03.58.06.86.07.51.29.9 1.23.79h.02c.95.11 1.17-.28 1.23-.79.04-.27.04-.58.07-.85.97-6.94 2.3-13.86 2.82-20.83z'},{'color':'#FFF','path':'M233.7 164.315c2.273-3.953-.45-9.586-4.37-9.74-.56 1.92 2.46 8.643 4.37 9.74z'},{'color':'#000','path':'M225.234 80.216c-.747-1.01-.66-1.67.197-2.537 3.91-3.97 7.79-7.97 11.61-12.02.51-.53.58-1.46.86-2.21-.89.17-2.06.04-2.6.57-4.03 4.02-7.94 8.16-11.87 12.26-1.38 1.44-1.38 2.76-.23 4.37.73 1.01 1.41 2.07 1.89 3.2.9 2.06 1.92 4.1 2.85 6.18.87 1.95 1.64 3.93 2.11 5.97 1.85 7.96 2.95 16.1 4.36 24.17.38 2.06.84 2.24 2.44 1.23-1.19-6.97-2.51-13.66-3.47-20.42-1.06-7.61-3.54-14.61-8.12-20.8z'},{'color':'#FFF','path':'M220.313 84.608c-.67 1.746-1.208 3.163-1.724 4.525 1.72.197 3.47.395 5.72.66-1.49-1.923-2.73-3.538-4-5.185zm.934 54.494c-.735.154-1.46.307-2.713.56 1.274 1.197 2 1.89 2.735 2.58.16-.043.31-.087.47-.13-.17-1.012-.33-2.012-.5-3.01z'},{'color':'#000','path':'M233.217 61.24c1.383-1.517.857-1.878-.24-2.846-.397.308-.76.56-1.088.857-2.78 2.6-5.47 5.29-8.35 7.77-3.06 2.64-5.22 5.82-6.5 9.6-.18.51.04 1.14.09 1.73.61-.3 1.46-.45 1.81-.94.71-1 1.17-2.17 1.72-3.29 2.76-5.64 8.51-8.42 12.55-12.86zm-15.165.745c3.745-3.822 7.358-7.786 12.52-9.796.922-.36 1.855-.69 2.69-1.2.373-.23.68-.86.69-1.32.023-.57-.295-1.16-.46-1.74-.296.24-.593.47-.89.71-1.108.64-2.163 1.46-3.36 1.93-5.36 2.07-9.148 6.14-12.915 10.21-.33.36-.153 1.19-.208 1.81.65-.2 1.51-.2 1.93-.63zm3.448 1.812c2.097-1.46 4.184-2.92 6.194-4.492 2.515-1.977 4.964-4.02 7.357-6.128.3-.252.06-1.11.06-1.68-.57.176-1.24.22-1.67.56-.96.758-1.73 1.78-2.72 2.493-3.25 2.35-6.54 4.623-9.85 6.886-4.29 2.932-6.69 6.875-6.66 12.432 1.18.087 2.07.32 2.11-1.296.12-3.843 2.12-6.633 5.2-8.775z'},{'color':'#FFF','path':'M213.978 141.45c-.066 1.57.043 3.57 1.81 5.426 2.407 2.537 4.043 5.788 6.25 8.533 1.757 2.19 3.866 4.09 5.82 6.12.198-.16.397-.32.594-.47-.46-.83-1.02-1.61-1.35-2.49-.737-2.01-1.56-4.02.043-6.08.713-.94.317-1.84-.594-2.56-.49-.39-.98-.78-1.47-1.19-.72-.6-1.44-1.21-2.16-1.81l-8.87-7.45c.06.5-.03 1.17-.06 1.94zm37.568-93.148c-1.307-1.175-2.712-2.25-4.118-3.328-.802-.604-1.384-.395-1.834.56-1.197 2.538-2.438 5.052-3.734 7.545-.24.46-.857.73-1.307 1.08-.21-.33-1.373-.16-2.086-.15l-.11.14c-.076-.06-.164-.11-.242-.18-.12-.02-.22-.07-.22-.15v-.01c-.34-.22-.67-.45-.834-.76-1.3-2.49-2.53-5.01-3.74-7.55-.45-.96-1.03-1.16-1.83-.56-1.39 1.08-2.81 2.15-4.12 3.33-3.29 2.98-6.83 5.76-9.72 9.1-2.63 3.05-4.36 6.51-4.91 10.36-.24 1.68-.25 3.42-.03 5.25.21 1.79-.18 3.64-.29 5.43 5.8 1.6 10.25 4.97 13.47 9.98.42.63.89 1.29 1.19 1.98.11.23.19.46.24.7.13.59-.38 1.39-.76 2.02-.07.13-.97.04-1.17-.2-1.63-2.09-3.97-1.67-6.15-1.75-1.2-.06-2.43.11-3.75.18v6.51c4.25.64 6.48 3.6 8.38 7.03 1.68 3.03 3.99 5.78 4.42 9.36.41 3.33.57 6.69 3.36 9.13.17.14.13.82.04.87-.57.24-1.24.58-1.8.47-.46-.1-.83-.74-1.21-1.17-3.26-3.6-4.58-8.35-7.18-12.32-1.11-1.69-2.48-3.21-3.88-4.68-.46-.5-1.56-.99-2-.77-.81.41-1.72 1.27-1.92 2.11-.17.71-.32 1.42-.46 2.14-.42 2.16-.73 4.36-1.13 6.61.42.05.66.13.89.11 3.17-.29 5.76.79 7.84 3.21 2.26 2.63 3.85 5.99 8.06 6.9-1.81 1.75-3.29 1.72-4.85.94-1.93-.97-3.83-2.02-5.78-2.97-.89-.43-1.82-.81-2.78-1-2.02-.4-3.44.87-3.17 2.7.02.15.07.32.11.47.69 2.37 1.6 4.69 2.36 7.05.33 1 .86 1.13 1.79.77 1.22-.46 2.51-.73 3.75-1.13 2.14-.68 4.01.63 6.02.89.54.07 1.35 1.45 1.3 2.17-.25 3.34-.77 6.66-1.24 10.37.35.27 1.15.91 2.45 1.93.95-4.28 1.92-8.17 2.64-12.11.35-1.91.27-3.91.3-5.87.02-1.31-.29-2.94 1.33-3.3.56-.12 1.19.1 1.84.36.24-.01.48-.01.67 0 .57-.18 1.1-.01 1.52.39.53-.42 1.05-.8 1.61-.86.24-.03.5.02.76.13.27-.11.52-.17.76-.13.56.05 1.08.44 1.6.86.53-.51 1.18-.64 1.9-.26.75-.32 1.5-.63 2.15-.49.63.14.96.47 1.14.89.29.68.18 1.6.19 2.41.03 1.96-.05 3.96.3 5.87.73 3.94 1.69 7.83 2.65 12.11l1.33-1.06 1.12-.88c-.19-1.56-.4-3.03-.59-4.48-.26-2.01-.5-3.96-.65-5.9-.04-.46.27-1.18.64-1.66.22-.29.45-.5.65-.52 2.01-.26 3.89-1.57 6.02-.89 1.25.39 2.53.67 3.75 1.13.95.36 1.46.23 1.79-.77.77-2.36 1.68-4.68 2.38-7.05.6-2.09-.89-3.6-3.07-3.17-.95.18-1.89.57-2.77 1-1.94.94-3.84 2-5.79 2.96-1.56.78-3.04.8-4.85-.94 4.22-.91 5.8-4.27 8.07-6.9 2.09-2.43 4.66-3.5 7.83-3.22.23.02.47-.058.89-.11-.38-2.25-.7-4.45-1.12-6.61-.14-.71-.3-1.43-.46-2.14-.19-.83-1.12-1.69-1.92-2.11-.44-.22-1.53.274-2.01.77-1.38 1.47-2.76 2.99-3.86 4.68-2.61 3.98-3.92 8.72-7.18 12.323-.39.425-.76 1.06-1.22 1.16-.08.01-.14.02-.22.02-.51 0-1.08-.284-1.58-.49-.1-.046-.12-.73.04-.87 2.79-2.44 2.96-5.8 3.36-9.13.44-3.58 2.75-6.324 4.43-9.356 1.89-3.42 4.12-6.39 8.38-7.02v-6.5c-1.33-.07-2.55-.23-3.77-.18-2.17.07-4.51-.34-6.15 1.74-.18.24-1.08.33-1.16.2-.37-.626-.9-1.43-.76-2.02.06-.24.13-.47.24-.705.3-.69.76-1.35 1.17-1.99 3.22-5.004 7.67-8.375 13.48-9.98-.12-1.79-.52-3.64-.3-5.43.22-1.81.2-3.56-.03-5.24-.56-3.85-2.27-7.32-4.92-10.375-2.88-3.34-6.42-6.13-9.72-9.1zM239.72 85.498c.175-1.22.592-2.395.91-3.59.243-.9.496-1.802.736-2.702l.747.033c.154.51.45 1.03.44 1.53-.055 1.75-.165 3.51-.374 5.25-.07.55-.44 1.14-.85 1.51-.23.21-1.15.13-1.22-.05-.28-.62-.5-1.35-.4-2zm-1.44-3.59c.32 1.196.736 2.372.923 3.59.088.647-.132 1.384-.396 2-.077.175-.988.25-1.218.043-.42-.37-.79-.96-.85-1.51-.22-1.73-.32-3.49-.38-5.25-.03-.5.27-1.02.44-1.54l.75-.03.72 2.7zm-21.953-21.11c3.767-4.073 7.556-8.136 12.915-10.212 1.197-.472 2.252-1.285 3.36-1.933.297-.242.594-.473.89-.714.165.58.484 1.16.46 1.73-.01.46-.317 1.09-.69 1.32-.835.51-1.77.84-2.69 1.19-5.162 2.01-8.775 5.97-12.52 9.79-.417.43-1.274.43-1.933.62.05-.62-.13-1.45.2-1.81zm-2.13 13.07c-.022-5.557 2.372-9.5 6.666-12.432 3.305-2.263 6.6-4.536 9.85-6.886.99-.714 1.758-1.735 2.724-2.493.428-.34 1.098-.384 1.67-.56 0 .57.24 1.428-.056 1.68-2.39 2.11-4.84 4.15-7.35 6.128-2.01 1.57-4.09 3.03-6.19 4.492-3.07 2.142-5.07 4.93-5.19 8.775-.04 1.615-.93 1.384-2.11 1.296zm4.744 3.526c-.35.494-1.19.637-1.81.944-.04-.582-.26-1.218-.09-1.724 1.29-3.778 3.45-6.963 6.51-9.6 2.88-2.48 5.57-5.17 8.35-7.763.33-.29.69-.54 1.09-.85 1.1.97 1.63 1.33.24 2.85-4.04 4.44-9.78 7.22-12.55 12.86-.55 1.12-1.01 2.3-1.72 3.3zM234.4 120.2c-1.417-8.07-2.515-16.203-4.36-24.17-.473-2.04-1.24-4.02-2.108-5.97-.924-2.075-1.945-4.12-2.846-6.182-.482-1.13-1.163-2.196-1.89-3.206-1.15-1.604-1.15-2.933.233-4.37 3.93-4.11 7.84-8.25 11.87-12.27.54-.53 1.71-.395 2.6-.57-.28.746-.35 1.68-.86 2.206-3.82 4.053-7.7 8.05-11.61 12.015-.86.867-.95 1.526-.2 2.536 4.58 6.19 7.06 13.19 8.12 20.8.95 6.75 2.27 13.44 3.47 20.41-1.61 1.01-2.07.83-2.44-1.23zm5.073 1.95h-.022c-.94.11-1.16-.286-1.23-.79-.03-.276-.03-.583-.06-.857-.98-6.94-2.3-13.86-2.82-20.833-.46-6.24-2.96-11.774-4.7-17.573-.52-1.757-.45-3.074 1.09-4.535 1.77-1.69 2.99-3.978 4.45-5.998.29-.395.59-.79.89-1.186l.71.065c.05.816.42 1.848.06 2.43-1.3 2.087-2.95 3.965-4.28 6.04-.49.78-.88 1.978-.63 2.79 1.01 3.394 2.31 6.69 3.43 10.05.41 1.23.7 2.524.88 3.81.71 4.655 1.36 9.322 1.99 13.99.1.734.19 1.482.28 2.217.1-.735.18-1.483.28-2.218.63-4.67 1.28-9.336 1.99-13.993.19-1.29.48-2.58.89-3.81 1.11-3.36 2.41-6.66 3.42-10.05.24-.81-.14-2.01-.64-2.79-1.33-2.08-2.96-3.96-4.28-6.04-.35-.59.02-1.62.06-2.43.24-.02.47-.04.71-.07.3.39.61.79.89 1.18 1.46 2.02 2.67 4.3 4.45 5.99 1.54 1.46 1.61 2.77 1.09 4.53-1.74 5.8-4.25 11.33-4.71 17.57-.52 6.97-1.84 13.89-2.82 20.83-.03.27-.03.58-.07.85-.06.5-.28.9-1.23.79zm16.264-41.48c-.724 1.01-1.405 2.076-1.9 3.207-.89 2.064-1.91 4.107-2.832 6.183-.866 1.954-1.634 3.93-2.106 5.973-1.85 7.96-2.96 16.1-4.38 24.17-.36 2.067-.84 2.243-2.44 1.23 1.19-6.97 2.52-13.66 3.47-20.413 1.06-7.61 3.56-14.608 8.12-20.8.74-1.01.67-1.67-.19-2.54-3.91-3.964-7.8-7.96-11.62-12.015-.5-.527-.57-1.46-.85-2.207.88.175 2.06.042 2.59.57 4.03 4.018 7.95 8.158 11.88 12.266 1.37 1.438 1.37 2.766.23 4.37zm6.063-2.33c-.626-.306-1.46-.45-1.812-.943-.724-1-1.174-2.174-1.723-3.295-2.766-5.645-8.51-8.423-12.55-12.86-1.384-1.516-.857-1.877.23-2.845.396.308.77.56 1.087.857 2.78 2.595 5.47 5.286 8.346 7.767 3.053 2.64 5.216 5.82 6.512 9.6.165.51-.054 1.14-.088 1.73zm.813-5.764c-.12-3.844-2.12-6.633-5.185-8.775-2.098-1.46-4.195-2.92-6.205-4.49-2.515-1.97-4.963-4.02-7.357-6.13-.287-.25-.045-1.11-.045-1.68.56.18 1.23.22 1.67.56.96.76 1.73 1.78 2.72 2.49 3.25 2.35 6.56 4.63 9.86 6.89 4.3 2.93 6.69 6.88 6.67 12.43-1.17.09-2.06.32-2.12-1.29zm.185-9.96c-.648-.198-1.516-.198-1.933-.627-3.746-3.83-7.347-7.79-12.52-9.8-.91-.35-1.856-.68-2.68-1.2-.373-.23-.68-.86-.703-1.32-.025-.57.293-1.16.47-1.74.283.24.58.47.875.71 1.12.64 2.175 1.46 3.36 1.93 5.37 2.07 9.148 6.14 12.916 10.21.34.36.155 1.19.21 1.81z'},{'color':'#000','path':'M216.063 48.313c.417-2.636.966-5.315.88-7.95-.133-3.79-2.45-6.8-4.394-9.896-1.68-2.668-3.82-4.79-6.87-5.865-1.27-.45-2.52-.955-4.16-1.58-2.27 3.403-2.39 7.357-1.67 11.167.91 4.84 3.91 8.34 8.37 10.67 2.16 1.13 4.05 2.79 6.15 4.05.35.21 1.63-.3 1.69-.61zm-4.47-10.52c.968-1.802.19-2.308-1.515-2.197-.593.043-1.208-.297-1.998-.505.944-.64 2.14-1.07 2.207-1.62.077-.67-.812-1.45-1.482-2.48.374 0 .878-.15 1.054.02 2.08 2.12 3.27 4.74 4.41 8.01-1.16-.52-1.83-.82-2.68-1.22z'},{'color':'#FFF','path':'M208.805 30.983c.67 1.032 1.56 1.812 1.482 2.482-.066.55-1.263.977-2.207 1.625.79.208 1.405.55 1.998.505 1.703-.11 2.483.395 1.516 2.196.856.4 1.527.7 2.68 1.22-1.142-3.27-2.33-5.88-4.415-8-.18-.17-.69-.02-1.06-.02z'},{'color':'#FFF','path':'M214.317 55.737c.252.32.472.66.714.988-.13-.23-.26-.45-.39-.68l6.43-5.02c-.77-3.372-1.46-5.898-1.89-8.468-.49-2.954-.37-6.062-1.18-8.917-2.35-8.237-8.95-12.07-16.34-14.902-.42-.155-.91-.11-1.36-.187-1.32-.19-2.05.26-2.33 1.67-.42 2.06-1.06 4.07-1.55 6.12-1.18 5.13-1.32 10.17 1.71 14.81.86 1.32 2.02 2.43 2.87 3.74 2.04 3.15 5.08 5.26 8.26 6.8 2.15 1.02 3.69 2.34 5.09 4.07zm-6.094-10.872c-4.458-2.33-7.457-5.832-8.37-10.675-.712-3.81-.592-7.764 1.67-11.168 1.647.626 2.9 1.13 4.163 1.58 3.053 1.077 5.183 3.197 6.863 5.866 1.94 3.097 4.26 6.106 4.39 9.895.08 2.636-.46 5.315-.88 7.95-.06.31-1.34.813-1.69.605-2.1-1.264-3.99-2.922-6.15-4.053z'},{'color':'#000','path':'M284.723 26.24c-.725-2.648-1.395-5.316-2.142-7.952-.39-1.417-1.22-2.042-2.86-1.965-3.85.154-6.94 2.108-10.2 3.79-5.14 2.668-8.76 6.687-10.74 12.068-.78 2.1-1.03 4.43-1.28 6.68-.37 3.33-.52 6.69-.78 10.03-.2.09-.4.18-.6.28-2.72-2.25-5.46-4.5-8.25-6.81 1.43-5.98 1.55-12.31 1.64-18.66.1-6.75.28-13.5.33-20.27.02-.59-.64-1.18-.98-1.79-.23.04-.45.07-.68.09-.94 2.86-1.89 5.71-2.83 8.58-1.93-.93-.34-4.4-3.55-4.41-.28 1.44-.57 2.88-.85 4.31-1.05.45-.93 1.86-1.46 2.75-.51-.89-.4-2.29-1.46-2.75-.28-1.42-.56-2.86-.85-4.3-3.2.01-1.6 3.48-3.55 4.42-.94-2.86-1.89-5.72-2.83-8.57-.22-.02-.45-.05-.67-.09-.35.61-1 1.2-1 1.79.06 6.77.24 13.52.33 20.27.1 6.35.22 12.67 1.64 18.66-2.79 2.31-5.51 4.56-8.25 6.81-.2-.1-.39-.19-.59-.27-.25-3.33-.41-6.7-.79-10.02-.25-2.25-.5-4.58-1.27-6.67-1.98-5.38-5.61-9.4-10.75-12.07-3.25-1.68-6.35-3.63-10.2-3.79-1.64-.07-2.46.55-2.86 1.97-.73 2.64-1.41 5.3-2.13 7.95-1.49 5.48-1.37 10.95 1.75 15.73 3.41 5.21 7.6 9.82 13.63 12.29 2.6 1.06 4.35 4.51 3.21 6.64-1.15 2.14-1.78 4.35-2.11 6.6-.38 2.6-.35 5.26-.26 7.94.02.81-.08 1.64-.14 2.4h-2.78c.99 1.33 1.68 2.28 2.38 3.21-.52.4-.99.77-1.47 1.13.02.18.05.36.07.54 1.22.14 2.43.27 3.33.37.44 1.76.87 3.42 1.27 5.08.07.34.04.71.03 1.07-.02.76-.13 1.52-.08 2.28.06.97.37 1.96.37 2.91 0 .17-.01.34-.03.51-.65 4.87-1.43 9.72-2.2 14.57l-.03.22c-.57 3.48-1.66 6.96-1.6 10.42.03 2.17.35 4.34.7 6.51s.76 4.34.97 6.52c.25 2.66.35 5.36.26 8.04-.02.65-.05 1.29-.1 1.92-.23 3.43-.68 6.83-1.12 10.25-.14 1.13-.29 2.26-.43 3.41-.81 6.64-1.62 13.29-2.49 19.91-.19 1.49-.25 2.85.89 4.01 3.61 3.59 6.9 7.61 10.93 10.64 2.69 2.03 6.35 3.15 9.74 3.8 2.36.44 8.99 1.32 10.58 1.21 1.6.11 8.5-.55 8.69-.89.62-.1 1.26-.21 1.89-.32 3.39-.65 7.05-1.77 9.74-3.8 4.04-3.03 7.32-7.05 10.92-10.64 1.15-1.16 1.1-2.52.9-4.01-.88-6.63-1.68-13.27-2.49-19.91-.14-1.15-.28-2.28-.44-3.41-.43-3.42-.87-6.82-1.12-10.25-.04-.64-.07-1.26-.1-1.9-.08-2.69.03-5.39.28-8.06.17-1.93.52-3.85.83-5.77.41-2.41.8-4.83.84-7.26.05-3.45-1.03-6.94-1.6-10.42-.01-.07-.03-.14-.04-.22-.77-4.84-1.56-9.69-2.21-14.56-.03-.15-.04-.31-.04-.48 0-.95.32-1.95.38-2.93.05-.75-.06-1.51-.08-2.27-.01-.35-.04-.72.04-1.06.39-1.67.82-3.33 1.26-5.08.89-.1 2.11-.23 3.33-.37l.06-.54c-.47-.36-.95-.74-1.46-1.13l2.39-3.21h-2.79c-.04-.77-.16-1.6-.13-2.41.09-2.72.11-5.43-.29-8.06-.33-2.21-.96-4.37-2.1-6.48-1.14-2.13.62-5.58 3.21-6.65 6.03-2.47 10.23-7.08 13.63-12.29 3.12-4.78 3.25-10.25 1.76-15.73zm-75.49 25.434c-3.185-1.538-6.216-3.647-8.258-6.8-.846-1.306-2.01-2.415-2.866-3.732-3.04-4.634-2.9-9.675-1.72-14.804.48-2.054 1.13-4.063 1.55-6.117.28-1.41 1.01-1.86 2.34-1.66.45.08.94.03 1.36.19 7.39 2.84 13.99 6.67 16.34 14.9.81 2.86.69 5.97 1.18 8.92.43 2.57 1.12 5.1 1.89 8.47l-6.43 5.02c.13.23.26.45.39.68-.24-.33-.46-.67-.72-.98-1.41-1.72-2.95-3.04-5.09-4.06zm13.684 95.28c.725.603 1.438 1.218 2.163 1.81.484.407.978.802 1.472 1.187.91.73 1.307 1.63.594 2.56-1.604 2.06-.78 4.07-.044 6.08.33.88.89 1.66 1.35 2.48-.196.16-.395.32-.592.47-1.955-2.03-4.063-3.93-5.82-6.12-2.21-2.74-3.844-5.99-6.25-8.53-1.768-1.85-1.877-3.85-1.81-5.42.03-.76.12-1.43.064-1.94l8.873 7.45zm-4.383-7.293c1.252-.25 1.978-.4 2.713-.56.165 1 .33 2 .494 3.01-.15.05-.3.09-.47.13l-2.73-2.58zm51.407 38.18c.09.46-.3 1.13-.67 1.54-3.88 4.37-7.73 8.9-12.95 11.63-2.83 1.47-6.18 2.11-9.38 2.66-2.43.42-4.98.1-7.48.2-.7-.02-1.4-.02-2.11-.01-.04-.09-.45.01-.45.01-1.66.04-3.31.08-4.92-.19-3.19-.55-6.54-1.19-9.37-2.66-5.24-2.73-9.08-7.26-12.97-11.63-.35-.4-.75-1.07-.66-1.53.36-1.74.9-3.47 1.3-4.88 3.62 2.8 7.06 5.85 10.89 8.29 3.51 2.25 7.44 3.85 11.16 5.78.21.11.42.2.62.29-.05.17 4.86 2.61 6.53 2.25 1.68.35 12.05-4.64 11.61-4.74 2.3-1.1 4.57-2.22 6.7-3.58 3.82-2.45 7.26-5.49 10.88-8.29.39 1.42.93 3.14 1.3 4.89zm-2.89-15.79c.01.55-.75 1.13-1.2 1.67-4.35 5.24-9.45 9.57-15.3 12.93-.78.44-1.56.87-2.36 1.29-.7.35-1.41.71-2.13 1.03-2.15 1.01-4.35 1.89-6.63 2.52-3.01-.83-5.87-2.12-8.66-3.54-6.85-3.5-12.75-8.27-17.67-14.21-.44-.54-1.22-1.12-1.2-1.67.07-2.7.35-5.4.6-8.48 6.22 5.8 11.07 12.24 17.79 17.1 0 .45-.01 1.3 0 2.15.06 2.27 2.35 3.91 4.27 4.24.27.08.57.15.93.2 5.59.98 4.36 1.13 9.83.18 1.93-.33 3.33-2.35 3.37-4.61.02-.85 0-1.7 0-2.15 1.28-.92 2.46-1.91 3.62-2.92 4.98-4.36 9.14-9.48 14.19-14.18.23 3.08.51 5.78.58 8.48zm-37.71-7.47c3.92.16 6.65 5.79 4.38 9.74-1.91-1.1-4.93-7.82-4.37-9.74zm20.25 0c.56 1.92-2.45 8.65-4.36 9.74-2.28-3.95.45-9.58 4.36-9.74zm13.56-7.7c-2.4 2.54-4.04 5.79-6.26 8.54-1.75 2.2-3.86 4.1-5.81 6.13-.19-.15-.39-.32-.59-.47.45-.82 1.02-1.6 1.34-2.48.75-2.01 1.56-4.02-.03-6.07-.72-.93-.33-1.83.6-2.56.5-.39.99-.79 1.47-1.19.73-.59 1.43-1.19 2.16-1.8 3.21-2.69 6.43-5.38 8.88-7.44-.05.51.03 1.18.07 1.96.07 1.57-.04 3.56-1.8 5.42zm-5.96-4.76c.17-1.01.33-2.01.51-3 .73.16 1.45.31 2.7.56-1.26 1.2-2 1.89-2.73 2.58-.15-.04-.32-.09-.47-.13zm9.01-74.32c.23 1.68.25 3.43.04 5.24-.22 1.79.18 3.65.3 5.44-5.81 1.61-10.25 4.98-13.47 9.99-.42.64-.88 1.3-1.17 1.99-.11.23-.19.46-.24.71-.14.6.39 1.4.76 2.02.08.13.98.05 1.17-.2 1.64-2.08 3.98-1.67 6.15-1.74 1.22-.05 2.44.11 3.77.18v6.51c-4.26.64-6.49 3.6-8.38 7.03-1.68 3.03-3.98 5.78-4.42 9.36-.4 3.33-.57 6.69-3.36 9.13-.15.15-.13.83-.03.87.51.21 1.08.5 1.58.5.08 0 .15-.01.22-.02.46-.1.84-.73 1.22-1.16 3.26-3.6 4.57-8.34 7.18-12.32 1.1-1.69 2.48-3.2 3.87-4.67.47-.5 1.57-.99 2.01-.77.8.42 1.73 1.27 1.92 2.11.16.71.32 1.43.46 2.14.42 2.16.74 4.36 1.12 6.61-.42.05-.66.13-.89.11-3.17-.29-5.74.79-7.83 3.22-2.27 2.63-3.85 5.99-8.07 6.9 1.81 1.75 3.29 1.73 4.85.95 1.95-.97 3.85-2.02 5.79-2.97.88-.43 1.81-.81 2.77-1 2.19-.43 3.68 1.09 3.08 3.17-.69 2.37-1.6 4.69-2.37 7.05-.33 1-.84 1.13-1.79.77-1.22-.46-2.49-.73-3.74-1.13-2.13-.68-4.01.63-6.02.89-.19.03-.43.24-.65.52-.37.48-.68 1.2-.64 1.66.15 1.95.39 3.89.65 5.9.19 1.45.4 2.92.59 4.48-.2.17-.59.46-1.12.88l-1.32 1.05c-.96-4.28-1.92-8.17-2.65-12.11-.34-1.91-.26-3.91-.29-5.88-.01-.81.1-1.73-.19-2.41-.18-.42-.51-.75-1.13-.89-.66-.13-1.41.18-2.15.49-.73-.38-1.38-.24-1.9.26-.52-.42-1.04-.8-1.6-.86-.24-.03-.49.02-.76.13-.26-.11-.52-.16-.76-.13-.56.06-1.07.44-1.6.86-.43-.41-.95-.57-1.52-.39.41.01.58.05.13.04-.11 0-.24.07-.37.15l-.1-.03c.12-.07.23-.11.35-.14-.18-.01-.43-.01-.67 0-.64-.26-1.27-.48-1.83-.36-1.62.36-1.31 1.99-1.33 3.31-.03 1.97.06 3.97-.29 5.88-.71 3.94-1.69 7.83-2.63 12.11-1.3-1.02-2.1-1.66-2.45-1.93.47-3.71.99-7.04 1.24-10.38.06-.72-.76-2.11-1.29-2.17-2.01-.26-3.88-1.57-6.02-.88-1.24.39-2.52.67-3.74 1.13-.93.36-1.46.23-1.79-.77-.77-2.36-1.67-4.68-2.36-7.05-.04-.15-.09-.32-.11-.47-.27-1.84 1.15-3.1 3.17-2.71.96.19 1.89.57 2.78 1 1.95.94 3.85 2 5.78 2.96 1.56.78 3.04.8 4.86-.94-4.22-.91-5.8-4.27-8.06-6.9-2.09-2.42-4.67-3.5-7.84-3.22-.23.02-.47-.05-.89-.11.4-2.25.717-4.44 1.13-6.61.147-.71.29-1.43.46-2.14.2-.83 1.11-1.69 1.927-2.1.44-.22 1.54.28 2 .77 1.39 1.47 2.77 2.99 3.874 4.68 2.61 3.98 3.92 8.72 7.18 12.33.38.42.75 1.06 1.21 1.16.56.11 1.23-.23 1.8-.47.1-.05.14-.73-.03-.87-2.79-2.44-2.95-5.8-3.36-9.13-.43-3.58-2.734-6.32-4.415-9.36-1.9-3.42-4.13-6.39-8.38-7.02v-6.6c1.32-.06 2.55-.23 3.76-.17 2.17.08 4.51-.34 6.15 1.75.2.24 1.1.33 1.17.2.37-.63.89-1.43.76-2.02-.06-.24-.13-.474-.24-.705-.3-.69-.77-1.35-1.19-1.99-3.22-5.01-7.67-8.38-13.465-9.985.11-1.79.51-3.645.3-5.434-.22-1.83-.21-3.57.04-5.25.55-3.86 2.28-7.32 4.91-10.37 2.89-3.34 6.43-6.13 9.72-9.11 1.31-1.18 2.73-2.25 4.12-3.33.8-.6 1.382-.4 1.832.56 1.21 2.54 2.436 5.05 3.74 7.54.17.3.5.53.84.75v.01c0 .08.1.12.22.14.08.06.17.12.24.17l.11-.15c.71-.01 1.88-.19 2.09.14.45-.35 1.064-.63 1.306-1.09 1.29-2.49 2.54-5.01 3.73-7.55.45-.96 1.03-1.16 1.834-.56 1.4 1.08 2.81 2.15 4.12 3.33 3.29 2.98 6.84 5.77 9.72 9.1 2.64 3.05 4.36 6.52 4.92 10.38zm-5.85 21.35c-1.72.2-3.47.4-5.73.66l4.01-5.18c.66 1.75 1.2 3.17 1.73 4.53zm-41.74 0c.52-1.36 1.06-2.78 1.73-4.52 1.28 1.65 2.52 3.26 4 5.19-2.25-.26-4-.46-5.72-.66zm62.22-47.99c-.85 1.32-2.02 2.43-2.87 3.74-2.04 3.15-5.06 5.26-8.25 6.8-2.14 1.02-3.69 2.34-5.08 4.06-.26.32-.48.66-.72.99.13-.23.27-.45.4-.68-2.27-1.78-4.55-3.56-6.42-5.02.77-3.37 1.48-5.9 1.9-8.47.5-2.95.37-6.06 1.18-8.91 2.35-8.23 8.95-12.07 16.35-14.9.41-.15.9-.11 1.36-.18 1.32-.2 2.06.25 2.34 1.67.41 2.05 1.07 4.06 1.54 6.12 1.19 5.13 1.32 10.17-1.7 14.81z'}];var ZEBRA_BODY=exports.ZEBRA_BODY=[{'color':'#FFF','path':'M216.326 286.566c-4.106-2.9-8.19-5.455-12.57-7.323 4.38 1.868 8.464 4.424 12.57 7.323zM175.094 473.1c.835.835.647 2.89.77 4.918-.123-2.028.065-4.083-.77-4.917zm31.496-214.78c5.555 3.144 10.845 7.118 15.903 11.84-5.058-4.723-10.348-8.696-15.902-11.84zm63.644 199.3c6.406-.955 12.945-1.03 19.124-3.497-6.178 2.467-12.718 2.543-19.124 3.496zm3.456-200.928c6.45-3.89 12.754-7.37 19.37-10.886-6.616 3.517-12.92 6.997-19.37 10.886zm-37.898 41.938c-1.808-1.343-3.727-2.506-5.606-3.645 1.88 1.14 3.798 2.302 5.606 3.645zm21.588-9.874c-1.616.256-3.294.416-4.887 1.31 1.593-.894 3.27-1.054 4.888-1.31zm78.025 101.574c.064 2.948-.012 5.887-.215 8.83.203-2.943.287-5.873.215-8.83zM210.15 481.267c2.255.295 4.488.922 6.744 1.232-2.256-.32-4.49-.94-6.743-1.24zm2.578 8.53c-5.345-2.177-10.692-4.37-16-6.65 5.308 2.28 10.655 4.473 16 6.65zm-49.792-31.63c-3.306-5.482-6.197-11.31-9.154-17.02 2.956 5.71 5.847 11.538 9.154 17.02zm93.607 33.083c-5.643 1.58-11.334 2.604-17.11 2.89 5.776-.286 11.466-1.31 17.11-2.89zm70.497-55.612c-.703 2.022-1.108 3.895-1.944 5.51.836-1.616 1.24-3.488 1.945-5.51zm-173.258 5.51c-.835-1.617-1.24-3.488-1.944-5.51.705 2.022 1.108 3.894 1.944 5.51zm111.21 48.196c-2.816.61-5.67 1.126-8.45 1.905 2.782-.78 5.634-1.3 8.45-1.91zm26.192-17.604c-5.354 1.606-10.95 2.337-16.502 3.162 5.55-.825 11.15-1.555 16.502-3.16zm-12.786-284.06c.994 2.63 2.14 5.212 3.413 8.027-1.27-2.815-2.41-5.394-3.41-8.027zm-14.718 9.484c4.606-3.085 8.3-7.167 11.845-10.726-3.546 3.56-7.24 7.64-11.844 10.726zm-47.293-.618c5.105 3.435 10.962 5.996 17.387 8.463-6.425-2.47-12.282-5.03-17.387-8.47zm32.493 7.692c5.698-2.08 10.617-4.27 14.8-7.074-4.183 2.8-9.102 4.994-14.8 7.074zm-45.58-19.203c3.518 3.34 7.135 7.115 11.278 10.223-4.143-3.108-7.76-6.884-11.278-10.223zm8.076-5.35c4.076-.783 8.084-1.204 12.34-1.246-4.256.04-8.264.46-12.34 1.24zM245.12 246.7c1.088-1.027 2.048-2.185 3.085-3.217-1.038 1.032-1.997 2.19-3.084 3.217zm-10.6.788c-3.004-3.793-6.263-6.964-10.194-9.344 3.93 2.38 7.19 5.552 10.193 9.343zm20.373-9.355c9.49-5.914 18.432-9.16 26.38-13.605-7.948 4.445-16.892 7.69-26.38 13.605zm-59.308-13.282c9.223 4.46 19.078 7.45 28.74 13.3-9.662-5.85-19.517-8.84-28.74-13.29zm82.813-37.17c-.79-2.1-1.55-2.31-2.45-1.61.9-.69 1.656-.48 2.45 1.62zm-47.778 35.77c-7.336-4.66-14.156-9.26-20.294-14.25 6.137 5 12.956 9.6 20.295 14.26zm6.67 5.44c-2.133-1.67-4.285-3.91-6.67-5.43 2.384 1.52 4.537 3.76 6.67 5.43zm-33.99-43.85c-.62-.58-1.202-.92-1.797-.8.595-.11 1.177.22 1.797.8zm-33.29 258.39c2.368.98 4.882 1.99 6.85 3.66-1.968-1.67-4.482-2.68-6.85-3.65zm154.775-61.17c3.005-1.85 6.11-3.55 9.33-5.43-3.22 1.88-6.325 3.58-9.33 5.43zm-31.455 17.28c6.907-4.48 13.912-8.87 18.82-16.17-4.908 7.3-11.912 11.69-18.82 16.18zm37.91-33.61c-4.892 4.26-9.87 8.4-14.735 12.68 4.866-4.27 9.843-8.42 14.736-12.67zm-13.132-42.66c1.284 2.18 2.437 4.13 3.426 6.01-.99-1.88-2.14-3.83-3.426-6.01z'},{'color':'#FFF','path':'M321.534 329.268c.98 1.86 1.814 3.646 2.395 5.43-.59-1.784-1.42-3.57-2.4-5.43zm-18.168 28.697c6.277-4.937 11.87-11.03 16.885-17.165-5.01 6.135-10.6 12.228-16.88 17.165zm-114.012 90.583c-5.237-2.38-10.195-5.52-15.346-8.166 5.15 2.646 10.11 5.785 15.346 8.166zm-26.98-69.948c1.586 1.4 3.153 2.97 4.356 4.758-1.203-1.788-2.77-3.36-4.356-4.758zm173.03 11.73c-.083-4.42-.49-8.892-1.29-13.506.8 4.614 1.196 9.1 1.29 13.506zm-141.617 36.22c-1.985.493-3.395.383-4.805-1.257 1.41 1.64 2.82 1.75 4.805 1.257zm99.733-128.814c3.513-2.176 6.24-5.417 9.142-8.54-2.903 3.123-5.63 6.365-9.143 8.54zm-27.265 25.024c4.605-4.373 8.744-8.807 12.587-13.074-3.843 4.266-7.982 8.7-12.587 13.075zm42.462-8.14c-1.126 2.987-2.346 5.99-3.74 8.985 1.394-2.996 2.614-5.998 3.74-8.984zm-135.754 9.196c2.628 4.415 5.4 9.015 9.55 12.466-4.15-3.45-6.92-8.053-9.55-12.466zM315.31 388.44c1.743-1.292 3.556-2.483 5.39-3.645-1.834 1.162-3.647 2.354-5.39 3.645zm-160.58-53.7c.466-1.762 1.145-3.518 1.943-5.34-.8 1.824-1.477 3.58-1.942 5.34zm1.943-5.34c.803-1.835 1.74-3.742 2.75-5.862-1.008 2.12-1.947 4.025-2.75 5.862zm5.7 49.2c-4.865-4.292-9.843-8.424-14.736-12.677 4.893 4.253 9.868 8.387 14.737 12.677zm10.59-54.784c-1.74-2.92-3.418-5.828-5.036-8.72 1.617 2.892 3.296 5.8 5.036 8.72zm-.713 71.35c2.115 1.664 4.232 3.318 6.388 4.9-2.156-1.582-4.273-3.236-6.388-4.9zm110.557-116.513c4.993-2.527 9.878-5.45 14.645-9.48-4.767 4.03-9.652 6.953-14.645 9.48zm-104.67 140.43c3.314 1.5 6.907 2.54 9.7 5.042-2.793-2.503-6.385-3.542-9.7-5.042zm-19.245-33.838c1.59 1.02 3.16 2.073 4.674 3.195-1.515-1.122-3.084-2.176-4.674-3.195zm15.116 55.137c-8.087-4.155-16.277-8.138-23.16-14.596 6.882 6.46 15.073 10.442 23.16 14.596zm28.572-118.778c5.11 3.46 10.156 7.533 15.54 11.374-5.385-3.842-10.43-7.916-15.54-11.374zm17.016 7.89c-2.265-2.354-4.615-4.577-6.933-6.71 2.318 2.133 4.668 4.356 6.933 6.71zm-6.932-6.712c-1.415-1.303-2.797-2.608-4.166-3.91 1.37 1.302 2.75 2.607 4.166 3.91z'},{'color':'#FFF','path':'M269.3 180.688c-3.425-1.005-7.04-1.637-11.2-1.842-2.372-.115-4.95.613-7.73.692-1.04.04-2.097-.2-3.2-.44-3.308.25-14.557.333-15.874.26-2.665-.145-5.16-.943-7.58-.92-4.254.043-8.263.463-12.34 1.246 7.75 5.84 16.638 12.287 28.823 16.523 12.4-3.916 21.8-10.01 29.1-15.52z'},{'color':'#FFF','path':'M210.326 209.19c6.138 4.993 12.958 9.596 20.295 14.257 2.39 1.515 4.54 3.756 6.67 5.43.87.774 1.31 1.158 2.19 1.918.89-.757 1.34-1.14 2.25-1.91 2.22-1.668 4.57-3.903 7.05-5.41 7.63-4.638 14.23-9.168 19.8-13.917 2.61-2.22 4.95-4.646 7.15-6.99 2.12-2.26 4.11-4.56 6.11-6.862-1.27-2.815-2.41-5.396-3.41-8.027-.79-2.1-1.55-2.32-2.45-1.62-.14.1-.28.23-.42.37-3.54 3.56-7.24 7.64-11.84 10.72-4.18 2.8-9.1 4.99-14.8 7.07-.81.29-1.64.59-2.49.88-2.09.72-4.5 1.1-6.42-.23-2 1.29-4.21.87-6.19.11-6.42-2.47-12.28-5.03-17.38-8.47-.61-.42-1.21-.85-1.81-1.29-4.14-3.11-7.76-6.89-11.27-10.23-.62-.59-1.2-.92-1.79-.8s-1.2.68-1.88 1.89c-1.46 2.63-3.05 5.26-4.73 8.18 2.43 2.5 4.81 5 7.31 7.44 2.59 2.52 5.26 5.11 8.12 7.44zm78.702 2.122c-1.448-3.434-2.863-6.876-4.293-10.597-3.737 4.66-6.89 10.286-10.21 16.93 4.94-2.073 9.51-4.15 14.503-6.333z'},{'color':'#FFF','path':'M209.947 246.022c9.956 6.104 18.635 15.03 27.78 22.828 1.363 1.598 1.834 1.57 1.892 1.727.67-.595 1.6-1.774 1.64-1.723 1.16-.933 2.3-1.89 3.44-2.86 7.95-6.81 15.46-14.408 23.79-20.184 7.46-5.174 14.95-9.447 23.09-12.08 1.16-.377 2.34-.72 3.53-1.026-.24-1.1-.49-2.188-.75-3.264-.8-3.24-1.71-6.434-2.7-9.75-3.55 1.63-7.01 2.947-10.4 4.84-7.95 4.445-16.89 7.69-26.38 13.605-2.33 1.452-4.58 3.257-6.69 5.35-1.04 1.032-2 2.19-3.09 3.217-1.03.973-2.29 1.907-2.93 3.293-.02-.09-.02-.18-.03-.26-.32.39-2.7 3.822-2.46 4.173 0-.013-2.88-3.87-2.88-3.87-.62-.676-1.53-1.562-2.32-2.55-3.01-3.79-6.27-6.962-10.2-9.342-9.66-5.848-19.52-8.84-28.74-13.294-3.94-1.902-8.03-3.23-12.27-4.92-1.03 3.56-1.96 6.962-2.82 10.325-.28 1.117-.56 2.236-.82 3.353 10.94 2.242 20.9 6.667 30.27 12.412z'},{'color':'#FFF','path':'M176.055 264.242c4.23 2.158 8.206 4.606 12.09 7.244 4.357 2.957 9.03 5.254 13.718 7 .638.238 1.27.49 1.895.758 4.378 1.868 8.462 4.423 12.57 7.323 3.783 2.67 7.9 4.844 11.976 7.294.625.38 1.253.75 1.883 1.13 1.88 1.14 3.8 2.3 5.606 3.65 1.215.91 2.016 2.54 3.125 3.97 3.237-3.43 4.926-5.14 8.092-8.6 1.81-1.41 3.584-2.85 5.483-3.92 1.592-.89 3.27-1.05 4.888-1.31.24-.03.47-.07.69-.12 1.05-.19 1.99-.58 2.91-1.1.55-.32 1.08-.67 1.61-1.07 4.42-3.38 8.66-6.34 13.18-8.36 4.16-1.85 8.22-4.25 12.01-7.33 3.37-2.73 6.81-5.27 10.54-7.51.44-.26 1.02-1.21.98-1.73-.42-4.93-.9-9.82-1.5-14.7-.07-.67-.83-1.61-1.3-1.63-1.14-.06-2.36.06-3.41.62-6.61 3.52-12.92 7-19.37 10.89-5.75 3.47-11.39 7.98-17.02 13.44-3.37 3.27-6.82 6.71-10.59 9.92-1.56 1.33-3.33 2.47-5.26 3.83-.33.9-.62.82-1.1 3.37-.39-1.66-.23-1.65-1-2.97-2.12-1.56-3.96-2.78-5.62-4.24-3.66-3.22-7.12-6.63-10.59-9.87-5.06-4.72-10.35-8.7-15.9-11.84-.79-.45-1.59-.88-2.39-1.3-7.22-3.73-14.55-7.01-22.15-10.36-1.21-.53-2.61-.62-3.92-.53-.54.03-1.4.99-1.48 1.66-.68 4.89-1.24 9.8-1.71 14.74-.05.52.62 1.45 1.12 1.71z'},{'color':'#FFF','path':'M324.785 382.256c-1.363.84-2.73 1.684-4.085 2.54-1.833 1.16-3.646 2.353-5.39 3.645-5.078 3.77-9.962 7.9-15.07 11.63-1.717 1.26-4.068 1.48-5.775 2.74-4.976 3.67-10.75 3.29-16.275 4.21-.417.07-.907-.49-1.372-.76.275-.48.465-1.07.848-1.4.43-.33 1.038-.6 1.575-.59.65.02 1.29 0 1.92-.06 4.41-.35 8.4-2.21 12.18-4.66 6.91-4.48 13.91-8.88 18.82-16.18 1.21-1.78 2.76-3.35 4.36-4.75 4.87-4.27 9.85-8.42 14.74-12.68.42-.36.87-1.2.77-1.67-1.37-6.08-2.84-12.13-4.29-18.19-.04-.19-.16-.36-.16-.33-6.52 5.41-12.82 10.8-19.32 15.93-5.52 4.37-11.68 7.59-17.99 10.43-4.15 1.87-8.28 3.8-12.44 5.6-.63.28-1.44.04-2.17.04-.1-.22-.19-.45-.29-.67 2.14-1.93 4.08-4.2 6.44-5.72 5.18-3.32 10.59-6.19 15.86-9.36 1.98-1.19 3.91-2.56 5.74-4 6.28-4.94 11.87-11.03 16.89-17.17.72-.88 1.42-1.75 2.12-2.63.79-.99 1.89-2.46 1.57-3.47-.58-1.78-1.41-3.57-2.4-5.43-.99-1.88-2.14-3.83-3.43-6-4.23 3.66-8.38 6.82-12.79 10.11-3.02 2.25-6.06 4.82-9.46 7.05-.94.63-2.37 2.01-3.24.18-.24-.49 1-2.31 1.89-2.91 5.18-3.55 8.07-8.89 10.49-14.07 1.39-2.99 2.61-6 3.74-8.98.55-1.44 1.93-2.69 1.54-4.26-.79-3.15-2.5-6.48-3.67-9.89-.38.3-.61.38-.71.59-2.86 5.36-7.45 8.13-12.63 10.18-5.95 2.36-11.35 6.12-17.14 10.3-5.56 4.02-11.3 8.8-17.62 13.09-.76.52-1.83.52-2.75.75-.13-.27-.26-.56-.4-.84 1.37-1.68 2.58-3.52 4.04-5.02 2.28-2.35 4.62-4.58 6.89-6.73 4.6-4.38 8.74-8.81 12.59-13.08 1.53-1.71 3.44-2.84 5.12-4.2 2.85-2.3 5.44-4.91 8.31-6.93.41-.29.82-.56 1.25-.82 3.51-2.18 6.24-5.42 9.14-8.54-1.55-7.7-1.54-14.89-2.17-22.35-.31.15-.7.26-1 .54-.68.62-1.36 1.22-2.04 1.8-4.76 4.03-9.65 6.95-14.64 9.48-4.51 2.28-9.01 4.73-13.57 7.53-2.33 1.43-4.75 2.94-7.2 4.46-3.84 2.4-7.86 4.83-12.17 7.11-2.5 1.31-4.62 3.18-5.4 6.2-1.17 4.58-2.12 9.23-2.98 13.89-.16 3.02-.47 6.06-.64 9.08-.04.61-.82 1.16-1.26 1.74l-.17-.18c-.04.06-.12.13-.17.18-.43-.57-1.21-1.13-1.24-1.74-.16-3.02-.46-6.05-.6-9.08-.79-4.65-1.66-9.32-2.78-13.9-.73-3.02-2.8-4.88-5.3-6.19-7.04-3.69-13.6-7.78-20.18-11.34-5.02-2.71-10.12-5.02-15.3-7.18-6.54-2.73-12.99-5.97-19.13-10.84-.34-.27-.79-.37-1.14-.51-.72 7.47-1.03 14.73-2.31 22.37l1.29 1.14c3 2.66 6.05 5.27 9.66 7.07 3.98 1.98 7.5 4.89 11.24 7.42 1.93 1.31 4.05 2.4 5.78 4.06 3.03 2.91 6.11 5.92 9.29 8.95 1.37 1.3 2.75 2.61 4.17 3.91 2.32 2.13 4.67 4.36 6.93 6.71 1.45 1.5 2.64 3.34 3.98 5.02-.13.28-.26.57-.39.84-.91-.23-1.97-.23-2.73-.75-.78-.54-1.56-1.08-2.33-1.63-5.38-3.84-10.43-7.91-15.54-11.37-6.06-4.1-12.03-7.74-18.66-9.97-5.76-1.94-11.09-4.56-14.96-9.72-.15-.2-.42-.28-.86-.56-.81 3.34-2.1 6.57-2.44 9.63-.17 1.52 1.49 2.72 2.27 4.11 1.62 2.89 3.29 5.8 5.04 8.72 2.63 4.41 5.4 9.02 9.55 12.47.6.49 1.22.96 1.87 1.4.9.6 2.13 2.42 1.9 2.91-.88 1.83-2.3.44-3.26-.18-3.4-2.23-6.48-4.78-9.64-7-4.61-3.24-9.11-6.32-13.95-9.87-1.01 2.12-1.95 4.03-2.75 5.86s-1.48 3.58-1.94 5.34c-.26 1 .92 2.45 1.74 3.44 5.78 6.95 11.84 14.15 19.03 19.79 1.85 1.45 3.76 2.82 5.75 4.01 5.26 3.15 10.68 6.04 15.86 9.36 2.36 1.52 4.31 3.79 6.44 5.72-.1.22-.19.45-.3.67-.73 0-1.54.23-2.16-.04-4.18-1.8-8.29-3.73-12.44-5.6-6.31-2.84-12.47-6.05-18-10.42-6.49-5.14-12.8-10.53-19.32-15.93 0 0-.13.14-.18.33-1.44 6.06-2.91 12.11-4.28 18.19-.11.47.35 1.31.76 1.67 4.9 4.25 9.87 8.39 14.74 12.68 1.59 1.4 3.15 2.97 4.36 4.76 4.91 7.3 11.91 11.69 18.82 16.17 4.31 2.8 8.91 4.82 14.09 4.72.52-.02 1.14.26 1.56.59.39.32.57.92.85 1.4-.46.27-.96.83-1.36.76-5.53-.92-11.3-.54-16.28-4.21-1.71-1.25-4.07-1.48-5.78-2.73-2.16-1.58-4.27-3.23-6.39-4.9-2.88-2.27-5.75-4.55-8.68-6.72-1.52-1.12-3.09-2.18-4.68-3.19-1.59-1.02-3.2-2.01-4.79-2.99-3.01-1.86-6.11-3.55-9.33-5.43-.81 4.59-1.21 9.04-1.3 13.45-.06 2.98.02 5.92.22 8.88.04.56.72 1.46 1.16 1.5 6.34.62 11.89 4.09 17.91 5.76.89.24 1.77.52 2.64.81 6.08 2.07 11.64 5.3 17.02 8.97 3.44 2.34 6.72 4.96 10.03 7.53.75.58 1.31 1.49 2.24 2.56-.31.1-.6.18-.88.25-1.98.49-3.39.38-4.8-1.26-.37-.42-.75-.81-1.15-1.17-2.79-2.51-6.39-3.54-9.7-5.04-5.31-2.4-10.51-5.23-15.97-7.06-5.36-1.8-10.89-3.52-16.9-3.56.17 1.29.24 2.34.44 3.38.53 2.63 1.25 5.24 1.64 7.91.05.32.11.63.19.95.53 2.1 1.72 3.58 3.32 5.08 6.89 6.46 15.08 10.44 23.16 14.6 5.15 2.64 10.11 5.78 15.35 8.16 4.42 2.01 9.13 3.34 13.75 4.84 2.75.9 5.6 1.49 8.38 2.33.53.17.9.9 1.34 1.36-.49.35-1.04 1.08-1.46 1-7.25-1.45-14.78-1.15-21.85-3.97-4.48-1.79-8.82-3.77-12.66-7.04-1.97-1.67-4.48-2.68-6.85-3.65-4.43-1.82-8.98-3.37-13.43-5.16-1.52-.61-2.9-1.59-4.74-2.63.71 2.02 1.11 3.89 1.95 5.51 2.96 5.71 5.85 11.54 9.16 17.02.33.58.67 1.14 1.03 1.71 1.3 2.09 4.03 3.36 6.32 4.43 5 2.36 10 4.91 15.17 6.71.74.26 1.48.5 2.23.72 5.35 1.61 10.95 2.34 16.5 3.16.79.12 1.58.24 2.37.37 4.12.65 7.72 2.5 11.1 4.98.39.28.54.95.8 1.43-.53.3-1.09.9-1.58.83-2.25-.31-4.49-.93-6.74-1.23-4.58-.6-9.19-1.06-13.78-1.58-2-.22-4.01-.45-6-.69l-.21.62c2.18 1.2 4.31 2.56 6.57 3.53 5.31 2.28 10.66 4.47 16 6.65.7-.3.96-.5 1.15-.45 2.83.61 5.68 1.13 8.46 1.91 5.65 1.58 11.34 2.6 17.1 2.89 5.78-.29 11.47-1.31 17.11-2.89 2.78-.78 5.64-1.3 8.45-1.91.21-.05.46.16 1.16.46 5.35-2.17 10.7-4.36 16.01-6.65 2.26-.97 4.38-2.33 6.58-3.52l-.21-.62c-2 .24-4.01.46-6.01.69-4.57.52-9.19.98-13.77 1.58-2.27.3-4.49.92-6.76 1.23-.48.07-1.04-.53-1.57-.82.26-.48.42-1.15.8-1.43 3.39-2.47 6.98-4.33 11.11-4.98l2.37-.36c5.55-.83 11.15-1.56 16.5-3.16.75-.23 1.49-.47 2.23-.73 5.17-1.8 10.16-4.36 15.16-6.7 2.3-1.08 5.04-2.34 6.34-4.43.46-.75.93-1.5 1.38-2.27 3.15-5.32 5.95-10.94 8.81-16.46.84-1.61 1.24-3.48 1.95-5.51-1.85 1.04-3.22 2.03-4.74 2.64-4.46 1.79-9 3.33-13.43 5.16-2.37.98-4.89 1.99-6.85 3.66-3.83 3.27-8.17 5.25-12.66 7.04-6.18 2.47-12.72 2.54-19.12 3.5-.91.14-1.83.29-2.73.47-.41.08-.95-.65-1.44-1 .44-.47.81-1.19 1.32-1.36 2.78-.84 5.63-1.44 8.4-2.33 4.61-1.5 9.32-2.84 13.75-4.85 5.23-2.38 10.19-5.52 15.34-8.17 1.01-.52 2.02-1.04 3.03-1.55 7.08-3.64 14.1-7.4 20.12-13.04 1.6-1.51 2.79-2.98 3.31-5.08.09-.32.15-.63.19-.95.39-2.67 1.11-5.28 1.63-7.91.21-1.04.28-2.09.44-3.38-.75 0-1.5.03-2.23.09-5.17.37-9.98 1.89-14.67 3.46-5.47 1.83-10.67 4.66-15.97 7.06-3.78 1.72-7.94 2.83-10.84 6.21-1.61 1.88-3.22 1.75-5.69 1.01.92-1.07 1.48-1.98 2.24-2.56 3.31-2.57 6.59-5.19 10.03-7.53 6.14-4.19 12.53-7.81 19.65-9.79 6.03-1.67 11.58-5.13 17.91-5.753.44-.04 1.12-.94 1.16-1.5.2-2.94.28-5.88.21-8.83-.1-4.4-.49-8.89-1.29-13.5-3.22 1.88-6.33 3.58-9.33 5.43z'},{'color':'#000','path':'M337.254 390.293c-.072-3.423-.184-6.836-.323-10.24-.13-3.3-.5-6.616-.93-9.89-.25-1.968-.82-3.893-1.27-5.82-.88-3.717-1.69-7.474-2.68-11.162-.7-2.6-1.42-5.22-2.13-7.83-1.51-5.52-3.32-11.07-6.41-16.81-.67-1.23-1.36-2.46-2.09-3.7-2.83-4.87-5.95-9.84-8.85-14.76-.82-1.39-1.28-2.91-1.95-4.36-.86-1.85-1.7-3.72-2.46-5.56-2.78-6.71-4.12-13.25-4.76-19.7-.36-3.64-.52-7.34-.89-10.99-.1-1.01-.22-2.03-.36-3.03-.25-1.92-.55-3.85-.8-5.77-.63-4.78-1.15-9.57-1.86-14.32-.14-.99-.31-1.98-.47-2.96-.83-4.88-1.74-9.59-3.03-14.6-.57-2.2-1.2-4.46-1.82-6.79-1.72-6.42-4.15-12.84-6.78-18.92-1.33-3.1-3-6.04-4.31-9.15-2.08-4.93-3.99-8.96-7.74-12.86-1.06-1.1-2.07-2.26-3.32-3.15-2.13-1.5-5.32-.97-8.3-.99-3.33-.02-7.02.64-11.22.85-1.53.08-3.15-.35-4.84-.42-.64-.03-1.32.33-1.98.51v.04c-3.97-.23-11.16-.65-11.61-.64-1.57.04-3.13.42-4.6.31-4.04-.32-7.74-1.1-11.3-1.24-3.18-.12-6.66-.75-9.44.5-1.5.68-2.87 1.15-4.24 2.09-4.97 3.41-7.98 8.75-11.08 13.77-1.82 2.96-3.74 6-5.36 9.34-3.14 6.51-5.7 13.55-7.43 20.43-.63 2.49-1.26 4.91-1.86 7.2-1.37 5.23-2.46 9.87-3.41 14.76-.19.99-.37 1.97-.53 2.97-.8 4.76-1.39 9.58-2.1 14.37-.29 1.93-.62 3.86-.9 5.79-.15 1.01-.3 2.03-.41 3.04-.41 3.66-.59 7.36-1 11.01-.72 6.45-1.88 12.96-3.95 19.52-.57 1.8-1.19 3.62-1.81 5.43-.49 1.41-.73 2.87-1.37 4.23-2.25 4.8-4.68 9.6-6.92 14.35-.57 1.21-1.13 2.41-1.66 3.62-2.48 5.61-4.13 11.14-5.64 16.66-.72 2.61-1.44 5.23-2.14 7.83-.99 3.69-1.8 7.44-2.68 11.16-.45 1.93-1.02 3.85-1.28 5.82-.43 3.28-.79 6.59-.93 9.89-.14 3.4-.24 6.8-.32 10.19-.06 3.07-.12 6.14-.16 9.22-.03 2.08.09 4.21.49 6.23 1.03 5.21 2.25 10.38 3.34 15.59.07.27.12.53.17.8 2.48 11.86 6.43 23.08 12.78 33.18.91 1.44 1.82 2.89 2.71 4.35.75 1.19 1.41 2.5 2.28 3.58 1 1.23 2.22 2.3 3.34 3.42-2.3.05-4.49-.24-6.56-.89-6.67-2.11-13.37-4.25-19.99-6.55-1.72-.6-3.47-1.18-5.18-1.84-1.72-.67-3.39-1.44-4.94-2.38-6.01-3.67-11.69-8-17.61-11.84-6.14-3.98-11.16-9.21-15.33-15.47-2.58-3.86-5.18-7.71-7.75-11.57-4.41-6.61-8.94-13.19-13.23-19.89-1.96-3.06-3.47-6.47-5.18-9.72-.25.09-.51.2-.76.29.47 1.56.93 3.1 1.54 5.12-1.24-1.46-2.1-2.49-2.97-3.53-.18.17-.36.34-.52.51 4.26 7.13 8.52 14.26 12.79 21.39-.22.16-.42.3-.63.44-5.77-6.58-9.66-14.56-13.43-22.61-.29.17-.59.34-.87.5 2.1 5.12 4.2 10.23 6.31 15.35-.05.06-.1.14-.14.21-2.38-3.02-4.77-6.03-7.15-9.05-.32.77-.25 1.25-.09 1.69 1.77 4.6 5.49 7.44 8.5 10.87 1.31 1.49 2.62 2.98 3.94 4.47-.16.17-.33.34-.51.5-5.12-4.98-10.22-9.96-15.34-14.94-.08.06-.15.13-.22.19.28.65.55 1.32 1.03 2.46l-2.76-1.64c-.19.23-.37.47-.55.71 3.51 3.8 6.98 7.66 10.55 11.39 3.57 3.73 7.25 7.35 10.87 11.02-9.31-5.7-15.6-15.59-25.2-20.99.13.74.44 1.31.89 1.72 3.45 3.27 6.9 6.54 10.38 9.73 5.07 4.64 9.97 9.63 15.37 13.79 8.98 6.9 18.33 13.28 27.54 19.8 3.08 2.18 6.41 3.97 9.51 6.14 5.19 3.62 8.81 9.33 14.26 12.74.75.46 1.51.93 2.27 1.37 4.21 2.54 8.52 4.71 13.22 6.12 7.59 2.28 15.17 4.75 22.61 7.56 5.54 2.09 10.73 5.4 16.35 7.13 6.43 1.99 13.18 2.81 19.78 4.17.77.16 1.51.41 2.23.65 4.42 1.48 8.74 3.55 13.25 4.33 5.5.96 11.1 1.38 16.65.98 5.56.4 11.16-.01 16.66-.97 4.51-.79 8.83-2.85 13.23-4.33.74-.25 1.48-.5 2.23-.65 1.23-.26 2.45-.48 3.68-.71 4.37-2.38 8.75-4.75 13.11-7.13.11-.25.26-.5.43-.6 2.59-1.72 5.23-3.38 8.06-5.2l15.48-10.82c1.12-1.12 2.34-2.19 3.34-3.42.87-1.07 1.53-2.38 2.28-3.57.1-.18.22-.36.33-.54.78-1.27 1.58-2.54 2.37-3.8 6.35-10.06 10.3-21.31 12.76-33.17.06-.27.11-.53.18-.8 1.1-5.21 2.33-10.37 3.35-15.59.4-2.02.51-4.15.48-6.22-.05-3.05-.09-6.1-.16-9.16zM136.47 463.87c-2.504-1.827-4.903-3.577-7.29-5.328.096-.208.19-.413.284-.608 1.516.598 3.045 1.18 4.596 1.788 1.038.402 2.087.816 3.16 1.23-.225.882-.428 1.66-.75 2.918zm11.036 5.51c-2.218-.906-4.307-1.764-6.383-2.62 1.026-3.512 1.562-3.81 4.463-2.565 1.05.44 2.076.934 3.353 1.516-.51 1.26-.94 2.38-1.44 3.67zm14.08 1.957c-.2.52-.94 1.258-1.286 1.167-2.042-.493-4.047-1.206-6.1-1.84.573-2.606 1.52-3.553 3.628-2.53 1.145.557 2.445.74 3.807 1.117 0 .76.178 1.52-.048 2.09zm123.15-270.622c1.43 3.72 2.844 7.163 4.292 10.597-4.993 2.183-9.562 4.26-14.504 6.333 3.32-6.644 6.474-12.27 10.21-16.93zm-61.02-22.276c2.42-.03 4.915.77 7.58.91 1.316.07 12.565-.01 15.874-.26 1.103.24 2.16.48 3.2.44 2.778-.08 5.357-.81 7.73-.69 4.16.2 7.773.83 11.2 1.84-7.3 5.51-16.7 11.6-29.102 15.52-12.186-4.24-21.072-10.69-28.822-16.53 4.076-.78 8.084-1.21 12.34-1.25zm-24.098 7.69c.678-1.21 1.288-1.78 1.885-1.9.595-.12 1.177.21 1.797.8 3.518 3.34 7.135 7.11 11.278 10.22.592.44 1.194.87 1.81 1.29 5.104 3.43 10.96 5.99 17.386 8.46 1.975.76 4.19 1.18 6.19-.11 1.927 1.33 4.336.95 6.426.22.846-.3 1.675-.59 2.49-.89 5.697-2.08 10.616-4.27 14.8-7.08 4.605-3.09 8.298-7.17 11.844-10.73.145-.15.285-.27.423-.38.9-.7 1.66-.49 2.45 1.61.998 2.63 2.14 5.21 3.413 8.03-2 2.3-3.983 4.6-6.104 6.86-2.2 2.34-4.542 4.77-7.144 6.98-5.567 4.75-12.166 9.28-19.797 13.91-2.48 1.5-4.828 3.74-7.047 5.41-.908.77-1.356 1.15-2.246 1.91-.88-.76-1.316-1.15-2.183-1.92-2.14-1.68-4.29-3.92-6.67-5.43-7.34-4.67-14.16-9.27-20.3-14.26-2.86-2.33-5.54-4.92-8.13-7.44-2.5-2.44-4.89-4.93-7.31-7.44 1.68-2.92 3.26-5.55 4.72-8.18zm-8.446 13.41c4.623 5.09 8.425 11.13 12.188 18.04-5.652-2.14-11.162-4.33-17.235-6.69 1.623-3.71 3.26-7.41 5.047-11.36zm-7.855 20.39c4.238 1.69 8.33 3.02 12.268 4.92 9.223 4.45 19.078 7.44 28.74 13.29 3.933 2.38 7.19 5.55 10.194 9.34.78.98 1.69 1.87 2.31 2.55 0 0 2.88 3.85 2.88 3.87-.25-.35 2.14-3.79 2.46-4.18.01.08.01.17.02.26.64-1.39 1.89-2.32 2.92-3.3 1.08-1.03 2.04-2.19 3.08-3.22 2.1-2.1 4.36-3.9 6.69-5.35 9.48-5.92 18.43-9.16 26.38-13.61 3.38-1.89 6.84-3.21 10.39-4.84.99 3.31 1.9 6.51 2.7 9.75.26 1.07.52 2.16.75 3.26-1.19.3-2.37.65-3.53 1.02-8.14 2.63-15.63 6.91-23.09 12.08-8.33 5.78-15.84 13.37-23.8 20.18-1.14.97-2.28 1.93-3.44 2.86-.04-.05-.97 1.13-1.65 1.72-.06-.16-.53-.13-1.9-1.73-9.15-7.8-17.83-16.72-27.78-22.83-9.37-5.75-19.34-10.17-30.27-12.42.26-1.12.54-2.24.82-3.36.86-3.37 1.79-6.77 2.82-10.33zm-5.186 26.2c1.31-.1 2.72 0 3.92.52 7.6 3.34 14.93 6.63 22.15 10.35.81.41 1.61.85 2.4 1.3 5.56 3.14 10.85 7.11 15.91 11.84 3.48 3.24 6.93 6.65 10.59 9.87 1.67 1.46 3.51 2.68 5.63 4.24.77 1.31.61 1.31 1 2.97.48-2.56.78-2.48 1.1-3.37 1.93-1.36 3.7-2.5 5.27-3.83 3.78-3.21 7.23-6.65 10.6-9.92 5.63-5.46 11.27-9.98 17.02-13.44 6.45-3.89 12.76-7.37 19.37-10.89 1.05-.56 2.27-.68 3.42-.62.47.02 1.23.96 1.3 1.63.6 4.88 1.09 9.77 1.51 14.7.04.52-.54 1.47-.98 1.73-3.72 2.24-7.16 4.79-10.53 7.52-3.79 3.07-7.85 5.48-12 7.33-4.52 2.02-8.75 4.98-13.17 8.36-.53.4-1.05.75-1.6 1.08-.92.51-1.86.9-2.91 1.1-.23.04-.46.08-.69.11-1.61.25-3.29.41-4.89 1.31-1.9 1.06-3.67 2.51-5.48 3.92-3.16 3.46-4.85 5.18-8.09 8.61-1.11-1.43-1.91-3.06-3.12-3.96-1.81-1.34-3.72-2.51-5.6-3.65-.63-.38-1.25-.75-1.88-1.13-4.07-2.45-8.19-4.62-11.97-7.29-4.11-2.9-8.19-5.46-12.57-7.32-.62-.27-1.26-.52-1.89-.76-4.68-1.75-9.36-4.05-13.71-7-3.88-2.64-7.86-5.09-12.09-7.25-.5-.25-1.17-1.19-1.12-1.7.47-4.94 1.03-9.85 1.71-14.74.09-.68.94-1.63 1.49-1.67zm-11.34 228.51c.24-.64.36-1.17.6-1.62.54-.98 1.38-2.8 1.66-2.71l.81.24c1.9.57 3.9 1.2 5.24 2.54.84.83.65 2.89.77 4.91.02.29.04.58.08.86-3.16-1.47-6.12-2.84-9.15-4.24zm23.83 9.22c-.13.37-.82.88-1.08.78-2.34-.9-4.82-1.62-6.86-3.05-.92-.65-.95-2.8-1.53-4.76 3.18 2.03 6.09 3.86 8.97 5.77.31.21.63.95.51 1.26zm144.57-84.71c-.03.55-.71 1.46-1.15 1.5-6.33.62-11.88 4.08-17.91 5.75-7.12 1.97-13.51 5.59-19.65 9.78-3.43 2.34-6.71 4.96-10.02 7.53-.76.58-1.32 1.49-2.24 2.56 2.47.74 4.08.86 5.69-1.01 2.9-3.39 7.07-4.5 10.85-6.21 5.3-2.4 10.5-5.24 15.97-7.07 4.7-1.57 9.51-3.08 14.67-3.46.74-.06 1.49-.09 2.24-.09-.16 1.3-.24 2.35-.44 3.38-.52 2.63-1.24 5.24-1.63 7.91-.04.32-.1.63-.19.94-.52 2.1-1.71 3.58-3.31 5.08-6.02 5.65-13.04 9.41-20.12 13.04l-3.03 1.56c-5.15 2.64-10.1 5.78-15.34 8.16-4.42 2.01-9.13 3.35-13.74 4.84-2.76.89-5.62 1.49-8.4 2.33-.51.17-.88.89-1.32 1.36.49.35 1.04 1.07 1.44 1 .91-.19 1.82-.34 2.74-.47 6.41-.95 12.95-1.03 19.13-3.5 4.48-1.79 8.82-3.77 12.66-7.04 1.95-1.67 4.48-2.68 6.85-3.66 4.43-1.83 8.97-3.37 13.43-5.16 1.52-.61 2.89-1.59 4.74-2.63-.7 2.02-1.11 3.9-1.94 5.51-2.86 5.52-5.66 11.14-8.8 16.46-.46.77-.92 1.52-1.39 2.27-1.3 2.09-4.04 3.36-6.33 4.43-4.99 2.34-9.98 4.9-15.15 6.7-.74.25-1.48.5-2.23.72-5.36 1.6-10.95 2.33-16.5 3.16-.8.11-1.59.24-2.38.36-4.13.65-7.72 2.5-11.11 4.98-.38.27-.54.95-.8 1.43.54.29 1.1.89 1.58.82 2.26-.31 4.48-.94 6.75-1.23 4.58-.6 9.2-1.07 13.77-1.58l6.01-.69c.07.21.14.42.22.62-2.2 1.19-4.32 2.56-6.58 3.53-5.31 2.28-10.66 4.47-16 6.65-.71-.3-.96-.51-1.16-.46-2.82.61-5.67 1.13-8.45 1.91-5.65 1.58-11.34 2.61-17.11 2.89-5.77-.28-11.46-1.31-17.1-2.89-2.78-.78-5.63-1.3-8.46-1.9-.19-.05-.46.16-1.15.45-5.34-2.18-10.69-4.37-16-6.65-2.26-.98-4.39-2.34-6.57-3.53l.21-.62c1.99.23 4 .46 6 .69 4.58.52 9.19.98 13.78 1.58 2.26.29 4.49.92 6.74 1.23.49.06 1.05-.53 1.58-.83-.27-.48-.41-1.16-.8-1.43-3.38-2.48-6.98-4.33-11.1-4.98-.79-.13-1.59-.25-2.38-.37-5.55-.82-11.15-1.56-16.5-3.16-.75-.22-1.49-.47-2.23-.72-5.17-1.8-10.17-4.35-15.17-6.71-2.29-1.07-5.02-2.34-6.32-4.43-.36-.57-.71-1.13-1.04-1.71-3.31-5.48-6.2-11.31-9.15-17.02-.84-1.61-1.24-3.49-1.95-5.51 1.84 1.04 3.22 2.02 4.74 2.63 4.45 1.79 9 3.33 13.43 5.16 2.37.97 4.88 1.98 6.85 3.65 3.84 3.27 8.18 5.25 12.66 7.04 7.06 2.82 14.6 2.52 21.85 3.97.42.08.97-.65 1.46-1-.44-.47-.81-1.19-1.34-1.36-2.78-.84-5.63-1.44-8.39-2.34-4.61-1.5-9.32-2.84-13.74-4.85-5.24-2.38-10.19-5.52-15.34-8.17-8.09-4.16-16.28-8.14-23.16-14.6-1.6-1.51-2.79-2.98-3.32-5.08-.09-.31-.14-.63-.19-.95-.4-2.67-1.11-5.28-1.64-7.91-.2-1.04-.27-2.09-.44-3.39 6.01.04 11.54 1.76 16.91 3.56 5.46 1.83 10.66 4.66 15.97 7.06 3.32 1.5 6.91 2.54 9.7 5.04.4.35.78.74 1.15 1.17 1.41 1.64 2.82 1.75 4.81 1.26.28-.07.58-.16.89-.25-.93-1.08-1.49-1.98-2.24-2.57-3.3-2.56-6.59-5.18-10.02-7.53-5.38-3.66-10.94-6.9-17.01-8.97-.86-.29-1.74-.57-2.63-.81-6.02-1.67-11.57-5.14-17.91-5.76-.44-.04-1.12-.95-1.15-1.5-.2-2.95-.29-5.9-.23-8.88.1-4.41.49-8.87 1.3-13.45 3.22 1.88 6.32 3.57 9.33 5.43 1.6.98 3.21 1.97 4.8 2.99 1.59 1.02 3.16 2.07 4.68 3.19 2.93 2.17 5.8 4.46 8.69 6.72 2.12 1.67 4.24 3.32 6.39 4.9 1.71 1.25 4.07 1.48 5.78 2.74 4.98 3.67 10.75 3.29 16.28 4.21.41.07.91-.49 1.36-.76-.27-.48-.45-1.08-.84-1.4-.42-.34-1.04-.61-1.56-.6-5.18.1-9.78-1.92-14.09-4.72-6.9-4.49-13.91-8.88-18.81-16.18-1.2-1.79-2.77-3.36-4.36-4.76-4.87-4.29-9.84-8.42-14.74-12.68-.41-.36-.87-1.2-.76-1.67 1.37-6.08 2.84-12.13 4.28-18.18.05-.19.18-.34.18-.34 6.52 5.41 12.83 10.8 19.32 15.93 5.53 4.37 11.68 7.59 18 10.42 4.15 1.87 8.27 3.8 12.44 5.6.62.28 1.43.04 2.16.04.1-.22.2-.45.29-.67-2.13-1.93-4.08-4.2-6.44-5.71-5.17-3.32-10.6-6.2-15.86-9.36-1.99-1.2-3.9-2.56-5.75-4.01-7.18-5.64-13.24-12.84-19.02-19.79-.82-.99-2-2.45-1.74-3.44.47-1.76 1.15-3.52 1.95-5.34.8-1.84 1.74-3.74 2.75-5.86 4.84 3.54 9.34 6.62 13.95 9.87 3.16 2.22 6.24 4.77 9.64 7 .95.62 2.37 2.01 3.26.18.24-.49-1-2.31-1.89-2.9-.65-.45-1.27-.91-1.86-1.41-4.15-3.45-6.92-8.05-9.55-12.46-1.74-2.92-3.42-5.83-5.03-8.72-.78-1.4-2.44-2.6-2.27-4.12.34-3.06 1.62-6.29 2.44-9.63.45.28.71.36.86.56 3.88 5.16 9.21 7.78 14.97 9.72 6.63 2.23 12.6 5.87 18.66 9.97 5.11 3.46 10.16 7.53 15.54 11.38.77.55 1.54 1.09 2.33 1.63.76.52 1.82.51 2.73.75.14-.27.27-.56.4-.84-1.34-1.69-2.53-3.52-3.98-5.03-2.27-2.35-4.62-4.57-6.93-6.71-1.41-1.3-2.79-2.6-4.16-3.91-3.18-3.03-6.26-6.03-9.29-8.94-1.73-1.66-3.85-2.75-5.78-4.05-3.73-2.53-7.25-5.44-11.23-7.42-3.61-1.8-6.65-4.41-9.66-7.07l-1.29-1.14c1.28-7.65 1.59-14.9 2.32-22.37.35.15.8.24 1.13.51 6.15 4.87 12.59 8.11 19.14 10.84 5.19 2.16 10.29 4.47 15.31 7.18 6.59 3.56 13.15 7.65 20.19 11.34 2.5 1.31 4.57 3.17 5.3 6.2 1.11 4.58 1.98 9.24 2.77 13.9.13 3.02.44 6.05.59 9.08.04.61.81 1.16 1.24 1.73.05-.05.12-.12.17-.18.06.06.12.13.17.18.44-.57 1.22-1.13 1.26-1.74.17-3.02.49-6.05.65-9.07.85-4.66 1.8-9.31 2.97-13.89.78-3.02 2.9-4.89 5.4-6.21 4.31-2.28 8.33-4.71 12.18-7.11 2.45-1.53 4.87-3.03 7.2-4.47 4.57-2.8 9.068-5.24 13.57-7.53 4.99-2.53 9.87-5.45 14.64-9.48.68-.57 1.36-1.17 2.03-1.8.3-.28.69-.38 1-.53.63 7.46.62 14.65 2.17 22.35-2.9 3.13-5.63 6.37-9.14 8.54-.42.27-.83.54-1.24.83-2.87 2.02-5.47 4.63-8.32 6.93-1.68 1.36-3.58 2.49-5.12 4.2-3.84 4.26-7.98 8.7-12.59 13.07-2.27 2.15-4.61 4.38-6.88 6.73-1.45 1.5-2.67 3.34-4.04 5.02.15.29.27.57.4.85.92-.24 1.99-.24 2.75-.76 6.32-4.29 12.06-9.07 17.62-13.09 5.79-4.18 11.19-7.94 17.14-10.3 5.19-2.06 9.77-4.82 12.64-10.18.11-.2.34-.29.72-.58 1.18 3.42 2.89 6.75 3.68 9.9.39 1.56-1 2.81-1.54 4.26-1.13 2.99-2.35 5.99-3.74 8.98-2.41 5.18-5.31 10.53-10.48 14.08-.89.6-2.13 2.42-1.89 2.91.87 1.822 2.3.44 3.24-.18 3.4-2.23 6.45-4.8 9.47-7.05 4.41-3.29 8.56-6.45 12.79-10.11 1.29 2.174 2.44 4.13 3.43 6.002.98 1.86 1.81 3.65 2.39 5.43.33 1.01-.772 2.48-1.56 3.48-.7.88-1.4 1.76-2.12 2.63-5.02 6.14-10.61 12.23-16.89 17.17-1.84 1.44-3.76 2.81-5.74 4-5.27 3.16-10.68 6.04-15.86 9.354-2.36 1.513-4.31 3.783-6.44 5.72.1.22.19.45.29.67.73 0 1.54.23 2.17-.04 4.17-1.8 8.29-3.73 12.45-5.6 6.31-2.84 12.47-6.05 17.995-10.42 6.49-5.136 12.79-10.53 19.32-15.93 0-.03.12.14.16.33 1.46 6.05 2.925 12.11 4.3 18.19.11.47-.34 1.31-.76 1.672-4.896 4.25-9.87 8.4-14.74 12.68-1.6 1.4-3.156 2.97-4.36 4.76-4.905 7.3-11.91 11.69-18.82 16.18-3.77 2.45-7.77 4.31-12.17 4.66-.63.05-1.27.07-1.92.06-.53-.01-1.14.26-1.57.59-.38.33-.57.92-.85 1.4.46.27.95.83 1.37.77 5.52-.92 11.3-.55 16.27-4.22 1.71-1.26 4.06-1.48 5.77-2.74 5.11-3.73 9.99-7.86 15.07-11.63 1.75-1.29 3.56-2.48 5.39-3.64 1.36-.86 2.72-1.7 4.09-2.54 3.01-1.855 6.11-3.55 9.33-5.43.8 4.61 1.21 9.09 1.29 13.5.07 2.96-.01 5.89-.212 8.83z'},{'color':'#FFF','path':'M190.105 482.615c-2.876-1.905-5.788-3.734-8.962-5.77.572 1.958.61 4.11 1.528 4.76 2.05 1.425 4.53 2.15 6.87 3.046.27.11.96-.4 1.09-.77.12-.31-.2-1.05-.51-1.25zm1.067-283.075c-1.787 3.944-3.424 7.65-5.047 11.356 6.073 2.363 11.583 4.555 17.235 6.688-3.763-6.91-7.566-12.954-12.188-18.043zM175.094 473.1c-1.34-1.338-3.342-1.97-5.242-2.542l-.808-.243c-.286-.09-1.122 1.735-1.66 2.708-.237.454-.357.987-.596 1.622 3.03 1.4 5.99 2.773 9.152 4.237-.034-.284-.058-.574-.075-.864-.124-2.028.064-4.082-.77-4.917zm-17.266-4.964c-2.11-1.024-3.055-.078-3.627 2.53 2.06.634 4.06 1.346 6.1 1.84.35.09 1.09-.65 1.29-1.168.23-.57.05-1.335.05-2.085-1.36-.378-2.66-.56-3.8-1.117zm-16.705-1.376c2.077.856 4.165 1.713 6.383 2.62.5-1.297.93-2.41 1.432-3.668-1.276-.583-2.303-1.075-3.353-1.516-2.9-1.245-3.436-.948-4.462 2.565zm-11.66-8.825c-.094.195-.187.4-.283.608 2.387 1.75 4.786 3.5 7.29 5.328.323-1.25.525-2.03.75-2.91-1.073-.41-2.122-.83-3.16-1.23-1.55-.61-3.08-1.19-4.596-1.79z'}];var ZEBRA_LEGS=exports.ZEBRA_LEGS=[{'color':'#FFF','path':'M317.814 262.322c-.176.287-.286.805-.114 1.095-.17-.29-.062-.808.114-1.095zm1.444-15.298c1.054 2.868 1.393 5.55 1.117 8.086.276-2.537-.062-5.218-1.117-8.086zm-5.42-1.758c-.23-3.72 1.166-7.1 3.532-10.295-2.37 3.2-3.764 6.58-3.533 10.3zm-4.106-33.106c-.53-.382-.926-.98-1.576-1.723.65.742 1.045 1.34 1.576 1.722zm-57.226-10.318c1.312 3.143 3.478 5.483 5.96 7.62-2.482-2.137-4.648-4.478-5.96-7.62zm49.772 4.283c-.046-.678-.542-1.54-1.064-1.914.522.38 1.018 1.24 1.064 1.92zm-14.024-7.288c.105-1.162.03-2.005-1.055-2.414 1.08.41 1.16 1.252 1.05 2.414zm30.8 35.406c-.286 3.726-.25 7.02-.065 10.27-.19-3.252-.23-6.544.06-10.27zm17.588 41.81c-.946 4.122-3.336 7.323-6.336 10.103 3-2.78 5.39-5.98 6.336-10.104zm9.405 25.29c.343-.81.735-1.61 1.16-2.4-.425.79-.817 1.59-1.16 2.4zm1.33-8.93c.856-.582 1.635-1.264 2.535-1.656-.9.39-1.68 1.075-2.536 1.657zm-23.47-16.77c.88-1.333 1.36-2.207 1.93-3.022-.57.82-1.05 1.69-1.93 3.03zm5.676 11.87c-.044-.45.18-.855.722-1.357-.54.5-.765.905-.722 1.356zm2.017 3.8c-.437-.773-1.01-1.866-1.658-2.907.648 1.04 1.22 2.133 1.658 2.906zm-4.57-36.53c.022 1.3-.128 2.58-.737 3.82.61-1.24.76-2.52.738-3.82zm-46.466-28.38c-7.734-4.916-14.75-10.624-22.097-16.942 7.347 6.32 14.363 12.03 22.097 16.95zm-11.254-35.278c6.1 1.436 12.025 3.083 17.89 5.297-5.866-2.214-11.792-3.86-17.89-5.297z'},{'color':'#FFF','path':'M319.054 234.243c-.653.268-1.407.354-1.684.728.277-.37 1.03-.46 1.684-.72zm-57.15-44.753c2.546.19 4.96 1.06 7.406 1.635-2.444-.575-4.86-1.446-7.406-1.634zm57.354 57.534c-.295-.802-.22-1.672-.27-2.512.05.84-.025 1.71.27 2.512zm4.648 28.62c-1.805-4.565-3.955-8.414-6.207-12.227 2.25 3.817 4.4 7.66 6.2 12.226zm-21.628-69.52c.325 4.836.283 9.668.82 14.3-.536-4.632-.493-9.466-.82-14.3zm-9.202-7.09c2.896 1.683 5.545 3.316 8.14 5.176-2.595-1.86-5.245-3.493-8.14-5.177zm33.217 59.57c-.847 1.72-1.533 3.517-2.203 5.336.67-1.82 1.357-3.616 2.203-5.337zm8.393 5.146c.237-.14.453-.44.593-.767-.14.33-.36.626-.6.768zm-6.21 5.413c-.923 1.092-1.793 2.247-2.64 3.458.846-1.21 1.717-2.36 2.64-3.45zm-14.426-50.72c-.455-2.43-1.787-4.467-4.318-6.284 2.532 1.81 3.863 3.85 4.32 6.28zm37.514 72.617c-.378-.327-1.202-.498-1.65-.302.448-.196 1.272-.025 1.65.302zM309.31 244.7c.313-2.555 1.91-4.644 3.054-7.044-1.143 2.4-2.74 4.49-3.053 7.043zm95.662-6.18c.5-.26.998-.542 1.484-.882-.487.34-.983.623-1.484.882zm-40.812 40.83c.143.288.185.493.26.507-.075-.014-.118-.22-.26-.506zm7.988 4.705c-2.213-2.225-4.706-3.63-7.728-4.197 3.027.575 5.515 1.972 7.728 4.197zm-7.743-1.18c2.39 1.135 4.833 2.164 7.186 3.368-2.35-1.204-4.79-2.233-7.18-3.367zm2.428 11.987c.072.755-.17 1.383-.827 1.936.658-.553.9-1.18.827-1.936zm-4.847-13.44c1.003.61 1.676 1.1 2.418 1.454-.74-.353-1.415-.844-2.418-1.453zm22.882-13.412c-2.174-1.26-4.33-2.568-6.374-4.023 2.044 1.458 4.2 2.763 6.374 4.024zm8.212-23.9c.942-.14 1.912.34 2.657 1.168-.746-.827-1.716-1.31-2.658-1.167zm-47.356 58.04c-.95 2.53-1.335 5.168-.514 8.055-.82-2.887-.435-5.526.514-8.055z'},{'color':'#FFF','path':'M378.117 262.266c-.138.54.04 1.48.378 1.722-.34-.242-.516-1.183-.378-1.722zm4.633-6.12c2.584.527 2.46 3.285 3.417 5.196-.957-1.913-.833-4.67-3.418-5.197zm4.76 8.524c-.544-1.368-.87-2.385-1.343-3.328.472.943.8 1.96 1.342 3.328zm-33.652 27.466c.243.92.33 1.224.405 1.532-.075-.31-.162-.613-.405-1.532z'},{'color':'#FFF','path':'M352.603 300.48c.827-2.192 2.274-4.264 1.66-6.813.613 2.552-.833 4.622-1.66 6.812zm-8.073 13.007c.903 1.19 2.153 2.117 3.262 3.15-1.11-1.033-2.36-1.96-3.263-3.15zm-.33-1.82c-.444.6.013 1.405.33 1.82-.316-.414-.77-1.22-.33-1.82zm6.984-11.087c.54-2.094.862-4.244 1.383-6.342-.523 2.1-.844 4.248-1.383 6.34zm1.383-6.342c.15-.6.665-1.112 1.29-2.103-.625.99-1.14 1.502-1.29 2.103z'},{'color':'#000','path':'M435.396 230.913c-.156-1.628-.41-3.486-1.297-4.734-.93-1.3-2.58-2.19-4.12-2.9-2.93-1.35-6.13-2.33-9.41-3.61-4.71-1.84-4.74-1.84-6.53 2.18-1.46 3.27-2.89 6.66-5.26 9.58-1.85 2.28-3.28 5.36-6.65 5.92-2.21.37-4.51.66-6.72.46-4.03-.36-6.46 1.97-8.35 4.83-1.93 2.93-3.26 6.25-4.95 9.34-3.75 6.85-8.39 13.04-13.51 18.91-5.11 5.85-10.33 11.63-15.51 17.41-.25.27-.76.4-1.16.44-1.57.18-3.14.29-5.15.48-1.74-5.48-3.71-11.4-5.51-17.34-2.48-8.18-5.51-16.17-9.02-24.03-2.03-4.54-4.6-8.95-6.75-13.46-2.38-4.98-4.2-9.51-6.73-14.01-1.73-3.08-4.29-5.9-6.73-8.6-5.46-6.06-12.6-12.09-19.87-15.71-5.47-2.73-11.21-4.21-16.95-5.69-2.9-.75-5.73-1.74-8.72-2.26-3.11-.54-6.21-1.41-9.65-.32-5.67 1.8-8.6 6.96-7.14 12.4 1.95 7.27 7.47 11.11 12.48 15.17 7.14 5.78 14.2 10.74 21.51 16.07 4.24 3.09 8.77 6.06 13.23 9.64 4.68 3.75 8.82 8.71 12.34 13.79 6.62 9.56 11.8 19.32 16.68 29.95 2.98 6.49 6.41 12.93 10.29 18.96 1.74 2.7 2.29 5.88 4.21 8.33 1.67 2.13 3.49 4.31 5.68 5.85 2.73 1.92 7.42.76 10.3-1.93 2.46-2.31 4.51-4.66 4.91-8.39.2-1.93 2.15-3.7 3.39-5.49 4.14-5.99 8.3-11.98 12.51-17.92 2.77-3.93 5.73-7.72 8.43-11.7 2.54-3.74 4.82-7.66 7.27-11.46 1.35-2.1 3-3.54 5.85-3.41 3.48.17 5.52-2.54 5.22-6.09-.06-.66.76-1.69 1.44-2.05 2.72-1.46 5.49-2.86 8.36-3.99 1.74-.69 3.67-1.05 5.54-1.24 4.58-.47 9.18-.74 13.77-1.13 1.63-.14 2.62-1.54 2.57-3.62-.07-2.92-.1-5.85-.38-8.75zm-95.042 47.48c.264.76.52 1.502.64 1.844-.652.928-1.25 1.538-1.514 2.268-.104.288.49 1.146.854 1.207.533.088 1.146-.31 2.274-.68.01.1.02.21.036.33.106.842.333 2.104.152 2.165-1.11.376-2.696.89-3.485.38-1.87-1.214-1.07-6.2 1.05-7.514zM317.7 263.417c-.17-.29-.062-.808.114-1.095 1.398-2.285 2.286-4.676 2.562-7.212s-.063-5.218-1.117-8.086c-.3-.802-.23-1.672-.27-2.512-.19-3.25-.22-6.544.06-10.27-.66.268-1.41.354-1.69.728-2.37 3.196-3.77 6.576-3.54 10.295.13 2.204.81 4.43.98 6.598.15 1.978-.1 3.903-.18 5.853l-.61.024c-1.2-1.524-2.49-3.01-3.6-4.57-3.55-5.008-7.67-9.613-12.18-13.418-2.8-2.363-5.99-4.003-8.77-6.025-3.13-2.27-5.84-5.355-8.93-7.325-7.74-4.917-14.75-10.624-22.1-16.943-2.48-2.14-4.65-4.48-5.96-7.62-.19-.45-.36-.92-.51-1.4-1.46-4.66-.34-8.31 3.8-10.06 1.87-.79 4.14-1.05 6.1-.9 2.54.18 4.96 1.06 7.4 1.63 6.1 1.43 12.02 3.08 17.89 5.29 1.08.41 1.16 1.25 1.05 2.41-.21 2.23-.61 4.52-.47 6.69.47 7.1 2.88 13.31 5.23 19.54.2.53 1.05.67 1.57.96-.51-2.21-.93-4.02-1.23-5.87-.5-3.05-.56-6.31-1.37-9.2-1.14-4.08.28-7.78 1.07-11.94 2.89 1.68 5.54 3.31 8.14 5.18.52.37 1.02 1.23 1.06 1.91.32 4.83.28 9.67.82 14.3.34 2.99.19 5.66-.78 8.48-.83 2.42-1.32 4.97-1.53 7.36-.04.46.7 1.05 1.09 1.58.32-.51.7-.99.96-1.54.26-.54.27-1.24.61-1.72 1.87-2.6 3.24-5.48 3.35-8.81.1-2.92.05-5.9.32-8.89.2-2.08.65-4.14 1.04-6.46.65.74 1.05 1.34 1.58 1.72 2.53 1.82 3.87 3.85 4.32 6.28.23 1.21.24 2.53.07 3.96l-.12.88c-.71 4.4-1.37 8.88-3.55 12.79-1.71 3.06-2.91 5.98-2.96 9.27-.01.43.46.94.72 1.42.36-.31 1.05-.58 1.04-.93-.02-.39 0-.76.05-1.13.31-2.56 1.91-4.65 3.05-7.05 1.44-3.03 2.76-6.31 4.25-9.4.55-1.15.92-2.35 1.52-3.98.52.81.76 1.05.88 1.34 1.69 4.08 3.47 8.07 5.64 12.29.76 1.47 1.6 3.05 1.76 4.58.3 2.8.18 5.59.33 8.35.02.33.04.66.07.99.09.99.2 1.98.21 2.95.02 1.3-.13 2.58-.74 3.82-.84 1.72-1.53 3.52-2.2 5.34-.48 1.3-.95 2.6-1.45 3.91-.13.34.31.94.48 1.42.39-.31.92-.55 1.13-.97.39-.76.46-1.71.9-2.42 1.3-2.07 2.68-4.07 4.08-6.07 1-1.43 2.09-2.81 3.45-4.56 1.08 2.53 2.03 4.61 2.7 6.74.08.27.02.64-.13.98-.14.32-.36.62-.6.76-2.46 1.48-4.44 3.33-6.21 5.41-.92 1.1-1.79 2.25-2.64 3.46-.57.82-1.05 1.69-1.93 3.02-1.8-4.55-3.95-8.4-6.2-12.22zm7.904 15.818c3.85-4.61 7.475-9.136 10.973-13.647 1.583 3.252 1.436 3.224-1.213 5.38-1.07.87-1.964 2.175-2.47 3.49-1.216 3.147-2.474 6.332-4.992 9.05l-2.298-4.273zm4.338 9.17c-.07-.112-.13-.218-.18-.32-.1-.206-.16-.393-.18-.574-.043-.45.18-.85.723-1.35 3-2.78 5.39-5.98 6.336-10.1.36-1.54 1.01-3 1.48-4.48l.93.12c.05 1.1.56 2.71.01 3.22-2.88 2.69-2.78 6.44-3.89 9.75-.27.83-.9 1.55-1.38 2.32-.27.44-.55.88-.82 1.31.53.2 1.06.59 1.57.57 3.21-.1 6.41-.29 9.99-.46-.36.5-.55 1.09-.9 1.2-1.48.5-2.99 1.03-4.53 1.23-2.4.3-4.83.35-7.48.51-.43-.77-1-1.86-1.65-2.9zm11.53 18.257l-.605-.035-7.207-11.367c4.04-.653 8.075 1.02 11.302-2.215.117 1.27.26 2.408-.21 3.168-1.97 3.186-4.337 6.184-3.28 10.45zm6.32 9.977c-1.108-1.04-2.36-1.96-3.263-3.16-.32-.42-.78-1.22-.33-1.82.14-.2.39-.38.78-.51.17-.06.31-.67.23-.95-.82-2.89-.44-5.53.51-8.06.1-.27.21-.54.32-.81.34-.81.73-1.61 1.16-2.4.12-.24.25-.47.38-.7 1.09-1.96 1.03-4.6-.22-5.83.85-.59 1.63-1.27 2.53-1.66.45-.2 1.27-.03 1.65.3.22.19-.02 1.04-.19 1.54-.5 1.47-1.17 2.89-1.59 4.38-.72 2.56-1.02 5.28-2.01 7.73-1.63 3.98-1.82 7.76.41 11.55l-.39.36zm4.26-6.59c.796 1.78 1.192 3.75 1.805 5.75l-2.116.96c-.4-.6-.58-.98-.86-1.25-.55-.52-1.41-.9-1.77-1.45-.05-.08-.09-.16-.12-.25-.82-2.46-.64-4.94.37-7.4.78-1.89 1.33-3.88 1.85-5.86.54-2.09.86-4.24 1.39-6.34.15-.6.67-1.11 1.29-2.1.25.92.33 1.22.41 1.53.62 2.54-.83 4.62-1.66 6.81-1.19 3.15-2.04 6.23-.55 9.57zm8.83-6.23c-.523 1.09-1.422 2.01-2.016 3.07-.25.44-.196 1.09-.195 1.64.01.91.08 1.83.14 3.19-3.41-2.38-5.39-8.63-3.8-12.12 1.51-3.31 1.44-6.47.64-9.81-.1-.44.03-.93.06-1.39 1.55 4.09 1.86 5 3.99 6.47 1.66 1.13 1.88 2.88 2.77 4.36 1.44 2.4-.89 3.14-1.57 4.56zm5.125-7.03c-.164.14-.354.27-.572.4-1.44-1.76-2.98-3.3-4.092-5.1-1.103-1.79-1.774-3.84-2.636-5.77 3.44 1.37 5.884 3.43 7.475 6.59.366.73.598 1.37.652 1.93.072.75-.17 1.38-.827 1.93zm6.427-8.95c-.55.97-1.416 1.77-2.042 2.49l-10.512-6.52c.744-.85 1.4-1.6 2.105-2.4 1.003.61 1.676 1.1 2.418 1.45 2.39 1.13 4.833 2.16 7.186 3.36.46.24 1.01 1.3.84 1.6zm-.286-3.79c-2.213-2.23-4.7-3.62-7.728-4.2-.076-.02-.118-.22-.262-.51 1.34-1.59 2.724-3.23 4.203-4.97 1.48 1.94 2.95 3.82 4.39 5.71.72.94 1.43 1.9 2.45 3.26-.31 1.34-1.64 2.09-3.04.69zm4.93-3.41c-2.18-3.23-4.19-6.19-6.28-9.31l1.497-1.35c2.732 2.19 5.312 4.22 7.962 6.32-.866 1.18-1.973 2.69-3.18 4.33zm5.322-7.27c-2.863-1.96-6.203-2.87-8.214-5.74l1.37-1.65 8.465 5.09-1.62 2.28zm3.755-5.8c-.193.31-1.01.58-1.287.42-2.174-1.26-4.33-2.57-6.374-4.03-.34-.24-.516-1.19-.378-1.73.02-.08.046-.15.08-.21.808-1.41 1.876-2.66 3.194-4.45.8 1.17 1.443 2 1.972 2.91 1.048 1.78 2.087 3.59 3.007 5.44.2.42.05 1.18-.22 1.61zm25.578-22.94c-2.936 1.36-5.878 2.71-8.818 4.05-1.288.59-2.03 1.34-1.248 2.88.275.54.17 1.28.24 1.93l-.544.5c-1.11-.74-2.527-1.26-3.246-2.27-.743-1.05-.917-2.56-1.14-3.9-.167-1-.628-1.91-1.24-2.59-.745-.83-1.714-1.31-2.657-1.17-.115.02-.23.04-.342.08.738 1.42 1.833 2.76 2.125 4.26.567 2.91 1.238 5.6 3.825 6.85l-6.026 2.03-5.993-5.88c-1.51.78-2.02 2.29-1.06 3.94 1 1.71 1.84 3.56 3.08 5.09 1.44 1.77.32 2.63-1.19 4.17-.55-1.37-.87-2.39-1.34-3.33-.96-1.91-.84-4.67-3.42-5.2-.17-.04-.36-.06-.56-.08 2.04-3.56 4.07-7.11 6.22-10.88-.66 4.32 2.53 6.39 4.59 9.31.64-.67 1.05-1.1 1.55-1.63-1.07-1.34-2.06-2.63-3.1-3.88-2.18-2.63-1.02-7.85 2.12-8.99.98-.36 2.17-.34 3.24-.21 2.9.35 5.61.03 8.14-1.27.5-.26.99-.54 1.48-.88.4-.28 1.55-.17 1.84.18 1.61 1.93 3.06 3.99 4.63 6.09-.51.31-.84.56-1.2.73z'},{'color':'#FFF','path':'M328.477 269.163c1.768-2.088 3.745-3.934 6.21-5.41.236-.143.452-.44.592-.77.14-.34.2-.717.12-.988-.67-2.128-1.62-4.206-2.7-6.74-1.36 1.76-2.45 3.135-3.46 4.56-1.41 2-2.79 3.998-4.09 6.068-.45.708-.51 1.66-.91 2.42-.22.41-.75.65-1.14.968-.17-.48-.62-1.08-.49-1.42.5-1.3.97-2.61 1.45-3.91.67-1.82 1.35-3.61 2.2-5.33.61-1.24.75-2.52.73-3.82-.02-.97-.13-1.96-.21-2.95-.03-.33-.06-.66-.07-.99-.15-2.76-.04-5.54-.33-8.35-.16-1.53-1.01-3.11-1.77-4.58-2.17-4.21-3.95-8.2-5.64-12.29-.12-.28-.35-.53-.88-1.33-.6 1.63-.97 2.84-1.52 3.98-1.49 3.09-2.81 6.37-4.25 9.4-1.15 2.4-2.74 4.49-3.06 7.04-.05.37-.07.74-.05 1.13.01.36-.69.63-1.05.93-.26-.47-.73-.98-.73-1.42.05-3.28 1.26-6.2 2.96-9.26 2.17-3.91 2.83-8.38 3.54-12.79l.12-.87c.17-1.43.16-2.75-.07-3.96-.46-2.43-1.79-4.46-4.32-6.28-.53-.38-.93-.98-1.58-1.72-.39 2.32-.84 4.39-1.04 6.46-.28 2.99-.22 5.97-.32 8.89-.12 3.34-1.49 6.22-3.36 8.81-.35.48-.36 1.19-.61 1.73-.26.56-.65 1.04-.96 1.54-.39-.53-1.13-1.12-1.09-1.58.22-2.38.7-4.93 1.53-7.35.97-2.83 1.12-5.5.78-8.49-.54-4.63-.49-9.46-.82-14.3-.04-.68-.54-1.54-1.06-1.91-2.6-1.86-5.25-3.49-8.14-5.18-.79 4.16-2.21 7.86-1.07 11.94.8 2.9.87 6.15 1.36 9.2.3 1.85.72 3.66 1.22 5.87-.51-.29-1.37-.43-1.57-.96-2.35-6.23-4.76-12.44-5.23-19.54-.15-2.16.26-4.46.46-6.69.1-1.16.02-2-1.06-2.41-5.87-2.21-11.79-3.86-17.89-5.3-2.45-.58-4.86-1.45-7.41-1.64-1.97-.14-4.24.11-6.11.9-4.14 1.75-5.25 5.4-3.8 10.06.15.48.32.95.51 1.4 1.31 3.14 3.48 5.48 5.96 7.62 7.35 6.32 14.36 12.03 22.1 16.94 3.1 1.97 5.81 5.06 8.93 7.33 2.78 2.02 5.98 3.66 8.78 6.03 4.51 3.81 8.62 8.41 12.17 13.42 1.11 1.56 2.4 3.05 3.59 4.57l.61-.02c.07-1.95.33-3.88.17-5.85-.17-2.17-.85-4.4-.98-6.6-.23-3.72 1.16-7.1 3.53-10.29.274-.37 1.03-.46 1.682-.73-.29 3.73-.25 7.02-.066 10.27.05.84-.03 1.71.27 2.51 1.05 2.87 1.39 5.55 1.12 8.09-.28 2.54-1.17 4.93-2.57 7.21-.18.29-.29.81-.118 1.1 2.25 3.81 4.4 7.66 6.207 12.23.88-1.33 1.36-2.21 1.93-3.02.84-1.21 1.71-2.37 2.64-3.46zm77.98-31.525c-.487.34-.984.623-1.485.882-2.523 1.303-5.232 1.625-8.138 1.273-1.064-.13-2.26-.147-3.242.21-3.14 1.145-4.3 6.36-2.122 8.99 1.04 1.254 2.033 2.546 3.1 3.885-.502.525-.915.956-1.556 1.63-2.057-2.92-5.254-4.988-4.594-9.314l-6.225 10.876c.198.015.382.04.554.075 2.58.527 2.46 3.285 3.41 5.197.47.943.8 1.96 1.34 3.328 1.51-1.533 2.63-2.395 1.19-4.172-1.24-1.525-2.08-3.377-3.09-5.092-.97-1.65-.46-3.163 1.05-3.94l5.99 5.877 6.02-2.037c-2.59-1.253-3.26-3.946-3.83-6.854-.29-1.5-1.39-2.84-2.13-4.262.11-.036.22-.062.34-.08.94-.142 1.91.34 2.65 1.167.61.678 1.07 1.588 1.24 2.583.22 1.34.39 2.85 1.14 3.895.72 1.014 2.13 1.53 3.24 2.266l.54-.5c-.07-.65.03-1.38-.24-1.93-.79-1.54-.04-2.29 1.25-2.88 2.94-1.34 5.88-2.69 8.81-4.05.36-.17.68-.42 1.19-.73-1.57-2.09-3.02-4.16-4.63-6.09-.3-.35-1.44-.46-1.85-.18zm-46.77 57.262c-2.136-1.468-2.44-2.377-3.987-6.472-.025.464-.16.954-.055 1.387.798 3.338.87 6.497-.64 9.805-1.59 3.487.394 9.745 3.803 12.12-.063-1.36-.135-2.277-.137-3.192 0-.555-.05-1.2.2-1.646.6-1.066 1.5-1.98 2.02-3.074.68-1.427 3.01-2.164 1.57-4.564-.88-1.48-1.11-3.226-2.76-4.363zm-14.727-1.855c-3.226 3.235-7.262 1.562-11.3 2.215l7.206 11.367c.2.01.403.023.604.035-1.056-4.265 1.31-7.263 3.28-10.45.47-.76.33-1.898.21-3.167zm-1.343-3.467c.347-.115.54-.698.9-1.2-3.583.178-6.787.368-9.992.468-.517.016-1.046-.372-1.57-.57.278-.44.558-.874.83-1.313.472-.767 1.1-1.482 1.38-2.313 1.105-3.312 1.01-7.062 3.892-9.746.548-.51.04-2.12-.006-3.214l-.92-.12c-.47 1.48-1.12 2.938-1.48 4.482-.94 4.123-3.33 7.324-6.33 10.104-.54.502-.76.906-.72 1.356.02.18.08.368.18.573.05.103.11.21.18.32.65 1.043 1.22 2.135 1.66 2.907 2.66-.166 5.09-.208 7.49-.51 1.54-.196 3.05-.727 4.53-1.224zm4.153 15.142c.997-2.44 1.29-5.163 2.01-7.728.42-1.493 1.088-2.917 1.59-4.388.172-.504.415-1.355.194-1.545-.378-.33-1.202-.5-1.65-.31-.9.39-1.68 1.07-2.537 1.65 1.248 1.23 1.31 3.87.216 5.82-.13.23-.26.46-.385.7-.426.79-.818 1.59-1.16 2.4-.115.27-.222.53-.324.81-.95 2.52-1.334 5.16-.514 8.05.082.29-.055.89-.228.95-.387.13-.634.31-.782.51-.44.6.014 1.4.33 1.82.903 1.19 2.153 2.12 3.262 3.15l.39-.36c-2.226-3.8-2.036-7.57-.41-11.56z'},{'color':'#FFF','path':'M354.263 293.668c-.075-.31-.162-.613-.405-1.532-.626.99-1.14 1.5-1.29 2.103-.522 2.09-.846 4.24-1.384 6.34-.51 1.98-1.07 3.97-1.844 5.85-1.01 2.46-1.18 4.93-.362 7.39.03.08.07.17.123.25.37.55 1.23.93 1.78 1.44.29.26.46.64.87 1.24l2.12-.96c-.61-2.01-1.01-3.97-1.8-5.76-1.49-3.35-.64-6.43.55-9.58.83-2.19 2.27-4.26 1.66-6.82zm-18.9-22.7c2.65-2.156 2.797-2.128 1.214-5.38-3.498 4.512-7.124 9.04-10.973 13.647l2.297 4.272c2.52-2.717 3.78-5.903 5-9.05.51-1.314 1.4-2.62 2.47-3.49zm36.227 15.275c-2.352-1.204-4.795-2.232-7.185-3.367-.743-.352-1.416-.844-2.418-1.453l-2.105 2.4c3.56 2.21 6.94 4.306 10.512 6.52.626-.727 1.49-1.52 2.042-2.496.168-.3-.38-1.367-.845-1.604zm11.773-25.717c-.53-.902-1.172-1.737-1.972-2.91-1.31 1.79-2.38 3.043-3.19 4.446-.03.058-.06.126-.08.203-.13.54.04 1.48.38 1.722 2.04 1.455 4.2 2.763 6.38 4.024.28.16 1.1-.11 1.29-.42.27-.43.42-1.19.22-1.61-.92-1.85-1.96-3.65-3-5.44zm-15.003 13.856c-1.478 1.74-2.86 3.382-4.202 4.97.144.286.186.49.262.505 3.022.568 5.515 1.973 7.728 4.197 1.398 1.405 2.727.655 3.043-.693-1.02-1.36-1.72-2.32-2.44-3.26-1.44-1.89-2.91-3.77-4.38-5.71zm2.437-3.04c2.09 3.12 4.1 6.086 6.28 9.308l3.18-4.332c-2.65-2.1-5.23-4.134-7.962-6.323l-1.498 1.348zm-4.615 21.586c-1.59-3.17-4.034-5.22-7.475-6.596.862 1.933 1.534 3.984 2.636 5.77 1.113 1.8 2.652 3.336 4.092 5.096.218-.13.408-.263.572-.4.657-.553.9-1.18.827-1.936-.055-.567-.286-1.204-.652-1.934zm8.004-25.288c2.01 2.873 5.352 3.778 8.214 5.738l1.62-2.286-8.466-5.097-1.368 1.646zm-34.876 18.266c.79.51 2.376-.003 3.486-.38.18-.06-.046-1.322-.152-2.164-.015-.12-.027-.23-.036-.33-1.128.37-1.742.768-2.274.68-.364-.06-.957-.92-.854-1.207.262-.73.862-1.34 1.515-2.268-.12-.342-.377-1.084-.64-1.844-2.114 1.314-2.917 6.3-1.044 7.513z'},{'color':'#FFF','path':'M147.878 269.593c1.852-.073 3.69-.323 5.542-.34-1.85.017-3.69.267-5.542.34zm.38 3.842c-1.293 1.053-2.703 1.337-4.23 1.356 1.527-.01 2.937-.3 4.228-1.35zm-9.976 25.188c-1.895-.076-2.114 1.328-1.532 2.383-.58-1.054-.363-2.46 1.532-2.383zm8.982-5.52c-.452.13-.9.286-1.348.45.447-.164.896-.32 1.348-.45zm8.106-15.033c-1.234.69-2.546 1.237-3.81 1.883 1.264-.646 2.577-1.19 3.81-1.884z'},{'color':'#FFF','path':'M155.37 278.07c.53-.3 1.163-.75 1.358-1.28-.195.53-.827.978-1.36 1.28zm.62-52.408c-.15.58.004 1.45.342 1.633-.337-.184-.492-1.053-.342-1.633zm7.923 5.578c-2.595-1.754-5.446-2.786-7.58-3.945 2.135 1.163 4.985 2.19 7.58 3.945zm-18.06 30.21c-.96.075-1.527.685-1.69 1.666.163-.98.733-1.59 1.69-1.667zm12.18 6.364c-.577 1.43-.584 1.398-4.612 1.438 4.03-.04 4.04-.008 4.62-1.438zm1.654-6.244c-2.598-4.816-6.34-8.363-10.792-10.398 4.45 2.036 8.194 5.582 10.792 10.397z'},{'color':'#FFF','path':'M160.01 266.473c.353-1.558.406-3.554-.323-4.904.728 1.35.676 3.34.323 4.9zm-25.052 88.73c-.53.05-1.042.06-1.537.03.5.027 1.01.02 1.54-.03zm-11.553 5.032c1.398 1.76 5.43 2.538 7.726 1.836-2.29.71-6.32-.07-7.72-1.83zm2.983 12.285c1.947-.673 3.913-1.322 5.94-2.012-2.027.69-3.995 1.338-5.94 2.013zm-.812-23.88c.057-.01.106-.01.146 0-.04-.01-.09-.01-.146 0zm9.64-44.688c-1.765 1.067-2.516 2.035-2.52 3.228.004-1.194.756-2.16 2.52-3.228zm12.208-6.27c-.307 1.31-.666 2.206-1.193 2.8.53-.593.89-1.487 1.2-2.798zm-8.596 27.632c.54.22 1.126.786 1.25 1.326-.123-.54-.71-1.106-1.25-1.326zm-8.136-3.042c2.63.93 5.4 1.928 8.136 3.042-2.737-1.116-5.506-2.11-8.136-3.042zm-4.972 26.368c1.264.337 2.708.4 3.932.95-1.224-.55-2.67-.614-3.93-.95zm11.03-47.634c1.045 1.896 2.188 3.998 3.865 5.18-1.677-1.182-2.82-3.286-3.865-5.18zm63.092-73.436c-2.68 1.48-5.477 2.83-8.627 3.97 3.15-1.14 5.952-2.49 8.627-3.97zm6.832-9.933c-.11-2.427-.28-4.822-.48-7.173.2 2.35.37 4.746.48 7.173zm-8.894-1.672c.33.654.613 1.318.868 1.988-.255-.67-.538-1.334-.867-1.988zm2.437 10.16c.02.52-.13 1.31-.375 1.446.246-.13.396-.92.375-1.44zm4.763-8.238c-2.252-7.77-3.59-15.502-1.912-21.454-1.68 5.952-.342 13.688 1.913 21.454zm-7.2-1.922c-3.314-6.562-5.7-12.902-5.357-19.523-.346 6.625 2.043 12.96 5.358 19.523zm-9.91-19.825c-.6 1.4-.687 3.208-.345 5.634-.34-2.426-.254-4.234.344-5.634zm15.55 26.828c.414 1.8.805 2.6 1.565 2.657-.76-.056-1.15-.857-1.564-2.657zm-9.792-29.083c-.404.78-1.158 1.618-1.205 2.556.048-.93.8-1.77 1.205-2.55zm12.558 25.59c.17-.62.516-1.216.488-1.838.028.62-.317 1.22-.488 1.837zm-19.678 14.135c1.263-.784 1.13-1.995.383-3.674.75 1.68.88 2.89-.38 3.675zm12.868-24.105c-.7-1.49-1.89-2.77-2.422-4.304.532 1.54 1.723 2.82 2.422 4.31zm-21.322 25.465c-1.942-2.682-3.974-4.975-5.906-7.117 1.932 2.143 3.963 4.436 5.906 7.117zm-.94-12.908c-1.823-4.495-3.715-8.493-5.06-12.406 1.345 3.913 3.236 7.914 5.06 12.406zm19.84-16.862c-1.286-3.718-2.254-7.536-3.326-11.314 1.072 3.778 2.04 7.6 3.326 11.315zm-31.914 9.548c-.798.562-1.092 1.033-1.117 1.498.025-.465.32-.936 1.117-1.498zm12.84-.095c3.483 3.873 6.308 9.206 9.01 15.283-2.702-6.08-5.527-11.41-9.01-15.283z'},{'color':'#000','path':'M229.438 205.37c-.332-2.66-.96-5.31-1.454-7.95-.958-5.12-6.11-7.3-10.096-8.175-7.92-1.735-15.366-1.813-22.612-.115-6.125 1.435-11.157 5.7-16.823 9.966-2.703 2.037-5.44 4.476-8.44 6.85-.6.475-1.262 1.09-1.63 1.73-2.807 4.854-8.535 8.51-11.13 12.538-2.28 3.534-4.164 7.55-5.922 11.26-3.24 6.843-5 12.623-6.37 17.943-.7 2.746-.89 5.43-1.54 8.166-.86 3.687-2.18 7.377-3.09 11.638-1.39 6.47-3.8 13.94-4.49 21.6-.28 3.14-.79 6.3-1.45 9.43-.22 1.08-.89 2.16-1.56 3.09-1.98 2.77-4.04 5.49-4.73 9.04.07 2.67-.15 5.42.2 7.99.5 3.7-1.02 7.22-1.82 10.76-.84 3.72-2.09 7.38-2.76 11.02-1.39 7.54-2.57 15.65-3.58 23.03-.53 3.87-1.42 7.53-2.13 11.04-.15.77-.62 1.58-1.25 2.2-3.63 3.55-3.1 7.06-1.17 10.75 1.33 2.55 1.82 5.13 1.89 7.85.14 5.29-3.8 8.97-6.99 13.29-.63.87-1.16 1.8-1.67 2.74-.71 1.32-.25 2.34 1.15 3.33 2.51 1.77 4.81 3.78 7.09 5.7 1.32 1.11 2.56 1.29 4.27.33 2.26-1.27 4.82-2.16 7.4-3.08 1.92-.68 3.12-1.46 2.63-3.39-.81-3.21-1.38-6.49-2.23-9.73-.06-.23-.04-.53-.24-.69-2.47-1.94-1.17-3.77-.98-5.75.22-2.16 1.64-3.74 3.08-5.46 1.99-2.37 4.34-4.75 5.43-7.49.75-1.87-.54-4.22-.6-6.39-.13-4.37-.33-8.88.1-13.54.76-8.21 1.92-16.93 3.44-25.54.89-5.03 2.32-10.1 3.57-15.24.13-.55.42-1.16.81-1.57 3.88-4.09 3.44-8.88 2.42-13.48-.57-2.58-.42-4.61.86-7.16 5-10.04 9.45-20.39 13.18-30.96 1.53-4.32 2.43-8.77 4.36-12.61 1.89-3.74 4.38-7.12 7.27-10.17 4.29-4.52 8.79-9.31 14.52-12.84 1.28-.78 3.06-.54 4.38-1.29 6.79-3.81 13.86-6.24 20.1-10.08 2.81-1.72 5.52-4.16 8.13-6.43 2.56-2.22 5.06-4.62 7.41-6.97 1.85-1.85 3.54-4.11 3.17-7.09zM124.832 373.173c.547-.167 1.018-.465 1.556-.652 1.945-.67 3.913-1.32 5.94-2.01.543 2.01-.206 3.01-2.257 3.82-3.29 1.32-6.35 2.93-9.87 4.61.08-3.35 1.29-4.73 4.64-5.76zm-7.617 8.567c.48-.7 1.403-1.408 2.397-1.752 1.638-.568 3.624-.668 5.26-1.245 2.435-.857 4.69-1.97 7.297-3.123.6 1.47.33 2.168-1.36 2.77-1.77.627-3.19 1.72-4.69 2.648-2.58 1.593-4.64 3.743-8.78 3.38-.28-.023-.56-.06-.86-.105.21-.864.2-1.81.72-2.573zm13.294 9.383c-2.59 2.404-5.35 4.66-5.15 8.012.04.666-.62 1.278-.82 1.944-.21.69-.26 1.42-.4 2.22-3.94.06-5.35-1-4.66-3.87.59-2.49 1.13-4.95-.22-7.57-.91-1.77-1.41-3.62-2.13-5.62 7.15.63 11.64-1.77 15.25-5.51 2.45 4.18 1.22 7.46-1.89 10.36zm1.53-23.09c-2.7 1.753-6.23 2.75-9.82 4.25.27-1.997.51-3.592.68-4.71 3.78-1.656 7.05-3.034 10.89-4.71-.63 2.077-.46 4.32-1.77 5.17zm-.91-5.96c-2.3.7-6.33-.077-7.73-1.837-.43-.54-.18-1.513-.11-2.38.01-.125.01-.246.01-.364 3.97-.414 7.63-.646 11.39-.88-.54 4.054-.95 4.662-3.57 5.46zm3.82-6.87c-.53.05-1.04.058-1.54.028-3.47-.2-6.11-2.21-8.67-3.67-.48-.27-.45-1.39-.35-2.11 0-.03.02-.08.05-.12.18-.26.77-.63 1.11-.68.06-.01.11-.01.15 0 1.26.34 2.71.4 3.93.95.63.29 1.2.69 1.65 1.34.31.46 1.25.59 1.9.87l.38-.61c-1.4-2.11-3.2-3.71-5.82-4.47-1.67-.48-3.54-.98-1.96-3.62 3.46.52 7.06 1.42 11-1-.75 4.92-1.28 8.89-1.85 13.13zm2.73-18.49c-.09.386-.53.81-.91 1.03-.99.562-2.09.95-3.07 1.528-2.48 1.46-5.02 2.67-7.75.95.44-1.77.87-3.54 1.36-5.6 3.98 1.09 7.44-1.03 11.21-3.04-.33 2.06-.53 3.62-.85 5.14zm1.26-8.73c-1.14.804-2.4 1.43-3.53 2.244-2.24 1.604-4.57 2.342-7.06 1.41.8-3.14 1.59-6.316 2.32-9.365 2.63.93 5.4 1.925 8.13 3.042.54.22 1.13.786 1.25 1.326.07.323-.64 1.005-1.13 1.344zm2.29-3.868c-2.59-1.062-5.05-2.098-7.49-3.046-2.25-.88-3.8-2.21-3.6-5.01.14-2 .36-4 .52-6 .3-.14.61-.28.91-.41 1.31 6.62 6.09 9.36 11.98 11.31-.9 1.21-1.59 2.13-2.34 3.14zm3.22-7.53c-1.03-.446-1.83-.69-2.52-1.107-2.97-1.797-6.72-2.3-8.51-5.84-.48-.947-.75-1.743-.75-2.458 0-1.193.75-2.16 2.52-3.228.56.988.97 2.158 1.73 2.96 1.35 1.43 2.66 3.254 4.31 4.15.23.128.48.237.73.323 2.67.923 2.49 2.722 2.48 5.2zm2.95-18.902c-.31 1.31-.67 2.205-1.2 2.798-.79.89-1.96 1.1-3.91 1.02-.95-.04-1.91.1-3.25.18 1.57 2.59 3.75 1.58 6.08 2.02-1.67 1.31-2.7 3.8-4.54 2.51-1.68-1.18-2.82-3.28-3.86-5.18-.59-1.05-.37-2.46 1.53-2.38.46.02.95-.21 1.43-.29 2.59-.45 5.19-.87 7.86-1.34-.05.25-.1.48-.15.69zm-.16-4.58c-.45.13-.9.286-1.35.45-2.33.846-4.61 1.932-7.11 1.235-.48-.134-1.15-.79-1.13-1.214.06-1.955.32-3.91.48-6.006 5.6 1.746 10.53.776 15.07-2.74-1.2 3.392-1.86 7.088-5.98 8.275zm12.75-26.63c-.78 3.444-2.01 6.86-3.28 10.316-.2.52-.83.97-1.36 1.27-1.24.69-2.55 1.24-3.81 1.88-1.88.96-3.67 2.33-5.66 2.81-2.06.49-4.32.13-6.67.16.28-.98.74-2.03.83-3.11.17-2.02 1.15-2.48 3.01-2.38 2.82.15 5.42-.62 7.83-3.39-1.18-.3-2.29-.92-2.65-.63-1.29 1.05-2.7 1.34-4.23 1.36-.92.01-1.88-.07-2.87-.14.47-1.97.87-3.72 1.17-4.99 2.06-.02 3.81-.01 5.54-.08 1.85-.07 3.69-.32 5.54-.34 4.03-.04 4.04-.01 4.61-1.44-4.95-.58-9.82-1.12-14.76-1.63.28-.94.71-2 .89-3.07.16-.98.73-1.59 1.69-1.67.13-.01.28-.01.43 0 2.31.18 4.71.3 6.87 1.03 1.79.61 2.67.15 3.91-1.42-3.68-.09-6.11-1.75-8.18-3.7-2.17-2.03-3.32-3.93-1.94-6.96.66.22 1.31.48 1.95.77 4.45 2.04 8.19 5.58 10.79 10.4.73 1.35.67 3.35.32 4.9zm11.5-20.077c-1.86 1.414-2.14 1.352-3.77-.848-1.84-2.477-3.77-4.712-6.9-5.167-2.66-.38-4.47-.59-6.66-.61-1.29-.01-2.54-.09-3.8-.04l-.53 1.09c2.74.74 5.61 1.73 8.27 3.47 2.71 1.78 5.55 4.11 8.54 7.06-1.63 2.67-3.32 5.27-4.68 8.04-.41-1.32-.61-2.54-1.18-3.57-2.17-3.89-4.99-6.98-9.27-7.85-2.06-.41-3.53-1.96-3.29-3.1.84-3.96 2.59-8.18 4.89-12.62 6.96-1.72 12.64 3.02 18.43 9.31 2.01 2.19 1.53 3.66-.08 4.88zm3.44-3.58c-.53-.87-.88-1.598-1.39-2.207-3.18-3.84-6.25-7.08-9.66-9.37-2.59-1.76-5.44-2.79-7.58-3.95-.34-.19-.49-1.06-.34-1.64.02-.08.05-.16.08-.23.91-1.81 1.89-3.43 3.72-5.75 5.81 5.24 10.63 11.8 18.44 19.85-.98 1.05-1.88 1.96-3.28 3.27zm11.55-9.205c-2.12 1.32-4.18 2.73-6.47 3.94-.64-.84-1.36-1.69-1.99-2.57-1.95-2.68-3.98-4.97-5.91-7.12-3.05-3.38-5.85-6.38-7.61-9.9-.32-.64-.65-1.17-.62-1.7.03-.46.32-.93 1.12-1.5.11-.08.24-.16.37-.24.63-.39 1.09-1.12 1.95-2.08.62.79 1.13 1.39 1.56 2.07 2.21 3.46 4.35 7.42 6.78 11.79.42.75 1.71 1 2.6 1.52.09-.91.42-1.87.22-2.74-.25-1.06-1.02-1.98-1.43-2.98-1.83-4.49-3.72-8.49-5.06-12.4-.85-2.48-.31-2.94 2.36-4.33.24 1.1.37 2.28.77 3.32.76 1.99 1.31 4.49 2.69 6.02 3.48 3.88 6.31 9.21 9.01 15.29.75 1.68.88 2.89-.38 3.68zm38.82-23.22c-5.74 6.35-11.81 12.04-19.45 15.06-.35.14-.64.21-.9.19-.76-.05-1.15-.85-1.57-2.65-1-4.36-2.36-8.65-3.78-12.81-.08-.22-.17-.44-.27-.65-.7-1.49-1.89-2.77-2.42-4.3-1.29-3.71-2.26-7.53-3.33-11.31-.41.78-1.16 1.62-1.21 2.56-.34 6.63 2.04 12.96 5.36 19.53.33.66.61 1.32.86 1.99.99 2.59 1.45 5.31 1.57 8.17.02.52-.13 1.31-.38 1.45-2.68 1.48-5.48 2.83-8.63 3.97-.8-6.51-3.51-11.1-6.67-14.53-3.9-4.24-6.34-9.01-8.86-13.26 2.93-2.06 5.51-3.95 8.2-5.83.15 2.42-.12 4.9.58 6.7 1.79 4.59 4.15 9.38 6.6 14.56.37.79 1.39 1.02 2.11 1.51-.21-1.07-.24-2.3-.66-3.17-2.52-5.24-4.26-10.42-5-15.73-.34-2.42-.25-4.23.34-5.63.6-1.4 1.7-2.38 3.4-3.17 2.04-.94 4.17-1.74 6.36-2.12 2.65-.45 5.36-.57 8.43-.59-.44.81-.66 1.38-.98 1.85-.91 1.3-1.56 2.76-2.01 4.34-1.68 5.95-.34 13.69 1.91 21.46.19.64.8 1.07 1.21 1.59.17-.62.51-1.22.49-1.84-.11-2.42-.28-4.82-.48-7.17-.32-3.75-.65-7.45.66-10.27 1.52-3.28 3.24-6.14 5.14-8.63.42-.55 1.25-1.08 1.952-.95 2.47.45 4.99.93 7.42 1.68 2.64.82 4.68 2.32 5.12 5.26.26 1.72.54 3.46 1.02 5.16.88 3.16-.34 5.64-2.19 7.69z'},{'color':'#FFF','path':'M226.506 197.538c-.443-2.934-2.48-4.437-5.125-5.255-2.42-.75-4.95-1.23-7.42-1.68-.71-.13-1.53.397-1.96.95-1.9 2.49-3.61 5.35-5.14 8.635-1.31 2.82-.98 6.525-.66 10.275.2 2.352.37 4.746.48 7.173.03.622-.32 1.22-.49 1.837-.4-.518-1.02-.952-1.2-1.587-2.25-7.766-3.59-15.5-1.91-21.454.45-1.582 1.1-3.045 2.01-4.34.33-.467.55-1.04.99-1.846-3.07.018-5.78.135-8.43.593-2.18.37-4.31 1.17-6.35 2.12-1.7.79-2.81 1.77-3.4 3.17-.6 1.4-.69 3.21-.35 5.63.75 5.3 2.48 10.48 5 15.73.42.86.45 2.09.66 3.17-.72-.5-1.73-.73-2.1-1.51-2.45-5.17-4.8-9.97-6.59-14.55-.71-1.81-.43-4.29-.58-6.7-2.69 1.87-5.27 3.76-8.2 5.83 2.52 4.25 4.95 9.02 8.85 13.26 3.15 3.43 5.87 8.02 6.67 14.53 3.15-1.14 5.95-2.49 8.63-3.97.25-.14.4-.93.38-1.45-.11-2.87-.58-5.58-1.57-8.17-.25-.67-.53-1.34-.86-1.99-3.31-6.57-5.7-12.9-5.36-19.53.05-.94.8-1.78 1.21-2.56 1.07 3.78 2.04 7.59 3.33 11.31.53 1.53 1.73 2.81 2.42 4.3.1.21.19.43.27.65 1.43 4.16 2.78 8.45 3.78 12.81.42 1.8.81 2.6 1.57 2.66.26.02.55-.05.9-.18 7.64-3.02 13.71-8.71 19.45-15.06 1.85-2.04 3.07-4.53 2.19-7.69-.47-1.7-.75-3.44-1.01-5.16zm-66.82 64.032c-2.597-4.816-6.34-8.362-10.79-10.398-.637-.29-1.287-.55-1.95-.778-1.378 3.03-.225 4.93 1.94 6.967 2.072 1.95 4.51 3.61 8.185 3.71-1.24 1.57-2.12 2.02-3.91 1.42-2.16-.73-4.55-.85-6.87-1.03-.15-.01-.3-.01-.43 0-.96.08-1.53.69-1.69 1.67-.17 1.08-.6 2.14-.89 3.07 4.95.51 9.81 1.05 14.76 1.63-.58 1.43-.58 1.4-4.61 1.44-1.85.02-3.69.27-5.54.34-1.74.07-3.48.06-5.54.08-.3 1.26-.7 3.02-1.18 4.98 1 .07 1.96.16 2.87.15 1.53-.02 2.94-.3 4.23-1.35.36-.29 1.47.32 2.65.63-2.41 2.77-5.01 3.54-7.83 3.39-1.86-.1-2.83.37-3.01 2.38-.09 1.08-.55 2.13-.82 3.11 2.35-.03 4.6.33 6.66-.16 2-.48 3.78-1.86 5.66-2.81 1.27-.64 2.58-1.19 3.81-1.88.53-.3 1.17-.75 1.36-1.28 1.28-3.46 2.5-6.87 3.28-10.32.36-1.56.41-3.55-.32-4.9zm-6.53-29.358c-2.3 4.446-4.057 8.66-4.897 12.623-.25 1.147 1.23 2.69 3.28 3.107 4.27.866 7.09 3.952 9.26 7.85.57 1.028.77 2.25 1.18 3.57 1.36-2.767 3.05-5.368 4.68-8.032-2.99-2.95-5.83-5.278-8.55-7.054-2.66-1.736-5.53-2.727-8.27-3.463l.53-1.09c1.26-.046 2.51.027 3.8.042 2.18.024 3.99.23 6.65.616 3.12.46 5.06 2.69 6.9 5.17 1.63 2.2 1.91 2.26 3.77.85 1.61-1.22 2.09-2.69.07-4.87-5.79-6.29-11.47-11.03-18.43-9.31zm33.734-2.276c-2.703-6.077-5.527-11.41-9.01-15.283-1.38-1.533-1.927-4.027-2.694-6.016-.4-1.036-.532-2.222-.773-3.314-2.668 1.393-3.207 1.854-2.356 4.333 1.343 3.914 3.234 7.91 5.06 12.406.408 1.007 1.173 1.926 1.424 2.987.21.86-.12 1.82-.22 2.74-.88-.53-2.18-.78-2.59-1.52-2.43-4.37-4.57-8.34-6.78-11.79-.43-.68-.94-1.28-1.56-2.07-.86.95-1.32 1.69-1.95 2.08-.13.08-.26.16-.37.24-.8.56-1.09 1.03-1.12 1.5-.02.53.3 1.05.62 1.7 1.76 3.52 4.56 6.52 7.61 9.9 1.94 2.14 3.97 4.43 5.91 7.11.64.88 1.36 1.73 1.99 2.57 2.29-1.21 4.36-2.62 6.47-3.93 1.26-.78 1.13-2 .38-3.67zm-69.746 156.327c.723 2 1.216 3.842 2.127 5.614 1.35 2.618.82 5.08.22 7.564-.69 2.88.72 3.93 4.66 3.87.14-.8.19-1.53.4-2.23.2-.66.86-1.27.82-1.94-.2-3.35 2.57-5.6 5.15-8.01 3.12-2.89 4.35-6.18 1.89-10.36-3.61 3.74-8.09 6.14-15.25 5.5zm42.648-166.576c-1.83 2.325-2.81 3.94-3.718 5.747-.035.068-.062.146-.084.228-.15.58.004 1.45.342 1.633 2.135 1.16 4.986 2.19 7.58 3.945 3.4 2.298 6.477 5.538 9.653 9.37.506.61.857 1.336 1.388 2.206 1.4-1.31 2.3-2.223 3.278-3.27-7.81-8.055-12.62-14.62-18.43-19.86zM125.81 343.083c-1.578 2.638.283 3.145 1.957 3.625 2.627.754 4.422 2.36 5.822 4.473l-.38.62c-.66-.28-1.59-.41-1.91-.87-.45-.65-1.03-1.05-1.66-1.33-1.23-.55-2.67-.61-3.93-.95-.04-.01-.09-.01-.15 0-.34.05-.93.42-1.11.68-.03.05-.05.09-.06.13-.1.73-.14 1.85.34 2.12 2.56 1.46 5.2 3.47 8.66 3.67.49.03 1 .03 1.54-.02.57-4.24 1.1-8.2 1.85-13.12-3.95 2.42-7.54 1.52-11 1.01zm12.357-55.515c-.166 2.097-.42 4.05-.484 6.006-.014.425.65 1.08 1.13 1.214 2.5.696 4.78-.39 7.103-1.235.447-.164.896-.32 1.348-.45 4.116-1.187 4.78-4.883 5.98-8.274-4.546 3.51-9.48 4.48-15.077 2.73zm-6.557 22.092l-.918.41c-.164 2-.377 4-.523 5.994-.21 2.8 1.34 4.132 3.59 5.006 2.44.948 4.9 1.983 7.48 3.046.75-1.003 1.44-1.922 2.34-3.137-5.89-1.96-10.67-4.7-11.98-11.32zm7.218 15.654c-2.736-1.114-5.506-2.11-8.136-3.042-.728 3.048-1.518 6.224-2.324 9.366 2.49.93 4.822.194 7.056-1.41 1.134-.815 2.392-1.44 3.53-2.244.48-.34 1.197-1.02 1.123-1.344-.122-.54-.71-1.106-1.25-1.326zm-11.498 9.304c-.493 2.057-.926 3.825-1.368 5.602 2.73 1.716 5.268.512 7.747-.947.98-.58 2.08-.966 3.07-1.528.38-.22.82-.645.9-1.03.32-1.524.52-3.076.85-5.135-3.77 2-7.23 4.128-11.21 3.038zm14.66-23.233c-.25-.086-.493-.194-.728-.323-1.644-.896-2.954-2.72-4.312-4.15-.762-.803-1.17-1.972-1.735-2.96-1.763 1.067-2.515 2.035-2.518 3.228 0 .716.266 1.512.746 2.458 1.796 3.542 5.537 4.043 8.51 5.84.688.418 1.483.66 2.515 1.107.013-2.478.196-4.277-2.48-5.2zm-3.708-12.762c-1.895-.076-2.113 1.33-1.532 2.383 1.045 1.894 2.188 3.998 3.865 5.18 1.834 1.293 2.874-1.192 4.536-2.504-2.32-.44-4.5.574-6.08-2.012 1.35-.082 2.31-.217 3.25-.176 1.95.085 3.12-.124 3.91-1.013.53-.59.89-1.48 1.2-2.79.05-.22.1-.45.15-.69-2.67.47-5.27.89-7.86 1.34-.48.08-.96.32-1.43.3zm-12.154 82.415c1.5-.928 2.92-2.02 4.684-2.65 1.688-.6 1.96-1.298 1.356-2.768-2.605 1.153-4.862 2.266-7.297 3.123-1.63.577-3.62.677-5.26 1.245-.99.344-1.91 1.05-2.39 1.752-.52.765-.51 1.71-.72 2.573.3.046.58.082.86.106 4.15.36 6.21-1.79 8.78-3.39zm-2.834-23.183c-.07.867-.318 1.84.11 2.38 1.4 1.76 5.43 2.538 7.727 1.836 2.62-.79 3.03-1.4 3.58-5.46-3.76.24-7.41.47-11.39.88 0 .12 0 .24-.02.37zm-1.066 14.427c3.586-1.5 7.116-2.496 9.814-4.248 1.31-.85 1.134-3.094 1.763-5.17-3.84 1.675-7.113 3.053-10.893 4.71-.17 1.117-.41 2.712-.684 4.708zm10.1-1.774c-2.027.69-3.993 1.34-5.94 2.013-.538.19-1.01.49-1.556.66-3.344 1.03-4.56 2.41-4.635 5.76 3.516-1.67 6.578-3.29 9.874-4.6 2.06-.81 2.8-1.81 2.26-3.82z'},{'color':'#000','path':'M284.53 436.632c-1.598-5.265-4.088-10.305-8.525-13.825-2.675-2.122-6.177-2.922-9.546-2.548-4.35.48-8.67 1.42-12.91 2.51-1.24.31-2.47 1.62-3.19 2.79-2.59 4.2-5.29 8.39-7.27 12.89-1.33 3.01-1.61 6.52-2.16 9.84-.56 3.39-1.13 6.82-1.24 10.24-.13 4.17.17 8.36.41 12.54.17 3.09.82 6.18.75 9.26-.13 5.74 1.39 11.16 2.63 16.67 1.28 5.7 2.73 11.39 3.45 17.17.48 3.84-.15 7.83-.36 11.75-.04.65-.32 1.4-.73 1.92-2.54 3.22-2.49 6.78-1.24 10.36 1.49 4.28 1.39 8.7 1.24 13.08-.24 7.09-.5 14.2-1.3 21.24-.52 4.61-2.02 9.12-3.05 13.67-1.08 4.77-2.14 9.53-3.15 14.31-.48 2.25.4 4.26 1.6 6.03 2.55 3.78 3.08 7.74 2.1 12.2-1.3 5.93-3.27 11.6-5.73 17.12-.31.68-.38 1.47-.71 2.14-.31.62-.8 1.16-1.21 1.74l-.57.16c.39.68.63 1.59 1.22 2.01 3.29 2.36 6.74 4.5 9.98 6.91 2.81 2.09 5.78 1.2 8.25.07 3.64-1.66 6.93-4.11 10.27-6.38 1.99-1.35 2.12-3.53 1.75-5.68-.86-4.98-2.83-9.59-4.75-14.23-1.05-2.53-1.61-5.26-2.27-7.93-.68-2.72-.01-5.57 1.64-7.43 3.35-3.79 2.45-7.94 2.14-12.15-.23-3.15-.43-6.3-.66-9.45-.2-2.65-.58-5.3-.58-7.95-.01-5 .12-10.01.31-15.01.14-3.89.43-7.78.71-11.66.13-1.79.25-3.6.68-5.32.28-1.12 1.1-2.1 1.68-3.15.98-1.78 2.23-3.47 2.89-5.37.82-2.38 1.49-4.92 1.61-7.42.12-2.35-.73-4.73-.85-7.11-.15-2.92-.5-5.99.17-8.77 1.28-5.28 3.66-10.15 6.79-14.71 1.6-2.32 2.27-5.32 3.18-8.07 3.59-10.81 5.82-21.94 6.98-33.25.73-7.08 1.59-14.31-.52-21.28zm-38.716 141.09c1.24.77 1.994 1.393 2.857 1.748 1.75.717 3.52 1.658 5.33 1.8 1.36.108 3.37.363 4.26-1.81-3.55-.21-6.54-1.353-9.23-3.432-2.53-1.955-2.8-2.495-1.7-6.092 3.44 2.44 6.68 5.37 11.76 4.188 0 2.61.03 5-.02 7.384-.01.315-.33.744-.63.913-4.1 2.32-8.5 2.4-12.98 1.54-.35-.06-.91-.62-.87-.85.32-1.7.76-3.37 1.25-5.38zm12.467-20.227c-3.03 2.607-6.44 3.443-10.24 3.165v-9.525c3.41 2.38 8 2.277 11.53.007-.59 2.095.92 4.46-1.28 6.353zm.57 2.697V571.3c-3.56.2-6.48-1.14-9.31-2.515-2.46-1.195-2.65-2.165-1.77-5.16 3.84-.018 8.04 1.198 11.08-3.433zm-.84 46.56c-2.6 3.563-2.51 7.654-.79 11.775.69 1.654.81 3.55 1.3 5.896-3.49-.343-6.63-.453-9.7-.993-5.49-.968-5.66-1.124-4.26-6.605.99-3.888-.21-7.234-2.21-10.15-2.35-3.426-2.22-6.55-.54-10.002 6.7 4.29 9.44 5.023 11.33 3.107-3.75-1.606-7.53-3.217-11.48-4.905.68-2.91 1.36-5.84 2.06-8.865 5.27.544 10.44.754 15.35-1.898.16 2.378.8 4.825-1.83 5.944-2.04.867-4.28 1.272-6.45 1.832-.61.158-1.27.134-1.91.193l.08.82c3.77 2.42 7.01-.28 10.48-1.91.21 1.89.42 3.52.56 5.16.3 3.7.52 7.24-1.94 10.62zm10.79-101.196c-2.11 5.125-4.08 10.27-3.33 16 .05.31-.24.778-.51 1-4.13 3.345-8.78 5.33-14.17 5.426-.58.01-1.16.42-1.75.643.3.58.51 1.246.94 1.706.35.38.96.68 1.46.71 3.99.24 8.01.67 11.4-2.31.97-.84 2.31-1.26 3.48-1.87l.62.41c-.52 2.95-1.03 5.9-1.58 8.85-.06.31-.3.69-.57.84-2.93 1.61-5.74 3.56-9.42 2.97-.91-.14-1.93.4-2.9.62v1.04l8.73 1.87c-.32.73-.47 1.7-1.03 2.27-3.3 3.37-7.46 3.12-11.69 2.78-.33-2.58-.53-4.98-.96-7.33-.43-2.37-1.11-4.7-1.59-6.7 2.11.35 3.98.83 5.86.93 1.99.11 4-.21 5.99-.24 4.61-.07 4.61-.05 5.81-1.41-1.61-.32-2.94-.69-4.29-.83-4.19-.46-8.56.08-12.45-2.28 2.78-4.54 2.1-9.66 2.34-14.75 1.09.26 1.88.51 2.69.63 3.2.47 6.43 1.06 9.44-.74.47-.28.79-.8 1.17-1.21-.57-.24-1.14-.71-1.7-.69-3.55.14-6.67-1.02-9.83-2.54-2.58-1.24-2.98-3.19-3.04-5.72 7.11 2.54 13.97 1.27 21.02-.77-.04.38-.02.58-.09.76zm-17.96-44.216c3.47 1.05 6.99 1.914 10.43 3.02 1.93.618 3.79.794 5.63.01 1.45-.618 2.81-1.44 4.18-2.23 3.7-2.143 7.54-3.913 11.84-4.784.1.326.28.595.25.827-.95 5.627-1.88 11.257-2.93 16.866-.18.94-.65 2.23-1.38 2.62-4.28 2.27-8.7 4.11-13.77 3.1-6.21-1.24-11.98-.56-17.04 4.84 1.15 0 2.02.21 2.72-.04 4.75-1.67 9.37-1.44 14.1.23 2.21.78 4.68.98 7.05 1.15 1.62.11 3.28-.29 5.6-.53-2.62 4.11-1.52 9.56-6.62 11.84-.3.13-.5.47-.77.68-.91.72-1.72 1.7-2.76 2.1-6.2 2.42-12.67 2.77-19.22 2.13-.48-.05-1.1-.89-1.28-1.47-.64-2.16-.98-4.43-1.73-6.55-.52-1.44.06-1.76 1.18-1.8 5.08-.16 10.15-.28 15.23-.38 2.24-.05 4.49-.01 6.55-.01.68-1.99.03-2.68-1.44-2.86-.94-.12-1.89-.27-2.81-.52-6.26-1.7-12.58-.92-18.85-.28-1.49.15-1.57-.33-1.62-1.22-.11-1.83-.1-3.67-.11-5.5-.01-2.26 0-4.51 0-6.76 5.53.35 10.83 1.36 15.98.85 5.16-.52 10.16-2.57 15.23-3.94l.05-.78c-.67-.2-1.35-.59-2.01-.57-2.82.1-5.64.38-8.46.5-3.5.14-7.04.51-10.51.2-3.57-.32-7.08-1.3-10.6-2.08-.34-.08-.74-.8-.77-1.25-.21-2.96-.65-5.95-.4-8.87.46-5.49 1.28-10.94 2.08-16.39.27-1.83.6-3.76 1.46-5.35 2.18-4.05 4.65-7.94 7.05-11.85.46-.74 1.05-1.54 1.78-1.94 3.77-2.07 7.89-2.75 12.14-2.73 5.19.03 9.28 2.04 11.92 6.68-1.08 1.35-1.95 2.8-3.15 3.88-3.07 2.75-6.26 5.37-9.45 7.98-3.14 2.55-6.26 5.1-10.7 5-1.07-.03-2.47.3-2.81 2.02 11.94.93 21.34-4.38 30.42-11.78.29 1.77.39 3.2.77 4.54.998 3.51-.2 5.83-2.93 8.3-4.1 3.7-7.82 7.73-13.44 9.08-1.12.27-2.29.37-3.4.71-3.563 1.08-7.124 1.3-10.79.44-1.78-.41-3.64-.56-5.48-.67-.69-.04-1.403.36-2.11.56l-.05.83c1.95.69 3.88 1.46 5.85 2.06z'},{'color':'#FFF','path':'M247.136 457.89c1.837.11 3.698.254 5.483.67 3.66.852 7.22.635 10.79-.447 1.1-.335 2.27-.437 3.4-.706 5.62-1.347 9.34-5.382 13.44-9.082 2.73-2.466 3.92-4.79 2.93-8.296-.38-1.35-.48-2.77-.77-4.55-9.08 7.4-18.47 12.71-30.41 11.77.33-1.72 1.73-2.05 2.8-2.03 4.44.1 7.56-2.45 10.7-5.01 3.19-2.61 6.38-5.23 9.45-7.98 1.2-1.08 2.07-2.54 3.15-3.89-2.65-4.65-6.73-6.66-11.92-6.68-4.26-.02-8.38.66-12.15 2.72-.73.4-1.33 1.2-1.79 1.94-2.41 3.92-4.88 7.81-7.05 11.85-.86 1.59-1.19 3.52-1.46 5.35-.8 5.45-1.61 10.91-2.07 16.39-.25 2.93.19 5.92.4 8.87.03.45.43 1.17.77 1.25 3.52.78 7.03 1.76 10.6 2.08 3.47.3 7-.06 10.5-.21 2.82-.12 5.64-.4 8.46-.5.66-.02 1.34.36 2.01.56-.01.26-.03.52-.05.78-5.07 1.37-10.07 3.42-15.23 3.94-5.15.52-10.45-.49-15.98-.85 0 2.24-.01 4.5 0 6.76.01 1.83 0 3.67.11 5.5.05.88.13 1.36 1.62 1.21 6.27-.64 12.59-1.42 18.85.27.92.25 1.87.4 2.82.52 1.47.18 2.12.87 1.43 2.86-2.06 0-4.31-.04-6.55.01-5.08.1-10.15.22-15.23.38-1.12.03-1.7.36-1.18 1.8.76 2.11 1.09 4.38 1.74 6.54.17.58.8 1.42 1.28 1.47 6.54.63 13.02.28 19.22-2.14 1.03-.41 1.85-1.38 2.76-2.11.27-.22.47-.55.77-.69 5.1-2.28 3.99-7.73 6.62-11.84-2.31.24-3.97.64-5.6.53-2.37-.17-4.84-.37-7.05-1.16-4.73-1.67-9.35-1.91-14.1-.24-.7.25-1.57.04-2.72.04 5.07-5.41 10.83-6.08 17.04-4.85 5.07 1.01 9.49-.83 13.77-3.11.73-.39 1.2-1.68 1.38-2.63 1.05-5.61 1.98-11.24 2.93-16.87.04-.23-.14-.5-.24-.83-4.29.87-8.14 2.64-11.84 4.78-1.37.79-2.73 1.61-4.17 2.23-1.84.78-3.7.6-5.63-.01-3.44-1.11-6.97-1.97-10.43-3.02-1.98-.61-3.9-1.37-5.85-2.07l.05-.83c.7-.19 1.42-.59 2.11-.55zm12.254 133.09c-3.468 1.63-6.702 4.324-10.475 1.91-.028-.27-.054-.54-.08-.81.64-.06 1.3-.036 1.913-.193 2.166-.56 4.407-.964 6.45-1.832 2.63-1.12 1.99-3.566 1.827-5.944-4.908 2.66-10.08 2.45-15.346 1.9-.71 3.03-1.39 5.96-2.06 8.87l11.48 4.91c-1.89 1.92-4.63 1.18-11.33-3.1-1.68 3.46-1.81 6.58.54 10 2 2.92 3.2 6.27 2.21 10.15-1.4 5.48-1.23 5.64 4.26 6.61 3.06.54 6.21.65 9.7.99-.5-2.34-.61-4.24-1.3-5.89-1.72-4.12-1.81-8.21.79-11.77 2.46-3.37 2.24-6.91 1.94-10.61-.14-1.64-.35-3.27-.56-5.16zm-11.524-85.41c.055 2.528.46 4.478 3.04 5.718 3.155 1.52 6.28 2.68 9.83 2.543.558-.02 1.135.45 1.703.69-.39.41-.71.94-1.18 1.22-3.01 1.81-6.24 1.22-9.44.75-.81-.12-1.61-.37-2.69-.62-.24 5.09.44 10.21-2.34 14.75 3.89 2.36 8.26 1.82 12.45 2.28 1.35.15 2.68.52 4.29.84-1.21 1.36-1.21 1.34-5.81 1.41-2 .03-4.01.35-5.99.25-1.89-.1-3.75-.57-5.86-.92.48 2 1.15 4.33 1.59 6.71.43 2.36.63 4.75.96 7.33 4.23.35 8.39.59 11.68-2.78.56-.57.71-1.53 1.03-2.26l-8.73-1.87v-1.04c.97-.22 1.99-.76 2.9-.62 3.68.59 6.48-1.36 9.42-2.97.27-.15.51-.53.57-.84.55-2.94 1.06-5.89 1.58-8.84l-.62-.41c-1.17.61-2.51 1.02-3.48 1.87-3.4 2.98-7.41 2.56-11.4 2.31-.51-.03-1.11-.33-1.46-.71-.43-.46-.63-1.12-.94-1.7.59-.22 1.17-.63 1.75-.64 5.4-.09 10.05-2.08 14.18-5.42.28-.22.56-.69.52-1-.75-5.73 1.22-10.87 3.33-16 .07-.17.05-.38.09-.75-7.05 2.04-13.92 3.31-21.02.77zm-2.426 78.387c4.48.86 8.874.777 12.98-1.536.296-.16.624-.59.632-.91.053-2.38.028-4.77.028-7.38-5.084 1.18-8.323-1.75-11.757-4.19-1.107 3.6-.837 4.14 1.698 6.09 2.7 2.08 5.69 3.22 9.24 3.44-.89 2.18-2.9 1.92-4.26 1.81-1.81-.14-3.58-1.08-5.33-1.8-.86-.35-1.61-.97-2.85-1.75-.48 2.01-.93 3.69-1.24 5.38-.04.24.53.79.87.86zm2.598-32.823v9.525c3.802.27 7.213-.56 10.243-3.17 2.21-1.9.69-4.26 1.29-6.36-3.52 2.27-8.12 2.37-11.52-.01zm1.498 17.652c2.83 1.374 5.745 2.713 9.31 2.515v-11.1c-3.042 4.63-7.24 3.42-11.077 3.44-.89 3-.7 3.97 1.76 5.16z'},{'color':'#000','path':'M230.06 637.008c-.325-.67-.4-1.46-.707-2.143-2.462-5.523-4.434-11.185-5.73-17.122-.974-4.458-.45-8.415 2.104-12.2 1.197-1.775 2.078-3.785 1.604-6.03-1-4.78-2.06-9.548-3.14-14.313-1.02-4.56-2.53-9.062-3.05-13.677-.8-7.04-1.06-14.152-1.3-21.24-.15-4.385-.24-8.797 1.25-13.086 1.25-3.58 1.3-7.146-1.24-10.364-.41-.517-.69-1.262-.73-1.917-.2-3.92-.83-7.908-.35-11.75.73-5.78 2.18-11.473 3.46-17.172 1.24-5.503 2.76-10.923 2.63-16.67-.07-3.08.58-6.167.75-9.26.24-4.177.54-8.37.41-12.542-.1-3.425-.67-6.85-1.23-10.245-.55-3.32-.83-6.825-2.16-9.84-1.98-4.498-4.69-8.686-7.27-12.89-.72-1.17-1.95-2.477-3.18-2.793-4.24-1.09-8.56-2.035-12.9-2.517-3.37-.374-6.87.426-9.54 2.55-4.44 3.52-6.93 8.56-8.53 13.825-2.11 6.963-1.25 14.195-.52 21.276 1.16 11.306 3.39 22.434 6.98 33.247.91 2.75 1.58 5.747 3.18 8.07 3.13 4.56 5.51 9.43 6.79 14.71.68 2.776.32 5.846.18 8.77-.12 2.38-.96 4.763-.84 7.112.12 2.5.79 5.036 1.62 7.42.66 1.894 1.91 3.585 2.89 5.367.58 1.044 1.4 2.027 1.68 3.147.43 1.73.55 3.54.68 5.33.29 3.89.58 7.77.72 11.66.19 5 .33 10.01.31 15.01 0 2.65-.38 5.3-.58 7.96-.23 3.15-.43 6.3-.66 9.45-.31 4.22-1.21 8.37 2.14 12.16 1.65 1.86 2.33 4.71 1.65 7.43-.66 2.67-1.22 5.4-2.26 7.92-1.92 4.65-3.88 9.26-4.74 14.24-.37 2.15-.24 4.33 1.75 5.67 3.34 2.26 6.63 4.72 10.27 6.38 2.47 1.13 5.44 2.02 8.25-.07 3.24-2.41 6.69-4.55 9.98-6.91.59-.42.83-1.33 1.22-2.01l-.56-.16c-.41-.58-.9-1.11-1.21-1.74zm-10.165-60.31c.482 2.008.93 3.683 1.246 5.383.05.24-.52.79-.87.86-4.48.86-8.87.78-12.98-1.53-.29-.17-.62-.59-.63-.91-.05-2.38-.03-4.77-.03-7.38 5.09 1.18 8.33-1.75 11.76-4.19 1.11 3.6.84 4.14-1.7 6.1-2.7 2.08-5.68 3.22-9.23 3.44.89 2.18 2.9 1.92 4.26 1.81 1.82-.14 3.59-1.08 5.33-1.8.87-.35 1.62-.97 2.86-1.75zm-13.75-26.58c3.527 2.27 8.12 2.374 11.526-.007v9.53c-3.8.28-7.21-.56-10.24-3.16-2.2-1.89-.68-4.25-1.28-6.35zm11.796 12.486c.89 2.995.7 3.964-1.76 5.16-2.83 1.374-5.74 2.713-9.31 2.515v-11.11c3.05 4.63 7.24 3.41 11.08 3.43zm-23.08-65.34c-5.09-2.274-3.99-7.726-6.62-11.84 2.31.242 3.97.646 5.6.533 2.37-.167 4.84-.372 7.05-1.153 4.74-1.672 9.36-1.907 14.1-.236.71.248 1.57.035 2.72.035-5.06-5.403-10.83-6.08-17.04-4.847-5.06 1.006-9.49-.83-13.76-3.105-.73-.39-1.2-1.67-1.38-2.62-1.05-5.61-1.98-11.23-2.93-16.86-.04-.23.15-.5.25-.82 4.29.87 8.14 2.65 11.84 4.79 1.36.79 2.73 1.62 4.17 2.23 1.84.79 3.7.61 5.63-.01 3.45-1.1 6.97-1.97 10.43-3.02 1.98-.6 3.91-1.37 5.86-2.06l-.05-.83c-.7-.19-1.42-.59-2.11-.55-1.83.11-3.7.26-5.48.67-3.66.86-7.22.64-10.79-.44-1.1-.33-2.27-.44-3.4-.71-5.62-1.34-9.34-5.38-13.44-9.08-2.73-2.47-3.92-4.79-2.93-8.3.38-1.34.48-2.77.77-4.54 9.08 7.4 18.47 12.71 30.41 11.78-.33-1.72-1.73-2.05-2.8-2.02-4.45.1-7.57-2.45-10.7-5-3.2-2.6-6.38-5.23-9.45-7.98-1.21-1.08-2.08-2.53-3.15-3.88 2.64-4.64 6.72-6.65 11.91-6.68 4.25-.02 8.37.66 12.14 2.72.73.4 1.33 1.2 1.79 1.94 2.41 3.92 4.87 7.81 7.05 11.85.85 1.59 1.19 3.53 1.46 5.35.8 5.45 1.62 10.91 2.08 16.39.25 2.93-.19 5.92-.4 8.87-.03.45-.43 1.17-.77 1.25-3.52.78-7.04 1.76-10.61 2.08-3.47.31-7-.06-10.5-.2-2.82-.12-5.64-.39-8.46-.5-.67-.02-1.34.37-2.01.57.01.26.03.53.05.79 5.07 1.38 10.07 3.43 15.23 3.94 5.14.52 10.44-.49 15.97-.84 0 2.25.01 4.51 0 6.76-.01 1.84 0 3.68-.12 5.5-.06.89-.13 1.37-1.62 1.22-6.27-.64-12.59-1.42-18.85.28-.92.25-1.87.41-2.82.52-1.48.18-2.12.87-1.44 2.86 2.05 0 4.3-.04 6.55.01 5.07.1 10.15.22 15.22.38 1.12.03 1.7.36 1.18 1.8-.76 2.12-1.09 4.39-1.74 6.55-.17.58-.79 1.42-1.28 1.47-6.55.64-13.02.29-19.22-2.14-1.03-.4-1.85-1.38-2.75-2.1-.27-.21-.47-.55-.77-.68zm9.69 45.15l8.73-1.867v-1.036c-.97-.22-1.99-.76-2.9-.61-3.68.59-6.48-1.35-9.42-2.97-.27-.15-.51-.53-.57-.84-.55-2.94-1.06-5.89-1.58-8.84l.62-.41c1.17.61 2.51 1.03 3.48 1.87 3.4 2.98 7.41 2.56 11.4 2.32.51-.03 1.12-.33 1.46-.71.43-.46.64-1.12.94-1.7-.58-.22-1.16-.63-1.75-.64-5.39-.09-10.04-2.08-14.17-5.42-.27-.22-.55-.69-.51-1 .76-5.73-1.22-10.87-3.33-16-.07-.17-.05-.38-.09-.75 7.05 2.04 13.92 3.31 21.02.77-.05 2.53-.46 4.48-3.04 5.72-3.15 1.52-6.28 2.68-9.83 2.55-.56-.02-1.13.44-1.7.69.39.41.71.94 1.17 1.22 3.01 1.81 6.24 1.22 9.44.75.81-.12 1.6-.37 2.69-.62.24 5.09-.44 10.21 2.34 14.75-3.89 2.36-8.26 1.82-12.45 2.28-1.35.15-2.68.52-4.3.84 1.21 1.36 1.21 1.34 5.81 1.41 2 .03 4.01.35 5.99.24 1.88-.1 3.75-.57 5.86-.92-.48 2-1.15 4.33-1.59 6.71-.43 2.36-.63 4.75-.96 7.33-4.23.35-8.39.59-11.69-2.78-.55-.57-.71-1.53-1.03-2.26zm12.37 79.995c-3.07.54-6.21.65-9.7.99.5-2.35.61-4.24 1.3-5.9 1.72-4.12 1.81-8.22-.79-11.78-2.46-3.38-2.24-6.92-1.94-10.62.14-1.64.35-3.27.56-5.16 3.47 1.63 6.7 4.32 10.48 1.91l.08-.81c-.64-.06-1.3-.04-1.91-.2-2.16-.56-4.41-.97-6.45-1.83-2.63-1.12-1.99-3.57-1.83-5.94 4.91 2.65 10.08 2.44 15.35 1.89.71 3.02 1.39 5.95 2.06 8.86l-11.48 4.9c1.89 1.91 4.63 1.18 11.33-3.11 1.68 3.45 1.81 6.57-.54 10-2 2.91-3.2 6.26-2.21 10.15 1.4 5.48 1.23 5.63-4.26 6.6z'},{'color':'#FFF','path':'M217.602 502.19c.48-.047 1.103-.883 1.278-1.467.647-2.163.98-4.43 1.738-6.546.516-1.44-.062-1.764-1.18-1.798-5.075-.16-10.15-.29-15.226-.39-2.246-.05-4.496-.01-6.55-.01-.683-1.99-.036-2.68 1.436-2.86.946-.12 1.9-.27 2.818-.52 6.257-1.7 12.58-.92 18.846-.28 1.49.15 1.565-.33 1.62-1.22.113-1.83.1-3.67.113-5.5.015-2.26.003-4.51.003-6.76-5.527.36-10.828 1.36-15.975.84-5.155-.52-10.156-2.57-15.224-3.94-.02-.26-.04-.52-.05-.78.67-.2 1.35-.59 2.01-.57 2.82.1 5.64.38 8.46.5 3.5.14 7.03.51 10.5.2 3.57-.32 7.08-1.3 10.6-2.08.34-.08.74-.8.77-1.25.21-2.96.65-5.95.4-8.87-.46-5.48-1.28-10.94-2.08-16.39-.27-1.83-.6-3.76-1.46-5.35-2.18-4.05-4.65-7.94-7.05-11.85-.46-.74-1.05-1.54-1.79-1.94-3.77-2.06-7.89-2.74-12.15-2.72-5.19.02-9.28 2.03-11.92 6.68 1.07 1.35 1.95 2.8 3.15 3.88 3.07 2.75 6.25 5.37 9.45 7.98 3.13 2.55 6.26 5.1 10.7 5 1.07-.03 2.47.3 2.8 2.02-11.94.93-21.34-4.38-30.42-11.78-.29 1.77-.39 3.19-.77 4.54-.99 3.5.2 5.83 2.93 8.29 4.1 3.7 7.81 7.73 13.44 9.08 1.12.27 2.29.37 3.4.71 3.57 1.08 7.13 1.3 10.79.44 1.78-.42 3.64-.56 5.48-.67.68-.04 1.4.36 2.1.55l.05.83c-1.95.69-3.88 1.46-5.85 2.06-3.46 1.05-6.98 1.91-10.43 3.02-1.92.62-3.79.79-5.62.01-1.45-.62-2.81-1.44-4.18-2.23-3.7-2.14-7.54-3.91-11.83-4.78-.1.33-.29.6-.25.83.95 5.62 1.88 11.25 2.93 16.86.18.95.65 2.24 1.38 2.63 4.28 2.27 8.7 4.11 13.77 3.1 6.21-1.23 11.98-.56 17.04 4.85-1.15 0-2.02.21-2.72-.03-4.75-1.67-9.37-1.44-14.1.24-2.21.78-4.68.99-7.05 1.15-1.62.11-3.28-.29-5.59-.54 2.63 4.12 1.52 9.57 6.62 11.85.3.13.5.47.77.68.91.72 1.72 1.7 2.76 2.1 6.2 2.42 12.68 2.77 19.22 2.13zm5.788 103.462c2.35-3.426 2.223-6.55.542-10.002-6.698 4.29-9.442 5.023-11.326 3.106l11.483-4.905-2.06-8.86c-5.27.55-10.44.76-15.35-1.9-.17 2.38-.81 4.83 1.83 5.95 2.04.87 4.28 1.28 6.45 1.84.61.16 1.27.14 1.91.2l-.09.81c-3.78 2.42-7.01-.28-10.48-1.91-.21 1.89-.43 3.52-.56 5.16-.31 3.7-.53 7.24 1.94 10.62 2.6 3.57 2.51 7.66.79 11.78-.69 1.66-.8 3.55-1.29 5.9 3.49-.34 6.63-.45 9.7-.99 5.49-.97 5.66-1.12 4.26-6.61-.99-3.88.22-7.23 2.21-10.14zm-6.126-58.192c.33-2.58.53-4.978.964-7.332.438-2.372 1.11-4.702 1.595-6.703-2.112.35-3.976.825-5.858.924-1.987.1-3.993-.22-5.99-.25-4.605-.08-4.605-.05-5.81-1.41 1.618-.32 2.945-.69 4.298-.84 4.192-.46 8.56.08 12.45-2.28-2.778-4.54-2.103-9.67-2.34-14.75-1.088.25-1.88.5-2.69.62-3.2.47-6.43 1.06-9.44-.75-.466-.28-.785-.81-1.17-1.22.567-.24 1.144-.71 1.702-.69 3.55.13 6.674-1.03 9.83-2.55 2.58-1.24 2.985-3.19 3.04-5.72-7.105 2.54-13.974 1.27-21.02-.77.043.37.024.58.094.76 2.1 5.12 4.08 10.27 3.32 16-.04.31.24.78.51 1 4.13 3.34 8.78 5.33 14.17 5.42.58.01 1.16.42 1.75.64-.3.58-.51 1.24-.94 1.7-.35.37-.96.67-1.46.71-3.99.24-8.01.66-11.4-2.32-.97-.84-2.31-1.26-3.48-1.87l-.62.41c.52 2.95 1.03 5.9 1.58 8.84.06.31.3.69.57.84 2.93 1.62 5.74 3.56 9.42 2.97.91-.14 1.93.4 2.9.62v1.04l-8.73 1.86c.31.73.47 1.7 1.03 2.27 3.29 3.37 7.45 3.12 11.68 2.78zm-5.554 32.79c-1.357.106-3.37.362-4.26-1.81 3.553-.212 6.54-1.354 9.236-3.433 2.535-1.955 2.805-2.495 1.698-6.093-3.433 2.44-6.673 5.37-11.757 4.188 0 2.612-.024 4.998.028 7.384.008.315.337.744.634.912 4.1 2.314 8.49 2.395 12.98 1.536.34-.067.91-.62.87-.854-.32-1.7-.77-3.375-1.25-5.383-1.24.773-2 1.395-2.86 1.75-1.74.718-3.51 1.658-5.33 1.802zm-4.282-23.778c3.03 2.607 6.44 3.444 10.244 3.165v-9.526c-3.407 2.39-8 2.28-11.525.01.593 2.1-.92 4.46 1.28 6.36zm-.564 2.698v11.108c3.565.198 6.48-1.14 9.31-2.515 2.46-1.195 2.655-2.165 1.767-5.16-3.83-.018-8.03 1.198-11.07-3.434z'}];
 
 /***/ },
-/* 486 */
+/* 487 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -29594,7 +29648,7 @@
 
 	// MultiBackend to support both HTML5Backend and TouchBackend
 
-	// Backend for devices who need touch support
+	// Backend for devices whith Touch
 
 	// Backend for desktop
 
@@ -29602,45 +29656,45 @@
 	// React components
 
 
-	var _react = __webpack_require__(300);
+	var _react = __webpack_require__(299);
 
 	var _react2 = _interopRequireDefault(_react);
 
-	var _redux = __webpack_require__(457);
+	var _redux = __webpack_require__(456);
 
 	var _reactRedux = __webpack_require__(470);
 
-	var _actions = __webpack_require__(487);
+	var _actions = __webpack_require__(488);
 
 	var DragActions = _interopRequireWildcard(_actions);
 
-	var _MultiBackend = __webpack_require__(488);
+	var _MultiBackend = __webpack_require__(489);
 
 	var _MultiBackend2 = _interopRequireDefault(_MultiBackend);
 
-	var _reactDndTouchPointerEventsBackend = __webpack_require__(489);
+	var _reactDndTouchBackend = __webpack_require__(490);
 
-	var _reactDndTouchPointerEventsBackend2 = _interopRequireDefault(_reactDndTouchPointerEventsBackend);
+	var _reactDndTouchBackend2 = _interopRequireDefault(_reactDndTouchBackend);
 
-	var _reactDndHtml5Backend = __webpack_require__(490);
+	var _reactDndHtml5Backend = __webpack_require__(492);
 
 	var _reactDndHtml5Backend2 = _interopRequireDefault(_reactDndHtml5Backend);
 
-	var _reactDnd = __webpack_require__(587);
+	var _reactDnd = __webpack_require__(589);
 
-	var _Animal = __webpack_require__(707);
+	var _Animal = __webpack_require__(709);
 
 	var _Animal2 = _interopRequireDefault(_Animal);
 
-	var _BodyZones = __webpack_require__(708);
+	var _BodyZones = __webpack_require__(710);
 
 	var _BodyZones2 = _interopRequireDefault(_BodyZones);
 
-	var _Footer = __webpack_require__(710);
+	var _Footer = __webpack_require__(712);
 
 	var _Footer2 = _interopRequireDefault(_Footer);
 
-	var _ItemPreview = __webpack_require__(711);
+	var _ItemPreview = __webpack_require__(713);
 
 	var _ItemPreview2 = _interopRequireDefault(_ItemPreview);
 
@@ -29667,7 +29721,7 @@
 	                ),
 	                _react2.default.createElement(
 	                    'div',
-	                    { className: 'animal-list' },
+	                    { className: 'animal__list' },
 	                    game.animals.map(function (animal) {
 	                        return _react2.default.createElement(_Animal2.default, { key: animal.name, animal: animal, drag: actions.drag });
 	                    })
@@ -29699,10 +29753,10 @@
 	    };
 	}
 
-	exports.default = (0, _reactRedux.connect)(mapStateToProps, mapDispatchToProps)((0, _reactDnd.DragDropContext)((0, _MultiBackend2.default)(_reactDndHtml5Backend2.default, _reactDndTouchPointerEventsBackend2.default))(Game));
+	exports.default = (0, _reactRedux.connect)(mapStateToProps, mapDispatchToProps)((0, _reactDnd.DragDropContext)((0, _MultiBackend2.default)(_reactDndHtml5Backend2.default, _reactDndTouchBackend2.default))(Game));
 
 /***/ },
-/* 487 */
+/* 488 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -29712,7 +29766,7 @@
 	});
 	exports.drag = undefined;
 
-	var _constants = __webpack_require__(484);
+	var _constants = __webpack_require__(485);
 
 	var types = _interopRequireWildcard(_constants);
 
@@ -29724,7 +29778,7 @@
 	};
 
 /***/ },
-/* 488 */
+/* 489 */
 /***/ function(module, exports) {
 
 	'use strict';
@@ -29786,315 +29840,484 @@
 	};
 
 /***/ },
-/* 489 */
-/***/ function(module, exports) {
+/* 490 */
+/***/ function(module, exports, __webpack_require__) {
 
+	/**
+	 * Copyright 2015, Yahoo Inc.
+	 * Copyrights licensed under the MIT License. See the accompanying LICENSE file for terms.
+	 */
 	'use strict';
 
 	Object.defineProperty(exports, "__esModule", {
-		value: true
+	    value: true
 	});
+	exports.TouchBackend = undefined;
+
+	var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
 
 	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
 	exports.default = createTouchBackend;
 
+	var _invariant = __webpack_require__(491);
+
+	var _invariant2 = _interopRequireDefault(_invariant);
+
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
 	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
 
-	// React DnD Backend for TOuch Devices
-	// Based on: https://github.com/zyzo/react-dnd-mouse-backend
-	// This also supports Windows Phone, which uses a different touch event API.
+	function getEventClientTouchOffset(e) {
+	    if (e.targetTouches.length === 1) {
+	        return getEventClientOffset(e.targetTouches[0]);
+	    }
+	}
 
-	var getEventClientOffset = navigator.msPointerEnabled ? function (event) {
-		var x = event.clientX;
-		var y = event.clientY;
-		return { x: x, y: y };
-	} : function (event) {
-		var length = event.touches.length;
-		if (length === 0) {
-			return null;
-		}
-		var x = 0;
-		var y = 0;
-		for (var i = 0; i < length; ++i) {
-			var touch = event.touches.item(i);
-			x += touch.clientX;
-			y += touch.clientY;
-		}
-		return {
-			x: x / length,
-			y: y / length
-		};
-	};
-
-	var isStillDragging = navigator.msPointerEnabled ?
-	// TODO: track pointerId and only react to the one pointer that started the drag?
-	function (event) {
-		return false;
-	} :
-
-	// Some fingers still touch the surface.
-	// NOTE: In Firefox event.touches contains the ended touch, in Chrome it doesn't.
-	function (event) {
-		return event.changedTouches.length < event.touches.length;
-	};
+	function getEventClientOffset(e) {
+	    if (e.targetTouches) {
+	        return getEventClientTouchOffset(e);
+	    } else {
+	        return {
+	            x: e.clientX,
+	            y: e.clientY
+	        };
+	    }
+	}
 
 	var ELEMENT_NODE = 1;
 	function getNodeClientOffset(node) {
-		var el = node.nodeType === ELEMENT_NODE ? node : node.parentElement;
+	    var el = node.nodeType === ELEMENT_NODE ? node : node.parentElement;
 
-		if (!el) {
-			return null;
-		}
+	    if (!el) {
+	        return null;
+	    }
 
-		var _el$getBoundingClient = el.getBoundingClientRect();
+	    var _el$getBoundingClient = el.getBoundingClientRect();
 
-		var top = _el$getBoundingClient.top;
-		var left = _el$getBoundingClient.left;
+	    var top = _el$getBoundingClient.top;
+	    var left = _el$getBoundingClient.left;
 
-		return { x: left, y: top };
+	    return { x: left, y: top };
 	}
 
+	var eventNames = {
+	    mouse: {
+	        start: 'mousedown',
+	        move: 'mousemove',
+	        end: 'mouseup'
+	    },
+	    touch: {
+	        start: 'touchstart',
+	        move: 'touchmove',
+	        end: 'touchend'
+	    }
+	};
+
 	var TouchBackend = exports.TouchBackend = function () {
-		function TouchBackend(manager) {
-			_classCallCheck(this, TouchBackend);
+	    function TouchBackend(manager) {
+	        var options = arguments.length <= 1 || arguments[1] === undefined ? {} : arguments[1];
 
-			this.actions = manager.getActions();
-			this.monitor = manager.getMonitor();
-			this.registry = manager.getRegistry();
+	        _classCallCheck(this, TouchBackend);
 
-			this.sourceNodes = {};
-			this.sourceNodesOptions = {};
-			this.sourcePreviewNodes = {};
-			this.sourcePreviewNodesOptions = {};
-			this.targetNodes = {};
-			this.targetNodeOptions = {};
-			this.touchClientOffset = {};
+	        options.delayTouchStart = options.delayTouchStart || options.delay;
 
-			this.getSourceClientOffset = this.getSourceClientOffset.bind(this);
+	        options = _extends({
+	            enableTouchEvents: true,
+	            enableMouseEvents: false,
+	            delayTouchStart: 0,
+	            delayMouseStart: 0
+	        }, options);
 
-			this.handleWindowMoveStart = this.handleWindowMoveStart.bind(this);
-			this.handleWindowMoveStartCapture = this.handleWindowMoveStartCapture.bind(this);
-			this.handleWindowMoveCapture = this.handleWindowMoveCapture.bind(this);
-			this.handleWindowMoveEndCapture = this.handleWindowMoveEndCapture.bind(this);
-		}
+	        this.actions = manager.getActions();
+	        this.monitor = manager.getMonitor();
+	        this.registry = manager.getRegistry();
 
-		_createClass(TouchBackend, [{
-			key: 'setup',
-			value: function setup() {
-				if (typeof window === 'undefined') {
-					return;
-				}
+	        this.delayTouchStart = options.delayTouchStart;
+	        this.delayMouseStart = options.delayMouseStart;
+	        this.sourceNodes = {};
+	        this.sourceNodeOptions = {};
+	        this.sourcePreviewNodes = {};
+	        this.sourcePreviewNodeOptions = {};
+	        this.targetNodeOptions = {};
+	        this.listenerTypes = [];
+	        this._mouseClientOffset = {};
 
-				if (this.constructor.isSetUp) {
-					throw new Error('Cannot have two DnD Touch backends at the same time');
-				}
+	        if (options.enableMouseEvents) {
+	            this.listenerTypes.push('mouse');
+	        }
 
-				this.constructor.isSetUp = true;
-				if (navigator.msPointerEnabled) {
-					window.addEventListener('MSPointerDown', this.handleWindowMoveStartCapture, true);
-					window.addEventListener('MSPointerDown', this.handleWindowMoveStart, false);
-					window.addEventListener('MSPointerMove', this.handleWindowMoveCapture, true);
-					window.addEventListener('MSPointerUp', this.handleWindowMoveEndCapture, true);
-				} else {
-					window.addEventListener('touchstart', this.handleWindowMoveStartCapture, true);
-					window.addEventListener('touchstart', this.handleWindowMoveStart, false);
-					window.addEventListener('touchmove', this.handleWindowMoveCapture, true);
-					window.addEventListener('touchend', this.handleWindowMoveEndCapture, true);
-					window.addEventListener('touchcancel', this.handleWindowMoveEndCapture, true);
-				}
-			}
-		}, {
-			key: 'getSourceClientOffset',
-			value: function getSourceClientOffset(sourceId) {
-				return getNodeClientOffset(this.sourceNodes[sourceId]);
-			}
-		}, {
-			key: 'teardown',
-			value: function teardown() {
-				if (typeof window === 'undefined') {
-					return;
-				}
+	        if (options.enableTouchEvents) {
+	            this.listenerTypes.push('touch');
+	        }
 
-				this.constructor.isSetUp = false;
+	        this.getSourceClientOffset = this.getSourceClientOffset.bind(this);
+	        this.handleTopMoveStart = this.handleTopMoveStart.bind(this);
+	        this.handleTopMoveStartDelay = this.handleTopMoveStartDelay.bind(this);
+	        this.handleTopMoveStartCapture = this.handleTopMoveStartCapture.bind(this);
+	        this.handleTopMoveCapture = this.handleTopMoveCapture.bind(this);
+	        this.handleTopMove = this.handleTopMove.bind(this);
+	        this.handleTopMoveEndCapture = this.handleTopMoveEndCapture.bind(this);
+	    }
 
-				this.touchClientOffset = {};
-				if (navigator.msPointerEnabled) {
-					window.removeEventListener('MSPointerDown', this.handleWindowMoveStartCapture, true);
-					window.removeEventListener('MSPointerDown', this.handleWindowMoveStart, false);
-					window.removeEventListener('MSPointerMove', this.handleWindowMoveCapture, true);
-					window.removeEventListener('MSPointerUp', this.handleWindowMoveEndCapture, true);
-				} else {
-					window.removeEventListener('touchstart', this.handleWindowMoveStartCapture, true);
-					window.removeEventListener('touchstart', this.handleWindowMoveStart, false);
-					window.removeEventListener('touchmove', this.handleWindowMoveCapture, true);
-					window.removeEventListener('touchend', this.handleWindowMoveEndCapture, true);
-					window.removeEventListener('touchcancel', this.handleWindowMoveEndCapture, true);
-				}
-			}
-		}, {
-			key: 'connectDragSource',
-			value: function connectDragSource(sourceId, node) {
-				var _this = this;
+	    _createClass(TouchBackend, [{
+	        key: 'setup',
+	        value: function setup() {
+	            if (typeof window === 'undefined') {
+	                return;
+	            }
 
-				this.sourceNodes[sourceId] = node;
+	            (0, _invariant2.default)(!this.constructor.isSetUp, 'Cannot have two Touch backends at the same time.');
+	            this.constructor.isSetUp = true;
 
-				var handleMoveStart = this.handleMoveStart.bind(this, sourceId);
-				node.addEventListener(navigator.msPointerEnabled ? 'MSPointerDown' : 'touchstart', handleMoveStart);
+	            this.addEventListener(window, 'start', this.getTopMoveStartHandler());
+	            this.addEventListener(window, 'start', this.handleTopMoveStartCapture, true);
+	            this.addEventListener(window, 'move', this.handleTopMove);
+	            this.addEventListener(window, 'move', this.handleTopMoveCapture, true);
+	            this.addEventListener(window, 'end', this.handleTopMoveEndCapture, true);
+	        }
+	    }, {
+	        key: 'teardown',
+	        value: function teardown() {
+	            if (typeof window === 'undefined') {
+	                return;
+	            }
 
-				return function () {
-					delete _this.sourceNodes[sourceId];
-					node.removeEventListener(navigator.msPointerEnabled ? 'MSPointerDown' : 'touchstart', handleMoveStart);
-				};
-			}
-		}, {
-			key: 'connectDragPreview',
-			value: function connectDragPreview(sourceId, node, options) {
-				var _this2 = this;
+	            this.constructor.isSetUp = false;
+	            this._mouseClientOffset = {};
 
-				this.sourcePreviewNodeOptions[sourceId] = options;
-				this.sourcePreviewNodes[sourceId] = node;
+	            this.removeEventListener(window, 'start', this.handleTopMoveStartCapture, true);
+	            this.removeEventListener(window, 'start', this.handleTopMoveStart);
+	            this.removeEventListener(window, 'move', this.handleTopMoveCapture, true);
+	            this.removeEventListener(window, 'move', this.handleTopMove);
+	            this.removeEventListener(window, 'end', this.handleTopMoveEndCapture, true);
 
-				return function () {
-					delete _this2.sourcePreviewNodes[sourceId];
-					delete _this2.sourcePreviewNodeOptions[sourceId];
-				};
-			}
-		}, {
-			key: 'connectDropTarget',
-			value: function connectDropTarget(targetId, node) {
-				var _this3 = this;
+	            this.uninstallSourceNodeRemovalObserver();
+	        }
+	    }, {
+	        key: 'addEventListener',
+	        value: function addEventListener(subject, event, handler, capture) {
+	            this.listenerTypes.forEach(function (listenerType) {
+	                subject.addEventListener(eventNames[listenerType][event], handler, capture);
+	            });
+	        }
+	    }, {
+	        key: 'removeEventListener',
+	        value: function removeEventListener(subject, event, handler, capture) {
+	            this.listenerTypes.forEach(function (listenerType) {
+	                subject.removeEventListener(eventNames[listenerType][event], handler, capture);
+	            });
+	        }
+	    }, {
+	        key: 'connectDragSource',
+	        value: function connectDragSource(sourceId, node, options) {
+	            var _this = this;
 
-				this.targetNodes[targetId] = node;
+	            var handleMoveStart = this.handleMoveStart.bind(this, sourceId);
+	            this.sourceNodes[sourceId] = node;
 
-				return function () {
-					delete _this3.targetNodes[targetId];
-				};
-			}
-		}, {
-			key: 'handleWindowMoveStartCapture',
-			value: function handleWindowMoveStartCapture() {
-				this.moveStartSourceIds = [];
-			}
-		}, {
-			key: 'handleMoveStart',
-			value: function handleMoveStart(sourceId) {
-				this.moveStartSourceIds.unshift(sourceId);
-			}
-		}, {
-			key: 'handleWindowMoveStart',
-			value: function handleWindowMoveStart(event) {
-				var clientOffset = getEventClientOffset(event);
-				if (clientOffset) {
-					this.touchClientOffset = clientOffset;
-				}
-			}
-		}, {
-			key: 'handleWindowMoveCapture',
-			value: function handleWindowMoveCapture(event) {
-				var _this4 = this;
+	            this.addEventListener(node, 'start', handleMoveStart);
 
-				var moveStartSourceIds = this.moveStartSourceIds;
+	            return function () {
+	                delete _this.sourceNodes[sourceId];
+	                _this.removeEventListener(node, 'start', handleMoveStart);
+	            };
+	        }
+	    }, {
+	        key: 'connectDragPreview',
+	        value: function connectDragPreview(sourceId, node, options) {
+	            var _this2 = this;
 
-				var clientOffset = getEventClientOffset(event);
-				if (!clientOffset) {
-					return;
-				}
-				if (!this.monitor.isDragging() && this.touchClientOffset.hasOwnProperty('x') && moveStartSourceIds && (this.touchClientOffset.x !== clientOffset.x || this.touchClientOffset.y !== clientOffset.y)) {
-					this.moveStartSourceIds = null;
-					this.actions.beginDrag(moveStartSourceIds, {
-						clientOffset: this.touchClientOffset,
-						getSourceClientOffset: this.getSourceClientOffset,
-						publishSource: false
-					});
-				}
-				if (!this.monitor.isDragging()) {
-					return;
-				}
+	            this.sourcePreviewNodeOptions[sourceId] = options;
+	            this.sourcePreviewNodes[sourceId] = node;
 
-				var sourceNode = this.sourceNodes[this.monitor.getSourceId()];
-				this.installSourceNodeRemovalObserver(sourceNode);
+	            return function () {
+	                delete _this2.sourcePreviewNodes[sourceId];
+	                delete _this2.sourcePreviewNodeOptions[sourceId];
+	            };
+	        }
+	    }, {
+	        key: 'connectDropTarget',
+	        value: function connectDropTarget(targetId, node) {
+	            var _this3 = this;
 
-				this.actions.publishDragSource();
+	            var handleMove = function handleMove(e) {
+	                var coords = void 0;
 
-				event.preventDefault();
+	                /**
+	                 * Grab the coordinates for the current mouse/touch position
+	                 */
+	                switch (e.type) {
+	                    case eventNames.mouse.move:
+	                        coords = { x: e.clientX, y: e.clientY };
+	                        break;
 
-				var matchingTargetIds = Object.keys(this.targetNodes).filter(function (targetId) {
-					var boundingRect = _this4.targetNodes[targetId].getBoundingClientRect();
-					return clientOffset.x >= boundingRect.left && clientOffset.x <= boundingRect.right && clientOffset.y >= boundingRect.top && clientOffset.y <= boundingRect.bottom;
-				});
+	                    case eventNames.touch.move:
+	                        coords = { x: e.touches[0].clientX, y: e.touches[0].clientY };
+	                        break;
+	                }
 
-				this.actions.hover(matchingTargetIds, { clientOffset: clientOffset });
-			}
-		}, {
-			key: 'handleWindowMoveEndCapture',
-			value: function handleWindowMoveEndCapture(event) {
-				if (isStillDragging(event)) {
-					// Some fingers still touch the surface.
-					return;
-				}
-				if (!this.monitor.isDragging() || this.monitor.didDrop()) {
-					this.moveStartSourceIds = null;
-					return;
-				}
+	                /**
+	                 * Use the coordinates to grab the element the drag ended on.
+	                 * If the element is the same as the target node (or any of it's children) then we have hit a drop target and can handle the move.
+	                 */
+	                var droppedOn = document.elementFromPoint(coords.x, coords.y);
+	                var childMatch = false;
 
-				event.preventDefault();
+	                for (var i = 0; i < node.childNodes.length; i++) {
+	                    if (node.childNodes[i] === droppedOn) {
+	                        childMatch = true;
+	                    };
+	                }
 
-				this.touchClientOffset = {};
+	                if (droppedOn === node || childMatch) {
+	                    return _this3.handleMove(e, targetId);
+	                }
+	            };
 
-				this.uninstallSourceNodeRemovalObserver();
-				this.actions.drop();
-				this.actions.endDrag();
-			}
-		}, {
-			key: 'installSourceNodeRemovalObserver',
-			value: function installSourceNodeRemovalObserver(node) {
-				var _this5 = this;
+	            /**
+	             * Attaching the event listener to the body so that touchmove will work while dragging over multiple target elements.
+	             */
+	            this.addEventListener(document.querySelector('body'), 'move', handleMove);
 
-				this.uninstallSourceNodeRemovalObserver();
+	            return function () {
+	                _this3.removeEventListener(document.querySelector('body'), 'move', handleMove);
+	            };
+	        }
+	    }, {
+	        key: 'getSourceClientOffset',
+	        value: function getSourceClientOffset(sourceId) {
+	            return getNodeClientOffset(this.sourceNodes[sourceId]);
+	        }
+	    }, {
+	        key: 'handleTopMoveStartCapture',
+	        value: function handleTopMoveStartCapture(e) {
+	            this.moveStartSourceIds = [];
+	        }
+	    }, {
+	        key: 'handleMoveStart',
+	        value: function handleMoveStart(sourceId) {
+	            this.moveStartSourceIds.unshift(sourceId);
+	        }
+	    }, {
+	        key: 'getTopMoveStartHandler',
+	        value: function getTopMoveStartHandler() {
+	            if (!this.delayTouchStart && !this.delayMouseStart) {
+	                return this.handleTopMoveStart;
+	            }
 
-				this.draggedSourceNode = node;
-				this.draggedSourceNodeRemovalObserver = new window.MutationObserver(function () {
-					if (!node.parentElement) {
-						_this5.resurrectSourceNode();
-						_this5.uninstallSourceNodeRemovalObserver();
-					}
-				});
+	            return this.handleTopMoveStartDelay;
+	        }
+	    }, {
+	        key: 'handleTopMoveStart',
+	        value: function handleTopMoveStart(e) {
+	            // Don't prematurely preventDefault() here since it might:
+	            // 1. Mess up scrolling
+	            // 2. Mess up long tap (which brings up context menu)
+	            // 3. If there's an anchor link as a child, tap won't be triggered on link
 
-				if (!node || !node.parentElement) {
-					return;
-				}
+	            var clientOffset = getEventClientOffset(e);
+	            if (clientOffset) {
+	                this._mouseClientOffset = clientOffset;
+	            }
+	        }
+	    }, {
+	        key: 'handleTopMoveStartDelay',
+	        value: function handleTopMoveStartDelay(e) {
+	            var delay = e.type === eventNames.touch.start ? this.delayTouchStart : this.delayMouseStart;
+	            this.timeout = setTimeout(this.handleTopMoveStart.bind(this, e), delay);
+	        }
+	    }, {
+	        key: 'handleTopMoveCapture',
+	        value: function handleTopMoveCapture(e) {
+	            this.dragOverTargetIds = [];
+	        }
+	    }, {
+	        key: 'handleMove',
+	        value: function handleMove(e, targetId) {
+	            this.dragOverTargetIds.unshift(targetId);
+	        }
+	    }, {
+	        key: 'handleTopMove',
+	        value: function handleTopMove(e) {
+	            clearTimeout(this.timeout);
 
-				this.draggedSourceNodeRemovalObserver.observe(node.parentElement, { childList: true });
-			}
-		}, {
-			key: 'resurrectSourceNode',
-			value: function resurrectSourceNode() {
-				this.draggedSourceNode.style.display = 'none';
-				this.draggedSourceNode.removeAttribute('data-reactid');
-				document.body.appendChild(this.draggedSourceNode);
-			}
-		}, {
-			key: 'uninstallSourceNodeRemovalObserver',
-			value: function uninstallSourceNodeRemovalObserver() {
-				if (this.draggedSourceNodeRemovalObserver) {
-					this.draggedSourceNodeRemovalObserver.disconnect();
-				}
+	            var moveStartSourceIds = this.moveStartSourceIds;
+	            var dragOverTargetIds = this.dragOverTargetIds;
 
-				this.draggedSourceNodeRemovalObserver = null;
-				this.draggedSourceNode = null;
-			}
-		}]);
+	            var clientOffset = getEventClientOffset(e);
 
-		return TouchBackend;
+	            if (!clientOffset) {
+	                return;
+	            }
+
+	            // If we're not dragging and we've moved a little, that counts as a drag start
+	            if (!this.monitor.isDragging() && this._mouseClientOffset.hasOwnProperty('x') && moveStartSourceIds && (this._mouseClientOffset.x !== clientOffset.x || this._mouseClientOffset.y !== clientOffset.y)) {
+	                this.moveStartSourceIds = null;
+	                this.actions.beginDrag(moveStartSourceIds, {
+	                    clientOffset: this._mouseClientOffset,
+	                    getSourceClientOffset: this.getSourceClientOffset,
+	                    publishSource: false
+	                });
+	            }
+
+	            if (!this.monitor.isDragging()) {
+	                return;
+	            }
+
+	            var sourceNode = this.sourceNodes[this.monitor.getSourceId()];
+	            this.installSourceNodeRemovalObserver(sourceNode);
+	            this.actions.publishDragSource();
+
+	            e.preventDefault();
+
+	            /*const matchingTargetIds = Object.keys(this.targetNodes)
+	                .filter((targetId) => {
+	                    const boundingRect = this.targetNodes[targetId].getBoundingClientRect();
+	                    return clientOffset.x >= boundingRect.left &&
+	                    clientOffset.x <= boundingRect.right &&
+	                    clientOffset.y >= boundingRect.top &&
+	                    clientOffset.y <= boundingRect.bottom;
+	                });
+	            */
+
+	            this.actions.hover(dragOverTargetIds, {
+	                clientOffset: clientOffset
+	            });
+	        }
+	    }, {
+	        key: 'handleTopMoveEndCapture',
+	        value: function handleTopMoveEndCapture(e) {
+	            if (!this.monitor.isDragging() || this.monitor.didDrop()) {
+	                this.moveStartSourceIds = null;
+	                return;
+	            }
+
+	            e.preventDefault();
+
+	            this._mouseClientOffset = {};
+
+	            this.uninstallSourceNodeRemovalObserver();
+	            this.actions.drop();
+	            this.actions.endDrag();
+	        }
+	    }, {
+	        key: 'installSourceNodeRemovalObserver',
+	        value: function installSourceNodeRemovalObserver(node) {
+	            var _this4 = this;
+
+	            this.uninstallSourceNodeRemovalObserver();
+
+	            this.draggedSourceNode = node;
+	            this.draggedSourceNodeRemovalObserver = new window.MutationObserver(function () {
+	                if (!node.parentElement) {
+	                    _this4.resurrectSourceNode();
+	                    _this4.uninstallSourceNodeRemovalObserver();
+	                }
+	            });
+
+	            if (!node || !node.parentElement) {
+	                return;
+	            }
+
+	            this.draggedSourceNodeRemovalObserver.observe(node.parentElement, { childList: true });
+	        }
+	    }, {
+	        key: 'resurrectSourceNode',
+	        value: function resurrectSourceNode() {
+	            this.draggedSourceNode.style.display = 'none';
+	            this.draggedSourceNode.removeAttribute('data-reactid');
+	            document.body.appendChild(this.draggedSourceNode);
+	        }
+	    }, {
+	        key: 'uninstallSourceNodeRemovalObserver',
+	        value: function uninstallSourceNodeRemovalObserver() {
+	            if (this.draggedSourceNodeRemovalObserver) {
+	                this.draggedSourceNodeRemovalObserver.disconnect();
+	            }
+
+	            this.draggedSourceNodeRemovalObserver = null;
+	            this.draggedSourceNode = null;
+	        }
+	    }]);
+
+	    return TouchBackend;
 	}();
 
-	function createTouchBackend(manager) {
-		return new TouchBackend(manager);
+	function createTouchBackend() {
+	    var optionsOrManager = arguments.length <= 0 || arguments[0] === undefined ? {} : arguments[0];
+
+	    var touchBackendFactory = function touchBackendFactory(manager) {
+	        return new TouchBackend(manager, optionsOrManager);
+	    };
+
+	    if (optionsOrManager.getMonitor) {
+	        return touchBackendFactory(optionsOrManager);
+	    } else {
+	        return touchBackendFactory;
+	    }
 	}
 
 /***/ },
-/* 490 */
+/* 491 */
+/***/ function(module, exports, __webpack_require__) {
+
+	/* WEBPACK VAR INJECTION */(function(process) {/**
+	 * Copyright 2013-2015, Facebook, Inc.
+	 * All rights reserved.
+	 *
+	 * This source code is licensed under the BSD-style license found in the
+	 * LICENSE file in the root directory of this source tree. An additional grant
+	 * of patent rights can be found in the PATENTS file in the same directory.
+	 */
+
+	'use strict';
+
+	/**
+	 * Use invariant() to assert state which your program assumes to be true.
+	 *
+	 * Provide sprintf-style format (only %s is supported) and arguments
+	 * to provide information about what broke and what you were
+	 * expecting.
+	 *
+	 * The invariant message will be stripped in production, but the invariant
+	 * will remain to ensure logic does not differ in production.
+	 */
+
+	var invariant = function(condition, format, a, b, c, d, e, f) {
+	  if (process.env.NODE_ENV !== 'production') {
+	    if (format === undefined) {
+	      throw new Error('invariant requires an error message argument');
+	    }
+	  }
+
+	  if (!condition) {
+	    var error;
+	    if (format === undefined) {
+	      error = new Error(
+	        'Minified exception occurred; use the non-minified dev environment ' +
+	        'for the full error message and additional helpful warnings.'
+	      );
+	    } else {
+	      var args = [a, b, c, d, e, f];
+	      var argIndex = 0;
+	      error = new Error(
+	        format.replace(/%s/g, function() { return args[argIndex++]; })
+	      );
+	      error.name = 'Invariant Violation';
+	    }
+
+	    error.framesToPop = 1; // we don't care about invariant's own frame
+	    throw error;
+	  }
+	};
+
+	module.exports = invariant;
+
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(295)))
+
+/***/ },
+/* 492 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -30106,15 +30329,15 @@
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
 
-	var _HTML5Backend = __webpack_require__(491);
+	var _HTML5Backend = __webpack_require__(493);
 
 	var _HTML5Backend2 = _interopRequireDefault(_HTML5Backend);
 
-	var _getEmptyImage = __webpack_require__(586);
+	var _getEmptyImage = __webpack_require__(588);
 
 	var _getEmptyImage2 = _interopRequireDefault(_getEmptyImage);
 
-	var _NativeTypes = __webpack_require__(585);
+	var _NativeTypes = __webpack_require__(587);
 
 	var NativeTypes = _interopRequireWildcard(_NativeTypes);
 
@@ -30126,7 +30349,7 @@
 	}
 
 /***/ },
-/* 491 */
+/* 493 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -30139,25 +30362,25 @@
 
 	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError('Cannot call a class as a function'); } }
 
-	var _lodashDefaults = __webpack_require__(492);
+	var _lodashDefaults = __webpack_require__(494);
 
 	var _lodashDefaults2 = _interopRequireDefault(_lodashDefaults);
 
-	var _shallowEqual = __webpack_require__(527);
+	var _shallowEqual = __webpack_require__(529);
 
 	var _shallowEqual2 = _interopRequireDefault(_shallowEqual);
 
-	var _EnterLeaveCounter = __webpack_require__(528);
+	var _EnterLeaveCounter = __webpack_require__(530);
 
 	var _EnterLeaveCounter2 = _interopRequireDefault(_EnterLeaveCounter);
 
-	var _BrowserDetector = __webpack_require__(580);
+	var _BrowserDetector = __webpack_require__(582);
 
-	var _OffsetUtils = __webpack_require__(582);
+	var _OffsetUtils = __webpack_require__(584);
 
-	var _NativeDragSources = __webpack_require__(584);
+	var _NativeDragSources = __webpack_require__(586);
 
-	var _NativeTypes = __webpack_require__(585);
+	var _NativeTypes = __webpack_require__(587);
 
 	var NativeTypes = _interopRequireWildcard(_NativeTypes);
 
@@ -30707,13 +30930,13 @@
 	module.exports = exports['default'];
 
 /***/ },
-/* 492 */
+/* 494 */
 /***/ function(module, exports, __webpack_require__) {
 
-	var apply = __webpack_require__(493),
-	    assignInDefaults = __webpack_require__(494),
-	    assignInWith = __webpack_require__(496),
-	    rest = __webpack_require__(508);
+	var apply = __webpack_require__(495),
+	    assignInDefaults = __webpack_require__(496),
+	    assignInWith = __webpack_require__(498),
+	    rest = __webpack_require__(510);
 
 	/**
 	 * Assigns own and inherited enumerable string keyed properties of source
@@ -30745,7 +30968,7 @@
 
 
 /***/ },
-/* 493 */
+/* 495 */
 /***/ function(module, exports) {
 
 	/**
@@ -30773,10 +30996,10 @@
 
 
 /***/ },
-/* 494 */
+/* 496 */
 /***/ function(module, exports, __webpack_require__) {
 
-	var eq = __webpack_require__(495);
+	var eq = __webpack_require__(497);
 
 	/** Used for built-in method references. */
 	var objectProto = Object.prototype;
@@ -30806,7 +31029,7 @@
 
 
 /***/ },
-/* 495 */
+/* 497 */
 /***/ function(module, exports) {
 
 	/**
@@ -30849,12 +31072,12 @@
 
 
 /***/ },
-/* 496 */
+/* 498 */
 /***/ function(module, exports, __webpack_require__) {
 
-	var copyObject = __webpack_require__(497),
-	    createAssigner = __webpack_require__(499),
-	    keysIn = __webpack_require__(514);
+	var copyObject = __webpack_require__(499),
+	    createAssigner = __webpack_require__(501),
+	    keysIn = __webpack_require__(516);
 
 	/**
 	 * This method is like `_.assignIn` except that it accepts `customizer`
@@ -30893,10 +31116,10 @@
 
 
 /***/ },
-/* 497 */
+/* 499 */
 /***/ function(module, exports, __webpack_require__) {
 
-	var assignValue = __webpack_require__(498);
+	var assignValue = __webpack_require__(500);
 
 	/**
 	 * Copies properties of `source` to `object`.
@@ -30930,10 +31153,10 @@
 
 
 /***/ },
-/* 498 */
+/* 500 */
 /***/ function(module, exports, __webpack_require__) {
 
-	var eq = __webpack_require__(495);
+	var eq = __webpack_require__(497);
 
 	/** Used for built-in method references. */
 	var objectProto = Object.prototype;
@@ -30963,11 +31186,11 @@
 
 
 /***/ },
-/* 499 */
+/* 501 */
 /***/ function(module, exports, __webpack_require__) {
 
-	var isIterateeCall = __webpack_require__(500),
-	    rest = __webpack_require__(508);
+	var isIterateeCall = __webpack_require__(502),
+	    rest = __webpack_require__(510);
 
 	/**
 	 * Creates a function like `_.assign`.
@@ -31006,13 +31229,13 @@
 
 
 /***/ },
-/* 500 */
+/* 502 */
 /***/ function(module, exports, __webpack_require__) {
 
-	var eq = __webpack_require__(495),
-	    isArrayLike = __webpack_require__(501),
-	    isIndex = __webpack_require__(507),
-	    isObject = __webpack_require__(505);
+	var eq = __webpack_require__(497),
+	    isArrayLike = __webpack_require__(503),
+	    isIndex = __webpack_require__(509),
+	    isObject = __webpack_require__(507);
 
 	/**
 	 * Checks if the given arguments are from an iteratee call.
@@ -31042,12 +31265,12 @@
 
 
 /***/ },
-/* 501 */
+/* 503 */
 /***/ function(module, exports, __webpack_require__) {
 
-	var getLength = __webpack_require__(502),
-	    isFunction = __webpack_require__(504),
-	    isLength = __webpack_require__(506);
+	var getLength = __webpack_require__(504),
+	    isFunction = __webpack_require__(506),
+	    isLength = __webpack_require__(508);
 
 	/**
 	 * Checks if `value` is array-like. A value is considered array-like if it's
@@ -31082,10 +31305,10 @@
 
 
 /***/ },
-/* 502 */
+/* 504 */
 /***/ function(module, exports, __webpack_require__) {
 
-	var baseProperty = __webpack_require__(503);
+	var baseProperty = __webpack_require__(505);
 
 	/**
 	 * Gets the "length" property value of `object`.
@@ -31104,7 +31327,7 @@
 
 
 /***/ },
-/* 503 */
+/* 505 */
 /***/ function(module, exports) {
 
 	/**
@@ -31124,10 +31347,10 @@
 
 
 /***/ },
-/* 504 */
+/* 506 */
 /***/ function(module, exports, __webpack_require__) {
 
-	var isObject = __webpack_require__(505);
+	var isObject = __webpack_require__(507);
 
 	/** `Object#toString` result references. */
 	var funcTag = '[object Function]',
@@ -31173,7 +31396,7 @@
 
 
 /***/ },
-/* 505 */
+/* 507 */
 /***/ function(module, exports) {
 
 	/**
@@ -31210,7 +31433,7 @@
 
 
 /***/ },
-/* 506 */
+/* 508 */
 /***/ function(module, exports) {
 
 	/** Used as references for various `Number` constants. */
@@ -31252,7 +31475,7 @@
 
 
 /***/ },
-/* 507 */
+/* 509 */
 /***/ function(module, exports) {
 
 	/** Used as references for various `Number` constants. */
@@ -31280,11 +31503,11 @@
 
 
 /***/ },
-/* 508 */
+/* 510 */
 /***/ function(module, exports, __webpack_require__) {
 
-	var apply = __webpack_require__(493),
-	    toInteger = __webpack_require__(509);
+	var apply = __webpack_require__(495),
+	    toInteger = __webpack_require__(511);
 
 	/** Used as the `TypeError` message for "Functions" methods. */
 	var FUNC_ERROR_TEXT = 'Expected a function';
@@ -31350,10 +31573,10 @@
 
 
 /***/ },
-/* 509 */
+/* 511 */
 /***/ function(module, exports, __webpack_require__) {
 
-	var toFinite = __webpack_require__(510);
+	var toFinite = __webpack_require__(512);
 
 	/**
 	 * Converts `value` to an integer.
@@ -31392,10 +31615,10 @@
 
 
 /***/ },
-/* 510 */
+/* 512 */
 /***/ function(module, exports, __webpack_require__) {
 
-	var toNumber = __webpack_require__(511);
+	var toNumber = __webpack_require__(513);
 
 	/** Used as references for various `Number` constants. */
 	var INFINITY = 1 / 0,
@@ -31440,12 +31663,12 @@
 
 
 /***/ },
-/* 511 */
+/* 513 */
 /***/ function(module, exports, __webpack_require__) {
 
-	var isFunction = __webpack_require__(504),
-	    isObject = __webpack_require__(505),
-	    isSymbol = __webpack_require__(512);
+	var isFunction = __webpack_require__(506),
+	    isObject = __webpack_require__(507),
+	    isSymbol = __webpack_require__(514);
 
 	/** Used as references for various `Number` constants. */
 	var NAN = 0 / 0;
@@ -31513,10 +31736,10 @@
 
 
 /***/ },
-/* 512 */
+/* 514 */
 /***/ function(module, exports, __webpack_require__) {
 
-	var isObjectLike = __webpack_require__(513);
+	var isObjectLike = __webpack_require__(515);
 
 	/** `Object#toString` result references. */
 	var symbolTag = '[object Symbol]';
@@ -31558,7 +31781,7 @@
 
 
 /***/ },
-/* 513 */
+/* 515 */
 /***/ function(module, exports) {
 
 	/**
@@ -31593,13 +31816,13 @@
 
 
 /***/ },
-/* 514 */
+/* 516 */
 /***/ function(module, exports, __webpack_require__) {
 
-	var baseKeysIn = __webpack_require__(515),
-	    indexKeys = __webpack_require__(520),
-	    isIndex = __webpack_require__(507),
-	    isPrototype = __webpack_require__(526);
+	var baseKeysIn = __webpack_require__(517),
+	    indexKeys = __webpack_require__(522),
+	    isIndex = __webpack_require__(509),
+	    isPrototype = __webpack_require__(528);
 
 	/** Used for built-in method references. */
 	var objectProto = Object.prototype;
@@ -31654,11 +31877,11 @@
 
 
 /***/ },
-/* 515 */
+/* 517 */
 /***/ function(module, exports, __webpack_require__) {
 
-	var Reflect = __webpack_require__(516),
-	    iteratorToArray = __webpack_require__(519);
+	var Reflect = __webpack_require__(518),
+	    iteratorToArray = __webpack_require__(521);
 
 	/** Used for built-in method references. */
 	var objectProto = Object.prototype;
@@ -31696,10 +31919,10 @@
 
 
 /***/ },
-/* 516 */
+/* 518 */
 /***/ function(module, exports, __webpack_require__) {
 
-	var root = __webpack_require__(517);
+	var root = __webpack_require__(519);
 
 	/** Built-in value references. */
 	var Reflect = root.Reflect;
@@ -31708,10 +31931,10 @@
 
 
 /***/ },
-/* 517 */
+/* 519 */
 /***/ function(module, exports, __webpack_require__) {
 
-	/* WEBPACK VAR INJECTION */(function(global) {var checkGlobal = __webpack_require__(518);
+	/* WEBPACK VAR INJECTION */(function(global) {var checkGlobal = __webpack_require__(520);
 
 	/** Detect free variable `global` from Node.js. */
 	var freeGlobal = checkGlobal(typeof global == 'object' && global);
@@ -31730,7 +31953,7 @@
 	/* WEBPACK VAR INJECTION */}.call(exports, (function() { return this; }())))
 
 /***/ },
-/* 518 */
+/* 520 */
 /***/ function(module, exports) {
 
 	/**
@@ -31748,7 +31971,7 @@
 
 
 /***/ },
-/* 519 */
+/* 521 */
 /***/ function(module, exports) {
 
 	/**
@@ -31772,14 +31995,14 @@
 
 
 /***/ },
-/* 520 */
+/* 522 */
 /***/ function(module, exports, __webpack_require__) {
 
-	var baseTimes = __webpack_require__(521),
-	    isArguments = __webpack_require__(522),
-	    isArray = __webpack_require__(524),
-	    isLength = __webpack_require__(506),
-	    isString = __webpack_require__(525);
+	var baseTimes = __webpack_require__(523),
+	    isArguments = __webpack_require__(524),
+	    isArray = __webpack_require__(526),
+	    isLength = __webpack_require__(508),
+	    isString = __webpack_require__(527);
 
 	/**
 	 * Creates an array of index keys for `object` values of arrays,
@@ -31802,7 +32025,7 @@
 
 
 /***/ },
-/* 521 */
+/* 523 */
 /***/ function(module, exports) {
 
 	/**
@@ -31828,10 +32051,10 @@
 
 
 /***/ },
-/* 522 */
+/* 524 */
 /***/ function(module, exports, __webpack_require__) {
 
-	var isArrayLikeObject = __webpack_require__(523);
+	var isArrayLikeObject = __webpack_require__(525);
 
 	/** `Object#toString` result references. */
 	var argsTag = '[object Arguments]';
@@ -31880,11 +32103,11 @@
 
 
 /***/ },
-/* 523 */
+/* 525 */
 /***/ function(module, exports, __webpack_require__) {
 
-	var isArrayLike = __webpack_require__(501),
-	    isObjectLike = __webpack_require__(513);
+	var isArrayLike = __webpack_require__(503),
+	    isObjectLike = __webpack_require__(515);
 
 	/**
 	 * This method is like `_.isArrayLike` except that it also checks if `value`
@@ -31919,7 +32142,7 @@
 
 
 /***/ },
-/* 524 */
+/* 526 */
 /***/ function(module, exports) {
 
 	/**
@@ -31953,11 +32176,11 @@
 
 
 /***/ },
-/* 525 */
+/* 527 */
 /***/ function(module, exports, __webpack_require__) {
 
-	var isArray = __webpack_require__(524),
-	    isObjectLike = __webpack_require__(513);
+	var isArray = __webpack_require__(526),
+	    isObjectLike = __webpack_require__(515);
 
 	/** `Object#toString` result references. */
 	var stringTag = '[object String]';
@@ -31999,7 +32222,7 @@
 
 
 /***/ },
-/* 526 */
+/* 528 */
 /***/ function(module, exports) {
 
 	/** Used for built-in method references. */
@@ -32023,7 +32246,7 @@
 
 
 /***/ },
-/* 527 */
+/* 529 */
 /***/ function(module, exports) {
 
 	"use strict";
@@ -32064,7 +32287,7 @@
 	module.exports = exports["default"];
 
 /***/ },
-/* 528 */
+/* 530 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -32075,11 +32298,11 @@
 
 	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError('Cannot call a class as a function'); } }
 
-	var _lodashUnion = __webpack_require__(529);
+	var _lodashUnion = __webpack_require__(531);
 
 	var _lodashUnion2 = _interopRequireDefault(_lodashUnion);
 
-	var _lodashWithout = __webpack_require__(576);
+	var _lodashWithout = __webpack_require__(578);
 
 	var _lodashWithout2 = _interopRequireDefault(_lodashWithout);
 
@@ -32121,13 +32344,13 @@
 	module.exports = exports['default'];
 
 /***/ },
-/* 529 */
+/* 531 */
 /***/ function(module, exports, __webpack_require__) {
 
-	var baseFlatten = __webpack_require__(530),
-	    baseUniq = __webpack_require__(533),
-	    isArrayLikeObject = __webpack_require__(523),
-	    rest = __webpack_require__(508);
+	var baseFlatten = __webpack_require__(532),
+	    baseUniq = __webpack_require__(535),
+	    isArrayLikeObject = __webpack_require__(525),
+	    rest = __webpack_require__(510);
 
 	/**
 	 * Creates an array of unique values, in order, from all given arrays using
@@ -32153,11 +32376,11 @@
 
 
 /***/ },
-/* 530 */
+/* 532 */
 /***/ function(module, exports, __webpack_require__) {
 
-	var arrayPush = __webpack_require__(531),
-	    isFlattenable = __webpack_require__(532);
+	var arrayPush = __webpack_require__(533),
+	    isFlattenable = __webpack_require__(534);
 
 	/**
 	 * The base implementation of `_.flatten` with support for restricting flattening.
@@ -32197,7 +32420,7 @@
 
 
 /***/ },
-/* 531 */
+/* 533 */
 /***/ function(module, exports) {
 
 	/**
@@ -32223,11 +32446,11 @@
 
 
 /***/ },
-/* 532 */
+/* 534 */
 /***/ function(module, exports, __webpack_require__) {
 
-	var isArguments = __webpack_require__(522),
-	    isArray = __webpack_require__(524);
+	var isArguments = __webpack_require__(524),
+	    isArray = __webpack_require__(526);
 
 	/**
 	 * Checks if `value` is a flattenable `arguments` object or array.
@@ -32244,15 +32467,15 @@
 
 
 /***/ },
-/* 533 */
+/* 535 */
 /***/ function(module, exports, __webpack_require__) {
 
-	var SetCache = __webpack_require__(534),
-	    arrayIncludes = __webpack_require__(567),
-	    arrayIncludesWith = __webpack_require__(570),
-	    cacheHas = __webpack_require__(571),
-	    createSet = __webpack_require__(572),
-	    setToArray = __webpack_require__(575);
+	var SetCache = __webpack_require__(536),
+	    arrayIncludes = __webpack_require__(569),
+	    arrayIncludesWith = __webpack_require__(572),
+	    cacheHas = __webpack_require__(573),
+	    createSet = __webpack_require__(574),
+	    setToArray = __webpack_require__(577);
 
 	/** Used as the size to enable large array optimizations. */
 	var LARGE_ARRAY_SIZE = 200;
@@ -32322,12 +32545,12 @@
 
 
 /***/ },
-/* 534 */
+/* 536 */
 /***/ function(module, exports, __webpack_require__) {
 
-	var MapCache = __webpack_require__(535),
-	    setCacheAdd = __webpack_require__(565),
-	    setCacheHas = __webpack_require__(566);
+	var MapCache = __webpack_require__(537),
+	    setCacheAdd = __webpack_require__(567),
+	    setCacheHas = __webpack_require__(568);
 
 	/**
 	 *
@@ -32355,14 +32578,14 @@
 
 
 /***/ },
-/* 535 */
+/* 537 */
 /***/ function(module, exports, __webpack_require__) {
 
-	var mapCacheClear = __webpack_require__(536),
-	    mapCacheDelete = __webpack_require__(559),
-	    mapCacheGet = __webpack_require__(562),
-	    mapCacheHas = __webpack_require__(563),
-	    mapCacheSet = __webpack_require__(564);
+	var mapCacheClear = __webpack_require__(538),
+	    mapCacheDelete = __webpack_require__(561),
+	    mapCacheGet = __webpack_require__(564),
+	    mapCacheHas = __webpack_require__(565),
+	    mapCacheSet = __webpack_require__(566);
 
 	/**
 	 * Creates a map cache object to store key-value pairs.
@@ -32393,12 +32616,12 @@
 
 
 /***/ },
-/* 536 */
+/* 538 */
 /***/ function(module, exports, __webpack_require__) {
 
-	var Hash = __webpack_require__(537),
-	    ListCache = __webpack_require__(551),
-	    Map = __webpack_require__(558);
+	var Hash = __webpack_require__(539),
+	    ListCache = __webpack_require__(553),
+	    Map = __webpack_require__(560);
 
 	/**
 	 * Removes all key-value entries from the map.
@@ -32419,14 +32642,14 @@
 
 
 /***/ },
-/* 537 */
+/* 539 */
 /***/ function(module, exports, __webpack_require__) {
 
-	var hashClear = __webpack_require__(538),
-	    hashDelete = __webpack_require__(547),
-	    hashGet = __webpack_require__(548),
-	    hashHas = __webpack_require__(549),
-	    hashSet = __webpack_require__(550);
+	var hashClear = __webpack_require__(540),
+	    hashDelete = __webpack_require__(549),
+	    hashGet = __webpack_require__(550),
+	    hashHas = __webpack_require__(551),
+	    hashSet = __webpack_require__(552);
 
 	/**
 	 * Creates a hash object.
@@ -32457,10 +32680,10 @@
 
 
 /***/ },
-/* 538 */
+/* 540 */
 /***/ function(module, exports, __webpack_require__) {
 
-	var nativeCreate = __webpack_require__(539);
+	var nativeCreate = __webpack_require__(541);
 
 	/**
 	 * Removes all key-value entries from the hash.
@@ -32477,10 +32700,10 @@
 
 
 /***/ },
-/* 539 */
+/* 541 */
 /***/ function(module, exports, __webpack_require__) {
 
-	var getNative = __webpack_require__(540);
+	var getNative = __webpack_require__(542);
 
 	/* Built-in method references that are verified to be native. */
 	var nativeCreate = getNative(Object, 'create');
@@ -32489,11 +32712,11 @@
 
 
 /***/ },
-/* 540 */
+/* 542 */
 /***/ function(module, exports, __webpack_require__) {
 
-	var baseIsNative = __webpack_require__(541),
-	    getValue = __webpack_require__(546);
+	var baseIsNative = __webpack_require__(543),
+	    getValue = __webpack_require__(548);
 
 	/**
 	 * Gets the native function at `key` of `object`.
@@ -32512,14 +32735,14 @@
 
 
 /***/ },
-/* 541 */
+/* 543 */
 /***/ function(module, exports, __webpack_require__) {
 
-	var isFunction = __webpack_require__(504),
-	    isHostObject = __webpack_require__(542),
-	    isMasked = __webpack_require__(543),
-	    isObject = __webpack_require__(505),
-	    toSource = __webpack_require__(545);
+	var isFunction = __webpack_require__(506),
+	    isHostObject = __webpack_require__(544),
+	    isMasked = __webpack_require__(545),
+	    isObject = __webpack_require__(507),
+	    toSource = __webpack_require__(547);
 
 	/**
 	 * Used to match `RegExp`
@@ -32565,7 +32788,7 @@
 
 
 /***/ },
-/* 542 */
+/* 544 */
 /***/ function(module, exports) {
 
 	/**
@@ -32591,10 +32814,10 @@
 
 
 /***/ },
-/* 543 */
+/* 545 */
 /***/ function(module, exports, __webpack_require__) {
 
-	var coreJsData = __webpack_require__(544);
+	var coreJsData = __webpack_require__(546);
 
 	/** Used to detect methods masquerading as native. */
 	var maskSrcKey = (function() {
@@ -32617,10 +32840,10 @@
 
 
 /***/ },
-/* 544 */
+/* 546 */
 /***/ function(module, exports, __webpack_require__) {
 
-	var root = __webpack_require__(517);
+	var root = __webpack_require__(519);
 
 	/** Used to detect overreaching core-js shims. */
 	var coreJsData = root['__core-js_shared__'];
@@ -32629,7 +32852,7 @@
 
 
 /***/ },
-/* 545 */
+/* 547 */
 /***/ function(module, exports) {
 
 	/** Used to resolve the decompiled source of functions. */
@@ -32658,7 +32881,7 @@
 
 
 /***/ },
-/* 546 */
+/* 548 */
 /***/ function(module, exports) {
 
 	/**
@@ -32677,7 +32900,7 @@
 
 
 /***/ },
-/* 547 */
+/* 549 */
 /***/ function(module, exports) {
 
 	/**
@@ -32698,10 +32921,10 @@
 
 
 /***/ },
-/* 548 */
+/* 550 */
 /***/ function(module, exports, __webpack_require__) {
 
-	var nativeCreate = __webpack_require__(539);
+	var nativeCreate = __webpack_require__(541);
 
 	/** Used to stand-in for `undefined` hash values. */
 	var HASH_UNDEFINED = '__lodash_hash_undefined__';
@@ -32734,10 +32957,10 @@
 
 
 /***/ },
-/* 549 */
+/* 551 */
 /***/ function(module, exports, __webpack_require__) {
 
-	var nativeCreate = __webpack_require__(539);
+	var nativeCreate = __webpack_require__(541);
 
 	/** Used for built-in method references. */
 	var objectProto = Object.prototype;
@@ -32763,10 +32986,10 @@
 
 
 /***/ },
-/* 550 */
+/* 552 */
 /***/ function(module, exports, __webpack_require__) {
 
-	var nativeCreate = __webpack_require__(539);
+	var nativeCreate = __webpack_require__(541);
 
 	/** Used to stand-in for `undefined` hash values. */
 	var HASH_UNDEFINED = '__lodash_hash_undefined__';
@@ -32791,14 +33014,14 @@
 
 
 /***/ },
-/* 551 */
+/* 553 */
 /***/ function(module, exports, __webpack_require__) {
 
-	var listCacheClear = __webpack_require__(552),
-	    listCacheDelete = __webpack_require__(553),
-	    listCacheGet = __webpack_require__(555),
-	    listCacheHas = __webpack_require__(556),
-	    listCacheSet = __webpack_require__(557);
+	var listCacheClear = __webpack_require__(554),
+	    listCacheDelete = __webpack_require__(555),
+	    listCacheGet = __webpack_require__(557),
+	    listCacheHas = __webpack_require__(558),
+	    listCacheSet = __webpack_require__(559);
 
 	/**
 	 * Creates an list cache object.
@@ -32829,7 +33052,7 @@
 
 
 /***/ },
-/* 552 */
+/* 554 */
 /***/ function(module, exports) {
 
 	/**
@@ -32847,10 +33070,10 @@
 
 
 /***/ },
-/* 553 */
+/* 555 */
 /***/ function(module, exports, __webpack_require__) {
 
-	var assocIndexOf = __webpack_require__(554);
+	var assocIndexOf = __webpack_require__(556);
 
 	/** Used for built-in method references. */
 	var arrayProto = Array.prototype;
@@ -32887,10 +33110,10 @@
 
 
 /***/ },
-/* 554 */
+/* 556 */
 /***/ function(module, exports, __webpack_require__) {
 
-	var eq = __webpack_require__(495);
+	var eq = __webpack_require__(497);
 
 	/**
 	 * Gets the index at which the `key` is found in `array` of key-value pairs.
@@ -32914,10 +33137,10 @@
 
 
 /***/ },
-/* 555 */
+/* 557 */
 /***/ function(module, exports, __webpack_require__) {
 
-	var assocIndexOf = __webpack_require__(554);
+	var assocIndexOf = __webpack_require__(556);
 
 	/**
 	 * Gets the list cache value for `key`.
@@ -32939,10 +33162,10 @@
 
 
 /***/ },
-/* 556 */
+/* 558 */
 /***/ function(module, exports, __webpack_require__) {
 
-	var assocIndexOf = __webpack_require__(554);
+	var assocIndexOf = __webpack_require__(556);
 
 	/**
 	 * Checks if a list cache value for `key` exists.
@@ -32961,10 +33184,10 @@
 
 
 /***/ },
-/* 557 */
+/* 559 */
 /***/ function(module, exports, __webpack_require__) {
 
-	var assocIndexOf = __webpack_require__(554);
+	var assocIndexOf = __webpack_require__(556);
 
 	/**
 	 * Sets the list cache `key` to `value`.
@@ -32992,11 +33215,11 @@
 
 
 /***/ },
-/* 558 */
+/* 560 */
 /***/ function(module, exports, __webpack_require__) {
 
-	var getNative = __webpack_require__(540),
-	    root = __webpack_require__(517);
+	var getNative = __webpack_require__(542),
+	    root = __webpack_require__(519);
 
 	/* Built-in method references that are verified to be native. */
 	var Map = getNative(root, 'Map');
@@ -33005,10 +33228,10 @@
 
 
 /***/ },
-/* 559 */
+/* 561 */
 /***/ function(module, exports, __webpack_require__) {
 
-	var getMapData = __webpack_require__(560);
+	var getMapData = __webpack_require__(562);
 
 	/**
 	 * Removes `key` and its value from the map.
@@ -33027,10 +33250,10 @@
 
 
 /***/ },
-/* 560 */
+/* 562 */
 /***/ function(module, exports, __webpack_require__) {
 
-	var isKeyable = __webpack_require__(561);
+	var isKeyable = __webpack_require__(563);
 
 	/**
 	 * Gets the data for `map`.
@@ -33051,7 +33274,7 @@
 
 
 /***/ },
-/* 561 */
+/* 563 */
 /***/ function(module, exports) {
 
 	/**
@@ -33072,10 +33295,10 @@
 
 
 /***/ },
-/* 562 */
+/* 564 */
 /***/ function(module, exports, __webpack_require__) {
 
-	var getMapData = __webpack_require__(560);
+	var getMapData = __webpack_require__(562);
 
 	/**
 	 * Gets the map value for `key`.
@@ -33094,10 +33317,10 @@
 
 
 /***/ },
-/* 563 */
+/* 565 */
 /***/ function(module, exports, __webpack_require__) {
 
-	var getMapData = __webpack_require__(560);
+	var getMapData = __webpack_require__(562);
 
 	/**
 	 * Checks if a map value for `key` exists.
@@ -33116,10 +33339,10 @@
 
 
 /***/ },
-/* 564 */
+/* 566 */
 /***/ function(module, exports, __webpack_require__) {
 
-	var getMapData = __webpack_require__(560);
+	var getMapData = __webpack_require__(562);
 
 	/**
 	 * Sets the map `key` to `value`.
@@ -33140,7 +33363,7 @@
 
 
 /***/ },
-/* 565 */
+/* 567 */
 /***/ function(module, exports) {
 
 	/** Used to stand-in for `undefined` hash values. */
@@ -33165,7 +33388,7 @@
 
 
 /***/ },
-/* 566 */
+/* 568 */
 /***/ function(module, exports) {
 
 	/**
@@ -33185,10 +33408,10 @@
 
 
 /***/ },
-/* 567 */
+/* 569 */
 /***/ function(module, exports, __webpack_require__) {
 
-	var baseIndexOf = __webpack_require__(568);
+	var baseIndexOf = __webpack_require__(570);
 
 	/**
 	 * A specialized version of `_.includes` for arrays without support for
@@ -33208,10 +33431,10 @@
 
 
 /***/ },
-/* 568 */
+/* 570 */
 /***/ function(module, exports, __webpack_require__) {
 
-	var indexOfNaN = __webpack_require__(569);
+	var indexOfNaN = __webpack_require__(571);
 
 	/**
 	 * The base implementation of `_.indexOf` without `fromIndex` bounds checks.
@@ -33241,7 +33464,7 @@
 
 
 /***/ },
-/* 569 */
+/* 571 */
 /***/ function(module, exports) {
 
 	/**
@@ -33270,7 +33493,7 @@
 
 
 /***/ },
-/* 570 */
+/* 572 */
 /***/ function(module, exports) {
 
 	/**
@@ -33298,7 +33521,7 @@
 
 
 /***/ },
-/* 571 */
+/* 573 */
 /***/ function(module, exports) {
 
 	/**
@@ -33317,12 +33540,12 @@
 
 
 /***/ },
-/* 572 */
+/* 574 */
 /***/ function(module, exports, __webpack_require__) {
 
-	var Set = __webpack_require__(573),
-	    noop = __webpack_require__(574),
-	    setToArray = __webpack_require__(575);
+	var Set = __webpack_require__(575),
+	    noop = __webpack_require__(576),
+	    setToArray = __webpack_require__(577);
 
 	/** Used as references for various `Number` constants. */
 	var INFINITY = 1 / 0;
@@ -33342,11 +33565,11 @@
 
 
 /***/ },
-/* 573 */
+/* 575 */
 /***/ function(module, exports, __webpack_require__) {
 
-	var getNative = __webpack_require__(540),
-	    root = __webpack_require__(517);
+	var getNative = __webpack_require__(542),
+	    root = __webpack_require__(519);
 
 	/* Built-in method references that are verified to be native. */
 	var Set = getNative(root, 'Set');
@@ -33355,7 +33578,7 @@
 
 
 /***/ },
-/* 574 */
+/* 576 */
 /***/ function(module, exports) {
 
 	/**
@@ -33378,7 +33601,7 @@
 
 
 /***/ },
-/* 575 */
+/* 577 */
 /***/ function(module, exports) {
 
 	/**
@@ -33402,12 +33625,12 @@
 
 
 /***/ },
-/* 576 */
+/* 578 */
 /***/ function(module, exports, __webpack_require__) {
 
-	var baseDifference = __webpack_require__(577),
-	    isArrayLikeObject = __webpack_require__(523),
-	    rest = __webpack_require__(508);
+	var baseDifference = __webpack_require__(579),
+	    isArrayLikeObject = __webpack_require__(525),
+	    rest = __webpack_require__(510);
 
 	/**
 	 * Creates an array excluding all given values using
@@ -33437,15 +33660,15 @@
 
 
 /***/ },
-/* 577 */
+/* 579 */
 /***/ function(module, exports, __webpack_require__) {
 
-	var SetCache = __webpack_require__(534),
-	    arrayIncludes = __webpack_require__(567),
-	    arrayIncludesWith = __webpack_require__(570),
-	    arrayMap = __webpack_require__(578),
-	    baseUnary = __webpack_require__(579),
-	    cacheHas = __webpack_require__(571);
+	var SetCache = __webpack_require__(536),
+	    arrayIncludes = __webpack_require__(569),
+	    arrayIncludesWith = __webpack_require__(572),
+	    arrayMap = __webpack_require__(580),
+	    baseUnary = __webpack_require__(581),
+	    cacheHas = __webpack_require__(573);
 
 	/** Used as the size to enable large array optimizations. */
 	var LARGE_ARRAY_SIZE = 200;
@@ -33510,7 +33733,7 @@
 
 
 /***/ },
-/* 578 */
+/* 580 */
 /***/ function(module, exports) {
 
 	/**
@@ -33537,7 +33760,7 @@
 
 
 /***/ },
-/* 579 */
+/* 581 */
 /***/ function(module, exports) {
 
 	/**
@@ -33557,7 +33780,7 @@
 
 
 /***/ },
-/* 580 */
+/* 582 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -33566,7 +33789,7 @@
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
 
-	var _lodashMemoize = __webpack_require__(581);
+	var _lodashMemoize = __webpack_require__(583);
 
 	var _lodashMemoize2 = _interopRequireDefault(_lodashMemoize);
 
@@ -33582,10 +33805,10 @@
 	exports.isSafari = isSafari;
 
 /***/ },
-/* 581 */
+/* 583 */
 /***/ function(module, exports, __webpack_require__) {
 
-	var MapCache = __webpack_require__(535);
+	var MapCache = __webpack_require__(537);
 
 	/** Used as the `TypeError` message for "Functions" methods. */
 	var FUNC_ERROR_TEXT = 'Expected a function';
@@ -33661,7 +33884,7 @@
 
 
 /***/ },
-/* 582 */
+/* 584 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -33673,9 +33896,9 @@
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
 
-	var _BrowserDetector = __webpack_require__(580);
+	var _BrowserDetector = __webpack_require__(582);
 
-	var _MonotonicInterpolant = __webpack_require__(583);
+	var _MonotonicInterpolant = __webpack_require__(585);
 
 	var _MonotonicInterpolant2 = _interopRequireDefault(_MonotonicInterpolant);
 
@@ -33761,7 +33984,7 @@
 	}
 
 /***/ },
-/* 583 */
+/* 585 */
 /***/ function(module, exports) {
 
 	"use strict";
@@ -33878,7 +34101,7 @@
 	module.exports = exports["default"];
 
 /***/ },
-/* 584 */
+/* 586 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -33896,7 +34119,7 @@
 
 	function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
 
-	var _NativeTypes = __webpack_require__(585);
+	var _NativeTypes = __webpack_require__(587);
 
 	var NativeTypes = _interopRequireWildcard(_NativeTypes);
 
@@ -33986,7 +34209,7 @@
 	}
 
 /***/ },
-/* 585 */
+/* 587 */
 /***/ function(module, exports) {
 
 	'use strict';
@@ -34000,7 +34223,7 @@
 	exports.TEXT = TEXT;
 
 /***/ },
-/* 586 */
+/* 588 */
 /***/ function(module, exports) {
 
 	'use strict';
@@ -34021,7 +34244,7 @@
 	module.exports = exports['default'];
 
 /***/ },
-/* 587 */
+/* 589 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -34030,24 +34253,24 @@
 
 	function _interopRequire(obj) { return obj && obj.__esModule ? obj['default'] : obj; }
 
-	var _DragDropContext = __webpack_require__(588);
+	var _DragDropContext = __webpack_require__(590);
 
 	exports.DragDropContext = _interopRequire(_DragDropContext);
 
-	var _DragLayer = __webpack_require__(682);
+	var _DragLayer = __webpack_require__(684);
 
 	exports.DragLayer = _interopRequire(_DragLayer);
 
-	var _DragSource = __webpack_require__(687);
+	var _DragSource = __webpack_require__(689);
 
 	exports.DragSource = _interopRequire(_DragSource);
 
-	var _DropTarget = __webpack_require__(702);
+	var _DropTarget = __webpack_require__(704);
 
 	exports.DropTarget = _interopRequire(_DropTarget);
 
 /***/ },
-/* 588 */
+/* 590 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -34068,17 +34291,17 @@
 
 	function _inherits(subClass, superClass) { if (typeof superClass !== 'function' && superClass !== null) { throw new TypeError('Super expression must either be null or a function, not ' + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
-	var _react = __webpack_require__(300);
+	var _react = __webpack_require__(299);
 
 	var _react2 = _interopRequireDefault(_react);
 
-	var _dndCore = __webpack_require__(589);
+	var _dndCore = __webpack_require__(591);
 
-	var _invariant = __webpack_require__(596);
+	var _invariant = __webpack_require__(598);
 
 	var _invariant2 = _interopRequireDefault(_invariant);
 
-	var _utilsCheckDecoratorArguments = __webpack_require__(681);
+	var _utilsCheckDecoratorArguments = __webpack_require__(683);
 
 	var _utilsCheckDecoratorArguments2 = _interopRequireDefault(_utilsCheckDecoratorArguments);
 
@@ -34152,7 +34375,7 @@
 	module.exports = exports['default'];
 
 /***/ },
-/* 589 */
+/* 591 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -34161,24 +34384,24 @@
 
 	function _interopRequire(obj) { return obj && obj.__esModule ? obj['default'] : obj; }
 
-	var _DragDropManager = __webpack_require__(590);
+	var _DragDropManager = __webpack_require__(592);
 
 	exports.DragDropManager = _interopRequire(_DragDropManager);
 
-	var _DragSource = __webpack_require__(678);
+	var _DragSource = __webpack_require__(680);
 
 	exports.DragSource = _interopRequire(_DragSource);
 
-	var _DropTarget = __webpack_require__(679);
+	var _DropTarget = __webpack_require__(681);
 
 	exports.DropTarget = _interopRequire(_DropTarget);
 
-	var _backendsCreateTestBackend = __webpack_require__(680);
+	var _backendsCreateTestBackend = __webpack_require__(682);
 
 	exports.createTestBackend = _interopRequire(_backendsCreateTestBackend);
 
 /***/ },
-/* 590 */
+/* 592 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -34191,23 +34414,23 @@
 
 	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError('Cannot call a class as a function'); } }
 
-	var _reduxLibCreateStore = __webpack_require__(458);
+	var _reduxLibCreateStore = __webpack_require__(457);
 
 	var _reduxLibCreateStore2 = _interopRequireDefault(_reduxLibCreateStore);
 
-	var _reducers = __webpack_require__(591);
+	var _reducers = __webpack_require__(593);
 
 	var _reducers2 = _interopRequireDefault(_reducers);
 
-	var _actionsDragDrop = __webpack_require__(593);
+	var _actionsDragDrop = __webpack_require__(595);
 
 	var dragDropActions = _interopRequireWildcard(_actionsDragDrop);
 
-	var _DragDropMonitor = __webpack_require__(673);
+	var _DragDropMonitor = __webpack_require__(675);
 
 	var _DragDropMonitor2 = _interopRequireDefault(_DragDropMonitor);
 
-	var _HandlerRegistry = __webpack_require__(674);
+	var _HandlerRegistry = __webpack_require__(676);
 
 	var _HandlerRegistry2 = _interopRequireDefault(_HandlerRegistry);
 
@@ -34276,7 +34499,7 @@
 	module.exports = exports['default'];
 
 /***/ },
-/* 591 */
+/* 593 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -34285,23 +34508,23 @@
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
 
-	var _dragOffset = __webpack_require__(592);
+	var _dragOffset = __webpack_require__(594);
 
 	var _dragOffset2 = _interopRequireDefault(_dragOffset);
 
-	var _dragOperation = __webpack_require__(598);
+	var _dragOperation = __webpack_require__(600);
 
 	var _dragOperation2 = _interopRequireDefault(_dragOperation);
 
-	var _refCount = __webpack_require__(658);
+	var _refCount = __webpack_require__(660);
 
 	var _refCount2 = _interopRequireDefault(_refCount);
 
-	var _dirtyHandlerIds = __webpack_require__(659);
+	var _dirtyHandlerIds = __webpack_require__(661);
 
 	var _dirtyHandlerIds2 = _interopRequireDefault(_dirtyHandlerIds);
 
-	var _stateId = __webpack_require__(672);
+	var _stateId = __webpack_require__(674);
 
 	var _stateId2 = _interopRequireDefault(_stateId);
 
@@ -34320,7 +34543,7 @@
 	module.exports = exports['default'];
 
 /***/ },
-/* 592 */
+/* 594 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -34333,7 +34556,7 @@
 	exports.getSourceClientOffset = getSourceClientOffset;
 	exports.getDifferenceFromInitialOffset = getDifferenceFromInitialOffset;
 
-	var _actionsDragDrop = __webpack_require__(593);
+	var _actionsDragDrop = __webpack_require__(595);
 
 	var initialState = {
 	  initialSourceClientOffset: null,
@@ -34401,7 +34624,7 @@
 	}
 
 /***/ },
-/* 593 */
+/* 595 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -34415,19 +34638,19 @@
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
 
-	var _utilsMatchesType = __webpack_require__(594);
+	var _utilsMatchesType = __webpack_require__(596);
 
 	var _utilsMatchesType2 = _interopRequireDefault(_utilsMatchesType);
 
-	var _invariant = __webpack_require__(596);
+	var _invariant = __webpack_require__(598);
 
 	var _invariant2 = _interopRequireDefault(_invariant);
 
-	var _lodashIsArray = __webpack_require__(595);
+	var _lodashIsArray = __webpack_require__(597);
 
 	var _lodashIsArray2 = _interopRequireDefault(_lodashIsArray);
 
-	var _lodashIsObject = __webpack_require__(597);
+	var _lodashIsObject = __webpack_require__(599);
 
 	var _lodashIsObject2 = _interopRequireDefault(_lodashIsObject);
 
@@ -34602,7 +34825,7 @@
 	}
 
 /***/ },
-/* 594 */
+/* 596 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -34612,7 +34835,7 @@
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
 
-	var _lodashIsArray = __webpack_require__(595);
+	var _lodashIsArray = __webpack_require__(597);
 
 	var _lodashIsArray2 = _interopRequireDefault(_lodashIsArray);
 
@@ -34629,7 +34852,7 @@
 	module.exports = exports['default'];
 
 /***/ },
-/* 595 */
+/* 597 */
 /***/ function(module, exports) {
 
 	/**
@@ -34663,7 +34886,7 @@
 
 
 /***/ },
-/* 596 */
+/* 598 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(process) {/**
@@ -34718,10 +34941,10 @@
 
 	module.exports = invariant;
 
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(296)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(295)))
 
 /***/ },
-/* 597 */
+/* 599 */
 /***/ function(module, exports) {
 
 	/**
@@ -34758,7 +34981,7 @@
 
 
 /***/ },
-/* 598 */
+/* 600 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -34771,11 +34994,11 @@
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
 
-	var _actionsDragDrop = __webpack_require__(593);
+	var _actionsDragDrop = __webpack_require__(595);
 
-	var _actionsRegistry = __webpack_require__(599);
+	var _actionsRegistry = __webpack_require__(601);
 
-	var _lodashWithout = __webpack_require__(600);
+	var _lodashWithout = __webpack_require__(602);
 
 	var _lodashWithout2 = _interopRequireDefault(_lodashWithout);
 
@@ -34841,7 +35064,7 @@
 	module.exports = exports['default'];
 
 /***/ },
-/* 599 */
+/* 601 */
 /***/ function(module, exports) {
 
 	'use strict';
@@ -34890,12 +35113,12 @@
 	}
 
 /***/ },
-/* 600 */
+/* 602 */
 /***/ function(module, exports, __webpack_require__) {
 
-	var baseDifference = __webpack_require__(601),
-	    isArrayLikeObject = __webpack_require__(646),
-	    rest = __webpack_require__(652);
+	var baseDifference = __webpack_require__(603),
+	    isArrayLikeObject = __webpack_require__(648),
+	    rest = __webpack_require__(654);
 
 	/**
 	 * Creates an array excluding all given values using
@@ -34925,15 +35148,15 @@
 
 
 /***/ },
-/* 601 */
+/* 603 */
 /***/ function(module, exports, __webpack_require__) {
 
-	var SetCache = __webpack_require__(602),
-	    arrayIncludes = __webpack_require__(639),
-	    arrayIncludesWith = __webpack_require__(642),
-	    arrayMap = __webpack_require__(643),
-	    baseUnary = __webpack_require__(644),
-	    cacheHas = __webpack_require__(645);
+	var SetCache = __webpack_require__(604),
+	    arrayIncludes = __webpack_require__(641),
+	    arrayIncludesWith = __webpack_require__(644),
+	    arrayMap = __webpack_require__(645),
+	    baseUnary = __webpack_require__(646),
+	    cacheHas = __webpack_require__(647);
 
 	/** Used as the size to enable large array optimizations. */
 	var LARGE_ARRAY_SIZE = 200;
@@ -34998,12 +35221,12 @@
 
 
 /***/ },
-/* 602 */
+/* 604 */
 /***/ function(module, exports, __webpack_require__) {
 
-	var MapCache = __webpack_require__(603),
-	    setCacheAdd = __webpack_require__(637),
-	    setCacheHas = __webpack_require__(638);
+	var MapCache = __webpack_require__(605),
+	    setCacheAdd = __webpack_require__(639),
+	    setCacheHas = __webpack_require__(640);
 
 	/**
 	 *
@@ -35031,14 +35254,14 @@
 
 
 /***/ },
-/* 603 */
+/* 605 */
 /***/ function(module, exports, __webpack_require__) {
 
-	var mapCacheClear = __webpack_require__(604),
-	    mapCacheDelete = __webpack_require__(631),
-	    mapCacheGet = __webpack_require__(634),
-	    mapCacheHas = __webpack_require__(635),
-	    mapCacheSet = __webpack_require__(636);
+	var mapCacheClear = __webpack_require__(606),
+	    mapCacheDelete = __webpack_require__(633),
+	    mapCacheGet = __webpack_require__(636),
+	    mapCacheHas = __webpack_require__(637),
+	    mapCacheSet = __webpack_require__(638);
 
 	/**
 	 * Creates a map cache object to store key-value pairs.
@@ -35069,12 +35292,12 @@
 
 
 /***/ },
-/* 604 */
+/* 606 */
 /***/ function(module, exports, __webpack_require__) {
 
-	var Hash = __webpack_require__(605),
-	    ListCache = __webpack_require__(622),
-	    Map = __webpack_require__(630);
+	var Hash = __webpack_require__(607),
+	    ListCache = __webpack_require__(624),
+	    Map = __webpack_require__(632);
 
 	/**
 	 * Removes all key-value entries from the map.
@@ -35095,14 +35318,14 @@
 
 
 /***/ },
-/* 605 */
+/* 607 */
 /***/ function(module, exports, __webpack_require__) {
 
-	var hashClear = __webpack_require__(606),
-	    hashDelete = __webpack_require__(618),
-	    hashGet = __webpack_require__(619),
-	    hashHas = __webpack_require__(620),
-	    hashSet = __webpack_require__(621);
+	var hashClear = __webpack_require__(608),
+	    hashDelete = __webpack_require__(620),
+	    hashGet = __webpack_require__(621),
+	    hashHas = __webpack_require__(622),
+	    hashSet = __webpack_require__(623);
 
 	/**
 	 * Creates a hash object.
@@ -35133,10 +35356,10 @@
 
 
 /***/ },
-/* 606 */
+/* 608 */
 /***/ function(module, exports, __webpack_require__) {
 
-	var nativeCreate = __webpack_require__(607);
+	var nativeCreate = __webpack_require__(609);
 
 	/**
 	 * Removes all key-value entries from the hash.
@@ -35153,10 +35376,10 @@
 
 
 /***/ },
-/* 607 */
+/* 609 */
 /***/ function(module, exports, __webpack_require__) {
 
-	var getNative = __webpack_require__(608);
+	var getNative = __webpack_require__(610);
 
 	/* Built-in method references that are verified to be native. */
 	var nativeCreate = getNative(Object, 'create');
@@ -35165,11 +35388,11 @@
 
 
 /***/ },
-/* 608 */
+/* 610 */
 /***/ function(module, exports, __webpack_require__) {
 
-	var baseIsNative = __webpack_require__(609),
-	    getValue = __webpack_require__(617);
+	var baseIsNative = __webpack_require__(611),
+	    getValue = __webpack_require__(619);
 
 	/**
 	 * Gets the native function at `key` of `object`.
@@ -35188,14 +35411,14 @@
 
 
 /***/ },
-/* 609 */
+/* 611 */
 /***/ function(module, exports, __webpack_require__) {
 
-	var isFunction = __webpack_require__(610),
-	    isHostObject = __webpack_require__(611),
-	    isMasked = __webpack_require__(612),
-	    isObject = __webpack_require__(597),
-	    toSource = __webpack_require__(616);
+	var isFunction = __webpack_require__(612),
+	    isHostObject = __webpack_require__(613),
+	    isMasked = __webpack_require__(614),
+	    isObject = __webpack_require__(599),
+	    toSource = __webpack_require__(618);
 
 	/**
 	 * Used to match `RegExp`
@@ -35241,10 +35464,10 @@
 
 
 /***/ },
-/* 610 */
+/* 612 */
 /***/ function(module, exports, __webpack_require__) {
 
-	var isObject = __webpack_require__(597);
+	var isObject = __webpack_require__(599);
 
 	/** `Object#toString` result references. */
 	var funcTag = '[object Function]',
@@ -35290,7 +35513,7 @@
 
 
 /***/ },
-/* 611 */
+/* 613 */
 /***/ function(module, exports) {
 
 	/**
@@ -35316,10 +35539,10 @@
 
 
 /***/ },
-/* 612 */
+/* 614 */
 /***/ function(module, exports, __webpack_require__) {
 
-	var coreJsData = __webpack_require__(613);
+	var coreJsData = __webpack_require__(615);
 
 	/** Used to detect methods masquerading as native. */
 	var maskSrcKey = (function() {
@@ -35342,10 +35565,10 @@
 
 
 /***/ },
-/* 613 */
+/* 615 */
 /***/ function(module, exports, __webpack_require__) {
 
-	var root = __webpack_require__(614);
+	var root = __webpack_require__(616);
 
 	/** Used to detect overreaching core-js shims. */
 	var coreJsData = root['__core-js_shared__'];
@@ -35354,10 +35577,10 @@
 
 
 /***/ },
-/* 614 */
+/* 616 */
 /***/ function(module, exports, __webpack_require__) {
 
-	/* WEBPACK VAR INJECTION */(function(global) {var checkGlobal = __webpack_require__(615);
+	/* WEBPACK VAR INJECTION */(function(global) {var checkGlobal = __webpack_require__(617);
 
 	/** Detect free variable `global` from Node.js. */
 	var freeGlobal = checkGlobal(typeof global == 'object' && global);
@@ -35376,7 +35599,7 @@
 	/* WEBPACK VAR INJECTION */}.call(exports, (function() { return this; }())))
 
 /***/ },
-/* 615 */
+/* 617 */
 /***/ function(module, exports) {
 
 	/**
@@ -35394,7 +35617,7 @@
 
 
 /***/ },
-/* 616 */
+/* 618 */
 /***/ function(module, exports) {
 
 	/** Used to resolve the decompiled source of functions. */
@@ -35423,7 +35646,7 @@
 
 
 /***/ },
-/* 617 */
+/* 619 */
 /***/ function(module, exports) {
 
 	/**
@@ -35442,7 +35665,7 @@
 
 
 /***/ },
-/* 618 */
+/* 620 */
 /***/ function(module, exports) {
 
 	/**
@@ -35463,10 +35686,10 @@
 
 
 /***/ },
-/* 619 */
+/* 621 */
 /***/ function(module, exports, __webpack_require__) {
 
-	var nativeCreate = __webpack_require__(607);
+	var nativeCreate = __webpack_require__(609);
 
 	/** Used to stand-in for `undefined` hash values. */
 	var HASH_UNDEFINED = '__lodash_hash_undefined__';
@@ -35499,10 +35722,10 @@
 
 
 /***/ },
-/* 620 */
+/* 622 */
 /***/ function(module, exports, __webpack_require__) {
 
-	var nativeCreate = __webpack_require__(607);
+	var nativeCreate = __webpack_require__(609);
 
 	/** Used for built-in method references. */
 	var objectProto = Object.prototype;
@@ -35528,10 +35751,10 @@
 
 
 /***/ },
-/* 621 */
+/* 623 */
 /***/ function(module, exports, __webpack_require__) {
 
-	var nativeCreate = __webpack_require__(607);
+	var nativeCreate = __webpack_require__(609);
 
 	/** Used to stand-in for `undefined` hash values. */
 	var HASH_UNDEFINED = '__lodash_hash_undefined__';
@@ -35556,14 +35779,14 @@
 
 
 /***/ },
-/* 622 */
+/* 624 */
 /***/ function(module, exports, __webpack_require__) {
 
-	var listCacheClear = __webpack_require__(623),
-	    listCacheDelete = __webpack_require__(624),
-	    listCacheGet = __webpack_require__(627),
-	    listCacheHas = __webpack_require__(628),
-	    listCacheSet = __webpack_require__(629);
+	var listCacheClear = __webpack_require__(625),
+	    listCacheDelete = __webpack_require__(626),
+	    listCacheGet = __webpack_require__(629),
+	    listCacheHas = __webpack_require__(630),
+	    listCacheSet = __webpack_require__(631);
 
 	/**
 	 * Creates an list cache object.
@@ -35594,7 +35817,7 @@
 
 
 /***/ },
-/* 623 */
+/* 625 */
 /***/ function(module, exports) {
 
 	/**
@@ -35612,10 +35835,10 @@
 
 
 /***/ },
-/* 624 */
+/* 626 */
 /***/ function(module, exports, __webpack_require__) {
 
-	var assocIndexOf = __webpack_require__(625);
+	var assocIndexOf = __webpack_require__(627);
 
 	/** Used for built-in method references. */
 	var arrayProto = Array.prototype;
@@ -35652,10 +35875,10 @@
 
 
 /***/ },
-/* 625 */
+/* 627 */
 /***/ function(module, exports, __webpack_require__) {
 
-	var eq = __webpack_require__(626);
+	var eq = __webpack_require__(628);
 
 	/**
 	 * Gets the index at which the `key` is found in `array` of key-value pairs.
@@ -35679,7 +35902,7 @@
 
 
 /***/ },
-/* 626 */
+/* 628 */
 /***/ function(module, exports) {
 
 	/**
@@ -35722,10 +35945,10 @@
 
 
 /***/ },
-/* 627 */
+/* 629 */
 /***/ function(module, exports, __webpack_require__) {
 
-	var assocIndexOf = __webpack_require__(625);
+	var assocIndexOf = __webpack_require__(627);
 
 	/**
 	 * Gets the list cache value for `key`.
@@ -35747,10 +35970,10 @@
 
 
 /***/ },
-/* 628 */
+/* 630 */
 /***/ function(module, exports, __webpack_require__) {
 
-	var assocIndexOf = __webpack_require__(625);
+	var assocIndexOf = __webpack_require__(627);
 
 	/**
 	 * Checks if a list cache value for `key` exists.
@@ -35769,10 +35992,10 @@
 
 
 /***/ },
-/* 629 */
+/* 631 */
 /***/ function(module, exports, __webpack_require__) {
 
-	var assocIndexOf = __webpack_require__(625);
+	var assocIndexOf = __webpack_require__(627);
 
 	/**
 	 * Sets the list cache `key` to `value`.
@@ -35800,11 +36023,11 @@
 
 
 /***/ },
-/* 630 */
+/* 632 */
 /***/ function(module, exports, __webpack_require__) {
 
-	var getNative = __webpack_require__(608),
-	    root = __webpack_require__(614);
+	var getNative = __webpack_require__(610),
+	    root = __webpack_require__(616);
 
 	/* Built-in method references that are verified to be native. */
 	var Map = getNative(root, 'Map');
@@ -35813,10 +36036,10 @@
 
 
 /***/ },
-/* 631 */
+/* 633 */
 /***/ function(module, exports, __webpack_require__) {
 
-	var getMapData = __webpack_require__(632);
+	var getMapData = __webpack_require__(634);
 
 	/**
 	 * Removes `key` and its value from the map.
@@ -35835,10 +36058,10 @@
 
 
 /***/ },
-/* 632 */
+/* 634 */
 /***/ function(module, exports, __webpack_require__) {
 
-	var isKeyable = __webpack_require__(633);
+	var isKeyable = __webpack_require__(635);
 
 	/**
 	 * Gets the data for `map`.
@@ -35859,7 +36082,7 @@
 
 
 /***/ },
-/* 633 */
+/* 635 */
 /***/ function(module, exports) {
 
 	/**
@@ -35880,10 +36103,10 @@
 
 
 /***/ },
-/* 634 */
+/* 636 */
 /***/ function(module, exports, __webpack_require__) {
 
-	var getMapData = __webpack_require__(632);
+	var getMapData = __webpack_require__(634);
 
 	/**
 	 * Gets the map value for `key`.
@@ -35902,10 +36125,10 @@
 
 
 /***/ },
-/* 635 */
+/* 637 */
 /***/ function(module, exports, __webpack_require__) {
 
-	var getMapData = __webpack_require__(632);
+	var getMapData = __webpack_require__(634);
 
 	/**
 	 * Checks if a map value for `key` exists.
@@ -35924,10 +36147,10 @@
 
 
 /***/ },
-/* 636 */
+/* 638 */
 /***/ function(module, exports, __webpack_require__) {
 
-	var getMapData = __webpack_require__(632);
+	var getMapData = __webpack_require__(634);
 
 	/**
 	 * Sets the map `key` to `value`.
@@ -35948,7 +36171,7 @@
 
 
 /***/ },
-/* 637 */
+/* 639 */
 /***/ function(module, exports) {
 
 	/** Used to stand-in for `undefined` hash values. */
@@ -35973,7 +36196,7 @@
 
 
 /***/ },
-/* 638 */
+/* 640 */
 /***/ function(module, exports) {
 
 	/**
@@ -35993,10 +36216,10 @@
 
 
 /***/ },
-/* 639 */
+/* 641 */
 /***/ function(module, exports, __webpack_require__) {
 
-	var baseIndexOf = __webpack_require__(640);
+	var baseIndexOf = __webpack_require__(642);
 
 	/**
 	 * A specialized version of `_.includes` for arrays without support for
@@ -36016,10 +36239,10 @@
 
 
 /***/ },
-/* 640 */
+/* 642 */
 /***/ function(module, exports, __webpack_require__) {
 
-	var indexOfNaN = __webpack_require__(641);
+	var indexOfNaN = __webpack_require__(643);
 
 	/**
 	 * The base implementation of `_.indexOf` without `fromIndex` bounds checks.
@@ -36049,7 +36272,7 @@
 
 
 /***/ },
-/* 641 */
+/* 643 */
 /***/ function(module, exports) {
 
 	/**
@@ -36078,7 +36301,7 @@
 
 
 /***/ },
-/* 642 */
+/* 644 */
 /***/ function(module, exports) {
 
 	/**
@@ -36106,7 +36329,7 @@
 
 
 /***/ },
-/* 643 */
+/* 645 */
 /***/ function(module, exports) {
 
 	/**
@@ -36133,7 +36356,7 @@
 
 
 /***/ },
-/* 644 */
+/* 646 */
 /***/ function(module, exports) {
 
 	/**
@@ -36153,7 +36376,7 @@
 
 
 /***/ },
-/* 645 */
+/* 647 */
 /***/ function(module, exports) {
 
 	/**
@@ -36172,11 +36395,11 @@
 
 
 /***/ },
-/* 646 */
+/* 648 */
 /***/ function(module, exports, __webpack_require__) {
 
-	var isArrayLike = __webpack_require__(647),
-	    isObjectLike = __webpack_require__(651);
+	var isArrayLike = __webpack_require__(649),
+	    isObjectLike = __webpack_require__(653);
 
 	/**
 	 * This method is like `_.isArrayLike` except that it also checks if `value`
@@ -36211,12 +36434,12 @@
 
 
 /***/ },
-/* 647 */
+/* 649 */
 /***/ function(module, exports, __webpack_require__) {
 
-	var getLength = __webpack_require__(648),
-	    isFunction = __webpack_require__(610),
-	    isLength = __webpack_require__(650);
+	var getLength = __webpack_require__(650),
+	    isFunction = __webpack_require__(612),
+	    isLength = __webpack_require__(652);
 
 	/**
 	 * Checks if `value` is array-like. A value is considered array-like if it's
@@ -36251,10 +36474,10 @@
 
 
 /***/ },
-/* 648 */
+/* 650 */
 /***/ function(module, exports, __webpack_require__) {
 
-	var baseProperty = __webpack_require__(649);
+	var baseProperty = __webpack_require__(651);
 
 	/**
 	 * Gets the "length" property value of `object`.
@@ -36273,7 +36496,7 @@
 
 
 /***/ },
-/* 649 */
+/* 651 */
 /***/ function(module, exports) {
 
 	/**
@@ -36293,7 +36516,7 @@
 
 
 /***/ },
-/* 650 */
+/* 652 */
 /***/ function(module, exports) {
 
 	/** Used as references for various `Number` constants. */
@@ -36335,7 +36558,7 @@
 
 
 /***/ },
-/* 651 */
+/* 653 */
 /***/ function(module, exports) {
 
 	/**
@@ -36370,11 +36593,11 @@
 
 
 /***/ },
-/* 652 */
+/* 654 */
 /***/ function(module, exports, __webpack_require__) {
 
-	var apply = __webpack_require__(653),
-	    toInteger = __webpack_require__(654);
+	var apply = __webpack_require__(655),
+	    toInteger = __webpack_require__(656);
 
 	/** Used as the `TypeError` message for "Functions" methods. */
 	var FUNC_ERROR_TEXT = 'Expected a function';
@@ -36440,7 +36663,7 @@
 
 
 /***/ },
-/* 653 */
+/* 655 */
 /***/ function(module, exports) {
 
 	/**
@@ -36468,10 +36691,10 @@
 
 
 /***/ },
-/* 654 */
+/* 656 */
 /***/ function(module, exports, __webpack_require__) {
 
-	var toFinite = __webpack_require__(655);
+	var toFinite = __webpack_require__(657);
 
 	/**
 	 * Converts `value` to an integer.
@@ -36510,10 +36733,10 @@
 
 
 /***/ },
-/* 655 */
+/* 657 */
 /***/ function(module, exports, __webpack_require__) {
 
-	var toNumber = __webpack_require__(656);
+	var toNumber = __webpack_require__(658);
 
 	/** Used as references for various `Number` constants. */
 	var INFINITY = 1 / 0,
@@ -36558,12 +36781,12 @@
 
 
 /***/ },
-/* 656 */
+/* 658 */
 /***/ function(module, exports, __webpack_require__) {
 
-	var isFunction = __webpack_require__(610),
-	    isObject = __webpack_require__(597),
-	    isSymbol = __webpack_require__(657);
+	var isFunction = __webpack_require__(612),
+	    isObject = __webpack_require__(599),
+	    isSymbol = __webpack_require__(659);
 
 	/** Used as references for various `Number` constants. */
 	var NAN = 0 / 0;
@@ -36631,10 +36854,10 @@
 
 
 /***/ },
-/* 657 */
+/* 659 */
 /***/ function(module, exports, __webpack_require__) {
 
-	var isObjectLike = __webpack_require__(651);
+	var isObjectLike = __webpack_require__(653);
 
 	/** `Object#toString` result references. */
 	var symbolTag = '[object Symbol]';
@@ -36676,7 +36899,7 @@
 
 
 /***/ },
-/* 658 */
+/* 660 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -36684,7 +36907,7 @@
 	exports.__esModule = true;
 	exports['default'] = refCount;
 
-	var _actionsRegistry = __webpack_require__(599);
+	var _actionsRegistry = __webpack_require__(601);
 
 	function refCount(state, action) {
 	  if (state === undefined) state = 0;
@@ -36704,7 +36927,7 @@
 	module.exports = exports['default'];
 
 /***/ },
-/* 659 */
+/* 661 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -36715,17 +36938,17 @@
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
 
-	var _lodashXor = __webpack_require__(660);
+	var _lodashXor = __webpack_require__(662);
 
 	var _lodashXor2 = _interopRequireDefault(_lodashXor);
 
-	var _lodashIntersection = __webpack_require__(669);
+	var _lodashIntersection = __webpack_require__(671);
 
 	var _lodashIntersection2 = _interopRequireDefault(_lodashIntersection);
 
-	var _actionsDragDrop = __webpack_require__(593);
+	var _actionsDragDrop = __webpack_require__(595);
 
-	var _actionsRegistry = __webpack_require__(599);
+	var _actionsRegistry = __webpack_require__(601);
 
 	var NONE = [];
 	var ALL = [];
@@ -36798,13 +37021,13 @@
 	}
 
 /***/ },
-/* 660 */
+/* 662 */
 /***/ function(module, exports, __webpack_require__) {
 
-	var arrayFilter = __webpack_require__(661),
-	    baseXor = __webpack_require__(662),
-	    isArrayLikeObject = __webpack_require__(646),
-	    rest = __webpack_require__(652);
+	var arrayFilter = __webpack_require__(663),
+	    baseXor = __webpack_require__(664),
+	    isArrayLikeObject = __webpack_require__(648),
+	    rest = __webpack_require__(654);
 
 	/**
 	 * Creates an array of unique values that is the
@@ -36832,7 +37055,7 @@
 
 
 /***/ },
-/* 661 */
+/* 663 */
 /***/ function(module, exports) {
 
 	/**
@@ -36863,12 +37086,12 @@
 
 
 /***/ },
-/* 662 */
+/* 664 */
 /***/ function(module, exports, __webpack_require__) {
 
-	var arrayPush = __webpack_require__(663),
-	    baseDifference = __webpack_require__(601),
-	    baseUniq = __webpack_require__(664);
+	var arrayPush = __webpack_require__(665),
+	    baseDifference = __webpack_require__(603),
+	    baseUniq = __webpack_require__(666);
 
 	/**
 	 * The base implementation of methods like `_.xor`, without support for
@@ -36899,7 +37122,7 @@
 
 
 /***/ },
-/* 663 */
+/* 665 */
 /***/ function(module, exports) {
 
 	/**
@@ -36925,15 +37148,15 @@
 
 
 /***/ },
-/* 664 */
+/* 666 */
 /***/ function(module, exports, __webpack_require__) {
 
-	var SetCache = __webpack_require__(602),
-	    arrayIncludes = __webpack_require__(639),
-	    arrayIncludesWith = __webpack_require__(642),
-	    cacheHas = __webpack_require__(645),
-	    createSet = __webpack_require__(665),
-	    setToArray = __webpack_require__(668);
+	var SetCache = __webpack_require__(604),
+	    arrayIncludes = __webpack_require__(641),
+	    arrayIncludesWith = __webpack_require__(644),
+	    cacheHas = __webpack_require__(647),
+	    createSet = __webpack_require__(667),
+	    setToArray = __webpack_require__(670);
 
 	/** Used as the size to enable large array optimizations. */
 	var LARGE_ARRAY_SIZE = 200;
@@ -37003,12 +37226,12 @@
 
 
 /***/ },
-/* 665 */
+/* 667 */
 /***/ function(module, exports, __webpack_require__) {
 
-	var Set = __webpack_require__(666),
-	    noop = __webpack_require__(667),
-	    setToArray = __webpack_require__(668);
+	var Set = __webpack_require__(668),
+	    noop = __webpack_require__(669),
+	    setToArray = __webpack_require__(670);
 
 	/** Used as references for various `Number` constants. */
 	var INFINITY = 1 / 0;
@@ -37028,11 +37251,11 @@
 
 
 /***/ },
-/* 666 */
+/* 668 */
 /***/ function(module, exports, __webpack_require__) {
 
-	var getNative = __webpack_require__(608),
-	    root = __webpack_require__(614);
+	var getNative = __webpack_require__(610),
+	    root = __webpack_require__(616);
 
 	/* Built-in method references that are verified to be native. */
 	var Set = getNative(root, 'Set');
@@ -37041,7 +37264,7 @@
 
 
 /***/ },
-/* 667 */
+/* 669 */
 /***/ function(module, exports) {
 
 	/**
@@ -37064,7 +37287,7 @@
 
 
 /***/ },
-/* 668 */
+/* 670 */
 /***/ function(module, exports) {
 
 	/**
@@ -37088,13 +37311,13 @@
 
 
 /***/ },
-/* 669 */
+/* 671 */
 /***/ function(module, exports, __webpack_require__) {
 
-	var arrayMap = __webpack_require__(643),
-	    baseIntersection = __webpack_require__(670),
-	    castArrayLikeObject = __webpack_require__(671),
-	    rest = __webpack_require__(652);
+	var arrayMap = __webpack_require__(645),
+	    baseIntersection = __webpack_require__(672),
+	    castArrayLikeObject = __webpack_require__(673),
+	    rest = __webpack_require__(654);
 
 	/**
 	 * Creates an array of unique values that are included in all given arrays
@@ -37124,15 +37347,15 @@
 
 
 /***/ },
-/* 670 */
+/* 672 */
 /***/ function(module, exports, __webpack_require__) {
 
-	var SetCache = __webpack_require__(602),
-	    arrayIncludes = __webpack_require__(639),
-	    arrayIncludesWith = __webpack_require__(642),
-	    arrayMap = __webpack_require__(643),
-	    baseUnary = __webpack_require__(644),
-	    cacheHas = __webpack_require__(645);
+	var SetCache = __webpack_require__(604),
+	    arrayIncludes = __webpack_require__(641),
+	    arrayIncludesWith = __webpack_require__(644),
+	    arrayMap = __webpack_require__(645),
+	    baseUnary = __webpack_require__(646),
+	    cacheHas = __webpack_require__(647);
 
 	/* Built-in method references for those with the same name as other `lodash` methods. */
 	var nativeMin = Math.min;
@@ -37204,10 +37427,10 @@
 
 
 /***/ },
-/* 671 */
+/* 673 */
 /***/ function(module, exports, __webpack_require__) {
 
-	var isArrayLikeObject = __webpack_require__(646);
+	var isArrayLikeObject = __webpack_require__(648);
 
 	/**
 	 * Casts `value` to an empty array if it's not an array like object.
@@ -37224,7 +37447,7 @@
 
 
 /***/ },
-/* 672 */
+/* 674 */
 /***/ function(module, exports) {
 
 	"use strict";
@@ -37241,7 +37464,7 @@
 	module.exports = exports["default"];
 
 /***/ },
-/* 673 */
+/* 675 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -37252,25 +37475,25 @@
 
 	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError('Cannot call a class as a function'); } }
 
-	var _invariant = __webpack_require__(596);
+	var _invariant = __webpack_require__(598);
 
 	var _invariant2 = _interopRequireDefault(_invariant);
 
-	var _utilsMatchesType = __webpack_require__(594);
+	var _utilsMatchesType = __webpack_require__(596);
 
 	var _utilsMatchesType2 = _interopRequireDefault(_utilsMatchesType);
 
-	var _lodashIsArray = __webpack_require__(595);
+	var _lodashIsArray = __webpack_require__(597);
 
 	var _lodashIsArray2 = _interopRequireDefault(_lodashIsArray);
 
-	var _HandlerRegistry = __webpack_require__(674);
+	var _HandlerRegistry = __webpack_require__(676);
 
 	var _HandlerRegistry2 = _interopRequireDefault(_HandlerRegistry);
 
-	var _reducersDragOffset = __webpack_require__(592);
+	var _reducersDragOffset = __webpack_require__(594);
 
-	var _reducersDirtyHandlerIds = __webpack_require__(659);
+	var _reducersDirtyHandlerIds = __webpack_require__(661);
 
 	var DragDropMonitor = (function () {
 	  function DragDropMonitor(store) {
@@ -37456,7 +37679,7 @@
 	module.exports = exports['default'];
 
 /***/ },
-/* 674 */
+/* 676 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -37469,21 +37692,21 @@
 
 	function _typeof(obj) { return obj && obj.constructor === Symbol ? 'symbol' : typeof obj; }
 
-	var _invariant = __webpack_require__(596);
+	var _invariant = __webpack_require__(598);
 
 	var _invariant2 = _interopRequireDefault(_invariant);
 
-	var _lodashIsArray = __webpack_require__(595);
+	var _lodashIsArray = __webpack_require__(597);
 
 	var _lodashIsArray2 = _interopRequireDefault(_lodashIsArray);
 
-	var _utilsGetNextUniqueId = __webpack_require__(675);
+	var _utilsGetNextUniqueId = __webpack_require__(677);
 
 	var _utilsGetNextUniqueId2 = _interopRequireDefault(_utilsGetNextUniqueId);
 
-	var _actionsRegistry = __webpack_require__(599);
+	var _actionsRegistry = __webpack_require__(601);
 
-	var _asap = __webpack_require__(676);
+	var _asap = __webpack_require__(678);
 
 	var _asap2 = _interopRequireDefault(_asap);
 
@@ -37665,7 +37888,7 @@
 	module.exports = exports['default'];
 
 /***/ },
-/* 675 */
+/* 677 */
 /***/ function(module, exports) {
 
 	"use strict";
@@ -37681,13 +37904,13 @@
 	module.exports = exports["default"];
 
 /***/ },
-/* 676 */
+/* 678 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
 
 	// rawAsap provides everything we need except exception management.
-	var rawAsap = __webpack_require__(677);
+	var rawAsap = __webpack_require__(679);
 	// RawTasks are recycled to reduce GC churn.
 	var freeTasks = [];
 	// We queue errors to ensure they are thrown in right order (FIFO).
@@ -37753,7 +37976,7 @@
 
 
 /***/ },
-/* 677 */
+/* 679 */
 /***/ function(module, exports) {
 
 	/* WEBPACK VAR INJECTION */(function(global) {"use strict";
@@ -37980,7 +38203,7 @@
 	/* WEBPACK VAR INJECTION */}.call(exports, (function() { return this; }())))
 
 /***/ },
-/* 678 */
+/* 680 */
 /***/ function(module, exports) {
 
 	"use strict";
@@ -38011,7 +38234,7 @@
 	module.exports = exports["default"];
 
 /***/ },
-/* 679 */
+/* 681 */
 /***/ function(module, exports) {
 
 	"use strict";
@@ -38040,7 +38263,7 @@
 	module.exports = exports["default"];
 
 /***/ },
-/* 680 */
+/* 682 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -38052,7 +38275,7 @@
 
 	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError('Cannot call a class as a function'); } }
 
-	var _lodashNoop = __webpack_require__(667);
+	var _lodashNoop = __webpack_require__(669);
 
 	var _lodashNoop2 = _interopRequireDefault(_lodashNoop);
 
@@ -38113,7 +38336,7 @@
 	module.exports = exports['default'];
 
 /***/ },
-/* 681 */
+/* 683 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(process) {'use strict';
@@ -38139,10 +38362,10 @@
 	}
 
 	module.exports = exports['default'];
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(296)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(295)))
 
 /***/ },
-/* 682 */
+/* 684 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -38163,27 +38386,27 @@
 
 	function _inherits(subClass, superClass) { if (typeof superClass !== 'function' && superClass !== null) { throw new TypeError('Super expression must either be null or a function, not ' + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
-	var _react = __webpack_require__(300);
+	var _react = __webpack_require__(299);
 
 	var _react2 = _interopRequireDefault(_react);
 
-	var _utilsShallowEqual = __webpack_require__(683);
+	var _utilsShallowEqual = __webpack_require__(685);
 
 	var _utilsShallowEqual2 = _interopRequireDefault(_utilsShallowEqual);
 
-	var _utilsShallowEqualScalar = __webpack_require__(684);
+	var _utilsShallowEqualScalar = __webpack_require__(686);
 
 	var _utilsShallowEqualScalar2 = _interopRequireDefault(_utilsShallowEqualScalar);
 
-	var _lodashIsPlainObject = __webpack_require__(685);
+	var _lodashIsPlainObject = __webpack_require__(687);
 
 	var _lodashIsPlainObject2 = _interopRequireDefault(_lodashIsPlainObject);
 
-	var _invariant = __webpack_require__(596);
+	var _invariant = __webpack_require__(598);
 
 	var _invariant2 = _interopRequireDefault(_invariant);
 
-	var _utilsCheckDecoratorArguments = __webpack_require__(681);
+	var _utilsCheckDecoratorArguments = __webpack_require__(683);
 
 	var _utilsCheckDecoratorArguments2 = _interopRequireDefault(_utilsCheckDecoratorArguments);
 
@@ -38285,7 +38508,7 @@
 	module.exports = exports['default'];
 
 /***/ },
-/* 683 */
+/* 685 */
 /***/ function(module, exports) {
 
 	"use strict";
@@ -38326,7 +38549,7 @@
 	module.exports = exports["default"];
 
 /***/ },
-/* 684 */
+/* 686 */
 /***/ function(module, exports) {
 
 	'use strict';
@@ -38371,12 +38594,12 @@
 	module.exports = exports['default'];
 
 /***/ },
-/* 685 */
+/* 687 */
 /***/ function(module, exports, __webpack_require__) {
 
-	var getPrototype = __webpack_require__(686),
-	    isHostObject = __webpack_require__(611),
-	    isObjectLike = __webpack_require__(651);
+	var getPrototype = __webpack_require__(688),
+	    isHostObject = __webpack_require__(613),
+	    isObjectLike = __webpack_require__(653);
 
 	/** `Object#toString` result references. */
 	var objectTag = '[object Object]';
@@ -38447,7 +38670,7 @@
 
 
 /***/ },
-/* 686 */
+/* 688 */
 /***/ function(module, exports) {
 
 	/* Built-in method references for those with the same name as other `lodash` methods. */
@@ -38468,7 +38691,7 @@
 
 
 /***/ },
-/* 687 */
+/* 689 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -38479,39 +38702,39 @@
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
 
-	var _invariant = __webpack_require__(596);
+	var _invariant = __webpack_require__(598);
 
 	var _invariant2 = _interopRequireDefault(_invariant);
 
-	var _lodashIsPlainObject = __webpack_require__(685);
+	var _lodashIsPlainObject = __webpack_require__(687);
 
 	var _lodashIsPlainObject2 = _interopRequireDefault(_lodashIsPlainObject);
 
-	var _utilsCheckDecoratorArguments = __webpack_require__(681);
+	var _utilsCheckDecoratorArguments = __webpack_require__(683);
 
 	var _utilsCheckDecoratorArguments2 = _interopRequireDefault(_utilsCheckDecoratorArguments);
 
-	var _decorateHandler = __webpack_require__(688);
+	var _decorateHandler = __webpack_require__(690);
 
 	var _decorateHandler2 = _interopRequireDefault(_decorateHandler);
 
-	var _registerSource = __webpack_require__(694);
+	var _registerSource = __webpack_require__(696);
 
 	var _registerSource2 = _interopRequireDefault(_registerSource);
 
-	var _createSourceFactory = __webpack_require__(695);
+	var _createSourceFactory = __webpack_require__(697);
 
 	var _createSourceFactory2 = _interopRequireDefault(_createSourceFactory);
 
-	var _createSourceMonitor = __webpack_require__(696);
+	var _createSourceMonitor = __webpack_require__(698);
 
 	var _createSourceMonitor2 = _interopRequireDefault(_createSourceMonitor);
 
-	var _createSourceConnector = __webpack_require__(697);
+	var _createSourceConnector = __webpack_require__(699);
 
 	var _createSourceConnector2 = _interopRequireDefault(_createSourceConnector);
 
-	var _utilsIsValidType = __webpack_require__(701);
+	var _utilsIsValidType = __webpack_require__(703);
 
 	var _utilsIsValidType2 = _interopRequireDefault(_utilsIsValidType);
 
@@ -38552,7 +38775,7 @@
 	module.exports = exports['default'];
 
 /***/ },
-/* 688 */
+/* 690 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(process) {'use strict';
@@ -38571,25 +38794,25 @@
 
 	function _inherits(subClass, superClass) { if (typeof superClass !== 'function' && superClass !== null) { throw new TypeError('Super expression must either be null or a function, not ' + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
-	var _react = __webpack_require__(300);
+	var _react = __webpack_require__(299);
 
 	var _react2 = _interopRequireDefault(_react);
 
-	var _disposables = __webpack_require__(689);
+	var _disposables = __webpack_require__(691);
 
-	var _utilsShallowEqual = __webpack_require__(683);
+	var _utilsShallowEqual = __webpack_require__(685);
 
 	var _utilsShallowEqual2 = _interopRequireDefault(_utilsShallowEqual);
 
-	var _utilsShallowEqualScalar = __webpack_require__(684);
+	var _utilsShallowEqualScalar = __webpack_require__(686);
 
 	var _utilsShallowEqualScalar2 = _interopRequireDefault(_utilsShallowEqualScalar);
 
-	var _lodashIsPlainObject = __webpack_require__(685);
+	var _lodashIsPlainObject = __webpack_require__(687);
 
 	var _lodashIsPlainObject2 = _interopRequireDefault(_lodashIsPlainObject);
 
-	var _invariant = __webpack_require__(596);
+	var _invariant = __webpack_require__(598);
 
 	var _invariant2 = _interopRequireDefault(_invariant);
 
@@ -38747,10 +38970,10 @@
 	}
 
 	module.exports = exports['default'];
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(296)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(295)))
 
 /***/ },
-/* 689 */
+/* 691 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -38759,32 +38982,32 @@
 
 	exports.__esModule = true;
 
-	var _isDisposable2 = __webpack_require__(690);
+	var _isDisposable2 = __webpack_require__(692);
 
 	var _isDisposable3 = _interopRequireWildcard(_isDisposable2);
 
 	exports.isDisposable = _isDisposable3['default'];
 
-	var _Disposable2 = __webpack_require__(691);
+	var _Disposable2 = __webpack_require__(693);
 
 	var _Disposable3 = _interopRequireWildcard(_Disposable2);
 
 	exports.Disposable = _Disposable3['default'];
 
-	var _CompositeDisposable2 = __webpack_require__(692);
+	var _CompositeDisposable2 = __webpack_require__(694);
 
 	var _CompositeDisposable3 = _interopRequireWildcard(_CompositeDisposable2);
 
 	exports.CompositeDisposable = _CompositeDisposable3['default'];
 
-	var _SerialDisposable2 = __webpack_require__(693);
+	var _SerialDisposable2 = __webpack_require__(695);
 
 	var _SerialDisposable3 = _interopRequireWildcard(_SerialDisposable2);
 
 	exports.SerialDisposable = _SerialDisposable3['default'];
 
 /***/ },
-/* 690 */
+/* 692 */
 /***/ function(module, exports) {
 
 	'use strict';
@@ -38799,7 +39022,7 @@
 	module.exports = exports['default'];
 
 /***/ },
-/* 691 */
+/* 693 */
 /***/ function(module, exports) {
 
 	"use strict";
@@ -38843,7 +39066,7 @@
 	module.exports = exports["default"];
 
 /***/ },
-/* 692 */
+/* 694 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -38854,7 +39077,7 @@
 
 	exports.__esModule = true;
 
-	var _isDisposable = __webpack_require__(690);
+	var _isDisposable = __webpack_require__(692);
 
 	var _isDisposable2 = _interopRequireWildcard(_isDisposable);
 
@@ -38949,7 +39172,7 @@
 	module.exports = exports['default'];
 
 /***/ },
-/* 693 */
+/* 695 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -38960,7 +39183,7 @@
 
 	exports.__esModule = true;
 
-	var _isDisposable = __webpack_require__(690);
+	var _isDisposable = __webpack_require__(692);
 
 	var _isDisposable2 = _interopRequireWildcard(_isDisposable);
 
@@ -39035,7 +39258,7 @@
 	module.exports = exports['default'];
 
 /***/ },
-/* 694 */
+/* 696 */
 /***/ function(module, exports) {
 
 	"use strict";
@@ -39060,7 +39283,7 @@
 	module.exports = exports["default"];
 
 /***/ },
-/* 695 */
+/* 697 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(process) {'use strict';
@@ -39072,11 +39295,11 @@
 
 	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError('Cannot call a class as a function'); } }
 
-	var _invariant = __webpack_require__(596);
+	var _invariant = __webpack_require__(598);
 
 	var _invariant2 = _interopRequireDefault(_invariant);
 
-	var _lodashIsPlainObject = __webpack_require__(685);
+	var _lodashIsPlainObject = __webpack_require__(687);
 
 	var _lodashIsPlainObject2 = _interopRequireDefault(_lodashIsPlainObject);
 
@@ -39150,10 +39373,10 @@
 	}
 
 	module.exports = exports['default'];
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(296)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(295)))
 
 /***/ },
-/* 696 */
+/* 698 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -39165,7 +39388,7 @@
 
 	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError('Cannot call a class as a function'); } }
 
-	var _invariant = __webpack_require__(596);
+	var _invariant = __webpack_require__(598);
 
 	var _invariant2 = _interopRequireDefault(_invariant);
 
@@ -39251,7 +39474,7 @@
 	module.exports = exports['default'];
 
 /***/ },
-/* 697 */
+/* 699 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -39261,11 +39484,11 @@
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
 
-	var _wrapConnectorHooks = __webpack_require__(698);
+	var _wrapConnectorHooks = __webpack_require__(700);
 
 	var _wrapConnectorHooks2 = _interopRequireDefault(_wrapConnectorHooks);
 
-	var _areOptionsEqual = __webpack_require__(700);
+	var _areOptionsEqual = __webpack_require__(702);
 
 	var _areOptionsEqual2 = _interopRequireDefault(_areOptionsEqual);
 
@@ -39345,7 +39568,7 @@
 	module.exports = exports['default'];
 
 /***/ },
-/* 698 */
+/* 700 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -39355,11 +39578,11 @@
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
 
-	var _utilsCloneWithRef = __webpack_require__(699);
+	var _utilsCloneWithRef = __webpack_require__(701);
 
 	var _utilsCloneWithRef2 = _interopRequireDefault(_utilsCloneWithRef);
 
-	var _react = __webpack_require__(300);
+	var _react = __webpack_require__(299);
 
 	function throwIfCompositeComponentElement(element) {
 	  // Custom components can no longer be wrapped directly in React DnD 2.0
@@ -39417,7 +39640,7 @@
 	module.exports = exports['default'];
 
 /***/ },
-/* 699 */
+/* 701 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -39427,11 +39650,11 @@
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
 
-	var _invariant = __webpack_require__(596);
+	var _invariant = __webpack_require__(598);
 
 	var _invariant2 = _interopRequireDefault(_invariant);
 
-	var _react = __webpack_require__(300);
+	var _react = __webpack_require__(299);
 
 	function cloneWithRef(element, newRef) {
 	  var previousRef = element.ref;
@@ -39458,7 +39681,7 @@
 	module.exports = exports['default'];
 
 /***/ },
-/* 700 */
+/* 702 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -39468,7 +39691,7 @@
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
 
-	var _utilsShallowEqual = __webpack_require__(683);
+	var _utilsShallowEqual = __webpack_require__(685);
 
 	var _utilsShallowEqual2 = _interopRequireDefault(_utilsShallowEqual);
 
@@ -39483,7 +39706,7 @@
 	module.exports = exports['default'];
 
 /***/ },
-/* 701 */
+/* 703 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -39493,7 +39716,7 @@
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
 
-	var _lodashIsArray = __webpack_require__(595);
+	var _lodashIsArray = __webpack_require__(597);
 
 	var _lodashIsArray2 = _interopRequireDefault(_lodashIsArray);
 
@@ -39506,7 +39729,7 @@
 	module.exports = exports['default'];
 
 /***/ },
-/* 702 */
+/* 704 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -39517,39 +39740,39 @@
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
 
-	var _invariant = __webpack_require__(596);
+	var _invariant = __webpack_require__(598);
 
 	var _invariant2 = _interopRequireDefault(_invariant);
 
-	var _lodashIsPlainObject = __webpack_require__(685);
+	var _lodashIsPlainObject = __webpack_require__(687);
 
 	var _lodashIsPlainObject2 = _interopRequireDefault(_lodashIsPlainObject);
 
-	var _utilsCheckDecoratorArguments = __webpack_require__(681);
+	var _utilsCheckDecoratorArguments = __webpack_require__(683);
 
 	var _utilsCheckDecoratorArguments2 = _interopRequireDefault(_utilsCheckDecoratorArguments);
 
-	var _decorateHandler = __webpack_require__(688);
+	var _decorateHandler = __webpack_require__(690);
 
 	var _decorateHandler2 = _interopRequireDefault(_decorateHandler);
 
-	var _registerTarget = __webpack_require__(703);
+	var _registerTarget = __webpack_require__(705);
 
 	var _registerTarget2 = _interopRequireDefault(_registerTarget);
 
-	var _createTargetFactory = __webpack_require__(704);
+	var _createTargetFactory = __webpack_require__(706);
 
 	var _createTargetFactory2 = _interopRequireDefault(_createTargetFactory);
 
-	var _createTargetMonitor = __webpack_require__(705);
+	var _createTargetMonitor = __webpack_require__(707);
 
 	var _createTargetMonitor2 = _interopRequireDefault(_createTargetMonitor);
 
-	var _createTargetConnector = __webpack_require__(706);
+	var _createTargetConnector = __webpack_require__(708);
 
 	var _createTargetConnector2 = _interopRequireDefault(_createTargetConnector);
 
-	var _utilsIsValidType = __webpack_require__(701);
+	var _utilsIsValidType = __webpack_require__(703);
 
 	var _utilsIsValidType2 = _interopRequireDefault(_utilsIsValidType);
 
@@ -39590,7 +39813,7 @@
 	module.exports = exports['default'];
 
 /***/ },
-/* 703 */
+/* 705 */
 /***/ function(module, exports) {
 
 	"use strict";
@@ -39615,7 +39838,7 @@
 	module.exports = exports["default"];
 
 /***/ },
-/* 704 */
+/* 706 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(process) {'use strict';
@@ -39627,11 +39850,11 @@
 
 	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError('Cannot call a class as a function'); } }
 
-	var _invariant = __webpack_require__(596);
+	var _invariant = __webpack_require__(598);
 
 	var _invariant2 = _interopRequireDefault(_invariant);
 
-	var _lodashIsPlainObject = __webpack_require__(685);
+	var _lodashIsPlainObject = __webpack_require__(687);
 
 	var _lodashIsPlainObject2 = _interopRequireDefault(_lodashIsPlainObject);
 
@@ -39701,10 +39924,10 @@
 	}
 
 	module.exports = exports['default'];
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(296)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(295)))
 
 /***/ },
-/* 705 */
+/* 707 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -39716,7 +39939,7 @@
 
 	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError('Cannot call a class as a function'); } }
 
-	var _invariant = __webpack_require__(596);
+	var _invariant = __webpack_require__(598);
 
 	var _invariant2 = _interopRequireDefault(_invariant);
 
@@ -39794,7 +40017,7 @@
 	module.exports = exports['default'];
 
 /***/ },
-/* 706 */
+/* 708 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -39804,11 +40027,11 @@
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
 
-	var _wrapConnectorHooks = __webpack_require__(698);
+	var _wrapConnectorHooks = __webpack_require__(700);
 
 	var _wrapConnectorHooks2 = _interopRequireDefault(_wrapConnectorHooks);
 
-	var _areOptionsEqual = __webpack_require__(700);
+	var _areOptionsEqual = __webpack_require__(702);
 
 	var _areOptionsEqual2 = _interopRequireDefault(_areOptionsEqual);
 
@@ -39861,7 +40084,7 @@
 	module.exports = exports['default'];
 
 /***/ },
-/* 707 */
+/* 709 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -39872,11 +40095,11 @@
 
 	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
-	var _react = __webpack_require__(300);
+	var _react = __webpack_require__(299);
 
 	var _react2 = _interopRequireDefault(_react);
 
-	var _reactDnd = __webpack_require__(587);
+	var _reactDnd = __webpack_require__(589);
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -39898,8 +40121,8 @@
 	function collect(connect, monitor) {
 	    return {
 	        connectDragSource: connect.dragSource(),
-	        isDragging: monitor.isDragging(),
-	        connectDragPreview: connect.dragPreview()
+	        connectDragPreview: connect.dragPreview(),
+	        isDragging: monitor.isDragging()
 	    };
 	}
 
@@ -39968,7 +40191,7 @@
 	exports.default = (0, _reactDnd.DragSource)('animal', animalsSource, collect)(Animal);
 
 /***/ },
-/* 708 */
+/* 710 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -39979,11 +40202,11 @@
 
 	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
-	var _react = __webpack_require__(300);
+	var _react = __webpack_require__(299);
 
 	var _react2 = _interopRequireDefault(_react);
 
-	var _Zone = __webpack_require__(709);
+	var _Zone = __webpack_require__(711);
 
 	var _Zone2 = _interopRequireDefault(_Zone);
 
@@ -39996,7 +40219,6 @@
 	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
 	// Animal hybrid rendered in one SVG
-
 	var BodyZones = function (_Component) {
 	    _inherits(BodyZones, _Component);
 
@@ -40035,7 +40257,7 @@
 	exports.default = BodyZones;
 
 /***/ },
-/* 709 */
+/* 711 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -40046,11 +40268,11 @@
 
 	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
-	var _react = __webpack_require__(300);
+	var _react = __webpack_require__(299);
 
 	var _react2 = _interopRequireDefault(_react);
 
-	var _reactDnd = __webpack_require__(587);
+	var _reactDnd = __webpack_require__(589);
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -40117,7 +40339,7 @@
 	exports.default = (0, _reactDnd.DropTarget)('animal', zoneTarget, collectDrop)(Zone);
 
 /***/ },
-/* 710 */
+/* 712 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -40128,7 +40350,7 @@
 
 	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
-	var _react = __webpack_require__(300);
+	var _react = __webpack_require__(299);
 
 	var _react2 = _interopRequireDefault(_react);
 
@@ -40141,7 +40363,6 @@
 	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
 	// Animal name rendered by three h1
-
 	var Footer = function (_Component) {
 	    _inherits(Footer, _Component);
 
@@ -40184,7 +40405,7 @@
 	exports.default = Footer;
 
 /***/ },
-/* 711 */
+/* 713 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -40195,11 +40416,11 @@
 
 	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
-	var _react = __webpack_require__(300);
+	var _react = __webpack_require__(299);
 
 	var _react2 = _interopRequireDefault(_react);
 
-	var _reactDnd = __webpack_require__(587);
+	var _reactDnd = __webpack_require__(589);
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
