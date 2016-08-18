@@ -12,7 +12,6 @@ Made with :
 - Redux
 - React DnD (html5-backend and touch-backend)
 - React-dnd-multi-backend
-- React-dnd-touch-pointer-events-backend
 - Webpack
 - Babel
 - Gulp
