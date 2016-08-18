@@ -13,8 +13,8 @@ const animalsSource = {
 function collect(connect, monitor) {
     return {
         connectDragSource: connect.dragSource(),
-        isDragging: monitor.isDragging(),
-        connectDragPreview: connect.dragPreview()
+        connectDragPreview: connect.dragPreview(),
+        isDragging: monitor.isDragging()
     }
 }
 

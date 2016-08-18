@@ -5,8 +5,8 @@ import * as DragActions from '../actions/actions'
 
 // MultiBackend to support both HTML5Backend and TouchBackend
 import MultiBackend from '../react-dnd-multi-backend/MultiBackend.js'
-// Backend for devices who need touch support
-import TouchBackend from 'react-dnd-touch-pointer-events-backend'
+// Backend for devices whith Touch
+import { default as TouchBackend } from 'react-dnd-touch-backend';
 // Backend for desktop
 import HTML5Backend from 'react-dnd-html5-backend'
 import { DragDropContext } from 'react-dnd'
